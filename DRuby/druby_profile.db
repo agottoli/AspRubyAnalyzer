@@ -1,0 +1,22 @@
+--- 
+require: 
+  ? 
+    - /tmp/druby-root/init65c5bd.rb
+    - 3
+    - require
+  : 
+    - - true
+      - /tmp/druby-root/command_line_requires5141a3.rb
+      - true
+      - - ../lib
+        - .
+        - /usr/local/lib/site_ruby/1.8
+        - /usr/local/lib/site_ruby/1.8/x86_64-linux
+        - /usr/local/lib/site_ruby
+        - /usr/lib/ruby/vendor_ruby/1.8
+        - /usr/lib/ruby/vendor_ruby/1.8/x86_64-linux
+        - /usr/lib/ruby/vendor_ruby
+        - /usr/lib/ruby/1.8
+        - /usr/lib/ruby/1.8/x86_64-linux
+        - .
+
