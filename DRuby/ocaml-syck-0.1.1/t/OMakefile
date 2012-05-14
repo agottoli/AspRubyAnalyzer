@@ -1,8 +1,0 @@
-
-
-OCAMLINCLUDES += $(YAML_DIR)
-OCAML_LIBS = $(YAML_DIR)/yaml
-
-YAMLSH = $(OCamlProgram yamlsh, yamlsh)
-
-.DEFAULT: $(YAMLSH)
