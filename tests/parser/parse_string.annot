@@ -1,0 +1,3640 @@
+"parse_string.ml" 9 70 74 "parse_string.ml" 9 70 79
+type(
+  (string * Ast.expr list * string) list
+)
+ident(
+  def tests "parse_string.ml" 190 5188 5188 --
+)
+"parse_string.ml" 10 84 87 "parse_string.ml" 10 84 101
+type(
+  string
+)
+"parse_string.ml" 10 84 104 "parse_string.ml" 10 84 112
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 10 84 113 "parse_string.ml" 10 84 119
+type(
+  string
+)
+"parse_string.ml" 10 84 104 "parse_string.ml" 10 84 119
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 10 84 103 "parse_string.ml" 10 84 120
+type(
+  Ast.expr list
+)
+"parse_string.ml" 10 84 122 "parse_string.ml" 10 84 130
+type(
+  string
+)
+"parse_string.ml" 10 84 86 "parse_string.ml" 10 84 131
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 11 133 136 "parse_string.ml" 11 133 150
+type(
+  string
+)
+"parse_string.ml" 11 133 153 "parse_string.ml" 11 133 161
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 11 133 162 "parse_string.ml" 11 133 168
+type(
+  string
+)
+"parse_string.ml" 11 133 153 "parse_string.ml" 11 133 168
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 11 133 152 "parse_string.ml" 11 133 169
+type(
+  Ast.expr list
+)
+"parse_string.ml" 11 133 171 "parse_string.ml" 11 133 181
+type(
+  string
+)
+"parse_string.ml" 11 133 135 "parse_string.ml" 11 133 182
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 12 184 187 "parse_string.ml" 12 184 198
+type(
+  string
+)
+"parse_string.ml" 12 184 201 "parse_string.ml" 12 184 209
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.tick_str
+)
+"parse_string.ml" 12 184 210 "parse_string.ml" 12 184 216
+type(
+  string
+)
+"parse_string.ml" 12 184 201 "parse_string.ml" 12 184 216
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 12 184 200 "parse_string.ml" 12 184 217
+type(
+  Ast.expr list
+)
+"parse_string.ml" 12 184 219 "parse_string.ml" 12 184 227
+type(
+  string
+)
+"parse_string.ml" 12 184 186 "parse_string.ml" 12 184 228
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 13 230 233 "parse_string.ml" 13 230 242
+type(
+  string
+)
+"parse_string.ml" 13 230 245 "parse_string.ml" 13 230 253
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 13 230 254 "parse_string.ml" 13 230 262
+type(
+  string
+)
+"parse_string.ml" 13 230 245 "parse_string.ml" 13 230 262
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 13 230 244 "parse_string.ml" 13 230 263
+type(
+  Ast.expr list
+)
+"parse_string.ml" 13 230 265 "parse_string.ml" 15 279 285
+type(
+  string
+)
+"parse_string.ml" 13 230 232 "parse_string.ml" 15 279 286
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 16 288 291 "parse_string.ml" 16 288 300
+type(
+  string
+)
+"parse_string.ml" 16 288 313 "parse_string.ml" 16 288 321
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 16 288 322 "parse_string.ml" 16 288 330
+type(
+  string
+)
+"parse_string.ml" 16 288 313 "parse_string.ml" 16 288 330
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 16 288 312 "parse_string.ml" 16 288 331
+type(
+  Ast.expr list
+)
+"parse_string.ml" 16 288 333 "parse_string.ml" 16 288 335
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 16 288 303 "parse_string.ml" 16 288 336
+type(
+  Ast.expr
+)
+"parse_string.ml" 16 288 302 "parse_string.ml" 16 288 337
+type(
+  Ast.expr list
+)
+"parse_string.ml" 17 339 342 "parse_string.ml" 17 339 375
+type(
+  string
+)
+"parse_string.ml" 16 288 290 "parse_string.ml" 17 339 376
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 18 378 381 "parse_string.ml" 18 378 390
+type(
+  string
+)
+"parse_string.ml" 18 378 393 "parse_string.ml" 18 378 401
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 18 378 402 "parse_string.ml" 18 378 410
+type(
+  string
+)
+"parse_string.ml" 18 378 393 "parse_string.ml" 18 378 410
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 18 378 392 "parse_string.ml" 18 378 411
+type(
+  Ast.expr list
+)
+"parse_string.ml" 18 378 413 "parse_string.ml" 20 431 436
+type(
+  string
+)
+"parse_string.ml" 18 378 380 "parse_string.ml" 20 431 437
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 22 440 443 "parse_string.ml" 22 440 480
+type(
+  string
+)
+"parse_string.ml" 23 482 486 "parse_string.ml" 23 482 494
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 23 482 495 "parse_string.ml" 23 482 503
+type(
+  string
+)
+"parse_string.ml" 23 482 486 "parse_string.ml" 23 482 503
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 23 482 485 "parse_string.ml" 23 482 504
+type(
+  Ast.expr list
+)
+"parse_string.ml" 24 506 509 "parse_string.ml" 24 506 529
+type(
+  string
+)
+"parse_string.ml" 22 440 442 "parse_string.ml" 25 530 533
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 27 536 539 "parse_string.ml" 27 536 567
+type(
+  string
+)
+"parse_string.ml" 27 536 569 "parse_string.ml" 27 536 577
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 27 536 578 "parse_string.ml" 27 536 584
+type(
+  string
+)
+"parse_string.ml" 27 536 569 "parse_string.ml" 27 536 584
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 27 536 568 "parse_string.ml" 27 536 585
+type(
+  Ast.expr list
+)
+"parse_string.ml" 27 536 586 "parse_string.ml" 27 536 597
+type(
+  string
+)
+"parse_string.ml" 27 536 538 "parse_string.ml" 27 536 598
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 28 600 603 "parse_string.ml" 28 600 631
+type(
+  string
+)
+"parse_string.ml" 29 633 637 "parse_string.ml" 29 633 644
+type(
+  Ast.string_kind -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_str
+)
+"parse_string.ml" 29 633 670 "parse_string.ml" 29 633 674
+type(
+  string
+)
+"parse_string.ml" 29 633 661 "parse_string.ml" 29 633 674
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 29 633 684 "parse_string.ml" 29 633 688
+type(
+  string
+)
+"parse_string.ml" 29 633 675 "parse_string.ml" 29 633 688
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 29 633 660 "parse_string.ml" 29 633 689
+type(
+  Ast.interp_string
+)
+"parse_string.ml" 29 633 645 "parse_string.ml" 29 633 690
+type(
+  Ast.string_kind
+)
+"parse_string.ml" 29 633 637 "parse_string.ml" 29 633 690
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 29 633 636 "parse_string.ml" 29 633 691
+type(
+  Ast.expr list
+)
+"parse_string.ml" 30 693 697 "parse_string.ml" 30 693 712
+type(
+  string
+)
+"parse_string.ml" 28 600 602 "parse_string.ml" 30 693 713
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 32 716 719 "parse_string.ml" 32 716 736
+type(
+  string
+)
+"parse_string.ml" 32 716 739 "parse_string.ml" 32 716 747
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 32 716 748 "parse_string.ml" 32 716 754
+type(
+  string
+)
+"parse_string.ml" 32 716 739 "parse_string.ml" 32 716 754
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 32 716 738 "parse_string.ml" 32 716 755
+type(
+  Ast.expr list
+)
+"parse_string.ml" 32 716 757 "parse_string.ml" 32 716 767
+type(
+  string
+)
+"parse_string.ml" 32 716 718 "parse_string.ml" 32 716 768
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 33 770 773 "parse_string.ml" 33 770 790
+type(
+  string
+)
+"parse_string.ml" 33 770 793 "parse_string.ml" 33 770 801
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 33 770 802 "parse_string.ml" 33 770 808
+type(
+  string
+)
+"parse_string.ml" 33 770 793 "parse_string.ml" 33 770 808
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 33 770 792 "parse_string.ml" 33 770 809
+type(
+  Ast.expr list
+)
+"parse_string.ml" 33 770 811 "parse_string.ml" 33 770 821
+type(
+  string
+)
+"parse_string.ml" 33 770 772 "parse_string.ml" 33 770 822
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 34 824 827 "parse_string.ml" 34 824 842
+type(
+  string
+)
+"parse_string.ml" 34 824 845 "parse_string.ml" 34 824 853
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 34 824 854 "parse_string.ml" 34 824 860
+type(
+  string
+)
+"parse_string.ml" 34 824 845 "parse_string.ml" 34 824 860
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 34 824 844 "parse_string.ml" 34 824 861
+type(
+  Ast.expr list
+)
+"parse_string.ml" 34 824 863 "parse_string.ml" 34 824 872
+type(
+  string
+)
+"parse_string.ml" 34 824 826 "parse_string.ml" 34 824 873
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 36 876 879 "parse_string.ml" 36 876 895
+type(
+  string
+)
+"parse_string.ml" 37 897 900 "parse_string.ml" 37 897 907
+type(
+  Ast.string_kind -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_str
+)
+"parse_string.ml" 37 897 933 "parse_string.ml" 37 897 938
+type(
+  string
+)
+"parse_string.ml" 37 897 924 "parse_string.ml" 37 897 938
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 37 897 948 "parse_string.ml" 37 897 954
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 37 897 955 "parse_string.ml" 37 897 958
+type(
+  string
+)
+"parse_string.ml" 37 897 947 "parse_string.ml" 37 897 959
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 37 897 939 "parse_string.ml" 37 897 959
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 37 897 923 "parse_string.ml" 37 897 960
+type(
+  Ast.interp_string
+)
+"parse_string.ml" 37 897 908 "parse_string.ml" 37 897 961
+type(
+  Ast.string_kind
+)
+"parse_string.ml" 37 897 900 "parse_string.ml" 37 897 961
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 37 897 899 "parse_string.ml" 37 897 962
+type(
+  Ast.expr list
+)
+"parse_string.ml" 38 964 966 "parse_string.ml" 38 964 979
+type(
+  string
+)
+"parse_string.ml" 36 876 878 "parse_string.ml" 38 964 980
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 40 983 986 "parse_string.ml" 40 983 1014
+type(
+  string
+)
+"parse_string.ml" 41 1016 1019 "parse_string.ml" 41 1016 1026
+type(
+  Ast.string_kind -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_str
+)
+"parse_string.ml" 41 1016 1052 "parse_string.ml" 41 1016 1063
+type(
+  string
+)
+"parse_string.ml" 41 1016 1043 "parse_string.ml" 41 1016 1063
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 41 1016 1042 "parse_string.ml" 41 1016 1064
+type(
+  Ast.interp_string
+)
+"parse_string.ml" 41 1016 1027 "parse_string.ml" 41 1016 1065
+type(
+  Ast.string_kind
+)
+"parse_string.ml" 41 1016 1019 "parse_string.ml" 41 1016 1065
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 41 1016 1018 "parse_string.ml" 41 1016 1066
+type(
+  Ast.expr list
+)
+"parse_string.ml" 42 1068 1070 "parse_string.ml" 42 1068 1085
+type(
+  string
+)
+"parse_string.ml" 40 983 985 "parse_string.ml" 42 1068 1086
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 44 1089 1092 "parse_string.ml" 44 1089 1121
+type(
+  string
+)
+"parse_string.ml" 45 1123 1173 "parse_string.ml" 45 1123 1181
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 45 1123 1182 "parse_string.ml" 45 1123 1185
+type(
+  string
+)
+"parse_string.ml" 45 1123 1172 "parse_string.ml" 45 1123 1186
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 45 1123 1164 "parse_string.ml" 45 1123 1186
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 45 1123 1163 "parse_string.ml" 45 1123 1187
+type(
+  Ast.interp_string
+)
+"parse_string.ml" 45 1123 1148 "parse_string.ml" 45 1123 1188
+type(
+  Ast.string_kind
+)
+"parse_string.ml" 45 1123 1137 "parse_string.ml" 45 1123 1188
+type(
+  Ast.lit_kind
+)
+"parse_string.ml" 45 1123 1189 "parse_string.ml" 45 1123 1191
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 45 1123 1127 "parse_string.ml" 45 1123 1192
+type(
+  Ast.expr
+)
+"parse_string.ml" 45 1123 1126 "parse_string.ml" 45 1123 1193
+type(
+  Ast.expr list
+)
+"parse_string.ml" 46 1195 1198 "parse_string.ml" 46 1195 1211
+type(
+  string
+)
+"parse_string.ml" 44 1089 1091 "parse_string.ml" 47 1212 1215
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 49 1218 1221 "parse_string.ml" 49 1218 1238
+type(
+  string
+)
+"parse_string.ml" 50 1241 1254 "parse_string.ml" 50 1241 1262
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 50 1241 1263 "parse_string.ml" 50 1241 1266
+type(
+  string
+)
+"parse_string.ml" 50 1241 1254 "parse_string.ml" 50 1241 1266
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 50 1241 1268 "parse_string.ml" 50 1241 1276
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 50 1241 1277 "parse_string.ml" 50 1241 1280
+type(
+  string
+)
+"parse_string.ml" 50 1241 1268 "parse_string.ml" 50 1241 1280
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 50 1241 1282 "parse_string.ml" 50 1241 1290
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 50 1241 1291 "parse_string.ml" 50 1241 1294
+type(
+  string
+)
+"parse_string.ml" 50 1241 1282 "parse_string.ml" 50 1241 1294
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 50 1241 1253 "parse_string.ml" 50 1241 1295
+type(
+  Ast.expr list
+)
+"parse_string.ml" 50 1241 1296 "parse_string.ml" 50 1241 1298
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 50 1241 1245 "parse_string.ml" 50 1241 1299
+type(
+  Ast.expr
+)
+"parse_string.ml" 50 1241 1244 "parse_string.ml" 50 1241 1300
+type(
+  Ast.expr list
+)
+"parse_string.ml" 51 1303 1305 "parse_string.ml" 51 1303 1316
+type(
+  string
+)
+"parse_string.ml" 49 1218 1220 "parse_string.ml" 51 1303 1317
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 53 1320 1323 "parse_string.ml" 53 1320 1346
+type(
+  string
+)
+"parse_string.ml" 54 1349 1361 "parse_string.ml" 54 1349 1363
+type(
+  Ast.expr list
+)
+"parse_string.ml" 54 1349 1364 "parse_string.ml" 54 1349 1366
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 54 1349 1353 "parse_string.ml" 54 1349 1367
+type(
+  Ast.expr
+)
+"parse_string.ml" 54 1349 1352 "parse_string.ml" 54 1349 1368
+type(
+  Ast.expr list
+)
+"parse_string.ml" 55 1371 1373 "parse_string.ml" 55 1371 1381
+type(
+  string
+)
+"parse_string.ml" 53 1320 1322 "parse_string.ml" 55 1371 1382
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 57 1385 1388 "parse_string.ml" 57 1385 1405
+type(
+  string
+)
+"parse_string.ml" 58 1407 1420 "parse_string.ml" 58 1407 1428
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 58 1407 1429 "parse_string.ml" 58 1407 1432
+type(
+  string
+)
+"parse_string.ml" 58 1407 1420 "parse_string.ml" 58 1407 1432
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 58 1407 1434 "parse_string.ml" 58 1407 1442
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 58 1407 1443 "parse_string.ml" 58 1407 1446
+type(
+  string
+)
+"parse_string.ml" 58 1407 1434 "parse_string.ml" 58 1407 1446
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 58 1407 1448 "parse_string.ml" 58 1407 1456
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 58 1407 1457 "parse_string.ml" 58 1407 1460
+type(
+  string
+)
+"parse_string.ml" 58 1407 1448 "parse_string.ml" 58 1407 1460
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 58 1407 1419 "parse_string.ml" 58 1407 1461
+type(
+  Ast.expr list
+)
+"parse_string.ml" 58 1407 1462 "parse_string.ml" 58 1407 1464
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 58 1407 1411 "parse_string.ml" 58 1407 1465
+type(
+  Ast.expr
+)
+"parse_string.ml" 58 1407 1410 "parse_string.ml" 58 1407 1466
+type(
+  Ast.expr list
+)
+"parse_string.ml" 59 1469 1471 "parse_string.ml" 59 1469 1482
+type(
+  string
+)
+"parse_string.ml" 57 1385 1387 "parse_string.ml" 59 1469 1483
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 61 1486 1489 "parse_string.ml" 61 1486 1515
+type(
+  string
+)
+"parse_string.ml" 62 1518 1530 "parse_string.ml" 62 1518 1538
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 62 1518 1539 "parse_string.ml" 62 1518 1542
+type(
+  string
+)
+"parse_string.ml" 62 1518 1530 "parse_string.ml" 62 1518 1542
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 63 1544 1549 "parse_string.ml" 63 1544 1556
+type(
+  Ast.string_kind -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_str
+)
+"parse_string.ml" 63 1544 1582 "parse_string.ml" 63 1544 1585
+type(
+  string
+)
+"parse_string.ml" 63 1544 1573 "parse_string.ml" 63 1544 1585
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 63 1544 1595 "parse_string.ml" 63 1544 1601
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 63 1544 1602 "parse_string.ml" 63 1544 1605
+type(
+  string
+)
+"parse_string.ml" 63 1544 1594 "parse_string.ml" 63 1544 1606
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 63 1544 1586 "parse_string.ml" 63 1544 1606
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 63 1544 1572 "parse_string.ml" 63 1544 1607
+type(
+  Ast.interp_string
+)
+"parse_string.ml" 63 1544 1557 "parse_string.ml" 63 1544 1608
+type(
+  Ast.string_kind
+)
+"parse_string.ml" 63 1544 1549 "parse_string.ml" 63 1544 1608
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 62 1518 1529 "parse_string.ml" 63 1544 1609
+type(
+  Ast.expr list
+)
+"parse_string.ml" 64 1610 1617 "parse_string.ml" 64 1610 1619
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 62 1518 1521 "parse_string.ml" 64 1610 1620
+type(
+  Ast.expr
+)
+"parse_string.ml" 62 1518 1520 "parse_string.ml" 64 1610 1621
+type(
+  Ast.expr list
+)
+"parse_string.ml" 65 1624 1626 "parse_string.ml" 65 1624 1639
+type(
+  string
+)
+"parse_string.ml" 61 1486 1488 "parse_string.ml" 65 1624 1640
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 67 1643 1646 "parse_string.ml" 67 1643 1660
+type(
+  string
+)
+"parse_string.ml" 67 1643 1663 "parse_string.ml" 67 1643 1671
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.tick_str
+)
+"parse_string.ml" 67 1643 1672 "parse_string.ml" 67 1643 1678
+type(
+  string
+)
+"parse_string.ml" 67 1643 1663 "parse_string.ml" 67 1643 1678
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 67 1643 1662 "parse_string.ml" 67 1643 1679
+type(
+  Ast.expr list
+)
+"parse_string.ml" 67 1643 1681 "parse_string.ml" 67 1643 1691
+type(
+  string
+)
+"parse_string.ml" 67 1643 1645 "parse_string.ml" 67 1643 1692
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 69 1695 1698 "parse_string.ml" 69 1695 1711
+type(
+  string
+)
+"parse_string.ml" 70 1714 1717 "parse_string.ml" 70 1714 1724
+type(
+  Ast.string_kind -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_str
+)
+"parse_string.ml" 70 1714 1750 "parse_string.ml" 70 1714 1755
+type(
+  string
+)
+"parse_string.ml" 70 1714 1741 "parse_string.ml" 70 1714 1755
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 71 1757 1800 "parse_string.ml" 71 1757 1804
+type(
+  bool
+)
+"parse_string.ml" 71 1757 1806 "parse_string.ml" 71 1757 1812
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 71 1757 1813 "parse_string.ml" 71 1757 1816
+type(
+  string
+)
+"parse_string.ml" 71 1757 1806 "parse_string.ml" 71 1757 1816
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 71 1757 1817 "parse_string.ml" 71 1757 1823
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 71 1757 1823 "parse_string.ml" 71 1757 1826
+type(
+  string
+)
+"parse_string.ml" 71 1757 1817 "parse_string.ml" 71 1757 1826
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 71 1757 1805 "parse_string.ml" 71 1757 1827
+type(
+  Ast.expr list
+)
+"parse_string.ml" 71 1757 1828 "parse_string.ml" 71 1757 1830
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 71 1757 1792 "parse_string.ml" 71 1757 1832
+type(
+  Ast.expr
+)
+"parse_string.ml" 71 1757 1784 "parse_string.ml" 71 1757 1832
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 70 1714 1740 "parse_string.ml" 72 1833 1860
+type(
+  Ast.interp_string
+)
+"parse_string.ml" 70 1714 1725 "parse_string.ml" 72 1833 1861
+type(
+  Ast.string_kind
+)
+"parse_string.ml" 70 1714 1717 "parse_string.ml" 72 1833 1861
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 70 1714 1716 "parse_string.ml" 72 1833 1862
+type(
+  Ast.expr list
+)
+"parse_string.ml" 73 1864 1866 "parse_string.ml" 73 1864 1882
+type(
+  string
+)
+"parse_string.ml" 69 1695 1697 "parse_string.ml" 73 1864 1883
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 75 1886 1889 "parse_string.ml" 75 1886 1920
+type(
+  string
+)
+"parse_string.ml" 76 1922 1926 "parse_string.ml" 76 1922 1934
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 76 1922 1935 "parse_string.ml" 76 1922 1945
+type(
+  string
+)
+"parse_string.ml" 76 1922 1926 "parse_string.ml" 76 1922 1945
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 76 1922 1925 "parse_string.ml" 76 1922 1946
+type(
+  Ast.expr list
+)
+"parse_string.ml" 77 1948 1951 "parse_string.ml" 77 1948 1969
+type(
+  string
+)
+"parse_string.ml" 75 1886 1888 "parse_string.ml" 78 1970 1973
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 80 1976 1979 "parse_string.ml" 80 1976 2002
+type(
+  string
+)
+"parse_string.ml" 81 2004 2016 "parse_string.ml" 81 2004 2022
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 81 2004 2023 "parse_string.ml" 81 2004 2026
+type(
+  string
+)
+"parse_string.ml" 81 2004 2016 "parse_string.ml" 81 2004 2026
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 81 2004 2027 "parse_string.ml" 81 2004 2036
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 81 2004 2037 "parse_string.ml" 81 2004 2045
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 81 2004 2046 "parse_string.ml" 81 2004 2051
+type(
+  string
+)
+"parse_string.ml" 81 2004 2037 "parse_string.ml" 81 2004 2051
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 81 2004 2052 "parse_string.ml" 81 2004 2054
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 81 2004 2008 "parse_string.ml" 81 2004 2055
+type(
+  Ast.expr
+)
+"parse_string.ml" 81 2004 2007 "parse_string.ml" 81 2004 2056
+type(
+  Ast.expr list
+)
+"parse_string.ml" 82 2058 2061 "parse_string.ml" 82 2058 2084
+type(
+  string
+)
+"parse_string.ml" 80 1976 1978 "parse_string.ml" 83 2085 2088
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 85 2091 2094 "parse_string.ml" 85 2091 2112
+type(
+  string
+)
+"parse_string.ml" 86 2114 2131 "parse_string.ml" 86 2114 2137
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 86 2114 2138 "parse_string.ml" 86 2114 2141
+type(
+  string
+)
+"parse_string.ml" 86 2114 2131 "parse_string.ml" 86 2114 2141
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 86 2114 2143 "parse_string.ml" 86 2114 2151
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 86 2114 2152 "parse_string.ml" 86 2114 2157
+type(
+  string
+)
+"parse_string.ml" 86 2114 2143 "parse_string.ml" 86 2114 2157
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 86 2114 2158 "parse_string.ml" 86 2114 2166
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 86 2114 2167 "parse_string.ml" 86 2114 2172
+type(
+  string
+)
+"parse_string.ml" 86 2114 2158 "parse_string.ml" 86 2114 2172
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 86 2114 2142 "parse_string.ml" 86 2114 2173
+type(
+  Ast.expr list
+)
+"parse_string.ml" 86 2114 2174 "parse_string.ml" 86 2114 2178
+type(
+  Ast.expr option
+)
+"parse_string.ml" 86 2114 2179 "parse_string.ml" 86 2114 2181
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 86 2114 2118 "parse_string.ml" 86 2114 2182
+type(
+  Ast.expr
+)
+"parse_string.ml" 87 2184 2188 "parse_string.ml" 87 2184 2194
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 87 2184 2195 "parse_string.ml" 87 2184 2198
+type(
+  string
+)
+"parse_string.ml" 87 2184 2188 "parse_string.ml" 87 2184 2198
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 86 2114 2117 "parse_string.ml" 87 2184 2199
+type(
+  Ast.expr list
+)
+"parse_string.ml" 88 2201 2204 "parse_string.ml" 88 2201 2232
+type(
+  string
+)
+"parse_string.ml" 85 2091 2093 "parse_string.ml" 89 2233 2236
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 91 2239 2242 "parse_string.ml" 91 2239 2275
+type(
+  string
+)
+"parse_string.ml" 94 2309 2343 "parse_string.ml" 94 2309 2351
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 94 2309 2352 "parse_string.ml" 94 2309 2356
+type(
+  string
+)
+"parse_string.ml" 94 2309 2342 "parse_string.ml" 94 2309 2357
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 94 2309 2334 "parse_string.ml" 94 2309 2357
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 94 2309 2367 "parse_string.ml" 94 2309 2371
+type(
+  string
+)
+"parse_string.ml" 94 2309 2358 "parse_string.ml" 94 2309 2371
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 94 2309 2333 "parse_string.ml" 94 2309 2372
+type(
+  Ast.interp_string
+)
+"parse_string.ml" 94 2309 2318 "parse_string.ml" 94 2309 2373
+type(
+  Ast.string_kind
+)
+"parse_string.ml" 93 2291 2298 "parse_string.ml" 94 2309 2373
+type(
+  Ast.lit_kind
+)
+"parse_string.ml" 94 2309 2374 "parse_string.ml" 94 2309 2376
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 92 2277 2281 "parse_string.ml" 94 2309 2377
+type(
+  Ast.expr
+)
+"parse_string.ml" 92 2277 2280 "parse_string.ml" 94 2309 2378
+type(
+  Ast.expr list
+)
+"parse_string.ml" 95 2380 2383 "parse_string.ml" 95 2380 2408
+type(
+  string
+)
+"parse_string.ml" 91 2239 2241 "parse_string.ml" 96 2409 2412
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 98 2415 2418 "parse_string.ml" 98 2415 2434
+type(
+  string
+)
+"parse_string.ml" 99 2436 2440 "parse_string.ml" 99 2436 2447
+type(
+  Ast.string_kind -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_str
+)
+"parse_string.ml" 101 2480 2518 "parse_string.ml" 101 2480 2524
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 101 2480 2525 "parse_string.ml" 101 2480 2528
+type(
+  string
+)
+"parse_string.ml" 101 2480 2518 "parse_string.ml" 101 2480 2528
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 101 2480 2530 "parse_string.ml" 101 2480 2532
+type(
+  Ast.expr list
+)
+"parse_string.ml" 102 2535 2591 "parse_string.ml" 102 2535 2595
+type(
+  bool
+)
+"parse_string.ml" 102 2535 2596 "parse_string.ml" 102 2535 2600
+type(
+  Ast.formal_param list option
+)
+"parse_string.ml" 102 2535 2602 "parse_string.ml" 102 2535 2609
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_string.ml" 102 2535 2610 "parse_string.ml" 102 2535 2611
+type(
+  int
+)
+"parse_string.ml" 102 2535 2602 "parse_string.ml" 102 2535 2611
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 102 2535 2601 "parse_string.ml" 102 2535 2612
+type(
+  Ast.expr list
+)
+"parse_string.ml" 102 2535 2613 "parse_string.ml" 102 2535 2615
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 102 2535 2578 "parse_string.ml" 102 2535 2617
+type(
+  Ast.expr
+)
+"parse_string.ml" 102 2535 2573 "parse_string.ml" 102 2535 2617
+type(
+  Ast.expr option
+)
+"parse_string.ml" 103 2619 2657 "parse_string.ml" 103 2619 2659
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 101 2480 2504 "parse_string.ml" 103 2619 2661
+type(
+  Ast.expr
+)
+"parse_string.ml" 100 2449 2471 "parse_string.ml" 103 2619 2661
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 104 2663 2694 "parse_string.ml" 104 2663 2698
+type(
+  string
+)
+"parse_string.ml" 104 2663 2685 "parse_string.ml" 104 2663 2698
+type(
+  Ast.string_contents
+)
+"parse_string.ml" 100 2449 2470 "parse_string.ml" 104 2663 2699
+type(
+  Ast.interp_string
+)
+"parse_string.ml" 100 2449 2455 "parse_string.ml" 104 2663 2700
+type(
+  Ast.string_kind
+)
+"parse_string.ml" 99 2436 2440 "parse_string.ml" 104 2663 2700
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 99 2436 2439 "parse_string.ml" 104 2663 2701
+type(
+  Ast.expr list
+)
+"parse_string.ml" 105 2703 2706 "parse_string.ml" 105 2703 2724
+type(
+  string
+)
+"parse_string.ml" 98 2415 2417 "parse_string.ml" 106 2725 2728
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 108 2733 2736 "parse_string.ml" 108 2733 2769
+type(
+  string
+)
+"parse_string.ml" 109 2771 2792 "parse_string.ml" 109 2771 2798
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 109 2771 2799 "parse_string.ml" 109 2771 2802
+type(
+  string
+)
+"parse_string.ml" 109 2771 2792 "parse_string.ml" 109 2771 2802
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 109 2771 2803 "parse_string.ml" 109 2771 2809
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 109 2771 2810 "parse_string.ml" 109 2771 2813
+type(
+  string
+)
+"parse_string.ml" 109 2771 2803 "parse_string.ml" 109 2771 2813
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 109 2771 2791 "parse_string.ml" 109 2771 2814
+type(
+  Ast.expr list
+)
+"parse_string.ml" 109 2771 2815 "parse_string.ml" 109 2771 2817
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 109 2771 2783 "parse_string.ml" 109 2771 2818
+type(
+  Ast.expr
+)
+"parse_string.ml" 110 2820 2831 "parse_string.ml" 110 2820 2840
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 111 2842 2862 "parse_string.ml" 111 2842 2870
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 111 2842 2871 "parse_string.ml" 111 2842 2877
+type(
+  string
+)
+"parse_string.ml" 111 2842 2862 "parse_string.ml" 111 2842 2877
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 111 2842 2878 "parse_string.ml" 111 2842 2884
+type(
+  string -> string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_re
+)
+"parse_string.ml" 111 2842 2885 "parse_string.ml" 111 2842 2893
+type(
+  string
+)
+"parse_string.ml" 111 2842 2894 "parse_string.ml" 111 2842 2897
+type(
+  string
+)
+"parse_string.ml" 111 2842 2878 "parse_string.ml" 111 2842 2897
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 111 2842 2861 "parse_string.ml" 111 2842 2898
+type(
+  Ast.expr list
+)
+"parse_string.ml" 111 2842 2899 "parse_string.ml" 111 2842 2901
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 111 2842 2853 "parse_string.ml" 111 2842 2902
+type(
+  Ast.expr
+)
+"parse_string.ml" 112 2904 2915 "parse_string.ml" 112 2904 2917
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 109 2771 2775 "parse_string.ml" 112 2904 2918
+type(
+  Ast.expr
+)
+"parse_string.ml" 109 2771 2774 "parse_string.ml" 112 2904 2919
+type(
+  Ast.expr list
+)
+"parse_string.ml" 113 2921 2924 "parse_string.ml" 113 2921 2957
+type(
+  string
+)
+"parse_string.ml" 108 2733 2735 "parse_string.ml" 114 2958 2961
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 116 2964 2967 "parse_string.ml" 116 2964 3016
+type(
+  string
+)
+"parse_string.ml" 117 3018 3039 "parse_string.ml" 117 3018 3045
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 117 3018 3046 "parse_string.ml" 117 3018 3049
+type(
+  string
+)
+"parse_string.ml" 117 3018 3039 "parse_string.ml" 117 3018 3049
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 117 3018 3050 "parse_string.ml" 117 3018 3056
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 117 3018 3057 "parse_string.ml" 117 3018 3060
+type(
+  string
+)
+"parse_string.ml" 117 3018 3050 "parse_string.ml" 117 3018 3060
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 117 3018 3038 "parse_string.ml" 117 3018 3061
+type(
+  Ast.expr list
+)
+"parse_string.ml" 117 3018 3062 "parse_string.ml" 117 3018 3064
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 117 3018 3030 "parse_string.ml" 117 3018 3065
+type(
+  Ast.expr
+)
+"parse_string.ml" 118 3067 3078 "parse_string.ml" 118 3067 3087
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 119 3089 3109 "parse_string.ml" 119 3089 3117
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 119 3089 3118 "parse_string.ml" 119 3089 3124
+type(
+  string
+)
+"parse_string.ml" 119 3089 3109 "parse_string.ml" 119 3089 3124
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 119 3089 3125 "parse_string.ml" 119 3089 3131
+type(
+  string -> string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_re
+)
+"parse_string.ml" 119 3089 3132 "parse_string.ml" 119 3089 3138
+type(
+  string
+)
+"parse_string.ml" 119 3089 3139 "parse_string.ml" 119 3089 3142
+type(
+  string
+)
+"parse_string.ml" 119 3089 3125 "parse_string.ml" 119 3089 3142
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 119 3089 3108 "parse_string.ml" 119 3089 3143
+type(
+  Ast.expr list
+)
+"parse_string.ml" 119 3089 3144 "parse_string.ml" 119 3089 3146
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 119 3089 3100 "parse_string.ml" 119 3089 3147
+type(
+  Ast.expr
+)
+"parse_string.ml" 120 3149 3160 "parse_string.ml" 120 3149 3162
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 117 3018 3022 "parse_string.ml" 120 3149 3163
+type(
+  Ast.expr
+)
+"parse_string.ml" 117 3018 3021 "parse_string.ml" 120 3149 3164
+type(
+  Ast.expr list
+)
+"parse_string.ml" 121 3166 3169 "parse_string.ml" 121 3166 3204
+type(
+  string
+)
+"parse_string.ml" 116 2964 2966 "parse_string.ml" 122 3205 3208
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 124 3211 3214 "parse_string.ml" 124 3211 3251
+type(
+  string
+)
+"parse_string.ml" 125 3253 3274 "parse_string.ml" 125 3253 3280
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 125 3253 3281 "parse_string.ml" 125 3253 3284
+type(
+  string
+)
+"parse_string.ml" 125 3253 3274 "parse_string.ml" 125 3253 3284
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 125 3253 3285 "parse_string.ml" 125 3253 3291
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 125 3253 3292 "parse_string.ml" 125 3253 3295
+type(
+  string
+)
+"parse_string.ml" 125 3253 3285 "parse_string.ml" 125 3253 3295
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 125 3253 3273 "parse_string.ml" 125 3253 3296
+type(
+  Ast.expr list
+)
+"parse_string.ml" 125 3253 3297 "parse_string.ml" 125 3253 3299
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 125 3253 3265 "parse_string.ml" 125 3253 3300
+type(
+  Ast.expr
+)
+"parse_string.ml" 126 3302 3313 "parse_string.ml" 126 3302 3322
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 127 3324 3344 "parse_string.ml" 127 3324 3352
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 127 3324 3353 "parse_string.ml" 127 3324 3362
+type(
+  string
+)
+"parse_string.ml" 127 3324 3344 "parse_string.ml" 127 3324 3362
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 127 3324 3363 "parse_string.ml" 127 3324 3371
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 127 3324 3372 "parse_string.ml" 127 3324 3382
+type(
+  string
+)
+"parse_string.ml" 127 3324 3363 "parse_string.ml" 127 3324 3382
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 127 3324 3343 "parse_string.ml" 127 3324 3383
+type(
+  Ast.expr list
+)
+"parse_string.ml" 127 3324 3384 "parse_string.ml" 127 3324 3386
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 127 3324 3335 "parse_string.ml" 127 3324 3387
+type(
+  Ast.expr
+)
+"parse_string.ml" 128 3389 3400 "parse_string.ml" 128 3389 3402
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 125 3253 3257 "parse_string.ml" 128 3389 3403
+type(
+  Ast.expr
+)
+"parse_string.ml" 125 3253 3256 "parse_string.ml" 128 3389 3404
+type(
+  Ast.expr list
+)
+"parse_string.ml" 129 3406 3409 "parse_string.ml" 129 3406 3448
+type(
+  string
+)
+"parse_string.ml" 124 3211 3213 "parse_string.ml" 130 3449 3452
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 132 3455 3458 "parse_string.ml" 132 3455 3503
+type(
+  string
+)
+"parse_string.ml" 133 3505 3526 "parse_string.ml" 133 3505 3532
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 133 3505 3533 "parse_string.ml" 133 3505 3536
+type(
+  string
+)
+"parse_string.ml" 133 3505 3526 "parse_string.ml" 133 3505 3536
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 133 3505 3537 "parse_string.ml" 133 3505 3543
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 133 3505 3544 "parse_string.ml" 133 3505 3547
+type(
+  string
+)
+"parse_string.ml" 133 3505 3537 "parse_string.ml" 133 3505 3547
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 133 3505 3525 "parse_string.ml" 133 3505 3548
+type(
+  Ast.expr list
+)
+"parse_string.ml" 133 3505 3549 "parse_string.ml" 133 3505 3551
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 133 3505 3517 "parse_string.ml" 133 3505 3552
+type(
+  Ast.expr
+)
+"parse_string.ml" 134 3554 3565 "parse_string.ml" 134 3554 3574
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 135 3576 3596 "parse_string.ml" 135 3576 3604
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 135 3576 3605 "parse_string.ml" 135 3576 3614
+type(
+  string
+)
+"parse_string.ml" 135 3576 3596 "parse_string.ml" 135 3576 3614
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 135 3576 3615 "parse_string.ml" 135 3576 3623
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 135 3576 3624 "parse_string.ml" 135 3576 3632
+type(
+  string
+)
+"parse_string.ml" 135 3576 3615 "parse_string.ml" 135 3576 3632
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 135 3576 3595 "parse_string.ml" 135 3576 3633
+type(
+  Ast.expr list
+)
+"parse_string.ml" 135 3576 3634 "parse_string.ml" 135 3576 3636
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 135 3576 3587 "parse_string.ml" 135 3576 3637
+type(
+  Ast.expr
+)
+"parse_string.ml" 136 3639 3650 "parse_string.ml" 136 3639 3652
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 133 3505 3509 "parse_string.ml" 136 3639 3653
+type(
+  Ast.expr
+)
+"parse_string.ml" 133 3505 3508 "parse_string.ml" 136 3639 3654
+type(
+  Ast.expr list
+)
+"parse_string.ml" 137 3656 3659 "parse_string.ml" 137 3656 3700
+type(
+  string
+)
+"parse_string.ml" 132 3455 3457 "parse_string.ml" 138 3701 3704
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 140 3707 3710 "parse_string.ml" 140 3707 3746
+type(
+  string
+)
+"parse_string.ml" 141 3748 3769 "parse_string.ml" 141 3748 3775
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 141 3748 3776 "parse_string.ml" 141 3748 3779
+type(
+  string
+)
+"parse_string.ml" 141 3748 3769 "parse_string.ml" 141 3748 3779
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 141 3748 3780 "parse_string.ml" 141 3748 3786
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 141 3748 3787 "parse_string.ml" 141 3748 3790
+type(
+  string
+)
+"parse_string.ml" 141 3748 3780 "parse_string.ml" 141 3748 3790
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 141 3748 3768 "parse_string.ml" 141 3748 3791
+type(
+  Ast.expr list
+)
+"parse_string.ml" 141 3748 3792 "parse_string.ml" 141 3748 3794
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 141 3748 3760 "parse_string.ml" 141 3748 3795
+type(
+  Ast.expr
+)
+"parse_string.ml" 142 3797 3808 "parse_string.ml" 142 3797 3817
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 143 3819 3839 "parse_string.ml" 143 3819 3847
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 143 3819 3848 "parse_string.ml" 143 3819 3857
+type(
+  string
+)
+"parse_string.ml" 143 3819 3839 "parse_string.ml" 143 3819 3857
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 143 3819 3858 "parse_string.ml" 143 3819 3866
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 143 3819 3867 "parse_string.ml" 143 3819 3877
+type(
+  string
+)
+"parse_string.ml" 143 3819 3858 "parse_string.ml" 143 3819 3877
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 143 3819 3838 "parse_string.ml" 143 3819 3878
+type(
+  Ast.expr list
+)
+"parse_string.ml" 143 3819 3879 "parse_string.ml" 143 3819 3881
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 143 3819 3830 "parse_string.ml" 143 3819 3882
+type(
+  Ast.expr
+)
+"parse_string.ml" 144 3884 3895 "parse_string.ml" 144 3884 3897
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 141 3748 3752 "parse_string.ml" 144 3884 3898
+type(
+  Ast.expr
+)
+"parse_string.ml" 141 3748 3751 "parse_string.ml" 144 3884 3899
+type(
+  Ast.expr list
+)
+"parse_string.ml" 145 3901 3904 "parse_string.ml" 145 3901 3941
+type(
+  string
+)
+"parse_string.ml" 140 3707 3709 "parse_string.ml" 146 3942 3945
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 148 3948 3951 "parse_string.ml" 148 3948 3995
+type(
+  string
+)
+"parse_string.ml" 149 3997 4018 "parse_string.ml" 149 3997 4024
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 149 3997 4025 "parse_string.ml" 149 3997 4028
+type(
+  string
+)
+"parse_string.ml" 149 3997 4018 "parse_string.ml" 149 3997 4028
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 149 3997 4029 "parse_string.ml" 149 3997 4035
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 149 3997 4036 "parse_string.ml" 149 3997 4039
+type(
+  string
+)
+"parse_string.ml" 149 3997 4029 "parse_string.ml" 149 3997 4039
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 149 3997 4017 "parse_string.ml" 149 3997 4040
+type(
+  Ast.expr list
+)
+"parse_string.ml" 149 3997 4041 "parse_string.ml" 149 3997 4043
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 149 3997 4009 "parse_string.ml" 149 3997 4044
+type(
+  Ast.expr
+)
+"parse_string.ml" 150 4046 4057 "parse_string.ml" 150 4046 4066
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 151 4068 4088 "parse_string.ml" 151 4068 4096
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 151 4068 4097 "parse_string.ml" 151 4068 4106
+type(
+  string
+)
+"parse_string.ml" 151 4068 4088 "parse_string.ml" 151 4068 4106
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 151 4068 4107 "parse_string.ml" 151 4068 4115
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_string.ml" 151 4068 4116 "parse_string.ml" 151 4068 4128
+type(
+  string
+)
+"parse_string.ml" 151 4068 4107 "parse_string.ml" 151 4068 4128
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 151 4068 4087 "parse_string.ml" 151 4068 4129
+type(
+  Ast.expr list
+)
+"parse_string.ml" 151 4068 4130 "parse_string.ml" 151 4068 4132
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 151 4068 4079 "parse_string.ml" 151 4068 4133
+type(
+  Ast.expr
+)
+"parse_string.ml" 152 4135 4146 "parse_string.ml" 152 4135 4148
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 149 3997 4001 "parse_string.ml" 152 4135 4149
+type(
+  Ast.expr
+)
+"parse_string.ml" 149 3997 4000 "parse_string.ml" 152 4135 4150
+type(
+  Ast.expr list
+)
+"parse_string.ml" 153 4152 4155 "parse_string.ml" 153 4152 4194
+type(
+  string
+)
+"parse_string.ml" 148 3948 3950 "parse_string.ml" 154 4195 4198
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 156 4201 4204 "parse_string.ml" 156 4201 4242
+type(
+  string
+)
+"parse_string.ml" 157 4244 4265 "parse_string.ml" 157 4244 4271
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 157 4244 4272 "parse_string.ml" 157 4244 4275
+type(
+  string
+)
+"parse_string.ml" 157 4244 4265 "parse_string.ml" 157 4244 4275
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 157 4244 4276 "parse_string.ml" 157 4244 4282
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 157 4244 4283 "parse_string.ml" 157 4244 4286
+type(
+  string
+)
+"parse_string.ml" 157 4244 4276 "parse_string.ml" 157 4244 4286
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 157 4244 4264 "parse_string.ml" 157 4244 4287
+type(
+  Ast.expr list
+)
+"parse_string.ml" 157 4244 4288 "parse_string.ml" 157 4244 4290
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 157 4244 4256 "parse_string.ml" 157 4244 4291
+type(
+  Ast.expr
+)
+"parse_string.ml" 158 4293 4304 "parse_string.ml" 158 4293 4313
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 159 4315 4335 "parse_string.ml" 159 4315 4343
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 159 4315 4344 "parse_string.ml" 159 4315 4353
+type(
+  string
+)
+"parse_string.ml" 159 4315 4335 "parse_string.ml" 159 4315 4353
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 159 4315 4354 "parse_string.ml" 159 4315 4362
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 159 4315 4363 "parse_string.ml" 159 4315 4373
+type(
+  string
+)
+"parse_string.ml" 159 4315 4354 "parse_string.ml" 159 4315 4373
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 159 4315 4334 "parse_string.ml" 159 4315 4374
+type(
+  Ast.expr list
+)
+"parse_string.ml" 159 4315 4375 "parse_string.ml" 159 4315 4377
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 159 4315 4326 "parse_string.ml" 159 4315 4378
+type(
+  Ast.expr
+)
+"parse_string.ml" 160 4380 4391 "parse_string.ml" 160 4380 4393
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 157 4244 4248 "parse_string.ml" 160 4380 4394
+type(
+  Ast.expr
+)
+"parse_string.ml" 157 4244 4247 "parse_string.ml" 160 4380 4395
+type(
+  Ast.expr list
+)
+"parse_string.ml" 161 4397 4400 "parse_string.ml" 161 4397 4438
+type(
+  string
+)
+"parse_string.ml" 156 4201 4203 "parse_string.ml" 162 4439 4442
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 164 4445 4448 "parse_string.ml" 164 4445 4494
+type(
+  string
+)
+"parse_string.ml" 165 4496 4517 "parse_string.ml" 165 4496 4523
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 165 4496 4524 "parse_string.ml" 165 4496 4527
+type(
+  string
+)
+"parse_string.ml" 165 4496 4517 "parse_string.ml" 165 4496 4527
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 165 4496 4528 "parse_string.ml" 165 4496 4534
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 165 4496 4535 "parse_string.ml" 165 4496 4538
+type(
+  string
+)
+"parse_string.ml" 165 4496 4528 "parse_string.ml" 165 4496 4538
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 165 4496 4516 "parse_string.ml" 165 4496 4539
+type(
+  Ast.expr list
+)
+"parse_string.ml" 165 4496 4540 "parse_string.ml" 165 4496 4542
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 165 4496 4508 "parse_string.ml" 165 4496 4543
+type(
+  Ast.expr
+)
+"parse_string.ml" 166 4545 4556 "parse_string.ml" 166 4545 4565
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 167 4567 4587 "parse_string.ml" 167 4567 4595
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 167 4567 4596 "parse_string.ml" 167 4567 4605
+type(
+  string
+)
+"parse_string.ml" 167 4567 4587 "parse_string.ml" 167 4567 4605
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 167 4567 4606 "parse_string.ml" 167 4567 4614
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 167 4567 4615 "parse_string.ml" 167 4567 4623
+type(
+  string
+)
+"parse_string.ml" 167 4567 4606 "parse_string.ml" 167 4567 4623
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 167 4567 4586 "parse_string.ml" 167 4567 4624
+type(
+  Ast.expr list
+)
+"parse_string.ml" 167 4567 4625 "parse_string.ml" 167 4567 4627
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 167 4567 4578 "parse_string.ml" 167 4567 4628
+type(
+  Ast.expr
+)
+"parse_string.ml" 168 4630 4641 "parse_string.ml" 168 4630 4643
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 165 4496 4500 "parse_string.ml" 168 4630 4644
+type(
+  Ast.expr
+)
+"parse_string.ml" 165 4496 4499 "parse_string.ml" 168 4630 4645
+type(
+  Ast.expr list
+)
+"parse_string.ml" 169 4647 4650 "parse_string.ml" 169 4647 4690
+type(
+  string
+)
+"parse_string.ml" 164 4445 4447 "parse_string.ml" 170 4691 4694
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 172 4697 4700 "parse_string.ml" 172 4697 4734
+type(
+  string
+)
+"parse_string.ml" 173 4736 4757 "parse_string.ml" 173 4736 4763
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 173 4736 4764 "parse_string.ml" 173 4736 4767
+type(
+  string
+)
+"parse_string.ml" 173 4736 4757 "parse_string.ml" 173 4736 4767
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 173 4736 4768 "parse_string.ml" 173 4736 4774
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 173 4736 4775 "parse_string.ml" 173 4736 4778
+type(
+  string
+)
+"parse_string.ml" 173 4736 4768 "parse_string.ml" 173 4736 4778
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 173 4736 4756 "parse_string.ml" 173 4736 4779
+type(
+  Ast.expr list
+)
+"parse_string.ml" 173 4736 4780 "parse_string.ml" 173 4736 4782
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 173 4736 4748 "parse_string.ml" 173 4736 4783
+type(
+  Ast.expr
+)
+"parse_string.ml" 174 4785 4796 "parse_string.ml" 174 4785 4805
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 175 4807 4827 "parse_string.ml" 175 4807 4835
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 175 4807 4836 "parse_string.ml" 175 4807 4845
+type(
+  string
+)
+"parse_string.ml" 175 4807 4827 "parse_string.ml" 175 4807 4845
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 175 4807 4846 "parse_string.ml" 175 4807 4852
+type(
+  string -> string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_re
+)
+"parse_string.ml" 175 4807 4853 "parse_string.ml" 175 4807 4863
+type(
+  string
+)
+"parse_string.ml" 175 4807 4864 "parse_string.ml" 175 4807 4866
+type(
+  string
+)
+"parse_string.ml" 175 4807 4846 "parse_string.ml" 175 4807 4866
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 175 4807 4826 "parse_string.ml" 175 4807 4867
+type(
+  Ast.expr list
+)
+"parse_string.ml" 175 4807 4868 "parse_string.ml" 175 4807 4870
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 175 4807 4818 "parse_string.ml" 175 4807 4871
+type(
+  Ast.expr
+)
+"parse_string.ml" 176 4873 4884 "parse_string.ml" 176 4873 4886
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 173 4736 4740 "parse_string.ml" 176 4873 4887
+type(
+  Ast.expr
+)
+"parse_string.ml" 173 4736 4739 "parse_string.ml" 176 4873 4888
+type(
+  Ast.expr list
+)
+"parse_string.ml" 177 4890 4893 "parse_string.ml" 177 4890 4930
+type(
+  string
+)
+"parse_string.ml" 172 4697 4699 "parse_string.ml" 178 4931 4934
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 180 4937 4940 "parse_string.ml" 180 4937 4982
+type(
+  string
+)
+"parse_string.ml" 181 4984 5005 "parse_string.ml" 181 4984 5011
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 181 4984 5012 "parse_string.ml" 181 4984 5015
+type(
+  string
+)
+"parse_string.ml" 181 4984 5005 "parse_string.ml" 181 4984 5015
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 181 4984 5016 "parse_string.ml" 181 4984 5022
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_string.ml" 181 4984 5023 "parse_string.ml" 181 4984 5026
+type(
+  string
+)
+"parse_string.ml" 181 4984 5016 "parse_string.ml" 181 4984 5026
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 181 4984 5004 "parse_string.ml" 181 4984 5027
+type(
+  Ast.expr list
+)
+"parse_string.ml" 181 4984 5028 "parse_string.ml" 181 4984 5030
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 181 4984 4996 "parse_string.ml" 181 4984 5031
+type(
+  Ast.expr
+)
+"parse_string.ml" 182 5033 5044 "parse_string.ml" 182 5033 5053
+type(
+  Ast.binary_op
+)
+"parse_string.ml" 183 5055 5075 "parse_string.ml" 183 5055 5083
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 183 5055 5084 "parse_string.ml" 183 5055 5093
+type(
+  string
+)
+"parse_string.ml" 183 5055 5075 "parse_string.ml" 183 5055 5093
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 183 5055 5094 "parse_string.ml" 183 5055 5100
+type(
+  string -> string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_re
+)
+"parse_string.ml" 183 5055 5101 "parse_string.ml" 183 5055 5109
+type(
+  string
+)
+"parse_string.ml" 183 5055 5110 "parse_string.ml" 183 5055 5112
+type(
+  string
+)
+"parse_string.ml" 183 5055 5094 "parse_string.ml" 183 5055 5112
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 183 5055 5074 "parse_string.ml" 183 5055 5113
+type(
+  Ast.expr list
+)
+"parse_string.ml" 183 5055 5114 "parse_string.ml" 183 5055 5116
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 183 5055 5066 "parse_string.ml" 183 5055 5117
+type(
+  Ast.expr
+)
+"parse_string.ml" 184 5119 5130 "parse_string.ml" 184 5119 5132
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_string.ml" 181 4984 4988 "parse_string.ml" 184 5119 5133
+type(
+  Ast.expr
+)
+"parse_string.ml" 181 4984 4987 "parse_string.ml" 184 5119 5134
+type(
+  Ast.expr list
+)
+"parse_string.ml" 185 5136 5139 "parse_string.ml" 185 5136 5178
+type(
+  string
+)
+"parse_string.ml" 180 4937 4939 "parse_string.ml" 186 5179 5182
+type(
+  string * Ast.expr list * string
+)
+"parse_string.ml" 9 70 82 "parse_string.ml" 188 5185 5186
+type(
+  (string * Ast.expr list * string) list
+)
+"parse_string.ml" 190 5188 5192 "parse_string.ml" 190 5188 5222
+type(
+  unit -> OUnit.test
+)
+ident(
+  def test_parse_string_user_matched "parse_string.ml" 202 5576 5576 --
+)
+"parse_string.ml" 190 5188 5223 "parse_string.ml" 190 5188 5225
+type(
+  unit
+)
+"parse_string.ml" 191 5229 5235 "parse_string.ml" 191 5229 5238
+type(
+  Ast.expr list
+)
+"parse_string.ml" 191 5229 5242 "parse_string.ml" 191 5229 5250
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 191 5229 5251 "parse_string.ml" 191 5229 5257
+type(
+  string
+)
+"parse_string.ml" 191 5229 5242 "parse_string.ml" 191 5229 5257
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 191 5229 5241 "parse_string.ml" 191 5229 5258
+type(
+  Ast.expr list
+)
+"parse_string.ml" 192 5262 5268 "parse_string.ml" 192 5262 5273
+type(
+  char -> char -> Ast.ast
+)
+"parse_string.ml" 192 5262 5274 "parse_string.ml" 192 5262 5276
+type(
+  char
+)
+ident(
+  def d1 "parse_string.ml" 192 5262 5277 "parse_string.ml" 192 5262 5323
+)
+"parse_string.ml" 192 5262 5277 "parse_string.ml" 192 5262 5279
+type(
+  char
+)
+ident(
+  def d2 "parse_string.ml" 192 5262 5282 "parse_string.ml" 192 5262 5323
+)
+"parse_string.ml" 192 5262 5282 "parse_string.ml" 192 5262 5294
+type(
+  ?env:Utils.StrSet.t -> ?filename:string -> ?lineno:int -> string -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_string
+)
+"parse_string.ml" 192 5262 5296 "parse_string.ml" 192 5262 5303
+type(
+  (char -> char -> string, unit, string) format -> char -> char -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"parse_string.ml" 192 5262 5304 "parse_string.ml" 192 5262 5316
+type(
+  (char -> char -> string, unit, string) format
+)
+"parse_string.ml" 192 5262 5317 "parse_string.ml" 192 5262 5319
+type(
+  char
+)
+ident(
+  int_ref d1 "parse_string.ml" 192 5262 5274 "parse_string.ml" 192 5262 5276
+)
+"parse_string.ml" 192 5262 5320 "parse_string.ml" 192 5262 5322
+type(
+  char
+)
+ident(
+  int_ref d2 "parse_string.ml" 192 5262 5277 "parse_string.ml" 192 5262 5279
+)
+"parse_string.ml" 192 5262 5295 "parse_string.ml" 192 5262 5323
+call(
+  stack
+)
+type(
+  string
+)
+"parse_string.ml" 192 5262 5282 "parse_string.ml" 192 5262 5323
+call(
+  tail
+)
+type(
+  Ast.ast
+)
+"parse_string.ml" 193 5327 5331 "parse_string.ml" 193 5327 5358
+type(
+  string
+)
+"parse_string.ml" 193 5327 5359 "parse_string.ml" 193 5327 5363
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parse_string.ml" 194 5364 5370 "parse_string.ml" 194 5364 5378
+type(
+  (char * char -> OUnit.test) -> (char * char) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_string.ml" 195 5380 5392 "parse_string.ml" 195 5380 5394
+type(
+  char
+)
+ident(
+  def d1 "parse_string.ml" 196 5402 5403 "parse_string.ml" 199 5484 5526
+)
+"parse_string.ml" 195 5380 5395 "parse_string.ml" 195 5380 5397
+type(
+  char
+)
+ident(
+  def d2 "parse_string.ml" 196 5402 5403 "parse_string.ml" 199 5484 5526
+)
+"parse_string.ml" 195 5380 5391 "parse_string.ml" 195 5380 5398
+type(
+  char * char
+)
+"parse_string.ml" 196 5402 5407 "parse_string.ml" 196 5402 5411
+type(
+  unit -> unit
+)
+"parse_string.ml" 196 5402 5418 "parse_string.ml" 196 5402 5420
+type(
+  unit
+)
+"parse_string.ml" 197 5424 5431 "parse_string.ml" 197 5424 5435
+type(
+  Ast.ast
+)
+"parse_string.ml" 197 5424 5438 "parse_string.ml" 197 5424 5443
+type(
+  char -> char -> Ast.ast
+)
+ident(
+  int_ref d_ast "parse_string.ml" 192 5262 5268 "parse_string.ml" 192 5262 5273
+)
+"parse_string.ml" 197 5424 5444 "parse_string.ml" 197 5424 5446
+type(
+  char
+)
+ident(
+  int_ref d1 "parse_string.ml" 195 5380 5392 "parse_string.ml" 195 5380 5394
+)
+"parse_string.ml" 197 5424 5447 "parse_string.ml" 197 5424 5449
+type(
+  char
+)
+ident(
+  int_ref d2 "parse_string.ml" 195 5380 5395 "parse_string.ml" 195 5380 5397
+)
+"parse_string.ml" 197 5424 5438 "parse_string.ml" 197 5424 5449
+call(
+  stack
+)
+type(
+  Ast.ast
+)
+"parse_string.ml" 198 5453 5458 "parse_string.ml" 198 5453 5474
+type(
+  ?pp_diff:(Format.formatter -> Ast.ast * Ast.ast -> unit) ->
+  ?msg:string -> Ast.ast -> Ast.ast -> unit
+)
+ident(
+  ext_ref Test_helper.assert_ast_equal
+)
+"parse_string.ml" 198 5453 5475 "parse_string.ml" 198 5453 5478
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "parse_string.ml" 191 5229 5235 "parse_string.ml" 191 5229 5238
+)
+"parse_string.ml" 198 5453 5479 "parse_string.ml" 198 5453 5483
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast' "parse_string.ml" 197 5424 5431 "parse_string.ml" 197 5424 5435
+)
+"parse_string.ml" 198 5453 5458 "parse_string.ml" 198 5453 5483
+call(
+  tail
+)
+type(
+  unit
+)
+"parse_string.ml" 197 5424 5427 "parse_string.ml" 198 5453 5483
+type(
+  unit
+)
+"parse_string.ml" 196 5402 5414 "parse_string.ml" 198 5453 5483
+type(
+  unit -> unit
+)
+"parse_string.ml" 199 5484 5489 "parse_string.ml" 199 5484 5496
+type(
+  (char -> char -> string, unit, string) format -> char -> char -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"parse_string.ml" 199 5484 5497 "parse_string.ml" 199 5484 5510
+type(
+  (char -> char -> string, unit, string) format
+)
+"parse_string.ml" 199 5484 5511 "parse_string.ml" 199 5484 5513
+type(
+  char
+)
+ident(
+  int_ref d1 "parse_string.ml" 195 5380 5392 "parse_string.ml" 195 5380 5394
+)
+"parse_string.ml" 199 5484 5514 "parse_string.ml" 199 5484 5516
+type(
+  char
+)
+ident(
+  int_ref d2 "parse_string.ml" 195 5380 5395 "parse_string.ml" 195 5380 5397
+)
+"parse_string.ml" 199 5484 5488 "parse_string.ml" 199 5484 5517
+call(
+  stack
+)
+type(
+  string
+)
+"parse_string.ml" 199 5484 5518 "parse_string.ml" 199 5484 5521
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"parse_string.ml" 199 5484 5522 "parse_string.ml" 199 5484 5526
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref func "parse_string.ml" 196 5402 5407 "parse_string.ml" 196 5402 5411
+)
+"parse_string.ml" 199 5484 5488 "parse_string.ml" 199 5484 5526
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"parse_string.ml" 196 5402 5403 "parse_string.ml" 199 5484 5526
+type(
+  OUnit.test
+)
+"parse_string.ml" 195 5380 5386 "parse_string.ml" 200 5527 5534
+type(
+  char * char -> OUnit.test
+)
+"parse_string.ml" 200 5527 5537 "parse_string.ml" 200 5527 5540
+type(
+  char
+)
+"parse_string.ml" 200 5527 5541 "parse_string.ml" 200 5527 5544
+type(
+  char
+)
+"parse_string.ml" 200 5527 5537 "parse_string.ml" 200 5527 5544
+type(
+  char * char
+)
+"parse_string.ml" 200 5527 5546 "parse_string.ml" 200 5527 5549
+type(
+  char
+)
+"parse_string.ml" 200 5527 5550 "parse_string.ml" 200 5527 5553
+type(
+  char
+)
+"parse_string.ml" 200 5527 5546 "parse_string.ml" 200 5527 5553
+type(
+  char * char
+)
+"parse_string.ml" 200 5527 5555 "parse_string.ml" 200 5527 5558
+type(
+  char
+)
+"parse_string.ml" 200 5527 5559 "parse_string.ml" 200 5527 5562
+type(
+  char
+)
+"parse_string.ml" 200 5527 5555 "parse_string.ml" 200 5527 5562
+type(
+  char * char
+)
+"parse_string.ml" 200 5527 5564 "parse_string.ml" 200 5527 5567
+type(
+  char
+)
+"parse_string.ml" 200 5527 5568 "parse_string.ml" 200 5527 5571
+type(
+  char
+)
+"parse_string.ml" 200 5527 5564 "parse_string.ml" 200 5527 5571
+type(
+  char * char
+)
+"parse_string.ml" 200 5527 5535 "parse_string.ml" 200 5527 5574
+type(
+  (char * char) list
+)
+"parse_string.ml" 194 5364 5370 "parse_string.ml" 200 5527 5574
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_string.ml" 193 5327 5331 "parse_string.ml" 200 5527 5574
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"parse_string.ml" 192 5262 5264 "parse_string.ml" 200 5527 5574
+type(
+  OUnit.test
+)
+"parse_string.ml" 191 5229 5231 "parse_string.ml" 200 5527 5574
+type(
+  OUnit.test
+)
+"parse_string.ml" 202 5576 5580 "parse_string.ml" 202 5576 5609
+type(
+  unit -> OUnit.test
+)
+ident(
+  def test_parse_string_user_single "parse_string.ml" 219 6097 6097 --
+)
+"parse_string.ml" 202 5576 5610 "parse_string.ml" 202 5576 5612
+type(
+  unit
+)
+"parse_string.ml" 203 5616 5622 "parse_string.ml" 203 5616 5625
+type(
+  Ast.expr list
+)
+"parse_string.ml" 203 5616 5629 "parse_string.ml" 203 5616 5637
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.doub_str
+)
+"parse_string.ml" 203 5616 5638 "parse_string.ml" 203 5616 5644
+type(
+  string
+)
+"parse_string.ml" 203 5616 5629 "parse_string.ml" 203 5616 5644
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_string.ml" 203 5616 5628 "parse_string.ml" 203 5616 5645
+type(
+  Ast.expr list
+)
+"parse_string.ml" 204 5649 5655 "parse_string.ml" 204 5649 5660
+type(
+  char -> Ast.ast
+)
+"parse_string.ml" 204 5649 5661 "parse_string.ml" 204 5649 5662
+type(
+  char
+)
+ident(
+  def d "parse_string.ml" 204 5649 5665 "parse_string.ml" 204 5649 5704
+)
+"parse_string.ml" 204 5649 5665 "parse_string.ml" 204 5649 5677
+type(
+  ?env:Utils.StrSet.t -> ?filename:string -> ?lineno:int -> string -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_string
+)
+"parse_string.ml" 204 5649 5679 "parse_string.ml" 204 5649 5686
+type(
+  (char -> char -> string, unit, string) format -> char -> char -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"parse_string.ml" 204 5649 5687 "parse_string.ml" 204 5649 5699
+type(
+  (char -> char -> string, unit, string) format
+)
+"parse_string.ml" 204 5649 5700 "parse_string.ml" 204 5649 5701
+type(
+  char
+)
+ident(
+  int_ref d "parse_string.ml" 204 5649 5661 "parse_string.ml" 204 5649 5662
+)
+"parse_string.ml" 204 5649 5702 "parse_string.ml" 204 5649 5703
+type(
+  char
+)
+ident(
+  int_ref d "parse_string.ml" 204 5649 5661 "parse_string.ml" 204 5649 5662
+)
+"parse_string.ml" 204 5649 5678 "parse_string.ml" 204 5649 5704
+call(
+  stack
+)
+type(
+  string
+)
+"parse_string.ml" 204 5649 5665 "parse_string.ml" 204 5649 5704
+call(
+  tail
+)
+type(
+  Ast.ast
+)
+"parse_string.ml" 205 5708 5714 "parse_string.ml" 205 5708 5733
+type(
+  char list
+)
+"parse_string.ml" 206 5738 5744 "parse_string.ml" 206 5738 5747
+type(
+  char
+)
+"parse_string.ml" 206 5738 5749 "parse_string.ml" 206 5738 5752
+type(
+  char
+)
+"parse_string.ml" 206 5738 5754 "parse_string.ml" 206 5738 5757
+type(
+  char
+)
+"parse_string.ml" 206 5738 5759 "parse_string.ml" 206 5738 5762
+type(
+  char
+)
+"parse_string.ml" 206 5738 5764 "parse_string.ml" 206 5738 5767
+type(
+  char
+)
+"parse_string.ml" 206 5738 5769 "parse_string.ml" 206 5738 5772
+type(
+  char
+)
+"parse_string.ml" 206 5738 5774 "parse_string.ml" 206 5738 5777
+type(
+  char
+)
+"parse_string.ml" 206 5738 5779 "parse_string.ml" 206 5738 5782
+type(
+  char
+)
+"parse_string.ml" 207 5784 5790 "parse_string.ml" 207 5784 5793
+type(
+  char
+)
+"parse_string.ml" 207 5784 5795 "parse_string.ml" 207 5784 5798
+type(
+  char
+)
+"parse_string.ml" 207 5784 5800 "parse_string.ml" 207 5784 5803
+type(
+  char
+)
+"parse_string.ml" 207 5784 5805 "parse_string.ml" 207 5784 5808
+type(
+  char
+)
+"parse_string.ml" 207 5784 5810 "parse_string.ml" 207 5784 5813
+type(
+  char
+)
+"parse_string.ml" 207 5784 5815 "parse_string.ml" 207 5784 5818
+type(
+  char
+)
+"parse_string.ml" 207 5784 5820 "parse_string.ml" 207 5784 5823
+type(
+  char
+)
+"parse_string.ml" 207 5784 5825 "parse_string.ml" 207 5784 5828
+type(
+  char
+)
+"parse_string.ml" 208 5830 5836 "parse_string.ml" 208 5830 5839
+type(
+  char
+)
+"parse_string.ml" 208 5830 5841 "parse_string.ml" 208 5830 5845
+type(
+  char
+)
+"parse_string.ml" 208 5830 5847 "parse_string.ml" 208 5830 5850
+type(
+  char
+)
+"parse_string.ml" 208 5830 5852 "parse_string.ml" 208 5830 5855
+type(
+  char
+)
+"parse_string.ml" 208 5830 5857 "parse_string.ml" 208 5830 5860
+type(
+  char
+)
+"parse_string.ml" 208 5830 5862 "parse_string.ml" 208 5830 5866
+type(
+  char
+)
+"parse_string.ml" 205 5708 5736 "parse_string.ml" 208 5830 5868
+type(
+  char list
+)
+"parse_string.ml" 210 5874 5878 "parse_string.ml" 210 5874 5904
+type(
+  string
+)
+"parse_string.ml" 210 5874 5905 "parse_string.ml" 210 5874 5909
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parse_string.ml" 211 5910 5916 "parse_string.ml" 211 5910 5924
+type(
+  (char -> OUnit.test) -> char list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_string.ml" 212 5926 5937 "parse_string.ml" 212 5926 5942
+type(
+  char
+)
+ident(
+  def delim "parse_string.ml" 213 5946 5947 "parse_string.ml" 216 6028 6067
+)
+"parse_string.ml" 213 5946 5951 "parse_string.ml" 213 5946 5955
+type(
+  unit -> unit
+)
+"parse_string.ml" 213 5946 5962 "parse_string.ml" 213 5946 5964
+type(
+  unit
+)
+"parse_string.ml" 214 5968 5975 "parse_string.ml" 214 5968 5979
+type(
+  Ast.ast
+)
+"parse_string.ml" 214 5968 5982 "parse_string.ml" 214 5968 5987
+type(
+  char -> Ast.ast
+)
+ident(
+  int_ref d_ast "parse_string.ml" 204 5649 5655 "parse_string.ml" 204 5649 5660
+)
+"parse_string.ml" 214 5968 5988 "parse_string.ml" 214 5968 5993
+type(
+  char
+)
+ident(
+  int_ref delim "parse_string.ml" 212 5926 5937 "parse_string.ml" 212 5926 5942
+)
+"parse_string.ml" 214 5968 5982 "parse_string.ml" 214 5968 5993
+call(
+  stack
+)
+type(
+  Ast.ast
+)
+"parse_string.ml" 215 5997 6002 "parse_string.ml" 215 5997 6018
+type(
+  ?pp_diff:(Format.formatter -> Ast.ast * Ast.ast -> unit) ->
+  ?msg:string -> Ast.ast -> Ast.ast -> unit
+)
+ident(
+  ext_ref Test_helper.assert_ast_equal
+)
+"parse_string.ml" 215 5997 6019 "parse_string.ml" 215 5997 6022
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "parse_string.ml" 203 5616 5622 "parse_string.ml" 203 5616 5625
+)
+"parse_string.ml" 215 5997 6023 "parse_string.ml" 215 5997 6027
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast' "parse_string.ml" 214 5968 5975 "parse_string.ml" 214 5968 5979
+)
+"parse_string.ml" 215 5997 6002 "parse_string.ml" 215 5997 6027
+call(
+  tail
+)
+type(
+  unit
+)
+"parse_string.ml" 214 5968 5971 "parse_string.ml" 215 5997 6027
+type(
+  unit
+)
+"parse_string.ml" 213 5946 5958 "parse_string.ml" 215 5997 6027
+type(
+  unit -> unit
+)
+"parse_string.ml" 216 6028 6033 "parse_string.ml" 216 6028 6040
+type(
+  (char -> string, unit, string) format -> char -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"parse_string.ml" 216 6028 6041 "parse_string.ml" 216 6028 6051
+type(
+  (char -> string, unit, string) format
+)
+"parse_string.ml" 216 6028 6052 "parse_string.ml" 216 6028 6057
+type(
+  char
+)
+ident(
+  int_ref delim "parse_string.ml" 212 5926 5937 "parse_string.ml" 212 5926 5942
+)
+"parse_string.ml" 216 6028 6032 "parse_string.ml" 216 6028 6058
+call(
+  stack
+)
+type(
+  string
+)
+"parse_string.ml" 216 6028 6059 "parse_string.ml" 216 6028 6062
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"parse_string.ml" 216 6028 6063 "parse_string.ml" 216 6028 6067
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref func "parse_string.ml" 213 5946 5951 "parse_string.ml" 213 5946 5955
+)
+"parse_string.ml" 216 6028 6032 "parse_string.ml" 216 6028 6067
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"parse_string.ml" 213 5946 5947 "parse_string.ml" 216 6028 6067
+type(
+  OUnit.test
+)
+"parse_string.ml" 212 5926 5932 "parse_string.ml" 217 6068 6075
+type(
+  char -> OUnit.test
+)
+"parse_string.ml" 217 6068 6076 "parse_string.ml" 217 6068 6095
+type(
+  char list
+)
+ident(
+  int_ref string_single_delim "parse_string.ml" 205 5708 5714 "parse_string.ml" 205 5708 5733
+)
+"parse_string.ml" 211 5910 5916 "parse_string.ml" 217 6068 6095
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_string.ml" 210 5874 5878 "parse_string.ml" 217 6068 6095
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"parse_string.ml" 205 5708 5710 "parse_string.ml" 217 6068 6095
+type(
+  OUnit.test
+)
+"parse_string.ml" 204 5649 5651 "parse_string.ml" 217 6068 6095
+type(
+  OUnit.test
+)
+"parse_string.ml" 203 5616 5618 "parse_string.ml" 217 6068 6095
+type(
+  OUnit.test
+)
+"parse_string.ml" 219 6097 6101 "parse_string.ml" 219 6097 6106
+type(
+  OUnit.test
+)
+ident(
+  def suite "parse_string.ml" 222 6218 6246 --
+)
+"parse_string.ml" 219 6097 6109 "parse_string.ml" 219 6097 6137
+type(
+  string
+)
+"parse_string.ml" 219 6097 6138 "parse_string.ml" 219 6097 6142
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parse_string.ml" 220 6143 6145 "parse_string.ml" 220 6143 6174
+type(
+  unit -> OUnit.test
+)
+ident(
+  int_ref test_parse_string_user_single "parse_string.ml" 202 5576 5580 "parse_string.ml" 202 5576 5609
+)
+"parse_string.ml" 220 6143 6174 "parse_string.ml" 220 6143 6176
+type(
+  unit
+)
+"parse_string.ml" 220 6143 6145 "parse_string.ml" 220 6143 6176
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"parse_string.ml" 221 6180 6182 "parse_string.ml" 221 6180 6212
+type(
+  unit -> OUnit.test
+)
+ident(
+  int_ref test_parse_string_user_matched "parse_string.ml" 190 5188 5192 "parse_string.ml" 190 5188 5222
+)
+"parse_string.ml" 221 6180 6212 "parse_string.ml" 221 6180 6214
+type(
+  unit
+)
+"parse_string.ml" 221 6180 6182 "parse_string.ml" 221 6180 6214
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"parse_string.ml" 222 6218 6220 "parse_string.ml" 222 6218 6228
+type(
+  (string * Ast.ast * string -> OUnit.test) ->
+  (string * Ast.ast * string) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_string.ml" 222 6218 6229 "parse_string.ml" 222 6218 6240
+type(
+  string * Ast.ast * string -> OUnit.test
+)
+ident(
+  ext_ref Test_helper.simple_test
+)
+"parse_string.ml" 222 6218 6241 "parse_string.ml" 222 6218 6246
+type(
+  (string * Ast.ast * string) list
+)
+ident(
+  int_ref tests "parse_string.ml" 9 70 74 "parse_string.ml" 9 70 79
+)
+"parse_string.ml" 222 6218 6220 "parse_string.ml" 222 6218 6246
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_string.ml" 221 6180 6182 "parse_string.ml" 222 6218 6246
+type(
+  OUnit.test list
+)
+"parse_string.ml" 220 6143 6145 "parse_string.ml" 222 6218 6246
+type(
+  OUnit.test list
+)
+"parse_string.ml" 219 6097 6109 "parse_string.ml" 222 6218 6246
+call(
+  stack
+)
+type(
+  OUnit.test
+)

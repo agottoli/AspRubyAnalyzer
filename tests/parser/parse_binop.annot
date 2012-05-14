@@ -1,0 +1,1534 @@
+"parse_binop.ml" 8 74 78 "parse_binop.ml" 8 74 89
+type(
+  Ast.binary_op list
+)
+ident(
+  def builtin_ops "parse_binop.ml" 17 338 338 --
+)
+"parse_binop.ml" 9 93 97 "parse_binop.ml" 9 93 106
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 9 93 108 "parse_binop.ml" 9 93 115
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 9 93 117 "parse_binop.ml" 9 93 125
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 9 93 127 "parse_binop.ml" 9 93 135
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 9 93 137 "parse_binop.ml" 9 93 143
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 9 93 145 "parse_binop.ml" 9 93 151
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 9 93 153 "parse_binop.ml" 9 93 159
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 10 161 165 "parse_binop.ml" 10 161 170
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 10 161 172 "parse_binop.ml" 10 161 178
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 10 161 180 "parse_binop.ml" 10 161 186
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 10 161 188 "parse_binop.ml" 10 161 194
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 10 161 196 "parse_binop.ml" 10 161 202
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 10 161 204 "parse_binop.ml" 10 161 210
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 10 161 212 "parse_binop.ml" 10 161 217
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 10 161 219 "parse_binop.ml" 10 161 226
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 11 228 232 "parse_binop.ml" 11 228 238
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 11 228 240 "parse_binop.ml" 11 228 248
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 11 228 250 "parse_binop.ml" 11 228 259
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 11 228 261 "parse_binop.ml" 11 228 267
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 11 228 269 "parse_binop.ml" 11 228 275
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 11 228 277 "parse_binop.ml" 11 228 284
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 11 228 286 "parse_binop.ml" 11 228 292
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 12 294 298 "parse_binop.ml" 12 294 306
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 13 308 323 "parse_binop.ml" 13 308 330
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 13 308 312 "parse_binop.ml" 13 308 330
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 9 93 95 "parse_binop.ml" 14 332 335
+type(
+  Ast.binary_op list
+)
+"parse_binop.ml" 17 338 342 "parse_binop.ml" 17 338 365
+type(
+  unit -> OUnit.test list
+)
+ident(
+  def test_parse_all_builtins "parse_binop.ml" 34 817 817 --
+)
+"parse_binop.ml" 17 338 366 "parse_binop.ml" 17 338 368
+type(
+  unit
+)
+"parse_binop.ml" 18 372 378 "parse_binop.ml" 18 372 381
+type(
+  string
+)
+"parse_binop.ml" 18 372 384 "parse_binop.ml" 18 372 387
+type(
+  string
+)
+"parse_binop.ml" 19 391 397 "parse_binop.ml" 19 391 400
+type(
+  string
+)
+"parse_binop.ml" 19 391 403 "parse_binop.ml" 19 391 406
+type(
+  string
+)
+"parse_binop.ml" 20 410 414 "parse_binop.ml" 20 410 422
+type(
+  (Ast.binary_op -> OUnit.test) -> Ast.binary_op list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_binop.ml" 21 424 435 "parse_binop.ml" 21 424 437
+type(
+  Ast.binary_op
+)
+ident(
+  def op "parse_binop.ml" 22 441 443 "parse_binop.ml" 31 759 795
+)
+"parse_binop.ml" 22 441 447 "parse_binop.ml" 22 441 453
+type(
+  string
+)
+"parse_binop.ml" 22 441 456 "parse_binop.ml" 22 441 465
+type(
+  Ast.binary_op -> string
+)
+ident(
+  ext_ref Ast.str_binop
+)
+"parse_binop.ml" 22 441 466 "parse_binop.ml" 22 441 468
+type(
+  Ast.binary_op
+)
+ident(
+  int_ref op "parse_binop.ml" 21 424 435 "parse_binop.ml" 21 424 437
+)
+"parse_binop.ml" 22 441 456 "parse_binop.ml" 22 441 468
+call(
+  stack
+)
+type(
+  string
+)
+"parse_binop.ml" 23 472 478 "parse_binop.ml" 23 472 481
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 23 472 493 "parse_binop.ml" 23 472 499
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 23 472 500 "parse_binop.ml" 23 472 503
+type(
+  string
+)
+ident(
+  int_ref id1 "parse_binop.ml" 18 372 378 "parse_binop.ml" 18 372 381
+)
+"parse_binop.ml" 23 472 493 "parse_binop.ml" 23 472 503
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 23 472 504 "parse_binop.ml" 23 472 513
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 23 472 514 "parse_binop.ml" 23 472 518
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.lnil
+)
+"parse_binop.ml" 23 472 519 "parse_binop.ml" 23 472 521
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 23 472 485 "parse_binop.ml" 23 472 522
+type(
+  Ast.expr
+)
+"parse_binop.ml" 24 524 552 "parse_binop.ml" 24 524 558
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 24 524 559 "parse_binop.ml" 24 524 562
+type(
+  string
+)
+ident(
+  int_ref id1 "parse_binop.ml" 18 372 378 "parse_binop.ml" 18 372 381
+)
+"parse_binop.ml" 24 524 552 "parse_binop.ml" 24 524 562
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 24 524 564 "parse_binop.ml" 24 524 566
+type(
+  Ast.binary_op
+)
+ident(
+  int_ref op "parse_binop.ml" 21 424 435 "parse_binop.ml" 21 424 437
+)
+"parse_binop.ml" 24 524 568 "parse_binop.ml" 24 524 574
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 24 524 575 "parse_binop.ml" 24 524 578
+type(
+  string
+)
+ident(
+  int_ref id2 "parse_binop.ml" 19 391 397 "parse_binop.ml" 19 391 400
+)
+"parse_binop.ml" 24 524 568 "parse_binop.ml" 24 524 578
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 24 524 579 "parse_binop.ml" 24 524 581
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 24 524 544 "parse_binop.ml" 24 524 582
+type(
+  Ast.expr
+)
+"parse_binop.ml" 23 472 484 "parse_binop.ml" 24 524 583
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 26 597 603 "parse_binop.ml" 26 597 606
+type(
+  string
+)
+"parse_binop.ml" 26 597 609 "parse_binop.ml" 26 597 623
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"parse_binop.ml" 26 597 624 "parse_binop.ml" 26 597 641
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"parse_binop.ml" 26 597 642 "parse_binop.ml" 26 597 645
+type(
+  string
+)
+ident(
+  int_ref id1 "parse_binop.ml" 18 372 378 "parse_binop.ml" 18 372 381
+)
+"parse_binop.ml" 26 597 646 "parse_binop.ml" 26 597 649
+type(
+  string
+)
+ident(
+  int_ref id1 "parse_binop.ml" 18 372 378 "parse_binop.ml" 18 372 381
+)
+"parse_binop.ml" 26 597 650 "parse_binop.ml" 26 597 656
+type(
+  string
+)
+ident(
+  int_ref op_str "parse_binop.ml" 22 441 447 "parse_binop.ml" 22 441 453
+)
+"parse_binop.ml" 26 597 657 "parse_binop.ml" 26 597 660
+type(
+  string
+)
+ident(
+  int_ref id2 "parse_binop.ml" 19 391 397 "parse_binop.ml" 19 391 400
+)
+"parse_binop.ml" 26 597 609 "parse_binop.ml" 26 597 660
+call(
+  stack
+)
+type(
+  string
+)
+"parse_binop.ml" 27 664 670 "parse_binop.ml" 27 664 674
+type(
+  unit -> unit
+)
+"parse_binop.ml" 27 664 681 "parse_binop.ml" 27 664 683
+type(
+  unit
+)
+"parse_binop.ml" 28 687 695 "parse_binop.ml" 28 687 699
+type(
+  Ast.ast
+)
+"parse_binop.ml" 28 687 702 "parse_binop.ml" 28 687 714
+type(
+  ?env:Utils.StrSet.t -> ?filename:string -> ?lineno:int -> string -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_string
+)
+"parse_binop.ml" 28 687 715 "parse_binop.ml" 28 687 718
+type(
+  string
+)
+ident(
+  int_ref str "parse_binop.ml" 26 597 603 "parse_binop.ml" 26 597 606
+)
+"parse_binop.ml" 28 687 702 "parse_binop.ml" 28 687 718
+call(
+  stack
+)
+type(
+  Ast.ast
+)
+"parse_binop.ml" 29 722 728 "parse_binop.ml" 29 722 744
+type(
+  ?pp_diff:(Format.formatter -> Ast.ast * Ast.ast -> unit) ->
+  ?msg:string -> Ast.ast -> Ast.ast -> unit
+)
+ident(
+  ext_ref Test_helper.assert_ast_equal
+)
+"parse_binop.ml" 29 722 745 "parse_binop.ml" 29 722 748
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "parse_binop.ml" 23 472 478 "parse_binop.ml" 23 472 481
+)
+"parse_binop.ml" 29 722 749 "parse_binop.ml" 29 722 753
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast' "parse_binop.ml" 28 687 695 "parse_binop.ml" 28 687 699
+)
+"parse_binop.ml" 29 722 728 "parse_binop.ml" 29 722 753
+call(
+  tail
+)
+type(
+  unit
+)
+"parse_binop.ml" 28 687 691 "parse_binop.ml" 29 722 753
+type(
+  unit
+)
+"parse_binop.ml" 27 664 677 "parse_binop.ml" 29 722 753
+type(
+  unit -> unit
+)
+"parse_binop.ml" 31 759 764 "parse_binop.ml" 31 759 776
+type(
+  string
+)
+"parse_binop.ml" 31 759 777 "parse_binop.ml" 31 759 778
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"parse_binop.ml" 31 759 779 "parse_binop.ml" 31 759 785
+type(
+  string
+)
+ident(
+  int_ref op_str "parse_binop.ml" 22 441 447 "parse_binop.ml" 22 441 453
+)
+"parse_binop.ml" 31 759 763 "parse_binop.ml" 31 759 786
+call(
+  stack
+)
+type(
+  string
+)
+"parse_binop.ml" 31 759 787 "parse_binop.ml" 31 759 790
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"parse_binop.ml" 31 759 791 "parse_binop.ml" 31 759 795
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref func "parse_binop.ml" 27 664 670 "parse_binop.ml" 27 664 674
+)
+"parse_binop.ml" 31 759 763 "parse_binop.ml" 31 759 795
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"parse_binop.ml" 27 664 666 "parse_binop.ml" 31 759 795
+type(
+  OUnit.test
+)
+"parse_binop.ml" 26 597 599 "parse_binop.ml" 31 759 795
+type(
+  OUnit.test
+)
+"parse_binop.ml" 23 472 474 "parse_binop.ml" 31 759 795
+type(
+  OUnit.test
+)
+"parse_binop.ml" 22 441 443 "parse_binop.ml" 31 759 795
+type(
+  OUnit.test
+)
+"parse_binop.ml" 21 424 430 "parse_binop.ml" 32 796 803
+type(
+  Ast.binary_op -> OUnit.test
+)
+"parse_binop.ml" 32 796 804 "parse_binop.ml" 32 796 815
+type(
+  Ast.binary_op list
+)
+ident(
+  int_ref builtin_ops "parse_binop.ml" 8 74 78 "parse_binop.ml" 8 74 89
+)
+"parse_binop.ml" 20 410 414 "parse_binop.ml" 32 796 815
+call(
+  tail
+)
+type(
+  OUnit.test list
+)
+"parse_binop.ml" 19 391 393 "parse_binop.ml" 32 796 815
+type(
+  OUnit.test list
+)
+"parse_binop.ml" 18 372 374 "parse_binop.ml" 32 796 815
+type(
+  OUnit.test list
+)
+"parse_binop.ml" 34 817 821 "parse_binop.ml" 34 817 826
+type(
+  (string * Ast.expr list * string) list
+)
+ident(
+  def tests "parse_binop.ml" 75 1973 1973 --
+)
+"parse_binop.ml" 35 831 834 "parse_binop.ml" 35 831 841
+type(
+  string
+)
+"parse_binop.ml" 35 831 853 "parse_binop.ml" 35 831 860
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_binop.ml" 35 831 861 "parse_binop.ml" 35 831 862
+type(
+  int
+)
+"parse_binop.ml" 35 831 853 "parse_binop.ml" 35 831 862
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 35 831 864 "parse_binop.ml" 35 831 871
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 35 831 873 "parse_binop.ml" 35 831 880
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_binop.ml" 35 831 881 "parse_binop.ml" 35 831 882
+type(
+  int
+)
+"parse_binop.ml" 35 831 873 "parse_binop.ml" 35 831 882
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 35 831 883 "parse_binop.ml" 35 831 885
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 35 831 844 "parse_binop.ml" 35 831 886
+type(
+  Ast.expr
+)
+"parse_binop.ml" 35 831 843 "parse_binop.ml" 35 831 887
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 35 831 889 "parse_binop.ml" 35 831 895
+type(
+  string
+)
+"parse_binop.ml" 35 831 833 "parse_binop.ml" 35 831 896
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 36 898 901 "parse_binop.ml" 36 898 908
+type(
+  string
+)
+"parse_binop.ml" 36 898 919 "parse_binop.ml" 36 898 928
+type(
+  float -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_float
+)
+"parse_binop.ml" 36 898 929 "parse_binop.ml" 36 898 932
+type(
+  float
+)
+"parse_binop.ml" 36 898 919 "parse_binop.ml" 36 898 932
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 36 898 934 "parse_binop.ml" 36 898 941
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 36 898 942 "parse_binop.ml" 36 898 951
+type(
+  float -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_float
+)
+"parse_binop.ml" 36 898 952 "parse_binop.ml" 36 898 955
+type(
+  float
+)
+"parse_binop.ml" 36 898 942 "parse_binop.ml" 36 898 955
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 36 898 956 "parse_binop.ml" 36 898 958
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 36 898 911 "parse_binop.ml" 36 898 959
+type(
+  Ast.expr
+)
+"parse_binop.ml" 36 898 910 "parse_binop.ml" 36 898 960
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 36 898 962 "parse_binop.ml" 36 898 972
+type(
+  string
+)
+"parse_binop.ml" 36 898 900 "parse_binop.ml" 36 898 973
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 37 975 978 "parse_binop.ml" 37 975 985
+type(
+  string
+)
+"parse_binop.ml" 37 975 997 "parse_binop.ml" 37 975 1004
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_binop.ml" 37 975 1005 "parse_binop.ml" 37 975 1006
+type(
+  int
+)
+"parse_binop.ml" 37 975 997 "parse_binop.ml" 37 975 1006
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 37 975 1008 "parse_binop.ml" 37 975 1015
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 37 975 1017 "parse_binop.ml" 37 975 1024
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_binop.ml" 37 975 1025 "parse_binop.ml" 37 975 1026
+type(
+  int
+)
+"parse_binop.ml" 37 975 1017 "parse_binop.ml" 37 975 1026
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 37 975 1027 "parse_binop.ml" 37 975 1029
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 37 975 988 "parse_binop.ml" 37 975 1030
+type(
+  Ast.expr
+)
+"parse_binop.ml" 37 975 987 "parse_binop.ml" 37 975 1031
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 37 975 1033 "parse_binop.ml" 37 975 1040
+type(
+  string
+)
+"parse_binop.ml" 37 975 977 "parse_binop.ml" 37 975 1041
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 38 1043 1046 "parse_binop.ml" 38 1043 1053
+type(
+  string
+)
+"parse_binop.ml" 38 1043 1064 "parse_binop.ml" 38 1043 1073
+type(
+  float -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_float
+)
+"parse_binop.ml" 38 1043 1074 "parse_binop.ml" 38 1043 1077
+type(
+  float
+)
+"parse_binop.ml" 38 1043 1064 "parse_binop.ml" 38 1043 1077
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 38 1043 1079 "parse_binop.ml" 38 1043 1086
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 38 1043 1087 "parse_binop.ml" 38 1043 1096
+type(
+  float -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_float
+)
+"parse_binop.ml" 38 1043 1097 "parse_binop.ml" 38 1043 1100
+type(
+  float
+)
+"parse_binop.ml" 38 1043 1087 "parse_binop.ml" 38 1043 1100
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 38 1043 1101 "parse_binop.ml" 38 1043 1103
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 38 1043 1056 "parse_binop.ml" 38 1043 1104
+type(
+  Ast.expr
+)
+"parse_binop.ml" 38 1043 1055 "parse_binop.ml" 38 1043 1105
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 38 1043 1107 "parse_binop.ml" 38 1043 1118
+type(
+  string
+)
+"parse_binop.ml" 38 1043 1045 "parse_binop.ml" 38 1043 1119
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 39 1121 1124 "parse_binop.ml" 39 1121 1132
+type(
+  string
+)
+"parse_binop.ml" 40 1134 1146 "parse_binop.ml" 40 1134 1152
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 40 1134 1153 "parse_binop.ml" 40 1134 1156
+type(
+  string
+)
+"parse_binop.ml" 40 1134 1146 "parse_binop.ml" 40 1134 1156
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 40 1134 1158 "parse_binop.ml" 40 1134 1167
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 40 1134 1177 "parse_binop.ml" 40 1134 1183
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 40 1134 1184 "parse_binop.ml" 40 1134 1187
+type(
+  string
+)
+"parse_binop.ml" 40 1134 1177 "parse_binop.ml" 40 1134 1187
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 40 1134 1189 "parse_binop.ml" 40 1134 1198
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 40 1134 1200 "parse_binop.ml" 40 1134 1206
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 40 1134 1207 "parse_binop.ml" 40 1134 1210
+type(
+  string
+)
+"parse_binop.ml" 40 1134 1200 "parse_binop.ml" 40 1134 1210
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 40 1134 1211 "parse_binop.ml" 40 1134 1213
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 40 1134 1169 "parse_binop.ml" 40 1134 1214
+type(
+  Ast.expr
+)
+"parse_binop.ml" 40 1134 1215 "parse_binop.ml" 40 1134 1217
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 40 1134 1138 "parse_binop.ml" 40 1134 1218
+type(
+  Ast.expr
+)
+"parse_binop.ml" 40 1134 1137 "parse_binop.ml" 40 1134 1219
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 41 1221 1224 "parse_binop.ml" 41 1221 1235
+type(
+  string
+)
+"parse_binop.ml" 39 1121 1123 "parse_binop.ml" 41 1221 1236
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 42 1238 1241 "parse_binop.ml" 42 1238 1247
+type(
+  string
+)
+"parse_binop.ml" 43 1259 1295 "parse_binop.ml" 43 1259 1301
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 43 1259 1302 "parse_binop.ml" 43 1259 1305
+type(
+  string
+)
+"parse_binop.ml" 43 1259 1295 "parse_binop.ml" 43 1259 1305
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 43 1259 1294 "parse_binop.ml" 43 1259 1306
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 43 1259 1307 "parse_binop.ml" 43 1259 1309
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 43 1259 1286 "parse_binop.ml" 43 1259 1310
+type(
+  Ast.expr
+)
+"parse_binop.ml" 44 1313 1318 "parse_binop.ml" 44 1313 1324
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 45 1327 1343 "parse_binop.ml" 45 1327 1350
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 45 1327 1351 "parse_binop.ml" 45 1327 1353
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 45 1327 1332 "parse_binop.ml" 45 1327 1354
+type(
+  Ast.expr
+)
+"parse_binop.ml" 46 1356 1361 "parse_binop.ml" 46 1356 1363
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 43 1259 1278 "parse_binop.ml" 46 1356 1364
+type(
+  Ast.expr
+)
+"parse_binop.ml" 47 1366 1371 "parse_binop.ml" 47 1366 1378
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_binop.ml" 47 1366 1379 "parse_binop.ml" 47 1366 1380
+type(
+  int
+)
+"parse_binop.ml" 47 1366 1371 "parse_binop.ml" 47 1366 1380
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 47 1366 1370 "parse_binop.ml" 47 1366 1381
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 47 1366 1382 "parse_binop.ml" 47 1366 1386
+type(
+  Ast.expr option
+)
+"parse_binop.ml" 47 1366 1387 "parse_binop.ml" 47 1366 1389
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 43 1259 1265 "parse_binop.ml" 47 1366 1390
+type(
+  Ast.expr
+)
+"parse_binop.ml" 48 1392 1398 "parse_binop.ml" 48 1392 1407
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 49 1409 1415 "parse_binop.ml" 49 1409 1421
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 49 1409 1422 "parse_binop.ml" 49 1409 1425
+type(
+  string
+)
+"parse_binop.ml" 49 1409 1415 "parse_binop.ml" 49 1409 1425
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 49 1409 1426 "parse_binop.ml" 49 1409 1428
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 42 1238 1250 "parse_binop.ml" 49 1409 1429
+type(
+  Ast.expr
+)
+"parse_binop.ml" 42 1238 1249 "parse_binop.ml" 49 1409 1430
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 50 1432 1435 "parse_binop.ml" 50 1432 1447
+type(
+  string
+)
+"parse_binop.ml" 42 1238 1240 "parse_binop.ml" 50 1432 1448
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 52 1451 1454 "parse_binop.ml" 52 1451 1458
+type(
+  string
+)
+"parse_binop.ml" 53 1460 1472 "parse_binop.ml" 53 1460 1478
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 53 1460 1479 "parse_binop.ml" 53 1460 1482
+type(
+  string
+)
+"parse_binop.ml" 53 1460 1472 "parse_binop.ml" 53 1460 1482
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 53 1460 1495 "parse_binop.ml" 53 1460 1501
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 53 1460 1484 "parse_binop.ml" 53 1460 1501
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 53 1460 1503 "parse_binop.ml" 53 1460 1509
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 53 1460 1510 "parse_binop.ml" 53 1460 1513
+type(
+  string
+)
+"parse_binop.ml" 53 1460 1503 "parse_binop.ml" 53 1460 1513
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 53 1460 1514 "parse_binop.ml" 53 1460 1516
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 53 1460 1464 "parse_binop.ml" 53 1460 1517
+type(
+  Ast.expr
+)
+"parse_binop.ml" 53 1460 1463 "parse_binop.ml" 53 1460 1518
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 54 1520 1523 "parse_binop.ml" 54 1520 1531
+type(
+  string
+)
+"parse_binop.ml" 52 1451 1453 "parse_binop.ml" 54 1520 1532
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 56 1535 1538 "parse_binop.ml" 56 1535 1560
+type(
+  string
+)
+"parse_binop.ml" 57 1562 1583 "parse_binop.ml" 57 1562 1589
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 57 1562 1590 "parse_binop.ml" 57 1562 1593
+type(
+  string
+)
+"parse_binop.ml" 57 1562 1583 "parse_binop.ml" 57 1562 1593
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 57 1562 1595 "parse_binop.ml" 57 1562 1601
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 57 1562 1602 "parse_binop.ml" 57 1562 1605
+type(
+  string
+)
+"parse_binop.ml" 57 1562 1595 "parse_binop.ml" 57 1562 1605
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 57 1562 1582 "parse_binop.ml" 57 1562 1606
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 57 1562 1607 "parse_binop.ml" 57 1562 1609
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 57 1562 1574 "parse_binop.ml" 57 1562 1610
+type(
+  Ast.expr
+)
+"parse_binop.ml" 58 1612 1617 "parse_binop.ml" 58 1612 1626
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 59 1628 1642 "parse_binop.ml" 59 1628 1649
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_binop.ml" 59 1628 1650 "parse_binop.ml" 59 1628 1651
+type(
+  int
+)
+"parse_binop.ml" 59 1628 1642 "parse_binop.ml" 59 1628 1651
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 59 1628 1653 "parse_binop.ml" 59 1628 1660
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_binop.ml" 59 1628 1661 "parse_binop.ml" 59 1628 1662
+type(
+  int
+)
+"parse_binop.ml" 59 1628 1653 "parse_binop.ml" 59 1628 1662
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 59 1628 1641 "parse_binop.ml" 59 1628 1663
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 59 1628 1664 "parse_binop.ml" 59 1628 1666
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 59 1628 1633 "parse_binop.ml" 59 1628 1667
+type(
+  Ast.expr
+)
+"parse_binop.ml" 59 1628 1668 "parse_binop.ml" 59 1628 1670
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 57 1562 1566 "parse_binop.ml" 59 1628 1671
+type(
+  Ast.expr
+)
+"parse_binop.ml" 57 1562 1565 "parse_binop.ml" 59 1628 1672
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 60 1674 1677 "parse_binop.ml" 60 1674 1692
+type(
+  string
+)
+"parse_binop.ml" 56 1535 1537 "parse_binop.ml" 60 1674 1693
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 62 1696 1699 "parse_binop.ml" 62 1696 1717
+type(
+  string
+)
+"parse_binop.ml" 63 1719 1740 "parse_binop.ml" 63 1719 1746
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 63 1719 1747 "parse_binop.ml" 63 1719 1750
+type(
+  string
+)
+"parse_binop.ml" 63 1719 1740 "parse_binop.ml" 63 1719 1750
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 63 1719 1763 "parse_binop.ml" 63 1719 1771
+type(
+  Ast.unary_op
+)
+"parse_binop.ml" 63 1719 1772 "parse_binop.ml" 63 1719 1774
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 63 1719 1751 "parse_binop.ml" 63 1719 1775
+type(
+  Ast.expr
+)
+"parse_binop.ml" 63 1719 1739 "parse_binop.ml" 63 1719 1776
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 63 1719 1777 "parse_binop.ml" 63 1719 1779
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 63 1719 1731 "parse_binop.ml" 63 1719 1780
+type(
+  Ast.expr
+)
+"parse_binop.ml" 64 1782 1787 "parse_binop.ml" 64 1782 1796
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 65 1798 1803 "parse_binop.ml" 65 1798 1809
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 65 1798 1810 "parse_binop.ml" 65 1798 1813
+type(
+  string
+)
+"parse_binop.ml" 65 1798 1803 "parse_binop.ml" 65 1798 1813
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 65 1798 1814 "parse_binop.ml" 65 1798 1816
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 63 1719 1723 "parse_binop.ml" 65 1798 1817
+type(
+  Ast.expr
+)
+"parse_binop.ml" 63 1719 1722 "parse_binop.ml" 65 1798 1818
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 66 1820 1823 "parse_binop.ml" 66 1820 1832
+type(
+  string
+)
+"parse_binop.ml" 62 1696 1698 "parse_binop.ml" 66 1820 1833
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 68 1836 1839 "parse_binop.ml" 68 1836 1843
+type(
+  string
+)
+"parse_binop.ml" 69 1845 1856 "parse_binop.ml" 69 1845 1862
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 69 1845 1863 "parse_binop.ml" 69 1845 1866
+type(
+  string
+)
+"parse_binop.ml" 69 1845 1856 "parse_binop.ml" 69 1845 1866
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 69 1845 1867 "parse_binop.ml" 69 1845 1876
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 69 1845 1877 "parse_binop.ml" 69 1845 1884
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_binop.ml" 69 1845 1885 "parse_binop.ml" 69 1845 1886
+type(
+  int
+)
+"parse_binop.ml" 69 1845 1877 "parse_binop.ml" 69 1845 1886
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 69 1845 1887 "parse_binop.ml" 69 1845 1889
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 69 1845 1848 "parse_binop.ml" 69 1845 1890
+type(
+  Ast.expr
+)
+"parse_binop.ml" 70 1892 1903 "parse_binop.ml" 70 1892 1909
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 70 1892 1910 "parse_binop.ml" 70 1892 1913
+type(
+  string
+)
+"parse_binop.ml" 70 1892 1903 "parse_binop.ml" 70 1892 1913
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 70 1892 1926 "parse_binop.ml" 70 1892 1932
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 70 1892 1915 "parse_binop.ml" 70 1892 1932
+type(
+  Ast.binary_op
+)
+"parse_binop.ml" 70 1892 1934 "parse_binop.ml" 70 1892 1940
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_binop.ml" 70 1892 1941 "parse_binop.ml" 70 1892 1944
+type(
+  string
+)
+"parse_binop.ml" 70 1892 1934 "parse_binop.ml" 70 1892 1944
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_binop.ml" 70 1892 1946 "parse_binop.ml" 70 1892 1948
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_binop.ml" 70 1892 1895 "parse_binop.ml" 70 1892 1949
+type(
+  Ast.expr
+)
+"parse_binop.ml" 69 1845 1847 "parse_binop.ml" 70 1892 1950
+type(
+  Ast.expr list
+)
+"parse_binop.ml" 71 1952 1954 "parse_binop.ml" 71 1952 1966
+type(
+  string
+)
+"parse_binop.ml" 68 1836 1838 "parse_binop.ml" 71 1952 1967
+type(
+  string * Ast.expr list * string
+)
+"parse_binop.ml" 34 817 829 "parse_binop.ml" 73 1970 1971
+type(
+  (string * Ast.expr list * string) list
+)
+"parse_binop.ml" 75 1973 1977 "parse_binop.ml" 75 1973 1982
+type(
+  OUnit.test
+)
+ident(
+  def suite "parse_binop.ml" 76 2020 2079 --
+)
+"parse_binop.ml" 75 1973 1985 "parse_binop.ml" 75 1973 2014
+type(
+  string
+)
+"parse_binop.ml" 75 1973 2015 "parse_binop.ml" 75 1973 2019
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parse_binop.ml" 76 2020 2023 "parse_binop.ml" 76 2020 2031
+type(
+  (string * Ast.ast * string -> OUnit.test) ->
+  (string * Ast.ast * string) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_binop.ml" 76 2020 2032 "parse_binop.ml" 76 2020 2043
+type(
+  string * Ast.ast * string -> OUnit.test
+)
+ident(
+  ext_ref Test_helper.simple_test
+)
+"parse_binop.ml" 76 2020 2044 "parse_binop.ml" 76 2020 2049
+type(
+  (string * Ast.ast * string) list
+)
+ident(
+  int_ref tests "parse_binop.ml" 34 817 821 "parse_binop.ml" 34 817 826
+)
+"parse_binop.ml" 76 2020 2022 "parse_binop.ml" 76 2020 2050
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_binop.ml" 76 2020 2051 "parse_binop.ml" 76 2020 2052
+type(
+  OUnit.test list -> OUnit.test list -> OUnit.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"parse_binop.ml" 76 2020 2053 "parse_binop.ml" 76 2020 2076
+type(
+  unit -> OUnit.test list
+)
+ident(
+  int_ref test_parse_all_builtins "parse_binop.ml" 17 338 342 "parse_binop.ml" 17 338 365
+)
+"parse_binop.ml" 76 2020 2077 "parse_binop.ml" 76 2020 2079
+type(
+  unit
+)
+"parse_binop.ml" 76 2020 2053 "parse_binop.ml" 76 2020 2079
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_binop.ml" 76 2020 2022 "parse_binop.ml" 76 2020 2079
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_binop.ml" 75 1973 1985 "parse_binop.ml" 76 2020 2079
+call(
+  stack
+)
+type(
+  OUnit.test
+)

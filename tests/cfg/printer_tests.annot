@@ -1,0 +1,624 @@
+"printer_tests.ml" 5 34 38 "printer_tests.ml" 5 34 43
+type(
+  string -> string
+)
+ident(
+  def chomp "printer_tests.ml" 13 182 182 --
+)
+"printer_tests.ml" 5 34 44 "printer_tests.ml" 5 34 45
+type(
+  string
+)
+ident(
+  def s "printer_tests.ml" 6 49 51 "printer_tests.ml" 10 165 175
+)
+"printer_tests.ml" 6 49 55 "printer_tests.ml" 6 49 58
+type(
+  int
+)
+"printer_tests.ml" 6 49 61 "printer_tests.ml" 6 49 74
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"printer_tests.ml" 6 49 75 "printer_tests.ml" 6 49 76
+type(
+  string
+)
+ident(
+  int_ref s "printer_tests.ml" 5 34 44 "printer_tests.ml" 5 34 45
+)
+"printer_tests.ml" 6 49 61 "printer_tests.ml" 6 49 76
+type(
+  int
+)
+"printer_tests.ml" 7 80 87 "printer_tests.ml" 7 80 90
+type(
+  int
+)
+ident(
+  int_ref len "printer_tests.ml" 6 49 55 "printer_tests.ml" 6 49 58
+)
+"printer_tests.ml" 7 80 91 "printer_tests.ml" 7 80 92
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"printer_tests.ml" 7 80 93 "printer_tests.ml" 7 80 94
+type(
+  int
+)
+"printer_tests.ml" 7 80 87 "printer_tests.ml" 7 80 94
+type(
+  bool
+)
+"printer_tests.ml" 7 80 100 "printer_tests.ml" 7 80 101
+type(
+  string
+)
+ident(
+  int_ref s "printer_tests.ml" 5 34 44 "printer_tests.ml" 5 34 45
+)
+"printer_tests.ml" 8 102 114 "printer_tests.ml" 8 102 115
+type(
+  string
+)
+ident(
+  int_ref s "printer_tests.ml" 5 34 44 "printer_tests.ml" 5 34 45
+)
+"printer_tests.ml" 8 102 117 "printer_tests.ml" 8 102 120
+type(
+  int
+)
+ident(
+  int_ref len "printer_tests.ml" 6 49 55 "printer_tests.ml" 6 49 58
+)
+"printer_tests.ml" 8 102 120 "printer_tests.ml" 8 102 121
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"printer_tests.ml" 8 102 121 "printer_tests.ml" 8 102 122
+type(
+  int
+)
+"printer_tests.ml" 8 102 117 "printer_tests.ml" 8 102 122
+type(
+  int
+)
+"printer_tests.ml" 8 102 114 "printer_tests.ml" 8 102 123
+type(
+  char
+)
+"printer_tests.ml" 8 102 124 "printer_tests.ml" 8 102 126
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"printer_tests.ml" 8 102 127 "printer_tests.ml" 8 102 131
+type(
+  char
+)
+"printer_tests.ml" 8 102 114 "printer_tests.ml" 8 102 131
+type(
+  bool
+)
+"printer_tests.ml" 9 133 142 "printer_tests.ml" 9 133 152
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"printer_tests.ml" 9 133 153 "printer_tests.ml" 9 133 154
+type(
+  string
+)
+ident(
+  int_ref s "printer_tests.ml" 5 34 44 "printer_tests.ml" 5 34 45
+)
+"printer_tests.ml" 9 133 155 "printer_tests.ml" 9 133 156
+type(
+  int
+)
+"printer_tests.ml" 9 133 158 "printer_tests.ml" 9 133 161
+type(
+  int
+)
+ident(
+  int_ref len "printer_tests.ml" 6 49 55 "printer_tests.ml" 6 49 58
+)
+"printer_tests.ml" 9 133 161 "printer_tests.ml" 9 133 162
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"printer_tests.ml" 9 133 162 "printer_tests.ml" 9 133 163
+type(
+  int
+)
+"printer_tests.ml" 9 133 157 "printer_tests.ml" 9 133 164
+type(
+  int
+)
+"printer_tests.ml" 9 133 142 "printer_tests.ml" 9 133 164
+call(
+  tail
+)
+type(
+  string
+)
+"printer_tests.ml" 10 165 174 "printer_tests.ml" 10 165 175
+type(
+  string
+)
+ident(
+  int_ref s "printer_tests.ml" 5 34 44 "printer_tests.ml" 5 34 45
+)
+"printer_tests.ml" 8 102 111 "printer_tests.ml" 10 165 175
+type(
+  string
+)
+"printer_tests.ml" 7 80 84 "printer_tests.ml" 10 165 175
+type(
+  string
+)
+"printer_tests.ml" 6 49 51 "printer_tests.ml" 10 165 175
+type(
+  string
+)
+"printer_tests.ml" 13 182 186 "printer_tests.ml" 13 182 196
+type(
+  string * string * string -> OUnit.test
+)
+ident(
+  def print_test "printer_tests.ml" 26 583 583 --
+)
+"printer_tests.ml" 13 182 198 "printer_tests.ml" 13 182 202
+type(
+  string
+)
+ident(
+  def desc "printer_tests.ml" 14 219 221 "printer_tests.ml" 22 575 579
+)
+"printer_tests.ml" 13 182 203 "printer_tests.ml" 13 182 209
+type(
+  string
+)
+ident(
+  def result "printer_tests.ml" 14 219 221 "printer_tests.ml" 22 575 579
+)
+"printer_tests.ml" 13 182 210 "printer_tests.ml" 13 182 214
+type(
+  string
+)
+ident(
+  def code "printer_tests.ml" 14 219 221 "printer_tests.ml" 22 575 579
+)
+"printer_tests.ml" 13 182 197 "printer_tests.ml" 13 182 215
+type(
+  string * string * string
+)
+"printer_tests.ml" 14 219 225 "printer_tests.ml" 14 219 226
+type(
+  string
+)
+"printer_tests.ml" 14 219 229 "printer_tests.ml" 14 219 233
+type(
+  string
+)
+ident(
+  int_ref desc "printer_tests.ml" 13 182 198 "printer_tests.ml" 13 182 202
+)
+"printer_tests.ml" 14 219 234 "printer_tests.ml" 14 219 235
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"printer_tests.ml" 14 219 236 "printer_tests.ml" 14 219 240
+type(
+  string
+)
+"printer_tests.ml" 14 219 242 "printer_tests.ml" 14 219 243
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"printer_tests.ml" 14 219 244 "printer_tests.ml" 14 219 248
+type(
+  string
+)
+ident(
+  int_ref code "printer_tests.ml" 13 182 210 "printer_tests.ml" 13 182 214
+)
+"printer_tests.ml" 14 219 236 "printer_tests.ml" 14 219 248
+call(
+  stack
+)
+type(
+  string
+)
+"printer_tests.ml" 14 219 229 "printer_tests.ml" 14 219 248
+call(
+  stack
+)
+type(
+  string
+)
+"printer_tests.ml" 15 252 256 "printer_tests.ml" 15 252 257
+type(
+  string
+)
+ident(
+  int_ref d "printer_tests.ml" 14 219 225 "printer_tests.ml" 14 219 226
+)
+"printer_tests.ml" 15 252 258 "printer_tests.ml" 15 252 261
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"printer_tests.ml" 15 252 267 "printer_tests.ml" 15 252 269
+type(
+  unit
+)
+"printer_tests.ml" 16 274 287 "printer_tests.ml" 16 274 307
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Cfg_refactor.re_init
+)
+"printer_tests.ml" 16 274 308 "printer_tests.ml" 16 274 310
+type(
+  unit
+)
+"printer_tests.ml" 16 274 287 "printer_tests.ml" 16 274 310
+call(
+  stack
+)
+type(
+  unit
+)
+"printer_tests.ml" 17 312 329 "printer_tests.ml" 17 312 332
+type(
+  Cfg.stmt
+)
+"printer_tests.ml" 17 312 335 "printer_tests.ml" 17 312 350
+type(
+  string -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg_test_helper.refactor_string
+)
+"printer_tests.ml" 17 312 351 "printer_tests.ml" 17 312 355
+type(
+  string
+)
+ident(
+  int_ref code "printer_tests.ml" 13 182 210 "printer_tests.ml" 13 182 214
+)
+"printer_tests.ml" 17 312 335 "printer_tests.ml" 17 312 355
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"printer_tests.ml" 18 359 376 "printer_tests.ml" 18 359 384
+type(
+  string
+)
+"printer_tests.ml" 18 359 387 "printer_tests.ml" 18 359 424
+type(
+  Cfg.stmt -> string
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.string_of_cfg
+)
+"printer_tests.ml" 18 359 425 "printer_tests.ml" 18 359 428
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "printer_tests.ml" 17 312 329 "printer_tests.ml" 17 312 332
+)
+"printer_tests.ml" 18 359 387 "printer_tests.ml" 18 359 428
+call(
+  stack
+)
+type(
+  string
+)
+"printer_tests.ml" 19 432 449 "printer_tests.ml" 19 432 457
+type(
+  string
+)
+"printer_tests.ml" 19 432 460 "printer_tests.ml" 19 432 465
+type(
+  string -> string
+)
+ident(
+  int_ref chomp "printer_tests.ml" 5 34 38 "printer_tests.ml" 5 34 43
+)
+"printer_tests.ml" 19 432 466 "printer_tests.ml" 19 432 474
+type(
+  string
+)
+ident(
+  int_ref code_str "printer_tests.ml" 18 359 376 "printer_tests.ml" 18 359 384
+)
+"printer_tests.ml" 19 432 460 "printer_tests.ml" 19 432 474
+call(
+  stack
+)
+type(
+  string
+)
+"printer_tests.ml" 20 478 486 "printer_tests.ml" 20 478 498
+type(
+  ?cmp:(string -> string -> bool) ->
+  ?printer:(string -> string) ->
+  ?pp_diff:(Format.formatter -> string * string -> unit) ->
+  ?msg:string -> string -> string -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"printer_tests.ml" 20 478 504 "printer_tests.ml" 20 478 507
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"printer_tests.ml" 20 478 522 "printer_tests.ml" 20 478 523
+type(
+  string
+)
+ident(
+  def x "printer_tests.ml" 20 478 527 "printer_tests.ml" 20 478 540
+)
+"printer_tests.ml" 20 478 527 "printer_tests.ml" 20 478 530
+type(
+  string
+)
+"printer_tests.ml" 20 478 531 "printer_tests.ml" 20 478 532
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"printer_tests.ml" 20 478 533 "printer_tests.ml" 20 478 534
+type(
+  string
+)
+ident(
+  int_ref x "printer_tests.ml" 20 478 522 "printer_tests.ml" 20 478 523
+)
+"printer_tests.ml" 20 478 535 "printer_tests.ml" 20 478 536
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"printer_tests.ml" 20 478 537 "printer_tests.ml" 20 478 540
+type(
+  string
+)
+"printer_tests.ml" 20 478 533 "printer_tests.ml" 20 478 540
+call(
+  stack
+)
+type(
+  string
+)
+"printer_tests.ml" 20 478 527 "printer_tests.ml" 20 478 540
+call(
+  tail
+)
+type(
+  string
+)
+"printer_tests.ml" 20 478 517 "printer_tests.ml" 20 478 541
+type(
+  string -> string
+)
+"printer_tests.ml" 21 542 559 "printer_tests.ml" 21 542 565
+type(
+  string
+)
+ident(
+  int_ref result "printer_tests.ml" 13 182 203 "printer_tests.ml" 13 182 209
+)
+"printer_tests.ml" 21 542 566 "printer_tests.ml" 21 542 574
+type(
+  string
+)
+ident(
+  int_ref code_str "printer_tests.ml" 19 432 449 "printer_tests.ml" 19 432 457
+)
+"printer_tests.ml" 20 478 486 "printer_tests.ml" 21 542 574
+call(
+  tail
+)
+type(
+  unit
+)
+"printer_tests.ml" 19 432 445 "printer_tests.ml" 21 542 574
+type(
+  unit
+)
+"printer_tests.ml" 18 359 372 "printer_tests.ml" 21 542 574
+type(
+  unit
+)
+"printer_tests.ml" 17 312 325 "printer_tests.ml" 21 542 574
+type(
+  unit
+)
+"printer_tests.ml" 16 274 287 "printer_tests.ml" 21 542 574
+type(
+  unit
+)
+"printer_tests.ml" 15 252 262 "printer_tests.ml" 22 575 579
+type(
+  unit -> unit
+)
+"printer_tests.ml" 15 252 256 "printer_tests.ml" 22 575 579
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"printer_tests.ml" 14 219 221 "printer_tests.ml" 22 575 579
+type(
+  OUnit.test
+)
+"printer_tests.ml" 26 583 587 "printer_tests.ml" 26 583 592
+type(
+  (string * string * string) list
+)
+ident(
+  def tests "printer_tests.ml" 48 878 878 --
+)
+"printer_tests.ml" 27 597 600 "printer_tests.ml" 27 597 631
+type(
+  string
+)
+"printer_tests.ml" 28 633 636 "printer_tests.ml" 28 633 649
+type(
+  string
+)
+"printer_tests.ml" 29 651 654 "printer_tests.ml" 29 651 665
+type(
+  string
+)
+"printer_tests.ml" 27 597 599 "printer_tests.ml" 30 666 669
+type(
+  string * string * string
+)
+"printer_tests.ml" 32 672 675 "printer_tests.ml" 32 672 697
+type(
+  string
+)
+"printer_tests.ml" 33 699 702 "printer_tests.ml" 33 699 714
+type(
+  string
+)
+"printer_tests.ml" 34 716 719 "printer_tests.ml" 34 716 727
+type(
+  string
+)
+"printer_tests.ml" 32 672 674 "printer_tests.ml" 35 728 731
+type(
+  string * string * string
+)
+"printer_tests.ml" 37 736 739 "printer_tests.ml" 37 736 759
+type(
+  string
+)
+"printer_tests.ml" 38 761 764 "printer_tests.ml" 38 761 777
+type(
+  string
+)
+"printer_tests.ml" 39 779 782 "printer_tests.ml" 39 779 793
+type(
+  string
+)
+"printer_tests.ml" 37 736 738 "printer_tests.ml" 40 794 797
+type(
+  string * string * string
+)
+"printer_tests.ml" 42 800 803 "printer_tests.ml" 42 800 829
+type(
+  string
+)
+"printer_tests.ml" 43 831 834 "printer_tests.ml" 43 831 849
+type(
+  string
+)
+"printer_tests.ml" 44 851 854 "printer_tests.ml" 44 851 869
+type(
+  string
+)
+"printer_tests.ml" 42 800 802 "printer_tests.ml" 45 870 873
+type(
+  string * string * string
+)
+"printer_tests.ml" 26 583 595 "printer_tests.ml" 46 875 876
+type(
+  (string * string * string) list
+)
+"printer_tests.ml" 48 878 882 "printer_tests.ml" 48 878 887
+type(
+  OUnit.test
+)
+ident(
+  def suite "printer_tests.ml" 49 911 938 --
+)
+"printer_tests.ml" 48 878 890 "printer_tests.ml" 48 878 905
+type(
+  string
+)
+"printer_tests.ml" 48 878 906 "printer_tests.ml" 48 878 910
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"printer_tests.ml" 49 911 913 "printer_tests.ml" 49 911 921
+type(
+  (string * string * string -> OUnit.test) ->
+  (string * string * string) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"printer_tests.ml" 49 911 922 "printer_tests.ml" 49 911 932
+type(
+  string * string * string -> OUnit.test
+)
+ident(
+  int_ref print_test "printer_tests.ml" 13 182 186 "printer_tests.ml" 13 182 196
+)
+"printer_tests.ml" 49 911 933 "printer_tests.ml" 49 911 938
+type(
+  (string * string * string) list
+)
+ident(
+  int_ref tests "printer_tests.ml" 26 583 587 "printer_tests.ml" 26 583 592
+)
+"printer_tests.ml" 49 911 913 "printer_tests.ml" 49 911 938
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"printer_tests.ml" 48 878 890 "printer_tests.ml" 49 911 938
+call(
+  stack
+)
+type(
+  OUnit.test
+)

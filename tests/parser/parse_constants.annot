@@ -1,0 +1,1176 @@
+"parse_constants.ml" 6 39 43 "parse_constants.ml" 6 39 48
+type(
+  (string * Ast.expr list * string) list
+)
+ident(
+  def tests "parse_constants.ml" 55 1806 1806 --
+)
+"parse_constants.ml" 7 53 56 "parse_constants.ml" 7 53 64
+type(
+  string
+)
+"parse_constants.ml" 8 66 92 "parse_constants.ml" 8 66 117
+type(
+  string -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_string
+)
+"parse_constants.ml" 8 66 118 "parse_constants.ml" 8 66 140
+type(
+  string
+)
+"parse_constants.ml" 8 66 91 "parse_constants.ml" 8 66 141
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"parse_constants.ml" 8 66 80 "parse_constants.ml" 8 66 141
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 8 66 142 "parse_constants.ml" 8 66 144
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 8 66 70 "parse_constants.ml" 8 66 145
+type(
+  Ast.expr
+)
+"parse_constants.ml" 8 66 69 "parse_constants.ml" 8 66 146
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 9 148 151 "parse_constants.ml" 9 148 173
+type(
+  string
+)
+"parse_constants.ml" 7 53 55 "parse_constants.ml" 9 148 174
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 11 177 180 "parse_constants.ml" 11 177 192
+type(
+  string
+)
+"parse_constants.ml" 12 194 220 "parse_constants.ml" 12 194 245
+type(
+  string -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_string
+)
+"parse_constants.ml" 12 194 246 "parse_constants.ml" 12 194 267
+type(
+  string
+)
+"parse_constants.ml" 12 194 219 "parse_constants.ml" 12 194 268
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"parse_constants.ml" 12 194 208 "parse_constants.ml" 12 194 268
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 12 194 269 "parse_constants.ml" 12 194 271
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 12 194 198 "parse_constants.ml" 12 194 272
+type(
+  Ast.expr
+)
+"parse_constants.ml" 12 194 197 "parse_constants.ml" 12 194 273
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 13 275 278 "parse_constants.ml" 13 275 301
+type(
+  string
+)
+"parse_constants.ml" 11 177 179 "parse_constants.ml" 13 275 302
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 15 305 308 "parse_constants.ml" 15 305 317
+type(
+  string
+)
+"parse_constants.ml" 15 305 341 "parse_constants.ml" 15 305 346
+type(
+  int
+)
+"parse_constants.ml" 15 305 330 "parse_constants.ml" 15 305 346
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 15 305 347 "parse_constants.ml" 15 305 349
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 15 305 320 "parse_constants.ml" 15 305 350
+type(
+  Ast.expr
+)
+"parse_constants.ml" 15 305 319 "parse_constants.ml" 15 305 351
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 15 305 353 "parse_constants.ml" 15 305 362
+type(
+  string
+)
+"parse_constants.ml" 15 305 307 "parse_constants.ml" 15 305 363
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 16 365 368 "parse_constants.ml" 16 365 377
+type(
+  string
+)
+"parse_constants.ml" 16 365 401 "parse_constants.ml" 16 365 406
+type(
+  int
+)
+"parse_constants.ml" 16 365 390 "parse_constants.ml" 16 365 406
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 16 365 407 "parse_constants.ml" 16 365 409
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 16 365 380 "parse_constants.ml" 16 365 410
+type(
+  Ast.expr
+)
+"parse_constants.ml" 16 365 379 "parse_constants.ml" 16 365 411
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 16 365 413 "parse_constants.ml" 16 365 423
+type(
+  string
+)
+"parse_constants.ml" 16 365 367 "parse_constants.ml" 16 365 424
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 17 426 429 "parse_constants.ml" 17 426 438
+type(
+  string
+)
+"parse_constants.ml" 17 426 462 "parse_constants.ml" 17 426 467
+type(
+  int
+)
+"parse_constants.ml" 17 426 451 "parse_constants.ml" 17 426 467
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 17 426 468 "parse_constants.ml" 17 426 470
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 17 426 441 "parse_constants.ml" 17 426 471
+type(
+  Ast.expr
+)
+"parse_constants.ml" 17 426 440 "parse_constants.ml" 17 426 472
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 17 426 474 "parse_constants.ml" 17 426 484
+type(
+  string
+)
+"parse_constants.ml" 17 426 428 "parse_constants.ml" 17 426 485
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 19 488 491 "parse_constants.ml" 19 488 500
+type(
+  string
+)
+"parse_constants.ml" 19 488 524 "parse_constants.ml" 19 488 529
+type(
+  int
+)
+"parse_constants.ml" 19 488 513 "parse_constants.ml" 19 488 529
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 19 488 530 "parse_constants.ml" 19 488 532
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 19 488 503 "parse_constants.ml" 19 488 533
+type(
+  Ast.expr
+)
+"parse_constants.ml" 19 488 502 "parse_constants.ml" 19 488 534
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 19 488 536 "parse_constants.ml" 19 488 549
+type(
+  string
+)
+"parse_constants.ml" 19 488 490 "parse_constants.ml" 19 488 550
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 21 553 556 "parse_constants.ml" 21 553 570
+type(
+  string
+)
+"parse_constants.ml" 22 572 598 "parse_constants.ml" 22 572 623
+type(
+  string -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_string
+)
+"parse_constants.ml" 22 572 624 "parse_constants.ml" 22 572 645
+type(
+  string
+)
+"parse_constants.ml" 22 572 597 "parse_constants.ml" 22 572 646
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"parse_constants.ml" 22 572 586 "parse_constants.ml" 22 572 646
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 22 572 647 "parse_constants.ml" 22 572 649
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 22 572 576 "parse_constants.ml" 22 572 650
+type(
+  Ast.expr
+)
+"parse_constants.ml" 22 572 575 "parse_constants.ml" 22 572 651
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 23 653 656 "parse_constants.ml" 23 653 680
+type(
+  string
+)
+"parse_constants.ml" 21 553 555 "parse_constants.ml" 23 653 681
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 25 684 687 "parse_constants.ml" 25 684 695
+type(
+  string
+)
+"parse_constants.ml" 25 684 697 "parse_constants.ml" 25 684 704
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_constants.ml" 25 684 705 "parse_constants.ml" 25 684 709
+type(
+  int
+)
+"parse_constants.ml" 25 684 697 "parse_constants.ml" 25 684 709
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 25 684 696 "parse_constants.ml" 25 684 710
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 25 684 712 "parse_constants.ml" 25 684 718
+type(
+  string
+)
+"parse_constants.ml" 25 684 686 "parse_constants.ml" 25 684 719
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 26 721 724 "parse_constants.ml" 26 721 739
+type(
+  string
+)
+"parse_constants.ml" 26 721 742 "parse_constants.ml" 26 721 749
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_constants.ml" 26 721 750 "parse_constants.ml" 26 721 752
+type(
+  int
+)
+"parse_constants.ml" 26 721 742 "parse_constants.ml" 26 721 752
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 26 721 741 "parse_constants.ml" 26 721 753
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 26 721 755 "parse_constants.ml" 26 721 763
+type(
+  string
+)
+"parse_constants.ml" 26 721 723 "parse_constants.ml" 26 721 764
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 27 766 769 "parse_constants.ml" 27 766 776
+type(
+  string
+)
+"parse_constants.ml" 27 766 779 "parse_constants.ml" 27 766 788
+type(
+  float -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_float
+)
+"parse_constants.ml" 27 766 789 "parse_constants.ml" 27 766 792
+type(
+  float
+)
+"parse_constants.ml" 27 766 779 "parse_constants.ml" 27 766 792
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 27 766 778 "parse_constants.ml" 27 766 793
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 27 766 795 "parse_constants.ml" 27 766 800
+type(
+  string
+)
+"parse_constants.ml" 27 766 768 "parse_constants.ml" 27 766 801
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 28 803 806 "parse_constants.ml" 28 803 811
+type(
+  string
+)
+"parse_constants.ml" 28 803 814 "parse_constants.ml" 28 803 823
+type(
+  float -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_float
+)
+"parse_constants.ml" 28 803 824 "parse_constants.ml" 28 803 830
+type(
+  float
+)
+"parse_constants.ml" 28 803 814 "parse_constants.ml" 28 803 830
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 28 803 813 "parse_constants.ml" 28 803 831
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 28 803 833 "parse_constants.ml" 28 803 841
+type(
+  string
+)
+"parse_constants.ml" 28 803 805 "parse_constants.ml" 28 803 842
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 29 844 847 "parse_constants.ml" 29 844 853
+type(
+  string
+)
+"parse_constants.ml" 29 844 856 "parse_constants.ml" 29 844 865
+type(
+  float -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_float
+)
+"parse_constants.ml" 29 844 866 "parse_constants.ml" 29 844 872
+type(
+  float
+)
+"parse_constants.ml" 29 844 856 "parse_constants.ml" 29 844 872
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 29 844 855 "parse_constants.ml" 29 844 873
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 29 844 875 "parse_constants.ml" 29 844 884
+type(
+  string
+)
+"parse_constants.ml" 29 844 846 "parse_constants.ml" 29 844 885
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 31 888 891 "parse_constants.ml" 31 888 897
+type(
+  string
+)
+"parse_constants.ml" 31 888 901 "parse_constants.ml" 31 888 909
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_atom
+)
+"parse_constants.ml" 31 888 910 "parse_constants.ml" 31 888 913
+type(
+  string
+)
+"parse_constants.ml" 31 888 901 "parse_constants.ml" 31 888 913
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 31 888 900 "parse_constants.ml" 31 888 914
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 31 888 917 "parse_constants.ml" 31 888 921
+type(
+  string
+)
+"parse_constants.ml" 31 888 890 "parse_constants.ml" 31 888 922
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 32 924 927 "parse_constants.ml" 32 924 942
+type(
+  string
+)
+"parse_constants.ml" 32 924 945 "parse_constants.ml" 32 924 953
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_atom
+)
+"parse_constants.ml" 32 924 954 "parse_constants.ml" 32 924 958
+type(
+  string
+)
+"parse_constants.ml" 32 924 945 "parse_constants.ml" 32 924 958
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 32 924 944 "parse_constants.ml" 32 924 959
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 32 924 962 "parse_constants.ml" 32 924 967
+type(
+  string
+)
+"parse_constants.ml" 32 924 926 "parse_constants.ml" 32 924 968
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 33 970 973 "parse_constants.ml" 33 970 996
+type(
+  string
+)
+"parse_constants.ml" 34 998 1031 "parse_constants.ml" 34 998 1034
+type(
+  string
+)
+"parse_constants.ml" 34 998 1022 "parse_constants.ml" 34 998 1034
+type(
+  Ast.string_contents
+)
+"parse_constants.ml" 34 998 1044 "parse_constants.ml" 34 998 1050
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_constants.ml" 34 998 1051 "parse_constants.ml" 34 998 1054
+type(
+  string
+)
+"parse_constants.ml" 34 998 1043 "parse_constants.ml" 34 998 1055
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 34 998 1035 "parse_constants.ml" 34 998 1055
+type(
+  Ast.string_contents
+)
+"parse_constants.ml" 34 998 1021 "parse_constants.ml" 34 998 1056
+type(
+  Ast.interp_string
+)
+"parse_constants.ml" 34 998 1012 "parse_constants.ml" 34 998 1056
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 34 998 1058 "parse_constants.ml" 34 998 1060
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 34 998 1002 "parse_constants.ml" 34 998 1061
+type(
+  Ast.expr
+)
+"parse_constants.ml" 34 998 1001 "parse_constants.ml" 34 998 1062
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 35 1065 1067 "parse_constants.ml" 35 1065 1079
+type(
+  string
+)
+"parse_constants.ml" 33 970 972 "parse_constants.ml" 35 1065 1080
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 37 1083 1086 "parse_constants.ml" 37 1083 1091
+type(
+  string
+)
+"parse_constants.ml" 37 1083 1106 "parse_constants.ml" 37 1083 1113
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 37 1083 1114 "parse_constants.ml" 37 1083 1116
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 37 1083 1096 "parse_constants.ml" 37 1083 1117
+type(
+  Ast.expr
+)
+"parse_constants.ml" 37 1083 1095 "parse_constants.ml" 37 1083 1118
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 37 1083 1126 "parse_constants.ml" 37 1083 1131
+type(
+  string
+)
+"parse_constants.ml" 37 1083 1085 "parse_constants.ml" 37 1083 1132
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 38 1134 1137 "parse_constants.ml" 38 1134 1144
+type(
+  string
+)
+"parse_constants.ml" 38 1134 1155 "parse_constants.ml" 38 1134 1157
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 38 1134 1158 "parse_constants.ml" 38 1134 1160
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 38 1134 1147 "parse_constants.ml" 38 1134 1161
+type(
+  Ast.expr
+)
+"parse_constants.ml" 38 1134 1146 "parse_constants.ml" 38 1134 1162
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 38 1134 1169 "parse_constants.ml" 38 1134 1176
+type(
+  string
+)
+"parse_constants.ml" 38 1134 1136 "parse_constants.ml" 38 1134 1177
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 40 1180 1183 "parse_constants.ml" 40 1180 1189
+type(
+  string
+)
+"parse_constants.ml" 40 1180 1203 "parse_constants.ml" 40 1180 1211
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 40 1180 1212 "parse_constants.ml" 40 1180 1214
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 40 1180 1193 "parse_constants.ml" 40 1180 1215
+type(
+  Ast.expr
+)
+"parse_constants.ml" 40 1180 1192 "parse_constants.ml" 40 1180 1216
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 40 1180 1219 "parse_constants.ml" 40 1180 1225
+type(
+  string
+)
+"parse_constants.ml" 40 1180 1182 "parse_constants.ml" 40 1180 1226
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 41 1228 1231 "parse_constants.ml" 41 1228 1238
+type(
+  string
+)
+"parse_constants.ml" 41 1228 1251 "parse_constants.ml" 41 1228 1260
+type(
+  Ast.lit_kind
+)
+"parse_constants.ml" 41 1228 1261 "parse_constants.ml" 41 1228 1263
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 41 1228 1241 "parse_constants.ml" 41 1228 1264
+type(
+  Ast.expr
+)
+"parse_constants.ml" 41 1228 1240 "parse_constants.ml" 41 1228 1265
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 41 1228 1267 "parse_constants.ml" 41 1228 1274
+type(
+  string
+)
+"parse_constants.ml" 41 1228 1230 "parse_constants.ml" 41 1228 1275
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 42 1277 1280 "parse_constants.ml" 42 1277 1287
+type(
+  string
+)
+"parse_constants.ml" 42 1277 1303 "parse_constants.ml" 42 1277 1315
+type(
+  Ast.id_kind
+)
+"parse_constants.ml" 42 1277 1317 "parse_constants.ml" 42 1277 1324
+type(
+  string
+)
+"parse_constants.ml" 42 1277 1325 "parse_constants.ml" 42 1277 1327
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 42 1277 1290 "parse_constants.ml" 42 1277 1328
+type(
+  Ast.expr
+)
+"parse_constants.ml" 42 1277 1289 "parse_constants.ml" 42 1277 1329
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 42 1277 1331 "parse_constants.ml" 42 1277 1338
+type(
+  string
+)
+"parse_constants.ml" 42 1277 1279 "parse_constants.ml" 42 1277 1339
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 43 1341 1344 "parse_constants.ml" 43 1341 1350
+type(
+  string
+)
+"parse_constants.ml" 43 1341 1367 "parse_constants.ml" 43 1341 1379
+type(
+  Ast.id_kind
+)
+"parse_constants.ml" 43 1341 1381 "parse_constants.ml" 43 1341 1387
+type(
+  string
+)
+"parse_constants.ml" 43 1341 1388 "parse_constants.ml" 43 1341 1390
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 43 1341 1354 "parse_constants.ml" 43 1341 1391
+type(
+  Ast.expr
+)
+"parse_constants.ml" 43 1341 1353 "parse_constants.ml" 43 1341 1392
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 43 1341 1395 "parse_constants.ml" 43 1341 1401
+type(
+  string
+)
+"parse_constants.ml" 43 1341 1343 "parse_constants.ml" 43 1341 1402
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 44 1404 1407 "parse_constants.ml" 44 1404 1413
+type(
+  string
+)
+"parse_constants.ml" 44 1404 1430 "parse_constants.ml" 44 1404 1442
+type(
+  Ast.id_kind
+)
+"parse_constants.ml" 44 1404 1444 "parse_constants.ml" 44 1404 1450
+type(
+  string
+)
+"parse_constants.ml" 44 1404 1451 "parse_constants.ml" 44 1404 1453
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_constants.ml" 44 1404 1417 "parse_constants.ml" 44 1404 1454
+type(
+  Ast.expr
+)
+"parse_constants.ml" 44 1404 1416 "parse_constants.ml" 44 1404 1455
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 44 1404 1458 "parse_constants.ml" 44 1404 1464
+type(
+  string
+)
+"parse_constants.ml" 44 1404 1406 "parse_constants.ml" 44 1404 1465
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 45 1467 1470 "parse_constants.ml" 45 1467 1483
+type(
+  string
+)
+"parse_constants.ml" 45 1467 1486 "parse_constants.ml" 45 1467 1494
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_atom
+)
+"parse_constants.ml" 45 1467 1495 "parse_constants.ml" 45 1467 1505
+type(
+  string
+)
+"parse_constants.ml" 45 1467 1486 "parse_constants.ml" 45 1467 1505
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 45 1467 1485 "parse_constants.ml" 45 1467 1506
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 45 1467 1508 "parse_constants.ml" 45 1467 1523
+type(
+  string
+)
+"parse_constants.ml" 45 1467 1469 "parse_constants.ml" 45 1467 1524
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 46 1526 1529 "parse_constants.ml" 46 1526 1549
+type(
+  string
+)
+"parse_constants.ml" 46 1526 1552 "parse_constants.ml" 46 1526 1560
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_atom
+)
+"parse_constants.ml" 46 1526 1561 "parse_constants.ml" 46 1526 1576
+type(
+  string
+)
+"parse_constants.ml" 46 1526 1552 "parse_constants.ml" 46 1526 1576
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 46 1526 1551 "parse_constants.ml" 46 1526 1577
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 46 1526 1579 "parse_constants.ml" 46 1526 1597
+type(
+  string
+)
+"parse_constants.ml" 46 1526 1528 "parse_constants.ml" 46 1526 1598
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 48 1603 1606 "parse_constants.ml" 48 1603 1610
+type(
+  string
+)
+"parse_constants.ml" 48 1603 1613 "parse_constants.ml" 48 1603 1620
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_constants.ml" 48 1603 1621 "parse_constants.ml" 48 1603 1623
+type(
+  int
+)
+"parse_constants.ml" 48 1603 1613 "parse_constants.ml" 48 1603 1623
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 48 1603 1612 "parse_constants.ml" 48 1603 1624
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 48 1603 1626 "parse_constants.ml" 48 1603 1630
+type(
+  string
+)
+"parse_constants.ml" 48 1603 1605 "parse_constants.ml" 48 1603 1631
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 49 1633 1636 "parse_constants.ml" 49 1633 1644
+type(
+  string
+)
+"parse_constants.ml" 49 1633 1647 "parse_constants.ml" 49 1633 1654
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_constants.ml" 49 1633 1655 "parse_constants.ml" 49 1633 1656
+type(
+  int
+)
+"parse_constants.ml" 49 1633 1647 "parse_constants.ml" 49 1633 1656
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 49 1633 1646 "parse_constants.ml" 49 1633 1657
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 49 1633 1659 "parse_constants.ml" 49 1633 1667
+type(
+  string
+)
+"parse_constants.ml" 49 1633 1635 "parse_constants.ml" 49 1633 1668
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 50 1670 1673 "parse_constants.ml" 50 1670 1681
+type(
+  string
+)
+"parse_constants.ml" 50 1670 1684 "parse_constants.ml" 50 1670 1691
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_constants.ml" 50 1670 1692 "parse_constants.ml" 50 1670 1695
+type(
+  int
+)
+"parse_constants.ml" 50 1670 1684 "parse_constants.ml" 50 1670 1695
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 50 1670 1683 "parse_constants.ml" 50 1670 1696
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 50 1670 1698 "parse_constants.ml" 50 1670 1706
+type(
+  string
+)
+"parse_constants.ml" 50 1670 1672 "parse_constants.ml" 50 1670 1707
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 51 1709 1712 "parse_constants.ml" 51 1709 1724
+type(
+  string
+)
+"parse_constants.ml" 51 1709 1727 "parse_constants.ml" 51 1709 1734
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_constants.ml" 51 1709 1735 "parse_constants.ml" 51 1709 1738
+type(
+  int
+)
+"parse_constants.ml" 51 1709 1727 "parse_constants.ml" 51 1709 1738
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 51 1709 1726 "parse_constants.ml" 51 1709 1739
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 51 1709 1741 "parse_constants.ml" 51 1709 1753
+type(
+  string
+)
+"parse_constants.ml" 51 1709 1711 "parse_constants.ml" 51 1709 1754
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 52 1756 1759 "parse_constants.ml" 52 1756 1771
+type(
+  string
+)
+"parse_constants.ml" 52 1756 1774 "parse_constants.ml" 52 1756 1781
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_constants.ml" 52 1756 1782 "parse_constants.ml" 52 1756 1785
+type(
+  int
+)
+"parse_constants.ml" 52 1756 1774 "parse_constants.ml" 52 1756 1785
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_constants.ml" 52 1756 1773 "parse_constants.ml" 52 1756 1786
+type(
+  Ast.expr list
+)
+"parse_constants.ml" 52 1756 1788 "parse_constants.ml" 52 1756 1800
+type(
+  string
+)
+"parse_constants.ml" 52 1756 1758 "parse_constants.ml" 52 1756 1801
+type(
+  string * Ast.expr list * string
+)
+"parse_constants.ml" 6 39 51 "parse_constants.ml" 53 1803 1804
+type(
+  (string * Ast.expr list * string) list
+)
+"parse_constants.ml" 55 1806 1810 "parse_constants.ml" 55 1806 1817
+type(
+  'a list
+)
+ident(
+  def ignores "parse_constants.ml" 58 1825 1825 --
+)
+"parse_constants.ml" 55 1806 1820 "parse_constants.ml" 56 1822 1823
+type(
+  'a list
+)
+"parse_constants.ml" 58 1825 1829 "parse_constants.ml" 58 1825 1834
+type(
+  OUnit.test
+)
+ident(
+  def suite "parse_constants.ml" 59 1865 1931 --
+)
+"parse_constants.ml" 58 1825 1837 "parse_constants.ml" 58 1825 1859
+type(
+  string
+)
+"parse_constants.ml" 58 1825 1860 "parse_constants.ml" 58 1825 1864
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parse_constants.ml" 59 1865 1867 "parse_constants.ml" 59 1865 1875
+type(
+  (string * Ast.ast * string -> OUnit.test) ->
+  (string * Ast.ast * string) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_constants.ml" 59 1865 1876 "parse_constants.ml" 59 1865 1887
+type(
+  string * Ast.ast * string -> OUnit.test
+)
+ident(
+  ext_ref Test_helper.simple_test
+)
+"parse_constants.ml" 59 1865 1888 "parse_constants.ml" 59 1865 1893
+type(
+  (string * Ast.ast * string) list
+)
+ident(
+  int_ref tests "parse_constants.ml" 6 39 43 "parse_constants.ml" 6 39 48
+)
+"parse_constants.ml" 59 1865 1867 "parse_constants.ml" 59 1865 1893
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_constants.ml" 59 1865 1894 "parse_constants.ml" 59 1865 1895
+type(
+  OUnit.test list -> OUnit.test list -> OUnit.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"parse_constants.ml" 59 1865 1896 "parse_constants.ml" 59 1865 1904
+type(
+  (string * '_a * string -> OUnit.test) ->
+  (string * '_a * string) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_constants.ml" 59 1865 1905 "parse_constants.ml" 59 1865 1923
+type(
+  string * '_a * string -> OUnit.test
+)
+ident(
+  ext_ref Test_helper.simple_test_ignore
+)
+"parse_constants.ml" 59 1865 1924 "parse_constants.ml" 59 1865 1931
+type(
+  (string * '_a * string) list
+)
+ident(
+  int_ref ignores "parse_constants.ml" 55 1806 1810 "parse_constants.ml" 55 1806 1817
+)
+"parse_constants.ml" 59 1865 1896 "parse_constants.ml" 59 1865 1931
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_constants.ml" 59 1865 1867 "parse_constants.ml" 59 1865 1931
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_constants.ml" 58 1825 1837 "parse_constants.ml" 59 1865 1931
+call(
+  stack
+)
+type(
+  OUnit.test
+)

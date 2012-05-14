@@ -1,0 +1,248 @@
+"parser_suite.ml" 4 13 17 "parser_suite.ml" 4 13 27
+type(
+  OUnit.test
+)
+ident(
+  def unit_suite "parser_suite.ml" 22 443 443 --
+)
+"parser_suite.ml" 5 31 33 "parser_suite.ml" 5 31 62
+type(
+  string
+)
+"parser_suite.ml" 5 31 63 "parser_suite.ml" 5 31 67
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parser_suite.ml" 6 69 74 "parser_suite.ml" 6 69 94
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_disambig.suite
+)
+"parser_suite.ml" 7 96 101 "parser_suite.ml" 7 96 122
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_constants.suite
+)
+"parser_suite.ml" 8 124 129 "parser_suite.ml" 8 124 147
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_simple.suite
+)
+"parser_suite.ml" 9 149 154 "parser_suite.ml" 9 149 176
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_identifier.suite
+)
+"parser_suite.ml" 10 178 183 "parser_suite.ml" 10 178 202
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_objects.suite
+)
+"parser_suite.ml" 11 204 209 "parser_suite.ml" 11 204 226
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_binop.suite
+)
+"parser_suite.ml" 12 228 233 "parser_suite.ml" 12 228 250
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_unary.suite
+)
+"parser_suite.ml" 13 252 257 "parser_suite.ml" 13 252 275
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_string.suite
+)
+"parser_suite.ml" 14 277 282 "parser_suite.ml" 14 277 300
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_regexp.suite
+)
+"parser_suite.ml" 15 302 307 "parser_suite.ml" 15 302 326
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_control.suite
+)
+"parser_suite.ml" 16 328 333 "parser_suite.ml" 16 328 355
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_precedence.suite
+)
+"parser_suite.ml" 17 357 362 "parser_suite.ml" 17 357 378
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_misc.suite
+)
+"parser_suite.ml" 18 380 385 "parser_suite.ml" 18 380 405
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_position.suite
+)
+"parser_suite.ml" 19 407 412 "parser_suite.ml" 19 407 434
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_annotation.suite
+)
+"parser_suite.ml" 6 69 73 "parser_suite.ml" 20 436 441
+type(
+  OUnit.test list
+)
+"parser_suite.ml" 5 31 33 "parser_suite.ml" 20 436 441
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"parser_suite.ml" 22 443 447 "parser_suite.ml" 22 443 462
+type(
+  OUnit.test
+)
+ident(
+  def component_suite "parser_suite.ml" 30 601 601 --
+)
+"parser_suite.ml" 23 466 468 "parser_suite.ml" 23 466 497
+type(
+  string
+)
+"parser_suite.ml" 23 466 498 "parser_suite.ml" 23 466 502
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parser_suite.ml" 24 504 513 "parser_suite.ml" 24 504 519
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"parser_suite.ml" 24 504 520 "parser_suite.ml" 24 504 530
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"parser_suite.ml" 24 504 531 "parser_suite.ml" 24 504 541
+type(
+  string
+)
+"parser_suite.ml" 24 504 519 "parser_suite.ml" 24 504 542
+type(
+  string
+)
+"parser_suite.ml" 24 504 513 "parser_suite.ml" 24 504 542
+type(
+  unit
+)
+"parser_suite.ml" 24 504 545 "parser_suite.ml" 24 504 562
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Parse_large.suite
+)
+"parser_suite.ml" 24 504 544 "parser_suite.ml" 24 504 564
+type(
+  OUnit.test list
+)
+"parser_suite.ml" 24 504 513 "parser_suite.ml" 24 504 564
+type(
+  OUnit.test list
+)
+"parser_suite.ml" 25 565 576 "parser_suite.ml" 25 565 585
+type(
+  exn
+)
+"parser_suite.ml" 25 565 589 "parser_suite.ml" 25 565 591
+type(
+  OUnit.test list
+)
+"parser_suite.ml" 24 504 508 "parser_suite.ml" 26 592 597
+type(
+  OUnit.test list
+)
+"parser_suite.ml" 23 466 468 "parser_suite.ml" 26 592 597
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"parser_suite.ml" 30 601 605 "parser_suite.ml" 30 601 610
+type(
+  OUnit.test
+)
+ident(
+  def suite "parser_suite.ml" 31 638 669 --
+)
+"parser_suite.ml" 30 601 613 "parser_suite.ml" 30 601 632
+type(
+  string
+)
+"parser_suite.ml" 30 601 633 "parser_suite.ml" 30 601 637
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parser_suite.ml" 31 638 641 "parser_suite.ml" 31 638 651
+type(
+  OUnit.test
+)
+ident(
+  int_ref unit_suite "parser_suite.ml" 4 13 17 "parser_suite.ml" 4 13 27
+)
+"parser_suite.ml" 31 638 653 "parser_suite.ml" 31 638 668
+type(
+  OUnit.test
+)
+ident(
+  int_ref component_suite "parser_suite.ml" 22 443 447 "parser_suite.ml" 22 443 462
+)
+"parser_suite.ml" 31 638 640 "parser_suite.ml" 31 638 669
+type(
+  OUnit.test list
+)
+"parser_suite.ml" 30 601 613 "parser_suite.ml" 31 638 669
+call(
+  stack
+)
+type(
+  OUnit.test
+)

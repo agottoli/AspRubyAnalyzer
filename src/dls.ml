@@ -4,6 +4,7 @@ open Visitor
 open Utils
 open Cfg_refactor
 open Cfg_printer .CodePrinter
+open Printf
 
 module NilAnalysis = struct
 	type fact = MaybeNil | NonNil
@@ -57,29 +58,48 @@ class safeNil ( ifs , ofs ) = object
 	inherit default_visitor as super
 
 	method visit_stmt node = match node.snode with
+		(*| Method(mname,args,body) -> SkipChildren *)
 		| MethodCall( _ , {mc_target=(Some `ID_Self| None)}) -> SkipChildren 
 		| MethodCall( _ ,
-			{mc_target=Some (`ID_Var(`Var_Local,var) as targ)}) -> 
-			let map = Hashtbl.find ifs node in
-				begin match StrMap.find var map with
+			{mc_target=Some (`ID_Var(`Var_Local,var) as targ)}) ->
+			let map = 
+			Hashtbl.find ifs node in 
+				begin try match StrMap.find var map with
 					| NilAnalysis.MaybeNil -> refactor targ node
 					| NilAnalysis.NonNil -> SkipChildren
+				with Not_found -> print_string("errore");SkipChildren
 				end
-		| MethodCall( _ ,
-			{mc_target=Some (#expr as targ)}) -> refactor targ node
+		| MethodCall( _ ,{mc_target=Some (#expr as targ)}) -> refactor targ node
 		| _ -> super#visit_stmt node
 end
+
+let print_hash (ifs,ofs) = 
+	(*let num1 = Hashtbl.length ifs in
+	let num2 = Hashtbl.length ofs in
+		print_int(num1);print_string(" - ");print_int(num2)*)
+	Hashtbl.iter (fun k v -> 
+		print_stmt stdout k;print_string("\b    -->   ");
+			StrMap.iter (
+				fun k v -> 
+					print_string k;
+					print_string " ###> ";
+					match v with
+					| NilAnalysis.MaybeNil -> print_string "MaybeNil\n"
+					| NilAnalysis.NonNil -> print_string "NonNil\n"
+					) v 
+			) ifs
+	;;
 
 let main fname =
 	let loader = File_loader.create File_loader.EmptyCfg [] in
 	let s = File_loader.load_file loader fname in
 	let () = compute_cfg s in
 	let () = compute_cfg_locals s in
-	
 	let df = DataNil.fixpoint s in
+		print_hash df;printf ("\nfineeeeeee\n");
 	let sn = new safeNil df in
 	let ss = visit_stmt sn s in
-		print_stmt stdout ss
+		printf ("\nfine\n");print_stmt stdout ss
 		
 let _ = 
   if (Array.length Sys.argv) != 2 

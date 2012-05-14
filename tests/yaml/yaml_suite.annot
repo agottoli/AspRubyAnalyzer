@@ -1,0 +1,2203 @@
+"yaml_suite.ml" 5 23 27 "yaml_suite.ml" 5 23 45
+type(
+  Yaml.yaml -> Yaml.yaml
+)
+ident(
+  def yml_to_from_string "yaml_suite.ml" 10 159 159 --
+)
+"yaml_suite.ml" 5 23 46 "yaml_suite.ml" 5 23 49
+type(
+  Yaml.yaml
+)
+ident(
+  def yml "yaml_suite.ml" 6 53 55 "yaml_suite.ml" 8 133 157
+)
+"yaml_suite.ml" 6 53 59 "yaml_suite.ml" 6 53 60
+type(
+  string
+)
+"yaml_suite.ml" 6 53 63 "yaml_suite.ml" 6 53 84
+type(
+  Yaml.yaml -> string
+)
+ident(
+  ext_ref Yaml.emit_yaml_string
+)
+"yaml_suite.ml" 6 53 85 "yaml_suite.ml" 6 53 88
+type(
+  Yaml.yaml
+)
+ident(
+  int_ref yml "yaml_suite.ml" 5 23 46 "yaml_suite.ml" 5 23 49
+)
+"yaml_suite.ml" 6 53 63 "yaml_suite.ml" 6 53 88
+call(
+  stack
+)
+type(
+  string
+)
+"yaml_suite.ml" 8 133 137 "yaml_suite.ml" 8 133 154
+type(
+  ?other:bool -> string -> Yaml.yaml
+)
+ident(
+  ext_ref Yaml.parse_string
+)
+"yaml_suite.ml" 8 133 154 "yaml_suite.ml" 8 133 157
+type(
+  string
+)
+ident(
+  int_ref s "yaml_suite.ml" 6 53 59 "yaml_suite.ml" 6 53 60
+)
+"yaml_suite.ml" 8 133 137 "yaml_suite.ml" 8 133 157
+call(
+  tail
+)
+type(
+  Yaml.yaml
+)
+"yaml_suite.ml" 6 53 55 "yaml_suite.ml" 8 133 157
+type(
+  Yaml.yaml
+)
+"yaml_suite.ml" 10 159 163 "yaml_suite.ml" 10 159 182
+type(
+  ('a -> Yaml.yaml) -> (Yaml.yaml -> 'b) -> 'a -> 'b
+)
+ident(
+  def yaml_to_from_string "yaml_suite.ml" 13 240 240 --
+)
+"yaml_suite.ml" 10 159 183 "yaml_suite.ml" 10 159 187
+type(
+  'a -> Yaml.yaml
+)
+ident(
+  def to_y "yaml_suite.ml" 10 159 188 "yaml_suite.ml" 11 200 238
+)
+"yaml_suite.ml" 10 159 188 "yaml_suite.ml" 10 159 194
+type(
+  Yaml.yaml -> 'b
+)
+ident(
+  def from_y "yaml_suite.ml" 10 159 195 "yaml_suite.ml" 11 200 238
+)
+"yaml_suite.ml" 10 159 195 "yaml_suite.ml" 10 159 196
+type(
+  'a
+)
+ident(
+  def t "yaml_suite.ml" 11 200 202 "yaml_suite.ml" 11 200 238
+)
+"yaml_suite.ml" 11 200 202 "yaml_suite.ml" 11 200 208
+type(
+  Yaml.yaml -> 'b
+)
+ident(
+  int_ref from_y "yaml_suite.ml" 10 159 188 "yaml_suite.ml" 10 159 194
+)
+"yaml_suite.ml" 11 200 210 "yaml_suite.ml" 11 200 228
+type(
+  Yaml.yaml -> Yaml.yaml
+)
+ident(
+  int_ref yml_to_from_string "yaml_suite.ml" 5 23 27 "yaml_suite.ml" 5 23 45
+)
+"yaml_suite.ml" 11 200 230 "yaml_suite.ml" 11 200 234
+type(
+  'a -> Yaml.yaml
+)
+ident(
+  int_ref to_y "yaml_suite.ml" 10 159 183 "yaml_suite.ml" 10 159 187
+)
+"yaml_suite.ml" 11 200 235 "yaml_suite.ml" 11 200 236
+type(
+  'a
+)
+ident(
+  int_ref t "yaml_suite.ml" 10 159 195 "yaml_suite.ml" 10 159 196
+)
+"yaml_suite.ml" 11 200 229 "yaml_suite.ml" 11 200 237
+call(
+  stack
+)
+type(
+  Yaml.yaml
+)
+"yaml_suite.ml" 11 200 209 "yaml_suite.ml" 11 200 238
+call(
+  stack
+)
+type(
+  Yaml.yaml
+)
+"yaml_suite.ml" 11 200 202 "yaml_suite.ml" 11 200 238
+call(
+  tail
+)
+type(
+  'b
+)
+"yaml_suite.ml" 14 297 303 "yaml_suite.ml" 14 297 307
+type(
+  string -> OUnit.test
+)
+ident(
+  def test "yaml_suite.ml" 20 531 548 "yaml_suite.ml" 21 549 552
+)
+"yaml_suite.ml" 14 297 308 "yaml_suite.ml" 14 297 312
+type(
+  string
+)
+ident(
+  def desc "yaml_suite.ml" 15 316 320 "yaml_suite.ml" 20 531 548
+)
+"yaml_suite.ml" 15 316 324 "yaml_suite.ml" 15 316 325
+type(
+  unit -> unit
+)
+"yaml_suite.ml" 15 316 326 "yaml_suite.ml" 15 316 328
+type(
+  unit
+)
+"yaml_suite.ml" 16 332 342 "yaml_suite.ml" 16 332 344
+type(
+  Y.t
+)
+"yaml_suite.ml" 16 332 347 "yaml_suite.ml" 16 332 366
+type(
+  (Y.t -> Yaml.yaml) -> (Yaml.yaml -> Y.t) -> Y.t -> Y.t
+)
+ident(
+  int_ref yaml_to_from_string "yaml_suite.ml" 10 159 163 "yaml_suite.ml" 10 159 182
+)
+"yaml_suite.ml" 16 332 367 "yaml_suite.ml" 16 332 376
+type(
+  Y.t -> Yaml.yaml
+)
+ident(
+  ext_ref Y.to_yaml
+)
+"yaml_suite.ml" 16 332 377 "yaml_suite.ml" 16 332 386
+type(
+  Yaml.yaml -> Y.t
+)
+ident(
+  ext_ref Y.of_yaml
+)
+"yaml_suite.ml" 16 332 387 "yaml_suite.ml" 16 332 390
+type(
+  Y.t
+)
+ident(
+  ext_ref X.x
+)
+"yaml_suite.ml" 16 332 347 "yaml_suite.ml" 16 332 390
+call(
+  stack
+)
+type(
+  Y.t
+)
+"yaml_suite.ml" 17 394 404 "yaml_suite.ml" 17 394 407
+type(
+  Y.t -> Y.t -> bool
+)
+"yaml_suite.ml" 17 394 408 "yaml_suite.ml" 17 394 409
+type(
+  Y.t
+)
+ident(
+  def x "yaml_suite.ml" 17 394 410 "yaml_suite.ml" 17 394 431
+)
+"yaml_suite.ml" 17 394 410 "yaml_suite.ml" 17 394 411
+type(
+  Y.t
+)
+ident(
+  def y "yaml_suite.ml" 17 394 414 "yaml_suite.ml" 17 394 431
+)
+"yaml_suite.ml" 17 394 414 "yaml_suite.ml" 17 394 423
+type(
+  Y.t -> Y.t -> int
+)
+ident(
+  ext_ref Y.compare
+)
+"yaml_suite.ml" 17 394 424 "yaml_suite.ml" 17 394 425
+type(
+  Y.t
+)
+ident(
+  int_ref x "yaml_suite.ml" 17 394 408 "yaml_suite.ml" 17 394 409
+)
+"yaml_suite.ml" 17 394 426 "yaml_suite.ml" 17 394 427
+type(
+  Y.t
+)
+ident(
+  int_ref y "yaml_suite.ml" 17 394 410 "yaml_suite.ml" 17 394 411
+)
+"yaml_suite.ml" 17 394 414 "yaml_suite.ml" 17 394 427
+call(
+  stack
+)
+type(
+  int
+)
+"yaml_suite.ml" 17 394 428 "yaml_suite.ml" 17 394 429
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"yaml_suite.ml" 17 394 430 "yaml_suite.ml" 17 394 431
+type(
+  int
+)
+"yaml_suite.ml" 17 394 414 "yaml_suite.ml" 17 394 431
+type(
+  bool
+)
+"yaml_suite.ml" 18 435 445 "yaml_suite.ml" 18 435 452
+type(
+  Y.t -> string
+)
+"yaml_suite.ml" 18 435 453 "yaml_suite.ml" 18 435 454
+type(
+  Y.t
+)
+ident(
+  def x "yaml_suite.ml" 18 435 457 "yaml_suite.ml" 18 435 485
+)
+"yaml_suite.ml" 18 435 457 "yaml_suite.ml" 18 435 471
+type(
+  Yaml.yaml -> string
+)
+ident(
+  ext_ref Yaml.yaml_to_string
+)
+"yaml_suite.ml" 18 435 473 "yaml_suite.ml" 18 435 482
+type(
+  Y.t -> Yaml.yaml
+)
+ident(
+  ext_ref Y.to_yaml
+)
+"yaml_suite.ml" 18 435 483 "yaml_suite.ml" 18 435 484
+type(
+  Y.t
+)
+ident(
+  int_ref x "yaml_suite.ml" 18 435 453 "yaml_suite.ml" 18 435 454
+)
+"yaml_suite.ml" 18 435 472 "yaml_suite.ml" 18 435 485
+call(
+  stack
+)
+type(
+  Yaml.yaml
+)
+"yaml_suite.ml" 18 435 457 "yaml_suite.ml" 18 435 485
+call(
+  tail
+)
+type(
+  string
+)
+"yaml_suite.ml" 19 489 497 "yaml_suite.ml" 19 489 509
+type(
+  ?cmp:(Y.t -> Y.t -> bool) ->
+  ?printer:(Y.t -> string) ->
+  ?pp_diff:(Format.formatter -> Y.t * Y.t -> unit) ->
+  ?msg:string -> Y.t -> Y.t -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"yaml_suite.ml" 19 489 511 "yaml_suite.ml" 19 489 514
+type(
+  Y.t -> Y.t -> bool
+)
+ident(
+  int_ref cmp "yaml_suite.ml" 17 394 404 "yaml_suite.ml" 17 394 407
+)
+"yaml_suite.ml" 19 489 516 "yaml_suite.ml" 19 489 523
+type(
+  Y.t -> string
+)
+ident(
+  int_ref printer "yaml_suite.ml" 18 435 445 "yaml_suite.ml" 18 435 452
+)
+"yaml_suite.ml" 19 489 524 "yaml_suite.ml" 19 489 527
+type(
+  Y.t
+)
+ident(
+  ext_ref X.x
+)
+"yaml_suite.ml" 19 489 528 "yaml_suite.ml" 19 489 530
+type(
+  Y.t
+)
+ident(
+  int_ref x' "yaml_suite.ml" 16 332 342 "yaml_suite.ml" 16 332 344
+)
+"yaml_suite.ml" 19 489 497 "yaml_suite.ml" 19 489 530
+call(
+  tail
+)
+type(
+  unit
+)
+"yaml_suite.ml" 18 435 441 "yaml_suite.ml" 19 489 530
+type(
+  unit
+)
+"yaml_suite.ml" 17 394 400 "yaml_suite.ml" 19 489 530
+type(
+  unit
+)
+"yaml_suite.ml" 16 332 338 "yaml_suite.ml" 19 489 530
+type(
+  unit
+)
+"yaml_suite.ml" 20 531 538 "yaml_suite.ml" 20 531 542
+type(
+  string
+)
+ident(
+  int_ref desc "yaml_suite.ml" 14 297 308 "yaml_suite.ml" 14 297 312
+)
+"yaml_suite.ml" 20 531 543 "yaml_suite.ml" 20 531 546
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"yaml_suite.ml" 20 531 547 "yaml_suite.ml" 20 531 548
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref f "yaml_suite.ml" 15 316 324 "yaml_suite.ml" 15 316 325
+)
+"yaml_suite.ml" 20 531 538 "yaml_suite.ml" 20 531 548
+call(
+  tail
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 15 316 320 "yaml_suite.ml" 20 531 548
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 23 554 558 "yaml_suite.ml" 23 554 563
+type(
+  OUnit.test list
+)
+ident(
+  def tests "yaml_suite.ml" 219 4747 4747 --
+)
+"yaml_suite.ml" 26 599 616 "yaml_suite.ml" 26 599 617
+type(
+  unit
+)
+ident(
+  def x "yaml_suite.ml" 26 599 622 "yaml_suite.ml" 26 599 626
+)
+"yaml_suite.ml" 26 599 620 "yaml_suite.ml" 26 599 622
+type(
+  unit
+)
+"yaml_suite.ml" 25 569 587 "yaml_suite.ml" 26 599 627
+call(
+  stack
+)
+"yaml_suite.ml" 27 629 635 "yaml_suite.ml" 27 629 641
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 27 629 642 "yaml_suite.ml" 27 629 648
+type(
+  string
+)
+"yaml_suite.ml" 27 629 635 "yaml_suite.ml" 27 629 648
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 25 569 571 "yaml_suite.ml" 28 649 652
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 31 684 701 "yaml_suite.ml" 31 684 702
+type(
+  int
+)
+ident(
+  def x "yaml_suite.ml" 31 684 706 "yaml_suite.ml" 31 684 710
+)
+"yaml_suite.ml" 31 684 705 "yaml_suite.ml" 31 684 706
+type(
+  int
+)
+"yaml_suite.ml" 30 655 673 "yaml_suite.ml" 31 684 711
+call(
+  stack
+)
+"yaml_suite.ml" 32 713 719 "yaml_suite.ml" 32 713 725
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 32 713 726 "yaml_suite.ml" 32 713 731
+type(
+  string
+)
+"yaml_suite.ml" 32 713 719 "yaml_suite.ml" 32 713 731
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 30 655 657 "yaml_suite.ml" 33 732 735
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 36 767 784 "yaml_suite.ml" 36 767 785
+type(
+  int
+)
+ident(
+  def x "yaml_suite.ml" 36 767 790 "yaml_suite.ml" 36 767 794
+)
+"yaml_suite.ml" 36 767 788 "yaml_suite.ml" 36 767 790
+type(
+  int
+)
+"yaml_suite.ml" 35 738 756 "yaml_suite.ml" 36 767 795
+call(
+  stack
+)
+"yaml_suite.ml" 37 797 803 "yaml_suite.ml" 37 797 809
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 37 797 810 "yaml_suite.ml" 37 797 819
+type(
+  string
+)
+"yaml_suite.ml" 37 797 803 "yaml_suite.ml" 37 797 819
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 35 738 740 "yaml_suite.ml" 38 820 823
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 41 859 876 "yaml_suite.ml" 41 859 877
+type(
+  Big_int.big_int
+)
+ident(
+  def x "yaml_suite.ml" 41 859 927 "yaml_suite.ml" 41 859 931
+)
+"yaml_suite.ml" 41 859 880 "yaml_suite.ml" 41 859 905
+type(
+  string -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_string
+)
+"yaml_suite.ml" 41 859 906 "yaml_suite.ml" 41 859 927
+type(
+  string
+)
+"yaml_suite.ml" 41 859 880 "yaml_suite.ml" 41 859 927
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"yaml_suite.ml" 40 826 844 "yaml_suite.ml" 41 859 932
+call(
+  stack
+)
+"yaml_suite.ml" 42 934 940 "yaml_suite.ml" 42 934 946
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 42 934 947 "yaml_suite.ml" 42 934 956
+type(
+  string
+)
+"yaml_suite.ml" 42 934 940 "yaml_suite.ml" 42 934 956
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 40 826 828 "yaml_suite.ml" 43 957 960
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 46 996 1013 "yaml_suite.ml" 46 996 1014
+type(
+  Big_int.big_int
+)
+ident(
+  def x "yaml_suite.ml" 46 996 1065 "yaml_suite.ml" 46 996 1069
+)
+"yaml_suite.ml" 46 996 1017 "yaml_suite.ml" 46 996 1042
+type(
+  string -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_string
+)
+"yaml_suite.ml" 46 996 1043 "yaml_suite.ml" 46 996 1065
+type(
+  string
+)
+"yaml_suite.ml" 46 996 1017 "yaml_suite.ml" 46 996 1065
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"yaml_suite.ml" 45 963 981 "yaml_suite.ml" 46 996 1070
+call(
+  stack
+)
+"yaml_suite.ml" 47 1072 1078 "yaml_suite.ml" 47 1072 1084
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 47 1072 1085 "yaml_suite.ml" 47 1072 1098
+type(
+  string
+)
+"yaml_suite.ml" 47 1072 1078 "yaml_suite.ml" 47 1072 1098
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 45 963 965 "yaml_suite.ml" 48 1099 1102
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 51 1136 1153 "yaml_suite.ml" 51 1136 1154
+type(
+  float
+)
+ident(
+  def x "yaml_suite.ml" 51 1136 1160 "yaml_suite.ml" 51 1136 1164
+)
+"yaml_suite.ml" 51 1136 1157 "yaml_suite.ml" 51 1136 1160
+type(
+  float
+)
+"yaml_suite.ml" 50 1105 1123 "yaml_suite.ml" 51 1136 1165
+call(
+  stack
+)
+"yaml_suite.ml" 52 1167 1173 "yaml_suite.ml" 52 1167 1179
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 52 1167 1180 "yaml_suite.ml" 52 1167 1187
+type(
+  string
+)
+"yaml_suite.ml" 52 1167 1173 "yaml_suite.ml" 52 1167 1187
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 50 1105 1107 "yaml_suite.ml" 53 1188 1191
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 56 1225 1242 "yaml_suite.ml" 56 1225 1243
+type(
+  float
+)
+ident(
+  def x "yaml_suite.ml" 56 1225 1250 "yaml_suite.ml" 56 1225 1254
+)
+"yaml_suite.ml" 56 1225 1246 "yaml_suite.ml" 56 1225 1250
+type(
+  float
+)
+"yaml_suite.ml" 55 1194 1212 "yaml_suite.ml" 56 1225 1255
+call(
+  stack
+)
+"yaml_suite.ml" 57 1257 1263 "yaml_suite.ml" 57 1257 1269
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 57 1257 1270 "yaml_suite.ml" 57 1257 1281
+type(
+  string
+)
+"yaml_suite.ml" 57 1257 1263 "yaml_suite.ml" 57 1257 1281
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 55 1194 1196 "yaml_suite.ml" 58 1282 1285
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 61 1319 1336 "yaml_suite.ml" 61 1319 1337
+type(
+  float
+)
+ident(
+  def x "yaml_suite.ml" 61 1319 1348 "yaml_suite.ml" 61 1319 1352
+)
+"yaml_suite.ml" 61 1319 1340 "yaml_suite.ml" 61 1319 1348
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.infinity
+)
+"yaml_suite.ml" 60 1288 1306 "yaml_suite.ml" 61 1319 1353
+call(
+  stack
+)
+"yaml_suite.ml" 62 1355 1361 "yaml_suite.ml" 62 1355 1367
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 62 1355 1368 "yaml_suite.ml" 62 1355 1379
+type(
+  string
+)
+"yaml_suite.ml" 62 1355 1361 "yaml_suite.ml" 62 1355 1379
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 60 1288 1290 "yaml_suite.ml" 63 1380 1383
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 66 1417 1434 "yaml_suite.ml" 66 1417 1435
+type(
+  float
+)
+ident(
+  def x "yaml_suite.ml" 66 1417 1450 "yaml_suite.ml" 66 1417 1454
+)
+"yaml_suite.ml" 66 1417 1438 "yaml_suite.ml" 66 1417 1450
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.neg_infinity
+)
+"yaml_suite.ml" 65 1386 1404 "yaml_suite.ml" 66 1417 1455
+call(
+  stack
+)
+"yaml_suite.ml" 67 1457 1463 "yaml_suite.ml" 67 1457 1469
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 67 1457 1470 "yaml_suite.ml" 67 1457 1484
+type(
+  string
+)
+"yaml_suite.ml" 67 1457 1463 "yaml_suite.ml" 67 1457 1484
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 65 1386 1388 "yaml_suite.ml" 68 1485 1488
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 71 1522 1539 "yaml_suite.ml" 71 1522 1540
+type(
+  float
+)
+ident(
+  def x "yaml_suite.ml" 71 1522 1546 "yaml_suite.ml" 71 1522 1550
+)
+"yaml_suite.ml" 71 1522 1543 "yaml_suite.ml" 71 1522 1546
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.nan
+)
+"yaml_suite.ml" 70 1491 1509 "yaml_suite.ml" 71 1522 1551
+call(
+  stack
+)
+"yaml_suite.ml" 72 1553 1559 "yaml_suite.ml" 72 1553 1565
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 72 1553 1566 "yaml_suite.ml" 72 1553 1577
+type(
+  string
+)
+"yaml_suite.ml" 72 1553 1559 "yaml_suite.ml" 72 1553 1577
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 70 1491 1493 "yaml_suite.ml" 73 1578 1581
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 76 1616 1633 "yaml_suite.ml" 76 1616 1634
+type(
+  string
+)
+ident(
+  def x "yaml_suite.ml" 76 1616 1641 "yaml_suite.ml" 76 1616 1645
+)
+"yaml_suite.ml" 76 1616 1637 "yaml_suite.ml" 76 1616 1641
+type(
+  string
+)
+"yaml_suite.ml" 75 1584 1602 "yaml_suite.ml" 76 1616 1646
+call(
+  stack
+)
+"yaml_suite.ml" 77 1648 1654 "yaml_suite.ml" 77 1648 1660
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 77 1648 1661 "yaml_suite.ml" 77 1648 1669
+type(
+  string
+)
+"yaml_suite.ml" 77 1648 1654 "yaml_suite.ml" 77 1648 1669
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 75 1584 1586 "yaml_suite.ml" 78 1670 1673
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 81 1708 1725 "yaml_suite.ml" 81 1708 1726
+type(
+  string
+)
+ident(
+  def x "yaml_suite.ml" 81 1708 1731 "yaml_suite.ml" 81 1708 1735
+)
+"yaml_suite.ml" 81 1708 1729 "yaml_suite.ml" 81 1708 1731
+type(
+  string
+)
+"yaml_suite.ml" 80 1676 1694 "yaml_suite.ml" 81 1708 1736
+call(
+  stack
+)
+"yaml_suite.ml" 82 1738 1744 "yaml_suite.ml" 82 1738 1750
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 82 1738 1751 "yaml_suite.ml" 82 1738 1765
+type(
+  string
+)
+"yaml_suite.ml" 82 1738 1744 "yaml_suite.ml" 82 1738 1765
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 80 1676 1678 "yaml_suite.ml" 83 1766 1769
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 86 1804 1821 "yaml_suite.ml" 86 1804 1822
+type(
+  string
+)
+ident(
+  def x "yaml_suite.ml" 86 1804 1832 "yaml_suite.ml" 86 1804 1836
+)
+"yaml_suite.ml" 86 1804 1825 "yaml_suite.ml" 86 1804 1832
+type(
+  string
+)
+"yaml_suite.ml" 85 1772 1790 "yaml_suite.ml" 86 1804 1837
+call(
+  stack
+)
+"yaml_suite.ml" 87 1839 1845 "yaml_suite.ml" 87 1839 1851
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 87 1839 1852 "yaml_suite.ml" 87 1839 1870
+type(
+  string
+)
+"yaml_suite.ml" 87 1839 1845 "yaml_suite.ml" 87 1839 1870
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 85 1772 1774 "yaml_suite.ml" 88 1871 1874
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 91 1907 1924 "yaml_suite.ml" 91 1907 1925
+type(
+  bool
+)
+ident(
+  def x "yaml_suite.ml" 91 1907 1932 "yaml_suite.ml" 91 1907 1936
+)
+"yaml_suite.ml" 91 1907 1928 "yaml_suite.ml" 91 1907 1932
+type(
+  bool
+)
+"yaml_suite.ml" 90 1877 1895 "yaml_suite.ml" 91 1907 1937
+call(
+  stack
+)
+"yaml_suite.ml" 92 1939 1945 "yaml_suite.ml" 92 1939 1951
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 92 1939 1952 "yaml_suite.ml" 92 1939 1963
+type(
+  string
+)
+"yaml_suite.ml" 92 1939 1945 "yaml_suite.ml" 92 1939 1963
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 90 1877 1879 "yaml_suite.ml" 93 1964 1967
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 96 2000 2017 "yaml_suite.ml" 96 2000 2018
+type(
+  bool
+)
+ident(
+  def x "yaml_suite.ml" 96 2000 2026 "yaml_suite.ml" 96 2000 2030
+)
+"yaml_suite.ml" 96 2000 2021 "yaml_suite.ml" 96 2000 2026
+type(
+  bool
+)
+"yaml_suite.ml" 95 1970 1988 "yaml_suite.ml" 96 2000 2031
+call(
+  stack
+)
+"yaml_suite.ml" 97 2033 2039 "yaml_suite.ml" 97 2033 2045
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 97 2033 2046 "yaml_suite.ml" 97 2033 2058
+type(
+  string
+)
+"yaml_suite.ml" 97 2033 2039 "yaml_suite.ml" 97 2033 2058
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 95 1970 1972 "yaml_suite.ml" 98 2059 2062
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 101 2103 2120 "yaml_suite.ml" 101 2103 2121
+type(
+  'a option
+)
+ident(
+  def x "yaml_suite.ml" 101 2103 2128 "yaml_suite.ml" 101 2103 2132
+)
+"yaml_suite.ml" 101 2103 2124 "yaml_suite.ml" 101 2103 2128
+type(
+  'a option
+)
+"yaml_suite.ml" 100 2065 2083 "yaml_suite.ml" 101 2103 2133
+call(
+  stack
+)
+"yaml_suite.ml" 102 2135 2141 "yaml_suite.ml" 102 2135 2147
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 102 2135 2148 "yaml_suite.ml" 102 2135 2161
+type(
+  string
+)
+"yaml_suite.ml" 102 2135 2141 "yaml_suite.ml" 102 2135 2161
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 100 2065 2067 "yaml_suite.ml" 103 2162 2165
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 106 2206 2223 "yaml_suite.ml" 106 2206 2224
+type(
+  int option
+)
+ident(
+  def x "yaml_suite.ml" 106 2206 2233 "yaml_suite.ml" 106 2206 2237
+)
+"yaml_suite.ml" 106 2206 2232 "yaml_suite.ml" 106 2206 2233
+type(
+  int
+)
+"yaml_suite.ml" 106 2206 2227 "yaml_suite.ml" 106 2206 2233
+type(
+  int option
+)
+"yaml_suite.ml" 105 2168 2186 "yaml_suite.ml" 106 2206 2238
+call(
+  stack
+)
+"yaml_suite.ml" 107 2240 2246 "yaml_suite.ml" 107 2240 2252
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 107 2240 2253 "yaml_suite.ml" 107 2240 2266
+type(
+  string
+)
+"yaml_suite.ml" 107 2240 2246 "yaml_suite.ml" 107 2240 2266
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 105 2168 2170 "yaml_suite.ml" 108 2267 2270
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 111 2316 2333 "yaml_suite.ml" 111 2316 2334
+type(
+  int * bool
+)
+ident(
+  def x "yaml_suite.ml" 111 2316 2343 "yaml_suite.ml" 111 2316 2347
+)
+"yaml_suite.ml" 111 2316 2337 "yaml_suite.ml" 111 2316 2338
+type(
+  int
+)
+"yaml_suite.ml" 111 2316 2339 "yaml_suite.ml" 111 2316 2343
+type(
+  bool
+)
+"yaml_suite.ml" 111 2316 2337 "yaml_suite.ml" 111 2316 2343
+type(
+  int * bool
+)
+"yaml_suite.ml" 110 2273 2291 "yaml_suite.ml" 111 2316 2348
+call(
+  stack
+)
+"yaml_suite.ml" 112 2350 2356 "yaml_suite.ml" 112 2350 2362
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 112 2350 2363 "yaml_suite.ml" 112 2350 2369
+type(
+  string
+)
+"yaml_suite.ml" 112 2350 2356 "yaml_suite.ml" 112 2350 2369
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 110 2273 2275 "yaml_suite.ml" 113 2370 2373
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 116 2430 2447 "yaml_suite.ml" 116 2430 2448
+type(
+  int * bool * string
+)
+ident(
+  def x "yaml_suite.ml" 116 2430 2462 "yaml_suite.ml" 116 2430 2466
+)
+"yaml_suite.ml" 116 2430 2451 "yaml_suite.ml" 116 2430 2452
+type(
+  int
+)
+"yaml_suite.ml" 116 2430 2453 "yaml_suite.ml" 116 2430 2457
+type(
+  bool
+)
+"yaml_suite.ml" 116 2430 2458 "yaml_suite.ml" 116 2430 2462
+type(
+  string
+)
+"yaml_suite.ml" 116 2430 2451 "yaml_suite.ml" 116 2430 2462
+type(
+  int * bool * string
+)
+"yaml_suite.ml" 115 2376 2394 "yaml_suite.ml" 116 2430 2467
+call(
+  stack
+)
+"yaml_suite.ml" 117 2469 2475 "yaml_suite.ml" 117 2469 2481
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 117 2469 2482 "yaml_suite.ml" 117 2469 2490
+type(
+  string
+)
+"yaml_suite.ml" 117 2469 2475 "yaml_suite.ml" 117 2469 2490
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 115 2376 2378 "yaml_suite.ml" 118 2491 2494
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 121 2557 2574 "yaml_suite.ml" 121 2557 2575
+type(
+  int * bool * string * int
+)
+ident(
+  def x "yaml_suite.ml" 121 2557 2591 "yaml_suite.ml" 121 2557 2595
+)
+"yaml_suite.ml" 121 2557 2578 "yaml_suite.ml" 121 2557 2579
+type(
+  int
+)
+"yaml_suite.ml" 121 2557 2580 "yaml_suite.ml" 121 2557 2584
+type(
+  bool
+)
+"yaml_suite.ml" 121 2557 2585 "yaml_suite.ml" 121 2557 2589
+type(
+  string
+)
+"yaml_suite.ml" 121 2557 2590 "yaml_suite.ml" 121 2557 2591
+type(
+  int
+)
+"yaml_suite.ml" 121 2557 2578 "yaml_suite.ml" 121 2557 2591
+type(
+  int * bool * string * int
+)
+"yaml_suite.ml" 120 2497 2515 "yaml_suite.ml" 121 2557 2596
+call(
+  stack
+)
+"yaml_suite.ml" 122 2598 2604 "yaml_suite.ml" 122 2598 2610
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 122 2598 2611 "yaml_suite.ml" 122 2598 2619
+type(
+  string
+)
+"yaml_suite.ml" 122 2598 2604 "yaml_suite.ml" 122 2598 2619
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 120 2497 2499 "yaml_suite.ml" 123 2620 2623
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 126 2693 2710 "yaml_suite.ml" 126 2693 2711
+type(
+  int * bool * string * int * bool
+)
+ident(
+  def x "yaml_suite.ml" 126 2693 2733 "yaml_suite.ml" 126 2693 2737
+)
+"yaml_suite.ml" 126 2693 2714 "yaml_suite.ml" 126 2693 2715
+type(
+  int
+)
+"yaml_suite.ml" 126 2693 2716 "yaml_suite.ml" 126 2693 2720
+type(
+  bool
+)
+"yaml_suite.ml" 126 2693 2721 "yaml_suite.ml" 126 2693 2725
+type(
+  string
+)
+"yaml_suite.ml" 126 2693 2726 "yaml_suite.ml" 126 2693 2727
+type(
+  int
+)
+"yaml_suite.ml" 126 2693 2728 "yaml_suite.ml" 126 2693 2733
+type(
+  bool
+)
+"yaml_suite.ml" 126 2693 2714 "yaml_suite.ml" 126 2693 2733
+type(
+  int * bool * string * int * bool
+)
+"yaml_suite.ml" 125 2626 2644 "yaml_suite.ml" 126 2693 2738
+call(
+  stack
+)
+"yaml_suite.ml" 127 2740 2746 "yaml_suite.ml" 127 2740 2752
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 127 2740 2753 "yaml_suite.ml" 127 2740 2761
+type(
+  string
+)
+"yaml_suite.ml" 127 2740 2746 "yaml_suite.ml" 127 2740 2761
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 125 2626 2628 "yaml_suite.ml" 128 2762 2765
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 131 2804 2821 "yaml_suite.ml" 131 2804 2822
+type(
+  int list
+)
+ident(
+  def x "yaml_suite.ml" 131 2804 2834 "yaml_suite.ml" 131 2804 2838
+)
+"yaml_suite.ml" 131 2804 2826 "yaml_suite.ml" 131 2804 2827
+type(
+  int
+)
+"yaml_suite.ml" 131 2804 2828 "yaml_suite.ml" 131 2804 2829
+type(
+  int
+)
+"yaml_suite.ml" 131 2804 2830 "yaml_suite.ml" 131 2804 2831
+type(
+  int
+)
+"yaml_suite.ml" 131 2804 2832 "yaml_suite.ml" 131 2804 2833
+type(
+  int
+)
+"yaml_suite.ml" 131 2804 2825 "yaml_suite.ml" 131 2804 2834
+type(
+  int list
+)
+"yaml_suite.ml" 130 2768 2786 "yaml_suite.ml" 131 2804 2839
+call(
+  stack
+)
+"yaml_suite.ml" 132 2841 2847 "yaml_suite.ml" 132 2841 2853
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 132 2841 2854 "yaml_suite.ml" 132 2841 2860
+type(
+  string
+)
+"yaml_suite.ml" 132 2841 2847 "yaml_suite.ml" 132 2841 2860
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 130 2768 2770 "yaml_suite.ml" 133 2861 2864
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 136 2903 2920 "yaml_suite.ml" 136 2903 2921
+type(
+  'b list
+)
+ident(
+  def x "yaml_suite.ml" 136 2903 2926 "yaml_suite.ml" 136 2903 2930
+)
+"yaml_suite.ml" 136 2903 2924 "yaml_suite.ml" 136 2903 2926
+type(
+  'b list
+)
+"yaml_suite.ml" 135 2867 2885 "yaml_suite.ml" 136 2903 2931
+call(
+  stack
+)
+"yaml_suite.ml" 137 2933 2939 "yaml_suite.ml" 137 2933 2945
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 137 2933 2946 "yaml_suite.ml" 137 2933 2958
+type(
+  string
+)
+"yaml_suite.ml" 137 2933 2939 "yaml_suite.ml" 137 2933 2958
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 135 2867 2869 "yaml_suite.ml" 138 2959 2962
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 141 3013 3030 "yaml_suite.ml" 141 3013 3031
+type(
+  (int * bool) list
+)
+ident(
+  def x "yaml_suite.ml" 141 3013 3065 "yaml_suite.ml" 141 3013 3069
+)
+"yaml_suite.ml" 141 3013 3035 "yaml_suite.ml" 141 3013 3036
+type(
+  int
+)
+"yaml_suite.ml" 141 3013 3037 "yaml_suite.ml" 141 3013 3041
+type(
+  bool
+)
+"yaml_suite.ml" 141 3013 3035 "yaml_suite.ml" 141 3013 3041
+type(
+  int * bool
+)
+"yaml_suite.ml" 141 3013 3042 "yaml_suite.ml" 141 3013 3043
+type(
+  int
+)
+"yaml_suite.ml" 141 3013 3044 "yaml_suite.ml" 141 3013 3049
+type(
+  bool
+)
+"yaml_suite.ml" 141 3013 3042 "yaml_suite.ml" 141 3013 3049
+type(
+  int * bool
+)
+"yaml_suite.ml" 141 3013 3050 "yaml_suite.ml" 141 3013 3051
+type(
+  int
+)
+"yaml_suite.ml" 141 3013 3052 "yaml_suite.ml" 141 3013 3056
+type(
+  bool
+)
+"yaml_suite.ml" 141 3013 3050 "yaml_suite.ml" 141 3013 3056
+type(
+  int * bool
+)
+"yaml_suite.ml" 141 3013 3057 "yaml_suite.ml" 141 3013 3058
+type(
+  int
+)
+"yaml_suite.ml" 141 3013 3059 "yaml_suite.ml" 141 3013 3064
+type(
+  bool
+)
+"yaml_suite.ml" 141 3013 3057 "yaml_suite.ml" 141 3013 3064
+type(
+  int * bool
+)
+"yaml_suite.ml" 141 3013 3034 "yaml_suite.ml" 141 3013 3065
+type(
+  (int * bool) list
+)
+"yaml_suite.ml" 140 2965 2983 "yaml_suite.ml" 141 3013 3070
+call(
+  stack
+)
+"yaml_suite.ml" 142 3072 3078 "yaml_suite.ml" 142 3072 3084
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 142 3072 3085 "yaml_suite.ml" 142 3072 3097
+type(
+  string
+)
+"yaml_suite.ml" 142 3072 3078 "yaml_suite.ml" 142 3072 3097
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 140 2965 2967 "yaml_suite.ml" 143 3098 3101
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 146 3152 3169 "yaml_suite.ml" 146 3152 3170
+type(
+  'c list
+)
+ident(
+  def x "yaml_suite.ml" 146 3152 3175 "yaml_suite.ml" 146 3152 3179
+)
+"yaml_suite.ml" 146 3152 3173 "yaml_suite.ml" 146 3152 3175
+type(
+  'c list
+)
+"yaml_suite.ml" 145 3104 3122 "yaml_suite.ml" 146 3152 3180
+call(
+  stack
+)
+"yaml_suite.ml" 147 3182 3188 "yaml_suite.ml" 147 3182 3194
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 147 3182 3195 "yaml_suite.ml" 147 3182 3213
+type(
+  string
+)
+"yaml_suite.ml" 147 3182 3188 "yaml_suite.ml" 147 3182 3213
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 145 3104 3106 "yaml_suite.ml" 148 3214 3217
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 150 3220 3238 "yaml_suite.ml" 150 3220 3248
+call(
+  stack
+)
+"yaml_suite.ml" 152 3278 3295 "yaml_suite.ml" 152 3278 3296
+type(
+  M.Set.t
+)
+ident(
+  def x "yaml_suite.ml" 152 3278 3330 "yaml_suite.ml" 152 3278 3334
+)
+"yaml_suite.ml" 152 3278 3299 "yaml_suite.ml" 152 3278 3308
+type(
+  M.Set.elt -> M.Set.t -> M.Set.t
+)
+ident(
+  ext_ref M.Set.add
+)
+"yaml_suite.ml" 152 3278 3309 "yaml_suite.ml" 152 3278 3310
+type(
+  M.Set.elt
+)
+"yaml_suite.ml" 152 3278 3312 "yaml_suite.ml" 152 3278 3327
+type(
+  M.Set.elt -> M.Set.t
+)
+ident(
+  ext_ref M.Set.singleton
+)
+"yaml_suite.ml" 152 3278 3328 "yaml_suite.ml" 152 3278 3329
+type(
+  M.Set.elt
+)
+"yaml_suite.ml" 152 3278 3311 "yaml_suite.ml" 152 3278 3330
+call(
+  stack
+)
+type(
+  M.Set.t
+)
+"yaml_suite.ml" 152 3278 3299 "yaml_suite.ml" 152 3278 3330
+call(
+  stack
+)
+type(
+  M.Set.t
+)
+"yaml_suite.ml" 151 3252 3270 "yaml_suite.ml" 152 3278 3335
+call(
+  stack
+)
+"yaml_suite.ml" 153 3337 3343 "yaml_suite.ml" 153 3337 3349
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 153 3337 3350 "yaml_suite.ml" 153 3337 3355
+type(
+  string
+)
+"yaml_suite.ml" 153 3337 3343 "yaml_suite.ml" 153 3337 3355
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 151 3252 3255 "yaml_suite.ml" 153 3337 3355
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 150 3220 3222 "yaml_suite.ml" 154 3356 3359
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 156 3362 3380 "yaml_suite.ml" 156 3362 3390
+call(
+  stack
+)
+"yaml_suite.ml" 158 3420 3437 "yaml_suite.ml" 158 3420 3438
+type(
+  M.Set.t
+)
+ident(
+  def x "yaml_suite.ml" 158 3420 3458 "yaml_suite.ml" 158 3420 3462
+)
+"yaml_suite.ml" 158 3420 3441 "yaml_suite.ml" 158 3420 3456
+type(
+  M.Set.elt -> M.Set.t
+)
+ident(
+  ext_ref M.Set.singleton
+)
+"yaml_suite.ml" 158 3420 3457 "yaml_suite.ml" 158 3420 3458
+type(
+  M.Set.elt
+)
+"yaml_suite.ml" 158 3420 3441 "yaml_suite.ml" 158 3420 3458
+call(
+  stack
+)
+type(
+  M.Set.t
+)
+"yaml_suite.ml" 157 3394 3412 "yaml_suite.ml" 158 3420 3463
+call(
+  stack
+)
+"yaml_suite.ml" 159 3465 3471 "yaml_suite.ml" 159 3465 3477
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 159 3465 3478 "yaml_suite.ml" 159 3465 3493
+type(
+  string
+)
+"yaml_suite.ml" 159 3465 3471 "yaml_suite.ml" 159 3465 3493
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 157 3394 3397 "yaml_suite.ml" 159 3465 3493
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 156 3362 3364 "yaml_suite.ml" 160 3494 3497
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 162 3500 3518 "yaml_suite.ml" 162 3500 3528
+call(
+  stack
+)
+"yaml_suite.ml" 164 3558 3575 "yaml_suite.ml" 164 3558 3576
+type(
+  M.Set.t
+)
+ident(
+  def x "yaml_suite.ml" 164 3558 3590 "yaml_suite.ml" 164 3558 3594
+)
+"yaml_suite.ml" 164 3558 3579 "yaml_suite.ml" 164 3558 3590
+type(
+  M.Set.t
+)
+ident(
+  ext_ref M.Set.empty
+)
+"yaml_suite.ml" 163 3532 3550 "yaml_suite.ml" 164 3558 3595
+call(
+  stack
+)
+"yaml_suite.ml" 165 3597 3603 "yaml_suite.ml" 165 3597 3609
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 165 3597 3610 "yaml_suite.ml" 165 3597 3621
+type(
+  string
+)
+"yaml_suite.ml" 165 3597 3603 "yaml_suite.ml" 165 3597 3621
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 163 3532 3535 "yaml_suite.ml" 165 3597 3621
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 162 3500 3502 "yaml_suite.ml" 166 3622 3625
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 168 3628 3646 "yaml_suite.ml" 168 3628 3665
+call(
+  stack
+)
+"yaml_suite.ml" 170 3695 3712 "yaml_suite.ml" 170 3695 3713
+type(
+  string M.Map.t
+)
+ident(
+  def x "yaml_suite.ml" 170 3695 3761 "yaml_suite.ml" 170 3695 3765
+)
+"yaml_suite.ml" 170 3695 3716 "yaml_suite.ml" 170 3695 3725
+type(
+  M.Map.key -> string -> string M.Map.t -> string M.Map.t
+)
+ident(
+  ext_ref M.Map.add
+)
+"yaml_suite.ml" 170 3695 3726 "yaml_suite.ml" 170 3695 3727
+type(
+  M.Map.key
+)
+"yaml_suite.ml" 170 3695 3728 "yaml_suite.ml" 170 3695 3732
+type(
+  string
+)
+"yaml_suite.ml" 170 3695 3734 "yaml_suite.ml" 170 3695 3743
+type(
+  M.Map.key -> string -> string M.Map.t -> string M.Map.t
+)
+ident(
+  ext_ref M.Map.add
+)
+"yaml_suite.ml" 170 3695 3744 "yaml_suite.ml" 170 3695 3745
+type(
+  M.Map.key
+)
+"yaml_suite.ml" 170 3695 3746 "yaml_suite.ml" 170 3695 3748
+type(
+  string
+)
+"yaml_suite.ml" 170 3695 3749 "yaml_suite.ml" 170 3695 3760
+type(
+  string M.Map.t
+)
+ident(
+  ext_ref M.Map.empty
+)
+"yaml_suite.ml" 170 3695 3733 "yaml_suite.ml" 170 3695 3761
+call(
+  stack
+)
+type(
+  string M.Map.t
+)
+"yaml_suite.ml" 170 3695 3716 "yaml_suite.ml" 170 3695 3761
+call(
+  stack
+)
+type(
+  string M.Map.t
+)
+"yaml_suite.ml" 169 3669 3687 "yaml_suite.ml" 170 3695 3766
+call(
+  stack
+)
+"yaml_suite.ml" 171 3768 3774 "yaml_suite.ml" 171 3768 3780
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 171 3768 3781 "yaml_suite.ml" 171 3768 3786
+type(
+  string
+)
+"yaml_suite.ml" 171 3768 3774 "yaml_suite.ml" 171 3768 3786
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 169 3669 3672 "yaml_suite.ml" 171 3768 3786
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 168 3628 3630 "yaml_suite.ml" 172 3787 3790
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 174 3793 3811 "yaml_suite.ml" 174 3793 3830
+call(
+  stack
+)
+"yaml_suite.ml" 176 3860 3877 "yaml_suite.ml" 176 3860 3878
+type(
+  string M.Map.t
+)
+ident(
+  def x "yaml_suite.ml" 176 3860 3907 "yaml_suite.ml" 176 3860 3911
+)
+"yaml_suite.ml" 176 3860 3881 "yaml_suite.ml" 176 3860 3890
+type(
+  M.Map.key -> string -> string M.Map.t -> string M.Map.t
+)
+ident(
+  ext_ref M.Map.add
+)
+"yaml_suite.ml" 176 3860 3891 "yaml_suite.ml" 176 3860 3892
+type(
+  M.Map.key
+)
+"yaml_suite.ml" 176 3860 3893 "yaml_suite.ml" 176 3860 3895
+type(
+  string
+)
+"yaml_suite.ml" 176 3860 3896 "yaml_suite.ml" 176 3860 3907
+type(
+  string M.Map.t
+)
+ident(
+  ext_ref M.Map.empty
+)
+"yaml_suite.ml" 176 3860 3881 "yaml_suite.ml" 176 3860 3907
+call(
+  stack
+)
+type(
+  string M.Map.t
+)
+"yaml_suite.ml" 175 3834 3852 "yaml_suite.ml" 176 3860 3912
+call(
+  stack
+)
+"yaml_suite.ml" 177 3914 3920 "yaml_suite.ml" 177 3914 3926
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 177 3914 3927 "yaml_suite.ml" 177 3914 3942
+type(
+  string
+)
+"yaml_suite.ml" 177 3914 3920 "yaml_suite.ml" 177 3914 3942
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 175 3834 3837 "yaml_suite.ml" 177 3914 3942
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 174 3793 3795 "yaml_suite.ml" 178 3943 3946
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 180 3949 3967 "yaml_suite.ml" 180 3949 3986
+call(
+  stack
+)
+"yaml_suite.ml" 182 4016 4033 "yaml_suite.ml" 182 4016 4034
+type(
+  'd M.Map.t
+)
+ident(
+  def x "yaml_suite.ml" 182 4016 4048 "yaml_suite.ml" 182 4016 4052
+)
+"yaml_suite.ml" 182 4016 4037 "yaml_suite.ml" 182 4016 4048
+type(
+  'd M.Map.t
+)
+ident(
+  ext_ref M.Map.empty
+)
+"yaml_suite.ml" 181 3990 4008 "yaml_suite.ml" 182 4016 4053
+call(
+  stack
+)
+"yaml_suite.ml" 183 4055 4061 "yaml_suite.ml" 183 4055 4067
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 183 4055 4068 "yaml_suite.ml" 183 4055 4079
+type(
+  string
+)
+"yaml_suite.ml" 183 4055 4061 "yaml_suite.ml" 183 4055 4079
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 181 3990 3993 "yaml_suite.ml" 183 4055 4079
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 180 3949 3951 "yaml_suite.ml" 184 4080 4083
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 186 4086 4104 "yaml_suite.ml" 186 4086 4127
+call(
+  stack
+)
+"yaml_suite.ml" 189 4171 4183 "yaml_suite.ml" 189 4171 4184
+type(
+  (int, string) Hashtbl.t
+)
+ident(
+  def x "yaml_suite.ml" 190 4204 4212 "yaml_suite.ml" 193 4283 4292
+)
+"yaml_suite.ml" 189 4171 4187 "yaml_suite.ml" 189 4171 4201
+type(
+  int -> (int, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"yaml_suite.ml" 189 4171 4202 "yaml_suite.ml" 189 4171 4203
+type(
+  int
+)
+"yaml_suite.ml" 189 4171 4187 "yaml_suite.ml" 189 4171 4203
+call(
+  stack
+)
+type(
+  (int, string) Hashtbl.t
+)
+"yaml_suite.ml" 190 4204 4216 "yaml_suite.ml" 190 4204 4218
+type(
+  unit
+)
+"yaml_suite.ml" 191 4222 4232 "yaml_suite.ml" 191 4222 4243
+type(
+  (int, string) Hashtbl.t -> int -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"yaml_suite.ml" 191 4222 4244 "yaml_suite.ml" 191 4222 4245
+type(
+  (int, string) Hashtbl.t
+)
+ident(
+  int_ref x "yaml_suite.ml" 189 4171 4183 "yaml_suite.ml" 189 4171 4184
+)
+"yaml_suite.ml" 191 4222 4246 "yaml_suite.ml" 191 4222 4247
+type(
+  int
+)
+"yaml_suite.ml" 191 4222 4248 "yaml_suite.ml" 191 4222 4252
+type(
+  string
+)
+"yaml_suite.ml" 191 4222 4232 "yaml_suite.ml" 191 4222 4252
+call(
+  stack
+)
+type(
+  unit
+)
+"yaml_suite.ml" 192 4254 4264 "yaml_suite.ml" 192 4254 4275
+type(
+  (int, string) Hashtbl.t -> int -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"yaml_suite.ml" 192 4254 4276 "yaml_suite.ml" 192 4254 4277
+type(
+  (int, string) Hashtbl.t
+)
+ident(
+  int_ref x "yaml_suite.ml" 189 4171 4183 "yaml_suite.ml" 189 4171 4184
+)
+"yaml_suite.ml" 192 4254 4278 "yaml_suite.ml" 192 4254 4279
+type(
+  int
+)
+"yaml_suite.ml" 192 4254 4280 "yaml_suite.ml" 192 4254 4282
+type(
+  string
+)
+"yaml_suite.ml" 192 4254 4264 "yaml_suite.ml" 192 4254 4282
+call(
+  stack
+)
+type(
+  unit
+)
+"yaml_suite.ml" 191 4222 4232 "yaml_suite.ml" 192 4254 4282
+type(
+  unit
+)
+"yaml_suite.ml" 187 4131 4149 "yaml_suite.ml" 193 4283 4293
+call(
+  stack
+)
+"yaml_suite.ml" 194 4295 4301 "yaml_suite.ml" 194 4295 4307
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 194 4295 4308 "yaml_suite.ml" 194 4295 4317
+type(
+  string
+)
+"yaml_suite.ml" 194 4295 4301 "yaml_suite.ml" 194 4295 4317
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 187 4131 4134 "yaml_suite.ml" 194 4295 4317
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 186 4086 4088 "yaml_suite.ml" 195 4318 4321
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 197 4324 4342 "yaml_suite.ml" 197 4324 4365
+call(
+  stack
+)
+"yaml_suite.ml" 200 4409 4421 "yaml_suite.ml" 200 4409 4422
+type(
+  (Yaml.YInt.t, Yaml.YString.t) Hashtbl.t
+)
+ident(
+  def x "yaml_suite.ml" 200 4409 4441 "yaml_suite.ml" 201 4442 4451
+)
+"yaml_suite.ml" 200 4409 4425 "yaml_suite.ml" 200 4409 4439
+type(
+  int -> (Yaml.YInt.t, Yaml.YString.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"yaml_suite.ml" 200 4409 4440 "yaml_suite.ml" 200 4409 4441
+type(
+  int
+)
+"yaml_suite.ml" 200 4409 4425 "yaml_suite.ml" 200 4409 4441
+call(
+  stack
+)
+type(
+  (Yaml.YInt.t, Yaml.YString.t) Hashtbl.t
+)
+"yaml_suite.ml" 198 4369 4387 "yaml_suite.ml" 201 4442 4452
+call(
+  stack
+)
+"yaml_suite.ml" 202 4454 4460 "yaml_suite.ml" 202 4454 4466
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 202 4454 4467 "yaml_suite.ml" 202 4454 4482
+type(
+  string
+)
+"yaml_suite.ml" 202 4454 4460 "yaml_suite.ml" 202 4454 4482
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 198 4369 4372 "yaml_suite.ml" 202 4454 4482
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 197 4324 4326 "yaml_suite.ml" 203 4483 4486
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 205 4489 4507 "yaml_suite.ml" 205 4489 4525
+call(
+  stack
+)
+"yaml_suite.ml" 207 4555 4572 "yaml_suite.ml" 207 4555 4573
+type(
+  [> `A of int ]
+)
+ident(
+  def x "yaml_suite.ml" 207 4555 4580 "yaml_suite.ml" 207 4555 4584
+)
+"yaml_suite.ml" 207 4555 4579 "yaml_suite.ml" 207 4555 4580
+type(
+  int
+)
+"yaml_suite.ml" 207 4555 4576 "yaml_suite.ml" 207 4555 4580
+type(
+  [> `A of int ] as 'e
+)
+"yaml_suite.ml" 206 4529 4547 "yaml_suite.ml" 207 4555 4585
+call(
+  stack
+)
+"yaml_suite.ml" 208 4587 4593 "yaml_suite.ml" 208 4587 4599
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 208 4587 4600 "yaml_suite.ml" 208 4587 4608
+type(
+  string
+)
+"yaml_suite.ml" 208 4587 4593 "yaml_suite.ml" 208 4587 4608
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 206 4529 4532 "yaml_suite.ml" 208 4587 4608
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 205 4489 4491 "yaml_suite.ml" 209 4609 4612
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 211 4615 4633 "yaml_suite.ml" 211 4615 4651
+call(
+  stack
+)
+"yaml_suite.ml" 213 4681 4698 "yaml_suite.ml" 213 4681 4699
+type(
+  [> `B of string ]
+)
+ident(
+  def x "yaml_suite.ml" 213 4681 4709 "yaml_suite.ml" 213 4681 4713
+)
+"yaml_suite.ml" 213 4681 4705 "yaml_suite.ml" 213 4681 4709
+type(
+  string
+)
+"yaml_suite.ml" 213 4681 4702 "yaml_suite.ml" 213 4681 4709
+type(
+  [> `B of string ] as 'f
+)
+"yaml_suite.ml" 212 4655 4673 "yaml_suite.ml" 213 4681 4714
+call(
+  stack
+)
+"yaml_suite.ml" 214 4716 4722 "yaml_suite.ml" 214 4716 4728
+type(
+  string -> OUnit.test
+)
+ident(
+  ext_ref T.test
+)
+"yaml_suite.ml" 214 4716 4729 "yaml_suite.ml" 214 4716 4737
+type(
+  string
+)
+"yaml_suite.ml" 214 4716 4722 "yaml_suite.ml" 214 4716 4737
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 212 4655 4658 "yaml_suite.ml" 214 4716 4737
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 211 4615 4617 "yaml_suite.ml" 215 4738 4741
+type(
+  OUnit.test
+)
+"yaml_suite.ml" 23 554 566 "yaml_suite.ml" 217 4744 4745
+type(
+  OUnit.test list
+)
+"yaml_suite.ml" 219 4747 4751 "yaml_suite.ml" 219 4747 4756
+type(
+  OUnit.test
+)
+ident(
+  def suite "yaml_suite.ml" 220 4777 4784 --
+)
+"yaml_suite.ml" 219 4747 4759 "yaml_suite.ml" 219 4747 4771
+type(
+  string
+)
+"yaml_suite.ml" 219 4747 4772 "yaml_suite.ml" 219 4747 4776
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"yaml_suite.ml" 220 4777 4779 "yaml_suite.ml" 220 4777 4784
+type(
+  OUnit.test list
+)
+ident(
+  int_ref tests "yaml_suite.ml" 23 554 558 "yaml_suite.ml" 23 554 563
+)
+"yaml_suite.ml" 219 4747 4759 "yaml_suite.ml" 220 4777 4784
+call(
+  stack
+)
+type(
+  OUnit.test
+)

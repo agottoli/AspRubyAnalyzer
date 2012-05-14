@@ -1,0 +1,4108 @@
+"contracts.ml" 9 91 95 "contracts.ml" 9 91 104
+type(
+  Annotation.type_expr -> bool
+)
+ident(
+  def is_vararg "contracts.ml" 13 160 160 --
+)
+"contracts.ml" 10 117 134 "contracts.ml" 10 117 135
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 10 117 121 "contracts.ml" 10 117 135
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 10 117 139 "contracts.ml" 10 117 143
+type(
+  bool
+)
+"contracts.ml" 11 144 148 "contracts.ml" 11 144 149
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 11 144 153 "contracts.ml" 11 144 158
+type(
+  bool
+)
+"contracts.ml" 9 91 107 "contracts.ml" 11 144 158
+type(
+  Annotation.type_expr -> bool
+)
+"contracts.ml" 13 160 164 "contracts.ml" 13 160 175
+type(
+  Annotation.type_expr -> bool
+)
+ident(
+  def is_optional "contracts.ml" 17 232 232 --
+)
+"contracts.ml" 14 188 206 "contracts.ml" 14 188 207
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 14 188 192 "contracts.ml" 14 188 207
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 14 188 211 "contracts.ml" 14 188 215
+type(
+  bool
+)
+"contracts.ml" 15 216 220 "contracts.ml" 15 216 221
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 15 216 225 "contracts.ml" 15 216 230
+type(
+  bool
+)
+"contracts.ml" 13 160 178 "contracts.ml" 15 216 230
+type(
+  Annotation.type_expr -> bool
+)
+"contracts.ml" 17 232 236 "contracts.ml" 17 232 244
+type(
+  Format.formatter -> Lexing.position -> unit
+)
+ident(
+  def emit_pos "contracts.ml" 21 359 359 --
+)
+"contracts.ml" 17 232 245 "contracts.ml" 17 232 248
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 17 232 249 "contracts.ml" 19 313 357
+)
+"contracts.ml" 17 232 249 "contracts.ml" 17 232 252
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 18 256 258 "contracts.ml" 19 313 357
+)
+"contracts.ml" 18 256 258 "contracts.ml" 18 256 265
+type(
+  Format.formatter ->
+  (string -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 18 256 266 "contracts.ml" 18 256 269
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 17 232 245 "contracts.ml" 17 232 248
+)
+"contracts.ml" 18 256 270 "contracts.ml" 18 256 312
+type(
+  (string -> int -> unit, Format.formatter, unit) format
+)
+"contracts.ml" 19 313 317 "contracts.ml" 19 313 320
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 17 232 249 "contracts.ml" 17 232 252
+)
+"contracts.ml" 19 313 317 "contracts.ml" 19 313 337
+type(
+  string
+)
+"contracts.ml" 19 313 338 "contracts.ml" 19 313 341
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 17 232 249 "contracts.ml" 17 232 252
+)
+"contracts.ml" 19 313 338 "contracts.ml" 19 313 357
+type(
+  int
+)
+"contracts.ml" 18 256 258 "contracts.ml" 19 313 357
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 21 359 367 "contracts.ml" 21 359 374
+type(
+  Format.formatter -> Annotation.type_ident -> unit
+)
+ident(
+  def emit_id "contracts.ml" 21 359 359 --
+)
+"contracts.ml" 21 359 375 "contracts.ml" 21 359 378
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 21 359 379 "contracts.ml" 25 614 678
+)
+"contracts.ml" 21 359 379 "contracts.ml" 21 359 384
+type(
+  Annotation.type_ident
+)
+ident(
+  def ident "contracts.ml" 22 388 390 "contracts.ml" 25 614 678
+)
+"contracts.ml" 22 388 394 "contracts.ml" 22 388 398
+type(
+  string
+)
+"contracts.ml" 22 388 401 "contracts.ml" 22 388 417
+type(
+  (Format.formatter -> Annotation.type_ident -> unit) ->
+  Annotation.type_ident -> string
+)
+ident(
+  ext_ref Utils.format_to_string
+)
+"contracts.ml" 22 388 418 "contracts.ml" 22 388 435
+type(
+  Format.formatter -> Annotation.type_ident -> unit
+)
+ident(
+  ext_ref Annotation.format_type_ident
+)
+"contracts.ml" 22 388 436 "contracts.ml" 22 388 441
+type(
+  Annotation.type_ident
+)
+ident(
+  int_ref ident "contracts.ml" 21 359 379 "contracts.ml" 21 359 384
+)
+"contracts.ml" 22 388 401 "contracts.ml" 22 388 441
+call(
+  stack
+)
+type(
+  string
+)
+"contracts.ml" 23 445 452 "contracts.ml" 23 445 456
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 22 388 394 "contracts.ml" 22 388 398
+)
+"contracts.ml" 23 445 457 "contracts.ml" 23 445 458
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"contracts.ml" 23 445 459 "contracts.ml" 23 445 470
+type(
+  string
+)
+"contracts.ml" 23 445 452 "contracts.ml" 23 445 470
+type(
+  bool
+)
+"contracts.ml" 24 471 480 "contracts.ml" 24 471 487
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 24 471 488 "contracts.ml" 24 471 491
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 21 359 375 "contracts.ml" 21 359 378
+)
+"contracts.ml" 24 471 492 "contracts.ml" 24 471 613
+type(
+  (unit, Format.formatter, unit) format
+)
+"contracts.ml" 24 471 480 "contracts.ml" 24 471 613
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 25 614 623 "contracts.ml" 25 614 630
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 25 614 631 "contracts.ml" 25 614 634
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 21 359 375 "contracts.ml" 21 359 378
+)
+"contracts.ml" 25 614 635 "contracts.ml" 25 614 673
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"contracts.ml" 25 614 674 "contracts.ml" 25 614 678
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 22 388 394 "contracts.ml" 22 388 398
+)
+"contracts.ml" 25 614 623 "contracts.ml" 25 614 678
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 23 445 449 "contracts.ml" 25 614 678
+type(
+  unit
+)
+"contracts.ml" 22 388 390 "contracts.ml" 25 614 678
+type(
+  unit
+)
+"contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  def emit_type_expr "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 28 681 704 "contracts.ml" 28 681 707
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 28 681 708 "contracts.ml" 54 1548 1608
+)
+"contracts.ml" 28 681 708 "contracts.ml" 28 681 711
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 28 681 712 "contracts.ml" 54 1548 1608
+)
+"contracts.ml" 28 681 712 "contracts.ml" 28 681 713
+type(
+  Annotation.type_expr
+)
+ident(
+  def e "contracts.ml" 28 681 716 "contracts.ml" 54 1548 1608
+)
+"contracts.ml" 28 681 722 "contracts.ml" 28 681 723
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref e "contracts.ml" 28 681 712 "contracts.ml" 28 681 713
+)
+"contracts.ml" 29 729 744 "contracts.ml" 29 729 749
+type(
+  Annotation.type_ident
+)
+ident(
+  def ident "contracts.ml" 29 729 753 "contracts.ml" 29 729 770
+)
+"contracts.ml" 29 729 733 "contracts.ml" 29 729 749
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 29 729 753 "contracts.ml" 29 729 760
+type(
+  Format.formatter -> Annotation.type_ident -> unit
+)
+ident(
+  int_ref emit_id "contracts.ml" 21 359 367 "contracts.ml" 21 359 374
+)
+"contracts.ml" 29 729 761 "contracts.ml" 29 729 764
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 28 681 708 "contracts.ml" 28 681 711
+)
+"contracts.ml" 29 729 765 "contracts.ml" 29 729 770
+type(
+  Annotation.type_ident
+)
+ident(
+  int_ref ident "contracts.ml" 29 729 744 "contracts.ml" 29 729 749
+)
+"contracts.ml" 29 729 753 "contracts.ml" 29 729 770
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 31 772 787 "contracts.ml" 31 772 790
+type(
+  Annotation.type_expr list
+)
+ident(
+  def lst "contracts.ml" 32 794 800 "contracts.ml" 33 851 903
+)
+"contracts.ml" 31 772 776 "contracts.ml" 31 772 790
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 32 794 800 "contracts.ml" 32 794 807
+type(
+  Format.formatter ->
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Annotation.type_expr list -> unit) ->
+  Annotation.type_expr list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 32 794 808 "contracts.ml" 32 794 811
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 28 681 708 "contracts.ml" 28 681 711
+)
+"contracts.ml" 32 794 812 "contracts.ml" 32 794 850
+type(
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 33 851 860 "contracts.ml" 33 851 877
+type(
+  (Format.formatter -> Annotation.type_expr -> unit) ->
+  Format.formatter -> Annotation.type_expr list -> unit
+)
+ident(
+  ext_ref Utils.format_comma_list
+)
+"contracts.ml" 33 851 879 "contracts.ml" 33 851 893
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit_type_expr "contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+)
+"contracts.ml" 33 851 894 "contracts.ml" 33 851 897
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 28 681 704 "contracts.ml" 28 681 707
+)
+"contracts.ml" 33 851 878 "contracts.ml" 33 851 898
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+"contracts.ml" 33 851 859 "contracts.ml" 33 851 899
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr list -> unit
+)
+"contracts.ml" 33 851 900 "contracts.ml" 33 851 903
+type(
+  Annotation.type_expr list
+)
+ident(
+  int_ref lst "contracts.ml" 31 772 787 "contracts.ml" 31 772 790
+)
+"contracts.ml" 32 794 800 "contracts.ml" 33 851 903
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 35 905 921 "contracts.ml" 35 905 927
+type(
+  Annotation.field_type list
+)
+ident(
+  def fields "contracts.ml" 36 940 946 "contracts.ml" 38 1055 1112
+)
+"contracts.ml" 35 905 928 "contracts.ml" 35 905 935
+type(
+  Annotation.method_annotation list
+)
+ident(
+  def methods "contracts.ml" 36 940 946 "contracts.ml" 38 1055 1112
+)
+"contracts.ml" 35 905 920 "contracts.ml" 35 905 936
+type(
+  Annotation.object_type
+)
+"contracts.ml" 35 905 909 "contracts.ml" 35 905 936
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 36 940 946 "contracts.ml" 36 940 953
+type(
+  Format.formatter ->
+  ((Format.formatter -> Annotation.field_type list -> unit) ->
+   Annotation.field_type list ->
+   (Format.formatter -> Annotation.method_annotation list -> unit) ->
+   Annotation.method_annotation list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Annotation.field_type list -> unit) ->
+  Annotation.field_type list ->
+  (Format.formatter -> Annotation.method_annotation list -> unit) ->
+  Annotation.method_annotation list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 36 940 954 "contracts.ml" 36 940 957
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 28 681 708 "contracts.ml" 28 681 711
+)
+"contracts.ml" 36 940 958 "contracts.ml" 36 940 1002
+type(
+  ((Format.formatter -> Annotation.field_type list -> unit) ->
+   Annotation.field_type list ->
+   (Format.formatter -> Annotation.method_annotation list -> unit) ->
+   Annotation.method_annotation list -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 37 1003 1012 "contracts.ml" 37 1003 1029
+type(
+  (Format.formatter -> Annotation.field_type -> unit) ->
+  Format.formatter -> Annotation.field_type list -> unit
+)
+ident(
+  ext_ref Utils.format_comma_list
+)
+"contracts.ml" 37 1003 1031 "contracts.ml" 37 1003 1041
+type(
+  Lexing.position -> Format.formatter -> Annotation.field_type -> unit
+)
+ident(
+  int_ref emit_field "contracts.ml" 56 1610 1614 "contracts.ml" 56 1610 1624
+)
+"contracts.ml" 37 1003 1042 "contracts.ml" 37 1003 1045
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 28 681 704 "contracts.ml" 28 681 707
+)
+"contracts.ml" 37 1003 1030 "contracts.ml" 37 1003 1046
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.field_type -> unit
+)
+"contracts.ml" 37 1003 1011 "contracts.ml" 37 1003 1047
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.field_type list -> unit
+)
+"contracts.ml" 37 1003 1048 "contracts.ml" 37 1003 1054
+type(
+  Annotation.field_type list
+)
+ident(
+  int_ref fields "contracts.ml" 35 905 921 "contracts.ml" 35 905 927
+)
+"contracts.ml" 38 1055 1064 "contracts.ml" 38 1055 1081
+type(
+  (Format.formatter -> Annotation.method_annotation -> unit) ->
+  Format.formatter -> Annotation.method_annotation list -> unit
+)
+ident(
+  ext_ref Utils.format_comma_list
+)
+"contracts.ml" 38 1055 1083 "contracts.ml" 38 1055 1098
+type(
+  Lexing.position -> Format.formatter -> Annotation.method_annotation -> unit
+)
+ident(
+  int_ref emit_obj_method "contracts.ml" 59 1706 1710 "contracts.ml" 59 1706 1725
+)
+"contracts.ml" 38 1055 1099 "contracts.ml" 38 1055 1102
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 28 681 704 "contracts.ml" 28 681 707
+)
+"contracts.ml" 38 1055 1082 "contracts.ml" 38 1055 1103
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.method_annotation -> unit
+)
+"contracts.ml" 38 1055 1063 "contracts.ml" 38 1055 1104
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.method_annotation list -> unit
+)
+"contracts.ml" 38 1055 1105 "contracts.ml" 38 1055 1112
+type(
+  Annotation.method_annotation list
+)
+ident(
+  int_ref methods "contracts.ml" 35 905 928 "contracts.ml" 35 905 935
+)
+"contracts.ml" 36 940 946 "contracts.ml" 38 1055 1112
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 40 1120 1133 "contracts.ml" 40 1120 1134
+type(
+  Annotation.quant_var
+)
+ident(
+  def v "contracts.ml" 41 1139 1145 "contracts.ml" 42 1194 1236
+)
+"contracts.ml" 40 1120 1124 "contracts.ml" 40 1120 1134
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 41 1139 1145 "contracts.ml" 41 1139 1152
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 41 1139 1153 "contracts.ml" 41 1139 1156
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 28 681 708 "contracts.ml" 28 681 711
+)
+"contracts.ml" 41 1139 1157 "contracts.ml" 41 1139 1192
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"contracts.ml" 42 1194 1203 "contracts.ml" 42 1194 1233
+type(
+  Annotation.quant_var -> string
+)
+ident(
+  ext_ref Annotation.string_of_quant_var
+)
+"contracts.ml" 42 1194 1234 "contracts.ml" 42 1194 1235
+type(
+  Annotation.quant_var
+)
+ident(
+  int_ref v "contracts.ml" 40 1120 1133 "contracts.ml" 40 1120 1134
+)
+"contracts.ml" 42 1194 1202 "contracts.ml" 42 1194 1236
+call(
+  stack
+)
+type(
+  string
+)
+"contracts.ml" 41 1139 1145 "contracts.ml" 42 1194 1236
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 44 1244 1261 "contracts.ml" 44 1244 1262
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 44 1244 1248 "contracts.ml" 44 1244 1262
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 44 1244 1279 "contracts.ml" 44 1244 1280
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 44 1244 1265 "contracts.ml" 44 1244 1280
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 44 1244 1248 "contracts.ml" 44 1244 1280
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 45 1281 1300 "contracts.ml" 45 1281 1301
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 45 1281 1285 "contracts.ml" 45 1281 1301
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 44 1244 1248 "contracts.ml" 45 1281 1301
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 46 1302 1315 "contracts.ml" 46 1302 1316
+type(
+  Annotation.type_expr list
+)
+type(
+  Annotation.type_ident
+)
+"contracts.ml" 46 1302 1306 "contracts.ml" 46 1302 1316
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 44 1244 1248 "contracts.ml" 46 1302 1316
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 47 1317 1332 "contracts.ml" 47 1317 1333
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 47 1317 1321 "contracts.ml" 47 1317 1333
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 44 1244 1248 "contracts.ml" 47 1317 1333
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 48 1337 1343 "contracts.ml" 48 1337 1352
+type(
+  ?ctx:Log.ctx ->
+  ((Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit, unit)
+  format4 ->
+  (Format.formatter -> Annotation.type_expr -> unit) ->
+  Annotation.type_expr -> unit
+)
+ident(
+  ext_ref Log.fixme
+)
+"contracts.ml" 48 1337 1353 "contracts.ml" 48 1337 1384
+type(
+  ((Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit, unit)
+  format4
+)
+"contracts.ml" 48 1337 1385 "contracts.ml" 48 1337 1401
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  ext_ref Annotation.format_type_expr
+)
+"contracts.ml" 48 1337 1402 "contracts.ml" 48 1337 1403
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref e "contracts.ml" 28 681 712 "contracts.ml" 28 681 713
+)
+"contracts.ml" 48 1337 1343 "contracts.ml" 48 1337 1403
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 49 1405 1411 "contracts.ml" 49 1405 1418
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 49 1405 1419 "contracts.ml" 49 1405 1422
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 28 681 708 "contracts.ml" 28 681 711
+)
+"contracts.ml" 49 1405 1423 "contracts.ml" 49 1405 1465
+type(
+  (unit, Format.formatter, unit) format
+)
+"contracts.ml" 49 1405 1411 "contracts.ml" 49 1405 1465
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 48 1337 1343 "contracts.ml" 49 1405 1465
+type(
+  unit
+)
+"contracts.ml" 51 1467 1471 "contracts.ml" 51 1467 1483
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 52 1484 1488 "contracts.ml" 52 1484 1498
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 51 1467 1471 "contracts.ml" 52 1484 1498
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 53 1503 1509 "contracts.ml" 53 1503 1518
+type(
+  ?ctx:Log.ctx -> (unit, Format.formatter, unit, unit) format4 -> unit
+)
+ident(
+  ext_ref Log.fixme
+)
+"contracts.ml" 53 1503 1519 "contracts.ml" 53 1503 1546
+type(
+  (unit, Format.formatter, unit, unit) format4
+)
+"contracts.ml" 53 1503 1509 "contracts.ml" 53 1503 1546
+type(
+  unit
+)
+"contracts.ml" 54 1548 1554 "contracts.ml" 54 1548 1561
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 54 1548 1562 "contracts.ml" 54 1548 1565
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 28 681 708 "contracts.ml" 28 681 711
+)
+"contracts.ml" 54 1548 1566 "contracts.ml" 54 1548 1608
+type(
+  (unit, Format.formatter, unit) format
+)
+"contracts.ml" 54 1548 1554 "contracts.ml" 54 1548 1608
+type(
+  unit
+)
+"contracts.ml" 53 1503 1509 "contracts.ml" 54 1548 1608
+type(
+  unit
+)
+"contracts.ml" 28 681 716 "contracts.ml" 54 1548 1608
+type(
+  unit
+)
+"contracts.ml" 56 1610 1614 "contracts.ml" 56 1610 1624
+type(
+  Lexing.position -> Format.formatter -> Annotation.field_type -> unit
+)
+ident(
+  def emit_field "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 56 1610 1625 "contracts.ml" 56 1610 1628
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 56 1610 1629 "contracts.ml" 57 1647 1704
+)
+"contracts.ml" 56 1610 1629 "contracts.ml" 56 1610 1632
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 56 1610 1633 "contracts.ml" 57 1647 1704
+)
+"contracts.ml" 56 1610 1634 "contracts.ml" 56 1610 1638
+type(
+  string
+)
+ident(
+  def name "contracts.ml" 57 1647 1649 "contracts.ml" 57 1647 1704
+)
+"contracts.ml" 56 1610 1639 "contracts.ml" 56 1610 1642
+type(
+  Annotation.type_expr
+)
+ident(
+  def typ "contracts.ml" 57 1647 1649 "contracts.ml" 57 1647 1704
+)
+"contracts.ml" 56 1610 1633 "contracts.ml" 56 1610 1643
+type(
+  Annotation.field_type
+)
+"contracts.ml" 57 1647 1649 "contracts.ml" 57 1647 1656
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Annotation.type_expr -> unit) ->
+  Annotation.type_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 57 1647 1657 "contracts.ml" 57 1647 1660
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 56 1610 1629 "contracts.ml" 56 1610 1632
+)
+"contracts.ml" 57 1647 1661 "contracts.ml" 57 1647 1674
+type(
+  (string ->
+   (Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 57 1647 1675 "contracts.ml" 57 1647 1679
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 56 1610 1634 "contracts.ml" 56 1610 1638
+)
+"contracts.ml" 57 1647 1681 "contracts.ml" 57 1647 1695
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit_type_expr "contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+)
+"contracts.ml" 57 1647 1696 "contracts.ml" 57 1647 1699
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 56 1610 1625 "contracts.ml" 56 1610 1628
+)
+"contracts.ml" 57 1647 1680 "contracts.ml" 57 1647 1700
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+"contracts.ml" 57 1647 1701 "contracts.ml" 57 1647 1704
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref typ "contracts.ml" 56 1610 1639 "contracts.ml" 56 1610 1642
+)
+"contracts.ml" 57 1647 1649 "contracts.ml" 57 1647 1704
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 59 1706 1710 "contracts.ml" 59 1706 1725
+type(
+  Lexing.position -> Format.formatter -> Annotation.method_annotation -> unit
+)
+ident(
+  def emit_obj_method "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 59 1706 1726 "contracts.ml" 59 1706 1729
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 59 1706 1730 "contracts.ml" 67 1961 2027
+)
+"contracts.ml" 59 1706 1730 "contracts.ml" 59 1706 1733
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 59 1706 1734 "contracts.ml" 67 1961 2027
+)
+"contracts.ml" 59 1706 1736 "contracts.ml" 59 1706 1740
+type(
+  Annotation.type_ident
+)
+ident(
+  def name "contracts.ml" 60 1756 1758 "contracts.ml" 67 1961 2027
+)
+"contracts.ml" 59 1706 1741 "contracts.ml" 59 1706 1742
+type(
+  Annotation.bounded_quantifier list
+)
+"contracts.ml" 59 1706 1743 "contracts.ml" 59 1706 1744
+type(
+  Annotation.method_type
+)
+"contracts.ml" 59 1706 1735 "contracts.ml" 59 1706 1745
+type(
+  Annotation.method_annotation
+)
+"contracts.ml" 59 1706 1734 "contracts.ml" 59 1706 1752
+type(
+  Annotation.method_annotation
+)
+ident(
+  def mt "contracts.ml" 60 1756 1758 "contracts.ml" 67 1961 2027
+)
+"contracts.ml" 60 1756 1762 "contracts.ml" 60 1756 1767
+type(
+  string
+)
+"contracts.ml" 60 1756 1776 "contracts.ml" 60 1756 1780
+type(
+  Annotation.type_ident
+)
+ident(
+  int_ref name "contracts.ml" 59 1706 1736 "contracts.ml" 59 1706 1740
+)
+"contracts.ml" 61 1786 1808 "contracts.ml" 61 1786 1809
+type(
+  string
+)
+ident(
+  def s "contracts.ml" 61 1786 1813 "contracts.ml" 61 1786 1814
+)
+"contracts.ml" 61 1786 1792 "contracts.ml" 61 1786 1809
+type(
+  Annotation.type_ident
+)
+"contracts.ml" 61 1786 1813 "contracts.ml" 61 1786 1814
+type(
+  string
+)
+ident(
+  int_ref s "contracts.ml" 61 1786 1808 "contracts.ml" 61 1786 1809
+)
+"contracts.ml" 62 1815 1837 "contracts.ml" 62 1815 1838
+type(
+  string
+)
+ident(
+  def s "contracts.ml" 62 1815 1842 "contracts.ml" 62 1815 1843
+)
+"contracts.ml" 62 1815 1821 "contracts.ml" 62 1815 1838
+type(
+  Annotation.type_ident
+)
+"contracts.ml" 62 1815 1842 "contracts.ml" 62 1815 1843
+type(
+  string
+)
+ident(
+  int_ref s "contracts.ml" 62 1815 1837 "contracts.ml" 62 1815 1838
+)
+"contracts.ml" 63 1844 1864 "contracts.ml" 63 1844 1865
+type(
+  Annotation.type_ident
+)
+"contracts.ml" 63 1844 1866 "contracts.ml" 63 1844 1867
+type(
+  string
+)
+ident(
+  def s "contracts.ml" 64 1872 1880 "contracts.ml" 65 1946 1955
+)
+"contracts.ml" 63 1844 1850 "contracts.ml" 63 1844 1868
+type(
+  Annotation.type_ident
+)
+"contracts.ml" 64 1872 1880 "contracts.ml" 64 1872 1889
+type(
+  ?ctx:Log.ctx -> (unit, Format.formatter, unit, unit) format4 -> unit
+)
+ident(
+  ext_ref Log.fixme
+)
+"contracts.ml" 64 1872 1890 "contracts.ml" 64 1872 1944
+type(
+  (unit, Format.formatter, unit, unit) format4
+)
+"contracts.ml" 64 1872 1880 "contracts.ml" 64 1872 1944
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 65 1946 1954 "contracts.ml" 65 1946 1955
+type(
+  string
+)
+ident(
+  int_ref s "contracts.ml" 63 1844 1866 "contracts.ml" 63 1844 1867
+)
+"contracts.ml" 64 1872 1880 "contracts.ml" 65 1946 1955
+type(
+  string
+)
+"contracts.ml" 60 1756 1770 "contracts.ml" 65 1946 1955
+type(
+  string
+)
+"contracts.ml" 67 1961 1965 "contracts.ml" 67 1961 1972
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter ->
+    Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type -> unit) ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit) ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 67 1961 1973 "contracts.ml" 67 1961 1976
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 59 1706 1730 "contracts.ml" 59 1706 1733
+)
+"contracts.ml" 67 1961 1977 "contracts.ml" 67 1961 1988
+type(
+  (string ->
+   (Format.formatter ->
+    Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type -> unit) ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 67 1961 1989 "contracts.ml" 67 1961 1994
+type(
+  string
+)
+ident(
+  int_ref mname "contracts.ml" 60 1756 1762 "contracts.ml" 60 1756 1767
+)
+"contracts.ml" 67 1961 1996 "contracts.ml" 67 1961 2013
+type(
+  Lexing.position ->
+  string ->
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+ident(
+  int_ref emit_annot_method "contracts.ml" 111 3334 3338 "contracts.ml" 111 3334 3355
+)
+"contracts.ml" 67 1961 2014 "contracts.ml" 67 1961 2017
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 59 1706 1726 "contracts.ml" 59 1706 1729
+)
+"contracts.ml" 67 1961 2018 "contracts.ml" 67 1961 2023
+type(
+  string
+)
+ident(
+  int_ref mname "contracts.ml" 60 1756 1762 "contracts.ml" 60 1756 1767
+)
+"contracts.ml" 67 1961 1995 "contracts.ml" 67 1961 2024
+call(
+  stack
+)
+type(
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+"contracts.ml" 67 1961 2025 "contracts.ml" 67 1961 2027
+type(
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type
+)
+ident(
+  int_ref mt "contracts.ml" 59 1706 1734 "contracts.ml" 59 1706 1752
+)
+"contracts.ml" 67 1961 1965 "contracts.ml" 67 1961 2027
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 60 1756 1758 "contracts.ml" 67 1961 2027
+type(
+  unit
+)
+"contracts.ml" 69 2029 2033 "contracts.ml" 69 2029 2044
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr list -> unit
+)
+ident(
+  def emit_params "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 69 2029 2045 "contracts.ml" 69 2029 2048
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 69 2029 2049 "contracts.ml" 84 2578 2597
+)
+"contracts.ml" 69 2029 2049 "contracts.ml" 69 2029 2052
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 69 2029 2053 "contracts.ml" 84 2578 2597
+)
+"contracts.ml" 69 2029 2053 "contracts.ml" 69 2029 2055
+type(
+  Annotation.type_expr list
+)
+ident(
+  def pl "contracts.ml" 70 2059 2061 "contracts.ml" 84 2578 2597
+)
+"contracts.ml" 70 2059 2065 "contracts.ml" 70 2059 2069
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+"contracts.ml" 70 2059 2070 "contracts.ml" 70 2059 2073
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 70 2059 2076 "contracts.ml" 72 2152 2187
+)
+"contracts.ml" 71 2085 2105 "contracts.ml" 71 2085 2106
+type(
+  Annotation.type_expr
+)
+ident(
+  def e "contracts.ml" 71 2085 2127 "contracts.ml" 71 2085 2151
+)
+"contracts.ml" 71 2085 2091 "contracts.ml" 71 2085 2106
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 71 2085 2122 "contracts.ml" 71 2085 2123
+type(
+  Annotation.type_expr
+)
+ident(
+  def e "contracts.ml" 71 2085 2127 "contracts.ml" 71 2085 2151
+)
+"contracts.ml" 71 2085 2109 "contracts.ml" 71 2085 2123
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 71 2085 2091 "contracts.ml" 71 2085 2123
+type(
+  Annotation.type_expr
+)
+"contracts.ml" 71 2085 2127 "contracts.ml" 71 2085 2141
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit_type_expr "contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+)
+"contracts.ml" 71 2085 2142 "contracts.ml" 71 2085 2145
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 69 2029 2045 "contracts.ml" 69 2029 2048
+)
+"contracts.ml" 71 2085 2146 "contracts.ml" 71 2085 2149
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 70 2059 2070 "contracts.ml" 70 2059 2073
+)
+"contracts.ml" 71 2085 2150 "contracts.ml" 71 2085 2151
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref e "contracts.ml" 71 2085 2105 "contracts.ml" 71 2085 2106
+)
+"contracts.ml" 71 2085 2127 "contracts.ml" 71 2085 2151
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 72 2152 2158 "contracts.ml" 72 2152 2159
+type(
+  Annotation.type_expr
+)
+ident(
+  def e "contracts.ml" 72 2152 2163 "contracts.ml" 72 2152 2187
+)
+"contracts.ml" 72 2152 2163 "contracts.ml" 72 2152 2177
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit_type_expr "contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+)
+"contracts.ml" 72 2152 2178 "contracts.ml" 72 2152 2181
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 69 2029 2045 "contracts.ml" 69 2029 2048
+)
+"contracts.ml" 72 2152 2182 "contracts.ml" 72 2152 2185
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 70 2059 2070 "contracts.ml" 70 2059 2073
+)
+"contracts.ml" 72 2152 2186 "contracts.ml" 72 2152 2187
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref e "contracts.ml" 72 2152 2158 "contracts.ml" 72 2152 2159
+)
+"contracts.ml" 72 2152 2163 "contracts.ml" 72 2152 2187
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 70 2059 2076 "contracts.ml" 72 2152 2187
+type(
+  Annotation.type_expr -> unit
+)
+"contracts.ml" 74 2193 2199 "contracts.ml" 74 2193 2206
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 74 2193 2207 "contracts.ml" 74 2193 2211
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 74 2193 2199 "contracts.ml" 74 2193 2211
+type(
+  Annotation.type_expr list * Annotation.type_expr list
+)
+"contracts.ml" 74 2193 2214 "contracts.ml" 74 2193 2228
+type(
+  (Annotation.type_expr -> bool) ->
+  Annotation.type_expr list ->
+  Annotation.type_expr list * Annotation.type_expr list
+)
+ident(
+  ext_ref List.partition
+)
+"contracts.ml" 74 2193 2229 "contracts.ml" 74 2193 2238
+type(
+  Annotation.type_expr -> bool
+)
+ident(
+  int_ref is_vararg "contracts.ml" 9 91 95 "contracts.ml" 9 91 104
+)
+"contracts.ml" 74 2193 2239 "contracts.ml" 74 2193 2241
+type(
+  Annotation.type_expr list
+)
+ident(
+  int_ref pl "contracts.ml" 69 2029 2053 "contracts.ml" 69 2029 2055
+)
+"contracts.ml" 74 2193 2214 "contracts.ml" 74 2193 2241
+call(
+  stack
+)
+type(
+  Annotation.type_expr list * Annotation.type_expr list
+)
+"contracts.ml" 75 2245 2251 "contracts.ml" 75 2245 2255
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 75 2245 2256 "contracts.ml" 75 2245 2260
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 75 2245 2251 "contracts.ml" 75 2245 2260
+type(
+  Annotation.type_expr list * Annotation.type_expr list
+)
+"contracts.ml" 75 2245 2263 "contracts.ml" 75 2245 2277
+type(
+  (Annotation.type_expr -> bool) ->
+  Annotation.type_expr list ->
+  Annotation.type_expr list * Annotation.type_expr list
+)
+ident(
+  ext_ref List.partition
+)
+"contracts.ml" 75 2245 2278 "contracts.ml" 75 2245 2289
+type(
+  Annotation.type_expr -> bool
+)
+ident(
+  int_ref is_optional "contracts.ml" 13 160 164 "contracts.ml" 13 160 175
+)
+"contracts.ml" 75 2245 2290 "contracts.ml" 75 2245 2294
+type(
+  Annotation.type_expr list
+)
+ident(
+  int_ref rest "contracts.ml" 74 2193 2207 "contracts.ml" 74 2193 2211
+)
+"contracts.ml" 75 2245 2263 "contracts.ml" 75 2245 2294
+call(
+  stack
+)
+type(
+  Annotation.type_expr list * Annotation.type_expr list
+)
+"contracts.ml" 76 2298 2302 "contracts.ml" 76 2298 2309
+type(
+  Format.formatter ->
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Annotation.type_expr list -> unit) ->
+  Annotation.type_expr list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 76 2298 2310 "contracts.ml" 76 2298 2313
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 69 2029 2049 "contracts.ml" 69 2029 2052
+)
+"contracts.ml" 76 2298 2314 "contracts.ml" 76 2298 2348
+type(
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 77 2349 2356 "contracts.ml" 77 2349 2373
+type(
+  (Format.formatter -> Annotation.type_expr -> unit) ->
+  Format.formatter -> Annotation.type_expr list -> unit
+)
+ident(
+  ext_ref Utils.format_comma_list
+)
+"contracts.ml" 77 2349 2375 "contracts.ml" 77 2349 2389
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit_type_expr "contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+)
+"contracts.ml" 77 2349 2390 "contracts.ml" 77 2349 2393
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 69 2029 2045 "contracts.ml" 69 2029 2048
+)
+"contracts.ml" 77 2349 2374 "contracts.ml" 77 2349 2394
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+"contracts.ml" 77 2349 2355 "contracts.ml" 77 2349 2395
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr list -> unit
+)
+"contracts.ml" 77 2349 2396 "contracts.ml" 77 2349 2400
+type(
+  Annotation.type_expr list
+)
+ident(
+  int_ref reqs "contracts.ml" 75 2245 2256 "contracts.ml" 75 2245 2260
+)
+"contracts.ml" 76 2298 2302 "contracts.ml" 77 2349 2400
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 78 2402 2406 "contracts.ml" 78 2402 2413
+type(
+  Format.formatter ->
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Annotation.type_expr list -> unit) ->
+  Annotation.type_expr list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 78 2402 2414 "contracts.ml" 78 2402 2417
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 69 2029 2049 "contracts.ml" 69 2029 2052
+)
+"contracts.ml" 78 2402 2418 "contracts.ml" 78 2402 2425
+type(
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 78 2402 2427 "contracts.ml" 78 2402 2444
+type(
+  (Format.formatter -> Annotation.type_expr -> unit) ->
+  Format.formatter -> Annotation.type_expr list -> unit
+)
+ident(
+  ext_ref Utils.format_comma_list
+)
+"contracts.ml" 78 2402 2445 "contracts.ml" 78 2402 2449
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit "contracts.ml" 70 2059 2065 "contracts.ml" 70 2059 2069
+)
+"contracts.ml" 78 2402 2426 "contracts.ml" 78 2402 2450
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr list -> unit
+)
+"contracts.ml" 78 2402 2451 "contracts.ml" 78 2402 2455
+type(
+  Annotation.type_expr list
+)
+ident(
+  int_ref opts "contracts.ml" 75 2245 2251 "contracts.ml" 75 2245 2255
+)
+"contracts.ml" 78 2402 2406 "contracts.ml" 78 2402 2455
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 79 2457 2473 "contracts.ml" 79 2457 2480
+type(
+  Annotation.type_expr list
+)
+ident(
+  int_ref varargs "contracts.ml" 74 2193 2199 "contracts.ml" 74 2193 2206
+)
+"contracts.ml" 80 2486 2494 "contracts.ml" 80 2486 2496
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 80 2486 2500 "contracts.ml" 80 2486 2502
+type(
+  unit
+)
+"contracts.ml" 81 2503 2512 "contracts.ml" 81 2503 2513
+type(
+  Annotation.type_expr
+)
+ident(
+  def v "contracts.ml" 81 2503 2518 "contracts.ml" 81 2503 2542
+)
+"contracts.ml" 81 2503 2511 "contracts.ml" 81 2503 2514
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 81 2503 2518 "contracts.ml" 81 2503 2525
+type(
+  Format.formatter ->
+  ((Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Annotation.type_expr -> unit) ->
+  Annotation.type_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 81 2503 2526 "contracts.ml" 81 2503 2529
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 69 2029 2049 "contracts.ml" 69 2029 2052
+)
+"contracts.ml" 81 2503 2530 "contracts.ml" 81 2503 2535
+type(
+  ((Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 81 2503 2536 "contracts.ml" 81 2503 2540
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit "contracts.ml" 70 2059 2065 "contracts.ml" 70 2059 2069
+)
+"contracts.ml" 81 2503 2541 "contracts.ml" 81 2503 2542
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref v "contracts.ml" 81 2503 2512 "contracts.ml" 81 2503 2513
+)
+"contracts.ml" 81 2503 2518 "contracts.ml" 81 2503 2542
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 82 2543 2551 "contracts.ml" 82 2543 2552
+type(
+  Annotation.type_expr list
+)
+"contracts.ml" 82 2543 2556 "contracts.ml" 82 2543 2568
+type(
+  unit
+)
+"contracts.ml" 79 2457 2461 "contracts.ml" 83 2569 2576
+type(
+  unit
+)
+"contracts.ml" 84 2578 2582 "contracts.ml" 84 2578 2589
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 84 2578 2590 "contracts.ml" 84 2578 2593
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 69 2029 2049 "contracts.ml" 69 2029 2052
+)
+"contracts.ml" 84 2578 2594 "contracts.ml" 84 2578 2597
+type(
+  (unit, Format.formatter, unit) format
+)
+"contracts.ml" 84 2578 2582 "contracts.ml" 84 2578 2597
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 79 2457 2461 "contracts.ml" 84 2578 2597
+type(
+  unit
+)
+"contracts.ml" 78 2402 2406 "contracts.ml" 84 2578 2597
+type(
+  unit
+)
+"contracts.ml" 76 2298 2302 "contracts.ml" 84 2578 2597
+type(
+  unit
+)
+"contracts.ml" 75 2245 2247 "contracts.ml" 84 2578 2597
+type(
+  unit
+)
+"contracts.ml" 74 2193 2195 "contracts.ml" 84 2578 2597
+type(
+  unit
+)
+"contracts.ml" 70 2059 2061 "contracts.ml" 84 2578 2597
+type(
+  unit
+)
+"contracts.ml" 86 2605 2609 "contracts.ml" 86 2605 2619
+type(
+  Lexing.position -> Format.formatter -> Annotation.method_type -> unit
+)
+ident(
+  def emit_block "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 86 2605 2620 "contracts.ml" 86 2605 2623
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 86 2605 2624 "contracts.ml" 90 2756 2784
+)
+"contracts.ml" 86 2605 2624 "contracts.ml" 86 2605 2627
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 86 2605 2628 "contracts.ml" 90 2756 2784
+)
+"contracts.ml" 86 2605 2639 "contracts.ml" 86 2605 2643
+type(
+  Annotation.type_expr list
+)
+ident(
+  def args "contracts.ml" 87 2657 2659 "contracts.ml" 90 2756 2784
+)
+"contracts.ml" 86 2605 2644 "contracts.ml" 86 2605 2647
+type(
+  Annotation.method_type option
+)
+ident(
+  def blk "contracts.ml" 87 2657 2659 "contracts.ml" 90 2756 2784
+)
+"contracts.ml" 86 2605 2648 "contracts.ml" 86 2605 2651
+type(
+  Annotation.type_expr
+)
+ident(
+  def ret "contracts.ml" 87 2657 2659 "contracts.ml" 90 2756 2784
+)
+"contracts.ml" 86 2605 2628 "contracts.ml" 86 2605 2653
+type(
+  Annotation.method_type
+)
+"contracts.ml" 87 2657 2666 "contracts.ml" 87 2657 2669
+type(
+  Annotation.method_type option
+)
+ident(
+  int_ref blk "contracts.ml" 86 2605 2644 "contracts.ml" 86 2605 2647
+)
+"contracts.ml" 87 2657 2670 "contracts.ml" 87 2657 2671
+type(
+  Annotation.method_type option -> Annotation.method_type option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"contracts.ml" 87 2657 2672 "contracts.ml" 87 2657 2676
+type(
+  Annotation.method_type option
+)
+"contracts.ml" 87 2657 2665 "contracts.ml" 87 2657 2677
+type(
+  bool
+)
+"contracts.ml" 87 2657 2659 "contracts.ml" 87 2657 2677
+type(
+  unit
+)
+"contracts.ml" 88 2679 2681 "contracts.ml" 88 2679 2688
+type(
+  Format.formatter ->
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list ->
+   (Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Annotation.type_expr list -> unit) ->
+  Annotation.type_expr list ->
+  (Format.formatter -> Annotation.type_expr -> unit) ->
+  Annotation.type_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 88 2679 2689 "contracts.ml" 88 2679 2692
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 86 2605 2624 "contracts.ml" 86 2605 2627
+)
+"contracts.ml" 88 2679 2693 "contracts.ml" 88 2679 2728
+type(
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list ->
+   (Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 89 2729 2734 "contracts.ml" 89 2729 2745
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr list -> unit
+)
+ident(
+  int_ref emit_params "contracts.ml" 69 2029 2033 "contracts.ml" 69 2029 2044
+)
+"contracts.ml" 89 2729 2746 "contracts.ml" 89 2729 2749
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 86 2605 2620 "contracts.ml" 86 2605 2623
+)
+"contracts.ml" 89 2729 2733 "contracts.ml" 89 2729 2750
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr list -> unit
+)
+"contracts.ml" 89 2729 2751 "contracts.ml" 89 2729 2755
+type(
+  Annotation.type_expr list
+)
+ident(
+  int_ref args "contracts.ml" 86 2605 2639 "contracts.ml" 86 2605 2643
+)
+"contracts.ml" 90 2756 2761 "contracts.ml" 90 2756 2775
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit_type_expr "contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+)
+"contracts.ml" 90 2756 2776 "contracts.ml" 90 2756 2779
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 86 2605 2620 "contracts.ml" 86 2605 2623
+)
+"contracts.ml" 90 2756 2760 "contracts.ml" 90 2756 2780
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+"contracts.ml" 90 2756 2781 "contracts.ml" 90 2756 2784
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref ret "contracts.ml" 86 2605 2648 "contracts.ml" 86 2605 2651
+)
+"contracts.ml" 88 2679 2681 "contracts.ml" 90 2756 2784
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 87 2657 2659 "contracts.ml" 90 2756 2784
+type(
+  unit
+)
+"contracts.ml" 92 2786 2790 "contracts.ml" 92 2786 2807
+type(
+  Lexing.position ->
+  Format.formatter -> Annotation.method_type option -> unit
+)
+ident(
+  def emit_block_or_nil "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 92 2786 2808 "contracts.ml" 92 2786 2811
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 92 2786 2812 "contracts.ml" 94 2865 2899
+)
+"contracts.ml" 92 2786 2812 "contracts.ml" 92 2786 2815
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 92 2786 2818 "contracts.ml" 94 2865 2899
+)
+"contracts.ml" 93 2827 2831 "contracts.ml" 93 2827 2835
+type(
+  Annotation.method_type option
+)
+"contracts.ml" 93 2827 2839 "contracts.ml" 93 2827 2854
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"contracts.ml" 93 2827 2855 "contracts.ml" 93 2827 2858
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 92 2786 2812 "contracts.ml" 92 2786 2815
+)
+"contracts.ml" 93 2827 2859 "contracts.ml" 93 2827 2864
+type(
+  string
+)
+"contracts.ml" 93 2827 2839 "contracts.ml" 93 2827 2864
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 94 2865 2874 "contracts.ml" 94 2865 2875
+type(
+  Annotation.method_type
+)
+ident(
+  def x "contracts.ml" 94 2865 2879 "contracts.ml" 94 2865 2899
+)
+"contracts.ml" 94 2865 2869 "contracts.ml" 94 2865 2875
+type(
+  Annotation.method_type option
+)
+"contracts.ml" 94 2865 2879 "contracts.ml" 94 2865 2889
+type(
+  Lexing.position -> Format.formatter -> Annotation.method_type -> unit
+)
+ident(
+  int_ref emit_block "contracts.ml" 86 2605 2609 "contracts.ml" 86 2605 2619
+)
+"contracts.ml" 94 2865 2890 "contracts.ml" 94 2865 2893
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 92 2786 2808 "contracts.ml" 92 2786 2811
+)
+"contracts.ml" 94 2865 2894 "contracts.ml" 94 2865 2897
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 92 2786 2812 "contracts.ml" 92 2786 2815
+)
+"contracts.ml" 94 2865 2898 "contracts.ml" 94 2865 2899
+type(
+  Annotation.method_type
+)
+ident(
+  int_ref x "contracts.ml" 94 2865 2874 "contracts.ml" 94 2865 2875
+)
+"contracts.ml" 94 2865 2879 "contracts.ml" 94 2865 2899
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 92 2786 2818 "contracts.ml" 94 2865 2899
+type(
+  Annotation.method_type option -> unit
+)
+"contracts.ml" 96 2901 2905 "contracts.ml" 96 2901 2921
+type(
+  Lexing.position -> Format.formatter -> Annotation.method_type -> unit
+)
+ident(
+  def emit_method_args "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 96 2901 2922 "contracts.ml" 96 2901 2925
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 96 2901 2926 "contracts.ml" 100 3042 3070
+)
+"contracts.ml" 96 2901 2926 "contracts.ml" 96 2901 2929
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 96 2901 2930 "contracts.ml" 100 3042 3070
+)
+"contracts.ml" 96 2901 2941 "contracts.ml" 96 2901 2945
+type(
+  Annotation.type_expr list
+)
+ident(
+  def args "contracts.ml" 97 2958 2960 "contracts.ml" 100 3042 3070
+)
+"contracts.ml" 96 2901 2946 "contracts.ml" 96 2901 2949
+type(
+  Annotation.method_type option
+)
+ident(
+  def blk "contracts.ml" 97 2958 2960 "contracts.ml" 100 3042 3070
+)
+"contracts.ml" 96 2901 2950 "contracts.ml" 96 2901 2953
+type(
+  Annotation.type_expr
+)
+ident(
+  def ret "contracts.ml" 97 2958 2960 "contracts.ml" 100 3042 3070
+)
+"contracts.ml" 96 2901 2930 "contracts.ml" 96 2901 2955
+type(
+  Annotation.method_type
+)
+"contracts.ml" 97 2958 2960 "contracts.ml" 97 2958 2967
+type(
+  Format.formatter ->
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list ->
+   (Format.formatter -> Annotation.method_type option -> unit) ->
+   Annotation.method_type option ->
+   (Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Annotation.type_expr list -> unit) ->
+  Annotation.type_expr list ->
+  (Format.formatter -> Annotation.method_type option -> unit) ->
+  Annotation.method_type option ->
+  (Format.formatter -> Annotation.type_expr -> unit) ->
+  Annotation.type_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 97 2958 2968 "contracts.ml" 97 2958 2971
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 96 2901 2926 "contracts.ml" 96 2901 2929
+)
+"contracts.ml" 97 2958 2972 "contracts.ml" 97 2958 2982
+type(
+  ((Format.formatter -> Annotation.type_expr list -> unit) ->
+   Annotation.type_expr list ->
+   (Format.formatter -> Annotation.method_type option -> unit) ->
+   Annotation.method_type option ->
+   (Format.formatter -> Annotation.type_expr -> unit) ->
+   Annotation.type_expr -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 98 2983 2988 "contracts.ml" 98 2983 2999
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr list -> unit
+)
+ident(
+  int_ref emit_params "contracts.ml" 69 2029 2033 "contracts.ml" 69 2029 2044
+)
+"contracts.ml" 98 2983 3000 "contracts.ml" 98 2983 3003
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 96 2901 2922 "contracts.ml" 96 2901 2925
+)
+"contracts.ml" 98 2983 2987 "contracts.ml" 98 2983 3004
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr list -> unit
+)
+"contracts.ml" 98 2983 3005 "contracts.ml" 98 2983 3009
+type(
+  Annotation.type_expr list
+)
+ident(
+  int_ref args "contracts.ml" 96 2901 2941 "contracts.ml" 96 2901 2945
+)
+"contracts.ml" 99 3010 3015 "contracts.ml" 99 3010 3032
+type(
+  Lexing.position ->
+  Format.formatter -> Annotation.method_type option -> unit
+)
+ident(
+  int_ref emit_block_or_nil "contracts.ml" 92 2786 2790 "contracts.ml" 92 2786 2807
+)
+"contracts.ml" 99 3010 3033 "contracts.ml" 99 3010 3036
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 96 2901 2922 "contracts.ml" 96 2901 2925
+)
+"contracts.ml" 99 3010 3014 "contracts.ml" 99 3010 3037
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.method_type option -> unit
+)
+"contracts.ml" 99 3010 3038 "contracts.ml" 99 3010 3041
+type(
+  Annotation.method_type option
+)
+ident(
+  int_ref blk "contracts.ml" 96 2901 2946 "contracts.ml" 96 2901 2949
+)
+"contracts.ml" 100 3042 3047 "contracts.ml" 100 3042 3061
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit_type_expr "contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+)
+"contracts.ml" 100 3042 3062 "contracts.ml" 100 3042 3065
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 96 2901 2922 "contracts.ml" 96 2901 2925
+)
+"contracts.ml" 100 3042 3046 "contracts.ml" 100 3042 3066
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.type_expr -> unit
+)
+"contracts.ml" 100 3042 3067 "contracts.ml" 100 3042 3070
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref ret "contracts.ml" 96 2901 2950 "contracts.ml" 96 2901 2953
+)
+"contracts.ml" 97 2958 2960 "contracts.ml" 100 3042 3070
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 102 3072 3076 "contracts.ml" 102 3072 3087
+type(
+  Lexing.position ->
+  Format.formatter -> Annotation.bounded_quantifier -> unit
+)
+ident(
+  def emit_binder "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 102 3072 3088 "contracts.ml" 102 3072 3091
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 102 3072 3092 "contracts.ml" 108 3282 3331
+)
+"contracts.ml" 102 3072 3092 "contracts.ml" 102 3072 3095
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 102 3072 3096 "contracts.ml" 108 3282 3331
+)
+"contracts.ml" 102 3072 3097 "contracts.ml" 102 3072 3100
+type(
+  Annotation.quant_var
+)
+ident(
+  def var "contracts.ml" 103 3111 3113 "contracts.ml" 108 3282 3331
+)
+"contracts.ml" 102 3072 3101 "contracts.ml" 102 3072 3106
+type(
+  Annotation.type_expr option
+)
+ident(
+  def bound "contracts.ml" 103 3111 3113 "contracts.ml" 108 3282 3331
+)
+"contracts.ml" 102 3072 3096 "contracts.ml" 102 3072 3107
+type(
+  Annotation.bounded_quantifier
+)
+"contracts.ml" 103 3111 3117 "contracts.ml" 103 3111 3122
+type(
+  string
+)
+"contracts.ml" 103 3111 3125 "contracts.ml" 103 3111 3155
+type(
+  Annotation.quant_var -> string
+)
+ident(
+  ext_ref Annotation.string_of_quant_var
+)
+"contracts.ml" 103 3111 3156 "contracts.ml" 103 3111 3159
+type(
+  Annotation.quant_var
+)
+ident(
+  int_ref var "contracts.ml" 102 3072 3097 "contracts.ml" 102 3072 3100
+)
+"contracts.ml" 103 3111 3125 "contracts.ml" 103 3111 3159
+call(
+  stack
+)
+type(
+  string
+)
+"contracts.ml" 104 3163 3169 "contracts.ml" 104 3163 3179
+type(
+  Format.formatter -> Annotation.type_expr option -> unit
+)
+"contracts.ml" 104 3163 3180 "contracts.ml" 104 3163 3183
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 104 3163 3186 "contracts.ml" 106 3236 3276
+)
+"contracts.ml" 105 3195 3201 "contracts.ml" 105 3195 3205
+type(
+  Annotation.type_expr option
+)
+"contracts.ml" 105 3195 3209 "contracts.ml" 105 3195 3224
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"contracts.ml" 105 3195 3225 "contracts.ml" 105 3195 3228
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 104 3163 3180 "contracts.ml" 104 3163 3183
+)
+"contracts.ml" 105 3195 3229 "contracts.ml" 105 3195 3234
+type(
+  string
+)
+"contracts.ml" 105 3195 3209 "contracts.ml" 105 3195 3234
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 106 3236 3247 "contracts.ml" 106 3236 3248
+type(
+  Annotation.type_expr
+)
+ident(
+  def e "contracts.ml" 106 3236 3252 "contracts.ml" 106 3236 3276
+)
+"contracts.ml" 106 3236 3242 "contracts.ml" 106 3236 3248
+type(
+  Annotation.type_expr option
+)
+"contracts.ml" 106 3236 3252 "contracts.ml" 106 3236 3266
+type(
+  Lexing.position -> Format.formatter -> Annotation.type_expr -> unit
+)
+ident(
+  int_ref emit_type_expr "contracts.ml" 28 681 689 "contracts.ml" 28 681 703
+)
+"contracts.ml" 106 3236 3267 "contracts.ml" 106 3236 3270
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 102 3072 3088 "contracts.ml" 102 3072 3091
+)
+"contracts.ml" 106 3236 3271 "contracts.ml" 106 3236 3274
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 104 3163 3180 "contracts.ml" 104 3163 3183
+)
+"contracts.ml" 106 3236 3275 "contracts.ml" 106 3236 3276
+type(
+  Annotation.type_expr
+)
+ident(
+  int_ref e "contracts.ml" 106 3236 3247 "contracts.ml" 106 3236 3248
+)
+"contracts.ml" 106 3236 3252 "contracts.ml" 106 3236 3276
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 104 3163 3186 "contracts.ml" 106 3236 3276
+type(
+  Annotation.type_expr option -> unit
+)
+"contracts.ml" 108 3282 3286 "contracts.ml" 108 3282 3293
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Annotation.type_expr option -> unit) ->
+   Annotation.type_expr option -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Annotation.type_expr option -> unit) ->
+  Annotation.type_expr option -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 108 3282 3294 "contracts.ml" 108 3282 3297
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 102 3072 3092 "contracts.ml" 102 3072 3095
+)
+"contracts.ml" 108 3282 3298 "contracts.ml" 108 3282 3308
+type(
+  (string ->
+   (Format.formatter -> Annotation.type_expr option -> unit) ->
+   Annotation.type_expr option -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 108 3282 3309 "contracts.ml" 108 3282 3314
+type(
+  string
+)
+ident(
+  int_ref vname "contracts.ml" 103 3111 3117 "contracts.ml" 103 3111 3122
+)
+"contracts.ml" 108 3282 3315 "contracts.ml" 108 3282 3325
+type(
+  Format.formatter -> Annotation.type_expr option -> unit
+)
+ident(
+  int_ref emit_bound "contracts.ml" 104 3163 3169 "contracts.ml" 104 3163 3179
+)
+"contracts.ml" 108 3282 3326 "contracts.ml" 108 3282 3331
+type(
+  Annotation.type_expr option
+)
+ident(
+  int_ref bound "contracts.ml" 102 3072 3101 "contracts.ml" 102 3072 3106
+)
+"contracts.ml" 108 3282 3286 "contracts.ml" 108 3282 3331
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 104 3163 3165 "contracts.ml" 108 3282 3331
+type(
+  unit
+)
+"contracts.ml" 103 3111 3113 "contracts.ml" 108 3282 3331
+type(
+  unit
+)
+"contracts.ml" 111 3334 3338 "contracts.ml" 111 3334 3355
+type(
+  Lexing.position ->
+  string ->
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+ident(
+  def emit_annot_method "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 111 3334 3356 "contracts.ml" 111 3334 3359
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 111 3334 3360 "contracts.ml" 120 3718 3750
+)
+"contracts.ml" 111 3334 3360 "contracts.ml" 111 3334 3364
+type(
+  string
+)
+ident(
+  def name "contracts.ml" 111 3334 3365 "contracts.ml" 120 3718 3750
+)
+"contracts.ml" 111 3334 3365 "contracts.ml" 111 3334 3368
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 111 3334 3369 "contracts.ml" 120 3718 3750
+)
+"contracts.ml" 111 3334 3370 "contracts.ml" 111 3334 3371
+type(
+  Annotation.type_ident
+)
+"contracts.ml" 111 3334 3372 "contracts.ml" 111 3334 3379
+type(
+  Annotation.bounded_quantifier list
+)
+ident(
+  def binders "contracts.ml" 112 3391 3393 "contracts.ml" 120 3718 3750
+)
+"contracts.ml" 111 3334 3380 "contracts.ml" 111 3334 3387
+type(
+  Annotation.method_type
+)
+ident(
+  def methsig "contracts.ml" 112 3391 3393 "contracts.ml" 120 3718 3750
+)
+"contracts.ml" 111 3334 3369 "contracts.ml" 111 3334 3388
+type(
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type
+)
+"contracts.ml" 112 3391 3397 "contracts.ml" 112 3391 3401
+type(
+  Format.formatter -> unit -> unit
+)
+"contracts.ml" 112 3391 3402 "contracts.ml" 112 3391 3405
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 112 3391 3406 "contracts.ml" 113 3469 3521
+)
+"contracts.ml" 112 3391 3406 "contracts.ml" 112 3391 3408
+type(
+  unit
+)
+"contracts.ml" 112 3391 3411 "contracts.ml" 112 3391 3418
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Annotation.method_type -> unit) ->
+   Annotation.method_type ->
+   (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Annotation.method_type -> unit) ->
+  Annotation.method_type ->
+  (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 112 3391 3419 "contracts.ml" 112 3391 3422
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 112 3391 3402 "contracts.ml" 112 3391 3405
+)
+"contracts.ml" 112 3391 3423 "contracts.ml" 112 3391 3467
+type(
+  (string ->
+   (Format.formatter -> Annotation.method_type -> unit) ->
+   Annotation.method_type ->
+   (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit,
+   Format.formatter, unit)
+  format
+)
+"contracts.ml" 113 3469 3473 "contracts.ml" 113 3469 3477
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 111 3334 3360 "contracts.ml" 111 3334 3364
+)
+"contracts.ml" 113 3469 3479 "contracts.ml" 113 3469 3495
+type(
+  Lexing.position -> Format.formatter -> Annotation.method_type -> unit
+)
+ident(
+  int_ref emit_method_args "contracts.ml" 96 2901 2905 "contracts.ml" 96 2901 2921
+)
+"contracts.ml" 113 3469 3496 "contracts.ml" 113 3469 3499
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 111 3334 3356 "contracts.ml" 111 3334 3359
+)
+"contracts.ml" 113 3469 3478 "contracts.ml" 113 3469 3500
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.method_type -> unit
+)
+"contracts.ml" 113 3469 3501 "contracts.ml" 113 3469 3508
+type(
+  Annotation.method_type
+)
+ident(
+  int_ref methsig "contracts.ml" 111 3334 3380 "contracts.ml" 111 3334 3387
+)
+"contracts.ml" 113 3469 3509 "contracts.ml" 113 3469 3517
+type(
+  Format.formatter -> Lexing.position -> unit
+)
+ident(
+  int_ref emit_pos "contracts.ml" 17 232 236 "contracts.ml" 17 232 244
+)
+"contracts.ml" 113 3469 3518 "contracts.ml" 113 3469 3521
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 111 3334 3356 "contracts.ml" 111 3334 3359
+)
+"contracts.ml" 112 3391 3411 "contracts.ml" 113 3469 3521
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 115 3527 3537 "contracts.ml" 115 3527 3544
+type(
+  Annotation.bounded_quantifier list
+)
+ident(
+  int_ref binders "contracts.ml" 111 3334 3372 "contracts.ml" 111 3334 3379
+)
+"contracts.ml" 116 3550 3558 "contracts.ml" 116 3550 3560
+type(
+  Annotation.bounded_quantifier list
+)
+"contracts.ml" 116 3550 3564 "contracts.ml" 116 3550 3568
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref mono "contracts.ml" 112 3391 3397 "contracts.ml" 112 3391 3401
+)
+"contracts.ml" 116 3550 3569 "contracts.ml" 116 3550 3572
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 111 3334 3365 "contracts.ml" 111 3334 3368
+)
+"contracts.ml" 116 3550 3573 "contracts.ml" 116 3550 3575
+type(
+  unit
+)
+"contracts.ml" 116 3550 3564 "contracts.ml" 116 3550 3575
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 117 3576 3584 "contracts.ml" 117 3576 3587
+type(
+  Annotation.bounded_quantifier list
+)
+ident(
+  def lst "contracts.ml" 118 3591 3601 "contracts.ml" 120 3718 3750
+)
+"contracts.ml" 118 3591 3601 "contracts.ml" 118 3591 3608
+type(
+  Format.formatter ->
+  ((Format.formatter -> Annotation.bounded_quantifier list -> unit) ->
+   Annotation.bounded_quantifier list ->
+   (Format.formatter -> unit -> unit) ->
+   unit ->
+   (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Annotation.bounded_quantifier list -> unit) ->
+  Annotation.bounded_quantifier list ->
+  (Format.formatter -> unit -> unit) ->
+  unit ->
+  (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 118 3591 3609 "contracts.ml" 118 3591 3612
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 111 3334 3365 "contracts.ml" 111 3334 3368
+)
+"contracts.ml" 118 3591 3613 "contracts.ml" 118 3591 3658
+type(
+  ((Format.formatter -> Annotation.bounded_quantifier list -> unit) ->
+   Annotation.bounded_quantifier list ->
+   (Format.formatter -> unit -> unit) ->
+   unit ->
+   (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit,
+   Format.formatter, unit)
+  format
+)
+"contracts.ml" 119 3660 3673 "contracts.ml" 119 3660 3690
+type(
+  (Format.formatter -> Annotation.bounded_quantifier -> unit) ->
+  Format.formatter -> Annotation.bounded_quantifier list -> unit
+)
+ident(
+  ext_ref Utils.format_comma_list
+)
+"contracts.ml" 119 3660 3692 "contracts.ml" 119 3660 3703
+type(
+  Lexing.position ->
+  Format.formatter -> Annotation.bounded_quantifier -> unit
+)
+ident(
+  int_ref emit_binder "contracts.ml" 102 3072 3076 "contracts.ml" 102 3072 3087
+)
+"contracts.ml" 119 3660 3704 "contracts.ml" 119 3660 3707
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 111 3334 3356 "contracts.ml" 111 3334 3359
+)
+"contracts.ml" 119 3660 3691 "contracts.ml" 119 3660 3708
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.bounded_quantifier -> unit
+)
+"contracts.ml" 119 3660 3672 "contracts.ml" 119 3660 3709
+call(
+  stack
+)
+type(
+  Format.formatter -> Annotation.bounded_quantifier list -> unit
+)
+"contracts.ml" 119 3660 3710 "contracts.ml" 119 3660 3717
+type(
+  Annotation.bounded_quantifier list
+)
+ident(
+  int_ref binders "contracts.ml" 111 3334 3372 "contracts.ml" 111 3334 3379
+)
+"contracts.ml" 120 3718 3730 "contracts.ml" 120 3718 3734
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref mono "contracts.ml" 112 3391 3397 "contracts.ml" 112 3391 3401
+)
+"contracts.ml" 120 3718 3735 "contracts.ml" 120 3718 3737
+type(
+  unit
+)
+"contracts.ml" 120 3718 3738 "contracts.ml" 120 3718 3746
+type(
+  Format.formatter -> Lexing.position -> unit
+)
+ident(
+  int_ref emit_pos "contracts.ml" 17 232 236 "contracts.ml" 17 232 244
+)
+"contracts.ml" 120 3718 3747 "contracts.ml" 120 3718 3750
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 111 3334 3356 "contracts.ml" 111 3334 3359
+)
+"contracts.ml" 118 3591 3601 "contracts.ml" 120 3718 3750
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 115 3527 3531 "contracts.ml" 120 3718 3750
+type(
+  unit
+)
+"contracts.ml" 112 3391 3393 "contracts.ml" 120 3718 3750
+type(
+  unit
+)
+"contracts.ml" 123 3753 3757 "contracts.ml" 123 3753 3773
+type(
+  Lexing.position ->
+  string ->
+  Format.formatter ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+ident(
+  def emit_annot_inter "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 123 3753 3774 "contracts.ml" 123 3753 3777
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 123 3753 3778 "contracts.ml" 128 3987 4005
+)
+"contracts.ml" 123 3753 3778 "contracts.ml" 123 3753 3782
+type(
+  string
+)
+ident(
+  def name "contracts.ml" 123 3753 3783 "contracts.ml" 128 3987 4005
+)
+"contracts.ml" 123 3753 3783 "contracts.ml" 123 3753 3786
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 123 3753 3787 "contracts.ml" 128 3987 4005
+)
+"contracts.ml" 123 3753 3787 "contracts.ml" 123 3753 3791
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  def alst "contracts.ml" 124 3795 3797 "contracts.ml" 128 3987 4005
+)
+"contracts.ml" 124 3795 3801 "contracts.ml" 124 3795 3809
+type(
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+"contracts.ml" 124 3795 3810 "contracts.ml" 124 3795 3813
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 124 3795 3814 "contracts.ml" 124 3795 3865
+)
+"contracts.ml" 124 3795 3814 "contracts.ml" 124 3795 3815
+type(
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type
+)
+ident(
+  def m "contracts.ml" 124 3795 3818 "contracts.ml" 124 3795 3865
+)
+"contracts.ml" 124 3795 3818 "contracts.ml" 124 3795 3825
+type(
+  Format.formatter ->
+  ((Format.formatter ->
+    Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type -> unit) ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit) ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 124 3795 3826 "contracts.ml" 124 3795 3829
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 124 3795 3810 "contracts.ml" 124 3795 3813
+)
+"contracts.ml" 124 3795 3830 "contracts.ml" 124 3795 3834
+type(
+  ((Format.formatter ->
+    Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type -> unit) ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 124 3795 3836 "contracts.ml" 124 3795 3853
+type(
+  Lexing.position ->
+  string ->
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+ident(
+  int_ref emit_annot_method "contracts.ml" 111 3334 3338 "contracts.ml" 111 3334 3355
+)
+"contracts.ml" 124 3795 3854 "contracts.ml" 124 3795 3857
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 123 3753 3774 "contracts.ml" 123 3753 3777
+)
+"contracts.ml" 124 3795 3858 "contracts.ml" 124 3795 3862
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 123 3753 3778 "contracts.ml" 123 3753 3782
+)
+"contracts.ml" 124 3795 3835 "contracts.ml" 124 3795 3863
+call(
+  stack
+)
+type(
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+"contracts.ml" 124 3795 3864 "contracts.ml" 124 3795 3865
+type(
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type
+)
+ident(
+  int_ref m "contracts.ml" 124 3795 3814 "contracts.ml" 124 3795 3815
+)
+"contracts.ml" 124 3795 3818 "contracts.ml" 124 3795 3865
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 125 3869 3873 "contracts.ml" 125 3869 3880
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter ->
+    (Annotation.type_ident * Annotation.bounded_quantifier list *
+     Annotation.method_type)
+    list -> unit) ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list ->
+   (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list -> unit) ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list ->
+  (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 125 3869 3881 "contracts.ml" 125 3869 3884
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 123 3753 3783 "contracts.ml" 123 3753 3786
+)
+"contracts.ml" 125 3869 3885 "contracts.ml" 125 3869 3934
+type(
+  (string ->
+   (Format.formatter ->
+    (Annotation.type_ident * Annotation.bounded_quantifier list *
+     Annotation.method_type)
+    list -> unit) ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list ->
+   (Format.formatter -> Lexing.position -> unit) -> Lexing.position -> unit,
+   Format.formatter, unit)
+  format
+)
+"contracts.ml" 126 3936 3942 "contracts.ml" 126 3936 3946
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 123 3753 3778 "contracts.ml" 123 3753 3782
+)
+"contracts.ml" 127 3947 3954 "contracts.ml" 127 3947 3971
+type(
+  (Format.formatter ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit) ->
+  Format.formatter ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+ident(
+  ext_ref Utils.format_comma_list
+)
+"contracts.ml" 127 3947 3972 "contracts.ml" 127 3947 3980
+type(
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+ident(
+  int_ref emit_one "contracts.ml" 124 3795 3801 "contracts.ml" 124 3795 3809
+)
+"contracts.ml" 127 3947 3953 "contracts.ml" 127 3947 3981
+call(
+  stack
+)
+type(
+  Format.formatter ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+"contracts.ml" 127 3947 3982 "contracts.ml" 127 3947 3986
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  int_ref alst "contracts.ml" 123 3753 3787 "contracts.ml" 123 3753 3791
+)
+"contracts.ml" 128 3987 3993 "contracts.ml" 128 3987 4001
+type(
+  Format.formatter -> Lexing.position -> unit
+)
+ident(
+  int_ref emit_pos "contracts.ml" 17 232 236 "contracts.ml" 17 232 244
+)
+"contracts.ml" 128 3987 4002 "contracts.ml" 128 3987 4005
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 123 3753 3774 "contracts.ml" 123 3753 3777
+)
+"contracts.ml" 125 3869 3873 "contracts.ml" 128 3987 4005
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 124 3795 3797 "contracts.ml" 128 3987 4005
+type(
+  unit
+)
+"contracts.ml" 130 4007 4011 "contracts.ml" 130 4007 4022
+type(
+  Lexing.position ->
+  string ->
+  Format.formatter ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+ident(
+  def emit_method "contracts.ml" 28 681 681 --
+)
+"contracts.ml" 130 4007 4023 "contracts.ml" 130 4007 4026
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 130 4007 4027 "contracts.ml" 134 4147 4210
+)
+"contracts.ml" 130 4007 4027 "contracts.ml" 130 4007 4031
+type(
+  string
+)
+ident(
+  def name "contracts.ml" 130 4007 4032 "contracts.ml" 134 4147 4210
+)
+"contracts.ml" 130 4007 4032 "contracts.ml" 130 4007 4035
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 130 4007 4036 "contracts.ml" 134 4147 4210
+)
+"contracts.ml" 130 4007 4036 "contracts.ml" 130 4007 4039
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  def lst "contracts.ml" 131 4042 4044 "contracts.ml" 134 4147 4210
+)
+"contracts.ml" 131 4042 4050 "contracts.ml" 131 4042 4053
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  int_ref lst "contracts.ml" 130 4007 4036 "contracts.ml" 130 4007 4039
+)
+"contracts.ml" 132 4059 4065 "contracts.ml" 132 4059 4067
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+"contracts.ml" 132 4059 4071 "contracts.ml" 132 4059 4083
+type(
+  unit
+)
+"contracts.ml" 133 4084 4091 "contracts.ml" 133 4084 4092
+type(
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type
+)
+ident(
+  def m "contracts.ml" 133 4084 4097 "contracts.ml" 133 4084 4146
+)
+"contracts.ml" 133 4084 4090 "contracts.ml" 133 4084 4093
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+"contracts.ml" 133 4084 4097 "contracts.ml" 133 4084 4104
+type(
+  Format.formatter ->
+  ((Format.formatter ->
+    Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type -> unit) ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit) ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 133 4084 4105 "contracts.ml" 133 4084 4108
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 130 4007 4032 "contracts.ml" 130 4007 4035
+)
+"contracts.ml" 133 4084 4109 "contracts.ml" 133 4084 4115
+type(
+  ((Format.formatter ->
+    Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type -> unit) ->
+   Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 133 4084 4117 "contracts.ml" 133 4084 4134
+type(
+  Lexing.position ->
+  string ->
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+ident(
+  int_ref emit_annot_method "contracts.ml" 111 3334 3338 "contracts.ml" 111 3334 3355
+)
+"contracts.ml" 133 4084 4135 "contracts.ml" 133 4084 4138
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 130 4007 4023 "contracts.ml" 130 4007 4026
+)
+"contracts.ml" 133 4084 4139 "contracts.ml" 133 4084 4143
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 130 4007 4027 "contracts.ml" 130 4007 4031
+)
+"contracts.ml" 133 4084 4116 "contracts.ml" 133 4084 4144
+call(
+  stack
+)
+type(
+  Format.formatter ->
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type -> unit
+)
+"contracts.ml" 133 4084 4145 "contracts.ml" 133 4084 4146
+type(
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type
+)
+ident(
+  int_ref m "contracts.ml" 133 4084 4091 "contracts.ml" 133 4084 4092
+)
+"contracts.ml" 133 4084 4097 "contracts.ml" 133 4084 4146
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 134 4147 4153 "contracts.ml" 134 4147 4156
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  def lst "contracts.ml" 134 4147 4160 "contracts.ml" 134 4147 4210
+)
+"contracts.ml" 134 4147 4160 "contracts.ml" 134 4147 4167
+type(
+  Format.formatter ->
+  ((Format.formatter ->
+    (Annotation.type_ident * Annotation.bounded_quantifier list *
+     Annotation.method_type)
+    list -> unit) ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list -> unit) ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 134 4147 4168 "contracts.ml" 134 4147 4171
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 130 4007 4032 "contracts.ml" 130 4007 4035
+)
+"contracts.ml" 134 4147 4172 "contracts.ml" 134 4147 4178
+type(
+  ((Format.formatter ->
+    (Annotation.type_ident * Annotation.bounded_quantifier list *
+     Annotation.method_type)
+    list -> unit) ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 134 4147 4180 "contracts.ml" 134 4147 4196
+type(
+  Lexing.position ->
+  string ->
+  Format.formatter ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+ident(
+  int_ref emit_annot_inter "contracts.ml" 123 3753 3757 "contracts.ml" 123 3753 3773
+)
+"contracts.ml" 134 4147 4197 "contracts.ml" 134 4147 4200
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 130 4007 4023 "contracts.ml" 130 4007 4026
+)
+"contracts.ml" 134 4147 4201 "contracts.ml" 134 4147 4205
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 130 4007 4027 "contracts.ml" 130 4007 4031
+)
+"contracts.ml" 134 4147 4179 "contracts.ml" 134 4147 4206
+call(
+  stack
+)
+type(
+  Format.formatter ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+"contracts.ml" 134 4147 4207 "contracts.ml" 134 4147 4210
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  int_ref lst "contracts.ml" 134 4147 4153 "contracts.ml" 134 4147 4156
+)
+"contracts.ml" 134 4147 4160 "contracts.ml" 134 4147 4210
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 131 4042 4044 "contracts.ml" 134 4147 4210
+type(
+  unit
+)
+"contracts.ml" 137 4213 4217 "contracts.ml" 137 4213 4228
+type(
+  Format.formatter option ref
+)
+ident(
+  def out_ppf_ref "contracts.ml" 139 4241 4241 --
+)
+"contracts.ml" 137 4213 4231 "contracts.ml" 137 4213 4234
+type(
+  Format.formatter option -> Format.formatter option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"contracts.ml" 137 4213 4235 "contracts.ml" 137 4213 4239
+type(
+  Format.formatter option
+)
+"contracts.ml" 137 4213 4231 "contracts.ml" 137 4213 4239
+type(
+  Format.formatter option ref
+)
+"contracts.ml" 139 4241 4245 "contracts.ml" 139 4241 4264
+type(
+  unit -> Format.formatter
+)
+ident(
+  def open_output_printer "contracts.ml" 153 4630 4630 --
+)
+"contracts.ml" 139 4241 4265 "contracts.ml" 139 4241 4267
+type(
+  unit
+)
+"contracts.ml" 139 4241 4276 "contracts.ml" 139 4241 4277
+type(
+  Format.formatter option ref -> Format.formatter option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"contracts.ml" 139 4241 4277 "contracts.ml" 139 4241 4288
+type(
+  Format.formatter option ref
+)
+ident(
+  int_ref out_ppf_ref "contracts.ml" 137 4213 4217 "contracts.ml" 137 4213 4228
+)
+"contracts.ml" 139 4241 4276 "contracts.ml" 139 4241 4288
+type(
+  Format.formatter option
+)
+"contracts.ml" 140 4294 4298 "contracts.ml" 140 4294 4302
+type(
+  Format.formatter option
+)
+"contracts.ml" 142 4323 4335 "contracts.ml" 142 4323 4337
+type(
+  out_channel
+)
+ident(
+  def oc "contracts.ml" 143 4363 4371 "contracts.ml" 147 4554 4567
+)
+"contracts.ml" 142 4323 4340 "contracts.ml" 142 4323 4348
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"contracts.ml" 142 4323 4349 "contracts.ml" 142 4323 4359
+type(
+  string
+)
+"contracts.ml" 142 4323 4340 "contracts.ml" 142 4323 4359
+call(
+  stack
+)
+type(
+  out_channel
+)
+"contracts.ml" 143 4363 4375 "contracts.ml" 143 4363 4378
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 144 4412 4422 "contracts.ml" 147 4554 4567
+)
+"contracts.ml" 143 4363 4381 "contracts.ml" 143 4363 4405
+type(
+  out_channel -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_out_channel
+)
+"contracts.ml" 143 4363 4406 "contracts.ml" 143 4363 4408
+type(
+  out_channel
+)
+ident(
+  int_ref oc "contracts.ml" 142 4323 4335 "contracts.ml" 142 4323 4337
+)
+"contracts.ml" 143 4363 4381 "contracts.ml" 143 4363 4408
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"contracts.ml" 144 4412 4422 "contracts.ml" 144 4412 4433
+type(
+  Format.formatter option ref
+)
+ident(
+  int_ref out_ppf_ref "contracts.ml" 137 4213 4217 "contracts.ml" 137 4213 4228
+)
+"contracts.ml" 144 4412 4434 "contracts.ml" 144 4412 4436
+type(
+  Format.formatter option ref -> Format.formatter option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"contracts.ml" 144 4412 4442 "contracts.ml" 144 4412 4445
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 143 4363 4375 "contracts.ml" 143 4363 4378
+)
+"contracts.ml" 144 4412 4437 "contracts.ml" 144 4412 4445
+type(
+  Format.formatter option
+)
+"contracts.ml" 144 4412 4422 "contracts.ml" 144 4412 4445
+type(
+  unit
+)
+"contracts.ml" 145 4447 4457 "contracts.ml" 145 4447 4464
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 145 4447 4465 "contracts.ml" 145 4447 4468
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 143 4363 4375 "contracts.ml" 143 4363 4378
+)
+"contracts.ml" 145 4447 4469 "contracts.ml" 145 4447 4488
+type(
+  (unit, Format.formatter, unit) format
+)
+"contracts.ml" 145 4447 4457 "contracts.ml" 145 4447 4488
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 146 4490 4500 "contracts.ml" 146 4490 4507
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 146 4490 4508 "contracts.ml" 146 4490 4511
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 143 4363 4375 "contracts.ml" 143 4363 4378
+)
+"contracts.ml" 146 4490 4512 "contracts.ml" 146 4490 4552
+type(
+  (unit, Format.formatter, unit) format
+)
+"contracts.ml" 146 4490 4500 "contracts.ml" 146 4490 4552
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 147 4554 4564 "contracts.ml" 147 4554 4567
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 143 4363 4375 "contracts.ml" 143 4363 4378
+)
+"contracts.ml" 146 4490 4500 "contracts.ml" 147 4554 4567
+type(
+  Format.formatter
+)
+"contracts.ml" 145 4447 4457 "contracts.ml" 147 4554 4567
+type(
+  Format.formatter
+)
+"contracts.ml" 144 4412 4422 "contracts.ml" 147 4554 4567
+type(
+  Format.formatter
+)
+"contracts.ml" 143 4363 4371 "contracts.ml" 147 4554 4567
+type(
+  Format.formatter
+)
+"contracts.ml" 142 4323 4331 "contracts.ml" 147 4554 4567
+type(
+  Format.formatter
+)
+"contracts.ml" 148 4568 4579 "contracts.ml" 148 4568 4580
+type(
+  exn
+)
+"contracts.ml" 148 4568 4584 "contracts.ml" 148 4568 4597
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.err_formatter
+)
+"contracts.ml" 141 4306 4312 "contracts.ml" 149 4598 4607
+type(
+  Format.formatter
+)
+"contracts.ml" 150 4608 4617 "contracts.ml" 150 4608 4620
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 150 4608 4624 "contracts.ml" 150 4608 4627
+)
+"contracts.ml" 150 4608 4612 "contracts.ml" 150 4608 4620
+type(
+  Format.formatter option
+)
+"contracts.ml" 150 4608 4624 "contracts.ml" 150 4608 4627
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 150 4608 4617 "contracts.ml" 150 4608 4620
+)
+"contracts.ml" 139 4241 4270 "contracts.ml" 150 4608 4627
+type(
+  Format.formatter
+)
+"contracts.ml" 153 4630 4634 "contracts.ml" 153 4630 4647
+type(
+  string ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> Lexing.position -> unit
+)
+ident(
+  def emit_contract "contracts.ml" 168 5121 5121 --
+)
+"contracts.ml" 153 4630 4648 "contracts.ml" 153 4630 4651
+type(
+  string
+)
+ident(
+  def clz "contracts.ml" 153 4630 4652 "contracts.ml" 166 5090 5119
+)
+"contracts.ml" 153 4630 4652 "contracts.ml" 153 4630 4659
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  def ann_lst "contracts.ml" 153 4630 4660 "contracts.ml" 166 5090 5119
+)
+"contracts.ml" 153 4630 4660 "contracts.ml" 153 4630 4663
+type(
+  Lexing.position
+)
+ident(
+  def pos "contracts.ml" 154 4667 4669 "contracts.ml" 166 5090 5119
+)
+"contracts.ml" 154 4667 4673 "contracts.ml" 154 4667 4680
+type(
+  Format.formatter
+)
+"contracts.ml" 154 4667 4683 "contracts.ml" 154 4667 4702
+type(
+  unit -> Format.formatter
+)
+ident(
+  int_ref open_output_printer "contracts.ml" 139 4241 4245 "contracts.ml" 139 4241 4264
+)
+"contracts.ml" 154 4667 4702 "contracts.ml" 154 4667 4704
+type(
+  unit
+)
+"contracts.ml" 154 4667 4683 "contracts.ml" 154 4667 4704
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"contracts.ml" 155 4708 4714 "contracts.ml" 155 4708 4718
+type(
+  string
+)
+"contracts.ml" 155 4708 4727 "contracts.ml" 155 4708 4734
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  int_ref ann_lst "contracts.ml" 153 4630 4652 "contracts.ml" 153 4630 4659
+)
+"contracts.ml" 156 4740 4746 "contracts.ml" 156 4740 4748
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+"contracts.ml" 156 4740 4752 "contracts.ml" 156 4740 4764
+type(
+  string
+)
+"contracts.ml" 157 4765 4772 "contracts.ml" 157 4765 4776
+type(
+  Annotation.type_ident
+)
+ident(
+  def name "contracts.ml" 157 4765 4788 "contracts.ml" 157 4765 4827
+)
+"contracts.ml" 157 4765 4777 "contracts.ml" 157 4765 4778
+type(
+  Annotation.bounded_quantifier list
+)
+"contracts.ml" 157 4765 4779 "contracts.ml" 157 4765 4780
+type(
+  Annotation.method_type
+)
+"contracts.ml" 157 4765 4771 "contracts.ml" 157 4765 4781
+type(
+  Annotation.type_ident * Annotation.bounded_quantifier list *
+  Annotation.method_type
+)
+"contracts.ml" 157 4765 4783 "contracts.ml" 157 4765 4784
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+"contracts.ml" 157 4765 4771 "contracts.ml" 157 4765 4784
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+"contracts.ml" 157 4765 4788 "contracts.ml" 157 4765 4804
+type(
+  (Format.formatter -> Annotation.type_ident -> unit) ->
+  Annotation.type_ident -> string
+)
+ident(
+  ext_ref Utils.format_to_string
+)
+"contracts.ml" 157 4765 4805 "contracts.ml" 157 4765 4822
+type(
+  Format.formatter -> Annotation.type_ident -> unit
+)
+ident(
+  ext_ref Annotation.format_type_ident
+)
+"contracts.ml" 157 4765 4823 "contracts.ml" 157 4765 4827
+type(
+  Annotation.type_ident
+)
+ident(
+  int_ref name "contracts.ml" 157 4765 4772 "contracts.ml" 157 4765 4776
+)
+"contracts.ml" 157 4765 4788 "contracts.ml" 157 4765 4827
+call(
+  stack
+)
+type(
+  string
+)
+"contracts.ml" 155 4708 4721 "contracts.ml" 157 4765 4827
+type(
+  string
+)
+"contracts.ml" 159 4833 4839 "contracts.ml" 159 4833 4842
+type(
+  string
+)
+"contracts.ml" 160 4846 4853 "contracts.ml" 160 4846 4859
+type(
+  String.t -> string -> bool
+)
+ident(
+  ext_ref Utils.substr
+)
+"contracts.ml" 160 4846 4860 "contracts.ml" 160 4846 4864
+type(
+  String.t
+)
+"contracts.ml" 160 4846 4865 "contracts.ml" 160 4846 4868
+type(
+  string
+)
+ident(
+  int_ref clz "contracts.ml" 153 4630 4648 "contracts.ml" 153 4630 4651
+)
+"contracts.ml" 160 4846 4853 "contracts.ml" 160 4846 4868
+call(
+  stack
+)
+type(
+  bool
+)
+"contracts.ml" 161 4870 4879 "contracts.ml" 161 4870 4889
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"contracts.ml" 161 4870 4890 "contracts.ml" 161 4870 4893
+type(
+  string
+)
+ident(
+  int_ref clz "contracts.ml" 153 4630 4648 "contracts.ml" 153 4630 4651
+)
+"contracts.ml" 161 4870 4894 "contracts.ml" 161 4870 4895
+type(
+  int
+)
+"contracts.ml" 161 4870 4897 "contracts.ml" 161 4870 4910
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"contracts.ml" 161 4870 4911 "contracts.ml" 161 4870 4914
+type(
+  string
+)
+ident(
+  int_ref clz "contracts.ml" 153 4630 4648 "contracts.ml" 153 4630 4651
+)
+"contracts.ml" 161 4870 4897 "contracts.ml" 161 4870 4914
+type(
+  int
+)
+"contracts.ml" 161 4870 4915 "contracts.ml" 161 4870 4916
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"contracts.ml" 161 4870 4917 "contracts.ml" 161 4870 4918
+type(
+  int
+)
+"contracts.ml" 161 4870 4896 "contracts.ml" 161 4870 4919
+type(
+  int
+)
+"contracts.ml" 161 4870 4879 "contracts.ml" 161 4870 4919
+call(
+  stack
+)
+type(
+  string
+)
+"contracts.ml" 162 4920 4929 "contracts.ml" 162 4920 4932
+type(
+  string
+)
+ident(
+  int_ref clz "contracts.ml" 153 4630 4648 "contracts.ml" 153 4630 4651
+)
+"contracts.ml" 160 4846 4850 "contracts.ml" 162 4920 4932
+type(
+  string
+)
+"contracts.ml" 164 4938 4942 "contracts.ml" 164 4938 4949
+type(
+  Format.formatter ->
+  ((Format.formatter ->
+    (Annotation.type_ident * Annotation.bounded_quantifier list *
+     Annotation.method_type)
+    list -> unit) ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list -> unit) ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 164 4938 4950 "contracts.ml" 164 4938 4957
+type(
+  Format.formatter
+)
+ident(
+  int_ref out_ppf "contracts.ml" 154 4667 4673 "contracts.ml" 154 4667 4680
+)
+"contracts.ml" 164 4938 4958 "contracts.ml" 164 4938 4970
+type(
+  ((Format.formatter ->
+    (Annotation.type_ident * Annotation.bounded_quantifier list *
+     Annotation.method_type)
+    list -> unit) ->
+   (Annotation.type_ident * Annotation.bounded_quantifier list *
+    Annotation.method_type)
+   list -> unit, Format.formatter, unit)
+  format
+)
+"contracts.ml" 164 4938 4972 "contracts.ml" 164 4938 4983
+type(
+  Lexing.position ->
+  string ->
+  Format.formatter ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+ident(
+  int_ref emit_method "contracts.ml" 130 4007 4011 "contracts.ml" 130 4007 4022
+)
+"contracts.ml" 164 4938 4984 "contracts.ml" 164 4938 4987
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "contracts.ml" 153 4630 4660 "contracts.ml" 153 4630 4663
+)
+"contracts.ml" 164 4938 4988 "contracts.ml" 164 4938 4992
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 155 4708 4714 "contracts.ml" 155 4708 4718
+)
+"contracts.ml" 164 4938 4971 "contracts.ml" 164 4938 4993
+call(
+  stack
+)
+type(
+  Format.formatter ->
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list -> unit
+)
+"contracts.ml" 164 4938 4994 "contracts.ml" 164 4938 5001
+type(
+  (Annotation.type_ident * Annotation.bounded_quantifier list *
+   Annotation.method_type)
+  list
+)
+ident(
+  int_ref ann_lst "contracts.ml" 153 4630 4652 "contracts.ml" 153 4630 4659
+)
+"contracts.ml" 164 4938 4942 "contracts.ml" 164 4938 5001
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 165 5003 5007 "contracts.ml" 165 5003 5014
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"contracts.ml" 165 5003 5015 "contracts.ml" 165 5003 5022
+type(
+  Format.formatter
+)
+ident(
+  int_ref out_ppf "contracts.ml" 154 4667 4673 "contracts.ml" 154 4667 4680
+)
+"contracts.ml" 165 5003 5023 "contracts.ml" 165 5003 5079
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"contracts.ml" 165 5003 5080 "contracts.ml" 165 5003 5083
+type(
+  string
+)
+ident(
+  int_ref clz "contracts.ml" 159 4833 4839 "contracts.ml" 159 4833 4842
+)
+"contracts.ml" 165 5003 5084 "contracts.ml" 165 5003 5088
+type(
+  string
+)
+ident(
+  int_ref name "contracts.ml" 155 4708 4714 "contracts.ml" 155 4708 4718
+)
+"contracts.ml" 165 5003 5007 "contracts.ml" 165 5003 5088
+call(
+  stack
+)
+type(
+  unit
+)
+"contracts.ml" 166 5090 5094 "contracts.ml" 166 5090 5108
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"contracts.ml" 166 5090 5109 "contracts.ml" 166 5090 5116
+type(
+  Format.formatter
+)
+ident(
+  int_ref out_ppf "contracts.ml" 154 4667 4673 "contracts.ml" 154 4667 4680
+)
+"contracts.ml" 166 5090 5117 "contracts.ml" 166 5090 5119
+type(
+  unit
+)
+"contracts.ml" 166 5090 5094 "contracts.ml" 166 5090 5119
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 165 5003 5007 "contracts.ml" 166 5090 5119
+type(
+  unit
+)
+"contracts.ml" 164 4938 4942 "contracts.ml" 166 5090 5119
+type(
+  unit
+)
+"contracts.ml" 159 4833 4835 "contracts.ml" 166 5090 5119
+type(
+  unit
+)
+"contracts.ml" 155 4708 4710 "contracts.ml" 166 5090 5119
+type(
+  unit
+)
+"contracts.ml" 154 4667 4669 "contracts.ml" 166 5090 5119
+type(
+  unit
+)
+"contracts.ml" 168 5121 5125 "contracts.ml" 168 5121 5145
+type(
+  string -> Annotation.t -> Log.pos -> unit
+)
+ident(
+  def emit_method_contract "contracts.ml" 174 5392 5392 --
+)
+"contracts.ml" 168 5121 5146 "contracts.ml" 168 5121 5149
+type(
+  string
+)
+ident(
+  def clz "contracts.ml" 168 5121 5150 "contracts.ml" 172 5317 5390
+)
+"contracts.ml" 168 5121 5150 "contracts.ml" 168 5121 5155
+type(
+  Annotation.t
+)
+ident(
+  def annot "contracts.ml" 168 5121 5156 "contracts.ml" 172 5317 5390
+)
+"contracts.ml" 168 5121 5156 "contracts.ml" 168 5121 5159
+type(
+  Log.pos
+)
+ident(
+  def pos "contracts.ml" 168 5121 5162 "contracts.ml" 172 5317 5390
+)
+"contracts.ml" 168 5121 5168 "contracts.ml" 168 5121 5173
+type(
+  Annotation.t
+)
+ident(
+  int_ref annot "contracts.ml" 168 5121 5150 "contracts.ml" 168 5121 5155
+)
+"contracts.ml" 169 5179 5196 "contracts.ml" 169 5179 5197
+type(
+  Annotation.type_ident
+)
+"contracts.ml" 169 5179 5198 "contracts.ml" 169 5179 5200
+type(
+  Annotation.bounded_quantifier list
+)
+"contracts.ml" 169 5179 5201 "contracts.ml" 169 5179 5202
+type(
+  Annotation.method_type
+)
+"contracts.ml" 169 5179 5195 "contracts.ml" 169 5179 5203
+type(
+  Annotation.method_annotation
+)
+"contracts.ml" 169 5179 5194 "contracts.ml" 169 5179 5204
+type(
+  Annotation.method_annotation list
+)
+"contracts.ml" 169 5179 5183 "contracts.ml" 169 5179 5204
+type(
+  Annotation.t
+)
+"contracts.ml" 169 5179 5208 "contracts.ml" 169 5179 5210
+type(
+  unit
+)
+"contracts.ml" 170 5262 5277 "contracts.ml" 170 5262 5280
+type(
+  Annotation.method_annotation list
+)
+ident(
+  def lst "contracts.ml" 170 5262 5284 "contracts.ml" 170 5262 5309
+)
+"contracts.ml" 170 5262 5266 "contracts.ml" 170 5262 5280
+type(
+  Annotation.t
+)
+"contracts.ml" 170 5262 5284 "contracts.ml" 170 5262 5297
+type(
+  string -> Annotation.method_annotation list -> Log.pos -> unit
+)
+ident(
+  int_ref emit_contract "contracts.ml" 153 4630 4634 "contracts.ml" 153 4630 4647
+)
+"contracts.ml" 170 5262 5298 "contracts.ml" 170 5262 5301
+type(
+  string
+)
+ident(
+  int_ref clz "contracts.ml" 168 5121 5146 "contracts.ml" 168 5121 5149
+)
+"contracts.ml" 170 5262 5302 "contracts.ml" 170 5262 5305
+type(
+  Annotation.method_annotation list
+)
+ident(
+  int_ref lst "contracts.ml" 170 5262 5277 "contracts.ml" 170 5262 5280
+)
+"contracts.ml" 170 5262 5306 "contracts.ml" 170 5262 5309
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "contracts.ml" 168 5121 5156 "contracts.ml" 168 5121 5159
+)
+"contracts.ml" 170 5262 5284 "contracts.ml" 170 5262 5309
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 172 5317 5321 "contracts.ml" 172 5317 5322
+type(
+  Annotation.t
+)
+"contracts.ml" 172 5317 5326 "contracts.ml" 172 5317 5335
+type(
+  Log.ctx -> (unit, Format.formatter, unit, unit) format4 -> unit
+)
+ident(
+  ext_ref Log.fatal
+)
+"contracts.ml" 172 5317 5337 "contracts.ml" 172 5317 5347
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"contracts.ml" 172 5317 5348 "contracts.ml" 172 5317 5351
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "contracts.ml" 168 5121 5156 "contracts.ml" 168 5121 5159
+)
+"contracts.ml" 172 5317 5336 "contracts.ml" 172 5317 5352
+type(
+  Log.ctx
+)
+"contracts.ml" 172 5317 5353 "contracts.ml" 172 5317 5390
+type(
+  (unit, Format.formatter, unit, unit) format4
+)
+"contracts.ml" 172 5317 5326 "contracts.ml" 172 5317 5390
+type(
+  unit
+)
+"contracts.ml" 168 5121 5162 "contracts.ml" 172 5317 5390
+type(
+  unit
+)
+"contracts.ml" 174 5392 5396 "contracts.ml" 174 5392 5405
+type(
+  unit -> unit
+)
+ident(
+  def flush_ppf "contracts.ml" 178 5489 5489 --
+)
+"contracts.ml" 174 5392 5406 "contracts.ml" 174 5392 5408
+type(
+  unit
+)
+"contracts.ml" 174 5392 5417 "contracts.ml" 174 5392 5418
+type(
+  Format.formatter option ref -> Format.formatter option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"contracts.ml" 174 5392 5418 "contracts.ml" 174 5392 5429
+type(
+  Format.formatter option ref
+)
+ident(
+  int_ref out_ppf_ref "contracts.ml" 137 4213 4217 "contracts.ml" 137 4213 4228
+)
+"contracts.ml" 174 5392 5417 "contracts.ml" 174 5392 5429
+type(
+  Format.formatter option
+)
+"contracts.ml" 175 5435 5439 "contracts.ml" 175 5435 5443
+type(
+  Format.formatter option
+)
+"contracts.ml" 175 5435 5447 "contracts.ml" 175 5435 5449
+type(
+  unit
+)
+"contracts.ml" 176 5450 5459 "contracts.ml" 176 5450 5462
+type(
+  Format.formatter
+)
+ident(
+  def ppf "contracts.ml" 176 5450 5466 "contracts.ml" 176 5450 5487
+)
+"contracts.ml" 176 5450 5454 "contracts.ml" 176 5450 5462
+type(
+  Format.formatter option
+)
+"contracts.ml" 176 5450 5466 "contracts.ml" 176 5450 5480
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"contracts.ml" 176 5450 5481 "contracts.ml" 176 5450 5484
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "contracts.ml" 176 5450 5459 "contracts.ml" 176 5450 5462
+)
+"contracts.ml" 176 5450 5485 "contracts.ml" 176 5450 5487
+type(
+  unit
+)
+"contracts.ml" 176 5450 5466 "contracts.ml" 176 5450 5487
+call(
+  tail
+)
+type(
+  unit
+)
+"contracts.ml" 174 5392 5411 "contracts.ml" 176 5450 5487
+type(
+  unit
+)
+"contracts.ml" 178 5489 5493 "contracts.ml" 178 5489 5495
+type(
+  unit
+)
+"contracts.ml" 178 5489 5498 "contracts.ml" 178 5489 5505
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.at_exit
+)
+"contracts.ml" 178 5489 5506 "contracts.ml" 178 5489 5515
+type(
+  unit -> unit
+)
+ident(
+  int_ref flush_ppf "contracts.ml" 174 5392 5396 "contracts.ml" 174 5392 5405
+)
+"contracts.ml" 178 5489 5498 "contracts.ml" 178 5489 5515
+call(
+  stack
+)
+type(
+  unit
+)

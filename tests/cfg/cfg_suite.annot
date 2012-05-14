@@ -1,0 +1,57 @@
+"cfg_suite.ml" 4 13 17 "cfg_suite.ml" 4 13 22
+type(
+  OUnit.test
+)
+ident(
+  def suite "cfg_suite.ml" 10 151 154 --
+)
+"cfg_suite.ml" 4 13 25 "cfg_suite.ml" 4 13 36
+type(
+  string
+)
+"cfg_suite.ml" 4 13 37 "cfg_suite.ml" 4 13 41
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"cfg_suite.ml" 6 46 50 "cfg_suite.ml" 6 46 69
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Printer_tests.suite
+)
+"cfg_suite.ml" 7 71 75 "cfg_suite.ml" 7 71 95
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Refactor_tests.suite
+)
+"cfg_suite.ml" 8 97 101 "cfg_suite.ml" 8 97 122
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Scope_cfg_tests.suite
+)
+"cfg_suite.ml" 9 124 128 "cfg_suite.ml" 9 124 149
+type(
+  OUnit.test
+)
+ident(
+  ext_ref Cfg_locals_test.suite
+)
+"cfg_suite.ml" 5 42 44 "cfg_suite.ml" 10 151 154
+type(
+  OUnit.test list
+)
+"cfg_suite.ml" 4 13 25 "cfg_suite.ml" 10 151 154
+call(
+  stack
+)
+type(
+  OUnit.test
+)

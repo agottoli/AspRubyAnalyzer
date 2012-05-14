@@ -1,0 +1,440 @@
+"parse_identifier.ml" 6 39 43 "parse_identifier.ml" 6 39 48
+type(
+  (string * Ast.expr list * string) list
+)
+ident(
+  def tests "parse_identifier.ml" 20 521 521 --
+)
+"parse_identifier.ml" 7 53 56 "parse_identifier.ml" 7 53 61
+type(
+  string
+)
+"parse_identifier.ml" 7 53 64 "parse_identifier.ml" 7 53 70
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 7 53 71 "parse_identifier.ml" 7 53 75
+type(
+  string
+)
+"parse_identifier.ml" 7 53 64 "parse_identifier.ml" 7 53 75
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 7 53 63 "parse_identifier.ml" 7 53 76
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 7 53 78 "parse_identifier.ml" 7 53 82
+type(
+  string
+)
+"parse_identifier.ml" 7 53 55 "parse_identifier.ml" 7 53 83
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 8 85 88 "parse_identifier.ml" 8 85 93
+type(
+  string
+)
+"parse_identifier.ml" 8 85 96 "parse_identifier.ml" 8 85 102
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 8 85 103 "parse_identifier.ml" 8 85 109
+type(
+  string
+)
+"parse_identifier.ml" 8 85 96 "parse_identifier.ml" 8 85 109
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 8 85 95 "parse_identifier.ml" 8 85 110
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 8 85 112 "parse_identifier.ml" 8 85 118
+type(
+  string
+)
+"parse_identifier.ml" 8 85 87 "parse_identifier.ml" 8 85 119
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 9 121 124 "parse_identifier.ml" 9 121 129
+type(
+  string
+)
+"parse_identifier.ml" 9 121 132 "parse_identifier.ml" 9 121 138
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 9 121 139 "parse_identifier.ml" 9 121 145
+type(
+  string
+)
+"parse_identifier.ml" 9 121 132 "parse_identifier.ml" 9 121 145
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 9 121 131 "parse_identifier.ml" 9 121 146
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 9 121 148 "parse_identifier.ml" 9 121 154
+type(
+  string
+)
+"parse_identifier.ml" 9 121 123 "parse_identifier.ml" 9 121 155
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 10 157 160 "parse_identifier.ml" 10 157 174
+type(
+  string
+)
+"parse_identifier.ml" 10 157 177 "parse_identifier.ml" 10 157 183
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 10 157 184 "parse_identifier.ml" 10 157 190
+type(
+  string
+)
+"parse_identifier.ml" 10 157 177 "parse_identifier.ml" 10 157 190
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 10 157 176 "parse_identifier.ml" 10 157 191
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 10 157 193 "parse_identifier.ml" 10 157 199
+type(
+  string
+)
+"parse_identifier.ml" 10 157 159 "parse_identifier.ml" 10 157 200
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 11 202 205 "parse_identifier.ml" 11 202 219
+type(
+  string
+)
+"parse_identifier.ml" 11 202 222 "parse_identifier.ml" 11 202 228
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 11 202 229 "parse_identifier.ml" 11 202 235
+type(
+  string
+)
+"parse_identifier.ml" 11 202 222 "parse_identifier.ml" 11 202 235
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 11 202 221 "parse_identifier.ml" 11 202 236
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 11 202 238 "parse_identifier.ml" 11 202 244
+type(
+  string
+)
+"parse_identifier.ml" 11 202 204 "parse_identifier.ml" 11 202 245
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 12 247 250 "parse_identifier.ml" 12 247 261
+type(
+  string
+)
+"parse_identifier.ml" 12 247 264 "parse_identifier.ml" 12 247 270
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 12 247 271 "parse_identifier.ml" 12 247 278
+type(
+  string
+)
+"parse_identifier.ml" 12 247 264 "parse_identifier.ml" 12 247 278
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 12 247 263 "parse_identifier.ml" 12 247 279
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 12 247 281 "parse_identifier.ml" 12 247 288
+type(
+  string
+)
+"parse_identifier.ml" 12 247 249 "parse_identifier.ml" 12 247 289
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 13 291 294 "parse_identifier.ml" 13 291 305
+type(
+  string
+)
+"parse_identifier.ml" 13 291 308 "parse_identifier.ml" 13 291 314
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 13 291 315 "parse_identifier.ml" 13 291 322
+type(
+  string
+)
+"parse_identifier.ml" 13 291 308 "parse_identifier.ml" 13 291 322
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 13 291 307 "parse_identifier.ml" 13 291 323
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 13 291 325 "parse_identifier.ml" 13 291 332
+type(
+  string
+)
+"parse_identifier.ml" 13 291 293 "parse_identifier.ml" 13 291 333
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 14 335 338 "parse_identifier.ml" 14 335 350
+type(
+  string
+)
+"parse_identifier.ml" 14 335 353 "parse_identifier.ml" 14 335 359
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 14 335 360 "parse_identifier.ml" 14 335 366
+type(
+  string
+)
+"parse_identifier.ml" 14 335 353 "parse_identifier.ml" 14 335 366
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 14 335 352 "parse_identifier.ml" 14 335 367
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 14 335 369 "parse_identifier.ml" 14 335 375
+type(
+  string
+)
+"parse_identifier.ml" 14 335 337 "parse_identifier.ml" 14 335 376
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 15 378 381 "parse_identifier.ml" 15 378 393
+type(
+  string
+)
+"parse_identifier.ml" 15 378 396 "parse_identifier.ml" 15 378 402
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 15 378 403 "parse_identifier.ml" 15 378 409
+type(
+  string
+)
+"parse_identifier.ml" 15 378 396 "parse_identifier.ml" 15 378 409
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 15 378 395 "parse_identifier.ml" 15 378 410
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 15 378 412 "parse_identifier.ml" 15 378 418
+type(
+  string
+)
+"parse_identifier.ml" 15 378 380 "parse_identifier.ml" 15 378 419
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 16 421 424 "parse_identifier.ml" 16 421 437
+type(
+  string
+)
+"parse_identifier.ml" 16 421 453 "parse_identifier.ml" 16 421 463
+type(
+  Ast.id_kind
+)
+"parse_identifier.ml" 16 421 465 "parse_identifier.ml" 16 421 470
+type(
+  string
+)
+"parse_identifier.ml" 16 421 471 "parse_identifier.ml" 16 421 473
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_identifier.ml" 16 421 440 "parse_identifier.ml" 16 421 474
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 16 421 439 "parse_identifier.ml" 16 421 475
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 16 421 477 "parse_identifier.ml" 16 421 482
+type(
+  string
+)
+"parse_identifier.ml" 16 421 423 "parse_identifier.ml" 16 421 483
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 17 485 488 "parse_identifier.ml" 17 485 493
+type(
+  string
+)
+"parse_identifier.ml" 17 485 495 "parse_identifier.ml" 17 485 501
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_identifier.ml" 17 485 502 "parse_identifier.ml" 17 485 507
+type(
+  string
+)
+"parse_identifier.ml" 17 485 495 "parse_identifier.ml" 17 485 507
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_identifier.ml" 17 485 494 "parse_identifier.ml" 17 485 508
+type(
+  Ast.expr list
+)
+"parse_identifier.ml" 17 485 510 "parse_identifier.ml" 17 485 515
+type(
+  string
+)
+"parse_identifier.ml" 17 485 487 "parse_identifier.ml" 17 485 516
+type(
+  string * Ast.expr list * string
+)
+"parse_identifier.ml" 6 39 51 "parse_identifier.ml" 18 518 519
+type(
+  (string * Ast.expr list * string) list
+)
+"parse_identifier.ml" 20 521 525 "parse_identifier.ml" 20 521 530
+type(
+  OUnit.test
+)
+ident(
+  def suite "parse_identifier.ml" 21 563 591 --
+)
+"parse_identifier.ml" 20 521 533 "parse_identifier.ml" 20 521 557
+type(
+  string
+)
+"parse_identifier.ml" 20 521 558 "parse_identifier.ml" 20 521 562
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parse_identifier.ml" 21 563 565 "parse_identifier.ml" 21 563 573
+type(
+  (string * Ast.ast * string -> OUnit.test) ->
+  (string * Ast.ast * string) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_identifier.ml" 21 563 574 "parse_identifier.ml" 21 563 585
+type(
+  string * Ast.ast * string -> OUnit.test
+)
+ident(
+  ext_ref Test_helper.simple_test
+)
+"parse_identifier.ml" 21 563 586 "parse_identifier.ml" 21 563 591
+type(
+  (string * Ast.ast * string) list
+)
+ident(
+  int_ref tests "parse_identifier.ml" 6 39 43 "parse_identifier.ml" 6 39 48
+)
+"parse_identifier.ml" 21 563 565 "parse_identifier.ml" 21 563 591
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_identifier.ml" 20 521 533 "parse_identifier.ml" 21 563 591
+call(
+  stack
+)
+type(
+  OUnit.test
+)

@@ -1,0 +1,743 @@
+"send.ml" 8 91 95 "send.ml" 8 91 99
+type(
+  string
+)
+ident(
+  def name "send.ml" 10 110 110 --
+)
+"send.ml" 8 91 102 "send.ml" 8 91 108
+type(
+  string
+)
+"send.ml" 13 140 144 "send.ml" 13 140 158
+type(
+  'a -> 'a
+)
+ident(
+  def instrument_ast "send.ml" 15 166 166 --
+)
+"send.ml" 13 140 159 "send.ml" 13 140 160
+type(
+  'a
+)
+ident(
+  def a "send.ml" 13 140 163 "send.ml" 13 140 164
+)
+"send.ml" 13 140 163 "send.ml" 13 140 164
+type(
+  'a
+)
+ident(
+  int_ref a "send.ml" 13 140 159 "send.ml" 13 140 160
+)
+"send.ml" 15 166 170 "send.ml" 15 166 177
+type(
+  string -> Dyn_builder.watch_redir
+)
+ident(
+  def watch_f "send.ml" 21 320 320 --
+)
+"send.ml" 15 166 178 "send.ml" 15 166 182
+type(
+  string
+)
+ident(
+  def meth "send.ml" 16 186 188 "send.ml" 19 315 318
+)
+"send.ml" 16 186 214 "send.ml" 16 186 218
+type(
+  string
+)
+ident(
+  int_ref meth "send.ml" 15 166 178 "send.ml" 15 166 182
+)
+"send.ml" 16 186 199 "send.ml" 16 186 218
+type(
+  Cfg.msg_id
+)
+"send.ml" 17 220 236 "send.ml" 17 220 249
+type(
+  string list -> Cfg.expr
+)
+ident(
+  ext_ref C.access_path
+)
+"send.ml" 17 220 251 "send.ml" 17 220 258
+type(
+  string
+)
+"send.ml" 17 220 259 "send.ml" 17 220 268
+type(
+  string
+)
+"send.ml" 17 220 269 "send.ml" 17 220 275
+type(
+  string
+)
+"send.ml" 17 220 250 "send.ml" 17 220 276
+type(
+  string list
+)
+"send.ml" 17 220 236 "send.ml" 17 220 276
+call(
+  stack
+)
+type(
+  Cfg.expr
+)
+"send.ml" 18 278 306 "send.ml" 18 278 313
+type(
+  string
+)
+"send.ml" 18 278 291 "send.ml" 18 278 313
+type(
+  Cfg.msg_id
+)
+"send.ml" 16 186 188 "send.ml" 19 315 318
+type(
+  Dyn_builder.watch_redir
+)
+"send.ml" 21 320 324 "send.ml" 21 320 338
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def instrument_cfg "send.ml" 25 454 454 --
+)
+"send.ml" 21 320 339 "send.ml" 21 320 342
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "send.ml" 22 346 348 "send.ml" 23 402 452
+)
+"send.ml" 22 346 352 "send.ml" 22 346 359
+type(
+  Dyn_builder.watch_redir list
+)
+"send.ml" 22 346 363 "send.ml" 22 346 370
+type(
+  string -> Dyn_builder.watch_redir
+)
+ident(
+  int_ref watch_f "send.ml" 15 166 170 "send.ml" 15 166 177
+)
+"send.ml" 22 346 371 "send.ml" 22 346 377
+type(
+  string
+)
+"send.ml" 22 346 363 "send.ml" 22 346 377
+call(
+  stack
+)
+type(
+  Dyn_builder.watch_redir
+)
+"send.ml" 22 346 379 "send.ml" 22 346 386
+type(
+  string -> Dyn_builder.watch_redir
+)
+ident(
+  int_ref watch_f "send.ml" 15 166 170 "send.ml" 15 166 177
+)
+"send.ml" 22 346 387 "send.ml" 22 346 397
+type(
+  string
+)
+"send.ml" 22 346 379 "send.ml" 22 346 397
+call(
+  stack
+)
+type(
+  Dyn_builder.watch_redir
+)
+"send.ml" 22 346 362 "send.ml" 22 346 398
+type(
+  Dyn_builder.watch_redir list
+)
+"send.ml" 23 402 406 "send.ml" 23 402 420
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"send.ml" 23 402 422 "send.ml" 23 402 439
+type(
+  ?rec_lit_str_and_atom:bool ->
+  Dyn_builder.watch_redir list -> Dyn_builder.watch_visitor
+)
+"send.ml" 23 402 440 "send.ml" 23 402 447
+type(
+  Dyn_builder.watch_redir list
+)
+ident(
+  int_ref watched "send.ml" 22 346 352 "send.ml" 22 346 359
+)
+"send.ml" 23 402 421 "send.ml" 23 402 448
+call(
+  stack
+)
+type(
+  Dyn_builder.watch_visitor
+)
+"send.ml" 23 402 449 "send.ml" 23 402 452
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "send.ml" 21 320 339 "send.ml" 21 320 342
+)
+"send.ml" 23 402 406 "send.ml" 23 402 452
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"send.ml" 22 346 348 "send.ml" 23 402 452
+type(
+  Cfg.stmt
+)
+"send.ml" 28 529 535 "send.ml" 28 529 543
+type(
+  'a list
+)
+ident(
+  def preamble "send.ml" 29 549 551 "send.ml" 30 582 585
+)
+"send.ml" 28 529 546 "send.ml" 28 529 548
+type(
+  'a list
+)
+"send.ml" 29 549 555 "send.ml" 29 549 565
+type(
+  string -> [> Cfg.literal ]
+)
+ident(
+  def when_guard "send.ml" 29 549 581 "send.ml" 30 582 585
+)
+"send.ml" 29 549 566 "send.ml" 29 549 569
+type(
+  string
+)
+ident(
+  def str "send.ml" 29 549 572 "send.ml" 29 549 581
+)
+"send.ml" 29 549 572 "send.ml" 29 549 577
+type(
+  string -> ([> Cfg.literal ] as 'b)
+)
+ident(
+  ext_ref C.str
+)
+"send.ml" 29 549 578 "send.ml" 29 549 581
+type(
+  string
+)
+ident(
+  int_ref str "send.ml" 29 549 566 "send.ml" 29 549 569
+)
+"send.ml" 29 549 572 "send.ml" 29 549 581
+call(
+  tail
+)
+type(
+  'b
+)
+"send.ml" 33 596 615 "send.ml" 33 596 623
+type(
+  string -> Cfg.pos -> string list
+)
+"send.ml" 34 627 633 "send.ml" 34 627 639
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+)
+"send.ml" 36 679 699 "send.ml" 36 679 700
+type(
+  Cfg.stmt
+)
+ident(
+  def s "send.ml" 36 679 703 "send.ml" 50 1309 1338
+)
+"send.ml" 36 679 709 "send.ml" 36 679 710
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "send.ml" 36 679 699 "send.ml" 36 679 700
+)
+"send.ml" 36 679 709 "send.ml" 36 679 716
+type(
+  Cfg.stmt_node
+)
+"send.ml" 37 722 739 "send.ml" 37 722 742
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs "send.ml" 37 722 750 "send.ml" 49 1299 1308
+)
+"send.ml" 37 722 743 "send.ml" 37 722 745
+type(
+  Cfg.method_call
+)
+ident(
+  def mc "send.ml" 37 722 750 "send.ml" 49 1299 1308
+)
+"send.ml" 37 722 728 "send.ml" 37 722 746
+type(
+  Cfg.stmt_node
+)
+"send.ml" 37 722 762 "send.ml" 37 722 764
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc "send.ml" 37 722 743 "send.ml" 37 722 745
+)
+"send.ml" 38 770 804 "send.ml" 38 770 810
+type(
+  string
+)
+"send.ml" 38 770 811 "send.ml" 38 770 821
+type(
+  string
+)
+"send.ml" 38 770 804 "send.ml" 38 770 821
+type(
+  string
+)
+"send.ml" 38 770 803 "send.ml" 38 770 830
+type(
+  string
+)
+ident(
+  def send "send.ml" 40 876 888 "send.ml" 47 1219 1264
+)
+"send.ml" 38 770 788 "send.ml" 38 770 830
+type(
+  Cfg.msg_id
+)
+"send.ml" 39 832 852 "send.ml" 39 832 857
+type(
+  Cfg.star_expr
+)
+"send.ml" 39 832 851 "send.ml" 39 832 865
+type(
+  Cfg.star_expr
+)
+ident(
+  def arg "send.ml" 40 876 888 "send.ml" 47 1219 1264
+)
+"send.ml" 39 832 867 "send.ml" 39 832 871
+type(
+  Cfg.star_expr list
+)
+ident(
+  def rest "send.ml" 40 876 888 "send.ml" 47 1219 1264
+)
+"send.ml" 39 832 851 "send.ml" 39 832 871
+type(
+  Cfg.star_expr list
+)
+"send.ml" 38 770 780 "send.ml" 39 832 872
+type(
+  Cfg.method_call
+)
+"send.ml" 42 937 955 "send.ml" 42 937 965
+type(
+  [> Cfg.star_expr Cfg.expr_ ]
+)
+ident(
+  def case_guard "send.ml" 43 972 986 "send.ml" 46 1163 1178
+)
+"send.ml" 42 937 968 "send.ml" 42 937 971
+type(
+  [> Cfg.star_expr Cfg.expr_ ] as 'a
+)
+ident(
+  int_ref arg "send.ml" 39 832 851 "send.ml" 39 832 865
+)
+"send.ml" 43 972 990 "send.ml" 43 972 999
+type(
+  Cfg.stmt
+)
+ident(
+  def else_body "send.ml" 44 1046 1060 "send.ml" 46 1163 1178
+)
+"send.ml" 43 972 1002 "send.ml" 43 972 1013
+type(
+  string -> Cfg.star_expr list -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref Dyn_builder.dead_method
+)
+"send.ml" 43 972 1014 "send.ml" 43 972 1018
+type(
+  string
+)
+ident(
+  int_ref send "send.ml" 38 770 803 "send.ml" 38 770 830
+)
+"send.ml" 43 972 1021 "send.ml" 43 972 1024
+type(
+  Cfg.star_expr
+)
+type(
+  _[< `ID_False
+    | `ID_Nil
+    | `ID_Scope of Cfg.identifier * string
+    | `ID_Self
+    | `ID_True
+    | `ID_UScope of string
+    | `ID_Var of Cfg.var_kind * string
+    | `Lit_Array of Cfg.star_expr list
+    | `Lit_Atom of string
+    | `Lit_BigNum of Big_int.big_int
+    | `Lit_FixNum of int
+    | `Lit_Float of string * float
+    | `Lit_Hash of (Cfg.star_expr Cfg.expr_ * Cfg.star_expr Cfg.expr_) list
+    | `Lit_Range of bool * Cfg.star_expr Cfg.expr_ * Cfg.star_expr Cfg.expr_
+    | `Lit_Regexp of string * string
+    | `Lit_String of string
+    | `Star of _[< Cfg.star_expr Cfg.expr_ ]
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var
+      `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+      `Lit_Range `Lit_Regexp `Lit_String ]
+)
+ident(
+  int_ref arg "send.ml" 39 832 851 "send.ml" 39 832 865
+)
+"send.ml" 43 972 1019 "send.ml" 43 972 1039
+type(
+  Cfg.star_expr list
+)
+"send.ml" 43 972 1040 "send.ml" 43 972 1041
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "send.ml" 36 679 699 "send.ml" 36 679 700
+)
+"send.ml" 43 972 1040 "send.ml" 43 972 1045
+type(
+  Cfg.pos
+)
+"send.ml" 43 972 1002 "send.ml" 43 972 1045
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"send.ml" 44 1046 1064 "send.ml" 44 1046 1073
+type(
+  string -> Cfg.stmt
+)
+ident(
+  def when_body "send.ml" 45 1081 1162 "send.ml" 46 1163 1178
+)
+"send.ml" 44 1046 1074 "send.ml" 44 1046 1077
+type(
+  string
+)
+ident(
+  def str "send.ml" 45 1081 1097 "send.ml" 45 1081 1162
+)
+"send.ml" 45 1081 1097 "send.ml" 45 1081 1104
+type(
+  ?lhs:Cfg.lhs ->
+  ?targ:Cfg.expr ->
+  Cfg.msg_id ->
+  Cfg.star_expr list -> ?cb:Cfg.codeblock -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.mcall
+)
+"send.ml" 45 1081 1106 "send.ml" 45 1081 1109
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs "send.ml" 37 722 739 "send.ml" 37 722 742
+)
+"send.ml" 45 1081 1116 "send.ml" 45 1081 1118
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc "send.ml" 37 722 743 "send.ml" 37 722 745
+)
+"send.ml" 45 1081 1116 "send.ml" 45 1081 1128
+type(
+  Cfg.expr option
+)
+"send.ml" 45 1081 1130 "send.ml" 45 1081 1146
+type(
+  string -> Cfg.msg_id
+)
+ident(
+  ext_ref Cfg.msg_id_of_string
+)
+"send.ml" 45 1081 1147 "send.ml" 45 1081 1150
+type(
+  string
+)
+ident(
+  int_ref str "send.ml" 44 1046 1074 "send.ml" 44 1046 1077
+)
+"send.ml" 45 1081 1129 "send.ml" 45 1081 1151
+call(
+  stack
+)
+type(
+  Cfg.msg_id
+)
+"send.ml" 45 1081 1152 "send.ml" 45 1081 1156
+type(
+  Cfg.star_expr list
+)
+ident(
+  int_ref rest "send.ml" 39 832 867 "send.ml" 39 832 871
+)
+"send.ml" 45 1081 1157 "send.ml" 45 1081 1158
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "send.ml" 36 679 699 "send.ml" 36 679 700
+)
+"send.ml" 45 1081 1157 "send.ml" 45 1081 1162
+type(
+  Cfg.pos
+)
+"send.ml" 45 1081 1097 "send.ml" 45 1081 1162
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"send.ml" 46 1163 1197 "send.ml" 46 1163 1215
+call(
+  stack
+)
+"send.ml" 47 1219 1233 "send.ml" 47 1219 1244
+type(
+  (string -> Cfg.pos -> string list) ->
+  string -> Cfg.pos -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  ext_ref T.transform
+)
+"send.ml" 47 1219 1245 "send.ml" 47 1219 1253
+type(
+  string -> Cfg.pos -> string list
+)
+"send.ml" 47 1219 1254 "send.ml" 47 1219 1258
+type(
+  string
+)
+ident(
+  int_ref send "send.ml" 38 770 803 "send.ml" 38 770 830
+)
+"send.ml" 47 1219 1259 "send.ml" 47 1219 1260
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "send.ml" 36 679 699 "send.ml" 36 679 700
+)
+"send.ml" 47 1219 1259 "send.ml" 47 1219 1264
+type(
+  Cfg.pos
+)
+"send.ml" 47 1219 1233 "send.ml" 47 1219 1264
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"send.ml" 46 1163 1182 "send.ml" 47 1219 1264
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"send.ml" 40 876 888 "send.ml" 47 1219 1264
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"send.ml" 48 1265 1275 "send.ml" 48 1265 1276
+type(
+  Cfg.method_call
+)
+"send.ml" 48 1265 1280 "send.ml" 48 1265 1285
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+  as 'b
+)
+"send.ml" 48 1265 1280 "send.ml" 48 1265 1296
+type(
+  Cfg.stmt Visitor.visit_method
+)
+"send.ml" 48 1265 1297 "send.ml" 48 1265 1298
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "send.ml" 36 679 699 "send.ml" 36 679 700
+)
+"send.ml" 48 1265 1280 "send.ml" 48 1265 1298
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"send.ml" 37 722 750 "send.ml" 49 1299 1308
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"send.ml" 50 1309 1315 "send.ml" 50 1309 1316
+type(
+  Cfg.stmt_node
+)
+"send.ml" 50 1309 1320 "send.ml" 50 1309 1325
+type(
+  'b
+)
+"send.ml" 50 1309 1320 "send.ml" 50 1309 1336
+type(
+  Cfg.stmt Visitor.visit_method
+)
+"send.ml" 50 1309 1337 "send.ml" 50 1309 1338
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "send.ml" 36 679 699 "send.ml" 36 679 700
+)
+"send.ml" 50 1309 1320 "send.ml" 50 1309 1338
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"send.ml" 36 679 703 "send.ml" 50 1309 1338
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"send.ml" 53 1345 1349 "send.ml" 53 1345 1362
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def transform_ast "send.ml" 54 1375 1375 --
+)
+"send.ml" 53 1345 1363 "send.ml" 53 1345 1364
+type(
+  'a
+)
+ident(
+  def t "send.ml" 53 1345 1365 "send.ml" 53 1345 1374
+)
+"send.ml" 53 1345 1365 "send.ml" 53 1345 1368
+type(
+  'b
+)
+ident(
+  def ast "send.ml" 53 1345 1371 "send.ml" 53 1345 1374
+)
+"send.ml" 53 1345 1371 "send.ml" 53 1345 1374
+type(
+  'b
+)
+ident(
+  int_ref ast "send.ml" 53 1345 1365 "send.ml" 53 1345 1368
+)
+"send.ml" 54 1375 1379 "send.ml" 54 1375 1392
+type(
+  (string -> Cfg.pos -> string list) -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def transform_cfg "send.ml" 54 1375 1432 --
+)
+"send.ml" 54 1375 1393 "send.ml" 54 1375 1394
+type(
+  string -> Cfg.pos -> string list
+)
+ident(
+  def t "send.ml" 54 1375 1395 "send.ml" 54 1375 1432
+)
+"send.ml" 54 1375 1395 "send.ml" 54 1375 1396
+type(
+  Cfg.stmt
+)
+ident(
+  def s "send.ml" 54 1375 1399 "send.ml" 54 1375 1432
+)
+"send.ml" 54 1375 1399 "send.ml" 54 1375 1409
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"send.ml" 54 1375 1411 "send.ml" 54 1375 1427
+type(
+  (string -> Cfg.pos -> string list) -> send_visitor
+)
+"send.ml" 54 1375 1428 "send.ml" 54 1375 1429
+type(
+  string -> Cfg.pos -> string list
+)
+ident(
+  int_ref t "send.ml" 54 1375 1393 "send.ml" 54 1375 1394
+)
+"send.ml" 54 1375 1410 "send.ml" 54 1375 1430
+call(
+  stack
+)
+type(
+  send_visitor
+)
+"send.ml" 54 1375 1431 "send.ml" 54 1375 1432
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "send.ml" 54 1375 1395 "send.ml" 54 1375 1396
+)
+"send.ml" 54 1375 1399 "send.ml" 54 1375 1432
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)

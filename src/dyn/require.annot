@@ -1,0 +1,4797 @@
+"require.ml" 14 150 155 "require.ml" 14 150 169
+call(
+  stack
+)
+"require.ml" 10 88 90 "require.ml" 14 150 170
+call(
+  stack
+)
+"require.ml" 16 173 224 "require.ml" 16 173 239
+call(
+  stack
+)
+"require.ml" 16 173 187 "require.ml" 16 173 240
+call(
+  stack
+)
+"require.ml" 19 260 264 "require.ml" 19 260 268
+type(
+  string
+)
+ident(
+  def name "require.ml" 21 282 282 --
+)
+"require.ml" 19 260 271 "require.ml" 19 260 280
+type(
+  string
+)
+"require.ml" 21 282 286 "require.ml" 21 282 300
+type(
+  'a -> 'a
+)
+ident(
+  def instrument_ast "require.ml" 22 311 311 --
+)
+"require.ml" 21 282 301 "require.ml" 21 282 304
+type(
+  'a
+)
+ident(
+  def ast "require.ml" 21 282 307 "require.ml" 21 282 310
+)
+"require.ml" 21 282 307 "require.ml" 21 282 310
+type(
+  'a
+)
+ident(
+  int_ref ast "require.ml" 21 282 301 "require.ml" 21 282 304
+)
+"require.ml" 22 311 315 "require.ml" 22 311 329
+type(
+  'a -> 'a
+)
+ident(
+  def instrument_cfg "require.ml" 25 342 342 --
+)
+"require.ml" 22 311 330 "require.ml" 22 311 333
+type(
+  'a
+)
+ident(
+  def cfg "require.ml" 22 311 336 "require.ml" 22 311 339
+)
+"require.ml" 22 311 336 "require.ml" 22 311 339
+type(
+  'a
+)
+ident(
+  int_ref cfg "require.ml" 22 311 330 "require.ml" 22 311 333
+)
+"require.ml" 25 342 346 "require.ml" 25 342 363
+type(
+  (string -> Yaml.yaml) -> Data.t
+)
+ident(
+  def load_runtime_data "require.ml" 41 848 848 --
+)
+"require.ml" 25 342 364 "require.ml" 25 342 368
+type(
+  string -> Yaml.yaml
+)
+ident(
+  def func "require.ml" 26 372 374 "require.ml" 39 833 840
+)
+"require.ml" 26 372 378 "require.ml" 26 372 381
+type(
+  Data.t
+)
+"require.ml" 26 372 384 "require.ml" 26 372 396
+type(
+  Yaml.yaml -> Data.t
+)
+ident(
+  ext_ref Data.of_yaml
+)
+"require.ml" 26 372 398 "require.ml" 26 372 402
+type(
+  string -> Yaml.yaml
+)
+ident(
+  int_ref func "require.ml" 25 342 364 "require.ml" 25 342 368
+)
+"require.ml" 26 372 403 "require.ml" 26 372 412
+type(
+  string
+)
+"require.ml" 26 372 397 "require.ml" 26 372 413
+call(
+  stack
+)
+type(
+  Yaml.yaml
+)
+"require.ml" 26 372 384 "require.ml" 26 372 413
+call(
+  stack
+)
+type(
+  Data.t
+)
+"require.ml" 39 833 837 "require.ml" 39 833 840
+type(
+  Data.t
+)
+ident(
+  int_ref map "require.ml" 26 372 378 "require.ml" 26 372 381
+)
+"require.ml" 26 372 374 "require.ml" 39 833 840
+type(
+  Data.t
+)
+"require.ml" 41 848 852 "require.ml" 41 848 864
+type(
+  string list
+)
+ident(
+  def profile_libs "require.ml" 43 880 880 --
+)
+"require.ml" 41 848 868 "require.ml" 41 848 877
+type(
+  string
+)
+"require.ml" 41 848 867 "require.ml" 41 848 878
+type(
+  string list
+)
+"require.ml" 43 880 884 "require.ml" 43 880 902
+type(
+  (bool * string * [< `A of bool | `B of 'a ] * string list) list Data.Map.t ->
+  (string * string) list
+)
+ident(
+  def all_required_files "require.ml" 65 1811 1811 --
+)
+"require.ml" 43 880 903 "require.ml" 43 880 904
+type(
+  (bool * string * ([< `A of bool | `B of 'a ] as 'b) * string list) list
+  Data.Map.t
+)
+ident(
+  def t "require.ml" 44 908 910 "require.ml" 63 1799 1809
+)
+"require.ml" 44 908 910 "require.ml" 44 908 923
+type(
+  (Data.Map.key ->
+   (bool * string * 'b * string list) list ->
+   (string * string) list -> (string * string) list) ->
+  (bool * string * 'b * string list) list Data.Map.t ->
+  (string * string) list -> (string * string) list
+)
+ident(
+  ext_ref Data.Map.fold
+)
+"require.ml" 45 924 934 "require.ml" 45 924 941
+type(
+  Yaml.YString.t
+)
+ident(
+  def srcfile "require.ml" 45 924 953 "require.ml" 62 1780 1798
+)
+"require.ml" 45 924 942 "require.ml" 45 924 949
+type(
+  Yaml.YInt.t
+)
+ident(
+  def srcline "require.ml" 45 924 953 "require.ml" 62 1780 1798
+)
+"require.ml" 45 924 950 "require.ml" 45 924 951
+type(
+  Domain.t
+)
+"require.ml" 45 924 933 "require.ml" 45 924 952
+type(
+  Data.Map.key
+)
+"require.ml" 45 924 953 "require.ml" 45 924 956
+type(
+  (bool * string * 'b * string list) list
+)
+ident(
+  def lst "require.ml" 45 924 957 "require.ml" 62 1780 1798
+)
+"require.ml" 45 924 957 "require.ml" 45 924 960
+type(
+  (string * string) list
+)
+ident(
+  def acc "require.ml" 46 964 971 "require.ml" 62 1780 1798
+)
+"require.ml" 46 964 971 "require.ml" 46 964 985
+type(
+  ((string * string) list ->
+   bool * string * 'b * string list -> (string * string) list) ->
+  (string * string) list ->
+  (bool * string * 'b * string list) list -> (string * string) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"require.ml" 47 987 1001 "require.ml" 47 987 1004
+type(
+  (string * string) list
+)
+ident(
+  def acc "require.ml" 47 987 1005 "require.ml" 61 1713 1742
+)
+"require.ml" 47 987 1006 "require.ml" 47 987 1012
+type(
+  bool
+)
+ident(
+  def is_req "require.ml" 48 1042 1054 "require.ml" 61 1713 1742
+)
+"require.ml" 47 987 1013 "require.ml" 47 987 1017
+type(
+  string
+)
+ident(
+  def file "require.ml" 48 1042 1054 "require.ml" 61 1713 1742
+)
+"require.ml" 47 987 1018 "require.ml" 47 987 1029
+type(
+  'b
+)
+ident(
+  def really_load "require.ml" 48 1042 1054 "require.ml" 61 1713 1742
+)
+"require.ml" 47 987 1030 "require.ml" 47 987 1037
+type(
+  string list
+)
+ident(
+  def libdirs "require.ml" 48 1042 1054 "require.ml" 61 1713 1742
+)
+"require.ml" 47 987 1005 "require.ml" 47 987 1038
+type(
+  bool * string * 'b * string list
+)
+"require.ml" 48 1042 1060 "require.ml" 48 1042 1071
+type(
+  'b
+)
+ident(
+  int_ref really_load "require.ml" 47 987 1018 "require.ml" 47 987 1029
+)
+"require.ml" 50 1139 1158 "require.ml" 50 1139 1162
+type(
+  bool
+)
+"require.ml" 50 1139 1155 "require.ml" 50 1139 1162
+type(
+  'b
+)
+"require.ml" 51 1176 1198 "require.ml" 51 1176 1204
+type(
+  string
+)
+ident(
+  def fqname "require.ml" 53 1313 1333 "require.ml" 54 1374 1450
+)
+"require.ml" 51 1176 1207 "require.ml" 51 1176 1234
+type(
+  ?no_ext:bool -> string -> string list -> string
+)
+ident(
+  ext_ref File_loader.find_in_libpath
+)
+"require.ml" 51 1176 1244 "require.ml" 51 1176 1247
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"require.ml" 51 1176 1248 "require.ml" 51 1176 1254
+type(
+  bool
+)
+ident(
+  int_ref is_req "require.ml" 47 987 1006 "require.ml" 47 987 1012
+)
+"require.ml" 51 1176 1243 "require.ml" 51 1176 1255
+type(
+  bool
+)
+"require.ml" 51 1176 1256 "require.ml" 51 1176 1260
+type(
+  string
+)
+ident(
+  int_ref file "require.ml" 47 987 1013 "require.ml" 47 987 1017
+)
+"require.ml" 51 1176 1261 "require.ml" 51 1176 1268
+type(
+  string list
+)
+ident(
+  int_ref libdirs "require.ml" 47 987 1030 "require.ml" 47 987 1037
+)
+"require.ml" 51 1176 1207 "require.ml" 51 1176 1268
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 53 1313 1336 "require.ml" 53 1313 1357
+type(
+  string -> bool
+)
+ident(
+  ext_ref File_loader.is_native
+)
+"require.ml" 53 1313 1358 "require.ml" 53 1313 1364
+type(
+  string
+)
+ident(
+  int_ref fqname "require.ml" 51 1176 1198 "require.ml" 51 1176 1204
+)
+"require.ml" 53 1313 1336 "require.ml" 53 1313 1364
+call(
+  stack
+)
+type(
+  bool
+)
+"require.ml" 53 1313 1370 "require.ml" 53 1313 1373
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "require.ml" 47 987 1001 "require.ml" 47 987 1004
+)
+"require.ml" 54 1374 1400 "require.ml" 54 1374 1406
+type(
+  string
+)
+ident(
+  int_ref fqname "require.ml" 51 1176 1198 "require.ml" 51 1176 1204
+)
+"require.ml" 54 1374 1407 "require.ml" 54 1374 1437
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"require.ml" 54 1374 1438 "require.ml" 54 1374 1444
+type(
+  string
+)
+ident(
+  int_ref fqname "require.ml" 51 1176 1198 "require.ml" 51 1176 1204
+)
+"require.ml" 54 1374 1407 "require.ml" 54 1374 1444
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 54 1374 1399 "require.ml" 54 1374 1445
+type(
+  string * string
+)
+"require.ml" 54 1374 1447 "require.ml" 54 1374 1450
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "require.ml" 47 987 1001 "require.ml" 47 987 1004
+)
+"require.ml" 54 1374 1399 "require.ml" 54 1374 1450
+type(
+  (string * string) list
+)
+"require.ml" 53 1313 1333 "require.ml" 54 1374 1450
+type(
+  (string * string) list
+)
+"require.ml" 51 1176 1194 "require.ml" 54 1374 1450
+type(
+  (string * string) list
+)
+"require.ml" 55 1451 1472 "require.ml" 55 1451 1481
+type(
+  exn
+)
+"require.ml" 56 1485 1503 "require.ml" 56 1485 1511
+type(
+  ?ctx:Log.ctx ->
+  (string -> string -> unit, Format.formatter, unit, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Log.warn
+)
+"require.ml" 56 1485 1517 "require.ml" 56 1485 1526
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"require.ml" 56 1485 1527 "require.ml" 56 1485 1560
+type(
+  (string -> string -> unit, Format.formatter, unit, unit) format4
+)
+"require.ml" 57 1561 1581 "require.ml" 57 1561 1585
+type(
+  string
+)
+ident(
+  int_ref file "require.ml" 47 987 1013 "require.ml" 47 987 1017
+)
+"require.ml" 57 1561 1587 "require.ml" 57 1561 1601
+type(
+  (string -> string) -> string list -> string
+)
+ident(
+  ext_ref Utils.list_to_string
+)
+"require.ml" 57 1561 1602 "require.ml" 57 1561 1604
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.id
+)
+"require.ml" 57 1561 1605 "require.ml" 57 1561 1612
+type(
+  string list
+)
+ident(
+  int_ref libdirs "require.ml" 47 987 1030 "require.ml" 47 987 1037
+)
+"require.ml" 57 1561 1586 "require.ml" 57 1561 1613
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 56 1485 1503 "require.ml" 57 1561 1613
+call(
+  stack
+)
+type(
+  unit
+)
+"require.ml" 58 1615 1633 "require.ml" 58 1615 1636
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "require.ml" 47 987 1001 "require.ml" 47 987 1004
+)
+"require.ml" 56 1485 1503 "require.ml" 58 1615 1636
+type(
+  (string * string) list
+)
+"require.ml" 50 1139 1166 "require.ml" 59 1637 1656
+type(
+  (string * string) list
+)
+"require.ml" 60 1658 1677 "require.ml" 60 1658 1682
+type(
+  bool
+)
+"require.ml" 60 1658 1674 "require.ml" 60 1658 1682
+type(
+  'b
+)
+"require.ml" 60 1658 1686 "require.ml" 60 1658 1689
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "require.ml" 47 987 1001 "require.ml" 47 987 1004
+)
+"require.ml" 61 1713 1732 "require.ml" 61 1713 1735
+type(
+  'a
+)
+ident(
+  def exn "require.ml" 61 1713 1739 "require.ml" 61 1713 1742
+)
+"require.ml" 61 1713 1729 "require.ml" 61 1713 1735
+type(
+  'b
+)
+"require.ml" 61 1713 1739 "require.ml" 61 1713 1742
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "require.ml" 47 987 1001 "require.ml" 47 987 1004
+)
+"require.ml" 48 1042 1054 "require.ml" 61 1713 1742
+type(
+  (string * string) list
+)
+"require.ml" 47 987 996 "require.ml" 62 1780 1790
+type(
+  (string * string) list ->
+  bool * string * 'b * string list -> (string * string) list
+)
+"require.ml" 62 1780 1791 "require.ml" 62 1780 1794
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "require.ml" 45 924 957 "require.ml" 45 924 960
+)
+"require.ml" 62 1780 1795 "require.ml" 62 1780 1798
+type(
+  (bool * string * 'b * string list) list
+)
+ident(
+  int_ref lst "require.ml" 45 924 953 "require.ml" 45 924 956
+)
+"require.ml" 46 964 971 "require.ml" 62 1780 1798
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"require.ml" 45 924 928 "require.ml" 63 1799 1804
+type(
+  Data.Map.key ->
+  (bool * string * 'b * string list) list ->
+  (string * string) list -> (string * string) list
+)
+"require.ml" 63 1799 1805 "require.ml" 63 1799 1806
+type(
+  (bool * string * 'b * string list) list Data.Map.t
+)
+ident(
+  int_ref t "require.ml" 43 880 903 "require.ml" 43 880 904
+)
+"require.ml" 63 1799 1807 "require.ml" 63 1799 1809
+type(
+  (string * string) list
+)
+"require.ml" 44 908 910 "require.ml" 63 1799 1809
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"require.ml" 65 1811 1815 "require.ml" 65 1811 1825
+type(
+  string -> Ast.pos -> Ast.expr
+)
+ident(
+  def dr_runtime "require.ml" 72 2062 2062 --
+)
+"require.ml" 65 1811 1826 "require.ml" 65 1811 1827
+type(
+  string
+)
+ident(
+  def s "require.ml" 65 1811 1828 "require.ml" 69 1979 2011
+)
+"require.ml" 65 1811 1828 "require.ml" 65 1811 1831
+type(
+  Ast.pos
+)
+ident(
+  def pos "require.ml" 66 1835 1837 "require.ml" 69 1979 2011
+)
+"require.ml" 67 1864 1870 "require.ml" 67 1864 1873
+type(
+  Ast.expr
+)
+ident(
+  def cls "require.ml" 68 1928 1930 "require.ml" 69 1979 2011
+)
+"require.ml" 67 1864 1876 "require.ml" 67 1864 1890
+type(
+  string list -> Ast.pos -> Ast.expr
+)
+ident(
+  ext_ref A.scoped_ident
+)
+"require.ml" 67 1864 1892 "require.ml" 67 1864 1899
+type(
+  string
+)
+"require.ml" 67 1864 1900 "require.ml" 67 1864 1909
+type(
+  string
+)
+"require.ml" 67 1864 1910 "require.ml" 67 1864 1919
+type(
+  string
+)
+"require.ml" 67 1864 1891 "require.ml" 67 1864 1920
+type(
+  string list
+)
+"require.ml" 67 1864 1921 "require.ml" 67 1864 1924
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 65 1811 1828 "require.ml" 65 1811 1831
+)
+"require.ml" 67 1864 1876 "require.ml" 67 1864 1924
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 68 1928 1934 "require.ml" 68 1928 1938
+type(
+  Ast.expr
+)
+ident(
+  def meth "require.ml" 69 1979 1983 "require.ml" 69 1979 2011
+)
+"require.ml" 68 1928 1954 "require.ml" 68 1928 1966
+type(
+  Ast.id_kind
+)
+"require.ml" 68 1928 1968 "require.ml" 68 1928 1969
+type(
+  string
+)
+ident(
+  int_ref s "require.ml" 65 1811 1826 "require.ml" 65 1811 1827
+)
+"require.ml" 68 1928 1971 "require.ml" 68 1928 1974
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 65 1811 1828 "require.ml" 65 1811 1831
+)
+"require.ml" 68 1928 1941 "require.ml" 68 1928 1975
+type(
+  Ast.expr
+)
+"require.ml" 69 1979 1991 "require.ml" 69 1979 1994
+type(
+  Ast.expr
+)
+ident(
+  int_ref cls "require.ml" 67 1864 1870 "require.ml" 67 1864 1873
+)
+"require.ml" 69 1979 1995 "require.ml" 69 1979 2001
+type(
+  Ast.binary_op
+)
+"require.ml" 69 1979 2002 "require.ml" 69 1979 2006
+type(
+  Ast.expr
+)
+ident(
+  int_ref meth "require.ml" 68 1928 1934 "require.ml" 68 1928 1938
+)
+"require.ml" 69 1979 2007 "require.ml" 69 1979 2010
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 65 1811 1828 "require.ml" 65 1811 1831
+)
+"require.ml" 69 1979 1983 "require.ml" 69 1979 2011
+type(
+  Ast.expr
+)
+"require.ml" 68 1928 1930 "require.ml" 69 1979 2011
+type(
+  Ast.expr
+)
+"require.ml" 67 1864 1866 "require.ml" 69 1979 2011
+type(
+  Ast.expr
+)
+"require.ml" 66 1835 1837 "require.ml" 69 1979 2011
+type(
+  Ast.expr
+)
+"require.ml" 72 2062 2066 "require.ml" 72 2062 2077
+type(
+  [< `Load of Ast.expr list | `Require ] ->
+  orig:string -> string -> Ast.pos -> Ast.expr
+)
+ident(
+  def gen_require "require.ml" 92 2942 2942 --
+)
+"require.ml" 72 2062 2078 "require.ml" 72 2062 2089
+type(
+  [< `Load of Ast.expr list | `Require ] as 'a
+)
+ident(
+  def req_or_load "require.ml" 72 2062 2090 "require.ml" 89 2791 2874
+)
+"require.ml" 72 2062 2091 "require.ml" 72 2062 2095
+type(
+  string
+)
+ident(
+  def orig "require.ml" 72 2062 2096 "require.ml" 89 2791 2874
+)
+"require.ml" 72 2062 2096 "require.ml" 72 2062 2100
+type(
+  string
+)
+ident(
+  def name "require.ml" 72 2062 2101 "require.ml" 89 2791 2874
+)
+"require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+type(
+  Ast.pos
+)
+ident(
+  def pos "require.ml" 73 2108 2110 "require.ml" 89 2791 2874
+)
+"require.ml" 73 2108 2114 "require.ml" 73 2108 2122
+type(
+  string
+)
+"require.ml" 73 2108 2131 "require.ml" 73 2108 2140
+type(
+  string -> string option
+)
+ident(
+  ext_ref Utils.extension
+)
+"require.ml" 73 2108 2141 "require.ml" 73 2108 2145
+type(
+  string
+)
+ident(
+  int_ref orig "require.ml" 72 2062 2091 "require.ml" 72 2062 2095
+)
+"require.ml" 73 2108 2131 "require.ml" 73 2108 2145
+call(
+  stack
+)
+type(
+  string option
+)
+"require.ml" 73 2108 2147 "require.ml" 73 2108 2156
+type(
+  string -> string option
+)
+ident(
+  ext_ref Utils.extension
+)
+"require.ml" 73 2108 2157 "require.ml" 73 2108 2161
+type(
+  string
+)
+ident(
+  int_ref name "require.ml" 72 2062 2096 "require.ml" 72 2062 2100
+)
+"require.ml" 73 2108 2147 "require.ml" 73 2108 2161
+call(
+  stack
+)
+type(
+  string option
+)
+"require.ml" 73 2108 2131 "require.ml" 73 2108 2161
+type(
+  string option * string option
+)
+"require.ml" 74 2167 2178 "require.ml" 74 2167 2183
+type(
+  string
+)
+"require.ml" 74 2167 2184 "require.ml" 74 2167 2189
+type(
+  string
+)
+"require.ml" 74 2167 2177 "require.ml" 74 2167 2190
+type(
+  string
+)
+"require.ml" 74 2167 2173 "require.ml" 74 2167 2190
+type(
+  string option
+)
+"require.ml" 74 2167 2191 "require.ml" 74 2167 2192
+type(
+  string option
+)
+"require.ml" 74 2167 2173 "require.ml" 74 2167 2192
+type(
+  string option * string option
+)
+"require.ml" 74 2167 2196 "require.ml" 74 2167 2200
+type(
+  string
+)
+ident(
+  int_ref orig "require.ml" 72 2062 2091 "require.ml" 72 2062 2095
+)
+"require.ml" 75 2226 2232 "require.ml" 75 2226 2233
+type(
+  string option
+)
+"require.ml" 75 2226 2235 "require.ml" 75 2226 2239
+type(
+  string option
+)
+"require.ml" 75 2226 2232 "require.ml" 75 2226 2239
+type(
+  string option * string option
+)
+"require.ml" 75 2226 2243 "require.ml" 75 2226 2247
+type(
+  string
+)
+ident(
+  int_ref orig "require.ml" 72 2062 2091 "require.ml" 72 2062 2095
+)
+"require.ml" 76 2268 2274 "require.ml" 76 2268 2275
+type(
+  string option
+)
+"require.ml" 76 2268 2282 "require.ml" 76 2268 2283
+type(
+  string
+)
+ident(
+  def e "require.ml" 76 2268 2287 "require.ml" 76 2268 2295
+)
+"require.ml" 76 2268 2277 "require.ml" 76 2268 2283
+type(
+  string option
+)
+"require.ml" 76 2268 2274 "require.ml" 76 2268 2283
+type(
+  string option * string option
+)
+"require.ml" 76 2268 2287 "require.ml" 76 2268 2291
+type(
+  string
+)
+ident(
+  int_ref orig "require.ml" 72 2062 2091 "require.ml" 72 2062 2095
+)
+"require.ml" 76 2268 2292 "require.ml" 76 2268 2293
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"require.ml" 76 2268 2294 "require.ml" 76 2268 2295
+type(
+  string
+)
+ident(
+  int_ref e "require.ml" 76 2268 2282 "require.ml" 76 2268 2283
+)
+"require.ml" 76 2268 2287 "require.ml" 76 2268 2295
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 73 2108 2125 "require.ml" 76 2268 2295
+type(
+  string
+)
+"require.ml" 78 2301 2307 "require.ml" 78 2301 2311
+type(
+  Ast.expr
+)
+"require.ml" 78 2301 2349 "require.ml" 78 2301 2357
+type(
+  string
+)
+ident(
+  int_ref with_ext "require.ml" 73 2108 2114 "require.ml" 73 2108 2122
+)
+"require.ml" 78 2301 2334 "require.ml" 78 2301 2358
+type(
+  Ast.string_kind
+)
+"require.ml" 78 2301 2324 "require.ml" 78 2301 2358
+type(
+  Ast.lit_kind
+)
+"require.ml" 78 2301 2360 "require.ml" 78 2301 2363
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 78 2301 2314 "require.ml" 78 2301 2364
+type(
+  Ast.expr
+)
+"require.ml" 79 2368 2374 "require.ml" 79 2368 2377
+type(
+  Ast.expr
+)
+"require.ml" 79 2368 2415 "require.ml" 79 2368 2419
+type(
+  string
+)
+ident(
+  int_ref name "require.ml" 72 2062 2096 "require.ml" 72 2062 2100
+)
+"require.ml" 79 2368 2400 "require.ml" 79 2368 2420
+type(
+  Ast.string_kind
+)
+"require.ml" 79 2368 2390 "require.ml" 79 2368 2420
+type(
+  Ast.lit_kind
+)
+"require.ml" 79 2368 2422 "require.ml" 79 2368 2425
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 79 2368 2380 "require.ml" 79 2368 2426
+type(
+  Ast.expr
+)
+"require.ml" 80 2430 2440 "require.ml" 80 2430 2451
+type(
+  'a
+)
+ident(
+  int_ref req_or_load "require.ml" 72 2062 2078 "require.ml" 72 2062 2089
+)
+"require.ml" 81 2457 2465 "require.ml" 81 2457 2473
+type(
+  'a
+)
+"require.ml" 82 2478 2491 "require.ml" 82 2478 2495
+type(
+  string
+)
+ident(
+  int_ref name "require.ml" 72 2062 2096 "require.ml" 72 2062 2100
+)
+"require.ml" 82 2478 2496 "require.ml" 82 2478 2497
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"require.ml" 82 2478 2498 "require.ml" 82 2478 2500
+type(
+  string
+)
+"require.ml" 82 2478 2491 "require.ml" 82 2478 2500
+type(
+  bool
+)
+"require.ml" 83 2502 2530 "require.ml" 83 2502 2540
+type(
+  string -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref dr_runtime "require.ml" 65 1811 1815 "require.ml" 65 1811 1825
+)
+"require.ml" 83 2502 2541 "require.ml" 83 2502 2554
+type(
+  string
+)
+"require.ml" 83 2502 2555 "require.ml" 83 2502 2558
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 83 2502 2530 "require.ml" 83 2502 2558
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 83 2502 2561 "require.ml" 83 2502 2565
+type(
+  Ast.expr
+)
+ident(
+  int_ref orig "require.ml" 78 2301 2307 "require.ml" 78 2301 2311
+)
+"require.ml" 83 2502 2560 "require.ml" 83 2502 2566
+type(
+  Ast.expr list
+)
+"require.ml" 83 2502 2568 "require.ml" 83 2502 2572
+type(
+  Ast.expr option
+)
+"require.ml" 83 2502 2574 "require.ml" 83 2502 2577
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 83 2502 2517 "require.ml" 83 2502 2578
+type(
+  Ast.expr
+)
+"require.ml" 84 2580 2608 "require.ml" 84 2580 2618
+type(
+  string -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref dr_runtime "require.ml" 65 1811 1815 "require.ml" 65 1811 1825
+)
+"require.ml" 84 2580 2619 "require.ml" 84 2580 2633
+type(
+  string
+)
+"require.ml" 84 2580 2634 "require.ml" 84 2580 2637
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 84 2580 2608 "require.ml" 84 2580 2637
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 84 2580 2640 "require.ml" 84 2580 2644
+type(
+  Ast.expr
+)
+ident(
+  int_ref orig "require.ml" 78 2301 2307 "require.ml" 78 2301 2311
+)
+"require.ml" 84 2580 2645 "require.ml" 84 2580 2648
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 79 2368 2374 "require.ml" 79 2368 2377
+)
+"require.ml" 84 2580 2639 "require.ml" 84 2580 2649
+type(
+  Ast.expr list
+)
+"require.ml" 84 2580 2651 "require.ml" 84 2580 2655
+type(
+  Ast.expr option
+)
+"require.ml" 84 2580 2657 "require.ml" 84 2580 2660
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 84 2580 2595 "require.ml" 84 2580 2661
+type(
+  Ast.expr
+)
+"require.ml" 82 2478 2488 "require.ml" 84 2580 2661
+type(
+  Ast.expr
+)
+"require.ml" 86 2666 2680 "require.ml" 86 2666 2684
+type(
+  Ast.expr list
+)
+ident(
+  def wrap "require.ml" 87 2689 2699 "require.ml" 89 2791 2874
+)
+"require.ml" 86 2666 2674 "require.ml" 86 2666 2684
+type(
+  'a
+)
+"require.ml" 87 2689 2702 "require.ml" 87 2689 2706
+type(
+  string
+)
+ident(
+  int_ref name "require.ml" 72 2062 2096 "require.ml" 72 2062 2100
+)
+"require.ml" 87 2689 2707 "require.ml" 87 2689 2708
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"require.ml" 87 2689 2709 "require.ml" 87 2689 2711
+type(
+  string
+)
+"require.ml" 87 2689 2702 "require.ml" 87 2689 2711
+type(
+  bool
+)
+"require.ml" 88 2713 2741 "require.ml" 88 2713 2751
+type(
+  string -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref dr_runtime "require.ml" 65 1811 1815 "require.ml" 65 1811 1825
+)
+"require.ml" 88 2713 2752 "require.ml" 88 2713 2762
+type(
+  string
+)
+"require.ml" 88 2713 2763 "require.ml" 88 2713 2766
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 88 2713 2741 "require.ml" 88 2713 2766
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 88 2713 2768 "require.ml" 88 2713 2772
+type(
+  Ast.expr
+)
+ident(
+  int_ref orig "require.ml" 78 2301 2307 "require.ml" 78 2301 2311
+)
+"require.ml" 88 2713 2774 "require.ml" 88 2713 2778
+type(
+  Ast.expr list
+)
+ident(
+  int_ref wrap "require.ml" 86 2666 2680 "require.ml" 86 2666 2684
+)
+"require.ml" 88 2713 2768 "require.ml" 88 2713 2778
+type(
+  Ast.expr list
+)
+"require.ml" 88 2713 2780 "require.ml" 88 2713 2784
+type(
+  Ast.expr option
+)
+"require.ml" 88 2713 2786 "require.ml" 88 2713 2789
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 88 2713 2728 "require.ml" 88 2713 2790
+type(
+  Ast.expr
+)
+"require.ml" 89 2791 2819 "require.ml" 89 2791 2829
+type(
+  string -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref dr_runtime "require.ml" 65 1811 1815 "require.ml" 65 1811 1825
+)
+"require.ml" 89 2791 2830 "require.ml" 89 2791 2841
+type(
+  string
+)
+"require.ml" 89 2791 2842 "require.ml" 89 2791 2845
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 89 2791 2819 "require.ml" 89 2791 2845
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 89 2791 2847 "require.ml" 89 2791 2851
+type(
+  Ast.expr
+)
+ident(
+  int_ref orig "require.ml" 78 2301 2307 "require.ml" 78 2301 2311
+)
+"require.ml" 89 2791 2853 "require.ml" 89 2791 2856
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 79 2368 2374 "require.ml" 79 2368 2377
+)
+"require.ml" 89 2791 2858 "require.ml" 89 2791 2862
+type(
+  Ast.expr list
+)
+ident(
+  int_ref wrap "require.ml" 86 2666 2680 "require.ml" 86 2666 2684
+)
+"require.ml" 89 2791 2853 "require.ml" 89 2791 2862
+type(
+  Ast.expr list
+)
+"require.ml" 89 2791 2847 "require.ml" 89 2791 2862
+type(
+  Ast.expr list
+)
+"require.ml" 89 2791 2864 "require.ml" 89 2791 2868
+type(
+  Ast.expr option
+)
+"require.ml" 89 2791 2870 "require.ml" 89 2791 2873
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 72 2062 2101 "require.ml" 72 2062 2104
+)
+"require.ml" 89 2791 2806 "require.ml" 89 2791 2874
+type(
+  Ast.expr
+)
+"require.ml" 87 2689 2699 "require.ml" 89 2791 2874
+type(
+  Ast.expr
+)
+"require.ml" 80 2430 2434 "require.ml" 89 2791 2874
+type(
+  Ast.expr
+)
+"require.ml" 79 2368 2370 "require.ml" 89 2791 2874
+type(
+  Ast.expr
+)
+"require.ml" 78 2301 2303 "require.ml" 89 2791 2874
+type(
+  Ast.expr
+)
+"require.ml" 73 2108 2110 "require.ml" 89 2791 2874
+type(
+  Ast.expr
+)
+"require.ml" 92 2942 2946 "require.ml" 92 2942 2958
+type(
+  [< `Load of 'a | `Require ] -> Ast.expr list -> 'b -> Ast.pos -> Ast.expr
+)
+ident(
+  def dead_require "require.ml" 105 3494 3494 --
+)
+"require.ml" 92 2942 2959 "require.ml" 92 2942 2970
+type(
+  [< `Load of 'a | `Require ] as 'c
+)
+ident(
+  def req_or_load "require.ml" 92 2942 2971 "require.ml" 101 3323 3383
+)
+"require.ml" 92 2942 2971 "require.ml" 92 2942 2980
+type(
+  Ast.expr list
+)
+ident(
+  def star_args "require.ml" 92 2942 2981 "require.ml" 101 3323 3383
+)
+"require.ml" 92 2942 2981 "require.ml" 92 2942 2990
+type(
+  'b
+)
+ident(
+  def req_mcall "require.ml" 92 2942 2991 "require.ml" 101 3323 3383
+)
+"require.ml" 92 2942 2991 "require.ml" 92 2942 2994
+type(
+  Ast.pos
+)
+ident(
+  def pos "require.ml" 93 2998 3000 "require.ml" 101 3323 3383
+)
+"require.ml" 93 2998 3004 "require.ml" 93 2998 3010
+type(
+  Ast.expr
+)
+"require.ml" 93 2998 3013 "require.ml" 93 2998 3023
+type(
+  string -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref dr_runtime "require.ml" 65 1811 1815 "require.ml" 65 1811 1825
+)
+"require.ml" 93 2998 3024 "require.ml" 93 2998 3038
+type(
+  string
+)
+"require.ml" 93 2998 3039 "require.ml" 93 2998 3042
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 92 2942 2991 "require.ml" 92 2942 2994
+)
+"require.ml" 93 2998 3013 "require.ml" 93 2998 3042
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 94 3046 3052 "require.ml" 94 3046 3057
+type(
+  string
+)
+"require.ml" 94 3046 3066 "require.ml" 94 3046 3077
+type(
+  'c
+)
+ident(
+  int_ref req_or_load "require.ml" 92 2942 2959 "require.ml" 92 2942 2970
+)
+"require.ml" 95 3083 3089 "require.ml" 95 3083 3097
+type(
+  'c
+)
+"require.ml" 95 3083 3101 "require.ml" 95 3083 3110
+type(
+  string
+)
+"require.ml" 96 3111 3123 "require.ml" 96 3111 3124
+type(
+  'a
+)
+"require.ml" 96 3111 3117 "require.ml" 96 3111 3124
+type(
+  'c
+)
+"require.ml" 96 3111 3128 "require.ml" 96 3111 3134
+type(
+  string
+)
+"require.ml" 94 3046 3060 "require.ml" 96 3111 3134
+type(
+  string
+)
+"require.ml" 98 3140 3146 "require.ml" 98 3140 3150
+type(
+  Ast.expr
+)
+"require.ml" 98 3140 3163 "require.ml" 98 3140 3171
+type(
+  Ast.lit_kind
+)
+"require.ml" 98 3140 3173 "require.ml" 98 3140 3176
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 92 2942 2991 "require.ml" 92 2942 2994
+)
+"require.ml" 98 3140 3153 "require.ml" 98 3140 3177
+type(
+  Ast.expr
+)
+"require.ml" 99 3181 3187 "require.ml" 99 3181 3191
+type(
+  Ast.expr list
+)
+"require.ml" 99 3181 3195 "require.ml" 99 3181 3199
+type(
+  Ast.expr
+)
+ident(
+  int_ref recv "require.ml" 98 3140 3146 "require.ml" 98 3140 3150
+)
+"require.ml" 99 3181 3237 "require.ml" 99 3181 3242
+type(
+  string
+)
+ident(
+  int_ref mname "require.ml" 94 3046 3052 "require.ml" 94 3046 3057
+)
+"require.ml" 99 3181 3222 "require.ml" 99 3181 3243
+type(
+  Ast.string_kind
+)
+"require.ml" 99 3181 3211 "require.ml" 99 3181 3243
+type(
+  Ast.lit_kind
+)
+"require.ml" 99 3181 3245 "require.ml" 99 3181 3248
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 92 2942 2991 "require.ml" 92 2942 2994
+)
+"require.ml" 99 3181 3201 "require.ml" 99 3181 3249
+type(
+  Ast.expr
+)
+"require.ml" 99 3181 3194 "require.ml" 99 3181 3250
+type(
+  Ast.expr list
+)
+"require.ml" 100 3254 3260 "require.ml" 100 3254 3265
+type(
+  Ast.expr
+)
+"require.ml" 100 3254 3280 "require.ml" 100 3254 3284
+type(
+  bool
+)
+"require.ml" 100 3254 3286 "require.ml" 100 3254 3290
+type(
+  Ast.formal_param list option
+)
+"require.ml" 100 3254 3292 "require.ml" 100 3254 3313
+type(
+  Ast.expr list
+)
+"require.ml" 100 3254 3315 "require.ml" 100 3254 3318
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 92 2942 2991 "require.ml" 92 2942 2994
+)
+"require.ml" 100 3254 3268 "require.ml" 100 3254 3319
+type(
+  Ast.expr
+)
+"require.ml" 101 3323 3340 "require.ml" 101 3323 3346
+type(
+  Ast.expr
+)
+ident(
+  int_ref scoped "require.ml" 93 2998 3004 "require.ml" 93 2998 3010
+)
+"require.ml" 101 3323 3348 "require.ml" 101 3323 3352
+type(
+  Ast.expr list
+)
+ident(
+  int_ref args "require.ml" 99 3181 3187 "require.ml" 99 3181 3191
+)
+"require.ml" 101 3323 3353 "require.ml" 101 3323 3354
+type(
+  Ast.expr list -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"require.ml" 101 3323 3355 "require.ml" 101 3323 3364
+type(
+  Ast.expr list
+)
+ident(
+  int_ref star_args "require.ml" 92 2942 2971 "require.ml" 92 2942 2980
+)
+"require.ml" 101 3323 3348 "require.ml" 101 3323 3364
+call(
+  stack
+)
+type(
+  Ast.expr list
+)
+"require.ml" 101 3323 3370 "require.ml" 101 3323 3377
+type(
+  Ast.expr
+)
+ident(
+  int_ref block "require.ml" 100 3254 3260 "require.ml" 100 3254 3265
+)
+"require.ml" 101 3323 3366 "require.ml" 101 3323 3377
+type(
+  Ast.expr option
+)
+"require.ml" 101 3323 3379 "require.ml" 101 3323 3382
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 92 2942 2991 "require.ml" 92 2942 2994
+)
+"require.ml" 101 3323 3327 "require.ml" 101 3323 3383
+type(
+  Ast.expr
+)
+"require.ml" 100 3254 3256 "require.ml" 101 3323 3383
+type(
+  Ast.expr
+)
+"require.ml" 99 3181 3183 "require.ml" 101 3323 3383
+type(
+  Ast.expr
+)
+"require.ml" 98 3140 3142 "require.ml" 101 3323 3383
+type(
+  Ast.expr
+)
+"require.ml" 94 3046 3048 "require.ml" 101 3323 3383
+type(
+  Ast.expr
+)
+"require.ml" 93 2998 3000 "require.ml" 101 3323 3383
+type(
+  Ast.expr
+)
+"require.ml" 105 3494 3498 "require.ml" 105 3494 3516
+type(
+  [< `Load of 'a & Ast.expr list & 'b | `Require > `Require ] ->
+  Ast.expr -> Utils.StrSet.t Utils.StrMap.t -> 'c -> Ast.pos -> Ast.expr
+)
+ident(
+  def gen_require_switch "require.ml" 147 5190 5190 --
+)
+"require.ml" 105 3494 3517 "require.ml" 105 3494 3528
+type(
+  [< `Load of 'a & Ast.expr list & 'b | `Require > `Require ] as 'd
+)
+ident(
+  def req_or_load "require.ml" 105 3494 3529 "require.ml" 145 5117 5188
+)
+"require.ml" 105 3494 3529 "require.ml" 105 3494 3532
+type(
+  Ast.expr
+)
+ident(
+  def arg "require.ml" 105 3494 3533 "require.ml" 145 5117 5188
+)
+"require.ml" 105 3494 3533 "require.ml" 105 3494 3540
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  def filemap "require.ml" 105 3494 3541 "require.ml" 145 5117 5188
+)
+"require.ml" 105 3494 3541 "require.ml" 105 3494 3550
+type(
+  'c
+)
+ident(
+  def req_mcall "require.ml" 105 3494 3551 "require.ml" 145 5117 5188
+)
+"require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+type(
+  Ast.pos
+)
+ident(
+  def pos "require.ml" 106 3558 3560 "require.ml" 145 5117 5188
+)
+"require.ml" 106 3558 3563 "require.ml" 106 3558 3578
+type(
+  Utils.StrSet.t Utils.StrMap.t -> bool
+)
+ident(
+  ext_ref Utils.StrMap.is_empty
+)
+"require.ml" 106 3558 3579 "require.ml" 106 3558 3586
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  int_ref filemap "require.ml" 105 3494 3533 "require.ml" 105 3494 3540
+)
+"require.ml" 106 3558 3563 "require.ml" 106 3558 3586
+call(
+  stack
+)
+type(
+  bool
+)
+"require.ml" 107 3598 3602 "require.ml" 107 3598 3614
+type(
+  'd -> Ast.expr list -> 'c -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref dead_require "require.ml" 92 2942 2946 "require.ml" 92 2942 2958
+)
+"require.ml" 107 3598 3615 "require.ml" 107 3598 3626
+type(
+  'd
+)
+ident(
+  int_ref req_or_load "require.ml" 105 3494 3517 "require.ml" 105 3494 3528
+)
+"require.ml" 107 3598 3628 "require.ml" 107 3598 3631
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 105 3494 3529 "require.ml" 105 3494 3532
+)
+"require.ml" 107 3598 3627 "require.ml" 107 3598 3632
+type(
+  Ast.expr list
+)
+"require.ml" 107 3598 3633 "require.ml" 107 3598 3642
+type(
+  'c
+)
+ident(
+  int_ref req_mcall "require.ml" 105 3494 3541 "require.ml" 105 3494 3550
+)
+"require.ml" 107 3598 3643 "require.ml" 107 3598 3646
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+)
+"require.ml" 106 3558 3592 "require.ml" 108 3647 3652
+call(
+  tail
+)
+type(
+  Ast.expr
+)
+"require.ml" 108 3647 3664 "require.ml" 108 3647 3667
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 105 3494 3529 "require.ml" 105 3494 3532
+)
+"require.ml" 109 3673 3724 "require.ml" 109 3673 3728
+type(
+  string
+)
+ident(
+  def orig "require.ml" 110 3761 3769 "require.ml" 123 4263 4276
+)
+"require.ml" 109 3673 3715 "require.ml" 109 3673 3728
+type(
+  Ast.string_contents
+)
+"require.ml" 109 3673 3714 "require.ml" 109 3673 3729
+type(
+  Ast.interp_string
+)
+"require.ml" 109 3673 3700 "require.ml" 109 3673 3729
+type(
+  Ast.string_kind
+)
+"require.ml" 109 3673 3746 "require.ml" 109 3673 3750
+type(
+  string
+)
+ident(
+  def orig "require.ml" 110 3761 3769 "require.ml" 123 4263 4276
+)
+"require.ml" 109 3673 3732 "require.ml" 109 3673 3750
+type(
+  Ast.string_kind
+)
+"require.ml" 109 3673 3699 "require.ml" 109 3673 3751
+type(
+  Ast.string_kind
+)
+"require.ml" 109 3673 3689 "require.ml" 109 3673 3751
+type(
+  Ast.lit_kind
+)
+"require.ml" 109 3673 3753 "require.ml" 109 3673 3756
+type(
+  Ast.pos
+)
+ident(
+  def pos "require.ml" 110 3761 3769 "require.ml" 123 4263 4276
+)
+"require.ml" 109 3673 3679 "require.ml" 109 3673 3757
+type(
+  Ast.expr
+)
+"require.ml" 110 3761 3773 "require.ml" 110 3761 3776
+type(
+  Ast.expr list
+)
+"require.ml" 110 3761 3779 "require.ml" 110 3761 3790
+type(
+  (Utils.StrMap.key -> Utils.StrSet.t -> Ast.expr list -> Ast.expr list) ->
+  Utils.StrSet.t Utils.StrMap.t -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref Utils.StrMap.fold
+)
+"require.ml" 111 3792 3807 "require.ml" 111 3792 3811
+type(
+  Utils.StrMap.key
+)
+ident(
+  def orig "require.ml" 111 3792 3812 "require.ml" 115 3956 3987
+)
+"require.ml" 111 3792 3812 "require.ml" 111 3792 3822
+type(
+  Utils.StrSet.t
+)
+ident(
+  def mapped_set "require.ml" 111 3792 3823 "require.ml" 115 3956 3987
+)
+"require.ml" 111 3792 3823 "require.ml" 111 3792 3826
+type(
+  Ast.expr list
+)
+ident(
+  def acc "require.ml" 112 3830 3843 "require.ml" 115 3956 3987
+)
+"require.ml" 112 3830 3843 "require.ml" 112 3830 3854
+type(
+  (Utils.StrSet.elt -> Ast.expr list -> Ast.expr list) ->
+  Utils.StrSet.t -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref Utils.StrSet.fold
+)
+"require.ml" 113 3856 3876 "require.ml" 113 3856 3882
+type(
+  Utils.StrSet.elt
+)
+ident(
+  def mapped "require.ml" 113 3856 3883 "require.ml" 114 3890 3955
+)
+"require.ml" 113 3856 3883 "require.ml" 113 3856 3886
+type(
+  Ast.expr list
+)
+ident(
+  def acc "require.ml" 114 3890 3908 "require.ml" 114 3890 3955
+)
+"require.ml" 114 3890 3909 "require.ml" 114 3890 3920
+type(
+  'd -> orig:Utils.StrMap.key -> Utils.StrSet.elt -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref gen_require "require.ml" 72 2062 2066 "require.ml" 72 2062 2077
+)
+"require.ml" 114 3890 3921 "require.ml" 114 3890 3932
+type(
+  'd
+)
+ident(
+  int_ref req_or_load "require.ml" 105 3494 3517 "require.ml" 105 3494 3528
+)
+"require.ml" 114 3890 3934 "require.ml" 114 3890 3938
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref orig "require.ml" 111 3792 3807 "require.ml" 111 3792 3811
+)
+"require.ml" 114 3890 3939 "require.ml" 114 3890 3945
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref mapped "require.ml" 113 3856 3876 "require.ml" 113 3856 3882
+)
+"require.ml" 114 3890 3946 "require.ml" 114 3890 3949
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 109 3673 3753 "require.ml" 109 3673 3756
+)
+"require.ml" 114 3890 3908 "require.ml" 114 3890 3950
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 114 3890 3952 "require.ml" 114 3890 3955
+type(
+  Ast.expr list
+)
+ident(
+  int_ref acc "require.ml" 113 3856 3883 "require.ml" 113 3856 3886
+)
+"require.ml" 114 3890 3908 "require.ml" 114 3890 3955
+type(
+  Ast.expr list
+)
+"require.ml" 113 3856 3871 "require.ml" 115 3956 3972
+type(
+  Utils.StrSet.elt -> Ast.expr list -> Ast.expr list
+)
+"require.ml" 115 3956 3973 "require.ml" 115 3956 3983
+type(
+  Utils.StrSet.t
+)
+ident(
+  int_ref mapped_set "require.ml" 111 3792 3812 "require.ml" 111 3792 3822
+)
+"require.ml" 115 3956 3984 "require.ml" 115 3956 3987
+type(
+  Ast.expr list
+)
+ident(
+  int_ref acc "require.ml" 111 3792 3823 "require.ml" 111 3792 3826
+)
+"require.ml" 112 3830 3843 "require.ml" 115 3956 3987
+call(
+  tail
+)
+type(
+  Ast.expr list
+)
+"require.ml" 111 3792 3802 "require.ml" 116 3988 3999
+type(
+  Utils.StrMap.key -> Utils.StrSet.t -> Ast.expr list -> Ast.expr list
+)
+"require.ml" 116 3988 4000 "require.ml" 116 3988 4007
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  int_ref filemap "require.ml" 105 3494 3533 "require.ml" 105 3494 3540
+)
+"require.ml" 116 3988 4008 "require.ml" 116 3988 4010
+type(
+  Ast.expr list
+)
+"require.ml" 110 3761 3779 "require.ml" 116 3988 4010
+call(
+  stack
+)
+type(
+  Ast.expr list
+)
+"require.ml" 117 4011 4034 "require.ml" 117 4011 4037
+type(
+  Ast.expr list
+)
+ident(
+  int_ref req "require.ml" 110 3761 3773 "require.ml" 110 3761 3776
+)
+"require.ml" 118 4043 4055 "require.ml" 118 4043 4057
+type(
+  Ast.expr list
+)
+"require.ml" 118 4043 4061 "require.ml" 118 4043 4073
+type(
+  Ast.expr
+)
+"require.ml" 119 4074 4087 "require.ml" 119 4074 4088
+type(
+  Ast.expr
+)
+ident(
+  def x "require.ml" 119 4074 4093 "require.ml" 119 4074 4094
+)
+"require.ml" 119 4074 4086 "require.ml" 119 4074 4089
+type(
+  Ast.expr list
+)
+"require.ml" 119 4074 4093 "require.ml" 119 4074 4094
+type(
+  Ast.expr
+)
+ident(
+  int_ref x "require.ml" 119 4074 4087 "require.ml" 119 4074 4088
+)
+"require.ml" 120 4095 4107 "require.ml" 120 4095 4110
+type(
+  Ast.expr list
+)
+ident(
+  def lst "require.ml" 121 4115 4129 "require.ml" 122 4197 4262
+)
+"require.ml" 121 4115 4129 "require.ml" 121 4115 4138
+type(
+  Log.ctx ->
+  (string -> Ast.expr, Format.formatter, unit, Ast.expr) format4 ->
+  string -> Ast.expr
+)
+ident(
+  ext_ref Log.fatal
+)
+"require.ml" 121 4115 4140 "require.ml" 121 4115 4150
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"require.ml" 121 4115 4151 "require.ml" 121 4115 4154
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 109 3673 3753 "require.ml" 109 3673 3756
+)
+"require.ml" 121 4115 4139 "require.ml" 121 4115 4155
+call(
+  stack
+)
+type(
+  Log.ctx
+)
+"require.ml" 121 4115 4156 "require.ml" 121 4115 4196
+type(
+  (string -> Ast.expr, Format.formatter, unit, Ast.expr) format4
+)
+"require.ml" 122 4197 4214 "require.ml" 122 4197 4228
+type(
+  (Ast.expr -> string) -> Ast.expr list -> string
+)
+ident(
+  ext_ref Utils.list_to_string
+)
+"require.ml" 122 4197 4229 "require.ml" 122 4197 4257
+type(
+  Ast.expr -> string
+)
+ident(
+  ext_ref Ast_printer.string_of_expr
+)
+"require.ml" 122 4197 4258 "require.ml" 122 4197 4261
+type(
+  Ast.expr list
+)
+ident(
+  int_ref req "require.ml" 110 3761 3773 "require.ml" 110 3761 3776
+)
+"require.ml" 122 4197 4213 "require.ml" 122 4197 4262
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 121 4115 4129 "require.ml" 122 4197 4262
+call(
+  tail
+)
+type(
+  Ast.expr
+)
+"require.ml" 117 4011 4022 "require.ml" 123 4263 4276
+type(
+  Ast.expr
+)
+"require.ml" 110 3761 3769 "require.ml" 123 4263 4276
+type(
+  Ast.expr
+)
+"require.ml" 124 4277 4283 "require.ml" 124 4277 4284
+type(
+  Ast.expr
+)
+"require.ml" 125 4289 4301 "require.ml" 125 4289 4303
+type(
+  unit
+)
+"require.ml" 126 4319 4333 "require.ml" 126 4319 4338
+type(
+  string
+)
+"require.ml" 126 4319 4344 "require.ml" 126 4319 4355
+type(
+  'd
+)
+ident(
+  int_ref req_or_load "require.ml" 105 3494 3517 "require.ml" 105 3494 3528
+)
+"require.ml" 126 4319 4356 "require.ml" 126 4319 4357
+type(
+  'd -> 'd -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"require.ml" 126 4319 4358 "require.ml" 126 4319 4366
+type(
+  'd
+)
+"require.ml" 126 4319 4344 "require.ml" 126 4319 4366
+type(
+  bool
+)
+"require.ml" 126 4319 4372 "require.ml" 126 4319 4381
+type(
+  string
+)
+"require.ml" 126 4319 4387 "require.ml" 126 4319 4393
+type(
+  string
+)
+"require.ml" 126 4319 4341 "require.ml" 126 4319 4393
+type(
+  string
+)
+"require.ml" 127 4397 4412 "require.ml" 127 4397 4416
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"require.ml" 127 4397 4412 "require.ml" 127 4397 4431
+type(
+  bool
+)
+"require.ml" 128 4437 4451 "require.ml" 128 4437 4462
+type(
+  string -> Yaml.YInt.t -> Yaml.YString.t -> unit
+)
+ident(
+  ext_ref Mining.mine
+)
+"require.ml" 129 4465 4481 "require.ml" 129 4465 4484
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+)
+"require.ml" 129 4465 4481 "require.ml" 129 4465 4501
+type(
+  string
+)
+"require.ml" 130 4502 4518 "require.ml" 130 4502 4521
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+)
+"require.ml" 130 4502 4518 "require.ml" 130 4502 4537
+type(
+  Yaml.YInt.t
+)
+"require.ml" 131 4539 4555 "require.ml" 131 4539 4560
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref mname "require.ml" 126 4319 4333 "require.ml" 126 4319 4338
+)
+"require.ml" 128 4437 4451 "require.ml" 131 4539 4560
+call(
+  stack
+)
+type(
+  unit
+)
+"require.ml" 127 4397 4409 "require.ml" 131 4539 4560
+type(
+  unit
+)
+"require.ml" 126 4319 4329 "require.ml" 131 4539 4560
+type(
+  unit
+)
+"require.ml" 133 4572 4584 "require.ml" 133 4572 4589
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 133 4572 4592 "require.ml" 133 4572 4603
+type(
+  (Utils.StrMap.key ->
+   Utils.StrSet.t ->
+   (Ast.expr list * Ast.expr list) list ->
+   (Ast.expr list * Ast.expr list) list) ->
+  Utils.StrSet.t Utils.StrMap.t ->
+  (Ast.expr list * Ast.expr list) list ->
+  (Ast.expr list * Ast.expr list) list
+)
+ident(
+  ext_ref Utils.StrMap.fold
+)
+"require.ml" 134 4605 4620 "require.ml" 134 4605 4624
+type(
+  Utils.StrMap.key
+)
+ident(
+  def orig "require.ml" 134 4605 4625 "require.ml" 141 4981 5012
+)
+"require.ml" 134 4605 4625 "require.ml" 134 4605 4635
+type(
+  Utils.StrSet.t
+)
+ident(
+  def mapped_set "require.ml" 134 4605 4636 "require.ml" 141 4981 5012
+)
+"require.ml" 134 4605 4636 "require.ml" 134 4605 4639
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+ident(
+  def acc "require.ml" 135 4643 4656 "require.ml" 141 4981 5012
+)
+"require.ml" 135 4643 4656 "require.ml" 135 4643 4667
+type(
+  (Utils.StrSet.elt ->
+   (Ast.expr list * Ast.expr list) list ->
+   (Ast.expr list * Ast.expr list) list) ->
+  Utils.StrSet.t ->
+  (Ast.expr list * Ast.expr list) list ->
+  (Ast.expr list * Ast.expr list) list
+)
+ident(
+  ext_ref Utils.StrSet.fold
+)
+"require.ml" 136 4669 4689 "require.ml" 136 4669 4695
+type(
+  Utils.StrSet.elt
+)
+ident(
+  def mapped "require.ml" 136 4669 4696 "require.ml" 140 4937 4980
+)
+"require.ml" 136 4669 4696 "require.ml" 136 4669 4699
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+ident(
+  def acc "require.ml" 137 4703 4721 "require.ml" 140 4937 4980
+)
+"require.ml" 137 4703 4725 "require.ml" 137 4703 4727
+type(
+  Ast.expr list
+)
+"require.ml" 137 4703 4766 "require.ml" 137 4703 4770
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref orig "require.ml" 134 4605 4620 "require.ml" 134 4605 4624
+)
+"require.ml" 137 4703 4751 "require.ml" 137 4703 4771
+type(
+  Ast.string_kind
+)
+"require.ml" 137 4703 4741 "require.ml" 137 4703 4771
+type(
+  Ast.lit_kind
+)
+"require.ml" 137 4703 4773 "require.ml" 137 4703 4776
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+)
+"require.ml" 137 4703 4731 "require.ml" 137 4703 4777
+type(
+  Ast.expr
+)
+"require.ml" 137 4703 4730 "require.ml" 137 4703 4778
+type(
+  Ast.expr list
+)
+"require.ml" 138 4782 4804 "require.ml" 138 4782 4806
+type(
+  Ast.expr list
+)
+"require.ml" 138 4782 4845 "require.ml" 138 4782 4851
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref mapped "require.ml" 136 4669 4689 "require.ml" 136 4669 4695
+)
+"require.ml" 138 4782 4830 "require.ml" 138 4782 4852
+type(
+  Ast.string_kind
+)
+"require.ml" 138 4782 4820 "require.ml" 138 4782 4852
+type(
+  Ast.lit_kind
+)
+"require.ml" 138 4782 4854 "require.ml" 138 4782 4857
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+)
+"require.ml" 138 4782 4810 "require.ml" 138 4782 4858
+type(
+  Ast.expr
+)
+"require.ml" 138 4782 4809 "require.ml" 138 4782 4859
+type(
+  Ast.expr list
+)
+"require.ml" 139 4863 4885 "require.ml" 139 4863 4888
+type(
+  Ast.expr list
+)
+"require.ml" 139 4863 4892 "require.ml" 139 4863 4903
+type(
+  'd -> orig:Utils.StrMap.key -> Utils.StrSet.elt -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref gen_require "require.ml" 72 2062 2066 "require.ml" 72 2062 2077
+)
+"require.ml" 139 4863 4904 "require.ml" 139 4863 4915
+type(
+  'd
+)
+ident(
+  int_ref req_or_load "require.ml" 105 3494 3517 "require.ml" 105 3494 3528
+)
+"require.ml" 139 4863 4917 "require.ml" 139 4863 4921
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref orig "require.ml" 134 4605 4620 "require.ml" 134 4605 4624
+)
+"require.ml" 139 4863 4922 "require.ml" 139 4863 4928
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref mapped "require.ml" 136 4669 4689 "require.ml" 136 4669 4695
+)
+"require.ml" 139 4863 4929 "require.ml" 139 4863 4932
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+)
+"require.ml" 139 4863 4892 "require.ml" 139 4863 4932
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 139 4863 4891 "require.ml" 139 4863 4933
+type(
+  Ast.expr list
+)
+"require.ml" 140 4937 4958 "require.ml" 140 4937 4960
+type(
+  Ast.expr list
+)
+ident(
+  int_ref g1 "require.ml" 137 4703 4725 "require.ml" 137 4703 4727
+)
+"require.ml" 140 4937 4961 "require.ml" 140 4937 4964
+type(
+  Ast.expr list
+)
+ident(
+  int_ref req "require.ml" 139 4863 4885 "require.ml" 139 4863 4888
+)
+"require.ml" 140 4937 4957 "require.ml" 140 4937 4965
+type(
+  Ast.expr list * Ast.expr list
+)
+"require.ml" 140 4937 4968 "require.ml" 140 4937 4970
+type(
+  Ast.expr list
+)
+ident(
+  int_ref g2 "require.ml" 138 4782 4804 "require.ml" 138 4782 4806
+)
+"require.ml" 140 4937 4971 "require.ml" 140 4937 4974
+type(
+  Ast.expr list
+)
+ident(
+  int_ref req "require.ml" 139 4863 4885 "require.ml" 139 4863 4888
+)
+"require.ml" 140 4937 4967 "require.ml" 140 4937 4975
+type(
+  Ast.expr list * Ast.expr list
+)
+"require.ml" 140 4937 4977 "require.ml" 140 4937 4980
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+ident(
+  int_ref acc "require.ml" 136 4669 4696 "require.ml" 136 4669 4699
+)
+"require.ml" 140 4937 4967 "require.ml" 140 4937 4980
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 140 4937 4957 "require.ml" 140 4937 4980
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 139 4863 4881 "require.ml" 140 4937 4980
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 138 4782 4800 "require.ml" 140 4937 4980
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 137 4703 4721 "require.ml" 140 4937 4980
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 136 4669 4684 "require.ml" 141 4981 4997
+type(
+  Utils.StrSet.elt ->
+  (Ast.expr list * Ast.expr list) list ->
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 141 4981 4998 "require.ml" 141 4981 5008
+type(
+  Utils.StrSet.t
+)
+ident(
+  int_ref mapped_set "require.ml" 134 4605 4625 "require.ml" 134 4605 4635
+)
+"require.ml" 141 4981 5009 "require.ml" 141 4981 5012
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+ident(
+  int_ref acc "require.ml" 134 4605 4636 "require.ml" 134 4605 4639
+)
+"require.ml" 135 4643 4656 "require.ml" 141 4981 5012
+call(
+  tail
+)
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 134 4605 4615 "require.ml" 142 5013 5024
+type(
+  Utils.StrMap.key ->
+  Utils.StrSet.t ->
+  (Ast.expr list * Ast.expr list) list ->
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 142 5013 5025 "require.ml" 142 5013 5032
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  int_ref filemap "require.ml" 105 3494 3533 "require.ml" 105 3494 3540
+)
+"require.ml" 142 5013 5033 "require.ml" 142 5013 5035
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 133 4572 4592 "require.ml" 142 5013 5035
+call(
+  stack
+)
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+"require.ml" 144 5047 5059 "require.ml" 144 5047 5064
+type(
+  Ast.expr list
+)
+"require.ml" 144 5047 5068 "require.ml" 144 5047 5080
+type(
+  'd -> Ast.expr list -> 'c -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref dead_require "require.ml" 92 2942 2946 "require.ml" 92 2942 2958
+)
+"require.ml" 144 5047 5081 "require.ml" 144 5047 5092
+type(
+  'd
+)
+ident(
+  int_ref req_or_load "require.ml" 105 3494 3517 "require.ml" 105 3494 3528
+)
+"require.ml" 144 5047 5094 "require.ml" 144 5047 5097
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 105 3494 3529 "require.ml" 105 3494 3532
+)
+"require.ml" 144 5047 5093 "require.ml" 144 5047 5098
+type(
+  Ast.expr list
+)
+"require.ml" 144 5047 5099 "require.ml" 144 5047 5108
+type(
+  'c
+)
+ident(
+  int_ref req_mcall "require.ml" 105 3494 3541 "require.ml" 105 3494 3550
+)
+"require.ml" 144 5047 5109 "require.ml" 144 5047 5112
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+)
+"require.ml" 144 5047 5068 "require.ml" 144 5047 5112
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"require.ml" 144 5047 5067 "require.ml" 144 5047 5113
+type(
+  Ast.expr list
+)
+"require.ml" 145 5117 5146 "require.ml" 145 5117 5149
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 105 3494 3529 "require.ml" 105 3494 3532
+)
+"require.ml" 145 5117 5161 "require.ml" 145 5117 5166
+type(
+  (Ast.expr list * Ast.expr list) list
+)
+ident(
+  int_ref whens "require.ml" 133 4572 4584 "require.ml" 133 4572 4589
+)
+"require.ml" 145 5117 5177 "require.ml" 145 5117 5182
+type(
+  Ast.expr list
+)
+ident(
+  int_ref else' "require.ml" 144 5047 5059 "require.ml" 144 5047 5064
+)
+"require.ml" 145 5117 5134 "require.ml" 145 5117 5183
+type(
+  Ast.case_block
+)
+"require.ml" 145 5117 5184 "require.ml" 145 5117 5187
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos "require.ml" 105 3494 3551 "require.ml" 105 3494 3554
+)
+"require.ml" 145 5117 5127 "require.ml" 145 5117 5188
+type(
+  Ast.expr
+)
+"require.ml" 144 5047 5055 "require.ml" 145 5117 5188
+type(
+  Ast.expr
+)
+"require.ml" 133 4572 4580 "require.ml" 145 5117 5188
+type(
+  Ast.expr
+)
+"require.ml" 125 4289 4297 "require.ml" 145 5117 5188
+type(
+  Ast.expr
+)
+"require.ml" 108 3647 3658 "require.ml" 145 5117 5188
+type(
+  Ast.expr
+)
+"require.ml" 106 3558 3560 "require.ml" 145 5117 5188
+type(
+  Ast.expr
+)
+"require.ml" 147 5190 5194 "require.ml" 147 5190 5205
+type(
+  (string, string) Hashtbl.t ->
+  bool ->
+  string ->
+  [< `A of 'a | `B of 'b ] -> string list -> Log.pos -> string * string
+)
+ident(
+  def lookup_file "require.ml" 167 5986 5986 --
+)
+"require.ml" 147 5190 5206 "require.ml" 147 5190 5213
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  def tmp_tbl "require.ml" 147 5190 5214 "require.ml" 165 5915 5939
+)
+"require.ml" 147 5190 5214 "require.ml" 147 5190 5220
+type(
+  bool
+)
+ident(
+  def is_req "require.ml" 147 5190 5221 "require.ml" 165 5915 5939
+)
+"require.ml" 147 5190 5221 "require.ml" 147 5190 5225
+type(
+  string
+)
+ident(
+  def file "require.ml" 147 5190 5226 "require.ml" 165 5915 5939
+)
+"require.ml" 147 5190 5226 "require.ml" 147 5190 5233
+type(
+  [< `A of 'a | `B of 'b ] as 'c
+)
+ident(
+  def is_load "require.ml" 147 5190 5234 "require.ml" 165 5915 5939
+)
+"require.ml" 147 5190 5234 "require.ml" 147 5190 5241
+type(
+  string list
+)
+ident(
+  def libdirs "require.ml" 147 5190 5242 "require.ml" 165 5915 5939
+)
+"require.ml" 147 5190 5242 "require.ml" 147 5190 5245
+type(
+  Log.pos
+)
+ident(
+  def pos "require.ml" 148 5249 5251 "require.ml" 165 5915 5939
+)
+"require.ml" 148 5249 5257 "require.ml" 148 5249 5264
+type(
+  'c
+)
+ident(
+  int_ref is_load "require.ml" 147 5190 5226 "require.ml" 147 5190 5233
+)
+"require.ml" 149 5270 5279 "require.ml" 149 5270 5280
+type(
+  'a
+)
+"require.ml" 149 5270 5276 "require.ml" 149 5270 5280
+type(
+  'c
+)
+"require.ml" 151 5330 5344 "require.ml" 151 5330 5345
+type(
+  string
+)
+"require.ml" 152 5349 5365 "require.ml" 152 5349 5392
+type(
+  ?no_ext:bool -> string -> string list -> string
+)
+ident(
+  ext_ref File_loader.find_in_libpath
+)
+"require.ml" 152 5349 5402 "require.ml" 152 5349 5405
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"require.ml" 152 5349 5406 "require.ml" 152 5349 5412
+type(
+  bool
+)
+ident(
+  int_ref is_req "require.ml" 147 5190 5214 "require.ml" 147 5190 5220
+)
+"require.ml" 152 5349 5401 "require.ml" 152 5349 5413
+type(
+  bool
+)
+"require.ml" 152 5349 5414 "require.ml" 152 5349 5418
+type(
+  string
+)
+ident(
+  int_ref file "require.ml" 147 5190 5221 "require.ml" 147 5190 5225
+)
+"require.ml" 152 5349 5419 "require.ml" 152 5349 5426
+type(
+  string list
+)
+ident(
+  int_ref libdirs "require.ml" 147 5190 5234 "require.ml" 147 5190 5241
+)
+"require.ml" 152 5349 5365 "require.ml" 152 5349 5426
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 153 5428 5445 "require.ml" 153 5428 5454
+type(
+  exn
+)
+"require.ml" 153 5428 5458 "require.ml" 153 5428 5467
+type(
+  Log.ctx ->
+  (string -> string -> string, Format.formatter, unit, string) format4 ->
+  string -> string -> string
+)
+ident(
+  ext_ref Log.fatal
+)
+"require.ml" 153 5428 5468 "require.ml" 153 5428 5477
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"require.ml" 153 5428 5478 "require.ml" 153 5428 5508
+type(
+  (string -> string -> string, Format.formatter, unit, string) format4
+)
+"require.ml" 154 5509 5523 "require.ml" 154 5509 5527
+type(
+  string
+)
+ident(
+  int_ref file "require.ml" 147 5190 5221 "require.ml" 147 5190 5225
+)
+"require.ml" 154 5509 5529 "require.ml" 154 5509 5543
+type(
+  (string -> string) -> string list -> string
+)
+ident(
+  ext_ref Utils.list_to_string
+)
+"require.ml" 154 5509 5544 "require.ml" 154 5509 5546
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.id
+)
+"require.ml" 154 5509 5547 "require.ml" 154 5509 5554
+type(
+  string list
+)
+ident(
+  int_ref libdirs "require.ml" 147 5190 5234 "require.ml" 147 5190 5241
+)
+"require.ml" 154 5509 5528 "require.ml" 154 5509 5555
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 153 5428 5458 "require.ml" 154 5509 5555
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 152 5349 5361 "require.ml" 154 5509 5555
+type(
+  string
+)
+"require.ml" 156 5569 5583 "require.ml" 156 5569 5584
+type(
+  string
+)
+"require.ml" 156 5569 5587 "require.ml" 156 5569 5617
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"require.ml" 156 5569 5618 "require.ml" 156 5569 5619
+type(
+  string
+)
+ident(
+  int_ref f "require.ml" 151 5330 5344 "require.ml" 151 5330 5345
+)
+"require.ml" 156 5569 5587 "require.ml" 156 5569 5619
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 157 5623 5638 "require.ml" 157 5623 5659
+type(
+  string -> bool
+)
+ident(
+  ext_ref File_loader.is_native
+)
+"require.ml" 157 5623 5660 "require.ml" 157 5623 5661
+type(
+  string
+)
+ident(
+  int_ref f "require.ml" 156 5569 5583 "require.ml" 156 5569 5584
+)
+"require.ml" 157 5623 5638 "require.ml" 157 5623 5661
+call(
+  stack
+)
+type(
+  bool
+)
+"require.ml" 158 5663 5680 "require.ml" 158 5663 5681
+type(
+  string
+)
+ident(
+  int_ref f "require.ml" 156 5569 5583 "require.ml" 156 5569 5584
+)
+"require.ml" 158 5663 5683 "require.ml" 158 5663 5684
+type(
+  string
+)
+ident(
+  int_ref f "require.ml" 156 5569 5583 "require.ml" 156 5569 5584
+)
+"require.ml" 158 5663 5680 "require.ml" 158 5663 5684
+type(
+  string * string
+)
+"require.ml" 159 5685 5706 "require.ml" 159 5685 5707
+type(
+  string
+)
+ident(
+  int_ref f "require.ml" 156 5569 5583 "require.ml" 156 5569 5584
+)
+"require.ml" 159 5685 5709 "require.ml" 159 5685 5721
+type(
+  (string, string) Hashtbl.t -> string -> string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"require.ml" 159 5685 5722 "require.ml" 159 5685 5729
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref tmp_tbl "require.ml" 147 5190 5206 "require.ml" 147 5190 5213
+)
+"require.ml" 159 5685 5731 "require.ml" 159 5685 5761
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"require.ml" 159 5685 5762 "require.ml" 159 5685 5763
+type(
+  string
+)
+ident(
+  int_ref f "require.ml" 156 5569 5583 "require.ml" 156 5569 5584
+)
+"require.ml" 159 5685 5730 "require.ml" 159 5685 5764
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 159 5685 5709 "require.ml" 159 5685 5764
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 159 5685 5706 "require.ml" 159 5685 5764
+type(
+  string * string
+)
+"require.ml" 160 5765 5782 "require.ml" 160 5765 5791
+type(
+  exn
+)
+"require.ml" 161 5796 5810 "require.ml" 161 5796 5819
+type(
+  Log.ctx ->
+  (string -> string -> string * string, Format.formatter, unit,
+   string * string)
+  format4 -> string -> string -> string * string
+)
+ident(
+  ext_ref Log.fatal
+)
+"require.ml" 161 5796 5821 "require.ml" 161 5796 5831
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"require.ml" 161 5796 5832 "require.ml" 161 5796 5835
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "require.ml" 147 5190 5242 "require.ml" 147 5190 5245
+)
+"require.ml" 161 5796 5820 "require.ml" 161 5796 5836
+call(
+  stack
+)
+type(
+  Log.ctx
+)
+"require.ml" 162 5837 5853 "require.ml" 162 5837 5884
+type(
+  (string -> string -> string * string, Format.formatter, unit,
+   string * string)
+  format4
+)
+"require.ml" 162 5837 5885 "require.ml" 162 5837 5889
+type(
+  string
+)
+ident(
+  int_ref file "require.ml" 147 5190 5221 "require.ml" 147 5190 5225
+)
+"require.ml" 162 5837 5890 "require.ml" 162 5837 5891
+type(
+  string
+)
+ident(
+  int_ref f "require.ml" 156 5569 5583 "require.ml" 156 5569 5584
+)
+"require.ml" 161 5796 5810 "require.ml" 162 5837 5891
+call(
+  tail
+)
+type(
+  string * string
+)
+"require.ml" 159 5685 5702 "require.ml" 162 5837 5891
+type(
+  string * string
+)
+"require.ml" 157 5623 5635 "require.ml" 162 5837 5891
+type(
+  string * string
+)
+"require.ml" 156 5569 5579 "require.ml" 162 5837 5891
+type(
+  string * string
+)
+"require.ml" 150 5314 5322 "require.ml" 163 5892 5903
+type(
+  string * string
+)
+"require.ml" 165 5915 5924 "require.ml" 165 5915 5927
+type(
+  'b
+)
+ident(
+  def exn "require.ml" 165 5915 5931 "require.ml" 165 5915 5939
+)
+"require.ml" 165 5915 5921 "require.ml" 165 5915 5927
+type(
+  'c
+)
+"require.ml" 165 5915 5931 "require.ml" 165 5915 5935
+type(
+  string
+)
+ident(
+  int_ref file "require.ml" 147 5190 5221 "require.ml" 147 5190 5225
+)
+"require.ml" 165 5915 5937 "require.ml" 165 5915 5939
+type(
+  string
+)
+"require.ml" 165 5915 5931 "require.ml" 165 5915 5939
+type(
+  string * string
+)
+"require.ml" 148 5249 5251 "require.ml" 165 5915 5939
+type(
+  string * string
+)
+"require.ml" 167 5986 5990 "require.ml" 167 5986 5998
+type(
+  Ast.expr -> Ast.pos
+)
+ident(
+  def last_pos "require.ml" 180 6366 6366 --
+)
+"require.ml" 167 5986 5999 "require.ml" 167 5986 6000
+type(
+  Ast.expr
+)
+ident(
+  def e "require.ml" 168 6004 6006 "require.ml" 174 6169 6205
+)
+"require.ml" 168 6004 6010 "require.ml" 168 6004 6013
+type(
+  Ast.pos ref
+)
+"require.ml" 168 6004 6016 "require.ml" 168 6004 6019
+type(
+  Ast.pos -> Ast.pos ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"require.ml" 168 6004 6021 "require.ml" 168 6004 6031
+type(
+  Ast.expr -> Ast.pos
+)
+ident(
+  ext_ref Ast.pos_of
+)
+"require.ml" 168 6004 6032 "require.ml" 168 6004 6033
+type(
+  Ast.expr
+)
+ident(
+  int_ref e "require.ml" 167 5986 5999 "require.ml" 167 5986 6000
+)
+"require.ml" 168 6004 6020 "require.ml" 168 6004 6034
+call(
+  stack
+)
+type(
+  Ast.pos
+)
+"require.ml" 168 6004 6016 "require.ml" 168 6004 6034
+type(
+  Ast.pos ref
+)
+"require.ml" 169 6038 6044 "require.ml" 169 6038 6045
+type(
+  Ast.expr -> Ast.expr
+)
+"require.ml" 169 6038 6046 "require.ml" 169 6038 6047
+type(
+  Ast.expr
+)
+ident(
+  def e "require.ml" 170 6051 6055 "require.ml" 173 6161 6168
+)
+"require.ml" 170 6051 6059 "require.ml" 170 6051 6063
+type(
+  Ast.pos
+)
+"require.ml" 170 6051 6066 "require.ml" 170 6051 6076
+type(
+  Ast.expr -> Ast.pos
+)
+ident(
+  ext_ref Ast.pos_of
+)
+"require.ml" 170 6051 6077 "require.ml" 170 6051 6078
+type(
+  Ast.expr
+)
+ident(
+  int_ref e "require.ml" 169 6038 6046 "require.ml" 169 6038 6047
+)
+"require.ml" 170 6051 6066 "require.ml" 170 6051 6078
+call(
+  stack
+)
+type(
+  Ast.pos
+)
+"require.ml" 171 6082 6091 "require.ml" 171 6082 6095
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos' "require.ml" 170 6051 6059 "require.ml" 170 6051 6063
+)
+"require.ml" 171 6082 6091 "require.ml" 171 6082 6111
+type(
+  int
+)
+"require.ml" 171 6082 6112 "require.ml" 171 6082 6113
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"require.ml" 171 6082 6115 "require.ml" 171 6082 6116
+type(
+  Ast.pos ref -> Ast.pos
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"require.ml" 171 6082 6116 "require.ml" 171 6082 6119
+type(
+  Ast.pos ref
+)
+ident(
+  int_ref pos "require.ml" 168 6004 6010 "require.ml" 168 6004 6013
+)
+"require.ml" 171 6082 6114 "require.ml" 171 6082 6120
+type(
+  Ast.pos
+)
+"require.ml" 171 6082 6114 "require.ml" 171 6082 6136
+type(
+  int
+)
+"require.ml" 171 6082 6091 "require.ml" 171 6082 6136
+type(
+  bool
+)
+"require.ml" 172 6137 6148 "require.ml" 172 6137 6151
+type(
+  Ast.pos ref
+)
+ident(
+  int_ref pos "require.ml" 168 6004 6010 "require.ml" 168 6004 6013
+)
+"require.ml" 172 6137 6152 "require.ml" 172 6137 6154
+type(
+  Ast.pos ref -> Ast.pos -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"require.ml" 172 6137 6155 "require.ml" 172 6137 6159
+type(
+  Ast.pos
+)
+ident(
+  int_ref pos' "require.ml" 170 6051 6059 "require.ml" 170 6051 6063
+)
+"require.ml" 172 6137 6148 "require.ml" 172 6137 6159
+type(
+  unit
+)
+"require.ml" 171 6082 6088 "require.ml" 172 6137 6159
+type(
+  unit
+)
+"require.ml" 173 6161 6167 "require.ml" 173 6161 6168
+type(
+  Ast.expr
+)
+ident(
+  int_ref e "require.ml" 169 6038 6046 "require.ml" 169 6038 6047
+)
+"require.ml" 171 6082 6088 "require.ml" 173 6161 6168
+type(
+  Ast.expr
+)
+"require.ml" 170 6051 6055 "require.ml" 173 6161 6168
+type(
+  Ast.expr
+)
+"require.ml" 174 6169 6174 "require.ml" 174 6169 6180
+type(
+  Ast.expr list -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"require.ml" 174 6169 6181 "require.ml" 174 6169 6192
+type(
+  (Ast.expr -> Ast.expr) -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref Ast.mod_ast
+)
+"require.ml" 174 6169 6193 "require.ml" 174 6169 6194
+type(
+  Ast.expr -> Ast.expr
+)
+ident(
+  int_ref f "require.ml" 169 6038 6044 "require.ml" 169 6038 6045
+)
+"require.ml" 174 6169 6196 "require.ml" 174 6169 6197
+type(
+  Ast.expr
+)
+ident(
+  int_ref e "require.ml" 167 5986 5999 "require.ml" 167 5986 6000
+)
+"require.ml" 174 6169 6195 "require.ml" 174 6169 6198
+type(
+  Ast.expr list
+)
+"require.ml" 174 6169 6180 "require.ml" 174 6169 6199
+call(
+  stack
+)
+type(
+  Ast.expr list
+)
+"require.ml" 174 6169 6174 "require.ml" 174 6169 6199
+type(
+  unit
+)
+"require.ml" 174 6169 6201 "require.ml" 174 6169 6202
+type(
+  Ast.pos ref -> Ast.pos
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"require.ml" 174 6169 6202 "require.ml" 174 6169 6205
+type(
+  Ast.pos ref
+)
+ident(
+  int_ref pos "require.ml" 168 6004 6010 "require.ml" 168 6004 6013
+)
+"require.ml" 174 6169 6201 "require.ml" 174 6169 6205
+type(
+  Ast.pos
+)
+"require.ml" 174 6169 6174 "require.ml" 174 6169 6205
+type(
+  Ast.pos
+)
+"require.ml" 169 6038 6040 "require.ml" 174 6169 6205
+type(
+  Ast.pos
+)
+"require.ml" 168 6004 6006 "require.ml" 174 6169 6205
+type(
+  Ast.pos
+)
+"require.ml" 180 6366 6374 "require.ml" 180 6366 6389
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t -> t -> Ast.expr -> Ast.expr
+)
+ident(
+  def instrument_expr "require.ml" 180 6366 6366 --
+)
+"require.ml" 180 6366 6390 "require.ml" 180 6366 6397
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  def tmp_tbl "require.ml" 180 6366 6398 "require.ml" 239 9170 9185
+)
+"require.ml" 180 6366 6399 "require.ml" 180 6366 6406
+type(
+  t
+)
+ident(
+  def req_map "require.ml" 180 6366 6410 "require.ml" 239 9170 9185
+)
+"require.ml" 180 6366 6410 "require.ml" 180 6366 6414
+type(
+  Ast.expr
+)
+ident(
+  def expr "require.ml" 182 6468 6470 "require.ml" 239 9170 9185
+)
+"require.ml" 182 6468 6478 "require.ml" 182 6468 6493
+type(
+  [< `Load of 'a & Ast.expr list & 'b & 'c | `Require > `Require ] ->
+  Ast.expr -> Log.pos -> Ast.expr
+)
+"require.ml" 182 6468 6494 "require.ml" 182 6468 6505
+type(
+  [< `Load of 'a & Ast.expr list & 'b & 'c | `Require > `Require ] as 'd
+)
+ident(
+  def req_or_load "require.ml" 182 6468 6506 "require.ml" 224 8394 8455
+)
+"require.ml" 182 6468 6506 "require.ml" 182 6468 6509
+type(
+  Ast.expr
+)
+ident(
+  def arg "require.ml" 182 6468 6510 "require.ml" 224 8394 8455
+)
+"require.ml" 182 6468 6510 "require.ml" 182 6468 6513
+type(
+  Log.pos
+)
+ident(
+  def pos "require.ml" 183 6516 6520 "require.ml" 224 8394 8455
+)
+"require.ml" 183 6516 6524 "require.ml" 183 6516 6532
+type(
+  string
+)
+"require.ml" 183 6516 6535 "require.ml" 183 6516 6565
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"require.ml" 183 6516 6566 "require.ml" 183 6516 6569
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "require.ml" 182 6468 6510 "require.ml" 182 6468 6513
+)
+"require.ml" 183 6516 6566 "require.ml" 183 6516 6586
+type(
+  string
+)
+"require.ml" 183 6516 6535 "require.ml" 183 6516 6586
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 184 6590 6598 "require.ml" 184 6590 6604
+type(
+  int
+)
+"require.ml" 184 6590 6607 "require.ml" 184 6590 6610
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "require.ml" 182 6468 6510 "require.ml" 182 6468 6513
+)
+"require.ml" 184 6590 6607 "require.ml" 184 6590 6626
+type(
+  int
+)
+"require.ml" 185 6630 6638 "require.ml" 185 6630 6643
+type(
+  string
+)
+"require.ml" 185 6630 6652 "require.ml" 185 6630 6663
+type(
+  'd
+)
+ident(
+  int_ref req_or_load "require.ml" 182 6468 6494 "require.ml" 182 6468 6505
+)
+"require.ml" 185 6630 6669 "require.ml" 185 6630 6677
+type(
+  'd
+)
+"require.ml" 185 6630 6681 "require.ml" 185 6630 6690
+type(
+  string
+)
+"require.ml" 185 6630 6699 "require.ml" 185 6630 6700
+type(
+  'c
+)
+"require.ml" 185 6630 6693 "require.ml" 185 6630 6700
+type(
+  'd
+)
+"require.ml" 185 6630 6704 "require.ml" 185 6630 6710
+type(
+  string
+)
+"require.ml" 185 6630 6646 "require.ml" 185 6630 6710
+type(
+  string
+)
+"require.ml" 186 6714 6722 "require.ml" 186 6714 6727
+type(
+  Yaml.YList(CoDomain).t
+)
+"require.ml" 187 6731 6741 "require.ml" 187 6731 6754
+type(
+  Data.Map.key -> Yaml.YList(CoDomain).t Data.Map.t -> Yaml.YList(CoDomain).t
+)
+ident(
+  ext_ref Data.Map.find
+)
+"require.ml" 187 6731 6756 "require.ml" 187 6731 6764
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref filename "require.ml" 183 6516 6524 "require.ml" 183 6516 6532
+)
+"require.ml" 187 6731 6766 "require.ml" 187 6731 6772
+type(
+  Yaml.YInt.t
+)
+ident(
+  int_ref lineno "require.ml" 184 6590 6598 "require.ml" 184 6590 6604
+)
+"require.ml" 187 6731 6773 "require.ml" 187 6731 6778
+type(
+  Domain.t
+)
+ident(
+  int_ref mname "require.ml" 185 6630 6638 "require.ml" 185 6630 6643
+)
+"require.ml" 187 6731 6755 "require.ml" 187 6731 6779
+type(
+  Data.Map.key
+)
+"require.ml" 187 6731 6780 "require.ml" 187 6731 6787
+type(
+  t
+)
+ident(
+  int_ref req_map "require.ml" 180 6366 6399 "require.ml" 180 6366 6406
+)
+"require.ml" 187 6731 6741 "require.ml" 187 6731 6787
+call(
+  stack
+)
+type(
+  Yaml.YList(CoDomain).t
+)
+"require.ml" 188 6788 6799 "require.ml" 188 6788 6808
+type(
+  exn
+)
+"require.ml" 189 6814 6822 "require.ml" 189 6814 6830
+type(
+  ?ctx:Log.ctx ->
+  (string -> int -> unit, Format.formatter, unit, unit) format4 ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Log.warn
+)
+"require.ml" 189 6814 6837 "require.ml" 189 6814 6847
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"require.ml" 189 6814 6848 "require.ml" 189 6814 6851
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "require.ml" 182 6468 6510 "require.ml" 182 6468 6513
+)
+"require.ml" 189 6814 6836 "require.ml" 189 6814 6852
+call(
+  stack
+)
+type(
+  Log.ctx
+)
+"require.ml" 189 6814 6853 "require.ml" 189 6814 6878
+type(
+  (string -> int -> unit, Format.formatter, unit, unit) format4
+)
+"require.ml" 190 6880 6890 "require.ml" 190 6880 6898
+type(
+  string
+)
+ident(
+  int_ref filename "require.ml" 183 6516 6524 "require.ml" 183 6516 6532
+)
+"require.ml" 190 6880 6899 "require.ml" 190 6880 6905
+type(
+  int
+)
+ident(
+  int_ref lineno "require.ml" 184 6590 6598 "require.ml" 184 6590 6604
+)
+"require.ml" 189 6814 6822 "require.ml" 190 6880 6905
+call(
+  stack
+)
+type(
+  unit
+)
+"require.ml" 190 6880 6907 "require.ml" 190 6880 6909
+type(
+  Yaml.YList(CoDomain).t
+)
+"require.ml" 188 6788 6812 "require.ml" 190 6880 6910
+type(
+  Yaml.YList(CoDomain).t
+)
+"require.ml" 187 6731 6737 "require.ml" 190 6880 6910
+type(
+  Yaml.YList(CoDomain).t
+)
+"require.ml" 192 6919 6928 "require.ml" 192 6919 6933
+type(
+  Yaml.YList(CoDomain).t
+)
+ident(
+  int_ref finfo "require.ml" 186 6714 6722 "require.ml" 186 6714 6727
+)
+"require.ml" 192 6919 6934 "require.ml" 192 6919 6935
+type(
+  Yaml.YList(CoDomain).t -> Yaml.YList(CoDomain).t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"require.ml" 192 6919 6936 "require.ml" 192 6919 6938
+type(
+  Yaml.YList(CoDomain).t
+)
+"require.ml" 192 6919 6928 "require.ml" 192 6919 6938
+type(
+  bool
+)
+"require.ml" 192 6919 6944 "require.ml" 196 7123 7132
+type(
+  unit
+)
+"require.ml" 192 6919 6925 "require.ml" 196 7123 7132
+type(
+  unit
+)
+"require.ml" 204 7603 7613 "require.ml" 204 7603 7624
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 204 7603 7627 "require.ml" 204 7603 7641
+type(
+  ((Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+    Yaml.YList(Yaml.YString).t)
+   list *
+   (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+    Yaml.YList(Yaml.YString).t)
+   list ->
+   CoDomain.t ->
+   (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+    Yaml.YList(Yaml.YString).t)
+   list *
+   (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+    Yaml.YList(Yaml.YString).t)
+   list) ->
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list ->
+  Yaml.YList(CoDomain).t ->
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  ext_ref List.fold_left
+)
+"require.ml" 205 7642 7656 "require.ml" 205 7642 7657
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  def a "require.ml" 205 7642 7661 "require.ml" 208 7775 7807
+)
+"require.ml" 205 7642 7658 "require.ml" 205 7642 7659
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  def b "require.ml" 205 7642 7661 "require.ml" 208 7775 7807
+)
+"require.ml" 205 7642 7655 "require.ml" 205 7642 7660
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 205 7642 7663 "require.ml" 205 7642 7669
+type(
+  Yaml.YBool.t
+)
+ident(
+  def is_req "require.ml" 206 7708 7719 "require.ml" 208 7775 7807
+)
+"require.ml" 205 7642 7670 "require.ml" 205 7642 7674
+type(
+  Yaml.YString.t
+)
+ident(
+  def file "require.ml" 206 7708 7719 "require.ml" 208 7775 7807
+)
+"require.ml" 205 7642 7675 "require.ml" 205 7642 7686
+type(
+  Yaml.YOr(Yaml.YBool)(Yaml.YString).t
+)
+ident(
+  def really_load "require.ml" 206 7708 7719 "require.ml" 208 7775 7807
+)
+"require.ml" 205 7642 7687 "require.ml" 205 7642 7694
+type(
+  Yaml.YList(Yaml.YString).t
+)
+ident(
+  def libdirs "require.ml" 206 7708 7719 "require.ml" 208 7775 7807
+)
+"require.ml" 205 7642 7662 "require.ml" 205 7642 7695
+type(
+  CoDomain.t
+)
+"require.ml" 205 7642 7661 "require.ml" 205 7642 7703
+type(
+  CoDomain.t
+)
+ident(
+  def tup "require.ml" 206 7708 7719 "require.ml" 208 7775 7807
+)
+"require.ml" 206 7708 7725 "require.ml" 206 7708 7736
+type(
+  Yaml.YOr(Yaml.YBool)(Yaml.YString).t
+)
+ident(
+  int_ref really_load "require.ml" 205 7642 7675 "require.ml" 205 7642 7686
+)
+"require.ml" 207 7742 7760 "require.ml" 207 7742 7761
+type(
+  Yaml.YBool.t
+)
+"require.ml" 207 7742 7757 "require.ml" 207 7742 7761
+type(
+  Yaml.YOr(Yaml.YBool)(Yaml.YString).t
+)
+"require.ml" 207 7742 7765 "require.ml" 207 7742 7768
+type(
+  Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+  Yaml.YList(Yaml.YString).t
+)
+ident(
+  int_ref tup "require.ml" 205 7642 7661 "require.ml" 205 7642 7703
+)
+"require.ml" 207 7742 7770 "require.ml" 207 7742 7771
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref a "require.ml" 205 7642 7656 "require.ml" 205 7642 7657
+)
+"require.ml" 207 7742 7765 "require.ml" 207 7742 7771
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 207 7742 7773 "require.ml" 207 7742 7774
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref b "require.ml" 205 7642 7658 "require.ml" 205 7642 7659
+)
+"require.ml" 207 7742 7765 "require.ml" 207 7742 7774
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 208 7775 7793 "require.ml" 208 7775 7794
+type(
+  Yaml.YString.t
+)
+"require.ml" 208 7775 7790 "require.ml" 208 7775 7794
+type(
+  Yaml.YOr(Yaml.YBool)(Yaml.YString).t
+)
+"require.ml" 208 7775 7798 "require.ml" 208 7775 7799
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref a "require.ml" 205 7642 7656 "require.ml" 205 7642 7657
+)
+"require.ml" 208 7775 7801 "require.ml" 208 7775 7804
+type(
+  Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+  Yaml.YList(Yaml.YString).t
+)
+ident(
+  int_ref tup "require.ml" 205 7642 7661 "require.ml" 205 7642 7703
+)
+"require.ml" 208 7775 7806 "require.ml" 208 7775 7807
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref b "require.ml" 205 7642 7658 "require.ml" 205 7642 7659
+)
+"require.ml" 208 7775 7801 "require.ml" 208 7775 7807
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 208 7775 7798 "require.ml" 208 7775 7807
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 206 7708 7719 "require.ml" 208 7775 7807
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 205 7642 7650 "require.ml" 209 7808 7817
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list ->
+  CoDomain.t ->
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 209 7808 7819 "require.ml" 209 7808 7821
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 209 7808 7822 "require.ml" 209 7808 7824
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 209 7808 7818 "require.ml" 209 7808 7825
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 209 7808 7826 "require.ml" 209 7808 7831
+type(
+  Yaml.YList(CoDomain).t
+)
+ident(
+  int_ref finfo "require.ml" 186 6714 6722 "require.ml" 186 6714 6727
+)
+"require.ml" 204 7603 7627 "require.ml" 209 7808 7831
+call(
+  stack
+)
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 211 7842 7852 "require.ml" 211 7842 7857
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 211 7842 7866 "require.ml" 211 7842 7877
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref split_finfo "require.ml" 204 7603 7613 "require.ml" 204 7603 7624
+)
+"require.ml" 212 7883 7893 "require.ml" 212 7883 7895
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 212 7883 7897 "require.ml" 212 7883 7899
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 212 7883 7893 "require.ml" 212 7883 7899
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 212 7883 7903 "require.ml" 212 7883 7905
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 213 7906 7916 "require.ml" 213 7906 7918
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 213 7906 7920 "require.ml" 213 7906 7921
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  def x "require.ml" 213 7906 7925 "require.ml" 213 7906 7926
+)
+"require.ml" 213 7906 7916 "require.ml" 213 7906 7921
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 213 7906 7925 "require.ml" 213 7906 7926
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref x "require.ml" 213 7906 7920 "require.ml" 213 7906 7921
+)
+"require.ml" 214 7927 7937 "require.ml" 214 7927 7938
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  def x "require.ml" 214 7927 7946 "require.ml" 214 7927 7947
+)
+"require.ml" 214 7927 7940 "require.ml" 214 7927 7942
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 214 7927 7937 "require.ml" 214 7927 7942
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 214 7927 7946 "require.ml" 214 7927 7947
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref x "require.ml" 214 7927 7937 "require.ml" 214 7927 7938
+)
+"require.ml" 215 7948 7958 "require.ml" 215 7948 7962
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  def succ "require.ml" 215 7948 7970 "require.ml" 215 7948 7974
+)
+"require.ml" 215 7948 7963 "require.ml" 215 7948 7966
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  def exn "require.ml" 215 7948 7970 "require.ml" 215 7948 7974
+)
+"require.ml" 215 7948 7958 "require.ml" 215 7948 7966
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list *
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 215 7948 7970 "require.ml" 215 7948 7974
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref succ "require.ml" 215 7948 7958 "require.ml" 215 7948 7962
+)
+"require.ml" 211 7842 7860 "require.ml" 215 7948 7974
+type(
+  (Yaml.YBool.t * Yaml.YString.t * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+"require.ml" 217 8025 8035 "require.ml" 217 8025 8043
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+"require.ml" 217 8025 8046 "require.ml" 217 8025 8060
+type(
+  (Utils.StrSet.t Utils.StrMap.t ->
+   Yaml.YBool.t * Utils.StrMap.key * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t -> Utils.StrSet.t Utils.StrMap.t) ->
+  Utils.StrSet.t Utils.StrMap.t ->
+  (Yaml.YBool.t * Utils.StrMap.key * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list -> Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"require.ml" 218 8062 8075 "require.ml" 218 8062 8078
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  def acc "require.ml" 218 8062 8079 "require.ml" 222 8328 8364
+)
+"require.ml" 218 8062 8080 "require.ml" 218 8062 8086
+type(
+  Yaml.YBool.t
+)
+ident(
+  def is_req "require.ml" 219 8117 8128 "require.ml" 222 8328 8364
+)
+"require.ml" 218 8062 8087 "require.ml" 218 8062 8091
+type(
+  Utils.StrMap.key
+)
+ident(
+  def file "require.ml" 219 8117 8128 "require.ml" 222 8328 8364
+)
+"require.ml" 218 8062 8092 "require.ml" 218 8062 8103
+type(
+  Yaml.YOr(Yaml.YBool)(Yaml.YString).t
+)
+ident(
+  def really_load "require.ml" 219 8117 8128 "require.ml" 222 8328 8364
+)
+"require.ml" 218 8062 8104 "require.ml" 218 8062 8111
+type(
+  Yaml.YList(Yaml.YString).t
+)
+ident(
+  def libdirs "require.ml" 219 8117 8128 "require.ml" 222 8328 8364
+)
+"require.ml" 218 8062 8079 "require.ml" 218 8062 8112
+type(
+  Yaml.YBool.t * Utils.StrMap.key * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+  Yaml.YList(Yaml.YString).t
+)
+"require.ml" 219 8117 8132 "require.ml" 219 8117 8136
+type(
+  Utils.StrMap.key
+)
+"require.ml" 219 8117 8138 "require.ml" 219 8117 8142
+type(
+  Utils.StrSet.elt
+)
+"require.ml" 219 8117 8132 "require.ml" 219 8117 8142
+type(
+  Utils.StrMap.key * Utils.StrSet.elt
+)
+"require.ml" 219 8117 8145 "require.ml" 219 8117 8156
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t ->
+  Yaml.YBool.t ->
+  Utils.StrMap.key ->
+  Yaml.YOr(Yaml.YBool)(Yaml.YString).t ->
+  Yaml.YList(Yaml.YString).t ->
+  Log.pos -> Utils.StrMap.key * Utils.StrSet.elt
+)
+ident(
+  int_ref lookup_file "require.ml" 147 5190 5194 "require.ml" 147 5190 5205
+)
+"require.ml" 219 8117 8157 "require.ml" 219 8117 8164
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  int_ref tmp_tbl "require.ml" 180 6366 6390 "require.ml" 180 6366 6397
+)
+"require.ml" 219 8117 8165 "require.ml" 219 8117 8171
+type(
+  Yaml.YBool.t
+)
+ident(
+  int_ref is_req "require.ml" 218 8062 8080 "require.ml" 218 8062 8086
+)
+"require.ml" 219 8117 8172 "require.ml" 219 8117 8176
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref file "require.ml" 218 8062 8087 "require.ml" 218 8062 8091
+)
+"require.ml" 219 8117 8177 "require.ml" 219 8117 8188
+type(
+  Yaml.YOr(Yaml.YBool)(Yaml.YString).t
+)
+ident(
+  int_ref really_load "require.ml" 218 8062 8092 "require.ml" 218 8062 8103
+)
+"require.ml" 219 8117 8189 "require.ml" 219 8117 8196
+type(
+  Yaml.YList(Yaml.YString).t
+)
+ident(
+  int_ref libdirs "require.ml" 218 8062 8104 "require.ml" 218 8062 8111
+)
+"require.ml" 219 8117 8197 "require.ml" 219 8117 8200
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "require.ml" 182 6468 6510 "require.ml" 182 6468 6513
+)
+"require.ml" 219 8117 8145 "require.ml" 219 8117 8200
+call(
+  stack
+)
+type(
+  Utils.StrMap.key * Utils.StrSet.elt
+)
+"require.ml" 220 8204 8219 "require.ml" 220 8204 8222
+type(
+  Utils.StrSet.t
+)
+"require.ml" 220 8204 8229 "require.ml" 220 8204 8240
+type(
+  Utils.StrMap.key -> Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"require.ml" 220 8204 8241 "require.ml" 220 8204 8245
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref file "require.ml" 218 8062 8087 "require.ml" 218 8062 8091
+)
+"require.ml" 220 8204 8246 "require.ml" 220 8204 8249
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  int_ref acc "require.ml" 218 8062 8075 "require.ml" 218 8062 8078
+)
+"require.ml" 220 8204 8229 "require.ml" 220 8204 8249
+call(
+  stack
+)
+type(
+  Utils.StrSet.t
+)
+"require.ml" 220 8204 8255 "require.ml" 220 8204 8264
+type(
+  exn
+)
+"require.ml" 220 8204 8268 "require.ml" 220 8204 8280
+type(
+  Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.empty
+)
+"require.ml" 220 8204 8225 "require.ml" 220 8204 8280
+type(
+  Utils.StrSet.t
+)
+"require.ml" 221 8284 8299 "require.ml" 221 8284 8302
+type(
+  Utils.StrSet.t
+)
+"require.ml" 221 8284 8305 "require.ml" 221 8284 8315
+type(
+  Utils.StrSet.elt -> Utils.StrSet.t -> Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.add
+)
+"require.ml" 221 8284 8316 "require.ml" 221 8284 8320
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref newv "require.ml" 219 8117 8138 "require.ml" 219 8117 8142
+)
+"require.ml" 221 8284 8321 "require.ml" 221 8284 8324
+type(
+  Utils.StrSet.t
+)
+ident(
+  int_ref set "require.ml" 220 8204 8219 "require.ml" 220 8204 8222
+)
+"require.ml" 221 8284 8305 "require.ml" 221 8284 8324
+call(
+  stack
+)
+type(
+  Utils.StrSet.t
+)
+"require.ml" 222 8328 8341 "require.ml" 222 8328 8351
+type(
+  Utils.StrMap.key ->
+  Utils.StrSet.t ->
+  Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"require.ml" 222 8328 8352 "require.ml" 222 8328 8356
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref file "require.ml" 218 8062 8087 "require.ml" 218 8062 8091
+)
+"require.ml" 222 8328 8357 "require.ml" 222 8328 8360
+type(
+  Utils.StrSet.t
+)
+ident(
+  int_ref set "require.ml" 221 8284 8299 "require.ml" 221 8284 8302
+)
+"require.ml" 222 8328 8361 "require.ml" 222 8328 8364
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  int_ref acc "require.ml" 218 8062 8075 "require.ml" 218 8062 8078
+)
+"require.ml" 222 8328 8341 "require.ml" 222 8328 8364
+call(
+  tail
+)
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+"require.ml" 221 8284 8295 "require.ml" 222 8328 8364
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+"require.ml" 220 8204 8215 "require.ml" 222 8328 8364
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+"require.ml" 219 8117 8128 "require.ml" 222 8328 8364
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+"require.ml" 218 8062 8070 "require.ml" 223 8365 8374
+type(
+  Utils.StrSet.t Utils.StrMap.t ->
+  Yaml.YBool.t * Utils.StrMap.key * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+  Yaml.YList(Yaml.YString).t -> Utils.StrSet.t Utils.StrMap.t
+)
+"require.ml" 223 8365 8375 "require.ml" 223 8365 8387
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.empty
+)
+"require.ml" 223 8365 8388 "require.ml" 223 8365 8393
+type(
+  (Yaml.YBool.t * Utils.StrMap.key * Yaml.YOr(Yaml.YBool)(Yaml.YString).t *
+   Yaml.YList(Yaml.YString).t)
+  list
+)
+ident(
+  int_ref finfo "require.ml" 211 7842 7852 "require.ml" 211 7842 7857
+)
+"require.ml" 217 8025 8046 "require.ml" 223 8365 8393
+call(
+  stack
+)
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+"require.ml" 224 8394 8403 "require.ml" 224 8394 8421
+type(
+  'd ->
+  Ast.expr ->
+  Utils.StrSet.t Utils.StrMap.t -> Ast.expr -> Ast.pos -> Ast.expr
+)
+ident(
+  int_ref gen_require_switch "require.ml" 105 3494 3498 "require.ml" 105 3494 3516
+)
+"require.ml" 224 8394 8422 "require.ml" 224 8394 8433
+type(
+  'd
+)
+ident(
+  int_ref req_or_load "require.ml" 182 6468 6494 "require.ml" 182 6468 6505
+)
+"require.ml" 224 8394 8434 "require.ml" 224 8394 8437
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 182 6468 6506 "require.ml" 182 6468 6509
+)
+"require.ml" 224 8394 8438 "require.ml" 224 8394 8446
+type(
+  Utils.StrSet.t Utils.StrMap.t
+)
+ident(
+  int_ref file_map "require.ml" 217 8025 8035 "require.ml" 217 8025 8043
+)
+"require.ml" 224 8394 8447 "require.ml" 224 8394 8451
+type(
+  Ast.expr
+)
+ident(
+  int_ref expr "require.ml" 180 6366 6410 "require.ml" 180 6366 6414
+)
+"require.ml" 224 8394 8452 "require.ml" 224 8394 8455
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "require.ml" 182 6468 6510 "require.ml" 182 6468 6513
+)
+"require.ml" 224 8394 8403 "require.ml" 224 8394 8455
+call(
+  tail
+)
+type(
+  Ast.expr
+)
+"require.ml" 217 8025 8031 "require.ml" 224 8394 8455
+type(
+  Ast.expr
+)
+"require.ml" 211 7842 7848 "require.ml" 224 8394 8455
+type(
+  Ast.expr
+)
+"require.ml" 204 7603 7609 "require.ml" 224 8394 8455
+type(
+  Ast.expr
+)
+"require.ml" 192 6919 6925 "require.ml" 224 8394 8455
+type(
+  Ast.expr
+)
+"require.ml" 186 6714 6718 "require.ml" 224 8394 8455
+type(
+  Ast.expr
+)
+"require.ml" 185 6630 6634 "require.ml" 224 8394 8455
+type(
+  Ast.expr
+)
+"require.ml" 184 6590 6594 "require.ml" 224 8394 8455
+type(
+  Ast.expr
+)
+"require.ml" 183 6516 6520 "require.ml" 224 8394 8455
+type(
+  Ast.expr
+)
+"require.ml" 225 8456 8467 "require.ml" 225 8456 8471
+type(
+  Ast.expr
+)
+ident(
+  int_ref expr "require.ml" 180 6366 6410 "require.ml" 180 6366 6414
+)
+"require.ml" 226 8477 8517 "require.ml" 226 8477 8529
+type(
+  Ast.id_kind
+)
+"require.ml" 226 8477 8530 "require.ml" 226 8477 8538
+type(
+  string
+)
+"require.ml" 226 8477 8539 "require.ml" 226 8477 8540
+type(
+  Ast.pos
+)
+"require.ml" 226 8477 8504 "require.ml" 226 8477 8541
+type(
+  Ast.expr
+)
+"require.ml" 227 8543 8570 "require.ml" 227 8543 8576
+type(
+  Ast.binary_op
+)
+"require.ml" 228 8578 8618 "require.ml" 228 8578 8630
+type(
+  Ast.id_kind
+)
+"require.ml" 228 8578 8632 "require.ml" 228 8578 8641
+type(
+  string
+)
+"require.ml" 228 8578 8643 "require.ml" 228 8578 8644
+type(
+  Ast.pos
+)
+"require.ml" 228 8578 8605 "require.ml" 228 8578 8645
+type(
+  Ast.expr
+)
+"require.ml" 228 8578 8646 "require.ml" 228 8578 8647
+type(
+  Ast.pos
+)
+"require.ml" 226 8477 8496 "require.ml" 228 8578 8648
+type(
+  Ast.expr
+)
+"require.ml" 229 8650 8670 "require.ml" 229 8650 8673
+type(
+  Ast.expr
+)
+ident(
+  def arg "require.ml" 231 8765 8773 "require.ml" 231 8765 8817
+)
+"require.ml" 229 8650 8669 "require.ml" 229 8650 8674
+type(
+  Ast.expr list
+)
+"require.ml" 229 8650 8676 "require.ml" 229 8650 8680
+type(
+  Ast.expr option
+)
+"require.ml" 229 8650 8682 "require.ml" 229 8650 8683
+type(
+  Ast.pos
+)
+"require.ml" 226 8477 8483 "require.ml" 229 8650 8684
+type(
+  Ast.expr
+)
+"require.ml" 230 8685 8717 "require.ml" 230 8685 8729
+type(
+  Ast.id_kind
+)
+"require.ml" 230 8685 8731 "require.ml" 230 8685 8740
+type(
+  string
+)
+"require.ml" 230 8685 8742 "require.ml" 230 8685 8743
+type(
+  Ast.pos
+)
+"require.ml" 230 8685 8704 "require.ml" 230 8685 8744
+type(
+  Ast.expr
+)
+"require.ml" 230 8685 8747 "require.ml" 230 8685 8750
+type(
+  Ast.expr
+)
+ident(
+  def arg "require.ml" 231 8765 8773 "require.ml" 231 8765 8817
+)
+"require.ml" 230 8685 8746 "require.ml" 230 8685 8751
+type(
+  Ast.expr list
+)
+"require.ml" 230 8685 8753 "require.ml" 230 8685 8757
+type(
+  Ast.expr option
+)
+"require.ml" 230 8685 8759 "require.ml" 230 8685 8760
+type(
+  Ast.pos
+)
+"require.ml" 230 8685 8691 "require.ml" 230 8685 8761
+type(
+  Ast.expr
+)
+"require.ml" 226 8477 8483 "require.ml" 230 8685 8761
+type(
+  Ast.expr
+)
+"require.ml" 231 8765 8773 "require.ml" 231 8765 8788
+type(
+  _[< `Load of '_e & Ast.expr list & '_f & '_g | `Require > `Require ] ->
+  Ast.expr -> Log.pos -> Ast.expr
+)
+ident(
+  int_ref replace_require "require.ml" 182 6468 6478 "require.ml" 182 6468 6493
+)
+"require.ml" 231 8765 8789 "require.ml" 231 8765 8797
+type(
+  _[< `Load of '_e & Ast.expr list & '_f & '_g | `Require > `Require ] as 'h
+)
+"require.ml" 231 8765 8798 "require.ml" 231 8765 8801
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 229 8650 8670 "require.ml" 229 8650 8673
+)
+"require.ml" 231 8765 8803 "require.ml" 231 8765 8811
+type(
+  Ast.expr -> Ast.pos
+)
+ident(
+  int_ref last_pos "require.ml" 167 5986 5990 "require.ml" 167 5986 5998
+)
+"require.ml" 231 8765 8812 "require.ml" 231 8765 8816
+type(
+  Ast.expr
+)
+ident(
+  int_ref expr "require.ml" 180 6366 6410 "require.ml" 180 6366 6414
+)
+"require.ml" 231 8765 8802 "require.ml" 231 8765 8817
+call(
+  stack
+)
+type(
+  Ast.pos
+)
+"require.ml" 231 8765 8773 "require.ml" 231 8765 8817
+call(
+  tail
+)
+type(
+  Ast.expr
+)
+"require.ml" 233 8819 8859 "require.ml" 233 8819 8871
+type(
+  Ast.id_kind
+)
+"require.ml" 233 8819 8872 "require.ml" 233 8819 8880
+type(
+  string
+)
+"require.ml" 233 8819 8881 "require.ml" 233 8819 8882
+type(
+  Ast.pos
+)
+"require.ml" 233 8819 8846 "require.ml" 233 8819 8883
+type(
+  Ast.expr
+)
+"require.ml" 234 8885 8912 "require.ml" 234 8885 8918
+type(
+  Ast.binary_op
+)
+"require.ml" 235 8920 8960 "require.ml" 235 8920 8972
+type(
+  Ast.id_kind
+)
+"require.ml" 235 8920 8974 "require.ml" 235 8920 8980
+type(
+  string
+)
+"require.ml" 235 8920 8982 "require.ml" 235 8920 8983
+type(
+  Ast.pos
+)
+"require.ml" 235 8920 8947 "require.ml" 235 8920 8984
+type(
+  Ast.expr
+)
+"require.ml" 235 8920 8985 "require.ml" 235 8920 8986
+type(
+  Ast.pos
+)
+"require.ml" 233 8819 8838 "require.ml" 235 8920 8987
+type(
+  Ast.expr
+)
+"require.ml" 236 8989 9008 "require.ml" 236 8989 9011
+type(
+  Ast.expr
+)
+ident(
+  def arg "require.ml" 238 9113 9121 "require.ml" 238 9113 9169
+)
+"require.ml" 236 8989 9013 "require.ml" 236 8989 9017
+type(
+  Ast.expr list
+)
+ident(
+  def wrap "require.ml" 238 9113 9121 "require.ml" 238 9113 9169
+)
+"require.ml" 236 8989 9008 "require.ml" 236 8989 9017
+type(
+  Ast.expr list
+)
+"require.ml" 236 8989 9019 "require.ml" 236 8989 9023
+type(
+  Ast.expr option
+)
+"require.ml" 236 8989 9025 "require.ml" 236 8989 9028
+type(
+  Ast.pos
+)
+ident(
+  def pos "require.ml" 238 9113 9121 "require.ml" 238 9113 9169
+)
+"require.ml" 233 8819 8825 "require.ml" 236 8989 9029
+type(
+  Ast.expr
+)
+"require.ml" 237 9030 9062 "require.ml" 237 9030 9074
+type(
+  Ast.id_kind
+)
+"require.ml" 237 9030 9076 "require.ml" 237 9030 9082
+type(
+  string
+)
+"require.ml" 237 9030 9084 "require.ml" 237 9030 9085
+type(
+  Ast.pos
+)
+"require.ml" 237 9030 9049 "require.ml" 237 9030 9086
+type(
+  Ast.expr
+)
+"require.ml" 237 9030 9088 "require.ml" 237 9030 9091
+type(
+  Ast.expr
+)
+ident(
+  def arg "require.ml" 238 9113 9121 "require.ml" 238 9113 9169
+)
+"require.ml" 237 9030 9093 "require.ml" 237 9030 9097
+type(
+  Ast.expr list
+)
+ident(
+  def wrap "require.ml" 238 9113 9121 "require.ml" 238 9113 9169
+)
+"require.ml" 237 9030 9088 "require.ml" 237 9030 9097
+type(
+  Ast.expr list
+)
+"require.ml" 237 9030 9099 "require.ml" 237 9030 9103
+type(
+  Ast.expr option
+)
+"require.ml" 237 9030 9105 "require.ml" 237 9030 9108
+type(
+  Ast.pos
+)
+ident(
+  def pos "require.ml" 238 9113 9121 "require.ml" 238 9113 9169
+)
+"require.ml" 237 9030 9036 "require.ml" 237 9030 9109
+type(
+  Ast.expr
+)
+"require.ml" 233 8819 8825 "require.ml" 237 9030 9109
+type(
+  Ast.expr
+)
+"require.ml" 238 9113 9121 "require.ml" 238 9113 9136
+type(
+  [ `Load of Ast.expr list | `Require ] -> Ast.expr -> Log.pos -> Ast.expr
+)
+ident(
+  int_ref replace_require "require.ml" 182 6468 6478 "require.ml" 182 6468 6493
+)
+"require.ml" 238 9113 9144 "require.ml" 238 9113 9148
+type(
+  Ast.expr list
+)
+ident(
+  int_ref wrap "require.ml" 236 8989 9013 "require.ml" 236 8989 9017
+)
+"require.ml" 238 9113 9137 "require.ml" 238 9113 9149
+type(
+  [ `Load of Ast.expr list | `Require ]
+)
+"require.ml" 238 9113 9150 "require.ml" 238 9113 9153
+type(
+  Ast.expr
+)
+ident(
+  int_ref arg "require.ml" 236 8989 9008 "require.ml" 236 8989 9011
+)
+"require.ml" 238 9113 9155 "require.ml" 238 9113 9163
+type(
+  Ast.expr -> Ast.pos
+)
+ident(
+  int_ref last_pos "require.ml" 167 5986 5990 "require.ml" 167 5986 5998
+)
+"require.ml" 238 9113 9164 "require.ml" 238 9113 9168
+type(
+  Ast.expr
+)
+ident(
+  int_ref expr "require.ml" 180 6366 6410 "require.ml" 180 6366 6414
+)
+"require.ml" 238 9113 9154 "require.ml" 238 9113 9169
+call(
+  stack
+)
+type(
+  Ast.pos
+)
+"require.ml" 238 9113 9121 "require.ml" 238 9113 9169
+call(
+  tail
+)
+type(
+  Ast.expr
+)
+"require.ml" 239 9170 9176 "require.ml" 239 9170 9177
+type(
+  Ast.expr
+)
+"require.ml" 239 9170 9181 "require.ml" 239 9170 9185
+type(
+  Ast.expr
+)
+ident(
+  int_ref expr "require.ml" 180 6366 6410 "require.ml" 180 6366 6414
+)
+"require.ml" 225 8456 8461 "require.ml" 239 9170 9185
+type(
+  Ast.expr
+)
+"require.ml" 182 6468 6470 "require.ml" 239 9170 9185
+type(
+  Ast.expr
+)
+"require.ml" 241 9187 9191 "require.ml" 241 9187 9206
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t -> t -> Ast.expr list -> Ast.expr list
+)
+ident(
+  def modify_requires "require.ml" 284 10385 10385 --
+)
+"require.ml" 241 9187 9207 "require.ml" 241 9187 9210
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  def tbl "require.ml" 241 9187 9211 "require.ml" 243 9272 9340
+)
+"require.ml" 241 9187 9212 "require.ml" 241 9187 9214
+type(
+  t
+)
+ident(
+  def ri "require.ml" 241 9187 9218 "require.ml" 243 9272 9340
+)
+"require.ml" 241 9187 9218 "require.ml" 241 9187 9221
+type(
+  Ast.expr list
+)
+ident(
+  def ast "require.ml" 242 9225 9227 "require.ml" 243 9272 9340
+)
+"require.ml" 242 9225 9231 "require.ml" 242 9225 9242
+type(
+  (Ast.expr -> Ast.expr) -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref Ast.mod_ast
+)
+"require.ml" 242 9225 9244 "require.ml" 242 9225 9259
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t -> t -> Ast.expr -> Ast.expr
+)
+ident(
+  int_ref instrument_expr "require.ml" 180 6366 6374 "require.ml" 180 6366 6389
+)
+"require.ml" 242 9225 9260 "require.ml" 242 9225 9263
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  int_ref tbl "require.ml" 241 9187 9207 "require.ml" 241 9187 9210
+)
+"require.ml" 242 9225 9264 "require.ml" 242 9225 9266
+type(
+  t
+)
+ident(
+  int_ref ri "require.ml" 241 9187 9212 "require.ml" 241 9187 9214
+)
+"require.ml" 242 9225 9243 "require.ml" 242 9225 9267
+call(
+  stack
+)
+type(
+  Ast.expr -> Ast.expr
+)
+"require.ml" 242 9225 9268 "require.ml" 242 9225 9271
+type(
+  Ast.expr list
+)
+ident(
+  int_ref ast "require.ml" 241 9187 9218 "require.ml" 241 9187 9221
+)
+"require.ml" 242 9225 9231 "require.ml" 242 9225 9271
+call(
+  stack
+)
+type(
+  Ast.expr list
+)
+"require.ml" 243 9272 9279 "require.ml" 243 9272 9280
+type(
+  exn
+)
+ident(
+  def e "require.ml" 243 9272 9284 "require.ml" 243 9272 9340
+)
+"require.ml" 243 9272 9284 "require.ml" 243 9272 9293
+type(
+  Log.ctx ->
+  (string -> Ast.expr list, Format.formatter, unit, Ast.expr list) format4 ->
+  string -> Ast.expr list
+)
+ident(
+  ext_ref Log.fatal
+)
+"require.ml" 243 9272 9294 "require.ml" 243 9272 9303
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"require.ml" 243 9272 9304 "require.ml" 243 9272 9317
+type(
+  (string -> Ast.expr list, Format.formatter, unit, Ast.expr list) format4
+)
+"require.ml" 243 9272 9319 "require.ml" 243 9272 9337
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"require.ml" 243 9272 9338 "require.ml" 243 9272 9339
+type(
+  exn
+)
+ident(
+  int_ref e "require.ml" 243 9272 9279 "require.ml" 243 9272 9280
+)
+"require.ml" 243 9272 9318 "require.ml" 243 9272 9340
+call(
+  stack
+)
+type(
+  string
+)
+"require.ml" 243 9272 9284 "require.ml" 243 9272 9340
+call(
+  tail
+)
+type(
+  Ast.expr list
+)
+"require.ml" 242 9225 9227 "require.ml" 243 9272 9340
+type(
+  Ast.expr list
+)
+"require.ml" 284 10385 10389 "require.ml" 284 10385 10402
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def transform_ast "require.ml" 285 10416 10416 --
+)
+"require.ml" 284 10385 10403 "require.ml" 284 10385 10405
+type(
+  'a
+)
+ident(
+  def ym "require.ml" 284 10385 10406 "require.ml" 284 10385 10415
+)
+"require.ml" 284 10385 10406 "require.ml" 284 10385 10409
+type(
+  'b
+)
+ident(
+  def ast "require.ml" 284 10385 10412 "require.ml" 284 10385 10415
+)
+"require.ml" 284 10385 10412 "require.ml" 284 10385 10415
+type(
+  'b
+)
+ident(
+  int_ref ast "require.ml" 284 10385 10406 "require.ml" 284 10385 10409
+)
+"require.ml" 285 10416 10420 "require.ml" 285 10416 10433
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def transform_cfg "require.ml" 285 10416 10452 --
+)
+"require.ml" 285 10416 10434 "require.ml" 285 10416 10442
+type(
+  'a
+)
+ident(
+  def yaml_map "require.ml" 285 10416 10443 "require.ml" 285 10416 10452
+)
+"require.ml" 285 10416 10443 "require.ml" 285 10416 10446
+type(
+  'b
+)
+ident(
+  def cfg "require.ml" 285 10416 10449 "require.ml" 285 10416 10452
+)
+"require.ml" 285 10416 10449 "require.ml" 285 10416 10452
+type(
+  'b
+)
+ident(
+  int_ref cfg "require.ml" 285 10416 10443 "require.ml" 285 10416 10446
+)

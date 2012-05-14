@@ -1,0 +1,2120 @@
+"parse_precedence.ml" 6 39 43 "parse_precedence.ml" 6 39 48
+type(
+  (string * Ast.expr list * string) list
+)
+ident(
+  def tests "parse_precedence.ml" 119 2785 2785 --
+)
+"parse_precedence.ml" 8 54 57 "parse_precedence.ml" 8 54 72
+type(
+  string
+)
+"parse_precedence.ml" 9 74 100 "parse_precedence.ml" 9 74 106
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 9 74 107 "parse_precedence.ml" 9 74 110
+type(
+  string
+)
+"parse_precedence.ml" 9 74 100 "parse_precedence.ml" 9 74 110
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 10 112 126 "parse_precedence.ml" 10 112 132
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 10 112 133 "parse_precedence.ml" 10 112 136
+type(
+  string
+)
+"parse_precedence.ml" 10 112 126 "parse_precedence.ml" 10 112 136
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 10 112 138 "parse_precedence.ml" 10 112 145
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 10 112 147 "parse_precedence.ml" 10 112 153
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 10 112 154 "parse_precedence.ml" 10 112 157
+type(
+  string
+)
+"parse_precedence.ml" 10 112 147 "parse_precedence.ml" 10 112 157
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 10 112 158 "parse_precedence.ml" 10 112 160
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 10 112 118 "parse_precedence.ml" 10 112 161
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 10 112 117 "parse_precedence.ml" 10 112 162
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 11 165 170 "parse_precedence.ml" 11 165 174
+type(
+  Ast.expr option
+)
+"parse_precedence.ml" 11 165 175 "parse_precedence.ml" 11 165 177
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 9 74 86 "parse_precedence.ml" 11 165 178
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 12 180 185 "parse_precedence.ml" 12 180 191
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 13 193 207 "parse_precedence.ml" 13 193 215
+type(
+  Ast.lit_kind
+)
+"parse_precedence.ml" 13 193 216 "parse_precedence.ml" 13 193 218
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 13 193 197 "parse_precedence.ml" 13 193 219
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 13 193 220 "parse_precedence.ml" 13 193 222
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 9 74 78 "parse_precedence.ml" 13 193 223
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 9 74 77 "parse_precedence.ml" 13 193 224
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 14 226 229 "parse_precedence.ml" 14 226 246
+type(
+  string
+)
+"parse_precedence.ml" 8 54 56 "parse_precedence.ml" 14 226 247
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 16 250 253 "parse_precedence.ml" 16 250 269
+type(
+  string
+)
+"parse_precedence.ml" 17 271 283 "parse_precedence.ml" 17 271 290
+type(
+  Ast.unary_op
+)
+"parse_precedence.ml" 17 271 300 "parse_precedence.ml" 17 271 306
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 17 271 307 "parse_precedence.ml" 17 271 310
+type(
+  string
+)
+"parse_precedence.ml" 17 271 300 "parse_precedence.ml" 17 271 310
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 17 271 312 "parse_precedence.ml" 17 271 319
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 17 271 321 "parse_precedence.ml" 17 271 327
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 17 271 328 "parse_precedence.ml" 17 271 331
+type(
+  string
+)
+"parse_precedence.ml" 17 271 321 "parse_precedence.ml" 17 271 331
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 17 271 332 "parse_precedence.ml" 17 271 334
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 17 271 292 "parse_precedence.ml" 17 271 335
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 17 271 336 "parse_precedence.ml" 17 271 338
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 17 271 275 "parse_precedence.ml" 17 271 339
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 17 271 274 "parse_precedence.ml" 17 271 340
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 18 342 345 "parse_precedence.ml" 18 342 356
+type(
+  string
+)
+"parse_precedence.ml" 16 250 252 "parse_precedence.ml" 18 342 357
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 20 360 363 "parse_precedence.ml" 20 360 377
+type(
+  string
+)
+"parse_precedence.ml" 21 379 400 "parse_precedence.ml" 21 379 408
+type(
+  Ast.unary_op
+)
+"parse_precedence.ml" 21 379 409 "parse_precedence.ml" 21 379 415
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 21 379 416 "parse_precedence.ml" 21 379 419
+type(
+  string
+)
+"parse_precedence.ml" 21 379 409 "parse_precedence.ml" 21 379 419
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 21 379 420 "parse_precedence.ml" 21 379 422
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 21 379 391 "parse_precedence.ml" 21 379 423
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 21 379 425 "parse_precedence.ml" 21 379 432
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 21 379 434 "parse_precedence.ml" 21 379 440
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 21 379 441 "parse_precedence.ml" 21 379 444
+type(
+  string
+)
+"parse_precedence.ml" 21 379 434 "parse_precedence.ml" 21 379 444
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 21 379 445 "parse_precedence.ml" 21 379 447
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 21 379 383 "parse_precedence.ml" 21 379 448
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 21 379 382 "parse_precedence.ml" 21 379 449
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 22 451 454 "parse_precedence.ml" 22 451 463
+type(
+  string
+)
+"parse_precedence.ml" 20 360 362 "parse_precedence.ml" 22 451 464
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 24 467 470 "parse_precedence.ml" 24 467 484
+type(
+  string
+)
+"parse_precedence.ml" 25 486 507 "parse_precedence.ml" 25 486 515
+type(
+  Ast.unary_op
+)
+"parse_precedence.ml" 25 486 526 "parse_precedence.ml" 25 486 534
+type(
+  Ast.lit_kind
+)
+"parse_precedence.ml" 25 486 535 "parse_precedence.ml" 25 486 537
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 25 486 516 "parse_precedence.ml" 25 486 538
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 25 486 539 "parse_precedence.ml" 25 486 541
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 25 486 498 "parse_precedence.ml" 25 486 542
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 25 486 544 "parse_precedence.ml" 25 486 550
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 25 486 562 "parse_precedence.ml" 25 486 571
+type(
+  Ast.lit_kind
+)
+"parse_precedence.ml" 25 486 572 "parse_precedence.ml" 25 486 574
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 25 486 552 "parse_precedence.ml" 25 486 575
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 25 486 576 "parse_precedence.ml" 25 486 578
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 25 486 490 "parse_precedence.ml" 25 486 579
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 25 486 489 "parse_precedence.ml" 25 486 580
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 26 582 585 "parse_precedence.ml" 26 582 602
+type(
+  string
+)
+"parse_precedence.ml" 24 467 469 "parse_precedence.ml" 26 582 603
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 28 606 609 "parse_precedence.ml" 28 606 624
+type(
+  string
+)
+"parse_precedence.ml" 29 626 638 "parse_precedence.ml" 29 626 644
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 29 626 645 "parse_precedence.ml" 29 626 648
+type(
+  string
+)
+"parse_precedence.ml" 29 626 638 "parse_precedence.ml" 29 626 648
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 29 626 649 "parse_precedence.ml" 29 626 658
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 29 626 667 "parse_precedence.ml" 29 626 673
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 29 626 674 "parse_precedence.ml" 29 626 677
+type(
+  string
+)
+"parse_precedence.ml" 29 626 667 "parse_precedence.ml" 29 626 677
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 29 626 678 "parse_precedence.ml" 29 626 687
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 29 626 688 "parse_precedence.ml" 29 626 695
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 29 626 696 "parse_precedence.ml" 29 626 697
+type(
+  int
+)
+"parse_precedence.ml" 29 626 688 "parse_precedence.ml" 29 626 697
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 29 626 698 "parse_precedence.ml" 29 626 700
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 29 626 659 "parse_precedence.ml" 29 626 701
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 29 626 702 "parse_precedence.ml" 29 626 704
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 29 626 630 "parse_precedence.ml" 29 626 705
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 29 626 629 "parse_precedence.ml" 29 626 706
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 30 708 711 "parse_precedence.ml" 30 708 722
+type(
+  string
+)
+"parse_precedence.ml" 28 606 608 "parse_precedence.ml" 31 723 726
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 33 729 732 "parse_precedence.ml" 33 729 746
+type(
+  string
+)
+"parse_precedence.ml" 35 761 783 "parse_precedence.ml" 35 761 790
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 35 761 791 "parse_precedence.ml" 35 761 792
+type(
+  int
+)
+"parse_precedence.ml" 35 761 783 "parse_precedence.ml" 35 761 792
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 35 761 794 "parse_precedence.ml" 35 761 802
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 35 761 804 "parse_precedence.ml" 35 761 811
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 35 761 812 "parse_precedence.ml" 35 761 813
+type(
+  int
+)
+"parse_precedence.ml" 35 761 804 "parse_precedence.ml" 35 761 813
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 35 761 814 "parse_precedence.ml" 35 761 816
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 35 761 775 "parse_precedence.ml" 35 761 817
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 36 819 833 "parse_precedence.ml" 36 819 841
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 37 843 857 "parse_precedence.ml" 37 843 864
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 37 843 865 "parse_precedence.ml" 37 843 866
+type(
+  int
+)
+"parse_precedence.ml" 37 843 857 "parse_precedence.ml" 37 843 866
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 37 843 868 "parse_precedence.ml" 37 843 870
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 35 761 767 "parse_precedence.ml" 37 843 871
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 38 873 879 "parse_precedence.ml" 38 873 887
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 39 890 896 "parse_precedence.ml" 39 890 903
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 39 890 904 "parse_precedence.ml" 39 890 905
+type(
+  int
+)
+"parse_precedence.ml" 39 890 896 "parse_precedence.ml" 39 890 905
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 40 907 913 "parse_precedence.ml" 40 907 915
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 34 748 752 "parse_precedence.ml" 40 907 916
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 34 748 751 "parse_precedence.ml" 40 907 917
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 41 919 922 "parse_precedence.ml" 41 919 931
+type(
+  string
+)
+"parse_precedence.ml" 33 729 731 "parse_precedence.ml" 42 932 935
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 44 938 941 "parse_precedence.ml" 44 938 950
+type(
+  string
+)
+"parse_precedence.ml" 45 952 973 "parse_precedence.ml" 45 952 982
+type(
+  Ast.unary_op
+)
+"parse_precedence.ml" 45 952 983 "parse_precedence.ml" 45 952 989
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 45 952 990 "parse_precedence.ml" 45 952 993
+type(
+  string
+)
+"parse_precedence.ml" 45 952 983 "parse_precedence.ml" 45 952 993
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 45 952 994 "parse_precedence.ml" 45 952 996
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 45 952 964 "parse_precedence.ml" 45 952 997
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 45 952 999 "parse_precedence.ml" 45 952 1006
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 45 952 1008 "parse_precedence.ml" 45 952 1014
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 45 952 1015 "parse_precedence.ml" 45 952 1018
+type(
+  string
+)
+"parse_precedence.ml" 45 952 1008 "parse_precedence.ml" 45 952 1018
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 45 952 1019 "parse_precedence.ml" 45 952 1021
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 45 952 956 "parse_precedence.ml" 45 952 1022
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 45 952 955 "parse_precedence.ml" 45 952 1023
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 46 1025 1028 "parse_precedence.ml" 46 1025 1037
+type(
+  string
+)
+"parse_precedence.ml" 44 938 940 "parse_precedence.ml" 46 1025 1038
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 48 1043 1046 "parse_precedence.ml" 48 1043 1056
+type(
+  string
+)
+"parse_precedence.ml" 49 1058 1078 "parse_precedence.ml" 49 1058 1085
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 49 1058 1086 "parse_precedence.ml" 49 1058 1087
+type(
+  int
+)
+"parse_precedence.ml" 49 1058 1078 "parse_precedence.ml" 49 1058 1087
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 49 1058 1089 "parse_precedence.ml" 49 1058 1096
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 49 1058 1098 "parse_precedence.ml" 49 1058 1105
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 49 1058 1106 "parse_precedence.ml" 49 1058 1107
+type(
+  int
+)
+"parse_precedence.ml" 49 1058 1098 "parse_precedence.ml" 49 1058 1107
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 49 1058 1109 "parse_precedence.ml" 49 1058 1111
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 49 1058 1070 "parse_precedence.ml" 49 1058 1112
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 50 1114 1126 "parse_precedence.ml" 50 1114 1134
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 51 1136 1149 "parse_precedence.ml" 51 1136 1156
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 51 1136 1157 "parse_precedence.ml" 51 1136 1158
+type(
+  int
+)
+"parse_precedence.ml" 51 1136 1149 "parse_precedence.ml" 51 1136 1158
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 51 1136 1160 "parse_precedence.ml" 51 1136 1168
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 51 1136 1170 "parse_precedence.ml" 51 1136 1177
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 51 1136 1178 "parse_precedence.ml" 51 1136 1179
+type(
+  int
+)
+"parse_precedence.ml" 51 1136 1170 "parse_precedence.ml" 51 1136 1179
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 51 1136 1180 "parse_precedence.ml" 51 1136 1182
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 51 1136 1141 "parse_precedence.ml" 51 1136 1183
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 51 1136 1184 "parse_precedence.ml" 51 1136 1186
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 49 1058 1062 "parse_precedence.ml" 51 1136 1187
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 49 1058 1061 "parse_precedence.ml" 51 1136 1188
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 53 1191 1194 "parse_precedence.ml" 53 1191 1203
+type(
+  string
+)
+"parse_precedence.ml" 48 1043 1045 "parse_precedence.ml" 53 1191 1204
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 55 1207 1210 "parse_precedence.ml" 55 1207 1220
+type(
+  string
+)
+"parse_precedence.ml" 56 1222 1242 "parse_precedence.ml" 56 1222 1249
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 56 1222 1250 "parse_precedence.ml" 56 1222 1251
+type(
+  int
+)
+"parse_precedence.ml" 56 1222 1242 "parse_precedence.ml" 56 1222 1251
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 56 1222 1253 "parse_precedence.ml" 56 1222 1261
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 56 1222 1263 "parse_precedence.ml" 56 1222 1270
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 56 1222 1271 "parse_precedence.ml" 56 1222 1272
+type(
+  int
+)
+"parse_precedence.ml" 56 1222 1263 "parse_precedence.ml" 56 1222 1272
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 56 1222 1273 "parse_precedence.ml" 56 1222 1275
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 56 1222 1234 "parse_precedence.ml" 56 1222 1276
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 57 1278 1283 "parse_precedence.ml" 57 1278 1290
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 58 1293 1306 "parse_precedence.ml" 58 1293 1313
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 58 1293 1314 "parse_precedence.ml" 58 1293 1315
+type(
+  int
+)
+"parse_precedence.ml" 58 1293 1306 "parse_precedence.ml" 58 1293 1315
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 58 1293 1317 "parse_precedence.ml" 58 1293 1325
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 58 1293 1327 "parse_precedence.ml" 58 1293 1334
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 58 1293 1335 "parse_precedence.ml" 58 1293 1336
+type(
+  int
+)
+"parse_precedence.ml" 58 1293 1327 "parse_precedence.ml" 58 1293 1336
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 58 1293 1337 "parse_precedence.ml" 58 1293 1339
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 58 1293 1298 "parse_precedence.ml" 58 1293 1340
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 58 1293 1341 "parse_precedence.ml" 58 1293 1343
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 56 1222 1226 "parse_precedence.ml" 58 1293 1344
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 56 1222 1225 "parse_precedence.ml" 58 1293 1345
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 59 1347 1350 "parse_precedence.ml" 59 1347 1359
+type(
+  string
+)
+"parse_precedence.ml" 55 1207 1209 "parse_precedence.ml" 59 1347 1360
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 61 1363 1366 "parse_precedence.ml" 61 1363 1393
+type(
+  string
+)
+"parse_precedence.ml" 62 1395 1407 "parse_precedence.ml" 62 1395 1413
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 62 1395 1414 "parse_precedence.ml" 62 1395 1417
+type(
+  string
+)
+"parse_precedence.ml" 62 1395 1407 "parse_precedence.ml" 62 1395 1417
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 62 1395 1419 "parse_precedence.ml" 62 1395 1426
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 62 1395 1437 "parse_precedence.ml" 62 1395 1443
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 62 1395 1444 "parse_precedence.ml" 62 1395 1447
+type(
+  string
+)
+"parse_precedence.ml" 62 1395 1437 "parse_precedence.ml" 62 1395 1447
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 62 1395 1436 "parse_precedence.ml" 62 1395 1448
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 62 1395 1449 "parse_precedence.ml" 62 1395 1451
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 62 1395 1428 "parse_precedence.ml" 62 1395 1452
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 62 1395 1453 "parse_precedence.ml" 62 1395 1455
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 62 1395 1399 "parse_precedence.ml" 62 1395 1456
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 62 1395 1398 "parse_precedence.ml" 62 1395 1457
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 63 1459 1462 "parse_precedence.ml" 63 1459 1479
+type(
+  string
+)
+"parse_precedence.ml" 61 1363 1365 "parse_precedence.ml" 63 1459 1480
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 65 1483 1486 "parse_precedence.ml" 65 1483 1501
+type(
+  string
+)
+"parse_precedence.ml" 66 1503 1515 "parse_precedence.ml" 66 1503 1521
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 66 1503 1522 "parse_precedence.ml" 66 1503 1525
+type(
+  string
+)
+"parse_precedence.ml" 66 1503 1515 "parse_precedence.ml" 66 1503 1525
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 66 1503 1526 "parse_precedence.ml" 66 1503 1531
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 67 1533 1550 "parse_precedence.ml" 67 1533 1556
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 67 1533 1557 "parse_precedence.ml" 67 1533 1567
+type(
+  string
+)
+"parse_precedence.ml" 67 1533 1550 "parse_precedence.ml" 67 1533 1567
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 67 1533 1569 "parse_precedence.ml" 67 1533 1575
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 67 1533 1576 "parse_precedence.ml" 67 1533 1579
+type(
+  string
+)
+"parse_precedence.ml" 67 1533 1569 "parse_precedence.ml" 67 1533 1579
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 67 1533 1568 "parse_precedence.ml" 67 1533 1580
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 67 1533 1581 "parse_precedence.ml" 67 1533 1585
+type(
+  Ast.expr option
+)
+"parse_precedence.ml" 67 1533 1586 "parse_precedence.ml" 67 1533 1588
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 67 1533 1537 "parse_precedence.ml" 67 1533 1589
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 67 1533 1590 "parse_precedence.ml" 67 1533 1592
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 66 1503 1507 "parse_precedence.ml" 67 1533 1593
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 66 1503 1506 "parse_precedence.ml" 67 1533 1594
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 68 1596 1599 "parse_precedence.ml" 68 1596 1617
+type(
+  string
+)
+"parse_precedence.ml" 65 1483 1485 "parse_precedence.ml" 68 1596 1618
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 70 1623 1626 "parse_precedence.ml" 70 1623 1643
+type(
+  string
+)
+"parse_precedence.ml" 71 1645 1657 "parse_precedence.ml" 71 1645 1663
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 71 1645 1664 "parse_precedence.ml" 71 1645 1667
+type(
+  string
+)
+"parse_precedence.ml" 71 1645 1657 "parse_precedence.ml" 71 1645 1667
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 71 1645 1668 "parse_precedence.ml" 71 1645 1677
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 71 1645 1686 "parse_precedence.ml" 71 1645 1692
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 71 1645 1693 "parse_precedence.ml" 71 1645 1696
+type(
+  string
+)
+"parse_precedence.ml" 71 1645 1686 "parse_precedence.ml" 71 1645 1696
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 71 1645 1697 "parse_precedence.ml" 71 1645 1702
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 71 1645 1703 "parse_precedence.ml" 71 1645 1709
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 71 1645 1710 "parse_precedence.ml" 71 1645 1713
+type(
+  string
+)
+"parse_precedence.ml" 71 1645 1703 "parse_precedence.ml" 71 1645 1713
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 71 1645 1714 "parse_precedence.ml" 71 1645 1716
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 71 1645 1678 "parse_precedence.ml" 71 1645 1717
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 71 1645 1718 "parse_precedence.ml" 71 1645 1720
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 71 1645 1649 "parse_precedence.ml" 71 1645 1721
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 71 1645 1648 "parse_precedence.ml" 71 1645 1722
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 72 1724 1726 "parse_precedence.ml" 72 1724 1738
+type(
+  string
+)
+"parse_precedence.ml" 70 1623 1625 "parse_precedence.ml" 73 1739 1742
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 75 1745 1748 "parse_precedence.ml" 75 1745 1764
+type(
+  string
+)
+"parse_precedence.ml" 76 1766 1778 "parse_precedence.ml" 76 1766 1784
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 76 1766 1785 "parse_precedence.ml" 76 1766 1788
+type(
+  string
+)
+"parse_precedence.ml" 76 1766 1778 "parse_precedence.ml" 76 1766 1788
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 76 1766 1789 "parse_precedence.ml" 76 1766 1794
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 76 1766 1803 "parse_precedence.ml" 76 1766 1809
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 76 1766 1810 "parse_precedence.ml" 76 1766 1813
+type(
+  string
+)
+"parse_precedence.ml" 76 1766 1803 "parse_precedence.ml" 76 1766 1813
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 76 1766 1814 "parse_precedence.ml" 76 1766 1823
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 76 1766 1824 "parse_precedence.ml" 76 1766 1830
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 76 1766 1831 "parse_precedence.ml" 76 1766 1834
+type(
+  string
+)
+"parse_precedence.ml" 76 1766 1824 "parse_precedence.ml" 76 1766 1834
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 76 1766 1835 "parse_precedence.ml" 76 1766 1837
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 76 1766 1795 "parse_precedence.ml" 76 1766 1838
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 76 1766 1839 "parse_precedence.ml" 76 1766 1841
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 76 1766 1770 "parse_precedence.ml" 76 1766 1842
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 76 1766 1769 "parse_precedence.ml" 76 1766 1843
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 77 1845 1847 "parse_precedence.ml" 77 1845 1859
+type(
+  string
+)
+"parse_precedence.ml" 75 1745 1747 "parse_precedence.ml" 78 1860 1863
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 80 1866 1869 "parse_precedence.ml" 80 1866 1885
+type(
+  string
+)
+"parse_precedence.ml" 81 1887 1899 "parse_precedence.ml" 81 1887 1905
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 81 1887 1906 "parse_precedence.ml" 81 1887 1909
+type(
+  string
+)
+"parse_precedence.ml" 81 1887 1899 "parse_precedence.ml" 81 1887 1909
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 81 1887 1910 "parse_precedence.ml" 81 1887 1915
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 81 1887 1924 "parse_precedence.ml" 81 1887 1930
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 81 1887 1931 "parse_precedence.ml" 81 1887 1934
+type(
+  string
+)
+"parse_precedence.ml" 81 1887 1924 "parse_precedence.ml" 81 1887 1934
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 81 1887 1935 "parse_precedence.ml" 81 1887 1944
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 82 1946 1962 "parse_precedence.ml" 82 1946 1968
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 82 1946 1969 "parse_precedence.ml" 82 1946 1972
+type(
+  string
+)
+"parse_precedence.ml" 82 1946 1962 "parse_precedence.ml" 82 1946 1972
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 82 1946 1973 "parse_precedence.ml" 82 1946 1978
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 82 1946 1979 "parse_precedence.ml" 82 1946 1985
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 82 1946 1986 "parse_precedence.ml" 82 1946 1989
+type(
+  string
+)
+"parse_precedence.ml" 82 1946 1979 "parse_precedence.ml" 82 1946 1989
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 82 1946 1990 "parse_precedence.ml" 82 1946 1992
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 82 1946 1954 "parse_precedence.ml" 82 1946 1993
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 83 1994 2005 "parse_precedence.ml" 83 1994 2007
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 81 1887 1916 "parse_precedence.ml" 83 1994 2008
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 83 1994 2009 "parse_precedence.ml" 83 1994 2011
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 81 1887 1891 "parse_precedence.ml" 83 1994 2012
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 81 1887 1890 "parse_precedence.ml" 83 1994 2013
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 84 2015 2017 "parse_precedence.ml" 84 2015 2034
+type(
+  string
+)
+"parse_precedence.ml" 80 1866 1868 "parse_precedence.ml" 85 2035 2038
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 87 2041 2044 "parse_precedence.ml" 87 2041 2061
+type(
+  string
+)
+"parse_precedence.ml" 88 2063 2083 "parse_precedence.ml" 88 2063 2089
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 88 2063 2090 "parse_precedence.ml" 88 2063 2093
+type(
+  string
+)
+"parse_precedence.ml" 88 2063 2083 "parse_precedence.ml" 88 2063 2093
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 88 2063 2094 "parse_precedence.ml" 88 2063 2103
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 88 2063 2105 "parse_precedence.ml" 88 2063 2111
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 88 2063 2112 "parse_precedence.ml" 88 2063 2115
+type(
+  string
+)
+"parse_precedence.ml" 88 2063 2105 "parse_precedence.ml" 88 2063 2115
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 88 2063 2116 "parse_precedence.ml" 88 2063 2118
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 88 2063 2075 "parse_precedence.ml" 88 2063 2119
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 88 2063 2120 "parse_precedence.ml" 88 2063 2126
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 88 2063 2127 "parse_precedence.ml" 88 2063 2133
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 88 2063 2134 "parse_precedence.ml" 88 2063 2137
+type(
+  string
+)
+"parse_precedence.ml" 88 2063 2127 "parse_precedence.ml" 88 2063 2137
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 88 2063 2138 "parse_precedence.ml" 88 2063 2140
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 88 2063 2067 "parse_precedence.ml" 88 2063 2141
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 88 2063 2066 "parse_precedence.ml" 88 2063 2142
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 89 2144 2146 "parse_precedence.ml" 89 2144 2158
+type(
+  string
+)
+"parse_precedence.ml" 87 2041 2043 "parse_precedence.ml" 90 2159 2162
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 92 2165 2168 "parse_precedence.ml" 92 2165 2175
+type(
+  string
+)
+"parse_precedence.ml" 93 2177 2197 "parse_precedence.ml" 93 2177 2202
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_precedence.ml" 93 2177 2203 "parse_precedence.ml" 93 2177 2209
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 93 2177 2210 "parse_precedence.ml" 93 2177 2216
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.lfalse
+)
+"parse_precedence.ml" 93 2177 2217 "parse_precedence.ml" 93 2177 2219
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 93 2177 2189 "parse_precedence.ml" 93 2177 2220
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 93 2177 2221 "parse_precedence.ml" 93 2177 2226
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 93 2177 2227 "parse_precedence.ml" 93 2177 2232
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_precedence.ml" 93 2177 2233 "parse_precedence.ml" 93 2177 2235
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 93 2177 2181 "parse_precedence.ml" 93 2177 2236
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 93 2177 2180 "parse_precedence.ml" 93 2177 2237
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 94 2239 2242 "parse_precedence.ml" 94 2239 2265
+type(
+  string
+)
+"parse_precedence.ml" 92 2165 2167 "parse_precedence.ml" 95 2266 2269
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 97 2272 2275 "parse_precedence.ml" 97 2272 2289
+type(
+  string
+)
+"parse_precedence.ml" 98 2291 2303 "parse_precedence.ml" 98 2291 2309
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 98 2291 2310 "parse_precedence.ml" 98 2291 2313
+type(
+  string
+)
+"parse_precedence.ml" 98 2291 2303 "parse_precedence.ml" 98 2291 2313
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 98 2291 2314 "parse_precedence.ml" 98 2291 2323
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 98 2291 2332 "parse_precedence.ml" 98 2291 2339
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 98 2291 2340 "parse_precedence.ml" 98 2291 2341
+type(
+  int
+)
+"parse_precedence.ml" 98 2291 2332 "parse_precedence.ml" 98 2291 2341
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 98 2291 2342 "parse_precedence.ml" 98 2291 2349
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 98 2291 2350 "parse_precedence.ml" 98 2291 2357
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 98 2291 2358 "parse_precedence.ml" 98 2291 2359
+type(
+  int
+)
+"parse_precedence.ml" 98 2291 2350 "parse_precedence.ml" 98 2291 2359
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 98 2291 2360 "parse_precedence.ml" 98 2291 2362
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 98 2291 2324 "parse_precedence.ml" 98 2291 2363
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 98 2291 2364 "parse_precedence.ml" 98 2291 2366
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 98 2291 2295 "parse_precedence.ml" 98 2291 2367
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 98 2291 2294 "parse_precedence.ml" 98 2291 2368
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 99 2370 2373 "parse_precedence.ml" 99 2370 2383
+type(
+  string
+)
+"parse_precedence.ml" 97 2272 2274 "parse_precedence.ml" 100 2384 2387
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 102 2390 2393 "parse_precedence.ml" 102 2390 2402
+type(
+  string
+)
+"parse_precedence.ml" 103 2404 2424 "parse_precedence.ml" 103 2404 2431
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 103 2404 2432 "parse_precedence.ml" 103 2404 2433
+type(
+  int
+)
+"parse_precedence.ml" 103 2404 2424 "parse_precedence.ml" 103 2404 2433
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 103 2404 2435 "parse_precedence.ml" 103 2404 2442
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 103 2404 2444 "parse_precedence.ml" 103 2404 2451
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 103 2404 2452 "parse_precedence.ml" 103 2404 2453
+type(
+  int
+)
+"parse_precedence.ml" 103 2404 2444 "parse_precedence.ml" 103 2404 2453
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 103 2404 2454 "parse_precedence.ml" 103 2404 2456
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 103 2404 2416 "parse_precedence.ml" 103 2404 2457
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 103 2404 2458 "parse_precedence.ml" 103 2404 2465
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 103 2404 2466 "parse_precedence.ml" 103 2404 2473
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 103 2404 2474 "parse_precedence.ml" 103 2404 2475
+type(
+  int
+)
+"parse_precedence.ml" 103 2404 2466 "parse_precedence.ml" 103 2404 2475
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 103 2404 2476 "parse_precedence.ml" 103 2404 2478
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 103 2404 2408 "parse_precedence.ml" 103 2404 2479
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 103 2404 2407 "parse_precedence.ml" 103 2404 2480
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 104 2482 2485 "parse_precedence.ml" 104 2482 2493
+type(
+  string
+)
+"parse_precedence.ml" 102 2390 2392 "parse_precedence.ml" 105 2494 2497
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 107 2500 2503 "parse_precedence.ml" 107 2500 2513
+type(
+  string
+)
+"parse_precedence.ml" 108 2515 2529 "parse_precedence.ml" 108 2515 2535
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 108 2515 2536 "parse_precedence.ml" 108 2515 2539
+type(
+  string
+)
+"parse_precedence.ml" 108 2515 2529 "parse_precedence.ml" 108 2515 2539
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 108 2515 2541 "parse_precedence.ml" 108 2515 2548
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 108 2515 2549 "parse_precedence.ml" 108 2515 2550
+type(
+  int
+)
+"parse_precedence.ml" 108 2515 2541 "parse_precedence.ml" 108 2515 2550
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 108 2515 2560 "parse_precedence.ml" 108 2515 2566
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 108 2515 2567 "parse_precedence.ml" 108 2515 2570
+type(
+  string
+)
+"parse_precedence.ml" 108 2515 2560 "parse_precedence.ml" 108 2515 2570
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 108 2515 2572 "parse_precedence.ml" 108 2515 2579
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 108 2515 2580 "parse_precedence.ml" 108 2515 2587
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_precedence.ml" 108 2515 2588 "parse_precedence.ml" 108 2515 2589
+type(
+  int
+)
+"parse_precedence.ml" 108 2515 2580 "parse_precedence.ml" 108 2515 2589
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 108 2515 2591 "parse_precedence.ml" 108 2515 2593
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 108 2515 2552 "parse_precedence.ml" 108 2515 2594
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 108 2515 2595 "parse_precedence.ml" 108 2515 2597
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 108 2515 2519 "parse_precedence.ml" 108 2515 2598
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 108 2515 2518 "parse_precedence.ml" 108 2515 2599
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 109 2601 2604 "parse_precedence.ml" 109 2601 2617
+type(
+  string
+)
+"parse_precedence.ml" 107 2500 2502 "parse_precedence.ml" 110 2618 2621
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 112 2624 2627 "parse_precedence.ml" 112 2624 2637
+type(
+  string
+)
+"parse_precedence.ml" 113 2639 2651 "parse_precedence.ml" 113 2639 2657
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_precedence.ml" 113 2639 2658 "parse_precedence.ml" 113 2639 2661
+type(
+  string
+)
+"parse_precedence.ml" 113 2639 2651 "parse_precedence.ml" 113 2639 2661
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 113 2639 2662 "parse_precedence.ml" 113 2639 2671
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 114 2673 2701 "parse_precedence.ml" 114 2673 2706
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_precedence.ml" 114 2673 2707 "parse_precedence.ml" 114 2673 2712
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 114 2673 2713 "parse_precedence.ml" 114 2673 2719
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.lfalse
+)
+"parse_precedence.ml" 114 2673 2720 "parse_precedence.ml" 114 2673 2722
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 114 2673 2693 "parse_precedence.ml" 114 2673 2723
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 114 2673 2724 "parse_precedence.ml" 114 2673 2729
+type(
+  Ast.binary_op
+)
+"parse_precedence.ml" 114 2673 2730 "parse_precedence.ml" 114 2673 2735
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_precedence.ml" 114 2673 2736 "parse_precedence.ml" 114 2673 2738
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 114 2673 2685 "parse_precedence.ml" 114 2673 2739
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 114 2673 2740 "parse_precedence.ml" 114 2673 2742
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_precedence.ml" 113 2639 2643 "parse_precedence.ml" 114 2673 2743
+type(
+  Ast.expr
+)
+"parse_precedence.ml" 113 2639 2642 "parse_precedence.ml" 114 2673 2744
+type(
+  Ast.expr list
+)
+"parse_precedence.ml" 115 2746 2749 "parse_precedence.ml" 115 2746 2776
+type(
+  string
+)
+"parse_precedence.ml" 112 2624 2626 "parse_precedence.ml" 116 2777 2780
+type(
+  string * Ast.expr list * string
+)
+"parse_precedence.ml" 6 39 51 "parse_precedence.ml" 117 2782 2783
+type(
+  (string * Ast.expr list * string) list
+)
+"parse_precedence.ml" 119 2785 2789 "parse_precedence.ml" 119 2785 2794
+type(
+  OUnit.test
+)
+ident(
+  def suite "parse_precedence.ml" 120 2827 2855 --
+)
+"parse_precedence.ml" 119 2785 2797 "parse_precedence.ml" 119 2785 2821
+type(
+  string
+)
+"parse_precedence.ml" 119 2785 2822 "parse_precedence.ml" 119 2785 2826
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parse_precedence.ml" 120 2827 2829 "parse_precedence.ml" 120 2827 2837
+type(
+  (string * Ast.ast * string -> OUnit.test) ->
+  (string * Ast.ast * string) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_precedence.ml" 120 2827 2838 "parse_precedence.ml" 120 2827 2849
+type(
+  string * Ast.ast * string -> OUnit.test
+)
+ident(
+  ext_ref Test_helper.simple_test
+)
+"parse_precedence.ml" 120 2827 2850 "parse_precedence.ml" 120 2827 2855
+type(
+  (string * Ast.ast * string) list
+)
+ident(
+  int_ref tests "parse_precedence.ml" 6 39 43 "parse_precedence.ml" 6 39 48
+)
+"parse_precedence.ml" 120 2827 2829 "parse_precedence.ml" 120 2827 2855
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_precedence.ml" 119 2785 2797 "parse_precedence.ml" 120 2827 2855
+call(
+  stack
+)
+type(
+  OUnit.test
+)

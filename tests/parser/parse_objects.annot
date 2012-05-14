@@ -1,0 +1,4586 @@
+"parse_objects.ml" 7 40 44 "parse_objects.ml" 7 40 49
+type(
+  (string * Ast.expr list * string) list
+)
+ident(
+  def tests "parse_objects.ml" 247 6541 6541 --
+)
+"parse_objects.ml" 8 54 57 "parse_objects.ml" 8 54 65
+type(
+  string
+)
+"parse_objects.ml" 9 67 82 "parse_objects.ml" 9 67 88
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 9 67 89 "parse_objects.ml" 9 67 98
+type(
+  string
+)
+"parse_objects.ml" 9 67 82 "parse_objects.ml" 9 67 98
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 9 67 100 "parse_objects.ml" 9 67 109
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 9 67 111 "parse_objects.ml" 9 67 116
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 9 67 117 "parse_objects.ml" 9 67 123
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.lfalse
+)
+"parse_objects.ml" 9 67 110 "parse_objects.ml" 9 67 124
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 9 67 100 "parse_objects.ml" 9 67 124
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 9 67 126 "parse_objects.ml" 9 67 128
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 9 67 70 "parse_objects.ml" 9 67 129
+type(
+  Ast.expr
+)
+"parse_objects.ml" 9 67 69 "parse_objects.ml" 9 67 130
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 10 132 135 "parse_objects.ml" 10 132 170
+type(
+  string
+)
+"parse_objects.ml" 8 54 56 "parse_objects.ml" 10 132 171
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 12 174 177 "parse_objects.ml" 12 174 188
+type(
+  string
+)
+"parse_objects.ml" 13 190 205 "parse_objects.ml" 13 190 211
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 13 190 212 "parse_objects.ml" 13 190 219
+type(
+  string
+)
+"parse_objects.ml" 13 190 205 "parse_objects.ml" 13 190 219
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 13 190 220 "parse_objects.ml" 13 190 224
+type(
+  Ast.inheritance_kind option
+)
+"parse_objects.ml" 13 190 225 "parse_objects.ml" 13 190 234
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 13 190 236 "parse_objects.ml" 13 190 241
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 13 190 235 "parse_objects.ml" 13 190 242
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 13 190 225 "parse_objects.ml" 13 190 242
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 13 190 244 "parse_objects.ml" 13 190 246
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 13 190 194 "parse_objects.ml" 13 190 247
+type(
+  Ast.expr
+)
+"parse_objects.ml" 13 190 193 "parse_objects.ml" 13 190 248
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 14 250 253 "parse_objects.ml" 14 250 276
+type(
+  string
+)
+"parse_objects.ml" 12 174 176 "parse_objects.ml" 14 250 277
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 16 280 283 "parse_objects.ml" 16 280 295
+type(
+  string
+)
+"parse_objects.ml" 17 297 313 "parse_objects.ml" 17 297 319
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 17 297 320 "parse_objects.ml" 17 297 325
+type(
+  string
+)
+"parse_objects.ml" 17 297 313 "parse_objects.ml" 17 297 325
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 17 297 327 "parse_objects.ml" 17 297 329
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 17 297 331 "parse_objects.ml" 17 297 340
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 17 297 342 "parse_objects.ml" 17 297 347
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 17 297 341 "parse_objects.ml" 17 297 348
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 17 297 331 "parse_objects.ml" 17 297 348
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 17 297 350 "parse_objects.ml" 17 297 352
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 17 297 301 "parse_objects.ml" 17 297 353
+type(
+  Ast.expr
+)
+"parse_objects.ml" 17 297 300 "parse_objects.ml" 17 297 354
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 18 356 359 "parse_objects.ml" 18 356 379
+type(
+  string
+)
+"parse_objects.ml" 16 280 282 "parse_objects.ml" 18 356 380
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 20 385 388 "parse_objects.ml" 20 385 410
+type(
+  string
+)
+"parse_objects.ml" 21 412 428 "parse_objects.ml" 21 412 434
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 21 412 435 "parse_objects.ml" 21 412 440
+type(
+  string
+)
+"parse_objects.ml" 21 412 428 "parse_objects.ml" 21 412 440
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 22 443 457 "parse_objects.ml" 22 443 463
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 22 443 464 "parse_objects.ml" 22 443 470
+type(
+  string
+)
+"parse_objects.ml" 22 443 456 "parse_objects.ml" 22 443 471
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 22 443 446 "parse_objects.ml" 22 443 471
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 22 443 484 "parse_objects.ml" 22 443 490
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 22 443 491 "parse_objects.ml" 22 443 497
+type(
+  string
+)
+"parse_objects.ml" 22 443 483 "parse_objects.ml" 22 443 498
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 22 443 473 "parse_objects.ml" 22 443 498
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 22 443 445 "parse_objects.ml" 22 443 500
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 23 502 504 "parse_objects.ml" 23 502 513
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 23 502 515 "parse_objects.ml" 23 502 520
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 23 502 514 "parse_objects.ml" 23 502 521
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 23 502 504 "parse_objects.ml" 23 502 521
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 23 502 523 "parse_objects.ml" 23 502 525
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 21 412 416 "parse_objects.ml" 23 502 526
+type(
+  Ast.expr
+)
+"parse_objects.ml" 21 412 415 "parse_objects.ml" 23 502 527
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 24 529 532 "parse_objects.ml" 24 529 561
+type(
+  string
+)
+"parse_objects.ml" 20 385 387 "parse_objects.ml" 24 529 562
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 26 565 568 "parse_objects.ml" 26 565 591
+type(
+  string
+)
+"parse_objects.ml" 27 593 616 "parse_objects.ml" 27 593 621
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.lself
+)
+"parse_objects.ml" 27 593 622 "parse_objects.ml" 27 593 628
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 27 593 629 "parse_objects.ml" 27 593 635
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 27 593 636 "parse_objects.ml" 27 593 640
+type(
+  string
+)
+"parse_objects.ml" 27 593 629 "parse_objects.ml" 27 593 640
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 27 593 641 "parse_objects.ml" 27 593 643
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 27 593 608 "parse_objects.ml" 27 593 644
+type(
+  Ast.expr
+)
+"parse_objects.ml" 28 646 665 "parse_objects.ml" 28 646 671
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 28 646 672 "parse_objects.ml" 28 646 675
+type(
+  string
+)
+"parse_objects.ml" 28 646 664 "parse_objects.ml" 28 646 676
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 28 646 654 "parse_objects.ml" 28 646 676
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 28 646 653 "parse_objects.ml" 28 646 677
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 29 679 686 "parse_objects.ml" 29 679 695
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 29 679 704 "parse_objects.ml" 29 679 710
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 29 679 711 "parse_objects.ml" 29 679 715
+type(
+  string
+)
+"parse_objects.ml" 29 679 704 "parse_objects.ml" 29 679 715
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 29 679 716 "parse_objects.ml" 29 679 725
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 29 679 727 "parse_objects.ml" 29 679 733
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 29 679 734 "parse_objects.ml" 29 679 737
+type(
+  string
+)
+"parse_objects.ml" 29 679 727 "parse_objects.ml" 29 679 737
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 29 679 738 "parse_objects.ml" 29 679 740
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 29 679 696 "parse_objects.ml" 29 679 741
+type(
+  Ast.expr
+)
+"parse_objects.ml" 29 679 695 "parse_objects.ml" 29 679 742
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 29 679 686 "parse_objects.ml" 29 679 742
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 30 744 752 "parse_objects.ml" 30 744 754
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 27 593 596 "parse_objects.ml" 30 744 755
+type(
+  Ast.expr
+)
+"parse_objects.ml" 27 593 595 "parse_objects.ml" 30 744 756
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 31 758 760 "parse_objects.ml" 31 758 787
+type(
+  string
+)
+"parse_objects.ml" 26 565 567 "parse_objects.ml" 31 758 788
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 33 791 794 "parse_objects.ml" 33 791 813
+type(
+  string
+)
+"parse_objects.ml" 35 831 843 "parse_objects.ml" 35 831 849
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 35 831 850 "parse_objects.ml" 35 831 861
+type(
+  string
+)
+"parse_objects.ml" 35 831 843 "parse_objects.ml" 35 831 861
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 35 831 863 "parse_objects.ml" 35 831 871
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 35 831 873 "parse_objects.ml" 35 831 879
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 35 831 880 "parse_objects.ml" 35 831 887
+type(
+  string
+)
+"parse_objects.ml" 35 831 873 "parse_objects.ml" 35 831 887
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 35 831 888 "parse_objects.ml" 35 831 890
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 35 831 835 "parse_objects.ml" 35 831 891
+type(
+  Ast.expr
+)
+"parse_objects.ml" 36 893 898 "parse_objects.ml" 36 893 900
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 36 893 901 "parse_objects.ml" 36 893 910
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 36 893 912 "parse_objects.ml" 36 893 917
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 36 893 911 "parse_objects.ml" 36 893 918
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 36 893 901 "parse_objects.ml" 36 893 918
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 36 893 919 "parse_objects.ml" 36 893 921
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 34 815 818 "parse_objects.ml" 36 893 922
+type(
+  Ast.expr
+)
+"parse_objects.ml" 34 815 817 "parse_objects.ml" 36 893 923
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 37 925 927 "parse_objects.ml" 37 925 960
+type(
+  string
+)
+"parse_objects.ml" 33 791 793 "parse_objects.ml" 38 961 964
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 40 967 970 "parse_objects.ml" 40 967 1000
+type(
+  string
+)
+"parse_objects.ml" 41 1002 1018 "parse_objects.ml" 41 1002 1024
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 41 1002 1025 "parse_objects.ml" 41 1002 1028
+type(
+  string
+)
+"parse_objects.ml" 41 1002 1018 "parse_objects.ml" 41 1002 1028
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 41 1002 1042 "parse_objects.ml" 41 1002 1048
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 41 1002 1049 "parse_objects.ml" 41 1002 1052
+type(
+  string
+)
+"parse_objects.ml" 41 1002 1041 "parse_objects.ml" 41 1002 1053
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 41 1002 1031 "parse_objects.ml" 41 1002 1053
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 41 1002 1030 "parse_objects.ml" 41 1002 1054
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 42 1057 1065 "parse_objects.ml" 42 1057 1074
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 42 1057 1093 "parse_objects.ml" 42 1057 1099
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 42 1057 1100 "parse_objects.ml" 42 1057 1103
+type(
+  string
+)
+"parse_objects.ml" 42 1057 1093 "parse_objects.ml" 42 1057 1103
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 42 1057 1105 "parse_objects.ml" 42 1057 1112
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 42 1057 1114 "parse_objects.ml" 42 1057 1121
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 42 1057 1122 "parse_objects.ml" 42 1057 1123
+type(
+  int
+)
+"parse_objects.ml" 42 1057 1114 "parse_objects.ml" 42 1057 1123
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 42 1057 1124 "parse_objects.ml" 42 1057 1126
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 42 1057 1085 "parse_objects.ml" 42 1057 1127
+type(
+  Ast.expr
+)
+"parse_objects.ml" 42 1057 1084 "parse_objects.ml" 42 1057 1128
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 42 1057 1129 "parse_objects.ml" 42 1057 1131
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 42 1057 1076 "parse_objects.ml" 42 1057 1132
+type(
+  Ast.expr
+)
+"parse_objects.ml" 42 1057 1075 "parse_objects.ml" 42 1057 1133
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 42 1057 1065 "parse_objects.ml" 42 1057 1133
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 43 1135 1137 "parse_objects.ml" 43 1135 1139
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 41 1002 1006 "parse_objects.ml" 43 1135 1140
+type(
+  Ast.expr
+)
+"parse_objects.ml" 41 1002 1005 "parse_objects.ml" 43 1135 1141
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 44 1143 1146 "parse_objects.ml" 44 1143 1168
+type(
+  string
+)
+"parse_objects.ml" 40 967 969 "parse_objects.ml" 44 1143 1169
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 46 1172 1175 "parse_objects.ml" 46 1172 1197
+type(
+  string
+)
+"parse_objects.ml" 47 1199 1223 "parse_objects.ml" 47 1199 1229
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 47 1199 1230 "parse_objects.ml" 47 1199 1233
+type(
+  string
+)
+"parse_objects.ml" 47 1199 1223 "parse_objects.ml" 47 1199 1233
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 47 1199 1234 "parse_objects.ml" 47 1199 1242
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 48 1244 1247 "parse_objects.ml" 48 1244 1253
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 48 1244 1254 "parse_objects.ml" 48 1244 1258
+type(
+  string
+)
+"parse_objects.ml" 48 1244 1247 "parse_objects.ml" 48 1244 1258
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 48 1244 1259 "parse_objects.ml" 48 1244 1261
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 47 1199 1215 "parse_objects.ml" 48 1244 1262
+type(
+  Ast.expr
+)
+"parse_objects.ml" 49 1264 1284 "parse_objects.ml" 49 1264 1290
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 49 1264 1291 "parse_objects.ml" 49 1264 1294
+type(
+  string
+)
+"parse_objects.ml" 49 1264 1283 "parse_objects.ml" 49 1264 1295
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 49 1264 1273 "parse_objects.ml" 49 1264 1295
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 49 1264 1272 "parse_objects.ml" 49 1264 1296
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 50 1298 1306 "parse_objects.ml" 50 1298 1315
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 50 1298 1317 "parse_objects.ml" 50 1298 1323
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 50 1298 1324 "parse_objects.ml" 50 1298 1327
+type(
+  string
+)
+"parse_objects.ml" 50 1298 1317 "parse_objects.ml" 50 1298 1327
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 50 1298 1316 "parse_objects.ml" 50 1298 1328
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 50 1298 1306 "parse_objects.ml" 50 1298 1328
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 50 1298 1330 "parse_objects.ml" 50 1298 1332
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 47 1199 1203 "parse_objects.ml" 50 1298 1333
+type(
+  Ast.expr
+)
+"parse_objects.ml" 47 1199 1202 "parse_objects.ml" 50 1298 1334
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 51 1336 1339 "parse_objects.ml" 51 1336 1362
+type(
+  string
+)
+"parse_objects.ml" 46 1172 1174 "parse_objects.ml" 51 1336 1363
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 53 1366 1369 "parse_objects.ml" 53 1366 1383
+type(
+  string
+)
+"parse_objects.ml" 54 1385 1411 "parse_objects.ml" 54 1385 1417
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 54 1385 1418 "parse_objects.ml" 54 1385 1420
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 54 1385 1400 "parse_objects.ml" 54 1385 1421
+type(
+  Ast.expr
+)
+"parse_objects.ml" 55 1423 1442 "parse_objects.ml" 55 1423 1448
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 55 1423 1449 "parse_objects.ml" 55 1423 1456
+type(
+  string
+)
+"parse_objects.ml" 55 1423 1441 "parse_objects.ml" 55 1423 1457
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 55 1423 1431 "parse_objects.ml" 55 1423 1457
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 55 1423 1430 "parse_objects.ml" 55 1423 1458
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 56 1461 1468 "parse_objects.ml" 56 1461 1477
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 56 1461 1479 "parse_objects.ml" 56 1461 1484
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 56 1461 1478 "parse_objects.ml" 56 1461 1485
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 56 1461 1468 "parse_objects.ml" 56 1461 1485
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 56 1461 1487 "parse_objects.ml" 56 1461 1489
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 54 1385 1388 "parse_objects.ml" 56 1461 1490
+type(
+  Ast.expr
+)
+"parse_objects.ml" 54 1385 1387 "parse_objects.ml" 56 1461 1491
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 57 1493 1495 "parse_objects.ml" 57 1493 1518
+type(
+  string
+)
+"parse_objects.ml" 53 1366 1368 "parse_objects.ml" 57 1493 1519
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 59 1522 1525 "parse_objects.ml" 59 1522 1543
+type(
+  string
+)
+"parse_objects.ml" 61 1561 1567 "parse_objects.ml" 61 1561 1573
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 61 1561 1574 "parse_objects.ml" 61 1561 1581
+type(
+  string
+)
+"parse_objects.ml" 61 1561 1567 "parse_objects.ml" 61 1561 1581
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 62 1583 1589 "parse_objects.ml" 62 1583 1593
+type(
+  Ast.inheritance_kind option
+)
+"parse_objects.ml" 63 1595 1601 "parse_objects.ml" 63 1595 1610
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 63 1595 1624 "parse_objects.ml" 63 1595 1630
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 63 1595 1631 "parse_objects.ml" 63 1595 1636
+type(
+  string
+)
+"parse_objects.ml" 63 1595 1624 "parse_objects.ml" 63 1595 1636
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 64 1639 1659 "parse_objects.ml" 64 1639 1665
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 64 1639 1666 "parse_objects.ml" 64 1639 1672
+type(
+  string
+)
+"parse_objects.ml" 64 1639 1658 "parse_objects.ml" 64 1639 1673
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 64 1639 1648 "parse_objects.ml" 64 1639 1673
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 65 1676 1696 "parse_objects.ml" 65 1676 1702
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 65 1676 1703 "parse_objects.ml" 65 1676 1709
+type(
+  string
+)
+"parse_objects.ml" 65 1676 1695 "parse_objects.ml" 65 1676 1710
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 65 1676 1685 "parse_objects.ml" 65 1676 1710
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 64 1639 1647 "parse_objects.ml" 65 1676 1712
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 66 1714 1722 "parse_objects.ml" 66 1714 1731
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 66 1714 1733 "parse_objects.ml" 66 1714 1738
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 66 1714 1732 "parse_objects.ml" 66 1714 1739
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 66 1714 1722 "parse_objects.ml" 66 1714 1739
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 66 1714 1741 "parse_objects.ml" 66 1714 1743
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 63 1595 1612 "parse_objects.ml" 66 1714 1744
+type(
+  Ast.expr
+)
+"parse_objects.ml" 63 1595 1611 "parse_objects.ml" 66 1714 1745
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 63 1595 1601 "parse_objects.ml" 66 1714 1745
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 67 1748 1754 "parse_objects.ml" 67 1748 1756
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 60 1545 1549 "parse_objects.ml" 67 1748 1757
+type(
+  Ast.expr
+)
+"parse_objects.ml" 60 1545 1548 "parse_objects.ml" 67 1748 1758
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 68 1760 1763 "parse_objects.ml" 68 1760 1809
+type(
+  string
+)
+"parse_objects.ml" 59 1522 1524 "parse_objects.ml" 68 1760 1810
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 70 1813 1816 "parse_objects.ml" 70 1813 1835
+type(
+  string
+)
+"parse_objects.ml" 71 1837 1852 "parse_objects.ml" 71 1837 1859
+type(
+  Ast.expr
+)
+"parse_objects.ml" 73 1889 1920 "parse_objects.ml" 73 1889 1926
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 73 1889 1927 "parse_objects.ml" 73 1889 1931
+type(
+  string
+)
+"parse_objects.ml" 73 1889 1920 "parse_objects.ml" 73 1889 1931
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 73 1889 1932 "parse_objects.ml" 73 1889 1938
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 73 1889 1939 "parse_objects.ml" 73 1889 1945
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 73 1889 1946 "parse_objects.ml" 73 1889 1949
+type(
+  string
+)
+"parse_objects.ml" 73 1889 1939 "parse_objects.ml" 73 1889 1949
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 73 1889 1950 "parse_objects.ml" 73 1889 1952
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 73 1889 1912 "parse_objects.ml" 73 1889 1953
+type(
+  Ast.expr
+)
+"parse_objects.ml" 74 1955 1964 "parse_objects.ml" 74 1955 1966
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 74 1955 1968 "parse_objects.ml" 74 1955 1972
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 74 1955 1973 "parse_objects.ml" 74 1955 1975
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 73 1889 1898 "parse_objects.ml" 74 1955 1977
+type(
+  Ast.expr
+)
+"parse_objects.ml" 72 1861 1874 "parse_objects.ml" 74 1955 1978
+type(
+  Ast.inheritance_kind
+)
+"parse_objects.ml" 72 1861 1869 "parse_objects.ml" 74 1955 1978
+type(
+  Ast.inheritance_kind option
+)
+"parse_objects.ml" 75 1980 1988 "parse_objects.ml" 75 1980 1997
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 75 1980 1999 "parse_objects.ml" 75 1980 2004
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 75 1980 1998 "parse_objects.ml" 75 1980 2005
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 75 1980 1988 "parse_objects.ml" 75 1980 2005
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 75 1980 2007 "parse_objects.ml" 75 1980 2009
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 71 1837 1841 "parse_objects.ml" 76 2010 2018
+type(
+  Ast.expr
+)
+"parse_objects.ml" 71 1837 1840 "parse_objects.ml" 76 2010 2019
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 77 2021 2024 "parse_objects.ml" 77 2021 2046
+type(
+  string
+)
+"parse_objects.ml" 70 1813 1815 "parse_objects.ml" 77 2021 2047
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 79 2052 2055 "parse_objects.ml" 79 2052 2077
+type(
+  string
+)
+"parse_objects.ml" 80 2079 2094 "parse_objects.ml" 80 2079 2100
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 80 2079 2101 "parse_objects.ml" 80 2079 2104
+type(
+  string
+)
+"parse_objects.ml" 80 2079 2094 "parse_objects.ml" 80 2079 2104
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 82 2134 2157 "parse_objects.ml" 82 2134 2163
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 82 2134 2164 "parse_objects.ml" 82 2134 2167
+type(
+  string
+)
+"parse_objects.ml" 82 2134 2157 "parse_objects.ml" 82 2134 2167
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 82 2134 2169 "parse_objects.ml" 82 2134 2175
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 82 2134 2176 "parse_objects.ml" 82 2134 2179
+type(
+  string
+)
+"parse_objects.ml" 82 2134 2169 "parse_objects.ml" 82 2134 2179
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 82 2134 2168 "parse_objects.ml" 82 2134 2180
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 82 2134 2181 "parse_objects.ml" 82 2134 2185
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 82 2134 2186 "parse_objects.ml" 82 2134 2188
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 82 2134 2143 "parse_objects.ml" 82 2134 2190
+type(
+  Ast.expr
+)
+"parse_objects.ml" 81 2106 2119 "parse_objects.ml" 82 2134 2191
+type(
+  Ast.inheritance_kind
+)
+"parse_objects.ml" 81 2106 2114 "parse_objects.ml" 82 2134 2191
+type(
+  Ast.inheritance_kind option
+)
+"parse_objects.ml" 83 2193 2201 "parse_objects.ml" 83 2193 2210
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 83 2193 2212 "parse_objects.ml" 83 2193 2217
+type(
+  Ast.expr
+)
+ident(
+  ext_ref Test_helper.ltrue
+)
+"parse_objects.ml" 83 2193 2211 "parse_objects.ml" 83 2193 2218
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 83 2193 2201 "parse_objects.ml" 83 2193 2218
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 83 2193 2220 "parse_objects.ml" 83 2193 2222
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 80 2079 2083 "parse_objects.ml" 84 2223 2231
+type(
+  Ast.expr
+)
+"parse_objects.ml" 80 2079 2082 "parse_objects.ml" 84 2223 2232
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 85 2234 2237 "parse_objects.ml" 85 2234 2261
+type(
+  string
+)
+"parse_objects.ml" 79 2052 2054 "parse_objects.ml" 85 2234 2262
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 87 2265 2268 "parse_objects.ml" 87 2265 2281
+type(
+  string
+)
+"parse_objects.ml" 88 2283 2300 "parse_objects.ml" 88 2283 2306
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 88 2283 2307 "parse_objects.ml" 88 2283 2312
+type(
+  string
+)
+"parse_objects.ml" 88 2283 2300 "parse_objects.ml" 88 2283 2312
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 88 2283 2314 "parse_objects.ml" 88 2283 2316
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 88 2283 2318 "parse_objects.ml" 88 2283 2322
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 88 2283 2323 "parse_objects.ml" 88 2283 2325
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 88 2283 2287 "parse_objects.ml" 88 2283 2326
+type(
+  Ast.expr
+)
+"parse_objects.ml" 88 2283 2286 "parse_objects.ml" 88 2283 2327
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 89 2329 2332 "parse_objects.ml" 89 2329 2339
+type(
+  string
+)
+"parse_objects.ml" 87 2265 2267 "parse_objects.ml" 89 2329 2340
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 91 2343 2346 "parse_objects.ml" 91 2343 2363
+type(
+  string
+)
+"parse_objects.ml" 92 2365 2382 "parse_objects.ml" 92 2365 2388
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 92 2365 2389 "parse_objects.ml" 92 2365 2394
+type(
+  string
+)
+"parse_objects.ml" 92 2365 2382 "parse_objects.ml" 92 2365 2394
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 92 2365 2397 "parse_objects.ml" 92 2365 2403
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 92 2365 2404 "parse_objects.ml" 92 2365 2407
+type(
+  string
+)
+"parse_objects.ml" 92 2365 2397 "parse_objects.ml" 92 2365 2407
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 92 2365 2396 "parse_objects.ml" 92 2365 2408
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 92 2365 2410 "parse_objects.ml" 92 2365 2414
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 92 2365 2416 "parse_objects.ml" 92 2365 2418
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 92 2365 2369 "parse_objects.ml" 92 2365 2419
+type(
+  Ast.expr
+)
+"parse_objects.ml" 92 2365 2368 "parse_objects.ml" 92 2365 2420
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 93 2422 2425 "parse_objects.ml" 93 2422 2435
+type(
+  string
+)
+"parse_objects.ml" 91 2343 2345 "parse_objects.ml" 93 2422 2436
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 95 2439 2442 "parse_objects.ml" 95 2439 2459
+type(
+  string
+)
+"parse_objects.ml" 95 2439 2474 "parse_objects.ml" 95 2439 2480
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 95 2439 2481 "parse_objects.ml" 95 2439 2486
+type(
+  string
+)
+"parse_objects.ml" 95 2439 2474 "parse_objects.ml" 95 2439 2486
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 95 2439 2489 "parse_objects.ml" 95 2439 2495
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 95 2439 2496 "parse_objects.ml" 95 2439 2499
+type(
+  string
+)
+"parse_objects.ml" 95 2439 2489 "parse_objects.ml" 95 2439 2499
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 95 2439 2488 "parse_objects.ml" 95 2439 2500
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 95 2439 2502 "parse_objects.ml" 95 2439 2506
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 95 2439 2508 "parse_objects.ml" 95 2439 2510
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 95 2439 2461 "parse_objects.ml" 95 2439 2511
+type(
+  Ast.expr
+)
+"parse_objects.ml" 95 2439 2460 "parse_objects.ml" 95 2439 2512
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 96 2514 2517 "parse_objects.ml" 96 2514 2526
+type(
+  string
+)
+"parse_objects.ml" 95 2439 2441 "parse_objects.ml" 96 2514 2527
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 98 2530 2533 "parse_objects.ml" 98 2530 2550
+type(
+  string
+)
+"parse_objects.ml" 99 2552 2569 "parse_objects.ml" 99 2552 2575
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 99 2552 2576 "parse_objects.ml" 99 2552 2581
+type(
+  string
+)
+"parse_objects.ml" 99 2552 2569 "parse_objects.ml" 99 2552 2581
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 99 2552 2591 "parse_objects.ml" 99 2552 2597
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 99 2552 2598 "parse_objects.ml" 99 2552 2601
+type(
+  string
+)
+"parse_objects.ml" 99 2552 2591 "parse_objects.ml" 99 2552 2601
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 99 2552 2603 "parse_objects.ml" 99 2552 2610
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 99 2552 2612 "parse_objects.ml" 99 2552 2619
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 99 2552 2620 "parse_objects.ml" 99 2552 2621
+type(
+  int
+)
+"parse_objects.ml" 99 2552 2612 "parse_objects.ml" 99 2552 2621
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 99 2552 2623 "parse_objects.ml" 99 2552 2625
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 99 2552 2583 "parse_objects.ml" 99 2552 2626
+type(
+  Ast.expr
+)
+"parse_objects.ml" 99 2552 2582 "parse_objects.ml" 99 2552 2627
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 99 2552 2629 "parse_objects.ml" 99 2552 2633
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 99 2552 2634 "parse_objects.ml" 99 2552 2636
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 99 2552 2556 "parse_objects.ml" 99 2552 2637
+type(
+  Ast.expr
+)
+"parse_objects.ml" 99 2552 2555 "parse_objects.ml" 99 2552 2638
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 100 2640 2643 "parse_objects.ml" 100 2640 2652
+type(
+  string
+)
+"parse_objects.ml" 98 2530 2532 "parse_objects.ml" 100 2640 2653
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 102 2656 2659 "parse_objects.ml" 102 2656 2677
+type(
+  string
+)
+"parse_objects.ml" 103 2679 2696 "parse_objects.ml" 103 2679 2702
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 103 2679 2703 "parse_objects.ml" 103 2679 2708
+type(
+  string
+)
+"parse_objects.ml" 103 2679 2696 "parse_objects.ml" 103 2679 2708
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 103 2679 2710 "parse_objects.ml" 103 2679 2716
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 103 2679 2717 "parse_objects.ml" 103 2679 2720
+type(
+  string
+)
+"parse_objects.ml" 103 2679 2710 "parse_objects.ml" 103 2679 2720
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 103 2679 2721 "parse_objects.ml" 103 2679 2727
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 103 2679 2728 "parse_objects.ml" 103 2679 2731
+type(
+  string
+)
+"parse_objects.ml" 103 2679 2721 "parse_objects.ml" 103 2679 2731
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 103 2679 2732 "parse_objects.ml" 103 2679 2738
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 103 2679 2739 "parse_objects.ml" 103 2679 2742
+type(
+  string
+)
+"parse_objects.ml" 103 2679 2732 "parse_objects.ml" 103 2679 2742
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 103 2679 2709 "parse_objects.ml" 103 2679 2743
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 103 2679 2745 "parse_objects.ml" 103 2679 2749
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 103 2679 2750 "parse_objects.ml" 103 2679 2752
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 103 2679 2683 "parse_objects.ml" 103 2679 2753
+type(
+  Ast.expr
+)
+"parse_objects.ml" 103 2679 2682 "parse_objects.ml" 103 2679 2754
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 104 2756 2759 "parse_objects.ml" 104 2756 2773
+type(
+  string
+)
+"parse_objects.ml" 102 2656 2658 "parse_objects.ml" 104 2756 2774
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 106 2777 2780 "parse_objects.ml" 106 2777 2798
+type(
+  string
+)
+"parse_objects.ml" 107 2800 2817 "parse_objects.ml" 107 2800 2823
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 107 2800 2824 "parse_objects.ml" 107 2800 2829
+type(
+  string
+)
+"parse_objects.ml" 107 2800 2817 "parse_objects.ml" 107 2800 2829
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 107 2800 2831 "parse_objects.ml" 107 2800 2837
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 107 2800 2838 "parse_objects.ml" 107 2800 2841
+type(
+  string
+)
+"parse_objects.ml" 107 2800 2831 "parse_objects.ml" 107 2800 2841
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 107 2800 2843 "parse_objects.ml" 107 2800 2849
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 107 2800 2850 "parse_objects.ml" 107 2800 2853
+type(
+  string
+)
+"parse_objects.ml" 107 2800 2843 "parse_objects.ml" 107 2800 2853
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 107 2800 2855 "parse_objects.ml" 107 2800 2861
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 107 2800 2862 "parse_objects.ml" 107 2800 2865
+type(
+  string
+)
+"parse_objects.ml" 107 2800 2855 "parse_objects.ml" 107 2800 2865
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 107 2800 2830 "parse_objects.ml" 107 2800 2866
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 107 2800 2868 "parse_objects.ml" 107 2800 2872
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 107 2800 2873 "parse_objects.ml" 107 2800 2875
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 107 2800 2804 "parse_objects.ml" 107 2800 2876
+type(
+  Ast.expr
+)
+"parse_objects.ml" 107 2800 2803 "parse_objects.ml" 107 2800 2877
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 108 2879 2882 "parse_objects.ml" 108 2879 2895
+type(
+  string
+)
+"parse_objects.ml" 106 2777 2779 "parse_objects.ml" 108 2879 2896
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 110 2899 2902 "parse_objects.ml" 110 2899 2921
+type(
+  string
+)
+"parse_objects.ml" 112 2941 2972 "parse_objects.ml" 112 2941 2978
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 112 2941 2979 "parse_objects.ml" 112 2941 2982
+type(
+  string
+)
+"parse_objects.ml" 112 2941 2972 "parse_objects.ml" 112 2941 2982
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 112 2941 2984 "parse_objects.ml" 112 2941 2991
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 112 2941 2993 "parse_objects.ml" 112 2941 3000
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 112 2941 3001 "parse_objects.ml" 112 2941 3002
+type(
+  int
+)
+"parse_objects.ml" 112 2941 2993 "parse_objects.ml" 112 2941 3002
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 112 2941 3003 "parse_objects.ml" 112 2941 3005
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 112 2941 2964 "parse_objects.ml" 112 2941 3006
+type(
+  Ast.expr
+)
+"parse_objects.ml" 112 2941 2963 "parse_objects.ml" 112 2941 3007
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 112 2941 3008 "parse_objects.ml" 112 2941 3010
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 112 2941 2955 "parse_objects.ml" 112 2941 3011
+type(
+  Ast.expr
+)
+"parse_objects.ml" 113 3013 3020 "parse_objects.ml" 113 3013 3026
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 113 3013 3027 "parse_objects.ml" 113 3013 3033
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 113 3013 3034 "parse_objects.ml" 113 3013 3037
+type(
+  string
+)
+"parse_objects.ml" 113 3013 3027 "parse_objects.ml" 113 3013 3037
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 113 3013 3038 "parse_objects.ml" 113 3013 3040
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 112 2941 2947 "parse_objects.ml" 113 3013 3041
+type(
+  Ast.expr
+)
+"parse_objects.ml" 114 3042 3044 "parse_objects.ml" 114 3042 3046
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 114 3042 3048 "parse_objects.ml" 114 3042 3052
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 114 3042 3053 "parse_objects.ml" 114 3042 3055
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 111 2923 2927 "parse_objects.ml" 114 3042 3056
+type(
+  Ast.expr
+)
+"parse_objects.ml" 111 2923 2926 "parse_objects.ml" 114 3042 3057
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 115 3059 3062 "parse_objects.ml" 115 3059 3071
+type(
+  string
+)
+"parse_objects.ml" 110 2899 2901 "parse_objects.ml" 115 3059 3072
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 117 3075 3078 "parse_objects.ml" 117 3075 3104
+type(
+  string
+)
+"parse_objects.ml" 121 3154 3172 "parse_objects.ml" 121 3154 3176
+type(
+  bool
+)
+"parse_objects.ml" 121 3154 3177 "parse_objects.ml" 121 3154 3179
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 121 3154 3180 "parse_objects.ml" 121 3154 3182
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 121 3154 3165 "parse_objects.ml" 121 3154 3183
+type(
+  Ast.expr
+)
+"parse_objects.ml" 121 3154 3185 "parse_objects.ml" 121 3154 3191
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 121 3154 3193 "parse_objects.ml" 121 3154 3199
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 121 3154 3200 "parse_objects.ml" 121 3154 3203
+type(
+  string
+)
+"parse_objects.ml" 121 3154 3193 "parse_objects.ml" 121 3154 3203
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 121 3154 3204 "parse_objects.ml" 121 3154 3206
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 121 3154 3157 "parse_objects.ml" 121 3154 3207
+type(
+  Ast.expr
+)
+"parse_objects.ml" 122 3209 3212 "parse_objects.ml" 122 3209 3214
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 123 3216 3219 "parse_objects.ml" 123 3216 3223
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 123 3216 3224 "parse_objects.ml" 123 3216 3226
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 120 3139 3140 "parse_objects.ml" 123 3216 3227
+type(
+  Ast.expr
+)
+"parse_objects.ml" 124 3229 3230 "parse_objects.ml" 124 3229 3236
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 124 3229 3237 "parse_objects.ml" 124 3229 3243
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 124 3229 3244 "parse_objects.ml" 124 3229 3247
+type(
+  string
+)
+"parse_objects.ml" 124 3229 3237 "parse_objects.ml" 124 3229 3247
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 124 3229 3248 "parse_objects.ml" 124 3229 3250
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 119 3124 3130 "parse_objects.ml" 124 3229 3251
+type(
+  Ast.expr
+)
+"parse_objects.ml" 125 3253 3259 "parse_objects.ml" 125 3253 3261
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 125 3253 3263 "parse_objects.ml" 125 3253 3267
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 125 3253 3268 "parse_objects.ml" 125 3253 3270
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 118 3106 3110 "parse_objects.ml" 125 3253 3271
+type(
+  Ast.expr
+)
+"parse_objects.ml" 118 3106 3109 "parse_objects.ml" 125 3253 3272
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 126 3274 3277 "parse_objects.ml" 126 3274 3285
+type(
+  string
+)
+"parse_objects.ml" 117 3075 3077 "parse_objects.ml" 126 3274 3286
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 128 3289 3292 "parse_objects.ml" 128 3289 3313
+type(
+  string
+)
+"parse_objects.ml" 130 3333 3360 "parse_objects.ml" 130 3333 3366
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 130 3333 3367 "parse_objects.ml" 130 3333 3370
+type(
+  string
+)
+"parse_objects.ml" 130 3333 3360 "parse_objects.ml" 130 3333 3370
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 130 3333 3373 "parse_objects.ml" 130 3333 3379
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 130 3333 3380 "parse_objects.ml" 130 3333 3383
+type(
+  string
+)
+"parse_objects.ml" 130 3333 3373 "parse_objects.ml" 130 3333 3383
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 130 3333 3372 "parse_objects.ml" 130 3333 3384
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 130 3333 3386 "parse_objects.ml" 130 3333 3390
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 130 3333 3391 "parse_objects.ml" 130 3333 3393
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 130 3333 3347 "parse_objects.ml" 130 3333 3394
+type(
+  Ast.expr
+)
+"parse_objects.ml" 131 3396 3403 "parse_objects.ml" 131 3396 3409
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 132 3411 3418 "parse_objects.ml" 132 3411 3424
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 132 3411 3425 "parse_objects.ml" 132 3411 3428
+type(
+  string
+)
+"parse_objects.ml" 132 3411 3418 "parse_objects.ml" 132 3411 3428
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 132 3411 3429 "parse_objects.ml" 132 3411 3431
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 130 3333 3339 "parse_objects.ml" 132 3411 3432
+type(
+  Ast.expr
+)
+"parse_objects.ml" 133 3434 3441 "parse_objects.ml" 133 3434 3447
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 133 3434 3448 "parse_objects.ml" 133 3434 3451
+type(
+  string
+)
+"parse_objects.ml" 133 3434 3441 "parse_objects.ml" 133 3434 3451
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 133 3434 3440 "parse_objects.ml" 133 3434 3452
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 134 3454 3460 "parse_objects.ml" 134 3454 3464
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 134 3454 3465 "parse_objects.ml" 134 3454 3467
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 129 3315 3319 "parse_objects.ml" 135 3468 3473
+type(
+  Ast.expr
+)
+"parse_objects.ml" 129 3315 3318 "parse_objects.ml" 135 3468 3474
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 136 3476 3479 "parse_objects.ml" 136 3476 3490
+type(
+  string
+)
+"parse_objects.ml" 128 3289 3291 "parse_objects.ml" 136 3476 3491
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 138 3494 3497 "parse_objects.ml" 138 3494 3516
+type(
+  string
+)
+"parse_objects.ml" 139 3518 3536 "parse_objects.ml" 139 3518 3542
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 139 3518 3543 "parse_objects.ml" 139 3518 3549
+type(
+  string
+)
+"parse_objects.ml" 139 3518 3536 "parse_objects.ml" 139 3518 3549
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 139 3518 3550 "parse_objects.ml" 139 3518 3552
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 140 3555 3577 "parse_objects.ml" 140 3555 3581
+type(
+  bool
+)
+"parse_objects.ml" 140 3555 3599 "parse_objects.ml" 140 3555 3605
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 140 3555 3606 "parse_objects.ml" 140 3555 3609
+type(
+  string
+)
+"parse_objects.ml" 140 3555 3598 "parse_objects.ml" 140 3555 3610
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 140 3555 3588 "parse_objects.ml" 140 3555 3610
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 140 3555 3587 "parse_objects.ml" 140 3555 3611
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 140 3555 3582 "parse_objects.ml" 140 3555 3611
+type(
+  Ast.formal_param list option
+)
+"parse_objects.ml" 141 3614 3623 "parse_objects.ml" 141 3614 3629
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 141 3614 3630 "parse_objects.ml" 141 3614 3633
+type(
+  string
+)
+"parse_objects.ml" 141 3614 3623 "parse_objects.ml" 141 3614 3633
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 141 3614 3622 "parse_objects.ml" 141 3614 3634
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 141 3614 3635 "parse_objects.ml" 141 3614 3637
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 140 3555 3564 "parse_objects.ml" 141 3614 3639
+type(
+  Ast.expr
+)
+"parse_objects.ml" 140 3555 3559 "parse_objects.ml" 141 3614 3639
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 142 3641 3644 "parse_objects.ml" 142 3641 3646
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 139 3518 3522 "parse_objects.ml" 142 3641 3647
+type(
+  Ast.expr
+)
+"parse_objects.ml" 139 3518 3521 "parse_objects.ml" 142 3641 3648
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 143 3650 3653 "parse_objects.ml" 143 3650 3667
+type(
+  string
+)
+"parse_objects.ml" 138 3494 3496 "parse_objects.ml" 143 3650 3668
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 145 3671 3674 "parse_objects.ml" 145 3671 3693
+type(
+  string
+)
+"parse_objects.ml" 146 3695 3712 "parse_objects.ml" 146 3695 3718
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 146 3695 3719 "parse_objects.ml" 146 3695 3724
+type(
+  string
+)
+"parse_objects.ml" 146 3695 3712 "parse_objects.ml" 146 3695 3724
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 146 3695 3726 "parse_objects.ml" 146 3695 3732
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 146 3695 3733 "parse_objects.ml" 146 3695 3736
+type(
+  string
+)
+"parse_objects.ml" 146 3695 3726 "parse_objects.ml" 146 3695 3736
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 146 3695 3725 "parse_objects.ml" 146 3695 3737
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 147 3740 3761 "parse_objects.ml" 147 3740 3765
+type(
+  bool
+)
+"parse_objects.ml" 147 3740 3783 "parse_objects.ml" 147 3740 3789
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 147 3740 3790 "parse_objects.ml" 147 3740 3793
+type(
+  string
+)
+"parse_objects.ml" 147 3740 3782 "parse_objects.ml" 147 3740 3794
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 147 3740 3772 "parse_objects.ml" 147 3740 3794
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 147 3740 3771 "parse_objects.ml" 147 3740 3795
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 147 3740 3766 "parse_objects.ml" 147 3740 3795
+type(
+  Ast.formal_param list option
+)
+"parse_objects.ml" 148 3798 3806 "parse_objects.ml" 148 3798 3812
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 148 3798 3813 "parse_objects.ml" 148 3798 3816
+type(
+  string
+)
+"parse_objects.ml" 148 3798 3806 "parse_objects.ml" 148 3798 3816
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 148 3798 3805 "parse_objects.ml" 148 3798 3817
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 148 3798 3818 "parse_objects.ml" 148 3798 3820
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 147 3740 3748 "parse_objects.ml" 148 3798 3822
+type(
+  Ast.expr
+)
+"parse_objects.ml" 147 3740 3743 "parse_objects.ml" 148 3798 3822
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 148 3798 3823 "parse_objects.ml" 148 3798 3825
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 146 3695 3699 "parse_objects.ml" 148 3798 3826
+type(
+  Ast.expr
+)
+"parse_objects.ml" 146 3695 3698 "parse_objects.ml" 148 3798 3827
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 149 3829 3832 "parse_objects.ml" 149 3829 3851
+type(
+  string
+)
+"parse_objects.ml" 145 3671 3673 "parse_objects.ml" 149 3829 3852
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 151 3855 3858 "parse_objects.ml" 151 3855 3883
+type(
+  string
+)
+"parse_objects.ml" 152 3885 3902 "parse_objects.ml" 152 3885 3908
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 152 3885 3909 "parse_objects.ml" 152 3885 3914
+type(
+  string
+)
+"parse_objects.ml" 152 3885 3902 "parse_objects.ml" 152 3885 3914
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 152 3885 3916 "parse_objects.ml" 152 3885 3922
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 152 3885 3923 "parse_objects.ml" 152 3885 3926
+type(
+  string
+)
+"parse_objects.ml" 152 3885 3916 "parse_objects.ml" 152 3885 3926
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 152 3885 3915 "parse_objects.ml" 152 3885 3927
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 153 3930 3951 "parse_objects.ml" 153 3930 3955
+type(
+  bool
+)
+"parse_objects.ml" 153 3930 3974 "parse_objects.ml" 153 3930 3980
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 153 3930 3981 "parse_objects.ml" 153 3930 3984
+type(
+  string
+)
+"parse_objects.ml" 153 3930 3973 "parse_objects.ml" 153 3930 3985
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 153 3930 3963 "parse_objects.ml" 153 3930 3985
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 153 3930 3987 "parse_objects.ml" 153 3930 3998
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 153 3930 3962 "parse_objects.ml" 153 3930 3999
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 153 3930 3957 "parse_objects.ml" 153 3930 3999
+type(
+  Ast.formal_param list option
+)
+"parse_objects.ml" 154 4001 4009 "parse_objects.ml" 154 4001 4015
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 154 4001 4016 "parse_objects.ml" 154 4001 4019
+type(
+  string
+)
+"parse_objects.ml" 154 4001 4009 "parse_objects.ml" 154 4001 4019
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 154 4001 4008 "parse_objects.ml" 154 4001 4020
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 154 4001 4021 "parse_objects.ml" 154 4001 4023
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 153 3930 3938 "parse_objects.ml" 154 4001 4025
+type(
+  Ast.expr
+)
+"parse_objects.ml" 153 3930 3933 "parse_objects.ml" 154 4001 4025
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 154 4001 4026 "parse_objects.ml" 154 4001 4028
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 152 3885 3889 "parse_objects.ml" 154 4001 4029
+type(
+  Ast.expr
+)
+"parse_objects.ml" 152 3885 3888 "parse_objects.ml" 154 4001 4030
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 155 4032 4035 "parse_objects.ml" 155 4032 4055
+type(
+  string
+)
+"parse_objects.ml" 151 3855 3857 "parse_objects.ml" 155 4032 4056
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 157 4059 4062 "parse_objects.ml" 157 4059 4083
+type(
+  string
+)
+"parse_objects.ml" 159 4094 4103 "parse_objects.ml" 159 4094 4105
+type(
+  string -> Ast.expr option
+)
+ident(
+  def id "parse_objects.ml" 160 4180 4185 "parse_objects.ml" 163 4375 4446
+)
+"parse_objects.ml" 159 4094 4106 "parse_objects.ml" 159 4094 4107
+type(
+  string
+)
+ident(
+  def x "parse_objects.ml" 159 4094 4110 "parse_objects.ml" 159 4094 4176
+)
+"parse_objects.ml" 159 4094 4127 "parse_objects.ml" 159 4094 4131
+type(
+  bool
+)
+"parse_objects.ml" 159 4094 4149 "parse_objects.ml" 159 4094 4155
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 159 4094 4156 "parse_objects.ml" 159 4094 4157
+type(
+  string
+)
+ident(
+  int_ref x "parse_objects.ml" 159 4094 4106 "parse_objects.ml" 159 4094 4107
+)
+"parse_objects.ml" 159 4094 4148 "parse_objects.ml" 159 4094 4158
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 159 4094 4138 "parse_objects.ml" 159 4094 4158
+type(
+  Ast.formal_param
+)
+"parse_objects.ml" 159 4094 4137 "parse_objects.ml" 159 4094 4159
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 159 4094 4132 "parse_objects.ml" 159 4094 4159
+type(
+  Ast.formal_param list option
+)
+"parse_objects.ml" 159 4094 4162 "parse_objects.ml" 159 4094 4168
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 159 4094 4169 "parse_objects.ml" 159 4094 4170
+type(
+  string
+)
+ident(
+  int_ref x "parse_objects.ml" 159 4094 4106 "parse_objects.ml" 159 4094 4107
+)
+"parse_objects.ml" 159 4094 4162 "parse_objects.ml" 159 4094 4170
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 159 4094 4161 "parse_objects.ml" 159 4094 4171
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 159 4094 4172 "parse_objects.ml" 159 4094 4174
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 159 4094 4114 "parse_objects.ml" 159 4094 4176
+type(
+  Ast.expr
+)
+"parse_objects.ml" 159 4094 4110 "parse_objects.ml" 159 4094 4176
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 160 4180 4189 "parse_objects.ml" 160 4180 4194
+type(
+  Ast.expr
+)
+ident(
+  def first "parse_objects.ml" 161 4250 4255 "parse_objects.ml" 163 4375 4446
+)
+"parse_objects.ml" 160 4180 4210 "parse_objects.ml" 160 4180 4216
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 160 4180 4217 "parse_objects.ml" 160 4180 4220
+type(
+  string
+)
+"parse_objects.ml" 160 4180 4210 "parse_objects.ml" 160 4180 4220
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 160 4180 4223 "parse_objects.ml" 160 4180 4229
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 160 4180 4230 "parse_objects.ml" 160 4180 4233
+type(
+  string
+)
+"parse_objects.ml" 160 4180 4223 "parse_objects.ml" 160 4180 4233
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 160 4180 4222 "parse_objects.ml" 160 4180 4234
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 160 4180 4236 "parse_objects.ml" 160 4180 4238
+type(
+  string -> Ast.expr option
+)
+ident(
+  int_ref id "parse_objects.ml" 159 4094 4103 "parse_objects.ml" 159 4094 4105
+)
+"parse_objects.ml" 160 4180 4239 "parse_objects.ml" 160 4180 4242
+type(
+  string
+)
+"parse_objects.ml" 160 4180 4236 "parse_objects.ml" 160 4180 4242
+call(
+  stack
+)
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 160 4180 4243 "parse_objects.ml" 160 4180 4245
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 160 4180 4197 "parse_objects.ml" 160 4180 4246
+type(
+  Ast.expr
+)
+"parse_objects.ml" 161 4250 4259 "parse_objects.ml" 161 4250 4265
+type(
+  Ast.expr
+)
+ident(
+  def second "parse_objects.ml" 162 4309 4314 "parse_objects.ml" 163 4375 4446
+)
+"parse_objects.ml" 161 4250 4276 "parse_objects.ml" 161 4250 4281
+type(
+  Ast.expr
+)
+ident(
+  int_ref first "parse_objects.ml" 160 4180 4189 "parse_objects.ml" 160 4180 4194
+)
+"parse_objects.ml" 161 4250 4283 "parse_objects.ml" 161 4250 4289
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 161 4250 4291 "parse_objects.ml" 161 4250 4297
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 161 4250 4298 "parse_objects.ml" 161 4250 4301
+type(
+  string
+)
+"parse_objects.ml" 161 4250 4291 "parse_objects.ml" 161 4250 4301
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 161 4250 4302 "parse_objects.ml" 161 4250 4304
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 161 4250 4268 "parse_objects.ml" 161 4250 4305
+type(
+  Ast.expr
+)
+"parse_objects.ml" 162 4309 4318 "parse_objects.ml" 162 4309 4323
+type(
+  Ast.expr
+)
+ident(
+  def third "parse_objects.ml" 163 4375 4382 "parse_objects.ml" 163 4375 4446
+)
+"parse_objects.ml" 162 4309 4339 "parse_objects.ml" 162 4309 4345
+type(
+  Ast.expr
+)
+ident(
+  int_ref second "parse_objects.ml" 161 4250 4259 "parse_objects.ml" 161 4250 4265
+)
+"parse_objects.ml" 162 4309 4348 "parse_objects.ml" 162 4309 4354
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 162 4309 4355 "parse_objects.ml" 162 4309 4358
+type(
+  string
+)
+"parse_objects.ml" 162 4309 4348 "parse_objects.ml" 162 4309 4358
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 162 4309 4347 "parse_objects.ml" 162 4309 4359
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 162 4309 4361 "parse_objects.ml" 162 4309 4363
+type(
+  string -> Ast.expr option
+)
+ident(
+  int_ref id "parse_objects.ml" 159 4094 4103 "parse_objects.ml" 159 4094 4105
+)
+"parse_objects.ml" 162 4309 4364 "parse_objects.ml" 162 4309 4367
+type(
+  string
+)
+"parse_objects.ml" 162 4309 4361 "parse_objects.ml" 162 4309 4367
+call(
+  stack
+)
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 162 4309 4368 "parse_objects.ml" 162 4309 4370
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 162 4309 4326 "parse_objects.ml" 162 4309 4371
+type(
+  Ast.expr
+)
+"parse_objects.ml" 163 4375 4404 "parse_objects.ml" 163 4375 4409
+type(
+  Ast.expr
+)
+ident(
+  int_ref third "parse_objects.ml" 162 4309 4318 "parse_objects.ml" 162 4309 4323
+)
+"parse_objects.ml" 163 4375 4411 "parse_objects.ml" 163 4375 4417
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 163 4375 4419 "parse_objects.ml" 163 4375 4425
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 163 4375 4426 "parse_objects.ml" 163 4375 4429
+type(
+  string
+)
+"parse_objects.ml" 163 4375 4419 "parse_objects.ml" 163 4375 4429
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 163 4375 4430 "parse_objects.ml" 163 4375 4432
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 163 4375 4396 "parse_objects.ml" 163 4375 4433
+type(
+  Ast.expr
+)
+"parse_objects.ml" 163 4375 4434 "parse_objects.ml" 163 4375 4436
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 163 4375 4437 "parse_objects.ml" 163 4375 4441
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 163 4375 4442 "parse_objects.ml" 163 4375 4444
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 163 4375 4383 "parse_objects.ml" 163 4375 4445
+type(
+  Ast.expr
+)
+"parse_objects.ml" 163 4375 4382 "parse_objects.ml" 163 4375 4446
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 162 4309 4314 "parse_objects.ml" 163 4375 4446
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 161 4250 4255 "parse_objects.ml" 163 4375 4446
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 160 4180 4185 "parse_objects.ml" 163 4375 4446
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 158 4085 4088 "parse_objects.ml" 164 4447 4453
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 165 4455 4457 "parse_objects.ml" 165 4455 4486
+type(
+  string
+)
+"parse_objects.ml" 157 4059 4061 "parse_objects.ml" 165 4455 4487
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 167 4490 4493 "parse_objects.ml" 167 4490 4517
+type(
+  string
+)
+"parse_objects.ml" 168 4519 4536 "parse_objects.ml" 168 4519 4542
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 168 4519 4543 "parse_objects.ml" 168 4519 4546
+type(
+  string
+)
+"parse_objects.ml" 168 4519 4536 "parse_objects.ml" 168 4519 4546
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 168 4519 4549 "parse_objects.ml" 168 4519 4555
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 168 4519 4556 "parse_objects.ml" 168 4519 4559
+type(
+  string
+)
+"parse_objects.ml" 168 4519 4549 "parse_objects.ml" 168 4519 4559
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 169 4561 4578 "parse_objects.ml" 169 4561 4584
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 169 4561 4585 "parse_objects.ml" 169 4561 4588
+type(
+  string
+)
+"parse_objects.ml" 169 4561 4578 "parse_objects.ml" 169 4561 4588
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 170 4590 4600 "parse_objects.ml" 170 4590 4609
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 171 4611 4621 "parse_objects.ml" 171 4611 4628
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 171 4611 4629 "parse_objects.ml" 171 4611 4630
+type(
+  int
+)
+"parse_objects.ml" 171 4611 4621 "parse_objects.ml" 171 4611 4630
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 171 4611 4631 "parse_objects.ml" 171 4611 4633
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 169 4561 4570 "parse_objects.ml" 171 4611 4634
+type(
+  Ast.expr
+)
+"parse_objects.ml" 168 4519 4548 "parse_objects.ml" 171 4611 4635
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 173 4641 4644 "parse_objects.ml" 173 4641 4648
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 173 4641 4649 "parse_objects.ml" 173 4641 4651
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 168 4519 4523 "parse_objects.ml" 173 4641 4652
+type(
+  Ast.expr
+)
+"parse_objects.ml" 168 4519 4522 "parse_objects.ml" 173 4641 4653
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 174 4655 4658 "parse_objects.ml" 174 4655 4668
+type(
+  string
+)
+"parse_objects.ml" 167 4490 4492 "parse_objects.ml" 174 4655 4669
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 176 4672 4675 "parse_objects.ml" 176 4672 4694
+type(
+  string
+)
+"parse_objects.ml" 177 4696 4712 "parse_objects.ml" 177 4696 4718
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 177 4696 4719 "parse_objects.ml" 177 4696 4722
+type(
+  string
+)
+"parse_objects.ml" 177 4696 4712 "parse_objects.ml" 177 4696 4722
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 178 4724 4741 "parse_objects.ml" 178 4724 4749
+type(
+  Ast.unary_op
+)
+"parse_objects.ml" 179 4751 4773 "parse_objects.ml" 179 4751 4779
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 179 4751 4780 "parse_objects.ml" 179 4751 4783
+type(
+  string
+)
+"parse_objects.ml" 179 4751 4773 "parse_objects.ml" 179 4751 4783
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 179 4751 4785 "parse_objects.ml" 179 4751 4791
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 179 4751 4792 "parse_objects.ml" 179 4751 4795
+type(
+  string
+)
+"parse_objects.ml" 179 4751 4785 "parse_objects.ml" 179 4751 4795
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 179 4751 4784 "parse_objects.ml" 179 4751 4796
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 179 4751 4797 "parse_objects.ml" 179 4751 4801
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 179 4751 4802 "parse_objects.ml" 179 4751 4804
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 179 4751 4760 "parse_objects.ml" 179 4751 4805
+type(
+  Ast.expr
+)
+"parse_objects.ml" 179 4751 4806 "parse_objects.ml" 179 4751 4808
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 178 4724 4733 "parse_objects.ml" 179 4751 4809
+type(
+  Ast.expr
+)
+"parse_objects.ml" 178 4724 4732 "parse_objects.ml" 179 4751 4810
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 180 4812 4820 "parse_objects.ml" 180 4812 4824
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 180 4812 4825 "parse_objects.ml" 180 4812 4827
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 177 4696 4699 "parse_objects.ml" 180 4812 4828
+type(
+  Ast.expr
+)
+"parse_objects.ml" 177 4696 4698 "parse_objects.ml" 180 4812 4829
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 181 4831 4833 "parse_objects.ml" 181 4831 4843
+type(
+  string
+)
+"parse_objects.ml" 176 4672 4674 "parse_objects.ml" 181 4831 4844
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 183 4847 4850 "parse_objects.ml" 183 4847 4868
+type(
+  string
+)
+"parse_objects.ml" 184 4870 4887 "parse_objects.ml" 184 4870 4893
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 184 4870 4894 "parse_objects.ml" 184 4870 4897
+type(
+  string
+)
+"parse_objects.ml" 184 4870 4887 "parse_objects.ml" 184 4870 4897
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 184 4870 4912 "parse_objects.ml" 184 4870 4918
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 184 4870 4919 "parse_objects.ml" 184 4870 4922
+type(
+  string
+)
+"parse_objects.ml" 184 4870 4912 "parse_objects.ml" 184 4870 4922
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 184 4870 4925 "parse_objects.ml" 184 4870 4931
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 184 4870 4932 "parse_objects.ml" 184 4870 4935
+type(
+  string
+)
+"parse_objects.ml" 184 4870 4925 "parse_objects.ml" 184 4870 4935
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 184 4870 4924 "parse_objects.ml" 184 4870 4936
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 184 4870 4937 "parse_objects.ml" 184 4870 4941
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 184 4870 4942 "parse_objects.ml" 184 4870 4944
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 184 4870 4899 "parse_objects.ml" 184 4870 4945
+type(
+  Ast.expr
+)
+"parse_objects.ml" 184 4870 4898 "parse_objects.ml" 184 4870 4946
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 185 4948 4965 "parse_objects.ml" 185 4948 4969
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 185 4948 4970 "parse_objects.ml" 185 4948 4972
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 184 4870 4874 "parse_objects.ml" 185 4948 4973
+type(
+  Ast.expr
+)
+"parse_objects.ml" 184 4870 4873 "parse_objects.ml" 185 4948 4974
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 186 4976 4979 "parse_objects.ml" 186 4976 4986
+type(
+  string
+)
+"parse_objects.ml" 183 4847 4849 "parse_objects.ml" 187 4987 4990
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 189 4993 4996 "parse_objects.ml" 189 4993 5023
+type(
+  string
+)
+"parse_objects.ml" 190 5025 5042 "parse_objects.ml" 190 5025 5048
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 190 5025 5049 "parse_objects.ml" 190 5025 5052
+type(
+  string
+)
+"parse_objects.ml" 190 5025 5042 "parse_objects.ml" 190 5025 5052
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 190 5025 5067 "parse_objects.ml" 190 5025 5073
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 190 5025 5074 "parse_objects.ml" 190 5025 5077
+type(
+  string
+)
+"parse_objects.ml" 190 5025 5067 "parse_objects.ml" 190 5025 5077
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 190 5025 5080 "parse_objects.ml" 190 5025 5086
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 190 5025 5087 "parse_objects.ml" 190 5025 5090
+type(
+  string
+)
+"parse_objects.ml" 190 5025 5080 "parse_objects.ml" 190 5025 5090
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 190 5025 5091 "parse_objects.ml" 190 5025 5098
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 190 5025 5099 "parse_objects.ml" 190 5025 5100
+type(
+  int
+)
+"parse_objects.ml" 190 5025 5091 "parse_objects.ml" 190 5025 5100
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 190 5025 5079 "parse_objects.ml" 190 5025 5101
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 190 5025 5102 "parse_objects.ml" 190 5025 5106
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 190 5025 5107 "parse_objects.ml" 190 5025 5109
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 190 5025 5054 "parse_objects.ml" 190 5025 5110
+type(
+  Ast.expr
+)
+"parse_objects.ml" 190 5025 5053 "parse_objects.ml" 190 5025 5111
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 191 5113 5130 "parse_objects.ml" 191 5113 5134
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 191 5113 5135 "parse_objects.ml" 191 5113 5137
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 190 5025 5029 "parse_objects.ml" 191 5113 5138
+type(
+  Ast.expr
+)
+"parse_objects.ml" 190 5025 5028 "parse_objects.ml" 191 5113 5139
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 192 5141 5144 "parse_objects.ml" 192 5141 5154
+type(
+  string
+)
+"parse_objects.ml" 189 4993 4995 "parse_objects.ml" 193 5155 5158
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 195 5161 5164 "parse_objects.ml" 195 5161 5182
+type(
+  string
+)
+"parse_objects.ml" 196 5184 5196 "parse_objects.ml" 196 5184 5202
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 196 5184 5203 "parse_objects.ml" 196 5184 5206
+type(
+  string
+)
+"parse_objects.ml" 196 5184 5196 "parse_objects.ml" 196 5184 5206
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 196 5184 5207 "parse_objects.ml" 196 5184 5216
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 196 5184 5225 "parse_objects.ml" 196 5184 5227
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 196 5184 5228 "parse_objects.ml" 196 5184 5230
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 196 5184 5217 "parse_objects.ml" 196 5184 5231
+type(
+  Ast.expr
+)
+"parse_objects.ml" 196 5184 5232 "parse_objects.ml" 196 5184 5234
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 196 5184 5188 "parse_objects.ml" 196 5184 5235
+type(
+  Ast.expr
+)
+"parse_objects.ml" 197 5237 5262 "parse_objects.ml" 197 5237 5268
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 197 5237 5269 "parse_objects.ml" 197 5237 5272
+type(
+  string
+)
+"parse_objects.ml" 197 5237 5262 "parse_objects.ml" 197 5237 5272
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 197 5237 5273 "parse_objects.ml" 197 5237 5279
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 197 5237 5291 "parse_objects.ml" 197 5237 5298
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 197 5237 5299 "parse_objects.ml" 197 5237 5301
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 197 5237 5280 "parse_objects.ml" 197 5237 5302
+type(
+  Ast.expr
+)
+"parse_objects.ml" 197 5237 5303 "parse_objects.ml" 197 5237 5305
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 197 5237 5254 "parse_objects.ml" 197 5237 5306
+type(
+  Ast.expr
+)
+"parse_objects.ml" 198 5308 5312 "parse_objects.ml" 198 5308 5319
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 198 5308 5320 "parse_objects.ml" 198 5308 5324
+type(
+  int
+)
+"parse_objects.ml" 198 5308 5312 "parse_objects.ml" 198 5308 5324
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 198 5308 5325 "parse_objects.ml" 198 5308 5332
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 198 5308 5333 "parse_objects.ml" 198 5308 5334
+type(
+  int
+)
+"parse_objects.ml" 198 5308 5325 "parse_objects.ml" 198 5308 5334
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 198 5308 5311 "parse_objects.ml" 198 5308 5335
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 199 5337 5340 "parse_objects.ml" 199 5337 5344
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 199 5337 5345 "parse_objects.ml" 199 5337 5347
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 197 5237 5241 "parse_objects.ml" 199 5337 5348
+type(
+  Ast.expr
+)
+"parse_objects.ml" 196 5184 5187 "parse_objects.ml" 199 5337 5349
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 200 5351 5354 "parse_objects.ml" 200 5351 5368
+type(
+  string
+)
+"parse_objects.ml" 195 5161 5163 "parse_objects.ml" 200 5351 5369
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 202 5372 5375 "parse_objects.ml" 202 5372 5393
+type(
+  string
+)
+"parse_objects.ml" 203 5395 5428 "parse_objects.ml" 203 5395 5434
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 203 5395 5435 "parse_objects.ml" 203 5395 5438
+type(
+  string
+)
+"parse_objects.ml" 203 5395 5428 "parse_objects.ml" 203 5395 5438
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 203 5395 5439 "parse_objects.ml" 203 5395 5445
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 203 5395 5457 "parse_objects.ml" 203 5395 5464
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 203 5395 5465 "parse_objects.ml" 203 5395 5467
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 203 5395 5446 "parse_objects.ml" 203 5395 5468
+type(
+  Ast.expr
+)
+"parse_objects.ml" 203 5395 5469 "parse_objects.ml" 203 5395 5471
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 203 5395 5420 "parse_objects.ml" 203 5395 5472
+type(
+  Ast.expr
+)
+"parse_objects.ml" 204 5474 5479 "parse_objects.ml" 204 5474 5486
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 204 5474 5487 "parse_objects.ml" 204 5474 5491
+type(
+  int
+)
+"parse_objects.ml" 204 5474 5479 "parse_objects.ml" 204 5474 5491
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 204 5474 5492 "parse_objects.ml" 204 5474 5499
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 204 5474 5500 "parse_objects.ml" 204 5474 5501
+type(
+  int
+)
+"parse_objects.ml" 204 5474 5492 "parse_objects.ml" 204 5474 5501
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 204 5474 5478 "parse_objects.ml" 204 5474 5502
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 205 5504 5508 "parse_objects.ml" 205 5504 5512
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 205 5504 5513 "parse_objects.ml" 205 5504 5515
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 203 5395 5407 "parse_objects.ml" 205 5504 5516
+type(
+  Ast.expr
+)
+"parse_objects.ml" 206 5518 5523 "parse_objects.ml" 206 5518 5532
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 207 5534 5539 "parse_objects.ml" 207 5534 5546
+type(
+  int -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_num
+)
+"parse_objects.ml" 207 5534 5547 "parse_objects.ml" 207 5534 5548
+type(
+  int
+)
+"parse_objects.ml" 207 5534 5539 "parse_objects.ml" 207 5534 5548
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 207 5534 5549 "parse_objects.ml" 207 5534 5551
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 203 5395 5399 "parse_objects.ml" 207 5534 5552
+type(
+  Ast.expr
+)
+"parse_objects.ml" 203 5395 5398 "parse_objects.ml" 207 5534 5553
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 208 5555 5558 "parse_objects.ml" 208 5555 5571
+type(
+  string
+)
+"parse_objects.ml" 202 5372 5374 "parse_objects.ml" 208 5555 5572
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 210 5575 5578 "parse_objects.ml" 210 5575 5589
+type(
+  string
+)
+"parse_objects.ml" 213 5624 5639 "parse_objects.ml" 213 5624 5647
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_objects.ml" 213 5624 5648 "parse_objects.ml" 213 5624 5651
+type(
+  string
+)
+"parse_objects.ml" 213 5624 5639 "parse_objects.ml" 213 5624 5651
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 213 5624 5652 "parse_objects.ml" 213 5624 5658
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 213 5624 5670 "parse_objects.ml" 213 5624 5677
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 213 5624 5678 "parse_objects.ml" 213 5624 5680
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 213 5624 5659 "parse_objects.ml" 213 5624 5681
+type(
+  Ast.expr
+)
+"parse_objects.ml" 213 5624 5682 "parse_objects.ml" 213 5624 5684
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 213 5624 5631 "parse_objects.ml" 213 5624 5685
+type(
+  Ast.expr
+)
+"parse_objects.ml" 214 5687 5695 "parse_objects.ml" 214 5687 5703
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.sing_str
+)
+"parse_objects.ml" 214 5687 5704 "parse_objects.ml" 214 5687 5707
+type(
+  string
+)
+"parse_objects.ml" 214 5687 5695 "parse_objects.ml" 214 5687 5707
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 214 5687 5694 "parse_objects.ml" 214 5687 5708
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 215 5710 5717 "parse_objects.ml" 215 5710 5721
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 215 5710 5722 "parse_objects.ml" 215 5710 5724
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 212 5605 5610 "parse_objects.ml" 215 5710 5725
+type(
+  Ast.expr
+)
+"parse_objects.ml" 211 5591 5603 "parse_objects.ml" 215 5710 5726
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 215 5710 5727 "parse_objects.ml" 215 5710 5729
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 211 5591 5595 "parse_objects.ml" 215 5710 5730
+type(
+  Ast.expr
+)
+"parse_objects.ml" 211 5591 5594 "parse_objects.ml" 215 5710 5731
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 216 5733 5736 "parse_objects.ml" 216 5733 5749
+type(
+  string
+)
+"parse_objects.ml" 210 5575 5577 "parse_objects.ml" 216 5733 5750
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 218 5753 5756 "parse_objects.ml" 218 5753 5778
+type(
+  string
+)
+"parse_objects.ml" 219 5780 5795 "parse_objects.ml" 219 5780 5801
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 219 5780 5802 "parse_objects.ml" 219 5780 5805
+type(
+  string
+)
+"parse_objects.ml" 219 5780 5795 "parse_objects.ml" 219 5780 5805
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 219 5780 5806 "parse_objects.ml" 219 5780 5810
+type(
+  Ast.inheritance_kind option
+)
+"parse_objects.ml" 220 5813 5828 "parse_objects.ml" 220 5813 5837
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 220 5813 5852 "parse_objects.ml" 220 5813 5858
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 220 5813 5859 "parse_objects.ml" 220 5813 5866
+type(
+  string
+)
+"parse_objects.ml" 220 5813 5851 "parse_objects.ml" 220 5813 5867
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 220 5813 5868 "parse_objects.ml" 220 5813 5870
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 220 5813 5872 "parse_objects.ml" 220 5813 5881
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 220 5813 5882 "parse_objects.ml" 220 5813 5884
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 220 5813 5872 "parse_objects.ml" 220 5813 5884
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 220 5813 5885 "parse_objects.ml" 220 5813 5887
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 220 5813 5839 "parse_objects.ml" 220 5813 5888
+type(
+  Ast.expr
+)
+"parse_objects.ml" 220 5813 5838 "parse_objects.ml" 220 5813 5889
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 220 5813 5828 "parse_objects.ml" 220 5813 5889
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 221 5891 5906 "parse_objects.ml" 221 5891 5908
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 219 5780 5784 "parse_objects.ml" 221 5891 5909
+type(
+  Ast.expr
+)
+"parse_objects.ml" 224 5944 5973 "parse_objects.ml" 224 5944 5979
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 224 5944 5980 "parse_objects.ml" 224 5944 5983
+type(
+  string
+)
+"parse_objects.ml" 224 5944 5973 "parse_objects.ml" 224 5944 5983
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 224 5944 5984 "parse_objects.ml" 224 5944 5990
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 224 5944 5991 "parse_objects.ml" 224 5944 5997
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 224 5944 5998 "parse_objects.ml" 224 5944 6003
+type(
+  string
+)
+"parse_objects.ml" 224 5944 5991 "parse_objects.ml" 224 5944 6003
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 224 5944 6004 "parse_objects.ml" 224 5944 6006
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 224 5944 5965 "parse_objects.ml" 224 5944 6007
+type(
+  Ast.expr
+)
+"parse_objects.ml" 224 5944 6008 "parse_objects.ml" 224 5944 6010
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 224 5944 6011 "parse_objects.ml" 224 5944 6015
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 224 5944 6016 "parse_objects.ml" 224 5944 6018
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 224 5944 5952 "parse_objects.ml" 224 5944 6019
+type(
+  Ast.expr
+)
+"parse_objects.ml" 225 6021 6029 "parse_objects.ml" 225 6021 6035
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 226 6037 6045 "parse_objects.ml" 226 6037 6051
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 226 6037 6052 "parse_objects.ml" 226 6037 6059
+type(
+  string
+)
+"parse_objects.ml" 226 6037 6045 "parse_objects.ml" 226 6037 6059
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 226 6037 6060 "parse_objects.ml" 226 6037 6062
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 223 5929 5935 "parse_objects.ml" 226 6037 6063
+type(
+  Ast.expr
+)
+"parse_objects.ml" 227 6065 6071 "parse_objects.ml" 227 6065 6073
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 227 6065 6074 "parse_objects.ml" 227 6065 6078
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 227 6065 6079 "parse_objects.ml" 227 6065 6081
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 222 5911 5915 "parse_objects.ml" 227 6065 6082
+type(
+  Ast.expr
+)
+"parse_objects.ml" 219 5780 5783 "parse_objects.ml" 228 6084 6088
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 229 6090 6093 "parse_objects.ml" 229 6090 6136
+type(
+  string
+)
+"parse_objects.ml" 218 5753 5755 "parse_objects.ml" 230 6137 6140
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 232 6143 6146 "parse_objects.ml" 232 6143 6166
+type(
+  string
+)
+"parse_objects.ml" 233 6168 6183 "parse_objects.ml" 233 6168 6189
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 233 6168 6190 "parse_objects.ml" 233 6168 6193
+type(
+  string
+)
+"parse_objects.ml" 233 6168 6183 "parse_objects.ml" 233 6168 6193
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 233 6168 6194 "parse_objects.ml" 233 6168 6198
+type(
+  Ast.inheritance_kind option
+)
+"parse_objects.ml" 234 6201 6216 "parse_objects.ml" 234 6201 6225
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 234 6201 6249 "parse_objects.ml" 234 6201 6256
+type(
+  Ast.lit_kind
+)
+"parse_objects.ml" 234 6201 6257 "parse_objects.ml" 234 6201 6259
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 234 6201 6239 "parse_objects.ml" 234 6201 6260
+type(
+  Ast.expr
+)
+"parse_objects.ml" 234 6201 6261 "parse_objects.ml" 234 6201 6263
+type(
+  Ast.formal_param list
+)
+"parse_objects.ml" 234 6201 6265 "parse_objects.ml" 234 6201 6274
+type(
+  Ast.expr list -> Ast.body_exn
+)
+ident(
+  ext_ref Test_helper.just_body
+)
+"parse_objects.ml" 234 6201 6275 "parse_objects.ml" 234 6201 6277
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 234 6201 6265 "parse_objects.ml" 234 6201 6277
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 234 6201 6278 "parse_objects.ml" 234 6201 6280
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 234 6201 6227 "parse_objects.ml" 234 6201 6281
+type(
+  Ast.expr
+)
+"parse_objects.ml" 234 6201 6226 "parse_objects.ml" 234 6201 6282
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 234 6201 6216 "parse_objects.ml" 234 6201 6282
+call(
+  stack
+)
+type(
+  Ast.body_exn
+)
+"parse_objects.ml" 235 6284 6299 "parse_objects.ml" 235 6284 6301
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 233 6168 6172 "parse_objects.ml" 235 6284 6302
+type(
+  Ast.expr
+)
+"parse_objects.ml" 238 6337 6366 "parse_objects.ml" 238 6337 6372
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 238 6337 6373 "parse_objects.ml" 238 6337 6376
+type(
+  string
+)
+"parse_objects.ml" 238 6337 6366 "parse_objects.ml" 238 6337 6376
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 238 6337 6377 "parse_objects.ml" 238 6337 6383
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 238 6337 6384 "parse_objects.ml" 238 6337 6390
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Test_helper.ast_id
+)
+"parse_objects.ml" 238 6337 6391 "parse_objects.ml" 238 6337 6396
+type(
+  string
+)
+"parse_objects.ml" 238 6337 6384 "parse_objects.ml" 238 6337 6396
+call(
+  stack
+)
+type(
+  Ast.expr
+)
+"parse_objects.ml" 238 6337 6397 "parse_objects.ml" 238 6337 6399
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 238 6337 6358 "parse_objects.ml" 238 6337 6400
+type(
+  Ast.expr
+)
+"parse_objects.ml" 238 6337 6401 "parse_objects.ml" 238 6337 6403
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 238 6337 6404 "parse_objects.ml" 238 6337 6408
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 238 6337 6409 "parse_objects.ml" 238 6337 6411
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 238 6337 6345 "parse_objects.ml" 238 6337 6412
+type(
+  Ast.expr
+)
+"parse_objects.ml" 239 6414 6422 "parse_objects.ml" 239 6414 6428
+type(
+  Ast.binary_op
+)
+"parse_objects.ml" 240 6430 6448 "parse_objects.ml" 240 6430 6455
+type(
+  Ast.lit_kind
+)
+"parse_objects.ml" 240 6430 6456 "parse_objects.ml" 240 6430 6458
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 240 6430 6438 "parse_objects.ml" 240 6430 6459
+type(
+  Ast.expr
+)
+"parse_objects.ml" 240 6430 6460 "parse_objects.ml" 240 6430 6462
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 237 6322 6328 "parse_objects.ml" 240 6430 6463
+type(
+  Ast.expr
+)
+"parse_objects.ml" 241 6465 6471 "parse_objects.ml" 241 6465 6473
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 241 6465 6474 "parse_objects.ml" 241 6465 6478
+type(
+  Ast.expr option
+)
+"parse_objects.ml" 241 6465 6479 "parse_objects.ml" 241 6465 6481
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Test_helper.dp
+)
+"parse_objects.ml" 236 6304 6308 "parse_objects.ml" 241 6465 6482
+type(
+  Ast.expr
+)
+"parse_objects.ml" 233 6168 6171 "parse_objects.ml" 242 6484 6488
+type(
+  Ast.expr list
+)
+"parse_objects.ml" 243 6490 6493 "parse_objects.ml" 243 6490 6532
+type(
+  string
+)
+"parse_objects.ml" 232 6143 6145 "parse_objects.ml" 244 6533 6536
+type(
+  string * Ast.expr list * string
+)
+"parse_objects.ml" 7 40 52 "parse_objects.ml" 245 6538 6539
+type(
+  (string * Ast.expr list * string) list
+)
+"parse_objects.ml" 247 6541 6545 "parse_objects.ml" 247 6541 6550
+type(
+  OUnit.test
+)
+ident(
+  def suite "parse_objects.ml" 248 6579 6607 --
+)
+"parse_objects.ml" 247 6541 6553 "parse_objects.ml" 247 6541 6573
+type(
+  string
+)
+"parse_objects.ml" 247 6541 6574 "parse_objects.ml" 247 6541 6578
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"parse_objects.ml" 248 6579 6581 "parse_objects.ml" 248 6579 6589
+type(
+  (string * Ast.ast * string -> OUnit.test) ->
+  (string * Ast.ast * string) list -> OUnit.test list
+)
+ident(
+  ext_ref List.map
+)
+"parse_objects.ml" 248 6579 6590 "parse_objects.ml" 248 6579 6601
+type(
+  string * Ast.ast * string -> OUnit.test
+)
+ident(
+  ext_ref Test_helper.simple_test
+)
+"parse_objects.ml" 248 6579 6602 "parse_objects.ml" 248 6579 6607
+type(
+  (string * Ast.ast * string) list
+)
+ident(
+  int_ref tests "parse_objects.ml" 7 40 44 "parse_objects.ml" 7 40 49
+)
+"parse_objects.ml" 248 6579 6581 "parse_objects.ml" 248 6579 6607
+call(
+  stack
+)
+type(
+  OUnit.test list
+)
+"parse_objects.ml" 247 6541 6553 "parse_objects.ml" 248 6579 6607
+call(
+  stack
+)
+type(
+  OUnit.test
+)

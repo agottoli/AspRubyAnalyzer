@@ -1,0 +1,177 @@
+"type_progs.ml" 8 78 84 "type_progs.ml" 8 78 87
+type(
+  string
+)
+ident(
+  def dir "type_progs.ml" 9 99 101 "type_progs.ml" 13 208 211
+)
+"type_progs.ml" 8 78 90 "type_progs.ml" 8 78 98
+type(
+  string
+)
+"type_progs.ml" 9 99 105 "type_progs.ml" 9 99 116
+type(
+  string
+)
+ident(
+  def success_dir "type_progs.ml" 10 136 138 "type_progs.ml" 13 208 211
+)
+"type_progs.ml" 9 99 119 "type_progs.ml" 9 99 135
+type(
+  string
+)
+"type_progs.ml" 10 136 142 "type_progs.ml" 10 136 150
+type(
+  string
+)
+ident(
+  def fail_dir "type_progs.ml" 11 167 169 "type_progs.ml" 13 208 211
+)
+"type_progs.ml" 10 136 153 "type_progs.ml" 10 136 166
+type(
+  string
+)
+"type_progs.ml" 11 167 173 "type_progs.ml" 11 167 178
+type(
+  'a -> unit
+)
+ident(
+  def setup "type_progs.ml" 12 186 188 "type_progs.ml" 13 208 211
+)
+"type_progs.ml" 11 167 179 "type_progs.ml" 11 167 180
+type(
+  'a
+)
+"type_progs.ml" 11 167 183 "type_progs.ml" 11 167 185
+type(
+  unit
+)
+"type_progs.ml" 12 186 192 "type_progs.ml" 12 186 200
+type(
+  'b -> unit
+)
+ident(
+  def teardown "type_progs.ml" 12 186 207 "type_progs.ml" 13 208 211
+)
+"type_progs.ml" 12 186 201 "type_progs.ml" 12 186 202
+type(
+  'b
+)
+"type_progs.ml" 12 186 205 "type_progs.ml" 12 186 207
+type(
+  unit
+)
+"type_progs.ml" 16 240 246 "type_progs.ml" 16 240 249
+type(
+  string
+)
+ident(
+  def dir "type_progs.ml" 17 261 263 "type_progs.ml" 21 382 385
+)
+"type_progs.ml" 16 240 252 "type_progs.ml" 16 240 260
+type(
+  string
+)
+"type_progs.ml" 17 261 267 "type_progs.ml" 17 261 278
+type(
+  string
+)
+ident(
+  def success_dir "type_progs.ml" 18 304 306 "type_progs.ml" 21 382 385
+)
+"type_progs.ml" 17 261 281 "type_progs.ml" 17 261 303
+type(
+  string
+)
+"type_progs.ml" 18 304 310 "type_progs.ml" 18 304 318
+type(
+  string
+)
+ident(
+  def fail_dir "type_progs.ml" 19 341 343 "type_progs.ml" 21 382 385
+)
+"type_progs.ml" 18 304 321 "type_progs.ml" 18 304 340
+type(
+  string
+)
+"type_progs.ml" 19 341 347 "type_progs.ml" 19 341 352
+type(
+  'a -> unit
+)
+ident(
+  def setup "type_progs.ml" 20 360 362 "type_progs.ml" 21 382 385
+)
+"type_progs.ml" 19 341 353 "type_progs.ml" 19 341 354
+type(
+  'a
+)
+"type_progs.ml" 19 341 357 "type_progs.ml" 19 341 359
+type(
+  unit
+)
+"type_progs.ml" 20 360 366 "type_progs.ml" 20 360 374
+type(
+  'b -> unit
+)
+ident(
+  def teardown "type_progs.ml" 20 360 381 "type_progs.ml" 21 382 385
+)
+"type_progs.ml" 20 360 375 "type_progs.ml" 20 360 376
+type(
+  'b
+)
+"type_progs.ml" 20 360 379 "type_progs.ml" 20 360 381
+type(
+  unit
+)
+"type_progs.ml" 23 387 406 "type_progs.ml" 23 387 431
+call(
+  stack
+)
+"type_progs.ml" 24 432 452 "type_progs.ml" 24 432 478
+call(
+  stack
+)
+"type_progs.ml" 26 480 484 "type_progs.ml" 26 480 489
+type(
+  OUnit.test
+)
+ident(
+  def suite "type_progs.ml" 29 551 554 --
+)
+"type_progs.ml" 26 480 492 "type_progs.ml" 26 480 504
+type(
+  string
+)
+"type_progs.ml" 26 480 505 "type_progs.ml" 26 480 509
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"type_progs.ml" 27 510 513 "type_progs.ml" 27 510 528
+type(
+  OUnit.test
+)
+ident(
+  ext_ref TypeTests.suite
+)
+"type_progs.ml" 28 530 533 "type_progs.ml" 28 530 549
+type(
+  OUnit.test
+)
+ident(
+  ext_ref AnnotTests.suite
+)
+"type_progs.ml" 27 510 512 "type_progs.ml" 29 551 554
+type(
+  OUnit.test list
+)
+"type_progs.ml" 26 480 492 "type_progs.ml" 29 551 554
+call(
+  stack
+)
+type(
+  OUnit.test
+)

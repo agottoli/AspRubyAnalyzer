@@ -1,0 +1,1495 @@
+"method_missing.ml" 11 127 131 "method_missing.ml" 11 127 135
+type(
+  string
+)
+ident(
+  def name "method_missing.ml" 13 156 156 --
+)
+"method_missing.ml" 11 127 138 "method_missing.ml" 11 127 154
+type(
+  string
+)
+"method_missing.ml" 13 156 160 "method_missing.ml" 13 156 174
+type(
+  'a -> 'a
+)
+ident(
+  def instrument_ast "method_missing.ml" 15 182 182 --
+)
+"method_missing.ml" 13 156 175 "method_missing.ml" 13 156 176
+type(
+  'a
+)
+ident(
+  def e "method_missing.ml" 13 156 179 "method_missing.ml" 13 156 180
+)
+"method_missing.ml" 13 156 179 "method_missing.ml" 13 156 180
+type(
+  'a
+)
+ident(
+  int_ref e "method_missing.ml" 13 156 175 "method_missing.ml" 13 156 176
+)
+"method_missing.ml" 19 266 270 "method_missing.ml" 19 266 275
+type(
+  Cfg.pos -> string -> Cfg.stmt
+)
+ident(
+  def watch "method_missing.ml" 29 624 624 --
+)
+"method_missing.ml" 19 266 276 "method_missing.ml" 19 266 279
+type(
+  Cfg.pos
+)
+ident(
+  def pos "method_missing.ml" 19 266 280 "method_missing.ml" 27 570 621
+)
+"method_missing.ml" 19 266 280 "method_missing.ml" 19 266 284
+type(
+  string
+)
+ident(
+  def name "method_missing.ml" 20 288 290 "method_missing.ml" 27 570 621
+)
+"method_missing.ml" 20 288 294 "method_missing.ml" 20 288 298
+type(
+  [> Cfg.identifier ]
+)
+"method_missing.ml" 20 288 301 "method_missing.ml" 20 288 314
+type(
+  string list -> ([> Cfg.identifier ] as 'a)
+)
+ident(
+  ext_ref C.access_path
+)
+"method_missing.ml" 20 288 316 "method_missing.ml" 20 288 323
+type(
+  string
+)
+"method_missing.ml" 20 288 324 "method_missing.ml" 20 288 333
+type(
+  string
+)
+"method_missing.ml" 20 288 334 "method_missing.ml" 20 288 350
+type(
+  string
+)
+"method_missing.ml" 20 288 315 "method_missing.ml" 20 288 351
+type(
+  string list
+)
+"method_missing.ml" 20 288 301 "method_missing.ml" 20 288 351
+call(
+  stack
+)
+type(
+  'a
+)
+"method_missing.ml" 21 355 361 "method_missing.ml" 21 355 365
+type(
+  [> `ID_False
+   | `ID_Nil
+   | `ID_Scope of Cfg.identifier * string
+   | `ID_Self
+   | `ID_True
+   | `ID_UScope of string
+   | `ID_Var of Cfg.var_kind * string
+   | `Lit_Array of Cfg.star_expr list
+   | `Lit_Atom of string
+   | `Lit_BigNum of Big_int.big_int
+   | `Lit_FixNum of int
+   | `Lit_Float of string * float
+   | `Lit_Hash of (Cfg.expr * Cfg.expr) list
+   | `Lit_Range of bool * Cfg.expr * Cfg.expr
+   | `Lit_Regexp of string * string
+   | `Lit_String of string ]
+  list
+)
+"method_missing.ml" 21 355 369 "method_missing.ml" 21 355 374
+type(
+  string ->
+  ([> `ID_False
+    | `ID_Nil
+    | `ID_Scope of Cfg.identifier * string
+    | `ID_Self
+    | `ID_True
+    | `ID_UScope of string
+    | `ID_Var of Cfg.var_kind * string
+    | `Lit_Array of Cfg.star_expr list
+    | `Lit_Atom of string
+    | `Lit_BigNum of Big_int.big_int
+    | `Lit_FixNum of int
+    | `Lit_Float of string * float
+    | `Lit_Hash of (Cfg.expr * Cfg.expr) list
+    | `Lit_Range of bool * Cfg.expr * Cfg.expr
+    | `Lit_Regexp of string * string
+    | `Lit_String of string ]
+   as 'b)
+)
+ident(
+  ext_ref C.str
+)
+"method_missing.ml" 21 355 376 "method_missing.ml" 21 355 406
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"method_missing.ml" 21 355 407 "method_missing.ml" 21 355 410
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "method_missing.ml" 19 266 276 "method_missing.ml" 19 266 279
+)
+"method_missing.ml" 21 355 407 "method_missing.ml" 21 355 427
+type(
+  string
+)
+"method_missing.ml" 21 355 375 "method_missing.ml" 21 355 428
+call(
+  stack
+)
+type(
+  string
+)
+"method_missing.ml" 21 355 369 "method_missing.ml" 21 355 428
+call(
+  stack
+)
+type(
+  'b
+)
+"method_missing.ml" 22 431 445 "method_missing.ml" 22 431 450
+type(
+  int -> 'b
+)
+ident(
+  ext_ref C.num
+)
+"method_missing.ml" 22 431 451 "method_missing.ml" 22 431 454
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "method_missing.ml" 19 266 276 "method_missing.ml" 19 266 279
+)
+"method_missing.ml" 22 431 451 "method_missing.ml" 22 431 470
+type(
+  int
+)
+"method_missing.ml" 22 431 445 "method_missing.ml" 22 431 470
+call(
+  stack
+)
+type(
+  'b
+)
+"method_missing.ml" 23 472 486 "method_missing.ml" 23 472 494
+type(
+  'b
+)
+"method_missing.ml" 24 497 511 "method_missing.ml" 24 497 516
+type(
+  string -> 'b
+)
+ident(
+  ext_ref C.str
+)
+"method_missing.ml" 24 497 517 "method_missing.ml" 24 497 533
+type(
+  string
+)
+"method_missing.ml" 24 497 511 "method_missing.ml" 24 497 533
+call(
+  stack
+)
+type(
+  'b
+)
+"method_missing.ml" 25 536 550 "method_missing.ml" 25 536 557
+type(
+  string -> 'b
+)
+ident(
+  ext_ref C.local
+)
+"method_missing.ml" 25 536 558 "method_missing.ml" 25 536 562
+type(
+  string
+)
+ident(
+  int_ref name "method_missing.ml" 19 266 280 "method_missing.ml" 19 266 284
+)
+"method_missing.ml" 25 536 550 "method_missing.ml" 25 536 562
+call(
+  stack
+)
+type(
+  'b
+)
+"method_missing.ml" 21 355 368 "method_missing.ml" 25 536 563
+type(
+  'b list
+)
+"method_missing.ml" 27 570 574 "method_missing.ml" 27 570 581
+type(
+  ?lhs:_[< Cfg.lhs ] ->
+  ?targ:_[< Cfg.expr
+          > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ] ->
+  _[< Cfg.msg_id > `ID_MethodName ] ->
+  _[< Cfg.star_expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var
+      `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+      `Lit_Range `Lit_Regexp `Lit_String ]
+  list -> ?cb:Cfg.codeblock -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.mcall
+)
+"method_missing.ml" 27 570 583 "method_missing.ml" 27 570 587
+type(
+  _[< Cfg.expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ]
+  as 'c
+)
+ident(
+  int_ref targ "method_missing.ml" 20 288 294 "method_missing.ml" 20 288 298
+)
+"method_missing.ml" 27 570 604 "method_missing.ml" 27 570 611
+type(
+  string
+)
+"method_missing.ml" 27 570 588 "method_missing.ml" 27 570 612
+type(
+  _[< Cfg.msg_id > `ID_MethodName ] as 'd
+)
+"method_missing.ml" 27 570 613 "method_missing.ml" 27 570 617
+type(
+  (_[< Cfg.star_expr
+     > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var
+       `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+       `Lit_Range `Lit_Regexp `Lit_String ]
+   as 'e)
+  list
+)
+ident(
+  int_ref args "method_missing.ml" 21 355 361 "method_missing.ml" 21 355 365
+)
+"method_missing.ml" 27 570 618 "method_missing.ml" 27 570 621
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "method_missing.ml" 19 266 276 "method_missing.ml" 19 266 279
+)
+"method_missing.ml" 27 570 574 "method_missing.ml" 27 570 621
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 21 355 357 "method_missing.ml" 27 570 621
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 20 288 290 "method_missing.ml" 27 570 621
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 30 644 650 "method_missing.ml" 30 644 656
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+)
+"method_missing.ml" 32 683 703 "method_missing.ml" 32 683 704
+type(
+  Cfg.stmt
+)
+ident(
+  def s "method_missing.ml" 32 683 707 "method_missing.ml" 52 1553 1582
+)
+"method_missing.ml" 32 683 713 "method_missing.ml" 32 683 714
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 32 683 703 "method_missing.ml" 32 683 704
+)
+"method_missing.ml" 32 683 713 "method_missing.ml" 32 683 720
+type(
+  Cfg.stmt_node
+)
+"method_missing.ml" 35 833 878 "method_missing.ml" 35 833 894
+type(
+  string
+)
+"method_missing.ml" 35 833 862 "method_missing.ml" 35 833 895
+type(
+  Cfg.msg_id
+)
+"method_missing.ml" 35 833 847 "method_missing.ml" 35 833 895
+type(
+  Cfg.def_name
+)
+"method_missing.ml" 35 833 846 "method_missing.ml" 35 833 902
+type(
+  Cfg.def_name
+)
+ident(
+  def mm "method_missing.ml" 37 963 971 "method_missing.ml" 47 1371 1403
+)
+"method_missing.ml" 36 904 935 "method_missing.ml" 36 904 940
+type(
+  Yaml.YString.t
+)
+ident(
+  def mname "method_missing.ml" 37 963 971 "method_missing.ml" 47 1371 1403
+)
+"method_missing.ml" 36 904 918 "method_missing.ml" 36 904 941
+type(
+  Cfg.method_formal_param
+)
+"method_missing.ml" 36 904 943 "method_missing.ml" 36 904 944
+type(
+  Cfg.method_formal_param list
+)
+"method_missing.ml" 36 904 918 "method_missing.ml" 36 904 944
+type(
+  Cfg.method_formal_param list
+)
+"method_missing.ml" 36 904 917 "method_missing.ml" 36 904 953
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  def args "method_missing.ml" 37 963 971 "method_missing.ml" 47 1371 1403
+)
+"method_missing.ml" 36 904 954 "method_missing.ml" 36 904 958
+type(
+  Cfg.stmt
+)
+ident(
+  def body "method_missing.ml" 37 963 971 "method_missing.ml" 47 1371 1403
+)
+"method_missing.ml" 35 833 839 "method_missing.ml" 36 904 959
+type(
+  Cfg.stmt_node
+)
+"method_missing.ml" 37 963 975 "method_missing.ml" 37 963 985
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 37 963 988 "method_missing.ml" 37 963 993
+type(
+  Cfg.pos -> Yaml.YString.t -> Cfg.stmt
+)
+ident(
+  int_ref watch "method_missing.ml" 19 266 270 "method_missing.ml" 19 266 275
+)
+"method_missing.ml" 37 963 994 "method_missing.ml" 37 963 995
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 32 683 703 "method_missing.ml" 32 683 704
+)
+"method_missing.ml" 37 963 994 "method_missing.ml" 37 963 999
+type(
+  Cfg.pos
+)
+"method_missing.ml" 37 963 1000 "method_missing.ml" 37 963 1005
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref mname "method_missing.ml" 36 904 935 "method_missing.ml" 36 904 940
+)
+"method_missing.ml" 37 963 988 "method_missing.ml" 37 963 1005
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 38 1009 1021 "method_missing.ml" 38 1009 1026
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 38 1009 1029 "method_missing.ml" 38 1009 1039
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"method_missing.ml" 38 1009 1041 "method_missing.ml" 38 1009 1045
+type(
+  Cfg.cfg_visitor
+)
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+  as 'a
+)
+"method_missing.ml" 38 1009 1060 "method_missing.ml" 38 1009 1064
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "method_missing.ml" 36 904 954 "method_missing.ml" 36 904 958
+)
+"method_missing.ml" 38 1009 1029 "method_missing.ml" 38 1009 1064
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 39 1068 1080 "method_missing.ml" 39 1068 1085
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 39 1068 1088 "method_missing.ml" 39 1068 1093
+type(
+  Cfg.stmt list -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.seq
+)
+"method_missing.ml" 39 1068 1095 "method_missing.ml" 39 1068 1105
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref watch_call "method_missing.ml" 37 963 975 "method_missing.ml" 37 963 985
+)
+"method_missing.ml" 39 1068 1106 "method_missing.ml" 39 1068 1111
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "method_missing.ml" 38 1009 1021 "method_missing.ml" 38 1009 1026
+)
+"method_missing.ml" 39 1068 1094 "method_missing.ml" 39 1068 1112
+type(
+  Cfg.stmt list
+)
+"method_missing.ml" 39 1068 1113 "method_missing.ml" 39 1068 1114
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 32 683 703 "method_missing.ml" 32 683 704
+)
+"method_missing.ml" 39 1068 1113 "method_missing.ml" 39 1068 1118
+type(
+  Cfg.pos
+)
+"method_missing.ml" 39 1068 1088 "method_missing.ml" 39 1068 1118
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 40 1122 1134 "method_missing.ml" 40 1122 1139
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 40 1122 1142 "method_missing.ml" 40 1122 1148
+type(
+  Cfg.stmt_node -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.mkstmt
+)
+"method_missing.ml" 40 1122 1157 "method_missing.ml" 40 1122 1159
+type(
+  Cfg.def_name
+)
+ident(
+  int_ref mm "method_missing.ml" 35 833 846 "method_missing.ml" 35 833 902
+)
+"method_missing.ml" 40 1122 1160 "method_missing.ml" 40 1122 1164
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref args "method_missing.ml" 36 904 917 "method_missing.ml" 36 904 953
+)
+"method_missing.ml" 40 1122 1165 "method_missing.ml" 40 1122 1170
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "method_missing.ml" 39 1068 1080 "method_missing.ml" 39 1068 1085
+)
+"method_missing.ml" 40 1122 1149 "method_missing.ml" 40 1122 1172
+type(
+  Cfg.stmt_node
+)
+"method_missing.ml" 40 1122 1173 "method_missing.ml" 40 1122 1174
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 32 683 703 "method_missing.ml" 32 683 704
+)
+"method_missing.ml" 40 1122 1173 "method_missing.ml" 40 1122 1178
+type(
+  Cfg.pos
+)
+"method_missing.ml" 40 1122 1142 "method_missing.ml" 40 1122 1178
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 41 1182 1195 "method_missing.ml" 41 1182 1199
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"method_missing.ml" 41 1182 1195 "method_missing.ml" 41 1182 1214
+type(
+  bool
+)
+"method_missing.ml" 42 1233 1245 "method_missing.ml" 42 1233 1256
+type(
+  string -> Yaml.YInt.t -> Yaml.YString.t -> unit
+)
+ident(
+  ext_ref Mining.mine
+)
+"method_missing.ml" 43 1257 1271 "method_missing.ml" 43 1257 1272
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 32 683 703 "method_missing.ml" 32 683 704
+)
+"method_missing.ml" 43 1257 1271 "method_missing.ml" 43 1257 1276
+type(
+  Cfg.pos
+)
+"method_missing.ml" 43 1257 1271 "method_missing.ml" 43 1257 1293
+type(
+  string
+)
+"method_missing.ml" 44 1295 1309 "method_missing.ml" 44 1295 1310
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 32 683 703 "method_missing.ml" 32 683 704
+)
+"method_missing.ml" 44 1295 1309 "method_missing.ml" 44 1295 1314
+type(
+  Cfg.pos
+)
+"method_missing.ml" 44 1295 1309 "method_missing.ml" 44 1295 1330
+type(
+  Yaml.YInt.t
+)
+"method_missing.ml" 45 1332 1346 "method_missing.ml" 45 1332 1351
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref mname "method_missing.ml" 36 904 935 "method_missing.ml" 36 904 940
+)
+"method_missing.ml" 42 1233 1245 "method_missing.ml" 45 1332 1351
+call(
+  stack
+)
+type(
+  unit
+)
+"method_missing.ml" 46 1352 1367 "method_missing.ml" 46 1352 1369
+type(
+  unit
+)
+"method_missing.ml" 41 1182 1192 "method_missing.ml" 46 1352 1369
+type(
+  unit
+)
+"method_missing.ml" 47 1371 1398 "method_missing.ml" 47 1371 1403
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref meth' "method_missing.ml" 40 1122 1134 "method_missing.ml" 40 1122 1139
+)
+"method_missing.ml" 47 1371 1381 "method_missing.ml" 47 1371 1403
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 41 1182 1192 "method_missing.ml" 47 1371 1403
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 40 1122 1130 "method_missing.ml" 47 1371 1403
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 39 1068 1076 "method_missing.ml" 47 1371 1403
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 38 1009 1017 "method_missing.ml" 47 1371 1403
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 37 963 971 "method_missing.ml" 47 1371 1403
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 49 1405 1435 "method_missing.ml" 49 1405 1436
+type(
+  Cfg.identifier
+)
+"method_missing.ml" 49 1405 1452 "method_missing.ml" 49 1405 1468
+type(
+  string
+)
+"method_missing.ml" 49 1405 1437 "method_missing.ml" 49 1405 1468
+type(
+  Cfg.msg_id
+)
+"method_missing.ml" 49 1405 1418 "method_missing.ml" 49 1405 1469
+type(
+  Cfg.def_name
+)
+"method_missing.ml" 49 1405 1470 "method_missing.ml" 49 1405 1471
+type(
+  Cfg.method_formal_param list
+)
+"method_missing.ml" 49 1405 1472 "method_missing.ml" 49 1405 1473
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 49 1405 1411 "method_missing.ml" 49 1405 1474
+type(
+  Cfg.stmt_node
+)
+"method_missing.ml" 50 1478 1486 "method_missing.ml" 50 1478 1495
+type(
+  Log.ctx ->
+  (Cfg.stmt Visitor.visitAction, Format.formatter, unit,
+   Cfg.stmt Visitor.visitAction)
+  format4 -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  ext_ref Log.fatal
+)
+"method_missing.ml" 50 1478 1497 "method_missing.ml" 50 1478 1507
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"method_missing.ml" 50 1478 1508 "method_missing.ml" 50 1478 1509
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 32 683 703 "method_missing.ml" 32 683 704
+)
+"method_missing.ml" 50 1478 1508 "method_missing.ml" 50 1478 1513
+type(
+  Cfg.pos
+)
+"method_missing.ml" 50 1478 1496 "method_missing.ml" 50 1478 1514
+call(
+  stack
+)
+type(
+  Log.ctx
+)
+"method_missing.ml" 50 1478 1515 "method_missing.ml" 50 1478 1541
+type(
+  (Cfg.stmt Visitor.visitAction, Format.formatter, unit,
+   Cfg.stmt Visitor.visitAction)
+  format4
+)
+"method_missing.ml" 50 1478 1486 "method_missing.ml" 50 1478 1541
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 52 1553 1559 "method_missing.ml" 52 1553 1560
+type(
+  Cfg.stmt_node
+)
+"method_missing.ml" 52 1553 1564 "method_missing.ml" 52 1553 1582
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 32 683 707 "method_missing.ml" 52 1553 1582
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 56 1589 1593 "method_missing.ml" 56 1589 1607
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def instrument_cfg "method_missing.ml" 58 1643 1643 --
+)
+"method_missing.ml" 56 1589 1608 "method_missing.ml" 56 1589 1609
+type(
+  Cfg.stmt
+)
+ident(
+  def s "method_missing.ml" 56 1589 1612 "method_missing.ml" 56 1589 1641
+)
+"method_missing.ml" 56 1589 1612 "method_missing.ml" 56 1589 1622
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"method_missing.ml" 56 1589 1623 "method_missing.ml" 56 1589 1639
+type(
+  mm_visitor
+)
+"method_missing.ml" 56 1589 1640 "method_missing.ml" 56 1589 1641
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 56 1589 1608 "method_missing.ml" 56 1589 1609
+)
+"method_missing.ml" 56 1589 1612 "method_missing.ml" 56 1589 1641
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 58 1643 1647 "method_missing.ml" 58 1643 1660
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def transform_ast "method_missing.ml" 60 1671 1671 --
+)
+"method_missing.ml" 58 1643 1661 "method_missing.ml" 58 1643 1662
+type(
+  'a
+)
+ident(
+  def t "method_missing.ml" 58 1643 1663 "method_missing.ml" 58 1643 1668
+)
+"method_missing.ml" 58 1643 1663 "method_missing.ml" 58 1643 1664
+type(
+  'b
+)
+ident(
+  def e "method_missing.ml" 58 1643 1667 "method_missing.ml" 58 1643 1668
+)
+"method_missing.ml" 58 1643 1667 "method_missing.ml" 58 1643 1668
+type(
+  'b
+)
+ident(
+  int_ref e "method_missing.ml" 58 1643 1663 "method_missing.ml" 58 1643 1664
+)
+"method_missing.ml" 60 1671 1689 "method_missing.ml" 60 1671 1697
+type(
+  string -> Cfg.pos -> string list
+)
+"method_missing.ml" 61 1701 1707 "method_missing.ml" 61 1701 1713
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+)
+"method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+type(
+  Cfg.stmt
+)
+ident(
+  def s "method_missing.ml" 63 1740 1764 "method_missing.ml" 83 2638 2667
+)
+"method_missing.ml" 63 1740 1770 "method_missing.ml" 63 1740 1771
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+)
+"method_missing.ml" 63 1740 1770 "method_missing.ml" 63 1740 1777
+type(
+  Cfg.stmt_node
+)
+"method_missing.ml" 64 1783 1827 "method_missing.ml" 64 1783 1843
+type(
+  string
+)
+"method_missing.ml" 64 1783 1811 "method_missing.ml" 64 1783 1844
+type(
+  Cfg.msg_id
+)
+"method_missing.ml" 64 1783 1796 "method_missing.ml" 64 1783 1844
+type(
+  Cfg.def_name
+)
+"method_missing.ml" 65 1846 1877 "method_missing.ml" 65 1846 1882
+type(
+  string
+)
+ident(
+  def mname "method_missing.ml" 65 1846 1905 "method_missing.ml" 81 2619 2628
+)
+"method_missing.ml" 65 1846 1860 "method_missing.ml" 65 1846 1883
+type(
+  Cfg.method_formal_param
+)
+"method_missing.ml" 65 1846 1885 "method_missing.ml" 65 1846 1894
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  def rest_args "method_missing.ml" 65 1846 1905 "method_missing.ml" 81 2619 2628
+)
+"method_missing.ml" 65 1846 1859 "method_missing.ml" 65 1846 1895
+type(
+  Cfg.method_formal_param list
+)
+"method_missing.ml" 65 1846 1896 "method_missing.ml" 65 1846 1900
+type(
+  Cfg.stmt
+)
+ident(
+  def body "method_missing.ml" 65 1846 1905 "method_missing.ml" 81 2619 2628
+)
+"method_missing.ml" 64 1783 1789 "method_missing.ml" 65 1846 1901
+type(
+  Cfg.stmt_node
+)
+"method_missing.ml" 67 1923 1937 "method_missing.ml" 67 1923 1941
+type(
+  Cfg.stmt
+)
+ident(
+  def body "method_missing.ml" 68 1996 2006 "method_missing.ml" 79 2521 2573
+)
+"method_missing.ml" 67 1923 1944 "method_missing.ml" 67 1923 1955
+type(
+  string -> Cfg.star_expr list -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref Dyn_builder.dead_method
+)
+"method_missing.ml" 67 1923 1956 "method_missing.ml" 67 1923 1972
+type(
+  string
+)
+"method_missing.ml" 67 1923 1974 "method_missing.ml" 67 1923 1979
+type(
+  string -> Cfg.star_expr
+)
+ident(
+  ext_ref C.str
+)
+"method_missing.ml" 67 1923 1980 "method_missing.ml" 67 1923 1985
+type(
+  string
+)
+ident(
+  int_ref mname "method_missing.ml" 65 1846 1877 "method_missing.ml" 65 1846 1882
+)
+"method_missing.ml" 67 1923 1974 "method_missing.ml" 67 1923 1985
+call(
+  stack
+)
+type(
+  Cfg.star_expr
+)
+"method_missing.ml" 67 1923 1973 "method_missing.ml" 67 1923 1986
+type(
+  Cfg.star_expr list
+)
+"method_missing.ml" 67 1923 1987 "method_missing.ml" 67 1923 1988
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+)
+"method_missing.ml" 67 1923 1987 "method_missing.ml" 67 1923 1992
+type(
+  Cfg.pos
+)
+"method_missing.ml" 67 1923 1944 "method_missing.ml" 67 1923 1992
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 68 1996 2010 "method_missing.ml" 68 1996 2014
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  def args "method_missing.ml" 69 2055 2065 "method_missing.ml" 79 2521 2573
+)
+"method_missing.ml" 68 1996 2034 "method_missing.ml" 68 1996 2039
+type(
+  string
+)
+ident(
+  int_ref mname "method_missing.ml" 65 1846 1877 "method_missing.ml" 65 1846 1882
+)
+"method_missing.ml" 68 1996 2017 "method_missing.ml" 68 1996 2040
+type(
+  Cfg.method_formal_param
+)
+"method_missing.ml" 68 1996 2042 "method_missing.ml" 68 1996 2051
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref rest_args "method_missing.ml" 65 1846 1885 "method_missing.ml" 65 1846 1894
+)
+"method_missing.ml" 68 1996 2017 "method_missing.ml" 68 1996 2051
+type(
+  Cfg.method_formal_param list
+)
+"method_missing.ml" 69 2055 2069 "method_missing.ml" 69 2055 2075
+type(
+  Cfg.stmt
+)
+ident(
+  def new_mm "method_missing.ml" 70 2121 2131 "method_missing.ml" 79 2521 2573
+)
+"method_missing.ml" 69 2055 2078 "method_missing.ml" 69 2055 2084
+type(
+  ?targ:_[< Cfg.identifier ] ->
+  string -> Cfg.method_formal_param list -> Cfg.stmt -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.mdef
+)
+"method_missing.ml" 69 2055 2085 "method_missing.ml" 69 2055 2101
+type(
+  string
+)
+"method_missing.ml" 69 2055 2102 "method_missing.ml" 69 2055 2106
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref args "method_missing.ml" 68 1996 2010 "method_missing.ml" 68 1996 2014
+)
+"method_missing.ml" 69 2055 2107 "method_missing.ml" 69 2055 2111
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "method_missing.ml" 67 1923 1937 "method_missing.ml" 67 1923 1941
+)
+"method_missing.ml" 69 2055 2112 "method_missing.ml" 69 2055 2113
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+)
+"method_missing.ml" 69 2055 2112 "method_missing.ml" 69 2055 2117
+type(
+  Cfg.pos
+)
+"method_missing.ml" 69 2055 2078 "method_missing.ml" 69 2055 2117
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 70 2121 2135 "method_missing.ml" 70 2121 2140
+type(
+  string list
+)
+ident(
+  def meths "method_missing.ml" 71 2178 2188 "method_missing.ml" 79 2521 2573
+)
+"method_missing.ml" 70 2121 2143 "method_missing.ml" 70 2121 2151
+type(
+  string -> Cfg.pos -> string list
+)
+"method_missing.ml" 70 2121 2152 "method_missing.ml" 70 2121 2168
+type(
+  string
+)
+"method_missing.ml" 70 2121 2169 "method_missing.ml" 70 2121 2170
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+)
+"method_missing.ml" 70 2121 2169 "method_missing.ml" 70 2121 2174
+type(
+  Cfg.pos
+)
+"method_missing.ml" 70 2121 2143 "method_missing.ml" 70 2121 2174
+call(
+  stack
+)
+type(
+  string list
+)
+"method_missing.ml" 71 2178 2192 "method_missing.ml" 71 2178 2201
+type(
+  Cfg.stmt list
+)
+ident(
+  def meth_list "method_missing.ml" 79 2521 2533 "method_missing.ml" 79 2521 2573
+)
+"method_missing.ml" 71 2178 2204 "method_missing.ml" 71 2178 2218
+type(
+  (Cfg.stmt list -> string -> Cfg.stmt list) ->
+  Cfg.stmt list -> string list -> Cfg.stmt list
+)
+ident(
+  ext_ref List.fold_left
+)
+"method_missing.ml" 72 2219 2236 "method_missing.ml" 72 2219 2239
+type(
+  Cfg.stmt list
+)
+ident(
+  def acc "method_missing.ml" 72 2219 2240 "method_missing.ml" 76 2451 2478
+)
+"method_missing.ml" 72 2219 2240 "method_missing.ml" 72 2219 2246
+type(
+  string
+)
+ident(
+  def missed "method_missing.ml" 73 2251 2266 "method_missing.ml" 76 2451 2478
+)
+"method_missing.ml" 73 2251 2270 "method_missing.ml" 73 2251 2276
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 73 2251 2279 "method_missing.ml" 73 2251 2287
+type(
+  _[< Cfg.lhs
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ] ->
+  _[< Cfg.tuple_expr
+    > `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+      `Lit_Range `Lit_Regexp `Lit_String ] ->
+  Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.assign
+)
+"method_missing.ml" 73 2251 2289 "method_missing.ml" 73 2251 2296
+type(
+  string ->
+  (_[< Cfg.lhs
+     > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ]
+   as 'a)
+)
+ident(
+  ext_ref C.local
+)
+"method_missing.ml" 73 2251 2297 "method_missing.ml" 73 2251 2302
+type(
+  string
+)
+ident(
+  int_ref mname "method_missing.ml" 65 1846 1877 "method_missing.ml" 65 1846 1882
+)
+"method_missing.ml" 73 2251 2288 "method_missing.ml" 73 2251 2303
+call(
+  stack
+)
+type(
+  'a
+)
+"method_missing.ml" 73 2251 2305 "method_missing.ml" 73 2251 2311
+type(
+  string ->
+  (_[< Cfg.tuple_expr
+     > `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+       `Lit_Range `Lit_Regexp `Lit_String ]
+   as 'b)
+)
+ident(
+  ext_ref C.atom
+)
+"method_missing.ml" 73 2251 2312 "method_missing.ml" 73 2251 2318
+type(
+  string
+)
+ident(
+  int_ref missed "method_missing.ml" 72 2219 2240 "method_missing.ml" 72 2219 2246
+)
+"method_missing.ml" 73 2251 2304 "method_missing.ml" 73 2251 2319
+call(
+  stack
+)
+type(
+  'b
+)
+"method_missing.ml" 73 2251 2320 "method_missing.ml" 73 2251 2321
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+)
+"method_missing.ml" 73 2251 2320 "method_missing.ml" 73 2251 2325
+type(
+  Cfg.pos
+)
+"method_missing.ml" 73 2251 2279 "method_missing.ml" 73 2251 2325
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 74 2329 2348 "method_missing.ml" 74 2329 2353
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 74 2329 2356 "method_missing.ml" 74 2329 2361
+type(
+  Cfg.stmt list -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.seq
+)
+"method_missing.ml" 74 2329 2363 "method_missing.ml" 74 2329 2369
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref preset "method_missing.ml" 73 2251 2270 "method_missing.ml" 73 2251 2276
+)
+"method_missing.ml" 74 2329 2370 "method_missing.ml" 74 2329 2374
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "method_missing.ml" 67 1923 1937 "method_missing.ml" 67 1923 1941
+)
+"method_missing.ml" 74 2329 2362 "method_missing.ml" 74 2329 2375
+type(
+  Cfg.stmt list
+)
+"method_missing.ml" 74 2329 2376 "method_missing.ml" 74 2329 2377
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+)
+"method_missing.ml" 74 2329 2376 "method_missing.ml" 74 2329 2381
+type(
+  Cfg.pos
+)
+"method_missing.ml" 74 2329 2356 "method_missing.ml" 74 2329 2381
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 75 2385 2404 "method_missing.ml" 75 2385 2409
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 75 2385 2412 "method_missing.ml" 75 2385 2418
+type(
+  ?targ:_[< Cfg.identifier ] ->
+  string -> Cfg.method_formal_param list -> Cfg.stmt -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.mdef
+)
+"method_missing.ml" 75 2385 2419 "method_missing.ml" 75 2385 2425
+type(
+  string
+)
+ident(
+  int_ref missed "method_missing.ml" 72 2219 2240 "method_missing.ml" 72 2219 2246
+)
+"method_missing.ml" 75 2385 2426 "method_missing.ml" 75 2385 2435
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref rest_args "method_missing.ml" 65 1846 1885 "method_missing.ml" 65 1846 1894
+)
+"method_missing.ml" 75 2385 2436 "method_missing.ml" 75 2385 2441
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "method_missing.ml" 74 2329 2348 "method_missing.ml" 74 2329 2353
+)
+"method_missing.ml" 75 2385 2442 "method_missing.ml" 75 2385 2443
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+)
+"method_missing.ml" 75 2385 2442 "method_missing.ml" 75 2385 2447
+type(
+  Cfg.pos
+)
+"method_missing.ml" 75 2385 2412 "method_missing.ml" 75 2385 2447
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 76 2451 2468 "method_missing.ml" 76 2451 2473
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref meth' "method_missing.ml" 75 2385 2404 "method_missing.ml" 75 2385 2409
+)
+"method_missing.ml" 76 2451 2475 "method_missing.ml" 76 2451 2478
+type(
+  Cfg.stmt list
+)
+ident(
+  int_ref acc "method_missing.ml" 72 2219 2236 "method_missing.ml" 72 2219 2239
+)
+"method_missing.ml" 76 2451 2468 "method_missing.ml" 76 2451 2478
+type(
+  Cfg.stmt list
+)
+"method_missing.ml" 75 2385 2400 "method_missing.ml" 76 2451 2478
+type(
+  Cfg.stmt list
+)
+"method_missing.ml" 74 2329 2344 "method_missing.ml" 76 2451 2478
+type(
+  Cfg.stmt list
+)
+"method_missing.ml" 73 2251 2266 "method_missing.ml" 76 2451 2478
+type(
+  Cfg.stmt list
+)
+"method_missing.ml" 72 2219 2231 "method_missing.ml" 77 2479 2492
+type(
+  Cfg.stmt list -> string -> Cfg.stmt list
+)
+"method_missing.ml" 77 2479 2494 "method_missing.ml" 77 2479 2500
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref new_mm "method_missing.ml" 69 2055 2069 "method_missing.ml" 69 2055 2075
+)
+"method_missing.ml" 77 2479 2493 "method_missing.ml" 77 2479 2501
+type(
+  Cfg.stmt list
+)
+"method_missing.ml" 77 2479 2502 "method_missing.ml" 77 2479 2507
+type(
+  string list
+)
+ident(
+  int_ref meths "method_missing.ml" 70 2121 2135 "method_missing.ml" 70 2121 2140
+)
+"method_missing.ml" 71 2178 2204 "method_missing.ml" 77 2479 2507
+call(
+  stack
+)
+type(
+  Cfg.stmt list
+)
+"method_missing.ml" 79 2521 2551 "method_missing.ml" 79 2521 2556
+type(
+  Cfg.stmt list -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.seq
+)
+"method_missing.ml" 79 2521 2557 "method_missing.ml" 79 2521 2566
+type(
+  Cfg.stmt list
+)
+ident(
+  int_ref meth_list "method_missing.ml" 71 2178 2192 "method_missing.ml" 71 2178 2201
+)
+"method_missing.ml" 79 2521 2567 "method_missing.ml" 79 2521 2568
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 63 1740 1760 "method_missing.ml" 63 1740 1761
+)
+"method_missing.ml" 79 2521 2567 "method_missing.ml" 79 2521 2572
+type(
+  Cfg.pos
+)
+"method_missing.ml" 79 2521 2550 "method_missing.ml" 79 2521 2573
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"method_missing.ml" 79 2521 2533 "method_missing.ml" 79 2521 2573
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 71 2178 2188 "method_missing.ml" 79 2521 2573
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 70 2121 2131 "method_missing.ml" 79 2521 2573
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 69 2055 2065 "method_missing.ml" 79 2521 2573
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 68 1996 2006 "method_missing.ml" 79 2521 2573
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 67 1923 1933 "method_missing.ml" 79 2521 2573
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 80 2574 2587 "method_missing.ml" 80 2574 2596
+type(
+  exn
+)
+"method_missing.ml" 80 2574 2600 "method_missing.ml" 80 2574 2618
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 65 1846 1905 "method_missing.ml" 81 2619 2628
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 83 2638 2644 "method_missing.ml" 83 2638 2645
+type(
+  Cfg.stmt_node
+)
+"method_missing.ml" 83 2638 2649 "method_missing.ml" 83 2638 2667
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 63 1740 1764 "method_missing.ml" 83 2638 2667
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"method_missing.ml" 86 2673 2677 "method_missing.ml" 86 2673 2690
+type(
+  (string -> Cfg.pos -> string list) -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def transform_cfg "method_missing.ml" 87 2698 2732 --
+)
+"method_missing.ml" 86 2673 2691 "method_missing.ml" 86 2673 2692
+type(
+  string -> Cfg.pos -> string list
+)
+ident(
+  def t "method_missing.ml" 86 2673 2693 "method_missing.ml" 87 2698 2732
+)
+"method_missing.ml" 86 2673 2693 "method_missing.ml" 86 2673 2694
+type(
+  Cfg.stmt
+)
+ident(
+  def s "method_missing.ml" 87 2698 2700 "method_missing.ml" 87 2698 2732
+)
+"method_missing.ml" 87 2698 2700 "method_missing.ml" 87 2698 2710
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"method_missing.ml" 87 2698 2712 "method_missing.ml" 87 2698 2727
+type(
+  (string -> Cfg.pos -> string list) -> mm_inserter
+)
+"method_missing.ml" 87 2698 2728 "method_missing.ml" 87 2698 2729
+type(
+  string -> Cfg.pos -> string list
+)
+ident(
+  int_ref t "method_missing.ml" 86 2673 2691 "method_missing.ml" 86 2673 2692
+)
+"method_missing.ml" 87 2698 2711 "method_missing.ml" 87 2698 2730
+call(
+  stack
+)
+type(
+  mm_inserter
+)
+"method_missing.ml" 87 2698 2731 "method_missing.ml" 87 2698 2732
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "method_missing.ml" 86 2673 2693 "method_missing.ml" 86 2673 2694
+)
+"method_missing.ml" 87 2698 2700 "method_missing.ml" 87 2698 2732
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
