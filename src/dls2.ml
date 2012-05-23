@@ -32,10 +32,14 @@ module NilAnalysis = struct
                                         | NonNil -> print_string "NonNil) "
                         ) v 
 	
-	let meet_fact t1 t2 = print_string "MEET_FACT ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");match t1, t2 with
+	let meet_fact2 t1 t2 = print_string "MEET_FACT2 ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");match t1, t2 with
 		| MaybeNil, _ 
 		| _, MaybeNil -> MaybeNil
 		| NonNil, NonNil -> NonNil
+
+	let meet_fact t1 t2 = print_string "MEET_FACT ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");match t1, t2 with
+		| _, MaybeNil -> MaybeNil
+		| _, NonNil -> NonNil
 	
 	let update s v map =
 		let fact =
@@ -51,7 +55,7 @@ module NilAnalysis = struct
 		
 	let update2 s v map =
 		let fact =
-			try meet_fact (StrMap.find s map) v
+			try meet_fact2 (StrMap.find s map) v
 			with Not_found -> MaybeNil
 		in 
 		print_string "UPDATE2 ";
@@ -89,7 +93,6 @@ module NilAnalysis = struct
 		| Class(Some lhs, _, _) | Module(Some lhs, _, _)
 		| MethodCall(Some lhs, _) | Yield(Some lhs, _)
 		| Assign(lhs, _) -> update_lhs MaybeNil map lhs
-		| If( _ , ifthen , ifelse ) -> map
 		| _ -> map
 	
 	let init_formals args fact =
@@ -118,7 +121,8 @@ class safeNil inf = object(self)
 	inherit default_visitor as super
 	val facts = inf
 	
-	method visit_stmt node = match node.snode with
+	method visit_stmt node = (*print_string "VISIT_STMT: ";print_stmt stdout node;*)
+		match node.snode with
 		| Method(mname, args, body) ->
 				let in', out' = NilDataFlow.fixpoint body in
 				let me = {< facts = in'>} in
@@ -131,7 +135,7 @@ class safeNil inf = object(self)
 						| NilAnalysis.NonNil -> SkipChildren
 					with Not_found -> ChangeTo (transform targ node)
 					end
-				with Not_found -> assert false
+				with Not_found -> print_string "ASSERTFALSE\n";print_stmt stdout node;assert false
 				end
 		| MethodCall(_, { mc_target = Some (`ID_Var(`Var_Constant, var) as targ) }) -> 
 				begin try let map = Hashtbl.find facts node in
@@ -181,12 +185,13 @@ end
 let main fname =
 	let loader = File_loader.create File_loader.EmptyCfg [] in
 	let s = File_loader.load_file loader fname in
-	Printf.printf("#####INIZIO####\n"); print_stmt stdout s; Printf.printf("#####FINE#####\n");
+	Printf.printf("##### BEGIN INPUT ####\n"); print_stmt stdout s; Printf.printf("##### END INPUT #####\n");
 	let () = compute_cfg s in
 	let () = compute_cfg_locals s in
 	let ifacts, ofacts = NilDataFlow.fixpoint s in
+	print_string "@@@@@@@@@@@@@ FINE PRIMO FIXPOINT, INIZIO SAFENIL @@@@@@@@@@@@@\n";
 	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
-	Printf.printf("#####INIZIO####\n"); print_stmt stdout s'; Printf.printf("#####FINE#####\n")
+	Printf.printf("##### BEGIN OUTPUT ####\n"); print_stmt stdout s'; Printf.printf("##### END OUTPUT #####\n")
 
 let _ =
 	if (Array.length Sys.argv) != 2

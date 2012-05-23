@@ -1359,273 +1359,342 @@ type(
 type(
   unit
 )
-"main.ml" 88 2533 2535 "main.ml" 88 2533 2548
+"main.ml" 87 2523 2533 "main.ml" 87 2523 2545
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"main.ml" 87 2523 2546 "main.ml" 87 2523 2553
+type(
+  string
+)
+"main.ml" 87 2523 2533 "main.ml" 87 2523 2553
+call(
+  stack
+)
+type(
+  unit
+)
+"main.ml" 88 2555 2557 "main.ml" 88 2555 2570
 type(
   unit -> unit
 )
 ident(
   ext_ref Config.parse_cmdline
 )
-"main.ml" 88 2533 2549 "main.ml" 88 2533 2551
+"main.ml" 88 2555 2571 "main.ml" 88 2555 2573
 type(
   unit
 )
-"main.ml" 88 2533 2535 "main.ml" 88 2533 2551
+"main.ml" 88 2555 2557 "main.ml" 88 2555 2573
 call(
   stack
 )
 type(
   unit
 )
-"main.ml" 89 2553 2558 "main.ml" 89 2553 2562
+"main.ml" 89 2575 2580 "main.ml" 89 2575 2584
 type(
   Config.config
 )
 ident(
   ext_ref Config.conf
 )
-"main.ml" 89 2553 2558 "main.ml" 89 2553 2575
+"main.ml" 89 2575 2580 "main.ml" 89 2575 2597
 type(
   bool
 )
-"main.ml" 89 2553 2581 "main.ml" 89 2553 2592
+"main.ml" 89 2575 2603 "main.ml" 89 2575 2614
 type(
   unit -> unit
 )
 ident(
   int_ref clean_cache "main.ml" 45 1298 1302 "main.ml" 45 1298 1313
 )
-"main.ml" 89 2553 2592 "main.ml" 89 2553 2594
+"main.ml" 89 2575 2614 "main.ml" 89 2575 2616
 type(
   unit
 )
-"main.ml" 89 2553 2581 "main.ml" 89 2553 2594
+"main.ml" 89 2575 2603 "main.ml" 89 2575 2616
 call(
   stack
 )
 type(
   unit
 )
-"main.ml" 89 2553 2555 "main.ml" 89 2553 2594
+"main.ml" 89 2575 2577 "main.ml" 89 2575 2616
 type(
   unit
 )
-"main.ml" 90 2596 2602 "main.ml" 90 2596 2608
+"main.ml" 90 2618 2624 "main.ml" 90 2618 2630
 type(
   File_loader.t
 )
-"main.ml" 90 2596 2611 "main.ml" 90 2596 2629
+"main.ml" 90 2618 2633 "main.ml" 90 2618 2651
 type(
   File_loader.c_handler -> string list -> File_loader.t
 )
 ident(
   ext_ref File_loader.create
 )
-"main.ml" 90 2596 2630 "main.ml" 90 2596 2650
+"main.ml" 90 2618 2652 "main.ml" 90 2618 2672
 type(
   File_loader.c_handler
 )
-"main.ml" 90 2596 2651 "main.ml" 90 2596 2655
+"main.ml" 90 2618 2673 "main.ml" 90 2618 2677
 type(
   Config.config
 )
 ident(
   ext_ref Config.conf
 )
-"main.ml" 90 2596 2651 "main.ml" 90 2596 2666
+"main.ml" 90 2618 2673 "main.ml" 90 2618 2688
 type(
   string list
 )
-"main.ml" 90 2596 2611 "main.ml" 90 2596 2666
+"main.ml" 90 2618 2633 "main.ml" 90 2618 2688
 call(
   stack
 )
 type(
   File_loader.t
 )
-"main.ml" 91 2670 2676 "main.ml" 91 2670 2679
+"main.ml" 91 2692 2698 "main.ml" 91 2692 2701
 type(
   Cfg.stmt
 )
-"main.ml" 91 2670 2682 "main.ml" 91 2670 2691
+"main.ml" 91 2692 2704 "main.ml" 91 2692 2713
 type(
   File_loader.t -> Cfg.stmt
 )
 ident(
   int_ref build_cfg "main.ml" 58 1649 1653 "main.ml" 58 1649 1662
 )
-"main.ml" 91 2670 2692 "main.ml" 91 2670 2698
+"main.ml" 91 2692 2714 "main.ml" 91 2692 2720
 type(
   File_loader.t
 )
 ident(
-  int_ref loader "main.ml" 90 2596 2602 "main.ml" 90 2596 2608
+  int_ref loader "main.ml" 90 2618 2624 "main.ml" 90 2618 2630
 )
-"main.ml" 91 2670 2682 "main.ml" 91 2670 2698
+"main.ml" 91 2692 2704 "main.ml" 91 2692 2720
 call(
   stack
 )
 type(
   Cfg.stmt
 )
-"main.ml" 92 2702 2706 "main.ml" 92 2702 2728
+"main.ml" 92 2724 2728 "main.ml" 92 2724 2750
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"main.ml" 92 2702 2729 "main.ml" 92 2702 2735
+"main.ml" 92 2724 2751 "main.ml" 92 2724 2757
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stderr
 )
-"main.ml" 92 2702 2736 "main.ml" 92 2702 2739
+"main.ml" 92 2724 2758 "main.ml" 92 2724 2761
 type(
   Cfg.stmt
 )
 ident(
-  int_ref cfg "main.ml" 91 2670 2676 "main.ml" 91 2670 2679
+  int_ref cfg "main.ml" 91 2692 2698 "main.ml" 91 2692 2701
 )
-"main.ml" 92 2702 2706 "main.ml" 92 2702 2739
+"main.ml" 92 2724 2728 "main.ml" 92 2724 2761
 call(
   stack
 )
 type(
   unit
 )
-"main.ml" 94 2801 2805 "main.ml" 94 2801 2814
-type(
-  unit -> unit
-)
-ident(
-  ext_ref Log.flush
-)
-"main.ml" 94 2801 2815 "main.ml" 94 2801 2817
-type(
-  unit
-)
-"main.ml" 94 2801 2805 "main.ml" 94 2801 2817
-call(
-  stack
-)
-type(
-  unit
-)
-"main.ml" 95 2819 2823 "main.ml" 95 2819 2828
-type(
-  out_channel -> unit
-)
-ident(
-  ext_ref Pervasives.flush
-)
-"main.ml" 95 2819 2829 "main.ml" 95 2819 2835
-type(
-  out_channel
-)
-ident(
-  ext_ref Pervasives.stdout
-)
-"main.ml" 95 2819 2823 "main.ml" 95 2819 2835
-call(
-  stack
-)
-type(
-  unit
-)
-"main.ml" 96 2837 2841 "main.ml" 96 2837 2846
-type(
-  out_channel -> unit
-)
-ident(
-  ext_ref Pervasives.flush
-)
-"main.ml" 96 2837 2847 "main.ml" 96 2837 2853
-type(
-  out_channel
-)
-ident(
-  ext_ref Pervasives.stderr
-)
-"main.ml" 96 2837 2841 "main.ml" 96 2837 2853
-call(
-  stack
-)
-type(
-  unit
-)
-"main.ml" 97 2855 2862 "main.ml" 97 2855 2866
+"main.ml" 93 2763 2770 "main.ml" 93 2763 2774
 type(
   Config.config
 )
 ident(
   ext_ref Config.conf
 )
-"main.ml" 97 2855 2862 "main.ml" 97 2855 2875
+"main.ml" 93 2763 2770 "main.ml" 93 2763 2789
 type(
   bool
 )
-"main.ml" 97 2855 2881 "main.ml" 97 2855 2893
+"main.ml" 93 2763 2795 "main.ml" 93 2763 2806
 type(
-  unit -> unit
+  File_loader.t -> Cfg.stmt -> unit
 )
 ident(
-  int_ref run_original "main.ml" 76 2186 2190 "main.ml" 76 2186 2202
+  int_ref analyze_cfg "main.ml" 22 391 395 "main.ml" 22 391 406
 )
-"main.ml" 97 2855 2894 "main.ml" 97 2855 2896
+"main.ml" 93 2763 2807 "main.ml" 93 2763 2813
 type(
-  unit
+  File_loader.t
 )
-"main.ml" 97 2855 2881 "main.ml" 97 2855 2896
+ident(
+  int_ref loader "main.ml" 90 2618 2624 "main.ml" 90 2618 2630
+)
+"main.ml" 93 2763 2814 "main.ml" 93 2763 2817
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "main.ml" 91 2692 2698 "main.ml" 91 2692 2701
+)
+"main.ml" 93 2763 2795 "main.ml" 93 2763 2817
 call(
   stack
 )
 type(
   unit
 )
-"main.ml" 97 2855 2859 "main.ml" 97 2855 2896
+"main.ml" 93 2763 2767 "main.ml" 93 2763 2817
 type(
   unit
 )
-"main.ml" 98 2898 2902 "main.ml" 98 2898 2904
+"main.ml" 94 2819 2823 "main.ml" 94 2819 2832
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Log.flush
+)
+"main.ml" 94 2819 2833 "main.ml" 94 2819 2835
 type(
   unit
 )
-"main.ml" 97 2855 2859 "main.ml" 98 2898 2904
+"main.ml" 94 2819 2823 "main.ml" 94 2819 2835
+call(
+  stack
+)
 type(
   unit
 )
-"main.ml" 96 2837 2841 "main.ml" 98 2898 2904
+"main.ml" 95 2837 2841 "main.ml" 95 2837 2846
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"main.ml" 95 2837 2847 "main.ml" 95 2837 2853
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"main.ml" 95 2837 2841 "main.ml" 95 2837 2853
+call(
+  stack
+)
 type(
   unit
 )
-"main.ml" 95 2819 2823 "main.ml" 98 2898 2904
+"main.ml" 96 2855 2859 "main.ml" 96 2855 2864
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"main.ml" 96 2855 2865 "main.ml" 96 2855 2871
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"main.ml" 96 2855 2859 "main.ml" 96 2855 2871
+call(
+  stack
+)
 type(
   unit
 )
-"main.ml" 94 2801 2805 "main.ml" 98 2898 2904
+"main.ml" 97 2873 2880 "main.ml" 97 2873 2884
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"main.ml" 97 2873 2880 "main.ml" 97 2873 2893
+type(
+  bool
+)
+"main.ml" 97 2873 2899 "main.ml" 97 2873 2911
+type(
+  unit -> unit
+)
+ident(
+  int_ref run_original "main.ml" 76 2186 2190 "main.ml" 76 2186 2202
+)
+"main.ml" 97 2873 2912 "main.ml" 97 2873 2914
 type(
   unit
 )
-"main.ml" 92 2702 2706 "main.ml" 98 2898 2904
+"main.ml" 97 2873 2899 "main.ml" 97 2873 2914
+call(
+  stack
+)
 type(
   unit
 )
-"main.ml" 91 2670 2672 "main.ml" 98 2898 2904
+"main.ml" 97 2873 2877 "main.ml" 97 2873 2914
 type(
   unit
 )
-"main.ml" 90 2596 2598 "main.ml" 98 2898 2904
+"main.ml" 98 2916 2920 "main.ml" 98 2916 2922
 type(
   unit
 )
-"main.ml" 89 2553 2555 "main.ml" 98 2898 2904
+"main.ml" 97 2873 2877 "main.ml" 98 2916 2922
 type(
   unit
 )
-"main.ml" 88 2533 2535 "main.ml" 98 2898 2904
+"main.ml" 96 2855 2859 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 95 2837 2841 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 94 2819 2823 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 93 2763 2767 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 92 2724 2728 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 91 2692 2694 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 90 2618 2620 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 89 2575 2577 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 88 2555 2557 "main.ml" 98 2916 2922
+type(
+  unit
+)
+"main.ml" 87 2523 2533 "main.ml" 98 2916 2922
 type(
   unit
 )

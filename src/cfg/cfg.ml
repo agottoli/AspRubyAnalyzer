@@ -400,7 +400,7 @@ end = struct
 		
 		| While(g, body) ->
 				stmt.succs <- StmtSet.add body stmt.succs;
-				body.succs <- StmtSet.add stmt body.succs;
+				(*body.succs <- StmtSet.add stmt body.succs;*)
 				compute_cfg_succ body succs
 		
 		| For(params, guard, body) ->

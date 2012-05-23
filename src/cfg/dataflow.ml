@@ -75,7 +75,7 @@ module Forwards(DFP : DataFlowProblem) = struct
 			print_string "PREDS:\n";
 			let in_list =
 				StmtSet.fold
-					(fun pred acc -> print_stmt stdout pred;
+					(fun pred acc -> print_stmt stdout pred;print_string "---\n";
 								try (Hashtbl.find out_tbl pred) :: acc
 								with Not_found ->
 										Hashtbl.add out_tbl pred DFP.empty;
@@ -86,8 +86,8 @@ module Forwards(DFP : DataFlowProblem) = struct
 			List.iter (fun m -> print_string (DFP.to_string m); print_string "\n"; ) in_list;
 			
 			let in_facts = DFP.join in_list in
-		(*	print_string "IN_FACTS\n";
-			print_string (DFP.to_string in_facts);print_string "\n";*)
+			print_string "IN_FACTS\n";
+			print_string (DFP.to_string in_facts);print_string "\n";
 			
 			let () = Hashtbl.replace in_tbl stmt in_facts in
 			let new_facts = DFP.transfer in_facts stmt in
@@ -181,7 +181,7 @@ module EarlyCast = struct
 							) set acc
 			) t ""
 	
-	let join l =
+	let join l = 
 		List.fold_left
 			(fun acc env ->
 						StrMap.fold

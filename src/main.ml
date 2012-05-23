@@ -84,13 +84,13 @@ let run_original () =
     exit (Sys.command cmd)
 
 (* parses the command line, run the analysis, and run ruby if requested *)
-let () = 
+let () =  print_string "DRUBY";
   parse_cmdline ();
   if conf.clean_cached then clean_cache();
   let loader = File_loader.create File_loader.EmptyCfg conf.idirectory in
   let cfg = build_cfg loader in
     CodePrinter.print_stmt stderr cfg;
-    (*if conf.type_inference then analyze_cfg loader cfg;*)
+    if conf.type_inference then analyze_cfg loader cfg;
     Log.flush ();
     flush stdout;
     flush stderr;
