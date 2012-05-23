@@ -3,4 +3,3 @@ if true then
 else
 	b=1
 end
-b.to_s

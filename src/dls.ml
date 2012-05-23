@@ -58,7 +58,7 @@ class safeNil ( ifs , ofs ) = object
 	inherit default_visitor as super
 
 	method visit_stmt node = match node.snode with
-		(*| Method(mname,args,body) -> SkipChildren *)
+		| Method(mname,args,body) -> SkipChildren 
 		| MethodCall( _ , {mc_target=(Some `ID_Self| None)}) -> SkipChildren 
 		| MethodCall( _ ,
 			{mc_target=Some (`ID_Var(`Var_Local,var) as targ)}) ->
@@ -70,6 +70,7 @@ class safeNil ( ifs , ofs ) = object
 				with Not_found -> print_string("errore");SkipChildren
 				end
 		| MethodCall( _ ,{mc_target=Some (#expr as targ)}) -> refactor targ node
+		| If( _ , _ , _ ) -> print_string "BECCATO L'IF";SkipChildren
 		| _ -> super#visit_stmt node
 end
 

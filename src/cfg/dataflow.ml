@@ -1,6 +1,10 @@
 
 open Printf
 open Cfg
+open Cfg_printer
+open Cfg_refactor
+open Cfg_printer.CodePrinter
+open Visitor
 open Utils
 
 let rec exists_fp visited stmt exits =
@@ -31,6 +35,32 @@ sig
 end
 
 module Forwards(DFP : DataFlowProblem) = struct
+
+	let print_hash ifs = 
+            Hashtbl.iter (fun k v -> 
+                (*print_string "Statement: \n";*)
+                print_string "\n";
+                print_stmt stdout k;
+                print_string(" ->  ");
+                    if ((StrMap.is_empty v) == false) then
+                        StrMap.iter (
+                                fun k w -> 
+                                        print_string "(";
+                                        print_string k;
+                                        print_string ", ";
+                                        print_string (DFP.to_string w)
+                        ) v 
+                    else
+                        print_string "\n";
+            ) ifs
+            
+    let print_map v =  StrMap.iter (
+                                fun k w -> 
+                                        print_string "(";
+                                        print_string k;
+                                        print_string ", ";
+                                        print_string (DFP.to_string w)
+                        ) v 
 	
 	let fixpoint stmt =
 		let in_tbl = Hashtbl.create 127 in
@@ -39,29 +69,41 @@ module Forwards(DFP : DataFlowProblem) = struct
 		Queue.push stmt q;
 		Hashtbl.add in_tbl stmt DFP.empty;
 		while not (Queue.is_empty q) do
+			print_string "####################################\n";
 			let stmt = Queue.pop q in
+			print_string "STMT:\n";print_stmt stdout stmt;
+			print_string "PREDS:\n";
 			let in_list =
 				StmtSet.fold
-					(fun pred acc ->
+					(fun pred acc -> print_stmt stdout pred;
 								try (Hashtbl.find out_tbl pred) :: acc
 								with Not_found ->
 										Hashtbl.add out_tbl pred DFP.empty;
 										DFP.empty :: acc
 					) stmt.preds []
 			in
+			print_string "IN_LIST:\n";
+			List.iter (fun m -> print_string (DFP.to_string m); print_string "\n"; ) in_list;
+			
 			let in_facts = DFP.join in_list in
+		(*	print_string "IN_FACTS\n";
+			print_string (DFP.to_string in_facts);print_string "\n";*)
+			
 			let () = Hashtbl.replace in_tbl stmt in_facts in
 			let new_facts = DFP.transfer in_facts stmt in
+			print_string "NEW_FACTS\n";
+			print_string (DFP.to_string new_facts);print_string "\n";
 			try
+				print_string "SUCCS:\n";
 				let old_facts = Hashtbl.find out_tbl stmt in
 				if DFP.eq old_facts new_facts
 				then ()
 				else begin
-					StmtSet.iter (fun x -> Queue.push x q) stmt.succs;
+					StmtSet.iter (fun x -> print_stmt stdout x;Queue.push x q) stmt.succs;
 					Hashtbl.replace out_tbl stmt new_facts
 				end
 			with Not_found ->
-					StmtSet.iter (fun x -> Queue.push x q) stmt.succs;
+					StmtSet.iter (fun x -> print_stmt stdout x;Queue.push x q) stmt.succs;
 					Hashtbl.replace out_tbl stmt new_facts
 		done;
 		in_tbl, out_tbl
@@ -152,6 +194,7 @@ module EarlyCast = struct
 							) env acc
 			) empty l
 	
+	
 	let update t msg targ =
 		try StrMap.add targ (StrSet.add msg (StrMap.find targ t)) t
 		with Not_found -> StrMap.add targ (StrSet.singleton msg) t
@@ -214,7 +257,6 @@ module DataTypeFlow = struct
 		t +1
 	
 	let join ins = List.fold_left (+) 0 ins
-	
 end
 
 module DataTypeFlowDF = Forwards(DataTypeFlow)
