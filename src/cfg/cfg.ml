@@ -1,6 +1,7 @@
 
 open Printf
 open Utils
+open Format
 
 type pos = Log.pos
 
@@ -345,7 +346,8 @@ end = struct
 		| Defined _ | Undef _ | Break _ | Redo | Retry | Next _
 		-> f acc stmt
 	
-	let rec compute_cfg_succ stmt (succs: StmtSet.t) = match stmt.snode with
+	let rec compute_cfg_succ stmt (succs: StmtSet.t) = 		
+		match stmt.snode with
 		| Seq [] -> stmt.succs <- succs;
 		| Seq ((hd:: _) as l) ->
 				stmt.succs <- StmtSet.add hd stmt.succs;
@@ -400,7 +402,7 @@ end = struct
 		
 		| While(g, body) ->
 				stmt.succs <- StmtSet.add body stmt.succs;
-				(*body.succs <- StmtSet.add stmt body.succs;*)
+				body.succs <- StmtSet.add stmt body.succs;  
 				compute_cfg_succ body succs
 		
 		| For(params, guard, body) ->

@@ -70,7 +70,7 @@ module NilAnalysis = struct
 			let map1 = (fun acc map -> StrMap.fold update2 map acc) (List.nth lst 0) (List.nth lst 1) in
 			let map2 = (fun acc map -> StrMap.fold update2 map acc) (List.nth lst 1) (List.nth lst 0) in
 				(fun acc map -> StrMap.fold update2 map acc) map1 map2
-		else
+		else 
 			List.fold_left (fun acc map -> StrMap.fold update map acc) StrMap.empty lst
 	
 	let rec update_lhs fact map lhs = match lhs with
@@ -103,9 +103,6 @@ module NilAnalysis = struct
 	
 	let empty = StrMap.empty
 	
-	
-	
-
 end
 
 module NilDataFlow = Dataflow.Forwards(NilAnalysis)
@@ -187,7 +184,9 @@ let main fname =
 	let s = File_loader.load_file loader fname in
 	Printf.printf("##### BEGIN INPUT ####\n"); print_stmt stdout s; Printf.printf("##### END INPUT #####\n");
 	let () = compute_cfg s in
+	Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n");
 	let () = compute_cfg_locals s in
+	Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n");
 	let ifacts, ofacts = NilDataFlow.fixpoint s in
 	print_string "@@@@@@@@@@@@@ FINE PRIMO FIXPOINT, INIZIO SAFENIL @@@@@@@@@@@@@\n";
 	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in

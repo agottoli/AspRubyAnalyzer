@@ -99,11 +99,11 @@ module Forwards(DFP : DataFlowProblem) = struct
 				if DFP.eq old_facts new_facts
 				then ()
 				else begin
-					StmtSet.iter (fun x -> print_stmt stdout x;Queue.push x q) stmt.succs;
+					StmtSet.iter (fun x -> print_stmt stdout x;print_string "------------------\n";Queue.push x q) stmt.succs;
 					Hashtbl.replace out_tbl stmt new_facts
 				end
 			with Not_found ->
-					StmtSet.iter (fun x -> print_stmt stdout x;Queue.push x q) stmt.succs;
+					StmtSet.iter (fun x -> print_stmt stdout x;print_string "------------------\n";Queue.push x q) stmt.succs;
 					Hashtbl.replace out_tbl stmt new_facts
 		done;
 		in_tbl, out_tbl
