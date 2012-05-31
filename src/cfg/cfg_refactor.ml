@@ -1407,7 +1407,7 @@ and refactor_stmt (acc: stmt acc) (e:Ast.expr) : stmt acc = match e with
         acc_enqueue (C.expr e' (Ast.pos_of e)) acc
 
   | Ast.E_While(true,g,body, pos) -> (* do .. while *)
-      let gpos = Ast.pos_of g in
+			let gpos = Ast.pos_of g in
       let body_acc = refactor_stmt_list (acc_emptyq acc) body in
       let body_acc,g' = refactor_expr body_acc g in
       let guard = C.if_s g' (C.next gpos) (C.break gpos) gpos in
@@ -1417,7 +1417,7 @@ and refactor_stmt (acc: stmt acc) (e:Ast.expr) : stmt acc = match e with
         acc_enqueue (C.while_s `ID_True body' pos) acc
 
   | Ast.E_While(false,g,body, pos) -> (* while .. do *)
-      let gpos = Ast.pos_of g in
+			let gpos = Ast.pos_of g in
       let while_acc,g' = refactor_expr (acc_emptyq acc) g in
       let body_acc = refactor_stmt_list (acc_emptyq while_acc) body in
         if (DQueue.is_empty while_acc.q) then
@@ -1430,8 +1430,25 @@ and refactor_stmt (acc: stmt acc) (e:Ast.expr) : stmt acc = match e with
           let while_acc = acc_enqueue guard while_acc in
           let while_body = C.seq (DQueue.to_list while_acc.q) pos in
           let acc = acc_seen acc body_acc in
-            acc_enqueue (C.while_s `ID_True while_body pos) acc
-
+            acc_enqueue (C.while_s `ID_True while_body pos) acc 
+	(*		let gpos = Ast.pos_of g in
+      let while_acc,g' = refactor_expr (acc_emptyq acc) g in
+      let body_acc = refactor_stmt_list (acc_emptyq while_acc) body in
+			let body' = C.seq (DQueue.to_list body_acc.q) pos in
+			let guard = C.if_s g' ~t:body' ~f:(C.expr `ID_Nil gpos) gpos in			(* BLOCCO IF *)
+			let guard_acc = acc_enqueue guard (acc_emptyq acc) in
+			let while2 = DQueue.hd while_acc in
+			let while_acc2 = DQueue.enqueue (
+				
+				) DQueue.empty in
+			let while_acc' = acc_append guard_acc while_acc2 in
+			let while_body = C.seq (DQueue.to_list while_acc'.q) pos in
+			let acc = acc_seen acc body_acc in
+			let while' = C.while_s g' while_body pos in
+			let nonso =	C.seq ( List.append (DQueue.to_list while_acc.q) (while' :: []) ) pos in
+				acc_enqueue nonso acc *)
+				
+  
   | Ast.E_Until(b,g,body, pos) -> 
       refactor_stmt acc (Ast.E_While(b,Ast.E_Unary(Ast.Op_UNot,g,pos),body,pos))
 

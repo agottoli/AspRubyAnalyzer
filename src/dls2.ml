@@ -31,6 +31,9 @@ module NilAnalysis = struct
                                         | MaybeNil -> print_string "MaybeNil) "
                                         | NonNil -> print_string "NonNil) "
                         ) v 
+												
+												
+	
 	
 	let meet_fact2 t1 t2 = print_string "MEET_FACT2 ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");match t1, t2 with
 		| MaybeNil, _ 
@@ -178,7 +181,31 @@ end
 (* let transform_ast ym ast = ast end let dyn_main fname = let module Dyn  *)
 (* = Make(Singleton(NilProfile)) in let loader = File_loader.create        *)
 (* File_loader.EmptyCfg ["../lib"] in print_stmt stdout (Dyn.run loader    *)
-(* fname)                                                                  *)
+(* fname)       *)
+(* *)
+
+let print_hash ifs = 
+            Hashtbl.iter (fun k v -> 
+                (*print_string "Statement: \n";*)
+                print_string "\n";
+                print_stmt stdout k;
+                print_string(" ->  ");
+                    if ((StrMap.is_empty v) == false) then
+                        StrMap.iter (
+                                fun k w -> 
+                                        print_string "(";
+                                        print_string k;
+                                        print_string ", ";
+                                        match w with
+																					| NilAnalysis.MaybeNil -> print_string "MaybeNil\n"
+																					| NilAnalysis.NonNil -> print_string "NonNil\n"
+                        ) v 
+                    else
+                        print_string "\n";
+            ) ifs
+						;;
+
+
 let main fname =
 	let loader = File_loader.create File_loader.EmptyCfg [] in
 	let s = File_loader.load_file loader fname in
@@ -188,6 +215,8 @@ let main fname =
 	let () = compute_cfg_locals s in
 	Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n");
 	let ifacts, ofacts = NilDataFlow.fixpoint s in
+	print_string "@@@@@@@@@@@@@ FINE PRIMO FIXPOINT, INIZIO SAFENIL @@@@@@@@@@@@@\n";
+	print_hash ifacts;
 	print_string "@@@@@@@@@@@@@ FINE PRIMO FIXPOINT, INIZIO SAFENIL @@@@@@@@@@@@@\n";
 	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
 	Printf.printf("##### BEGIN OUTPUT ####\n"); print_stmt stdout s'; Printf.printf("##### END OUTPUT #####\n")

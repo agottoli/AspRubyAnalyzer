@@ -1,5 +1,5 @@
-while true do
+i=0
+while i<5 do
 	a=0
-	a=1
 end
 a.to_s

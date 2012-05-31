@@ -84,6 +84,10 @@ module Forwards(DFP : DataFlowProblem) = struct
 			in
 			print_string "IN_LIST:\n";
 			List.iter (fun m -> print_string (DFP.to_string m); print_string "\n"; ) in_list;
+	(*		let in_facts = match stmt.snode with
+				| While(_,_) -> DFP.join (List.tl in_list)
+				| _ -> DFP.join in_list
+			in *)
 			
 			let in_facts = DFP.join in_list in
 			print_string "IN_FACTS\n";

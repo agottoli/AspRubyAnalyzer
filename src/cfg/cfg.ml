@@ -402,7 +402,7 @@ end = struct
 		
 		| While(g, body) ->
 				stmt.succs <- StmtSet.add body stmt.succs;
-				body.succs <- StmtSet.add stmt body.succs;  
+				body.succs <- StmtSet.add stmt body.succs;
 				compute_cfg_succ body succs
 		
 		| For(params, guard, body) ->
@@ -423,7 +423,8 @@ end = struct
 				compute_cfg_succ body StmtSet.empty
 		
 		| Undef _ | Break _ | Redo | Retry | Next _ ->
-				Log.fixme "handle control op in successor computation"
+			stmt.succs <- succs
+		(*		Log.fixme "handle control op in successor computation" *)
 		
 		(* These can't actually appear in a method *)
 		| Begin(body)
