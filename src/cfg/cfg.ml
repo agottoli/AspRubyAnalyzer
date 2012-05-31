@@ -145,6 +145,7 @@ sig
 			mutable lexical_locals : StrSet.t;
 			mutable preds : StmtSet.t;
 			mutable succs : StmtSet.t;
+			mutable succl : stmt list;
 		}
 	
 	and stmt_node =
@@ -222,6 +223,7 @@ end = struct
 		mutable lexical_locals : StrSet.t;
 		mutable preds : StmtSet.t;
 		mutable succs : StmtSet.t;
+		mutable succl : stmt list;
 	}
 	
 	and stmt_node =
@@ -288,7 +290,9 @@ end = struct
 			preds = StmtSet.empty;
 			succs = StmtSet.empty;
 			annotation = None;
-			sid = uniq() }
+			sid = uniq(); 
+			succl=[]
+		}
 	
 	let update_stmt stmt snode =
 		{ snode = snode;
@@ -297,7 +301,9 @@ end = struct
 			preds = StmtSet.empty;
 			succs = StmtSet.empty;
 			annotation = stmt.annotation;
-			sid = uniq() }
+			sid = uniq();
+			succl=[]
+		}
 	
 	let update_locals stmt locals = stmt.lexical_locals <- locals
 	
@@ -348,16 +354,19 @@ end = struct
 	
 	let rec compute_cfg_succ stmt (succs: StmtSet.t) = 		
 		match stmt.snode with
-		| Seq [] -> stmt.succs <- succs;
-		| Seq ((hd:: _) as l) ->
-				stmt.succs <- StmtSet.add hd stmt.succs;
-				compute_cfg_succ_list succs l
+		| Seq ([]) -> stmt.succs <- succs; stmt.succl <- []
+		| Seq (list) ->
+				stmt.succs <- StmtSet.add (List.hd list) stmt.succs;
+				compute_cfg_succ_list succs list;
+				let acc = List.fold_right (fun el acc -> el :: acc) list [] in
+				stmt.succl <- acc;
+				List.iter (fun x -> compute_cfg_succ x succs) stmt.succl
 		
 		| MethodCall _ (* handle CB *)
 		| Assign _
 		| Expression _
 		| Defined _
-		| Alias _ -> stmt.succs <- succs
+		| Alias _ -> stmt.succs <- succs; stmt.succl <- []
 		
 		| Case cb ->
 				List.iter
@@ -397,12 +406,14 @@ end = struct
 		
 		| If(g, t, f) ->
 				stmt.succs <- StmtSet.add t (StmtSet.add f stmt.succs);
+				stmt.succl <- t :: (f :: stmt.succl);
 				compute_cfg_succ t succs;
 				compute_cfg_succ f succs
 		
 		| While(g, body) ->
 				stmt.succs <- StmtSet.add body stmt.succs;
 				body.succs <- StmtSet.add stmt body.succs;
+				stmt.succl <- body :: [];
 				compute_cfg_succ body succs
 		
 		| For(params, guard, body) ->

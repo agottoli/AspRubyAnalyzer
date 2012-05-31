@@ -39,6 +39,7 @@ module type CfgPrinter = sig
   val string_of_expr : expr -> string
   val string_of_cfg : stmt -> string
   val print_stmt : out_channel -> stmt -> unit
+	val print_snode : stmt -> string
 end
 
 (** This module formats CFGs so that they are valid Ruby code. *)

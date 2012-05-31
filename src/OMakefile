@@ -11,7 +11,6 @@ build_vars.ml: :value: $(SYSCONFDIR) $(VERSION)
 	echo "let version = \"$(VERSION)\"" >> $@
 
 FILES[] = 
-	dls
 	dls2
 	dQueue
 	log
@@ -20,38 +19,27 @@ FILES[] =
 	visitor
 	build_vars
 
-.SUBDIRS: dyn parser cfg typing
+.SUBDIRS: parser cfg
 	include OMakefile
 	export FILES
 
-OCAMLINCLUDES += dyn parser cfg typing
-
+OCAMLINCLUDES += parser cfg
 DRUBY_LIB = $(OCamlLibrary druby, $(FILES))
 
 OCAMLINCLUDES += $(DYP_LIB) $(YAML_DIR) $(GETOPT_DIR) $(OCAMLGRAPH_DIR)
 OCAML_OTHER_LIBS += nums unix str getopt graph
 OCAML_LIBS = $(DYP_LIB)/dyp $(YAML_DIR)/yaml druby 
 
-DRUBY_PROG = $(OCamlProgram druby, main) 
-#SAFE_EVAL_PROG = $(OCamlProgram safe_eval, safe_eval)
-#PRINT_PROG = $(OCamlProgram print_cfg, print_cfg)
-DLS_PROG = $(OCamlProgram dls, dls)
 DLS2_PROG = $(OCamlProgram dls2, dls2)
 
 TAGS: $(addsuffix .ml, $(FILES))
 	otags $+
 
-#install: $(DRUBY_PROG) $(SAFE_EVAL_PROG) $(PRINT_PROG) $(DLS_PROG) $(DLS2_PROG)
-install: $(DRUBY_PROG) $(DLS_PROG) $(DLS2_PROG)
+install: $(DLS2_PROG)
 	mkdir -p $(DESTDIR)$(BINDIR)
-	install -m 755 druby $(DESTDIR)$(BINDIR)
-	#install -m 755 safe_eval $(DESTDIR)$(BINDIR)
-	#install -m 755 print_cfg $(DESTDIR)$(BINDIR)
-	install -m 755 dls $(DESTDIR)$(BINDIR)
 	install -m 755 dls2 $(DESTDIR)$(BINDIR)
 
 uninstall:
 	rm -f $(BINDIR)/druby
 
-#.DEFAULT: $(DRUBY_PROG) $(DRUBY_LIB) $(PRINT_PROG) $(SAFE_EVAL_PROG) $(DLS_PROG) $(DLS2_PROG)
-.DEFAULT: $(DRUBY_PROG) $(DLS_PROG) $(DLS2_PROG)
+.DEFAULT: $(DLS2_PROG)

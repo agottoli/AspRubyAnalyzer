@@ -62,7 +62,32 @@ module Forwards(DFP : DataFlowProblem) = struct
                                         print_string (DFP.to_string w)
                         ) v 
 	
+
+	let rec super_fixpoint stmt in_tbl out_tbl =
+		match stmt.snode with
+			| Seq(list) -> print_string "SEQ\n";print_stmt stdout stmt;
+				let ifacts = ref (Hashtbl.find in_tbl stmt) in
+				let newfacts = ref !ifacts in
+  				List.iter (fun x -> 
+  					Hashtbl.replace in_tbl x !ifacts;
+  					newfacts := super_fixpoint x in_tbl out_tbl;
+  					Hashtbl.replace out_tbl x !newfacts;
+  					ifacts := !newfacts
+  					) list;
+				!newfacts
+			| _ ->  print_string "OTHER\n";print_stmt stdout stmt;
+				let ifacts = ref (Hashtbl.find in_tbl stmt) in
+					DFP.transfer !ifacts stmt
+
 	let fixpoint stmt =
+		let in_tbl = Hashtbl.create 127 in
+		let out_tbl = Hashtbl.create 127 in
+			Hashtbl.replace in_tbl stmt DFP.empty;
+			let newfacts = super_fixpoint stmt in_tbl out_tbl in
+				Hashtbl.replace out_tbl stmt newfacts;
+		in_tbl, out_tbl
+			
+(*		let fixpoint stmt =
 		let in_tbl = Hashtbl.create 127 in
 		let out_tbl = Hashtbl.create 127 in
 		let q = Queue.create () in
@@ -72,6 +97,8 @@ module Forwards(DFP : DataFlowProblem) = struct
 			print_string "####################################\n";
 			let stmt = Queue.pop q in
 			print_string "STMT:\n";print_stmt stdout stmt;
+			print_string "STAMPA LISTA @@@@@@@@@@@@@@@@@@@@@@@@@@\n";
+			List.iter (fun x -> print_stmt stdout x;print_string "\n";) stmt.succl;
 			print_string "PREDS:\n";
 			let in_list =
 				StmtSet.fold
@@ -111,6 +138,8 @@ module Forwards(DFP : DataFlowProblem) = struct
 					Hashtbl.replace out_tbl stmt new_facts
 		done;
 		in_tbl, out_tbl
+		
+		*)
 	
 end
 

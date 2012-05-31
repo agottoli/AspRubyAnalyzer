@@ -31,6 +31,7 @@ module type CfgPrinter = sig
   val string_of_expr : expr -> string
   val string_of_cfg : stmt -> string
   val print_stmt : out_channel -> stmt -> unit
+	val print_snode : stmt -> string
 end
 
 let str_uop = function
@@ -365,6 +366,17 @@ module Code_F(PP : CfgPrinter) = struct
     let ppf = Format.formatter_of_out_channel oc in
       format_cfg ppf s;
       pp_print_flush ppf ()
+			
+	let print_snode stmt =
+  	match stmt.snode with
+  		| Seq (_) -> "Seq"
+  		| If (_,_,_) -> "If"
+  		| Case (_) -> "Case"
+  		| While (_,_) -> "While"
+  		| For (_,_,_) -> "For"
+  		| Assign (_,_) -> "Assign"
+  		| Expression (_) -> "Expression"
+  		| _ -> "Other"
 
 end
 

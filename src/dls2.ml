@@ -116,7 +116,7 @@ open Cfg_printer.CodePrinter
 let transform targ node =
 	freparse ~env: node.lexical_locals "unless %a.nil? then %a end"
 		format_expr targ format_stmt node
-
+(*
 class safeNil inf = object(self)
 	inherit default_visitor as super
 	val facts = inf
@@ -150,44 +150,11 @@ class safeNil inf = object(self)
 		| MethodCall(_, _) -> SkipChildren
 		| _ -> super#visit_stmt node
 end
-(* open Dynamic module NilProfile : DynamicAnalysis = struct module Domain *)
-(* = Yaml.YString module CoDomain = Yaml.YBool let name = "dynnil" let     *)
-(* really_nonnil lookup mname pos = let uses = lookup mname pos in if uses *)
-(* = [] then false else not (List.mem false uses) class dyn_visitor lookup *)
-(* ifacts = object(self) inherit (safeNil ifacts) as super method          *)
-(* visit_stmt node = match node.snode with | Method(defname,args,body) ->  *)
-(* let mname = format_to_string format_def_name defname in let init_facts  *)
-(* = if really_nonnil lookup mname body.pos then NilAnalysis.init_formals  *)
-(* args NilAnalysis.NonNil else NilAnalysis.top in let in',_ =             *)
-(* NilDataFlow.fixpoint body in let me = {<facts = in'>} in let body' =    *)
-(* visit_stmt (me:>cfg_visitor) body in ChangeTo (update_stmt node         *)
-(* (Method(defname,args,body'))) | _ -> super#visit_stmt node end let      *)
-(* transform_cfg lookup stmt = compute_cfg stmt; compute_cfg_locals stmt;  *)
-(* let i,_ = NilDataFlow.fixpoint stmt in visit_stmt (new dyn_visitor      *)
-(* lookup i :> cfg_visitor) stmt let instrument_ast ast = ast let get_pos  *)
-(* pos = pos.Lexing.pos_fname, pos.Lexing.pos_lnum let format_param ppf p  *)
-(* = Format.pp_print_string ppf (method_formal_name p) open Cfg.Abbr let   *)
-(* instrument mname args body pos = let file, line = get_pos pos in let    *)
-(* code = freparse ~env:body.lexical_locals                                *)
-(* "DRuby::Profile::Dynnil.watch('%s',%d,self,'%a',[%a])" file line        *)
-(* format_def_name mname (format_comma_list format_param) args in let      *)
-(* body' = seq [code;body] body.pos in meth mname args body' pos let       *)
-(* should_instrument stmt = true class instrument_visitor = object(self)   *)
-(* inherit default_visitor as super method visit_stmt stmt = match         *)
-(* stmt.snode with | Method(mname,args,body) -> if should_instrument stmt  *)
-(* then ChangeTo (instrument mname args body stmt.pos) else SkipChildren | *)
-(* _ -> super#visit_stmt stmt end let instrument_cfg stmt = compute_cfg    *)
-(* stmt; compute_cfg_locals stmt; visit_stmt (new instrument_visitor) stmt *)
-(* let transform_ast ym ast = ast end let dyn_main fname = let module Dyn  *)
-(* = Make(Singleton(NilProfile)) in let loader = File_loader.create        *)
-(* File_loader.EmptyCfg ["../lib"] in print_stmt stdout (Dyn.run loader    *)
-(* fname)       *)
-(* *)
-
+*)
 let print_hash ifs = 
             Hashtbl.iter (fun k v -> 
                 (*print_string "Statement: \n";*)
-                print_string "\n";
+								print_string (print_snode k);print_string ":\n";
                 print_stmt stdout k;
                 print_string(" ->  ");
                     if ((StrMap.is_empty v) == false) then
@@ -205,8 +172,19 @@ let print_hash ifs =
             ) ifs
 						;;
 
+let print_map ifs = 
+                    StrMap.iter (
+                                fun k w -> 
+                                        print_string "(";
+                                        print_string k;
+                                        print_string ", ";
+                                        match w with
+																					| NilAnalysis.MaybeNil -> print_string "MaybeNil\n"
+																					| NilAnalysis.NonNil -> print_string "NonNil\n"
+                        ) ifs;;
 
 let main fname =
+	print_string "BAU3";
 	let loader = File_loader.create File_loader.EmptyCfg [] in
 	let s = File_loader.load_file loader fname in
 	Printf.printf("##### BEGIN INPUT ####\n"); print_stmt stdout s; Printf.printf("##### END INPUT #####\n");
@@ -214,13 +192,14 @@ let main fname =
 	Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n");
 	let () = compute_cfg_locals s in
 	Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n");
-	let ifacts, ofacts = NilDataFlow.fixpoint s in
-	print_string "@@@@@@@@@@@@@ FINE PRIMO FIXPOINT, INIZIO SAFENIL @@@@@@@@@@@@@\n";
-	print_hash ifacts;
-	print_string "@@@@@@@@@@@@@ FINE PRIMO FIXPOINT, INIZIO SAFENIL @@@@@@@@@@@@@\n";
-	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
+	let ifacts,ofacts = NilDataFlow.fixpoint s in
+		print_string "$$$$$$$$FIXPOINT IFACTS$$$$$$$$\n";
+		print_hash ifacts;
+		print_string "$$$$$$$$FIXPOINT OFACTS$$$$$$$$\n";
+		print_hash ofacts
+(*	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
 	Printf.printf("##### BEGIN OUTPUT ####\n"); print_stmt stdout s'; Printf.printf("##### END OUTPUT #####\n")
-
+*)
 let _ =
 	if (Array.length Sys.argv) != 2
 	then begin
