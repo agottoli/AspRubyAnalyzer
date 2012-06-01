@@ -144,7 +144,7 @@ type stmt = private {
   (* temp_map *)
   mutable preds : stmt set;
   mutable succs : stmt set;
-	mutable succl : stmt list;
+	(* mutable succl : stmt list; *)
 }
 
 and stmt_node = 

@@ -7,6 +7,8 @@ open Cfg_printer.CodePrinter
 open Visitor
 open Utils
 
+module C = Cfg.Abbr
+
 let rec exists_fp visited stmt exits =
 	if StmtSet.is_empty stmt.succs
 	then StmtSet.add stmt exits
@@ -32,6 +34,7 @@ sig
 	
 	val transfer : t -> stmt -> t
 	val join : t list -> t
+	
 end
 
 module Forwards(DFP : DataFlowProblem) = struct
@@ -62,6 +65,13 @@ module Forwards(DFP : DataFlowProblem) = struct
                                         print_string (DFP.to_string w)
                         ) v 
 	
+	let rec get_for_strings l =
+		List.fold_left ( fun acc el ->
+  		match el with
+  			| `Formal_block_id(_,s) -> s :: acc
+    		| `Formal_star(s) -> s :: acc
+    		| `Formal_tuple(m) -> get_for_strings m
+		) [] l
 
 	let rec super_fixpoint stmt in_tbl out_tbl =
 		(* prendo i fatti che mi riguardano, ci sono perche' li ha aggiunti mio padre *)
@@ -88,6 +98,27 @@ module Forwards(DFP : DataFlowProblem) = struct
   				DFP.join (t_facts :: (f_facts ::[]))
 			| While(_,b) ->
 				print_string "WHILE\n";print_stmt stdout stmt;
+				let b_facts = ref !ifacts in
+				let old_facts = ref DFP.empty in
+  				while (not (DFP.eq !old_facts !b_facts)) do
+    				Hashtbl.replace in_tbl b !b_facts;
+    				old_facts := !b_facts;
+    				b_facts := super_fixpoint b in_tbl out_tbl
+  				done;
+  				Hashtbl.replace out_tbl b !b_facts;
+  				DFP.join (!ifacts :: (!b_facts ::[]))
+			| For (p,_,b) ->
+				print_string "FOR\n";print_stmt stdout stmt;
+				
+				(* per ogni parametro del For, aggiungo ad ifacts l'associazione variabile - MaybeNil *)
+				let list = get_for_strings p in				
+				List.iter (fun x -> 
+					let l = C.local x in
+					let r = C.inil in
+					let s = mkstmt (Assign((l:> lhs), (r:> tuple_expr))) Lexing.dummy_pos in
+					ifacts := DFP.transfer !ifacts s
+				) list;
+				
 				let b_facts = ref !ifacts in
 				let old_facts = ref DFP.empty in
   				while (not (DFP.eq !old_facts !b_facts)) do
