@@ -109,7 +109,6 @@ module Forwards(DFP : DataFlowProblem) = struct
   				DFP.join (!ifacts :: (!b_facts ::[]))
 			| For (p,_,b) ->
 				print_string "FOR\n";print_stmt stdout stmt;
-				
 				(* per ogni parametro del For, aggiungo ad ifacts l'associazione variabile - MaybeNil *)
 				let list = get_for_strings p in				
 				List.iter (fun x -> 
@@ -118,7 +117,6 @@ module Forwards(DFP : DataFlowProblem) = struct
 					let s = mkstmt (Assign((l:> lhs), (r:> tuple_expr))) Lexing.dummy_pos in
 					ifacts := DFP.transfer !ifacts s
 				) list;
-				
 				let b_facts = ref !ifacts in
 				let old_facts = ref DFP.empty in
   				while (not (DFP.eq !old_facts !b_facts)) do
@@ -128,6 +126,25 @@ module Forwards(DFP : DataFlowProblem) = struct
   				done;
   				Hashtbl.replace out_tbl b !b_facts;
   				DFP.join (!ifacts :: (!b_facts ::[]))
+			| Case (b) ->
+				let whens = b.case_whens in
+				let st = List.fold_left (fun acc (_,s) -> s::acc ) [] whens in
+					let default = b.case_else in
+					let st = match default with
+						| None -> st
+						| Some s -> s::st
+					in
+						let finalfacts = 
+							List.fold_left ( fun acc x ->
+  							Hashtbl.replace in_tbl x !ifacts;
+  							let newfacts = super_fixpoint x in_tbl out_tbl in
+  							Hashtbl.replace out_tbl x newfacts;
+  							newfacts :: acc
+						) [] st
+						in
+							List.fold_left ( fun acc x ->
+								DFP.join (acc :: (x ::[] ))
+							) (List.hd finalfacts) (List.tl finalfacts)
 				
 			| _ ->  print_string "OTHER\n";print_stmt stdout stmt;
 					DFP.transfer !ifacts stmt

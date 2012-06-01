@@ -352,16 +352,12 @@ end = struct
 		| Defined _ | Undef _ | Break _ | Redo | Retry | Next _
 		-> f acc stmt
 	
-	let rec compute_cfg_succ stmt (succs: StmtSet.t) = 		
+	let rec compute_cfg_succ stmt (succs: StmtSet.t) = 	
 		match stmt.snode with
-		| Seq ([]) -> stmt.succs <- succs; 
-		(* stmt.succl <- [] *)
-		| Seq (list) ->
-				stmt.succs <- StmtSet.add (List.hd list) stmt.succs;
-				compute_cfg_succ_list succs list;
-				(* let acc = List.fold_right (fun el acc -> el :: acc) list [] in *)
-				(* stmt.succl <- acc; *)
-				(* List.iter (fun x -> compute_cfg_succ x succs) stmt.succl *)
+		| Seq [] -> stmt.succs <- succs; 
+		| Seq ((hd::_) as l) ->
+				stmt.succs <- StmtSet.add hd stmt.succs;
+				compute_cfg_succ_list succs l
 		
 		| MethodCall _ (* handle CB *)
 		| Assign _
@@ -370,7 +366,7 @@ end = struct
 		| Alias _ -> stmt.succs <- succs; 
 		(* stmt.succl <- [] *)
 		
-		| Case cb ->
+		| Case cb -> 
 				List.iter
 					(fun (guard, body) ->
 						(* stmt.succs <- StmtSet.add guard stmt.succs; compute_cfg_succ guard      *)

@@ -121,7 +121,7 @@ class safeNil inf = object(self)
 	inherit default_visitor as super
 	val facts = inf
 
-	method visit_stmt node = (*print_string "VISIT_STMT: ";print_stmt stdout node;*)
+	method visit_stmt node = (* print_string "VISIT_STMT: ";print_stmt stdout node; *)
 		match node.snode with
 		| Method(mname, args, body) ->
 				let in', out' = NilDataFlow.fixpoint body in
@@ -131,18 +131,30 @@ class safeNil inf = object(self)
 		| MethodCall(_, { mc_target = Some (`ID_Var(`Var_Local, var) as targ) }) ->
 				begin try let map = Hashtbl.find facts node in
 					begin try match StrMap.find var map with
-						| NilAnalysis.MaybeNil -> ChangeTo (transform targ node)
+						| NilAnalysis.MaybeNil -> 
+							print_string "WARNING: MaybeNil in statement ";
+							print_stmt stdout node;
+							ChangeTo (transform targ node)
 						| NilAnalysis.NonNil -> SkipChildren
-					with Not_found -> ChangeTo (transform targ node)
+					with Not_found -> 
+						print_string "WARNING: MaybeNil in statement ";
+							print_stmt stdout node;
+							ChangeTo (transform targ node)
 					end
 				with Not_found -> print_string "ASSERTFALSE\n";print_stmt stdout node;assert false
 				end
 		| MethodCall(_, { mc_target = Some (`ID_Var(`Var_Constant, var) as targ) }) ->
 				begin try let map = Hashtbl.find facts node in
 					begin try match StrMap.find var map with
-						| NilAnalysis.MaybeNil -> ChangeTo (transform targ node)
+						| NilAnalysis.MaybeNil -> 
+							print_string "WARNING: MaybeNil in statement ";
+							print_stmt stdout node;
+							ChangeTo (transform targ node)
 						| NilAnalysis.NonNil -> SkipChildren
-					with Not_found -> ChangeTo (transform targ node)
+					with Not_found -> 
+						print_string "WARNING: MaybeNil in statement ";
+							print_stmt stdout node;
+							ChangeTo (transform targ node)
 					end
 				with Not_found -> assert false
 				end
@@ -187,16 +199,17 @@ let main fname =
 	let loader = File_loader.create File_loader.EmptyCfg [] in
 	let s = File_loader.load_file loader fname in
 	Printf.printf("##### BEGIN INPUT ####\n"); print_stmt stdout s; Printf.printf("##### END INPUT #####\n");
-	let () = compute_cfg s in
-(*	Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n"); *)
-	let () = compute_cfg_locals s in
-(*	Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n"); *)
+	(* let () = compute_cfg s in *)
+	(* Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n");  *)
+	(* let () = compute_cfg_locals s in *) 
+	(* Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n"); *)
 	Printf.printf("##### BEGIN FIXPOINT ####\n");
 	let ifacts,ofacts = NilDataFlow.fixpoint s in
 		print_string "$$$$$$$$FIXPOINT IFACTS$$$$$$$$\n";
 		print_hash ifacts;
 		print_string "$$$$$$$$FIXPOINT OFACTS$$$$$$$$\n";
 		print_hash ofacts;
+		print_string "$$$$$$$$SAFENIL$$$$$$$$\n";
 	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
 	Printf.printf("##### BEGIN OUTPUT ####\n"); print_stmt stdout s'; Printf.printf("##### END OUTPUT #####\n")
 

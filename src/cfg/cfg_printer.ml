@@ -71,6 +71,18 @@ let rec str_binop = function
     recursive module.
 *)
 module Code_F(PP : CfgPrinter) = struct
+	
+	let print_snode stmt =
+  	match stmt.snode with
+  		| Seq (_) -> "Seq"
+  		| If (_,_,_) -> "If"
+  		| Case (_) -> "Case"
+  		| While (_,_) -> "While"
+  		| For (_,_,_) -> "For"
+  		| Assign (_,_) -> "Assign"
+  		| Expression (_) -> "Expression"
+			| MethodCall(_,_) -> "MethodCall"
+  		| _ -> "Other"
 
   let format_unary_op ppf op = pp_print_string ppf (str_uop op ^ "@")
 
@@ -367,16 +379,7 @@ module Code_F(PP : CfgPrinter) = struct
       format_cfg ppf s;
       pp_print_flush ppf ()
 			
-	let print_snode stmt =
-  	match stmt.snode with
-  		| Seq (_) -> "Seq"
-  		| If (_,_,_) -> "If"
-  		| Case (_) -> "Case"
-  		| While (_,_) -> "While"
-  		| For (_,_,_) -> "For"
-  		| Assign (_,_) -> "Assign"
-  		| Expression (_) -> "Expression"
-  		| _ -> "Other"
+	
 
 end
 
