@@ -64,9 +64,11 @@ module Forwards(DFP : DataFlowProblem) = struct
 	
 
 	let rec super_fixpoint stmt in_tbl out_tbl =
+		(* prendo i fatti che mi riguardano, ci sono perche' li ha aggiunti mio padre *)
+		let ifacts = ref (Hashtbl.find in_tbl stmt) in			
 		match stmt.snode with
-			| Seq(list) -> print_string "SEQ\n";print_stmt stdout stmt;
-				let ifacts = ref (Hashtbl.find in_tbl stmt) in
+			| Seq(list) -> 
+				print_string "SEQ\n";print_stmt stdout stmt;
 				let newfacts = ref !ifacts in
   				List.iter (fun x -> 
   					Hashtbl.replace in_tbl x !ifacts;
@@ -75,8 +77,28 @@ module Forwards(DFP : DataFlowProblem) = struct
   					ifacts := !newfacts
   					) list;
 				!newfacts
+			| If(_,t,f) -> 
+				print_string "IF\n";print_stmt stdout stmt;
+				Hashtbl.replace in_tbl t !ifacts;
+				Hashtbl.replace in_tbl f !ifacts;
+				let t_facts = super_fixpoint t in_tbl out_tbl in
+				let f_facts = super_fixpoint f in_tbl out_tbl in
+  				Hashtbl.replace out_tbl t t_facts;
+  				Hashtbl.replace out_tbl f f_facts;
+  				DFP.join (t_facts :: (f_facts ::[]))
+			| While(_,b) ->
+				print_string "WHILE\n";print_stmt stdout stmt;
+				let b_facts = ref !ifacts in
+				let old_facts = ref DFP.empty in
+  				while (not (DFP.eq !old_facts !b_facts)) do
+    				Hashtbl.replace in_tbl b !b_facts;
+    				old_facts := !b_facts;
+    				b_facts := super_fixpoint b in_tbl out_tbl
+  				done;
+  				Hashtbl.replace out_tbl b !b_facts;
+  				DFP.join (!ifacts :: (!b_facts ::[]))
+				
 			| _ ->  print_string "OTHER\n";print_stmt stdout stmt;
-				let ifacts = ref (Hashtbl.find in_tbl stmt) in
 					DFP.transfer !ifacts stmt
 
 	let fixpoint stmt =

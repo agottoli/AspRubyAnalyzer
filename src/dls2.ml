@@ -116,11 +116,11 @@ open Cfg_printer.CodePrinter
 let transform targ node =
 	freparse ~env: node.lexical_locals "unless %a.nil? then %a end"
 		format_expr targ format_stmt node
-(*
+
 class safeNil inf = object(self)
 	inherit default_visitor as super
 	val facts = inf
-	
+
 	method visit_stmt node = (*print_string "VISIT_STMT: ";print_stmt stdout node;*)
 		match node.snode with
 		| Method(mname, args, body) ->
@@ -128,7 +128,7 @@ class safeNil inf = object(self)
 				let me = {< facts = in'>} in
 				let body' = visit_stmt (me:> cfg_visitor) body in
 				ChangeTo (update_stmt node (Method(mname, args, body')))
-		| MethodCall(_, { mc_target = Some (`ID_Var(`Var_Local, var) as targ) }) -> 
+		| MethodCall(_, { mc_target = Some (`ID_Var(`Var_Local, var) as targ) }) ->
 				begin try let map = Hashtbl.find facts node in
 					begin try match StrMap.find var map with
 						| NilAnalysis.MaybeNil -> ChangeTo (transform targ node)
@@ -137,7 +137,7 @@ class safeNil inf = object(self)
 					end
 				with Not_found -> print_string "ASSERTFALSE\n";print_stmt stdout node;assert false
 				end
-		| MethodCall(_, { mc_target = Some (`ID_Var(`Var_Constant, var) as targ) }) -> 
+		| MethodCall(_, { mc_target = Some (`ID_Var(`Var_Constant, var) as targ) }) ->
 				begin try let map = Hashtbl.find facts node in
 					begin try match StrMap.find var map with
 						| NilAnalysis.MaybeNil -> ChangeTo (transform targ node)
@@ -146,11 +146,11 @@ class safeNil inf = object(self)
 					end
 				with Not_found -> assert false
 				end
-		| MethodCall(_, { mc_target = Some (#expr) }) 
+		| MethodCall(_, { mc_target = Some (#expr) })
 		| MethodCall(_, _) -> SkipChildren
 		| _ -> super#visit_stmt node
 end
-*)
+
 let print_hash ifs = 
             Hashtbl.iter (fun k v -> 
                 (*print_string "Statement: \n";*)
@@ -184,22 +184,22 @@ let print_map ifs =
                         ) ifs;;
 
 let main fname =
-	print_string "BAU3";
 	let loader = File_loader.create File_loader.EmptyCfg [] in
 	let s = File_loader.load_file loader fname in
 	Printf.printf("##### BEGIN INPUT ####\n"); print_stmt stdout s; Printf.printf("##### END INPUT #####\n");
 	let () = compute_cfg s in
-	Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n");
+(*	Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n"); *)
 	let () = compute_cfg_locals s in
-	Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n");
+(*	Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n"); *)
+	Printf.printf("##### BEGIN FIXPOINT ####\n");
 	let ifacts,ofacts = NilDataFlow.fixpoint s in
 		print_string "$$$$$$$$FIXPOINT IFACTS$$$$$$$$\n";
 		print_hash ifacts;
 		print_string "$$$$$$$$FIXPOINT OFACTS$$$$$$$$\n";
-		print_hash ofacts
-(*	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
+		print_hash ofacts;
+	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
 	Printf.printf("##### BEGIN OUTPUT ####\n"); print_stmt stdout s'; Printf.printf("##### END OUTPUT #####\n")
-*)
+
 let _ =
 	if (Array.length Sys.argv) != 2
 	then begin

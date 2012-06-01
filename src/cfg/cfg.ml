@@ -412,7 +412,7 @@ end = struct
 		
 		| While(g, body) ->
 				stmt.succs <- StmtSet.add body stmt.succs;
-				body.succs <- StmtSet.add stmt body.succs;
+				(* body.succs <- StmtSet.add stmt body.succs;  *)
 				stmt.succl <- body :: [];
 				compute_cfg_succ body succs
 		
