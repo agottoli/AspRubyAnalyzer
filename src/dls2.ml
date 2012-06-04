@@ -6,6 +6,9 @@ open Cfg_printer.CodePrinter
 open Visitor
 open Utils
 
+
+
+
 let method_formal_name = function
 	| `Formal_meth_id var
 	| `Formal_amp var
@@ -49,11 +52,11 @@ module NilAnalysis = struct
 			try meet_fact (StrMap.find s map) v
 			with Not_found -> v
 		in 
-		print_string "UPDATE ";
-		print_string s;
-		print_string " -> ";
-		print_string (fact_to_s v);
-		print_string "\n";
+		(* print_string "UPDATE ";     *)
+		(* print_string s;             *)
+		(* print_string " -> ";        *)
+		(* print_string (fact_to_s v); *)
+		(* print_string "\n";          *)
 		StrMap.add s fact map
 		
 	let update2 s v map =
@@ -61,11 +64,11 @@ module NilAnalysis = struct
 			try meet_fact2 (StrMap.find s map) v
 			with Not_found -> MaybeNil
 		in 
-		print_string "UPDATE2 ";
-		print_string s;
-		print_string " -> ";
-		print_string (fact_to_s v);
-		print_string "\n";
+		(* print_string "UPDATE2 ";    *)
+		(* print_string s;             *)
+		(* print_string " -> ";        *)
+		(* print_string (fact_to_s v); *)
+		(* print_string "\n";          *)
 		StrMap.add s fact map
 	
 	let join lst =
@@ -98,15 +101,43 @@ module NilAnalysis = struct
 		| Assign(lhs, _) -> update_lhs MaybeNil map lhs
 		| _ -> map
 	
-	let init_formals args fact =
-		List.fold_left
-			(fun acc param ->
-						update (method_formal_name param) fact acc
-			) top args
-	
 	let empty = StrMap.empty
 	
 end
+
+
+let print_hash ifs = 
+            Hashtbl.iter (fun k v -> 
+                (*print_string "Statement: \n";*)
+								print_string (print_snode k);print_string ":\n";
+                print_stmt stdout k;
+                print_string(" ->  ");
+                    if ((StrMap.is_empty v) == false) then
+                        StrMap.iter (
+                                fun k w -> 
+                                        print_string "(";
+                                        print_string k;
+                                        print_string ", ";
+                                        match w with
+																					| NilAnalysis.MaybeNil -> print_string "MaybeNil\n"
+																					| NilAnalysis.NonNil -> print_string "NonNil\n"
+                        ) v 
+                    else
+                        print_string "\n";
+            ) ifs
+						;;
+
+let print_map ifs = 
+                    StrMap.iter (
+                                fun k w -> 
+                                        print_string "(";
+                                        print_string k;
+                                        print_string ", ";
+                                        match w with
+																					| NilAnalysis.MaybeNil -> print_string "MaybeNil\n"
+																					| NilAnalysis.NonNil -> print_string "NonNil\n"
+                        ) ifs;;
+
 
 module NilDataFlow = Dataflow.Forwards(NilAnalysis)
 
@@ -163,37 +194,7 @@ class safeNil inf = object(self)
 		| _ -> super#visit_stmt node
 end
 
-let print_hash ifs = 
-            Hashtbl.iter (fun k v -> 
-                (*print_string "Statement: \n";*)
-								print_string (print_snode k);print_string ":\n";
-                print_stmt stdout k;
-                print_string(" ->  ");
-                    if ((StrMap.is_empty v) == false) then
-                        StrMap.iter (
-                                fun k w -> 
-                                        print_string "(";
-                                        print_string k;
-                                        print_string ", ";
-                                        match w with
-																					| NilAnalysis.MaybeNil -> print_string "MaybeNil\n"
-																					| NilAnalysis.NonNil -> print_string "NonNil\n"
-                        ) v 
-                    else
-                        print_string "\n";
-            ) ifs
-						;;
 
-let print_map ifs = 
-                    StrMap.iter (
-                                fun k w -> 
-                                        print_string "(";
-                                        print_string k;
-                                        print_string ", ";
-                                        match w with
-																					| NilAnalysis.MaybeNil -> print_string "MaybeNil\n"
-																					| NilAnalysis.NonNil -> print_string "NonNil\n"
-                        ) ifs;;
 
 let main fname =
 	let loader = File_loader.create File_loader.EmptyCfg [] in
@@ -203,15 +204,15 @@ let main fname =
 	(* Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n");  *)
 	(* let () = compute_cfg_locals s in *) 
 	(* Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n"); *)
-	Printf.printf("##### BEGIN FIXPOINT ####\n");
+	(* Printf.printf("##### BEGIN FIXPOINT ####\n"); *)
 	let ifacts,ofacts = NilDataFlow.fixpoint s in
-		print_string "$$$$$$$$FIXPOINT IFACTS$$$$$$$$\n";
-		print_hash ifacts;
-		print_string "$$$$$$$$FIXPOINT OFACTS$$$$$$$$\n";
-		print_hash ofacts;
-		print_string "$$$$$$$$SAFENIL$$$$$$$$\n";
-	let s' = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
-	Printf.printf("##### BEGIN OUTPUT ####\n"); print_stmt stdout s'; Printf.printf("##### END OUTPUT #####\n")
+		(* print_string "$$$$$$$$FIXPOINT IFACTS$$$$$$$$\n"; *)
+		(* print_hash ifacts; *)
+		(* print_string "$$$$$$$$FIXPOINT OFACTS$$$$$$$$\n"; *)
+		(* print_hash ofacts; *)
+		(* print_string "$$$$$$$$SAFENIL$$$$$$$$\n"; *)
+	let _ = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
+	Printf.printf("##### END OUTPUT #####\n")
 
 let _ =
 	if (Array.length Sys.argv) != 2
