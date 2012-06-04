@@ -1037,7 +1037,7 @@ and visit_stmt_children vtor stmt = match stmt.snode with
 					) c.case_whens
 			in
 			let else' = map_opt_preserve (visit_stmt vtor) c.case_else in
-			if guard' == c.case_guard && whens' = c.case_whens
+			if guard' == c.case_guard && whens' == c.case_whens
 			&& else' == c.case_else
 			then stmt
 			else
@@ -1055,7 +1055,7 @@ and visit_stmt_children vtor stmt = match stmt.snode with
 									map_preserve List.map (visit_rescue_guard vtor) resc.rescue_guards
 								in
 								let rbody' = visit_stmt vtor resc.rescue_body in
-								if guards' == resc.rescue_guards && rbody'= resc.rescue_body
+								if guards' == resc.rescue_guards && rbody'== resc.rescue_body
 								then resc
 								else { rescue_guards = guards'; rescue_body = rbody'}
 					) e.exn_rescue

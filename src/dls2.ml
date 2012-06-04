@@ -33,12 +33,16 @@ module NilAnalysis = struct
           | NonNil -> print_string "NonNil) "
     ) v 
 
-	let meet_fact2 t1 t2 = print_string "MEET_FACT2 ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");match t1, t2 with
+	let meet_fact2 t1 t2 = 
+		(* print_string "MEET_FACT2 ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n"); *)
+		match t1, t2 with
 		| MaybeNil, _ 
 		| _, MaybeNil -> MaybeNil
 		| NonNil, NonNil -> NonNil
 
-	let meet_fact t1 t2 = print_string "MEET_FACT ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");match t1, t2 with
+	let meet_fact t1 t2 = 
+		(* print_string "MEET_FACT ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n"); *)
+		match t1, t2 with
 		| _, MaybeNil -> MaybeNil
 		| _, NonNil -> NonNil
 	
@@ -199,9 +203,9 @@ let main fname =
 	let loader = File_loader.create File_loader.EmptyCfg [] in
 	let s = File_loader.load_file loader fname in
 	(* Printf.printf("##### BEGIN INPUT ####\n"); print_stmt stdout s; Printf.printf("##### END INPUT #####\n"); *)
-	(* let () = compute_cfg s in *)
+	let () = compute_cfg s in
 	(* Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n");  *)
-	(* let () = compute_cfg_locals s in *) 
+	let () = compute_cfg_locals s in
 	(* Printf.printf("##### BEGIN CFGL ####\n"); print_stmt stdout s; Printf.printf("##### END CFGL #####\n"); *)
 	(* Printf.printf("##### BEGIN FIXPOINT ####\n"); *)
 	let ifacts,ofacts = NilDataFlow.fixpoint s in
