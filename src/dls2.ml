@@ -6,9 +6,6 @@ open Cfg_printer.CodePrinter
 open Visitor
 open Utils
 
-
-
-
 let method_formal_name = function
 	| `Formal_meth_id var
 	| `Formal_amp var
@@ -25,19 +22,17 @@ module NilAnalysis = struct
 	let fact_to_s = function MaybeNil -> "MaybeNil" | NonNil -> "NonNil"
 	let to_string t = strmap_to_string fact_to_s t
 	
-	let print_map v =  StrMap.iter (
-                                fun k w -> 
-                                        print_string "(";
-                                        print_string k;
-                                        print_string ", ";
-                                        match w with
-                                        | MaybeNil -> print_string "MaybeNil) "
-                                        | NonNil -> print_string "NonNil) "
-                        ) v 
-												
-												
-	
-	
+	let print_map v =  
+		StrMap.iter (
+			fun k w -> 
+      	print_string "(";
+        print_string k;
+        print_string ", ";
+        match w with
+        	| MaybeNil -> print_string "MaybeNil) "
+          | NonNil -> print_string "NonNil) "
+    ) v 
+
 	let meet_fact2 t1 t2 = print_string "MEET_FACT2 ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");match t1, t2 with
 		| MaybeNil, _ 
 		| _, MaybeNil -> MaybeNil
@@ -105,7 +100,6 @@ module NilAnalysis = struct
 	
 end
 
-
 let print_hash ifs = 
             Hashtbl.iter (fun k v -> 
                 (*print_string "Statement: \n";*)
@@ -148,6 +142,15 @@ let transform targ node =
 	freparse ~env: node.lexical_locals "unless %a.nil? then %a end"
 		format_expr targ format_stmt node
 
+let print_pos pos =
+  Printf.printf "%d: " pos.Lexing.pos_lnum;
+  flush_all ()
+	
+let print_warning node =
+	print_string "WARNING: MaybeNil in line ";
+	print_pos node.pos;
+	print_stmt stdout node
+
 class safeNil inf = object(self)
 	inherit default_visitor as super
 	val facts = inf
@@ -163,14 +166,12 @@ class safeNil inf = object(self)
 				begin try let map = Hashtbl.find facts node in
 					begin try match StrMap.find var map with
 						| NilAnalysis.MaybeNil -> 
-							print_string "WARNING: MaybeNil in statement ";
-							print_stmt stdout node;
+							print_warning node;
 							ChangeTo (transform targ node)
 						| NilAnalysis.NonNil -> SkipChildren
 					with Not_found -> 
-						print_string "WARNING: MaybeNil in statement ";
-							print_stmt stdout node;
-							ChangeTo (transform targ node)
+						print_warning node;
+						ChangeTo (transform targ node)
 					end
 				with Not_found -> print_string "ASSERTFALSE\n";print_stmt stdout node;assert false
 				end
@@ -178,13 +179,11 @@ class safeNil inf = object(self)
 				begin try let map = Hashtbl.find facts node in
 					begin try match StrMap.find var map with
 						| NilAnalysis.MaybeNil -> 
-							print_string "WARNING: MaybeNil in statement ";
-							print_stmt stdout node;
+							print_warning node;
 							ChangeTo (transform targ node)
 						| NilAnalysis.NonNil -> SkipChildren
 					with Not_found -> 
-						print_string "WARNING: MaybeNil in statement ";
-							print_stmt stdout node;
+							print_warning node;
 							ChangeTo (transform targ node)
 					end
 				with Not_found -> assert false
@@ -199,7 +198,7 @@ end
 let main fname =
 	let loader = File_loader.create File_loader.EmptyCfg [] in
 	let s = File_loader.load_file loader fname in
-	Printf.printf("##### BEGIN INPUT ####\n"); print_stmt stdout s; Printf.printf("##### END INPUT #####\n");
+	(* Printf.printf("##### BEGIN INPUT ####\n"); print_stmt stdout s; Printf.printf("##### END INPUT #####\n"); *)
 	(* let () = compute_cfg s in *)
 	(* Printf.printf("##### BEGIN CFG ####\n"); print_stmt stdout s; Printf.printf("##### END CFG #####\n");  *)
 	(* let () = compute_cfg_locals s in *) 
