@@ -2,9 +2,13 @@
 *.omc
 bin/
 *.cmi
-*.cmx
+*.cm
+.omakedb
 *.o
 *.annot
-*.cmxa
 *.lock
-
+*.cmxa
+*.opt
+.omakedb
+*.so
+*.a
