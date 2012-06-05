@@ -20,7 +20,7 @@ if $(defined BISECT)
 
 .PHONY: install uninstall clean config
 
-.SUBDIRS: src
+.SUBDIRS: src dypgen-20070627 ocaml-syck-0.1.1
 
 ALL_FILES = $`(ls R, .) #`
 ALL_TARGETS = $`(filter-targets $(ALL_FILES))) #`
