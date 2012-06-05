@@ -1,0 +1,9 @@
+# ignore ocaml shit
+*.omc
+bin/
+*.cmi
+*.cmx
+*.o
+*.annot
+
+
