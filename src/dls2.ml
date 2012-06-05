@@ -34,14 +34,14 @@ module NilAnalysis = struct
     ) v 
 
 	let meet_fact2 t1 t2 = 
-		(* print_string "MEET_FACT2 ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n"); *)
+		print_string "MEET_FACT2 ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");
 		match t1, t2 with
 		| MaybeNil, _ 
 		| _, MaybeNil -> MaybeNil
 		| NonNil, NonNil -> NonNil
 
 	let meet_fact t1 t2 = 
-		(* print_string "MEET_FACT ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n"); *)
+		print_string "MEET_FACT ";print_string(fact_to_s t1);print_string(fact_to_s t2);print_string("\n");
 		match t1, t2 with
 		| _, MaybeNil -> MaybeNil
 		| _, NonNil -> NonNil
@@ -51,11 +51,11 @@ module NilAnalysis = struct
 			try meet_fact (StrMap.find s map) v
 			with Not_found -> v
 		in 
-		(* print_string "UPDATE ";     *)
-		(* print_string s;             *)
-		(* print_string " -> ";        *)
-		(* print_string (fact_to_s v); *)
-		(* print_string "\n";          *)
+		print_string "UPDATE ";
+		print_string s;
+		print_string " -> ";
+		print_string (fact_to_s v);
+		print_string "\n";
 		StrMap.add s fact map
 		
 	let update2 s v map =
@@ -63,11 +63,11 @@ module NilAnalysis = struct
 			try meet_fact2 (StrMap.find s map) v
 			with Not_found -> MaybeNil
 		in 
-		(* print_string "UPDATE2 ";    *)
-		(* print_string s;             *)
-		(* print_string " -> ";        *)
-		(* print_string (fact_to_s v); *)
-		(* print_string "\n";          *)
+		print_string "UPDATE2 ";
+		print_string s;
+		print_string " -> ";
+		print_string (fact_to_s v);
+		print_string "\n";
 		StrMap.add s fact map
 	
 	let join lst =
@@ -107,6 +107,7 @@ end
 let print_hash ifs = 
             Hashtbl.iter (fun k v -> 
                 (*print_string "Statement: \n";*)
+								print_string("###");
 								print_string (print_snode k);print_string ":\n";
                 print_stmt stdout k;
                 print_string(" ->  ");
@@ -210,9 +211,9 @@ let main fname =
 	(* Printf.printf("##### BEGIN FIXPOINT ####\n"); *)
 	let ifacts,ofacts = NilDataFlow.fixpoint s in
 		(* print_string "$$$$$$$$FIXPOINT IFACTS$$$$$$$$\n"; *)
-		(* print_hash ifacts; *)
+		(* print_hash ifacts;                                *)
 		(* print_string "$$$$$$$$FIXPOINT OFACTS$$$$$$$$\n"; *)
-		(* print_hash ofacts; *)
+		(* print_hash ofacts;                                *)
 		(* print_string "$$$$$$$$SAFENIL$$$$$$$$\n"; *)
 	let _ = visit_stmt (new safeNil ifacts :> cfg_visitor) s in
 	Printf.printf("##### END OUTPUT #####\n")

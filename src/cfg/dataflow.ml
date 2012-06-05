@@ -78,7 +78,7 @@ module Forwards(DFP : DataFlowProblem) = struct
 		let ifacts = ref (Hashtbl.find in_tbl stmt) in			
 		match stmt.snode with
 			| Seq(list) -> 
-				(* print_string "SEQ\n";print_stmt stdout stmt; *)
+				print_string "SEQ\n";print_stmt stdout stmt;
 				let newfacts = ref !ifacts in
   				List.iter (fun x -> 
   					Hashtbl.replace in_tbl x !ifacts;
@@ -97,18 +97,19 @@ module Forwards(DFP : DataFlowProblem) = struct
   				Hashtbl.replace out_tbl f f_facts;
   				DFP.join (t_facts :: (f_facts ::[]))
 			| While(_,b) ->
-				(* print_string "WHILE\n";print_stmt stdout stmt; *)
+				print_string "WHILE\n";print_stmt stdout stmt;
 				let b_facts = ref !ifacts in
 				let old_facts = ref DFP.empty in
   				while (not (DFP.eq !old_facts !b_facts)) do
     				Hashtbl.replace in_tbl b !b_facts;
     				old_facts := !b_facts;
-    				b_facts := super_fixpoint b in_tbl out_tbl
+    				b_facts := super_fixpoint b in_tbl out_tbl;
+						b_facts := DFP.join (!ifacts :: (!b_facts ::[]));
   				done;
   				Hashtbl.replace out_tbl b !b_facts;
   				DFP.join (!ifacts :: (!b_facts ::[]))
 			| For (p,_,b) ->
-				(* print_string "FOR\n";print_stmt stdout stmt; *)
+				print_string "FOR\n";print_stmt stdout stmt;
 				(* per ogni parametro del For, aggiungo ad ifacts l'associazione variabile - MaybeNil *)
 				let list = get_for_strings p in				
 				List.iter (fun x -> 
@@ -123,6 +124,7 @@ module Forwards(DFP : DataFlowProblem) = struct
     				Hashtbl.replace in_tbl b !b_facts;
     				old_facts := !b_facts;
     				b_facts := super_fixpoint b in_tbl out_tbl
+						b_facts := DFP.join (!ifacts :: (!b_facts ::[]));
   				done;
   				Hashtbl.replace out_tbl b !b_facts;
   				DFP.join (!ifacts :: (!b_facts ::[]))
@@ -147,7 +149,7 @@ module Forwards(DFP : DataFlowProblem) = struct
 							) (List.hd finalfacts) (List.tl finalfacts)
 				
 			| _ ->  
-				(* print_string "OTHER\n";print_stmt stdout stmt; *)
+				print_string "OTHER\n";print_stmt stdout stmt;
 					DFP.transfer !ifacts stmt
 
 	let fixpoint stmt =
