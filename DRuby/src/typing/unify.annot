@@ -1,0 +1,662 @@
+"unify.ml" 5 47 51 "unify.ml" 5 47 57
+type(
+  'a -> 'a t
+)
+ident(
+  def create "unify.ml" 7 83 83 --
+)
+"unify.ml" 5 47 58 "unify.ml" 5 47 59
+type(
+  'a
+)
+ident(
+  def t "unify.ml" 5 47 62 "unify.ml" 5 47 81
+)
+"unify.ml" 5 47 70 "unify.ml" 5 47 71
+type(
+  'a
+)
+ident(
+  int_ref t "unify.ml" 5 47 58 "unify.ml" 5 47 59
+)
+"unify.ml" 5 47 72 "unify.ml" 5 47 75
+type(
+  'a t option -> 'a t option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"unify.ml" 5 47 76 "unify.ml" 5 47 80
+type(
+  'a t option
+)
+"unify.ml" 5 47 72 "unify.ml" 5 47 80
+type(
+  'a t option ref
+)
+"unify.ml" 5 47 62 "unify.ml" 5 47 81
+type(
+  'a t
+)
+"unify.ml" 7 83 87 "unify.ml" 7 83 94
+type(
+  'a t -> 'a
+)
+ident(
+  def current "unify.ml" 9 131 131 --
+)
+"unify.ml" 7 83 95 "unify.ml" 7 83 96
+type(
+  'a t
+)
+ident(
+  def t "unify.ml" 7 83 99 "unify.ml" 7 83 129
+)
+"unify.ml" 7 83 105 "unify.ml" 7 83 106
+type(
+  'a t
+)
+ident(
+  int_ref t "unify.ml" 7 83 95 "unify.ml" 7 83 96
+)
+"unify.ml" 7 83 120 "unify.ml" 7 83 121
+type(
+  'a
+)
+ident(
+  def c "unify.ml" 7 83 128 "unify.ml" 7 83 129
+)
+"unify.ml" 7 83 122 "unify.ml" 7 83 123
+type(
+  'a t option ref
+)
+"unify.ml" 7 83 112 "unify.ml" 7 83 124
+type(
+  'a t
+)
+"unify.ml" 7 83 128 "unify.ml" 7 83 129
+type(
+  'a
+)
+ident(
+  int_ref c "unify.ml" 7 83 120 "unify.ml" 7 83 121
+)
+"unify.ml" 7 83 99 "unify.ml" 7 83 129
+type(
+  'a
+)
+"unify.ml" 9 131 139 "unify.ml" 9 131 142
+type(
+  'a t -> 'a t
+)
+ident(
+  def ecr "unify.ml" 9 131 131 --
+)
+"unify.ml" 9 131 143 "unify.ml" 9 131 144
+type(
+  'a t
+)
+ident(
+  def t "unify.ml" 9 131 147 "unify.ml" 14 279 311
+)
+"unify.ml" 9 131 153 "unify.ml" 9 131 154
+type(
+  'a t
+)
+ident(
+  int_ref t "unify.ml" 9 131 143 "unify.ml" 9 131 144
+)
+"unify.ml" 9 131 168 "unify.ml" 9 131 169
+type(
+  'a
+)
+ident(
+  def r "unify.ml" 10 178 180 "unify.ml" 14 279 311
+)
+"unify.ml" 9 131 170 "unify.ml" 9 131 173
+type(
+  'a t option ref
+)
+ident(
+  def opt "unify.ml" 10 178 180 "unify.ml" 14 279 311
+)
+"unify.ml" 9 131 160 "unify.ml" 9 131 174
+type(
+  'a t
+)
+"unify.ml" 10 178 186 "unify.ml" 10 178 187
+type(
+  'a t option ref -> 'a t option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"unify.ml" 10 178 187 "unify.ml" 10 178 190
+type(
+  'a t option ref
+)
+ident(
+  int_ref opt "unify.ml" 9 131 170 "unify.ml" 9 131 173
+)
+"unify.ml" 10 178 186 "unify.ml" 10 178 190
+type(
+  'a t option
+)
+"unify.ml" 11 196 202 "unify.ml" 11 196 206
+type(
+  'a t option
+)
+"unify.ml" 11 196 210 "unify.ml" 11 196 211
+type(
+  'a t
+)
+ident(
+  int_ref t "unify.ml" 9 131 143 "unify.ml" 9 131 144
+)
+"unify.ml" 12 212 223 "unify.ml" 12 212 225
+type(
+  'a t
+)
+ident(
+  def t2 "unify.ml" 13 230 238 "unify.ml" 14 279 311
+)
+"unify.ml" 12 212 218 "unify.ml" 12 212 225
+type(
+  'a t option
+)
+"unify.ml" 13 230 242 "unify.ml" 13 230 246
+type(
+  'a t
+)
+"unify.ml" 13 230 249 "unify.ml" 13 230 252
+type(
+  'a t -> 'a t
+)
+ident(
+  int_ref ecr "unify.ml" 9 131 139 "unify.ml" 9 131 142
+)
+"unify.ml" 13 230 253 "unify.ml" 13 230 255
+type(
+  'a t
+)
+ident(
+  int_ref t2 "unify.ml" 12 212 223 "unify.ml" 12 212 225
+)
+"unify.ml" 13 230 249 "unify.ml" 13 230 255
+call(
+  stack
+)
+type(
+  'a t
+)
+"unify.ml" 14 279 290 "unify.ml" 14 279 293
+type(
+  'a t option ref
+)
+ident(
+  int_ref opt "unify.ml" 9 131 170 "unify.ml" 9 131 173
+)
+"unify.ml" 14 279 294 "unify.ml" 14 279 296
+type(
+  'a t option ref -> 'a t option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"unify.ml" 14 279 302 "unify.ml" 14 279 306
+type(
+  'a t
+)
+ident(
+  int_ref root "unify.ml" 13 230 242 "unify.ml" 13 230 246
+)
+"unify.ml" 14 279 297 "unify.ml" 14 279 306
+type(
+  'a t option
+)
+"unify.ml" 14 279 290 "unify.ml" 14 279 306
+type(
+  unit
+)
+"unify.ml" 14 279 307 "unify.ml" 14 279 311
+type(
+  'a t
+)
+ident(
+  int_ref root "unify.ml" 13 230 242 "unify.ml" 13 230 246
+)
+"unify.ml" 14 279 290 "unify.ml" 14 279 311
+type(
+  'a t
+)
+"unify.ml" 13 230 238 "unify.ml" 14 279 311
+type(
+  'a t
+)
+"unify.ml" 10 178 180 "unify.ml" 14 279 311
+type(
+  'a t
+)
+"unify.ml" 9 131 147 "unify.ml" 14 279 311
+type(
+  'a t
+)
+"unify.ml" 16 331 335 "unify.ml" 16 331 340
+type(
+  'a t -> 'a
+)
+ident(
+  def value "unify.ml" 19 383 383 --
+)
+"unify.ml" 16 331 341 "unify.ml" 16 331 342
+type(
+  'a t
+)
+ident(
+  def t "unify.ml" 16 331 345 "unify.ml" 16 331 360
+)
+"unify.ml" 16 331 345 "unify.ml" 16 331 352
+type(
+  'a t -> 'a
+)
+ident(
+  int_ref current "unify.ml" 7 83 87 "unify.ml" 7 83 94
+)
+"unify.ml" 16 331 354 "unify.ml" 16 331 357
+type(
+  'a t -> 'a t
+)
+ident(
+  int_ref ecr "unify.ml" 9 131 139 "unify.ml" 9 131 142
+)
+"unify.ml" 16 331 358 "unify.ml" 16 331 359
+type(
+  'a t
+)
+ident(
+  int_ref t "unify.ml" 16 331 341 "unify.ml" 16 331 342
+)
+"unify.ml" 16 331 353 "unify.ml" 16 331 360
+call(
+  stack
+)
+type(
+  'a t
+)
+"unify.ml" 16 331 345 "unify.ml" 16 331 360
+call(
+  tail
+)
+type(
+  'a
+)
+"unify.ml" 19 383 387 "unify.ml" 19 383 392
+type(
+  'a t -> 'a t -> 'a t
+)
+ident(
+  def union "unify.ml" 30 632 632 --
+)
+"unify.ml" 19 383 393 "unify.ml" 19 383 395
+type(
+  'a t
+)
+ident(
+  def t1 "unify.ml" 19 383 396 "unify.ml" 26 559 593
+)
+"unify.ml" 19 383 396 "unify.ml" 19 383 398
+type(
+  'a t
+)
+ident(
+  def t2 "unify.ml" 20 402 404 "unify.ml" 26 559 593
+)
+"unify.ml" 20 402 408 "unify.ml" 20 402 410
+type(
+  'a t
+)
+"unify.ml" 20 402 413 "unify.ml" 20 402 416
+type(
+  'a t -> 'a t
+)
+ident(
+  int_ref ecr "unify.ml" 9 131 139 "unify.ml" 9 131 142
+)
+"unify.ml" 20 402 417 "unify.ml" 20 402 419
+type(
+  'a t
+)
+ident(
+  int_ref t1 "unify.ml" 19 383 393 "unify.ml" 19 383 395
+)
+"unify.ml" 20 402 413 "unify.ml" 20 402 419
+call(
+  stack
+)
+type(
+  'a t
+)
+"unify.ml" 21 423 429 "unify.ml" 21 423 431
+type(
+  'a t
+)
+"unify.ml" 21 423 434 "unify.ml" 21 423 437
+type(
+  'a t -> 'a t
+)
+ident(
+  int_ref ecr "unify.ml" 9 131 139 "unify.ml" 9 131 142
+)
+"unify.ml" 21 423 438 "unify.ml" 21 423 440
+type(
+  'a t
+)
+ident(
+  int_ref t2 "unify.ml" 19 383 396 "unify.ml" 19 383 398
+)
+"unify.ml" 21 423 434 "unify.ml" 21 423 440
+call(
+  stack
+)
+type(
+  'a t
+)
+"unify.ml" 22 444 451 "unify.ml" 22 444 453
+type(
+  'a t
+)
+ident(
+  int_ref e1 "unify.ml" 20 402 408 "unify.ml" 20 402 410
+)
+"unify.ml" 22 444 454 "unify.ml" 22 444 456
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"unify.ml" 22 444 457 "unify.ml" 22 444 459
+type(
+  'a t
+)
+ident(
+  int_ref e2 "unify.ml" 21 423 429 "unify.ml" 21 423 431
+)
+"unify.ml" 22 444 451 "unify.ml" 22 444 459
+type(
+  bool
+)
+"unify.ml" 23 461 470 "unify.ml" 23 461 478
+type(
+  string -> 'a t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"unify.ml" 23 461 479 "unify.ml" 23 461 528
+type(
+  string
+)
+"unify.ml" 23 461 470 "unify.ml" 23 461 528
+call(
+  tail
+)
+type(
+  'a t
+)
+"unify.ml" 25 539 551 "unify.ml" 25 539 553
+type(
+  'a t
+)
+ident(
+  int_ref e1 "unify.ml" 20 402 408 "unify.ml" 20 402 410
+)
+"unify.ml" 26 559 570 "unify.ml" 26 559 571
+type(
+  'a
+)
+"unify.ml" 26 559 572 "unify.ml" 26 559 573
+type(
+  'a t option ref
+)
+ident(
+  def n "unify.ml" 26 559 578 "unify.ml" 26 559 593
+)
+"unify.ml" 26 559 562 "unify.ml" 26 559 574
+type(
+  'a t
+)
+"unify.ml" 26 559 578 "unify.ml" 26 559 579
+type(
+  'a t option ref
+)
+ident(
+  int_ref n "unify.ml" 26 559 572 "unify.ml" 26 559 573
+)
+"unify.ml" 26 559 580 "unify.ml" 26 559 582
+type(
+  'a t option ref -> 'a t option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"unify.ml" 26 559 588 "unify.ml" 26 559 590
+type(
+  'a t
+)
+ident(
+  int_ref e2 "unify.ml" 21 423 429 "unify.ml" 21 423 431
+)
+"unify.ml" 26 559 583 "unify.ml" 26 559 590
+type(
+  'a t option
+)
+"unify.ml" 26 559 578 "unify.ml" 26 559 590
+type(
+  unit
+)
+"unify.ml" 26 559 591 "unify.ml" 26 559 593
+type(
+  'a t
+)
+ident(
+  int_ref e2 "unify.ml" 21 423 429 "unify.ml" 21 423 431
+)
+"unify.ml" 26 559 578 "unify.ml" 26 559 593
+type(
+  'a t
+)
+"unify.ml" 25 539 545 "unify.ml" 26 559 593
+type(
+  'a t
+)
+"unify.ml" 22 444 448 "unify.ml" 26 559 593
+type(
+  'a t
+)
+"unify.ml" 21 423 425 "unify.ml" 26 559 593
+type(
+  'a t
+)
+"unify.ml" 20 402 404 "unify.ml" 26 559 593
+type(
+  'a t
+)
+"unify.ml" 30 632 640 "unify.ml" 30 632 644
+type(
+  ('a -> 'b -> 'b) -> 'a t -> 'b -> 'b
+)
+ident(
+  def fold "unify.ml" 30 632 632 --
+)
+"unify.ml" 30 632 645 "unify.ml" 30 632 649
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def func "unify.ml" 30 632 650 "unify.ml" 33 735 777
+)
+"unify.ml" 30 632 650 "unify.ml" 30 632 651
+type(
+  'a t
+)
+ident(
+  def t "unify.ml" 30 632 652 "unify.ml" 33 735 777
+)
+"unify.ml" 30 632 652 "unify.ml" 30 632 655
+type(
+  'b
+)
+ident(
+  def acc "unify.ml" 31 659 661 "unify.ml" 33 735 777
+)
+"unify.ml" 31 659 667 "unify.ml" 31 659 668
+type(
+  'a t
+)
+ident(
+  int_ref t "unify.ml" 30 632 650 "unify.ml" 30 632 651
+)
+"unify.ml" 31 659 682 "unify.ml" 31 659 683
+type(
+  'a
+)
+ident(
+  def e "unify.ml" 31 659 693 "unify.ml" 33 735 777
+)
+"unify.ml" 31 659 684 "unify.ml" 31 659 688
+type(
+  'a t option ref
+)
+ident(
+  def next "unify.ml" 31 659 693 "unify.ml" 33 735 777
+)
+"unify.ml" 31 659 674 "unify.ml" 31 659 689
+type(
+  'a t
+)
+"unify.ml" 31 659 699 "unify.ml" 31 659 700
+type(
+  'a t option ref -> 'a t option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"unify.ml" 31 659 700 "unify.ml" 31 659 704
+type(
+  'a t option ref
+)
+ident(
+  int_ref next "unify.ml" 31 659 684 "unify.ml" 31 659 688
+)
+"unify.ml" 31 659 699 "unify.ml" 31 659 704
+type(
+  'a t option
+)
+"unify.ml" 32 710 716 "unify.ml" 32 710 720
+type(
+  'a t option
+)
+"unify.ml" 32 710 724 "unify.ml" 32 710 728
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref func "unify.ml" 30 632 645 "unify.ml" 30 632 649
+)
+"unify.ml" 32 710 729 "unify.ml" 32 710 730
+type(
+  'a
+)
+ident(
+  int_ref e "unify.ml" 31 659 682 "unify.ml" 31 659 683
+)
+"unify.ml" 32 710 731 "unify.ml" 32 710 734
+type(
+  'b
+)
+ident(
+  int_ref acc "unify.ml" 30 632 652 "unify.ml" 30 632 655
+)
+"unify.ml" 32 710 724 "unify.ml" 32 710 734
+call(
+  tail
+)
+type(
+  'b
+)
+"unify.ml" 33 735 746 "unify.ml" 33 735 748
+type(
+  'a t
+)
+ident(
+  def t2 "unify.ml" 33 735 752 "unify.ml" 33 735 777
+)
+"unify.ml" 33 735 741 "unify.ml" 33 735 748
+type(
+  'a t option
+)
+"unify.ml" 33 735 752 "unify.ml" 33 735 756
+type(
+  ('a -> 'b -> 'b) -> 'a t -> 'b -> 'b
+)
+ident(
+  int_ref fold "unify.ml" 30 632 640 "unify.ml" 30 632 644
+)
+"unify.ml" 33 735 757 "unify.ml" 33 735 761
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref func "unify.ml" 30 632 645 "unify.ml" 30 632 649
+)
+"unify.ml" 33 735 762 "unify.ml" 33 735 764
+type(
+  'a t
+)
+ident(
+  int_ref t2 "unify.ml" 33 735 746 "unify.ml" 33 735 748
+)
+"unify.ml" 33 735 766 "unify.ml" 33 735 770
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref func "unify.ml" 30 632 645 "unify.ml" 30 632 649
+)
+"unify.ml" 33 735 771 "unify.ml" 33 735 772
+type(
+  'a
+)
+ident(
+  int_ref e "unify.ml" 31 659 682 "unify.ml" 31 659 683
+)
+"unify.ml" 33 735 773 "unify.ml" 33 735 776
+type(
+  'b
+)
+ident(
+  int_ref acc "unify.ml" 30 632 652 "unify.ml" 30 632 655
+)
+"unify.ml" 33 735 765 "unify.ml" 33 735 777
+call(
+  stack
+)
+type(
+  'b
+)
+"unify.ml" 33 735 752 "unify.ml" 33 735 777
+call(
+  tail
+)
+type(
+  'b
+)
+"unify.ml" 31 659 693 "unify.ml" 33 735 777
+type(
+  'b
+)
+"unify.ml" 31 659 661 "unify.ml" 33 735 777
+type(
+  'b
+)

@@ -1,0 +1,671 @@
+"variable.ml" 10 94 98 "variable.ml" 10 94 103
+type(
+  'a var Unify.t -> 'a
+)
+ident(
+  def deref "variable.ml" 12 135 135 --
+)
+"variable.ml" 10 94 104 "variable.ml" 10 94 105
+type(
+  'a var Unify.t
+)
+ident(
+  def v "variable.ml" 10 94 108 "variable.ml" 10 94 129
+)
+"variable.ml" 10 94 109 "variable.ml" 10 94 120
+type(
+  'a var Unify.t -> 'a var
+)
+ident(
+  ext_ref Unify.value
+)
+"variable.ml" 10 94 121 "variable.ml" 10 94 122
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref v "variable.ml" 10 94 104 "variable.ml" 10 94 105
+)
+"variable.ml" 10 94 108 "variable.ml" 10 94 123
+call(
+  stack
+)
+type(
+  'a var
+)
+"variable.ml" 10 94 108 "variable.ml" 10 94 129
+type(
+  'a
+)
+"variable.ml" 12 135 139 "variable.ml" 12 135 142
+type(
+  'a var Unify.t -> int
+)
+ident(
+  def vid "variable.ml" 14 168 168 --
+)
+"variable.ml" 12 135 143 "variable.ml" 12 135 144
+type(
+  'a var Unify.t
+)
+ident(
+  def t "variable.ml" 12 135 147 "variable.ml" 12 135 166
+)
+"variable.ml" 12 135 148 "variable.ml" 12 135 159
+type(
+  'a var Unify.t -> 'a var
+)
+ident(
+  ext_ref Unify.value
+)
+"variable.ml" 12 135 160 "variable.ml" 12 135 161
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref t "variable.ml" 12 135 143 "variable.ml" 12 135 144
+)
+"variable.ml" 12 135 147 "variable.ml" 12 135 162
+call(
+  stack
+)
+type(
+  'a var
+)
+"variable.ml" 12 135 147 "variable.ml" 12 135 166
+type(
+  int
+)
+"variable.ml" 14 168 172 "variable.ml" 14 168 176
+type(
+  'a var Unify.t -> Log.ctx
+)
+ident(
+  def vctx "variable.ml" 16 203 203 --
+)
+"variable.ml" 14 168 177 "variable.ml" 14 168 178
+type(
+  'a var Unify.t
+)
+ident(
+  def t "variable.ml" 14 168 181 "variable.ml" 14 168 201
+)
+"variable.ml" 14 168 182 "variable.ml" 14 168 193
+type(
+  'a var Unify.t -> 'a var
+)
+ident(
+  ext_ref Unify.value
+)
+"variable.ml" 14 168 194 "variable.ml" 14 168 195
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref t "variable.ml" 14 168 177 "variable.ml" 14 168 178
+)
+"variable.ml" 14 168 181 "variable.ml" 14 168 196
+call(
+  stack
+)
+type(
+  'a var
+)
+"variable.ml" 14 168 181 "variable.ml" 14 168 201
+type(
+  Log.ctx
+)
+"variable.ml" 16 203 207 "variable.ml" 16 203 214
+type(
+  'a var Unify.t -> 'b var Unify.t -> int
+)
+ident(
+  def compare "variable.ml" 18 261 261 --
+)
+"variable.ml" 16 203 215 "variable.ml" 16 203 217
+type(
+  'a var Unify.t
+)
+ident(
+  def t1 "variable.ml" 16 203 218 "variable.ml" 16 203 259
+)
+"variable.ml" 16 203 218 "variable.ml" 16 203 220
+type(
+  'b var Unify.t
+)
+ident(
+  def t2 "variable.ml" 16 203 223 "variable.ml" 16 203 259
+)
+"variable.ml" 16 203 223 "variable.ml" 16 203 241
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"variable.ml" 16 203 243 "variable.ml" 16 203 246
+type(
+  'a var Unify.t -> int
+)
+ident(
+  int_ref vid "variable.ml" 12 135 139 "variable.ml" 12 135 142
+)
+"variable.ml" 16 203 247 "variable.ml" 16 203 249
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref t1 "variable.ml" 16 203 215 "variable.ml" 16 203 217
+)
+"variable.ml" 16 203 242 "variable.ml" 16 203 250
+call(
+  stack
+)
+type(
+  int
+)
+"variable.ml" 16 203 252 "variable.ml" 16 203 255
+type(
+  'b var Unify.t -> int
+)
+ident(
+  int_ref vid "variable.ml" 12 135 139 "variable.ml" 12 135 142
+)
+"variable.ml" 16 203 256 "variable.ml" 16 203 258
+type(
+  'b var Unify.t
+)
+ident(
+  int_ref t2 "variable.ml" 16 203 218 "variable.ml" 16 203 220
+)
+"variable.ml" 16 203 251 "variable.ml" 16 203 259
+call(
+  stack
+)
+type(
+  int
+)
+"variable.ml" 16 203 223 "variable.ml" 16 203 259
+type(
+  int
+)
+"variable.ml" 18 261 265 "variable.ml" 18 261 270
+type(
+  'a var Unify.t -> 'a var Unify.t -> unit
+)
+ident(
+  def union "variable.ml" 22 356 356 --
+)
+"variable.ml" 18 261 271 "variable.ml" 18 261 273
+type(
+  'a var Unify.t
+)
+ident(
+  def v1 "variable.ml" 18 261 274 "variable.ml" 20 327 354
+)
+"variable.ml" 18 261 274 "variable.ml" 18 261 276
+type(
+  'a var Unify.t
+)
+ident(
+  def v2 "variable.ml" 19 280 282 "variable.ml" 20 327 354
+)
+"variable.ml" 19 280 282 "variable.ml" 19 280 290
+type(
+  ?ctx:Log.ctx ->
+  (int -> int -> unit, Format.formatter, unit, unit) format4 ->
+  int -> int -> unit
+)
+ident(
+  ext_ref Log.note
+)
+"variable.ml" 19 280 291 "variable.ml" 19 280 307
+type(
+  (int -> int -> unit, Format.formatter, unit, unit) format4
+)
+"variable.ml" 19 280 309 "variable.ml" 19 280 312
+type(
+  'a var Unify.t -> int
+)
+ident(
+  int_ref vid "variable.ml" 12 135 139 "variable.ml" 12 135 142
+)
+"variable.ml" 19 280 313 "variable.ml" 19 280 315
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref v1 "variable.ml" 18 261 271 "variable.ml" 18 261 273
+)
+"variable.ml" 19 280 308 "variable.ml" 19 280 316
+call(
+  stack
+)
+type(
+  int
+)
+"variable.ml" 19 280 318 "variable.ml" 19 280 321
+type(
+  'a var Unify.t -> int
+)
+ident(
+  int_ref vid "variable.ml" 12 135 139 "variable.ml" 12 135 142
+)
+"variable.ml" 19 280 322 "variable.ml" 19 280 324
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref v2 "variable.ml" 18 261 274 "variable.ml" 18 261 276
+)
+"variable.ml" 19 280 317 "variable.ml" 19 280 325
+call(
+  stack
+)
+type(
+  int
+)
+"variable.ml" 19 280 282 "variable.ml" 19 280 325
+call(
+  stack
+)
+type(
+  unit
+)
+"variable.ml" 20 327 329 "variable.ml" 20 327 335
+type(
+  'a var Unify.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"variable.ml" 20 327 336 "variable.ml" 20 327 347
+type(
+  'a var Unify.t -> 'a var Unify.t -> 'a var Unify.t
+)
+ident(
+  ext_ref Unify.union
+)
+"variable.ml" 20 327 348 "variable.ml" 20 327 350
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref v1 "variable.ml" 18 261 271 "variable.ml" 18 261 273
+)
+"variable.ml" 20 327 351 "variable.ml" 20 327 353
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref v2 "variable.ml" 18 261 274 "variable.ml" 18 261 276
+)
+"variable.ml" 20 327 335 "variable.ml" 20 327 354
+call(
+  stack
+)
+type(
+  'a var Unify.t
+)
+"variable.ml" 20 327 329 "variable.ml" 20 327 354
+type(
+  unit
+)
+"variable.ml" 19 280 282 "variable.ml" 20 327 354
+type(
+  unit
+)
+"variable.ml" 22 356 360 "variable.ml" 22 356 373
+type(
+  int ref
+)
+ident(
+  def typ_var_count "variable.ml" 24 383 383 --
+)
+"variable.ml" 22 356 376 "variable.ml" 22 356 379
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"variable.ml" 22 356 380 "variable.ml" 22 356 381
+type(
+  int
+)
+"variable.ml" 22 356 376 "variable.ml" 22 356 381
+type(
+  int ref
+)
+"variable.ml" 24 383 387 "variable.ml" 24 383 393
+type(
+  'a -> ctx:Log.ctx -> 'a var Unify.t
+)
+ident(
+  def create "variable.ml" 30 506 506 --
+)
+"variable.ml" 24 383 394 "variable.ml" 24 383 398
+type(
+  'a
+)
+ident(
+  def kind "variable.ml" 24 383 399 "variable.ml" 28 486 504
+)
+"variable.ml" 24 383 400 "variable.ml" 24 383 403
+type(
+  Log.ctx
+)
+ident(
+  def ctx "variable.ml" 25 407 409 "variable.ml" 28 486 504
+)
+"variable.ml" 25 407 409 "variable.ml" 25 407 413
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"variable.ml" 25 407 414 "variable.ml" 25 407 427
+type(
+  int ref
+)
+ident(
+  int_ref typ_var_count "variable.ml" 22 356 360 "variable.ml" 22 356 373
+)
+"variable.ml" 25 407 409 "variable.ml" 25 407 427
+type(
+  unit
+)
+"variable.ml" 26 429 431 "variable.ml" 26 429 443
+type(
+  'a var -> 'a var Unify.t
+)
+ident(
+  ext_ref Unify.create
+)
+"variable.ml" 26 429 451 "variable.ml" 26 429 452
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"variable.ml" 26 429 452 "variable.ml" 26 429 465
+type(
+  int ref
+)
+ident(
+  int_ref typ_var_count "variable.ml" 22 356 360 "variable.ml" 22 356 373
+)
+"variable.ml" 26 429 451 "variable.ml" 26 429 465
+type(
+  int
+)
+"variable.ml" 27 468 480 "variable.ml" 27 468 483
+type(
+  Log.ctx
+)
+ident(
+  int_ref ctx "variable.ml" 24 383 400 "variable.ml" 24 383 403
+)
+"variable.ml" 28 486 499 "variable.ml" 28 486 503
+type(
+  'a
+)
+ident(
+  int_ref kind "variable.ml" 24 383 394 "variable.ml" 24 383 398
+)
+"variable.ml" 26 429 444 "variable.ml" 28 486 504
+type(
+  'a var
+)
+"variable.ml" 26 429 431 "variable.ml" 28 486 504
+call(
+  tail
+)
+type(
+  'a var Unify.t
+)
+"variable.ml" 25 407 409 "variable.ml" 28 486 504
+type(
+  'a var Unify.t
+)
+"variable.ml" 30 506 510 "variable.ml" 30 506 514
+type(
+  'a Unify.t -> 'a Unify.t -> bool
+)
+ident(
+  def same "variable.ml" 32 557 557 --
+)
+"variable.ml" 30 506 515 "variable.ml" 30 506 517
+type(
+  'a Unify.t
+)
+ident(
+  def t1 "variable.ml" 30 506 518 "variable.ml" 30 506 555
+)
+"variable.ml" 30 506 518 "variable.ml" 30 506 520
+type(
+  'a Unify.t
+)
+ident(
+  def t2 "variable.ml" 30 506 523 "variable.ml" 30 506 555
+)
+"variable.ml" 30 506 524 "variable.ml" 30 506 533
+type(
+  'a Unify.t -> 'a Unify.t
+)
+ident(
+  ext_ref Unify.ecr
+)
+"variable.ml" 30 506 534 "variable.ml" 30 506 536
+type(
+  'a Unify.t
+)
+ident(
+  int_ref t1 "variable.ml" 30 506 515 "variable.ml" 30 506 517
+)
+"variable.ml" 30 506 523 "variable.ml" 30 506 537
+call(
+  stack
+)
+type(
+  'a Unify.t
+)
+"variable.ml" 30 506 538 "variable.ml" 30 506 540
+type(
+  'a Unify.t -> 'a Unify.t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"variable.ml" 30 506 542 "variable.ml" 30 506 551
+type(
+  'a Unify.t -> 'a Unify.t
+)
+ident(
+  ext_ref Unify.ecr
+)
+"variable.ml" 30 506 552 "variable.ml" 30 506 554
+type(
+  'a Unify.t
+)
+ident(
+  int_ref t2 "variable.ml" 30 506 518 "variable.ml" 30 506 520
+)
+"variable.ml" 30 506 541 "variable.ml" 30 506 555
+call(
+  stack
+)
+type(
+  'a Unify.t
+)
+"variable.ml" 30 506 523 "variable.ml" 30 506 555
+type(
+  bool
+)
+"variable.ml" 32 557 561 "variable.ml" 32 557 571
+type(
+  (Format.formatter -> 'a -> unit) ->
+  Format.formatter -> 'a var Unify.t -> unit
+)
+ident(
+  def format_var "variable.ml" 35 642 642 --
+)
+"variable.ml" 32 557 572 "variable.ml" 32 557 577
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def fmt_v "variable.ml" 32 557 578 "variable.ml" 33 587 640
+)
+"variable.ml" 32 557 578 "variable.ml" 32 557 581
+type(
+  Format.formatter
+)
+ident(
+  def ppf "variable.ml" 32 557 582 "variable.ml" 33 587 640
+)
+"variable.ml" 32 557 582 "variable.ml" 32 557 583
+type(
+  'a var Unify.t
+)
+ident(
+  def v "variable.ml" 33 587 589 "variable.ml" 33 587 640
+)
+"variable.ml" 33 587 589 "variable.ml" 33 587 603
+type(
+  Format.formatter ->
+  (int -> (Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter,
+   unit)
+  format -> int -> (Format.formatter -> 'a -> unit) -> 'a -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"variable.ml" 33 587 604 "variable.ml" 33 587 607
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "variable.ml" 32 557 578 "variable.ml" 32 557 581
+)
+"variable.ml" 33 587 608 "variable.ml" 33 587 616
+type(
+  (int -> (Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter,
+   unit)
+  format
+)
+"variable.ml" 33 587 618 "variable.ml" 33 587 621
+type(
+  'a var Unify.t -> int
+)
+ident(
+  int_ref vid "variable.ml" 12 135 139 "variable.ml" 12 135 142
+)
+"variable.ml" 33 587 622 "variable.ml" 33 587 623
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref v "variable.ml" 32 557 582 "variable.ml" 32 557 583
+)
+"variable.ml" 33 587 617 "variable.ml" 33 587 624
+call(
+  stack
+)
+type(
+  int
+)
+"variable.ml" 33 587 625 "variable.ml" 33 587 630
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref fmt_v "variable.ml" 32 557 572 "variable.ml" 32 557 577
+)
+"variable.ml" 33 587 632 "variable.ml" 33 587 637
+type(
+  'a var Unify.t -> 'a
+)
+ident(
+  int_ref deref "variable.ml" 10 94 98 "variable.ml" 10 94 103
+)
+"variable.ml" 33 587 638 "variable.ml" 33 587 639
+type(
+  'a var Unify.t
+)
+ident(
+  int_ref v "variable.ml" 32 557 582 "variable.ml" 32 557 583
+)
+"variable.ml" 33 587 631 "variable.ml" 33 587 640
+call(
+  stack
+)
+type(
+  'a
+)
+"variable.ml" 33 587 589 "variable.ml" 33 587 640
+call(
+  tail
+)
+type(
+  unit
+)
+"variable.ml" 35 642 646 "variable.ml" 35 642 652
+type(
+  string -> unit
+)
+ident(
+  def status "variable.ml" 36 658 725 --
+)
+"variable.ml" 35 642 653 "variable.ml" 35 642 654
+type(
+  string
+)
+ident(
+  def s "variable.ml" 36 658 660 "variable.ml" 36 658 725
+)
+"variable.ml" 36 658 660 "variable.ml" 36 658 674
+type(
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"variable.ml" 36 658 675 "variable.ml" 36 658 708
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"variable.ml" 36 658 709 "variable.ml" 36 658 710
+type(
+  string
+)
+ident(
+  int_ref s "variable.ml" 35 642 653 "variable.ml" 35 642 654
+)
+"variable.ml" 36 658 711 "variable.ml" 36 658 712
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"variable.ml" 36 658 712 "variable.ml" 36 658 725
+type(
+  int ref
+)
+ident(
+  int_ref typ_var_count "variable.ml" 22 356 360 "variable.ml" 22 356 373
+)
+"variable.ml" 36 658 711 "variable.ml" 36 658 725
+type(
+  int
+)
+"variable.ml" 36 658 660 "variable.ml" 36 658 725
+call(
+  tail
+)
+type(
+  unit
+)

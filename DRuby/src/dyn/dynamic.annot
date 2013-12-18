@@ -1,0 +1,9269 @@
+"dynamic.ml" 52 1285 1291 "dynamic.ml" 52 1285 1311
+type(
+  string -> Unix.process_status -> unit
+)
+ident(
+  def abort_on_exit_status "dynamic.ml" 61 1697 1699 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 52 1285 1312 "dynamic.ml" 52 1285 1315
+type(
+  string
+)
+ident(
+  def msg "dynamic.ml" 52 1285 1318 "dynamic.ml" 58 1565 1643
+)
+"dynamic.ml" 53 1327 1346 "dynamic.ml" 53 1327 1347
+type(
+  int
+)
+"dynamic.ml" 53 1327 1333 "dynamic.ml" 53 1327 1347
+type(
+  Unix.process_status
+)
+"dynamic.ml" 53 1327 1351 "dynamic.ml" 53 1327 1353
+type(
+  unit
+)
+"dynamic.ml" 54 1354 1373 "dynamic.ml" 54 1354 1374
+type(
+  int
+)
+ident(
+  def d "dynamic.ml" 54 1354 1378 "dynamic.ml" 54 1354 1435
+)
+"dynamic.ml" 54 1354 1360 "dynamic.ml" 54 1354 1374
+type(
+  Unix.process_status
+)
+"dynamic.ml" 54 1354 1378 "dynamic.ml" 54 1354 1387
+type(
+  Log.ctx ->
+  (string -> int -> unit, Format.formatter, unit, unit) format4 ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 54 1354 1388 "dynamic.ml" 54 1354 1397
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 54 1354 1398 "dynamic.ml" 54 1354 1429
+type(
+  (string -> int -> unit, Format.formatter, unit, unit) format4
+)
+"dynamic.ml" 54 1354 1430 "dynamic.ml" 54 1354 1433
+type(
+  string
+)
+ident(
+  int_ref msg "dynamic.ml" 52 1285 1312 "dynamic.ml" 52 1285 1315
+)
+"dynamic.ml" 54 1354 1434 "dynamic.ml" 54 1354 1435
+type(
+  int
+)
+ident(
+  int_ref d "dynamic.ml" 54 1354 1373 "dynamic.ml" 54 1354 1374
+)
+"dynamic.ml" 54 1354 1378 "dynamic.ml" 54 1354 1435
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 55 1436 1457 "dynamic.ml" 55 1436 1458
+type(
+  int
+)
+ident(
+  def d "dynamic.ml" 56 1463 1471 "dynamic.ml" 56 1463 1538
+)
+"dynamic.ml" 55 1436 1442 "dynamic.ml" 55 1436 1458
+type(
+  Unix.process_status
+)
+"dynamic.ml" 56 1463 1471 "dynamic.ml" 56 1463 1480
+type(
+  Log.ctx ->
+  (string -> int -> unit, Format.formatter, unit, unit) format4 ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 56 1463 1481 "dynamic.ml" 56 1463 1490
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 56 1463 1491 "dynamic.ml" 56 1463 1532
+type(
+  (string -> int -> unit, Format.formatter, unit, unit) format4
+)
+"dynamic.ml" 56 1463 1533 "dynamic.ml" 56 1463 1536
+type(
+  string
+)
+ident(
+  int_ref msg "dynamic.ml" 52 1285 1312 "dynamic.ml" 52 1285 1315
+)
+"dynamic.ml" 56 1463 1537 "dynamic.ml" 56 1463 1538
+type(
+  int
+)
+ident(
+  int_ref d "dynamic.ml" 55 1436 1457 "dynamic.ml" 55 1436 1458
+)
+"dynamic.ml" 56 1463 1471 "dynamic.ml" 56 1463 1538
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 57 1539 1559 "dynamic.ml" 57 1539 1560
+type(
+  int
+)
+ident(
+  def d "dynamic.ml" 58 1565 1573 "dynamic.ml" 58 1565 1643
+)
+"dynamic.ml" 57 1539 1545 "dynamic.ml" 57 1539 1560
+type(
+  Unix.process_status
+)
+"dynamic.ml" 58 1565 1573 "dynamic.ml" 58 1565 1582
+type(
+  Log.ctx ->
+  (string -> int -> unit, Format.formatter, unit, unit) format4 ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 58 1565 1583 "dynamic.ml" 58 1565 1592
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 58 1565 1593 "dynamic.ml" 58 1565 1637
+type(
+  (string -> int -> unit, Format.formatter, unit, unit) format4
+)
+"dynamic.ml" 58 1565 1638 "dynamic.ml" 58 1565 1641
+type(
+  string
+)
+ident(
+  int_ref msg "dynamic.ml" 52 1285 1312 "dynamic.ml" 52 1285 1315
+)
+"dynamic.ml" 58 1565 1642 "dynamic.ml" 58 1565 1643
+type(
+  int
+)
+ident(
+  int_ref d "dynamic.ml" 57 1539 1559 "dynamic.ml" 57 1539 1560
+)
+"dynamic.ml" 58 1565 1573 "dynamic.ml" 58 1565 1643
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 52 1285 1318 "dynamic.ml" 58 1565 1643
+type(
+  Unix.process_status -> unit
+)
+"dynamic.ml" 61 1697 1703 "dynamic.ml" 61 1697 1719
+type(
+  string -> int -> 'a
+)
+ident(
+  def abort_on_sigpipe "dynamic.ml" 65 1849 1851 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 61 1697 1720 "dynamic.ml" 61 1697 1729
+type(
+  string
+)
+ident(
+  def abort_msg "dynamic.ml" 61 1697 1730 "dynamic.ml" 63 1766 1847
+)
+"dynamic.ml" 61 1697 1730 "dynamic.ml" 61 1697 1731
+type(
+  int
+)
+ident(
+  def i "dynamic.ml" 62 1735 1739 "dynamic.ml" 63 1766 1847
+)
+"dynamic.ml" 62 1735 1747 "dynamic.ml" 62 1735 1748
+type(
+  int
+)
+ident(
+  int_ref i "dynamic.ml" 61 1697 1730 "dynamic.ml" 61 1697 1731
+)
+"dynamic.ml" 62 1735 1749 "dynamic.ml" 62 1735 1751
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"dynamic.ml" 62 1735 1752 "dynamic.ml" 62 1735 1763
+type(
+  int
+)
+ident(
+  ext_ref Sys.sigpipe
+)
+"dynamic.ml" 62 1735 1746 "dynamic.ml" 62 1735 1764
+type(
+  bool
+)
+"dynamic.ml" 62 1735 1739 "dynamic.ml" 62 1735 1764
+type(
+  unit
+)
+"dynamic.ml" 63 1766 1770 "dynamic.ml" 63 1766 1779
+type(
+  Log.ctx ->
+  (string -> 'a, Format.formatter, unit, 'a) format4 -> string -> 'a
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 63 1766 1780 "dynamic.ml" 63 1766 1789
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 63 1766 1790 "dynamic.ml" 63 1766 1837
+type(
+  (string -> 'a, Format.formatter, unit, 'a) format4
+)
+"dynamic.ml" 63 1766 1838 "dynamic.ml" 63 1766 1847
+type(
+  string
+)
+ident(
+  int_ref abort_msg "dynamic.ml" 61 1697 1720 "dynamic.ml" 61 1697 1729
+)
+"dynamic.ml" 63 1766 1770 "dynamic.ml" 63 1766 1847
+call(
+  tail
+)
+type(
+  'a
+)
+"dynamic.ml" 62 1735 1739 "dynamic.ml" 63 1766 1847
+type(
+  'a
+)
+"dynamic.ml" 65 1849 1855 "dynamic.ml" 65 1849 1874
+type(
+  string list -> string list -> string array
+)
+ident(
+  def construct_ruby_args "dynamic.ml" 82 2547 2549 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 65 1849 1875 "dynamic.ml" 65 1849 1879
+type(
+  string list
+)
+ident(
+  def libs "dynamic.ml" 65 1849 1880 "dynamic.ml" 80 2534 2545
+)
+"dynamic.ml" 65 1849 1880 "dynamic.ml" 65 1849 1889
+type(
+  string list
+)
+ident(
+  def real_args "dynamic.ml" 68 2025 2029 "dynamic.ml" 80 2534 2545
+)
+"dynamic.ml" 68 2025 2033 "dynamic.ml" 68 2025 2040
+type(
+  int
+)
+"dynamic.ml" 68 2025 2043 "dynamic.ml" 68 2025 2054
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"dynamic.ml" 68 2025 2055 "dynamic.ml" 68 2025 2059
+type(
+  string list
+)
+ident(
+  int_ref libs "dynamic.ml" 65 1849 1875 "dynamic.ml" 65 1849 1879
+)
+"dynamic.ml" 68 2025 2043 "dynamic.ml" 68 2025 2059
+call(
+  stack
+)
+type(
+  int
+)
+"dynamic.ml" 69 2063 2071 "dynamic.ml" 69 2063 2078
+type(
+  int
+)
+"dynamic.ml" 69 2063 2081 "dynamic.ml" 69 2063 2092
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"dynamic.ml" 69 2063 2094 "dynamic.ml" 69 2063 2103
+type(
+  string list
+)
+ident(
+  int_ref real_args "dynamic.ml" 65 1849 1880 "dynamic.ml" 65 1849 1889
+)
+"dynamic.ml" 69 2063 2081 "dynamic.ml" 69 2063 2103
+call(
+  stack
+)
+type(
+  int
+)
+"dynamic.ml" 71 2156 2164 "dynamic.ml" 71 2156 2167
+type(
+  string array
+)
+"dynamic.ml" 71 2156 2170 "dynamic.ml" 71 2156 2182
+type(
+  int -> string -> string array
+)
+ident(
+  ext_ref Array.create
+)
+"dynamic.ml" 71 2156 2184 "dynamic.ml" 71 2156 2185
+type(
+  int
+)
+"dynamic.ml" 71 2156 2186 "dynamic.ml" 71 2156 2187
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dynamic.ml" 71 2156 2188 "dynamic.ml" 71 2156 2189
+type(
+  int
+)
+"dynamic.ml" 71 2156 2189 "dynamic.ml" 71 2156 2190
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"dynamic.ml" 71 2156 2190 "dynamic.ml" 71 2156 2197
+type(
+  int
+)
+ident(
+  int_ref lib_len "dynamic.ml" 68 2025 2033 "dynamic.ml" 68 2025 2040
+)
+"dynamic.ml" 71 2156 2188 "dynamic.ml" 71 2156 2197
+type(
+  int
+)
+"dynamic.ml" 71 2156 2184 "dynamic.ml" 71 2156 2197
+type(
+  int
+)
+"dynamic.ml" 71 2156 2198 "dynamic.ml" 71 2156 2199
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dynamic.ml" 71 2156 2200 "dynamic.ml" 71 2156 2207
+type(
+  int
+)
+ident(
+  int_ref arg_len "dynamic.ml" 69 2063 2071 "dynamic.ml" 69 2063 2078
+)
+"dynamic.ml" 71 2156 2183 "dynamic.ml" 71 2156 2208
+type(
+  int
+)
+"dynamic.ml" 71 2156 2209 "dynamic.ml" 71 2156 2213
+type(
+  string
+)
+"dynamic.ml" 71 2156 2170 "dynamic.ml" 71 2156 2213
+type(
+  string array
+)
+"dynamic.ml" 72 2217 2223 "dynamic.ml" 72 2217 2226
+type(
+  string array
+)
+ident(
+  int_ref arr "dynamic.ml" 71 2156 2164 "dynamic.ml" 71 2156 2167
+)
+"dynamic.ml" 72 2217 2228 "dynamic.ml" 72 2217 2229
+type(
+  int
+)
+"dynamic.ml" 72 2217 2234 "dynamic.ml" 72 2217 2240
+type(
+  string
+)
+"dynamic.ml" 72 2217 2223 "dynamic.ml" 72 2217 2240
+type(
+  unit
+)
+"dynamic.ml" 74 2289 2295 "dynamic.ml" 74 2289 2301
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"dynamic.ml" 74 2289 2302 "dynamic.ml" 74 2289 2316
+type(
+  (int -> string -> int) -> int -> string list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"dynamic.ml" 74 2289 2322 "dynamic.ml" 74 2289 2325
+type(
+  int
+)
+ident(
+  def idx "dynamic.ml" 74 2289 2326 "dynamic.ml" 74 2289 2351
+)
+"dynamic.ml" 74 2289 2326 "dynamic.ml" 74 2289 2327
+type(
+  string
+)
+ident(
+  def x "dynamic.ml" 74 2289 2331 "dynamic.ml" 74 2289 2351
+)
+"dynamic.ml" 74 2289 2331 "dynamic.ml" 74 2289 2334
+type(
+  string array
+)
+ident(
+  int_ref arr "dynamic.ml" 71 2156 2164 "dynamic.ml" 71 2156 2167
+)
+"dynamic.ml" 74 2289 2336 "dynamic.ml" 74 2289 2339
+type(
+  int
+)
+ident(
+  int_ref idx "dynamic.ml" 74 2289 2322 "dynamic.ml" 74 2289 2325
+)
+"dynamic.ml" 74 2289 2344 "dynamic.ml" 74 2289 2345
+type(
+  string
+)
+ident(
+  int_ref x "dynamic.ml" 74 2289 2326 "dynamic.ml" 74 2289 2327
+)
+"dynamic.ml" 74 2289 2331 "dynamic.ml" 74 2289 2345
+type(
+  unit
+)
+"dynamic.ml" 74 2289 2346 "dynamic.ml" 74 2289 2349
+type(
+  int
+)
+ident(
+  int_ref idx "dynamic.ml" 74 2289 2322 "dynamic.ml" 74 2289 2325
+)
+"dynamic.ml" 74 2289 2349 "dynamic.ml" 74 2289 2350
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dynamic.ml" 74 2289 2350 "dynamic.ml" 74 2289 2351
+type(
+  int
+)
+"dynamic.ml" 74 2289 2346 "dynamic.ml" 74 2289 2351
+type(
+  int
+)
+"dynamic.ml" 74 2289 2331 "dynamic.ml" 74 2289 2351
+type(
+  int
+)
+"dynamic.ml" 74 2289 2317 "dynamic.ml" 74 2289 2352
+type(
+  int -> string -> int
+)
+"dynamic.ml" 74 2289 2353 "dynamic.ml" 74 2289 2354
+type(
+  int
+)
+"dynamic.ml" 74 2289 2355 "dynamic.ml" 74 2289 2359
+type(
+  string list
+)
+ident(
+  int_ref libs "dynamic.ml" 65 1849 1875 "dynamic.ml" 65 1849 1879
+)
+"dynamic.ml" 74 2289 2301 "dynamic.ml" 74 2289 2360
+call(
+  stack
+)
+type(
+  int
+)
+"dynamic.ml" 74 2289 2295 "dynamic.ml" 74 2289 2360
+type(
+  unit
+)
+"dynamic.ml" 76 2414 2425 "dynamic.ml" 76 2414 2426
+type(
+  int
+)
+"dynamic.ml" 76 2414 2434 "dynamic.ml" 76 2414 2448
+type(
+  (int -> string -> int) -> int -> string list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"dynamic.ml" 77 2449 2462 "dynamic.ml" 77 2449 2465
+type(
+  int
+)
+ident(
+  def idx "dynamic.ml" 77 2449 2466 "dynamic.ml" 77 2449 2490
+)
+"dynamic.ml" 77 2449 2466 "dynamic.ml" 77 2449 2467
+type(
+  string
+)
+ident(
+  def x "dynamic.ml" 77 2449 2471 "dynamic.ml" 77 2449 2490
+)
+"dynamic.ml" 77 2449 2471 "dynamic.ml" 77 2449 2474
+type(
+  string array
+)
+ident(
+  int_ref arr "dynamic.ml" 71 2156 2164 "dynamic.ml" 71 2156 2167
+)
+"dynamic.ml" 77 2449 2476 "dynamic.ml" 77 2449 2479
+type(
+  int
+)
+ident(
+  int_ref idx "dynamic.ml" 77 2449 2462 "dynamic.ml" 77 2449 2465
+)
+"dynamic.ml" 77 2449 2483 "dynamic.ml" 77 2449 2484
+type(
+  string
+)
+ident(
+  int_ref x "dynamic.ml" 77 2449 2466 "dynamic.ml" 77 2449 2467
+)
+"dynamic.ml" 77 2449 2471 "dynamic.ml" 77 2449 2484
+type(
+  unit
+)
+"dynamic.ml" 77 2449 2485 "dynamic.ml" 77 2449 2488
+type(
+  int
+)
+ident(
+  int_ref idx "dynamic.ml" 77 2449 2462 "dynamic.ml" 77 2449 2465
+)
+"dynamic.ml" 77 2449 2488 "dynamic.ml" 77 2449 2489
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dynamic.ml" 77 2449 2489 "dynamic.ml" 77 2449 2490
+type(
+  int
+)
+"dynamic.ml" 77 2449 2485 "dynamic.ml" 77 2449 2490
+type(
+  int
+)
+"dynamic.ml" 77 2449 2471 "dynamic.ml" 77 2449 2490
+type(
+  int
+)
+"dynamic.ml" 77 2449 2457 "dynamic.ml" 78 2491 2500
+type(
+  int -> string -> int
+)
+"dynamic.ml" 78 2491 2502 "dynamic.ml" 78 2491 2503
+type(
+  int
+)
+"dynamic.ml" 78 2491 2503 "dynamic.ml" 78 2491 2504
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dynamic.ml" 78 2491 2504 "dynamic.ml" 78 2491 2505
+type(
+  int
+)
+"dynamic.ml" 78 2491 2505 "dynamic.ml" 78 2491 2506
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"dynamic.ml" 78 2491 2506 "dynamic.ml" 78 2491 2513
+type(
+  int
+)
+ident(
+  int_ref lib_len "dynamic.ml" 68 2025 2033 "dynamic.ml" 68 2025 2040
+)
+"dynamic.ml" 78 2491 2504 "dynamic.ml" 78 2491 2513
+type(
+  int
+)
+"dynamic.ml" 78 2491 2501 "dynamic.ml" 78 2491 2514
+type(
+  int
+)
+"dynamic.ml" 78 2491 2515 "dynamic.ml" 78 2491 2524
+type(
+  string list
+)
+ident(
+  int_ref real_args "dynamic.ml" 65 1849 1880 "dynamic.ml" 65 1849 1889
+)
+"dynamic.ml" 76 2414 2434 "dynamic.ml" 78 2491 2524
+call(
+  stack
+)
+type(
+  int
+)
+"dynamic.ml" 80 2534 2542 "dynamic.ml" 80 2534 2545
+type(
+  string array
+)
+ident(
+  int_ref arr "dynamic.ml" 71 2156 2164 "dynamic.ml" 71 2156 2167
+)
+"dynamic.ml" 76 2414 2420 "dynamic.ml" 80 2534 2545
+type(
+  string array
+)
+"dynamic.ml" 74 2289 2295 "dynamic.ml" 80 2534 2545
+type(
+  string array
+)
+"dynamic.ml" 72 2217 2223 "dynamic.ml" 80 2534 2545
+type(
+  string array
+)
+"dynamic.ml" 71 2156 2160 "dynamic.ml" 80 2534 2545
+type(
+  string array
+)
+"dynamic.ml" 69 2063 2067 "dynamic.ml" 80 2534 2545
+type(
+  string array
+)
+"dynamic.ml" 68 2025 2029 "dynamic.ml" 80 2534 2545
+type(
+  string array
+)
+"dynamic.ml" 82 2547 2553 "dynamic.ml" 82 2547 2569
+type(
+  string -> unit
+)
+ident(
+  def remove_if_exists "dynamic.ml" 88 2736 2738 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 82 2547 2570 "dynamic.ml" 82 2547 2571
+type(
+  string
+)
+ident(
+  def x "dynamic.ml" 83 2575 2579 "dynamic.ml" 84 2625 2646
+)
+"dynamic.ml" 83 2575 2582 "dynamic.ml" 83 2575 2597
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"dynamic.ml" 83 2575 2598 "dynamic.ml" 83 2575 2599
+type(
+  string
+)
+ident(
+  int_ref x "dynamic.ml" 82 2547 2570 "dynamic.ml" 82 2547 2571
+)
+"dynamic.ml" 83 2575 2582 "dynamic.ml" 83 2575 2599
+type(
+  bool
+)
+"dynamic.ml" 83 2575 2600 "dynamic.ml" 83 2575 2602
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"dynamic.ml" 83 2575 2604 "dynamic.ml" 83 2575 2607
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"dynamic.ml" 83 2575 2608 "dynamic.ml" 83 2575 2612
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"dynamic.ml" 83 2575 2608 "dynamic.ml" 83 2575 2623
+type(
+  bool
+)
+"dynamic.ml" 83 2575 2603 "dynamic.ml" 83 2575 2624
+type(
+  bool
+)
+"dynamic.ml" 83 2575 2582 "dynamic.ml" 83 2575 2624
+type(
+  bool
+)
+"dynamic.ml" 84 2625 2634 "dynamic.ml" 84 2625 2644
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"dynamic.ml" 84 2625 2645 "dynamic.ml" 84 2625 2646
+type(
+  string
+)
+ident(
+  int_ref x "dynamic.ml" 82 2547 2570 "dynamic.ml" 82 2547 2571
+)
+"dynamic.ml" 84 2625 2634 "dynamic.ml" 84 2625 2646
+type(
+  unit
+)
+"dynamic.ml" 83 2575 2579 "dynamic.ml" 84 2625 2646
+type(
+  unit
+)
+"dynamic.ml" 88 2736 2742 "dynamic.ml" 88 2736 2760
+type(
+  string -> string array
+)
+ident(
+  def change_env_rubylib "dynamic.ml" 111 3547 3549 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 88 2736 2761 "dynamic.ml" 88 2736 2768
+type(
+  string
+)
+ident(
+  def rubylib "dynamic.ml" 89 2772 2776 "dynamic.ml" 104 3231 3244
+)
+"dynamic.ml" 89 2772 2780 "dynamic.ml" 89 2772 2783
+type(
+  string array
+)
+"dynamic.ml" 89 2772 2786 "dynamic.ml" 89 2772 2802
+type(
+  unit -> string array
+)
+ident(
+  ext_ref Unix.environment
+)
+"dynamic.ml" 89 2772 2803 "dynamic.ml" 89 2772 2805
+type(
+  unit
+)
+"dynamic.ml" 89 2772 2786 "dynamic.ml" 89 2772 2805
+call(
+  stack
+)
+type(
+  string array
+)
+"dynamic.ml" 90 2809 2817 "dynamic.ml" 90 2809 2818
+type(
+  int
+)
+"dynamic.ml" 90 2809 2819 "dynamic.ml" 90 2809 2822
+type(
+  int option
+)
+"dynamic.ml" 90 2809 2817 "dynamic.ml" 90 2809 2822
+type(
+  int * int option
+)
+"dynamic.ml" 90 2809 2825 "dynamic.ml" 90 2809 2840
+type(
+  (int * int option -> string -> int * int option) ->
+  int * int option -> string array -> int * int option
+)
+ident(
+  ext_ref Array.fold_left
+)
+"dynamic.ml" 91 2841 2853 "dynamic.ml" 91 2841 2854
+type(
+  int
+)
+ident(
+  def i "dynamic.ml" 91 2841 2860 "dynamic.ml" 93 2917 2940
+)
+"dynamic.ml" 91 2841 2855 "dynamic.ml" 91 2841 2858
+type(
+  int option
+)
+ident(
+  def acc "dynamic.ml" 91 2841 2860 "dynamic.ml" 93 2917 2940
+)
+"dynamic.ml" 91 2841 2852 "dynamic.ml" 91 2841 2859
+type(
+  int * int option
+)
+"dynamic.ml" 91 2841 2860 "dynamic.ml" 91 2841 2861
+type(
+  string
+)
+ident(
+  def s "dynamic.ml" 92 2866 2875 "dynamic.ml" 93 2917 2940
+)
+"dynamic.ml" 92 2866 2878 "dynamic.ml" 92 2866 2884
+type(
+  String.t -> string -> bool
+)
+ident(
+  ext_ref Utils.substr
+)
+"dynamic.ml" 92 2866 2885 "dynamic.ml" 92 2866 2895
+type(
+  String.t
+)
+"dynamic.ml" 92 2866 2896 "dynamic.ml" 92 2866 2897
+type(
+  string
+)
+ident(
+  int_ref s "dynamic.ml" 91 2841 2860 "dynamic.ml" 91 2841 2861
+)
+"dynamic.ml" 92 2866 2878 "dynamic.ml" 92 2866 2897
+call(
+  stack
+)
+type(
+  bool
+)
+"dynamic.ml" 92 2866 2904 "dynamic.ml" 92 2866 2905
+type(
+  int
+)
+ident(
+  int_ref i "dynamic.ml" 91 2841 2853 "dynamic.ml" 91 2841 2854
+)
+"dynamic.ml" 92 2866 2905 "dynamic.ml" 92 2866 2906
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dynamic.ml" 92 2866 2906 "dynamic.ml" 92 2866 2907
+type(
+  int
+)
+"dynamic.ml" 92 2866 2904 "dynamic.ml" 92 2866 2907
+type(
+  int
+)
+"dynamic.ml" 92 2866 2914 "dynamic.ml" 92 2866 2915
+type(
+  int
+)
+ident(
+  int_ref i "dynamic.ml" 91 2841 2853 "dynamic.ml" 91 2841 2854
+)
+"dynamic.ml" 92 2866 2909 "dynamic.ml" 92 2866 2915
+type(
+  int option
+)
+"dynamic.ml" 92 2866 2903 "dynamic.ml" 92 2866 2916
+type(
+  int * int option
+)
+"dynamic.ml" 93 2917 2932 "dynamic.ml" 93 2917 2933
+type(
+  int
+)
+ident(
+  int_ref i "dynamic.ml" 91 2841 2853 "dynamic.ml" 91 2841 2854
+)
+"dynamic.ml" 93 2917 2933 "dynamic.ml" 93 2917 2934
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dynamic.ml" 93 2917 2934 "dynamic.ml" 93 2917 2935
+type(
+  int
+)
+"dynamic.ml" 93 2917 2932 "dynamic.ml" 93 2917 2935
+type(
+  int
+)
+"dynamic.ml" 93 2917 2936 "dynamic.ml" 93 2917 2939
+type(
+  int option
+)
+ident(
+  int_ref acc "dynamic.ml" 91 2841 2855 "dynamic.ml" 91 2841 2858
+)
+"dynamic.ml" 93 2917 2931 "dynamic.ml" 93 2917 2940
+type(
+  int * int option
+)
+"dynamic.ml" 92 2866 2875 "dynamic.ml" 93 2917 2940
+type(
+  int * int option
+)
+"dynamic.ml" 91 2841 2847 "dynamic.ml" 94 2941 2948
+type(
+  int * int option -> string -> int * int option
+)
+"dynamic.ml" 94 2941 2950 "dynamic.ml" 94 2941 2951
+type(
+  int
+)
+"dynamic.ml" 94 2941 2952 "dynamic.ml" 94 2941 2956
+type(
+  int option
+)
+"dynamic.ml" 94 2941 2949 "dynamic.ml" 94 2941 2957
+type(
+  int * int option
+)
+"dynamic.ml" 94 2941 2958 "dynamic.ml" 94 2941 2961
+type(
+  string array
+)
+ident(
+  int_ref env "dynamic.ml" 89 2772 2780 "dynamic.ml" 89 2772 2783
+)
+"dynamic.ml" 90 2809 2825 "dynamic.ml" 94 2941 2961
+call(
+  stack
+)
+type(
+  int * int option
+)
+"dynamic.ml" 95 2962 2975 "dynamic.ml" 95 2962 2978
+type(
+  int option
+)
+ident(
+  int_ref pos "dynamic.ml" 90 2809 2819 "dynamic.ml" 90 2809 2822
+)
+"dynamic.ml" 96 2984 2992 "dynamic.ml" 96 2984 2996
+type(
+  int option
+)
+"dynamic.ml" 97 3001 3015 "dynamic.ml" 97 3001 3018
+type(
+  int
+)
+"dynamic.ml" 97 3001 3021 "dynamic.ml" 97 3001 3033
+type(
+  string array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"dynamic.ml" 97 3001 3034 "dynamic.ml" 97 3001 3037
+type(
+  string array
+)
+ident(
+  int_ref env "dynamic.ml" 89 2772 2780 "dynamic.ml" 89 2772 2783
+)
+"dynamic.ml" 97 3001 3021 "dynamic.ml" 97 3001 3037
+type(
+  int
+)
+"dynamic.ml" 98 3041 3055 "dynamic.ml" 98 3041 3059
+type(
+  string array
+)
+"dynamic.ml" 98 3041 3062 "dynamic.ml" 98 3041 3074
+type(
+  int -> string -> string array
+)
+ident(
+  ext_ref Array.create
+)
+"dynamic.ml" 98 3041 3076 "dynamic.ml" 98 3041 3079
+type(
+  int
+)
+ident(
+  int_ref len "dynamic.ml" 97 3001 3015 "dynamic.ml" 97 3001 3018
+)
+"dynamic.ml" 98 3041 3079 "dynamic.ml" 98 3041 3080
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dynamic.ml" 98 3041 3080 "dynamic.ml" 98 3041 3081
+type(
+  int
+)
+"dynamic.ml" 98 3041 3075 "dynamic.ml" 98 3041 3082
+type(
+  int
+)
+"dynamic.ml" 98 3041 3083 "dynamic.ml" 98 3041 3085
+type(
+  string
+)
+"dynamic.ml" 98 3041 3062 "dynamic.ml" 98 3041 3085
+type(
+  string array
+)
+"dynamic.ml" 99 3089 3101 "dynamic.ml" 99 3089 3111
+type(
+  string array -> int -> string array -> int -> int -> unit
+)
+ident(
+  ext_ref Array.blit
+)
+"dynamic.ml" 99 3089 3112 "dynamic.ml" 99 3089 3115
+type(
+  string array
+)
+ident(
+  int_ref env "dynamic.ml" 89 2772 2780 "dynamic.ml" 89 2772 2783
+)
+"dynamic.ml" 99 3089 3116 "dynamic.ml" 99 3089 3117
+type(
+  int
+)
+"dynamic.ml" 99 3089 3118 "dynamic.ml" 99 3089 3122
+type(
+  string array
+)
+ident(
+  int_ref env' "dynamic.ml" 98 3041 3055 "dynamic.ml" 98 3041 3059
+)
+"dynamic.ml" 99 3089 3123 "dynamic.ml" 99 3089 3124
+type(
+  int
+)
+"dynamic.ml" 99 3089 3125 "dynamic.ml" 99 3089 3128
+type(
+  int
+)
+ident(
+  int_ref len "dynamic.ml" 97 3001 3015 "dynamic.ml" 97 3001 3018
+)
+"dynamic.ml" 99 3089 3101 "dynamic.ml" 99 3089 3128
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 100 3130 3142 "dynamic.ml" 100 3130 3146
+type(
+  string array
+)
+ident(
+  int_ref env' "dynamic.ml" 98 3041 3055 "dynamic.ml" 98 3041 3059
+)
+"dynamic.ml" 100 3130 3148 "dynamic.ml" 100 3130 3151
+type(
+  int
+)
+ident(
+  int_ref len "dynamic.ml" 97 3001 3015 "dynamic.ml" 97 3001 3018
+)
+"dynamic.ml" 100 3130 3156 "dynamic.ml" 100 3130 3163
+type(
+  string
+)
+ident(
+  int_ref rubylib "dynamic.ml" 88 2736 2761 "dynamic.ml" 88 2736 2768
+)
+"dynamic.ml" 100 3130 3142 "dynamic.ml" 100 3130 3163
+type(
+  unit
+)
+"dynamic.ml" 101 3165 3177 "dynamic.ml" 101 3165 3181
+type(
+  string array
+)
+ident(
+  int_ref env' "dynamic.ml" 98 3041 3055 "dynamic.ml" 98 3041 3059
+)
+"dynamic.ml" 100 3130 3142 "dynamic.ml" 101 3165 3181
+type(
+  string array
+)
+"dynamic.ml" 99 3089 3101 "dynamic.ml" 101 3165 3181
+type(
+  string array
+)
+"dynamic.ml" 98 3041 3051 "dynamic.ml" 101 3165 3181
+type(
+  string array
+)
+"dynamic.ml" 97 3001 3011 "dynamic.ml" 101 3165 3181
+type(
+  string array
+)
+"dynamic.ml" 102 3182 3195 "dynamic.ml" 102 3182 3196
+type(
+  int
+)
+ident(
+  def i "dynamic.ml" 103 3201 3211 "dynamic.ml" 104 3231 3244
+)
+"dynamic.ml" 102 3182 3190 "dynamic.ml" 102 3182 3196
+type(
+  int option
+)
+"dynamic.ml" 103 3201 3211 "dynamic.ml" 103 3201 3214
+type(
+  string array
+)
+ident(
+  int_ref env "dynamic.ml" 89 2772 2780 "dynamic.ml" 89 2772 2783
+)
+"dynamic.ml" 103 3201 3216 "dynamic.ml" 103 3201 3217
+type(
+  int
+)
+ident(
+  int_ref i "dynamic.ml" 102 3182 3195 "dynamic.ml" 102 3182 3196
+)
+"dynamic.ml" 103 3201 3222 "dynamic.ml" 103 3201 3229
+type(
+  string
+)
+ident(
+  int_ref rubylib "dynamic.ml" 88 2736 2761 "dynamic.ml" 88 2736 2768
+)
+"dynamic.ml" 103 3201 3211 "dynamic.ml" 103 3201 3229
+type(
+  unit
+)
+"dynamic.ml" 104 3231 3241 "dynamic.ml" 104 3231 3244
+type(
+  string array
+)
+ident(
+  int_ref env "dynamic.ml" 89 2772 2780 "dynamic.ml" 89 2772 2783
+)
+"dynamic.ml" 103 3201 3211 "dynamic.ml" 104 3231 3244
+type(
+  string array
+)
+"dynamic.ml" 95 2962 2969 "dynamic.ml" 104 3231 3244
+type(
+  string array
+)
+"dynamic.ml" 90 2809 2813 "dynamic.ml" 104 3231 3244
+type(
+  string array
+)
+"dynamic.ml" 89 2772 2776 "dynamic.ml" 104 3231 3244
+type(
+  string array
+)
+"dynamic.ml" 111 3547 3553 "dynamic.ml" 111 3547 3570
+type(
+  t -> string list -> string -> string -> unit
+)
+ident(
+  def execute_ruby_code "dynamic.ml" 132 4330 4332 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 111 3547 3571 "dynamic.ml" 111 3547 3572
+type(
+  t
+)
+ident(
+  def t "dynamic.ml" 111 3547 3573 "dynamic.ml" 130 4282 4328
+)
+"dynamic.ml" 111 3547 3573 "dynamic.ml" 111 3547 3577
+type(
+  string list
+)
+ident(
+  def libs "dynamic.ml" 111 3547 3578 "dynamic.ml" 130 4282 4328
+)
+"dynamic.ml" 111 3547 3578 "dynamic.ml" 111 3547 3582
+type(
+  string
+)
+ident(
+  def code "dynamic.ml" 111 3547 3583 "dynamic.ml" 130 4282 4328
+)
+"dynamic.ml" 111 3547 3583 "dynamic.ml" 111 3547 3592
+type(
+  string
+)
+ident(
+  def abort_msg "dynamic.ml" 112 3596 3600 "dynamic.ml" 130 4282 4328
+)
+"dynamic.ml" 112 3596 3604 "dynamic.ml" 112 3596 3615
+type(
+  Sys.signal_behavior
+)
+"dynamic.ml" 112 3596 3618 "dynamic.ml" 112 3596 3628
+type(
+  int -> Sys.signal_behavior -> Sys.signal_behavior
+)
+ident(
+  ext_ref Sys.signal
+)
+"dynamic.ml" 112 3596 3629 "dynamic.ml" 112 3596 3640
+type(
+  int
+)
+ident(
+  ext_ref Sys.sigpipe
+)
+"dynamic.ml" 113 3641 3667 "dynamic.ml" 113 3641 3683
+type(
+  string -> int -> unit
+)
+ident(
+  int_ref abort_on_sigpipe "dynamic.ml" 61 1697 1703 "dynamic.ml" 61 1697 1719
+)
+"dynamic.ml" 113 3641 3684 "dynamic.ml" 113 3641 3693
+type(
+  string
+)
+ident(
+  int_ref abort_msg "dynamic.ml" 111 3547 3583 "dynamic.ml" 111 3547 3592
+)
+"dynamic.ml" 113 3641 3666 "dynamic.ml" 113 3641 3694
+call(
+  stack
+)
+type(
+  int -> unit
+)
+"dynamic.ml" 113 3641 3647 "dynamic.ml" 113 3641 3695
+type(
+  Sys.signal_behavior
+)
+"dynamic.ml" 112 3596 3618 "dynamic.ml" 113 3641 3695
+type(
+  Sys.signal_behavior
+)
+"dynamic.ml" 115 3704 3712 "dynamic.ml" 115 3704 3716
+type(
+  Unix.file_descr
+)
+"dynamic.ml" 115 3704 3717 "dynamic.ml" 115 3704 3722
+type(
+  Unix.file_descr
+)
+"dynamic.ml" 115 3704 3712 "dynamic.ml" 115 3704 3722
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"dynamic.ml" 115 3704 3725 "dynamic.ml" 115 3704 3734
+type(
+  unit -> Unix.file_descr * Unix.file_descr
+)
+ident(
+  ext_ref Unix.pipe
+)
+"dynamic.ml" 115 3704 3735 "dynamic.ml" 115 3704 3737
+type(
+  unit
+)
+"dynamic.ml" 115 3704 3725 "dynamic.ml" 115 3704 3737
+call(
+  stack
+)
+type(
+  Unix.file_descr * Unix.file_descr
+)
+"dynamic.ml" 116 3741 3749 "dynamic.ml" 116 3741 3751
+type(
+  unit
+)
+"dynamic.ml" 116 3741 3754 "dynamic.ml" 116 3741 3776
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_close_on_exec
+)
+"dynamic.ml" 116 3741 3777 "dynamic.ml" 116 3741 3782
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref p_out "dynamic.ml" 115 3704 3717 "dynamic.ml" 115 3704 3722
+)
+"dynamic.ml" 116 3741 3754 "dynamic.ml" 116 3741 3782
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 117 3786 3794 "dynamic.ml" 117 3786 3797
+type(
+  string array
+)
+"dynamic.ml" 117 3786 3800 "dynamic.ml" 117 3786 3818
+type(
+  string -> string array
+)
+ident(
+  int_ref change_env_rubylib "dynamic.ml" 88 2736 2742 "dynamic.ml" 88 2736 2760
+)
+"dynamic.ml" 117 3786 3819 "dynamic.ml" 117 3786 3820
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 111 3547 3571 "dynamic.ml" 111 3547 3572
+)
+"dynamic.ml" 117 3786 3819 "dynamic.ml" 117 3786 3828
+type(
+  string
+)
+"dynamic.ml" 117 3786 3800 "dynamic.ml" 117 3786 3828
+call(
+  stack
+)
+type(
+  string array
+)
+"dynamic.ml" 118 3832 3840 "dynamic.ml" 118 3832 3844
+type(
+  string array
+)
+"dynamic.ml" 118 3832 3847 "dynamic.ml" 118 3832 3866
+type(
+  string list -> string list -> string array
+)
+ident(
+  int_ref construct_ruby_args "dynamic.ml" 65 1849 1855 "dynamic.ml" 65 1849 1874
+)
+"dynamic.ml" 118 3832 3867 "dynamic.ml" 118 3832 3871
+type(
+  string list
+)
+ident(
+  int_ref libs "dynamic.ml" 111 3547 3573 "dynamic.ml" 111 3547 3577
+)
+"dynamic.ml" 118 3832 3872 "dynamic.ml" 118 3832 3873
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 111 3547 3571 "dynamic.ml" 111 3547 3572
+)
+"dynamic.ml" 118 3832 3872 "dynamic.ml" 118 3832 3878
+type(
+  string list
+)
+"dynamic.ml" 118 3832 3847 "dynamic.ml" 118 3832 3878
+call(
+  stack
+)
+type(
+  string array
+)
+"dynamic.ml" 119 3882 3890 "dynamic.ml" 119 3882 3893
+type(
+  int
+)
+"dynamic.ml" 119 3882 3896 "dynamic.ml" 119 3882 3919
+type(
+  string ->
+  string array ->
+  string array ->
+  Unix.file_descr -> Unix.file_descr -> Unix.file_descr -> int
+)
+ident(
+  ext_ref Unix.create_process_env
+)
+"dynamic.ml" 119 3882 3920 "dynamic.ml" 119 3882 3926
+type(
+  string
+)
+"dynamic.ml" 119 3882 3927 "dynamic.ml" 119 3882 3931
+type(
+  string array
+)
+ident(
+  int_ref args "dynamic.ml" 118 3832 3840 "dynamic.ml" 118 3832 3844
+)
+"dynamic.ml" 120 3932 3938 "dynamic.ml" 120 3932 3941
+type(
+  string array
+)
+ident(
+  int_ref env "dynamic.ml" 117 3786 3794 "dynamic.ml" 117 3786 3797
+)
+"dynamic.ml" 120 3932 3942 "dynamic.ml" 120 3932 3946
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref p_in "dynamic.ml" 115 3704 3712 "dynamic.ml" 115 3704 3716
+)
+"dynamic.ml" 120 3932 3947 "dynamic.ml" 120 3932 3958
+type(
+  Unix.file_descr
+)
+ident(
+  ext_ref Unix.stdout
+)
+"dynamic.ml" 120 3932 3959 "dynamic.ml" 120 3932 3970
+type(
+  Unix.file_descr
+)
+ident(
+  ext_ref Unix.stderr
+)
+"dynamic.ml" 119 3882 3896 "dynamic.ml" 120 3932 3970
+call(
+  stack
+)
+type(
+  int
+)
+"dynamic.ml" 122 3979 3987 "dynamic.ml" 122 3979 3989
+type(
+  out_channel
+)
+"dynamic.ml" 122 3979 3992 "dynamic.ml" 122 3979 4017
+type(
+  Unix.file_descr -> out_channel
+)
+ident(
+  ext_ref Unix.out_channel_of_descr
+)
+"dynamic.ml" 122 3979 4018 "dynamic.ml" 122 3979 4023
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref p_out "dynamic.ml" 115 3704 3717 "dynamic.ml" 115 3704 3722
+)
+"dynamic.ml" 122 3979 3992 "dynamic.ml" 122 3979 4023
+call(
+  stack
+)
+type(
+  out_channel
+)
+"dynamic.ml" 123 4027 4035 "dynamic.ml" 123 4027 4039
+type(
+  out_channel
+)
+"dynamic.ml" 123 4027 4042 "dynamic.ml" 123 4027 4050
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"dynamic.ml" 123 4027 4051 "dynamic.ml" 123 4027 4062
+type(
+  string
+)
+"dynamic.ml" 123 4027 4042 "dynamic.ml" 123 4027 4062
+call(
+  stack
+)
+type(
+  out_channel
+)
+"dynamic.ml" 124 4067 4073 "dynamic.ml" 124 4067 4086
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"dynamic.ml" 124 4067 4087 "dynamic.ml" 124 4067 4091
+type(
+  out_channel
+)
+ident(
+  int_ref fout "dynamic.ml" 123 4027 4035 "dynamic.ml" 123 4027 4039
+)
+"dynamic.ml" 124 4067 4092 "dynamic.ml" 124 4067 4096
+type(
+  string
+)
+ident(
+  int_ref code "dynamic.ml" 111 3547 3578 "dynamic.ml" 111 3547 3582
+)
+"dynamic.ml" 124 4067 4073 "dynamic.ml" 124 4067 4096
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 124 4067 4098 "dynamic.ml" 124 4067 4107
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"dynamic.ml" 124 4067 4108 "dynamic.ml" 124 4067 4112
+type(
+  out_channel
+)
+ident(
+  int_ref fout "dynamic.ml" 123 4027 4035 "dynamic.ml" 123 4027 4039
+)
+"dynamic.ml" 124 4067 4098 "dynamic.ml" 124 4067 4112
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 125 4114 4120 "dynamic.ml" 125 4114 4133
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"dynamic.ml" 125 4114 4134 "dynamic.ml" 125 4114 4136
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 122 3979 3987 "dynamic.ml" 122 3979 3989
+)
+"dynamic.ml" 125 4114 4137 "dynamic.ml" 125 4114 4141
+type(
+  string
+)
+ident(
+  int_ref code "dynamic.ml" 111 3547 3578 "dynamic.ml" 111 3547 3582
+)
+"dynamic.ml" 125 4114 4120 "dynamic.ml" 125 4114 4141
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 126 4143 4149 "dynamic.ml" 126 4143 4158
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"dynamic.ml" 126 4143 4159 "dynamic.ml" 126 4143 4161
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 122 3979 3987 "dynamic.ml" 122 3979 3989
+)
+"dynamic.ml" 126 4143 4149 "dynamic.ml" 126 4143 4161
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 127 4164 4174 "dynamic.ml" 127 4164 4177
+type(
+  int
+)
+"dynamic.ml" 127 4164 4178 "dynamic.ml" 127 4164 4184
+type(
+  Unix.process_status
+)
+"dynamic.ml" 127 4164 4174 "dynamic.ml" 127 4164 4184
+type(
+  int * Unix.process_status
+)
+"dynamic.ml" 127 4164 4187 "dynamic.ml" 127 4164 4199
+type(
+  Unix.wait_flag list -> int -> int * Unix.process_status
+)
+ident(
+  ext_ref Unix.waitpid
+)
+"dynamic.ml" 127 4164 4200 "dynamic.ml" 127 4164 4202
+type(
+  Unix.wait_flag list
+)
+"dynamic.ml" 127 4164 4203 "dynamic.ml" 127 4164 4206
+type(
+  int
+)
+ident(
+  int_ref pid "dynamic.ml" 119 3882 3890 "dynamic.ml" 119 3882 3893
+)
+"dynamic.ml" 127 4164 4187 "dynamic.ml" 127 4164 4206
+call(
+  stack
+)
+type(
+  int * Unix.process_status
+)
+"dynamic.ml" 128 4210 4218 "dynamic.ml" 128 4210 4228
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"dynamic.ml" 128 4210 4229 "dynamic.ml" 128 4210 4233
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref p_in "dynamic.ml" 115 3704 3712 "dynamic.ml" 115 3704 3716
+)
+"dynamic.ml" 128 4210 4218 "dynamic.ml" 128 4210 4233
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 129 4235 4243 "dynamic.ml" 129 4235 4263
+type(
+  string -> Unix.process_status -> unit
+)
+ident(
+  int_ref abort_on_exit_status "dynamic.ml" 52 1285 1291 "dynamic.ml" 52 1285 1311
+)
+"dynamic.ml" 129 4235 4264 "dynamic.ml" 129 4235 4273
+type(
+  string
+)
+ident(
+  int_ref abort_msg "dynamic.ml" 111 3547 3583 "dynamic.ml" 111 3547 3592
+)
+"dynamic.ml" 129 4235 4274 "dynamic.ml" 129 4235 4280
+type(
+  Unix.process_status
+)
+ident(
+  int_ref status "dynamic.ml" 127 4164 4178 "dynamic.ml" 127 4164 4184
+)
+"dynamic.ml" 129 4235 4243 "dynamic.ml" 129 4235 4280
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 130 4282 4290 "dynamic.ml" 130 4282 4304
+type(
+  int -> Sys.signal_behavior -> unit
+)
+ident(
+  ext_ref Sys.set_signal
+)
+"dynamic.ml" 130 4282 4305 "dynamic.ml" 130 4282 4316
+type(
+  int
+)
+ident(
+  ext_ref Sys.sigpipe
+)
+"dynamic.ml" 130 4282 4317 "dynamic.ml" 130 4282 4328
+type(
+  Sys.signal_behavior
+)
+ident(
+  int_ref old_handler "dynamic.ml" 112 3596 3604 "dynamic.ml" 112 3596 3615
+)
+"dynamic.ml" 130 4282 4290 "dynamic.ml" 130 4282 4328
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 129 4235 4243 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 128 4210 4218 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 127 4164 4170 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 126 4143 4149 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 125 4114 4120 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 124 4067 4098 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 124 4067 4073 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 123 4027 4031 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 122 3979 3983 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 119 3882 3886 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 118 3832 3836 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 117 3786 3790 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 116 3741 3745 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 115 3704 3708 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 112 3596 3600 "dynamic.ml" 130 4282 4328
+type(
+  unit
+)
+"dynamic.ml" 132 4330 4336 "dynamic.ml" 132 4330 4353
+type(
+  t -> string list -> string -> bool -> unit
+)
+ident(
+  def execute_ruby_file "dynamic.ml" 157 5366 5368 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 132 4330 4354 "dynamic.ml" 132 4330 4355
+type(
+  t
+)
+ident(
+  def t "dynamic.ml" 132 4330 4356 "dynamic.ml" 155 5333 5364
+)
+"dynamic.ml" 132 4330 4356 "dynamic.ml" 132 4330 4363
+type(
+  string list
+)
+ident(
+  def preload "dynamic.ml" 132 4330 4364 "dynamic.ml" 155 5333 5364
+)
+"dynamic.ml" 132 4330 4364 "dynamic.ml" 132 4330 4368
+type(
+  string
+)
+ident(
+  def file "dynamic.ml" 132 4330 4369 "dynamic.ml" 155 5333 5364
+)
+"dynamic.ml" 132 4330 4369 "dynamic.ml" 132 4330 4375
+type(
+  bool
+)
+ident(
+  def output "dynamic.ml" 133 4379 4383 "dynamic.ml" 155 5333 5364
+)
+"dynamic.ml" 133 4379 4387 "dynamic.ml" 133 4379 4391
+type(
+  string array
+)
+"dynamic.ml" 133 4379 4394 "dynamic.ml" 133 4379 4413
+type(
+  string list -> string list -> string array
+)
+ident(
+  int_ref construct_ruby_args "dynamic.ml" 65 1849 1855 "dynamic.ml" 65 1849 1874
+)
+"dynamic.ml" 133 4379 4414 "dynamic.ml" 133 4379 4421
+type(
+  string list
+)
+ident(
+  int_ref preload "dynamic.ml" 132 4330 4356 "dynamic.ml" 132 4330 4363
+)
+"dynamic.ml" 133 4379 4423 "dynamic.ml" 133 4379 4427
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 132 4330 4364 "dynamic.ml" 132 4330 4368
+)
+"dynamic.ml" 133 4379 4429 "dynamic.ml" 133 4379 4430
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 132 4330 4354 "dynamic.ml" 132 4330 4355
+)
+"dynamic.ml" 133 4379 4429 "dynamic.ml" 133 4379 4435
+type(
+  string list
+)
+"dynamic.ml" 133 4379 4422 "dynamic.ml" 133 4379 4436
+type(
+  string list
+)
+"dynamic.ml" 133 4379 4394 "dynamic.ml" 133 4379 4436
+call(
+  stack
+)
+type(
+  string array
+)
+"dynamic.ml" 134 4440 4448 "dynamic.ml" 134 4440 4451
+type(
+  string array
+)
+"dynamic.ml" 134 4440 4454 "dynamic.ml" 134 4440 4472
+type(
+  string -> string array
+)
+ident(
+  int_ref change_env_rubylib "dynamic.ml" 88 2736 2742 "dynamic.ml" 88 2736 2760
+)
+"dynamic.ml" 134 4440 4473 "dynamic.ml" 134 4440 4474
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 132 4330 4354 "dynamic.ml" 132 4330 4355
+)
+"dynamic.ml" 134 4440 4473 "dynamic.ml" 134 4440 4482
+type(
+  string
+)
+"dynamic.ml" 134 4440 4454 "dynamic.ml" 134 4440 4482
+call(
+  stack
+)
+type(
+  string array
+)
+"dynamic.ml" 138 4637 4645 "dynamic.ml" 138 4637 4653
+type(
+  string
+)
+"dynamic.ml" 138 4637 4654 "dynamic.ml" 138 4637 4660
+type(
+  out_channel
+)
+"dynamic.ml" 138 4637 4645 "dynamic.ml" 138 4637 4660
+type(
+  string * out_channel
+)
+"dynamic.ml" 138 4637 4663 "dynamic.ml" 138 4637 4686
+type(
+  ?mode:open_flag list ->
+  ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  ext_ref Filename.open_temp_file
+)
+"dynamic.ml" 138 4637 4687 "dynamic.ml" 138 4637 4700
+type(
+  string
+)
+"dynamic.ml" 138 4637 4701 "dynamic.ml" 138 4637 4707
+type(
+  string
+)
+"dynamic.ml" 138 4637 4663 "dynamic.ml" 138 4637 4707
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"dynamic.ml" 139 4711 4719 "dynamic.ml" 139 4711 4727
+type(
+  string
+)
+"dynamic.ml" 139 4711 4728 "dynamic.ml" 139 4711 4734
+type(
+  out_channel
+)
+"dynamic.ml" 139 4711 4719 "dynamic.ml" 139 4711 4734
+type(
+  string * out_channel
+)
+"dynamic.ml" 139 4711 4737 "dynamic.ml" 139 4711 4760
+type(
+  ?mode:open_flag list ->
+  ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  ext_ref Filename.open_temp_file
+)
+"dynamic.ml" 139 4711 4761 "dynamic.ml" 139 4711 4774
+type(
+  string
+)
+"dynamic.ml" 139 4711 4775 "dynamic.ml" 139 4711 4781
+type(
+  string
+)
+"dynamic.ml" 139 4711 4737 "dynamic.ml" 139 4711 4781
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"dynamic.ml" 140 4785 4793 "dynamic.ml" 140 4785 4799
+type(
+  Unix.file_descr
+)
+"dynamic.ml" 140 4785 4802 "dynamic.ml" 140 4785 4827
+type(
+  out_channel -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.descr_of_out_channel
+)
+"dynamic.ml" 140 4785 4828 "dynamic.ml" 140 4785 4834
+type(
+  out_channel
+)
+ident(
+  int_ref out_oc "dynamic.ml" 138 4637 4654 "dynamic.ml" 138 4637 4660
+)
+"dynamic.ml" 140 4785 4802 "dynamic.ml" 140 4785 4834
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"dynamic.ml" 141 4838 4846 "dynamic.ml" 141 4838 4852
+type(
+  Unix.file_descr
+)
+"dynamic.ml" 141 4838 4855 "dynamic.ml" 141 4838 4880
+type(
+  out_channel -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.descr_of_out_channel
+)
+"dynamic.ml" 141 4838 4881 "dynamic.ml" 141 4838 4887
+type(
+  out_channel
+)
+ident(
+  int_ref err_oc "dynamic.ml" 139 4711 4728 "dynamic.ml" 139 4711 4734
+)
+"dynamic.ml" 141 4838 4855 "dynamic.ml" 141 4838 4887
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"dynamic.ml" 142 4891 4899 "dynamic.ml" 142 4891 4902
+type(
+  int
+)
+"dynamic.ml" 142 4891 4905 "dynamic.ml" 142 4891 4928
+type(
+  string ->
+  string array ->
+  string array ->
+  Unix.file_descr -> Unix.file_descr -> Unix.file_descr -> int
+)
+ident(
+  ext_ref Unix.create_process_env
+)
+"dynamic.ml" 142 4891 4929 "dynamic.ml" 142 4891 4935
+type(
+  string
+)
+"dynamic.ml" 142 4891 4936 "dynamic.ml" 142 4891 4940
+type(
+  string array
+)
+ident(
+  int_ref argv "dynamic.ml" 133 4379 4387 "dynamic.ml" 133 4379 4391
+)
+"dynamic.ml" 142 4891 4941 "dynamic.ml" 142 4891 4944
+type(
+  string array
+)
+ident(
+  int_ref env "dynamic.ml" 134 4440 4448 "dynamic.ml" 134 4440 4451
+)
+"dynamic.ml" 143 4946 4952 "dynamic.ml" 143 4946 4962
+type(
+  Unix.file_descr
+)
+ident(
+  ext_ref Unix.stdin
+)
+"dynamic.ml" 143 4946 4963 "dynamic.ml" 143 4946 4969
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref out_fd "dynamic.ml" 140 4785 4793 "dynamic.ml" 140 4785 4799
+)
+"dynamic.ml" 143 4946 4970 "dynamic.ml" 143 4946 4976
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref err_fd "dynamic.ml" 141 4838 4846 "dynamic.ml" 141 4838 4852
+)
+"dynamic.ml" 142 4891 4905 "dynamic.ml" 143 4946 4976
+call(
+  stack
+)
+type(
+  int
+)
+"dynamic.ml" 145 4984 4992 "dynamic.ml" 145 4984 4995
+type(
+  int
+)
+"dynamic.ml" 145 4984 4996 "dynamic.ml" 145 4984 5002
+type(
+  Unix.process_status
+)
+"dynamic.ml" 145 4984 4992 "dynamic.ml" 145 4984 5002
+type(
+  int * Unix.process_status
+)
+"dynamic.ml" 145 4984 5005 "dynamic.ml" 145 4984 5017
+type(
+  Unix.wait_flag list -> int -> int * Unix.process_status
+)
+ident(
+  ext_ref Unix.waitpid
+)
+"dynamic.ml" 145 4984 5018 "dynamic.ml" 145 4984 5020
+type(
+  Unix.wait_flag list
+)
+"dynamic.ml" 145 4984 5021 "dynamic.ml" 145 4984 5024
+type(
+  int
+)
+ident(
+  int_ref pid "dynamic.ml" 142 4891 4899 "dynamic.ml" 142 4891 4902
+)
+"dynamic.ml" 145 4984 5005 "dynamic.ml" 145 4984 5024
+call(
+  stack
+)
+type(
+  int * Unix.process_status
+)
+"dynamic.ml" 146 5028 5036 "dynamic.ml" 146 5028 5038
+type(
+  unit
+)
+"dynamic.ml" 146 5028 5041 "dynamic.ml" 146 5028 5050
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"dynamic.ml" 146 5028 5051 "dynamic.ml" 146 5028 5057
+type(
+  out_channel
+)
+ident(
+  int_ref out_oc "dynamic.ml" 138 4637 4654 "dynamic.ml" 138 4637 4660
+)
+"dynamic.ml" 146 5028 5041 "dynamic.ml" 146 5028 5057
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 147 5061 5069 "dynamic.ml" 147 5061 5071
+type(
+  unit
+)
+"dynamic.ml" 147 5061 5074 "dynamic.ml" 147 5061 5083
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"dynamic.ml" 147 5061 5084 "dynamic.ml" 147 5061 5090
+type(
+  out_channel
+)
+ident(
+  int_ref err_oc "dynamic.ml" 139 4711 4728 "dynamic.ml" 139 4711 4734
+)
+"dynamic.ml" 147 5061 5074 "dynamic.ml" 147 5061 5090
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 148 5094 5102 "dynamic.ml" 148 5094 5105
+type(
+  string
+)
+"dynamic.ml" 148 5094 5108 "dynamic.ml" 148 5094 5121
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.file_contents
+)
+"dynamic.ml" 148 5094 5122 "dynamic.ml" 148 5094 5130
+type(
+  string
+)
+ident(
+  int_ref err_name "dynamic.ml" 139 4711 4719 "dynamic.ml" 139 4711 4727
+)
+"dynamic.ml" 148 5094 5108 "dynamic.ml" 148 5094 5130
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 149 5134 5143 "dynamic.ml" 149 5134 5149
+type(
+  bool
+)
+ident(
+  int_ref output "dynamic.ml" 132 4330 4369 "dynamic.ml" 132 4330 4375
+)
+"dynamic.ml" 150 5161 5169 "dynamic.ml" 150 5161 5182
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"dynamic.ml" 150 5161 5183 "dynamic.ml" 150 5161 5189
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dynamic.ml" 150 5161 5191 "dynamic.ml" 150 5161 5204
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.file_contents
+)
+"dynamic.ml" 150 5161 5205 "dynamic.ml" 150 5161 5213
+type(
+  string
+)
+ident(
+  int_ref out_name "dynamic.ml" 138 4637 4645 "dynamic.ml" 138 4637 4653
+)
+"dynamic.ml" 150 5161 5190 "dynamic.ml" 150 5161 5214
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 150 5161 5169 "dynamic.ml" 150 5161 5214
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 151 5216 5224 "dynamic.ml" 151 5216 5237
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"dynamic.ml" 151 5216 5238 "dynamic.ml" 151 5216 5244
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"dynamic.ml" 151 5216 5245 "dynamic.ml" 151 5216 5248
+type(
+  string
+)
+ident(
+  int_ref err "dynamic.ml" 148 5094 5102 "dynamic.ml" 148 5094 5105
+)
+"dynamic.ml" 151 5216 5224 "dynamic.ml" 151 5216 5249
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 149 5134 5155 "dynamic.ml" 152 5250 5259
+type(
+  unit
+)
+"dynamic.ml" 149 5134 5140 "dynamic.ml" 152 5250 5259
+type(
+  unit
+)
+"dynamic.ml" 153 5261 5267 "dynamic.ml" 153 5261 5287
+type(
+  string -> Unix.process_status -> unit
+)
+ident(
+  int_ref abort_on_exit_status "dynamic.ml" 52 1285 1291 "dynamic.ml" 52 1285 1311
+)
+"dynamic.ml" 153 5261 5288 "dynamic.ml" 153 5261 5291
+type(
+  string
+)
+ident(
+  int_ref err "dynamic.ml" 148 5094 5102 "dynamic.ml" 148 5094 5105
+)
+"dynamic.ml" 153 5261 5292 "dynamic.ml" 153 5261 5298
+type(
+  Unix.process_status
+)
+ident(
+  int_ref status "dynamic.ml" 145 4984 4996 "dynamic.ml" 145 4984 5002
+)
+"dynamic.ml" 153 5261 5267 "dynamic.ml" 153 5261 5298
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 154 5300 5306 "dynamic.ml" 154 5300 5322
+type(
+  string -> unit
+)
+ident(
+  int_ref remove_if_exists "dynamic.ml" 82 2547 2553 "dynamic.ml" 82 2547 2569
+)
+"dynamic.ml" 154 5300 5323 "dynamic.ml" 154 5300 5331
+type(
+  string
+)
+ident(
+  int_ref out_name "dynamic.ml" 138 4637 4645 "dynamic.ml" 138 4637 4653
+)
+"dynamic.ml" 154 5300 5306 "dynamic.ml" 154 5300 5331
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 155 5333 5339 "dynamic.ml" 155 5333 5355
+type(
+  string -> unit
+)
+ident(
+  int_ref remove_if_exists "dynamic.ml" 82 2547 2553 "dynamic.ml" 82 2547 2569
+)
+"dynamic.ml" 155 5333 5356 "dynamic.ml" 155 5333 5364
+type(
+  string
+)
+ident(
+  int_ref err_name "dynamic.ml" 139 4711 4719 "dynamic.ml" 139 4711 4727
+)
+"dynamic.ml" 155 5333 5339 "dynamic.ml" 155 5333 5364
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 154 5300 5306 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 153 5261 5267 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 149 5134 5140 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 148 5094 5098 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 147 5061 5065 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 146 5028 5032 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 145 4984 4988 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 142 4891 4895 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 141 4838 4842 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 140 4785 4789 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 139 4711 4715 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 138 4637 4641 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 134 4440 4444 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 133 4379 4383 "dynamic.ml" 155 5333 5364
+type(
+  unit
+)
+"dynamic.ml" 157 5366 5376 "dynamic.ml" 157 5366 5390
+type(
+  Buffer.t -> string list -> unit
+)
+ident(
+  def construct_argv "dynamic.ml" 157 5366 5368 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 157 5366 5391 "dynamic.ml" 157 5366 5394
+type(
+  Buffer.t
+)
+ident(
+  def buf "dynamic.ml" 157 5366 5397 "dynamic.ml" 164 5596 5624
+)
+"dynamic.ml" 158 5406 5412 "dynamic.ml" 158 5406 5414
+type(
+  string list
+)
+"dynamic.ml" 158 5406 5418 "dynamic.ml" 158 5406 5420
+type(
+  unit
+)
+"dynamic.ml" 159 5421 5428 "dynamic.ml" 159 5421 5429
+type(
+  string
+)
+ident(
+  def a "dynamic.ml" 159 5421 5434 "dynamic.ml" 159 5421 5473
+)
+"dynamic.ml" 159 5421 5427 "dynamic.ml" 159 5421 5430
+type(
+  string list
+)
+"dynamic.ml" 159 5421 5434 "dynamic.ml" 159 5421 5451
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"dynamic.ml" 159 5421 5452 "dynamic.ml" 159 5421 5455
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 157 5366 5391 "dynamic.ml" 157 5366 5394
+)
+"dynamic.ml" 159 5421 5457 "dynamic.ml" 159 5421 5461
+type(
+  string
+)
+"dynamic.ml" 159 5421 5462 "dynamic.ml" 159 5421 5463
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 159 5421 5464 "dynamic.ml" 159 5421 5465
+type(
+  string
+)
+ident(
+  int_ref a "dynamic.ml" 159 5421 5428 "dynamic.ml" 159 5421 5429
+)
+"dynamic.ml" 159 5421 5466 "dynamic.ml" 159 5421 5467
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 159 5421 5468 "dynamic.ml" 159 5421 5472
+type(
+  string
+)
+"dynamic.ml" 159 5421 5464 "dynamic.ml" 159 5421 5472
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 159 5421 5456 "dynamic.ml" 159 5421 5473
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 159 5421 5434 "dynamic.ml" 159 5421 5473
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 160 5474 5480 "dynamic.ml" 160 5474 5481
+type(
+  string
+)
+ident(
+  def h "dynamic.ml" 161 5489 5497 "dynamic.ml" 164 5596 5624
+)
+"dynamic.ml" 160 5474 5483 "dynamic.ml" 160 5474 5484
+type(
+  string list
+)
+ident(
+  def t "dynamic.ml" 161 5489 5497 "dynamic.ml" 164 5596 5624
+)
+"dynamic.ml" 160 5474 5480 "dynamic.ml" 160 5474 5484
+type(
+  string list
+)
+"dynamic.ml" 161 5489 5497 "dynamic.ml" 161 5489 5514
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"dynamic.ml" 161 5489 5515 "dynamic.ml" 161 5489 5518
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 157 5366 5391 "dynamic.ml" 157 5366 5394
+)
+"dynamic.ml" 161 5489 5519 "dynamic.ml" 161 5489 5523
+type(
+  string
+)
+"dynamic.ml" 161 5489 5497 "dynamic.ml" 161 5489 5523
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 162 5525 5533 "dynamic.ml" 162 5525 5550
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"dynamic.ml" 162 5525 5551 "dynamic.ml" 162 5525 5554
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 157 5366 5391 "dynamic.ml" 157 5366 5394
+)
+"dynamic.ml" 162 5525 5555 "dynamic.ml" 162 5525 5556
+type(
+  string
+)
+ident(
+  int_ref h "dynamic.ml" 160 5474 5480 "dynamic.ml" 160 5474 5481
+)
+"dynamic.ml" 162 5525 5533 "dynamic.ml" 162 5525 5556
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 163 5558 5566 "dynamic.ml" 163 5558 5583
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"dynamic.ml" 163 5558 5584 "dynamic.ml" 163 5558 5587
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 157 5366 5391 "dynamic.ml" 157 5366 5394
+)
+"dynamic.ml" 163 5558 5588 "dynamic.ml" 163 5558 5594
+type(
+  string
+)
+"dynamic.ml" 163 5558 5566 "dynamic.ml" 163 5558 5594
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 164 5596 5604 "dynamic.ml" 164 5596 5618
+type(
+  Buffer.t -> string list -> unit
+)
+ident(
+  int_ref construct_argv "dynamic.ml" 157 5366 5376 "dynamic.ml" 157 5366 5390
+)
+"dynamic.ml" 164 5596 5619 "dynamic.ml" 164 5596 5622
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 157 5366 5391 "dynamic.ml" 157 5366 5394
+)
+"dynamic.ml" 164 5596 5623 "dynamic.ml" 164 5596 5624
+type(
+  string list
+)
+ident(
+  int_ref t "dynamic.ml" 160 5474 5483 "dynamic.ml" 160 5474 5484
+)
+"dynamic.ml" 164 5596 5604 "dynamic.ml" 164 5596 5624
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 163 5558 5566 "dynamic.ml" 164 5596 5624
+type(
+  unit
+)
+"dynamic.ml" 162 5525 5533 "dynamic.ml" 164 5596 5624
+type(
+  unit
+)
+"dynamic.ml" 161 5489 5497 "dynamic.ml" 164 5596 5624
+type(
+  unit
+)
+"dynamic.ml" 157 5366 5397 "dynamic.ml" 164 5596 5624
+type(
+  string list -> unit
+)
+"dynamic.ml" 166 5626 5632 "dynamic.ml" 166 5626 5648
+type(
+  string -> string
+)
+ident(
+  def flatten_filename "dynamic.ml" 174 6026 6028 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 166 5626 5649 "dynamic.ml" 166 5626 5654
+type(
+  string
+)
+ident(
+  def fname "dynamic.ml" 167 5658 5662 "dynamic.ml" 168 5727 5780
+)
+"dynamic.ml" 167 5658 5666 "dynamic.ml" 167 5658 5673
+type(
+  string
+)
+"dynamic.ml" 167 5658 5676 "dynamic.ml" 167 5658 5694
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.global_replace
+)
+"dynamic.ml" 167 5658 5696 "dynamic.ml" 167 5658 5706
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"dynamic.ml" 167 5658 5707 "dynamic.ml" 167 5658 5710
+type(
+  string
+)
+"dynamic.ml" 167 5658 5695 "dynamic.ml" 167 5658 5711
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"dynamic.ml" 167 5658 5712 "dynamic.ml" 167 5658 5716
+type(
+  string
+)
+"dynamic.ml" 167 5658 5718 "dynamic.ml" 167 5658 5723
+type(
+  string
+)
+ident(
+  int_ref fname "dynamic.ml" 166 5626 5649 "dynamic.ml" 166 5626 5654
+)
+"dynamic.ml" 167 5658 5676 "dynamic.ml" 167 5658 5723
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 168 5727 5733 "dynamic.ml" 168 5727 5751
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.global_replace
+)
+"dynamic.ml" 168 5727 5753 "dynamic.ml" 168 5727 5763
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"dynamic.ml" 168 5727 5764 "dynamic.ml" 168 5727 5767
+type(
+  string
+)
+"dynamic.ml" 168 5727 5752 "dynamic.ml" 168 5727 5768
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"dynamic.ml" 168 5727 5769 "dynamic.ml" 168 5727 5772
+type(
+  string
+)
+"dynamic.ml" 168 5727 5773 "dynamic.ml" 168 5727 5780
+type(
+  string
+)
+ident(
+  int_ref escaped "dynamic.ml" 167 5658 5666 "dynamic.ml" 167 5658 5673
+)
+"dynamic.ml" 168 5727 5733 "dynamic.ml" 168 5727 5780
+call(
+  tail
+)
+type(
+  string
+)
+"dynamic.ml" 167 5658 5662 "dynamic.ml" 168 5727 5780
+type(
+  string
+)
+"dynamic.ml" 174 6026 6032 "dynamic.ml" 174 6026 6047
+type(
+  string -> unit
+)
+ident(
+  def clear_directory "dynamic.ml" 195 6836 6838 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 174 6026 6048 "dynamic.ml" 174 6026 6051
+type(
+  string
+)
+ident(
+  def dir "dynamic.ml" 175 6055 6059 "dynamic.ml" 189 6526 6568
+)
+"dynamic.ml" 175 6055 6063 "dynamic.ml" 175 6055 6065
+type(
+  Unix.dir_handle
+)
+"dynamic.ml" 176 6069 6079 "dynamic.ml" 176 6069 6091
+type(
+  string -> Unix.dir_handle
+)
+ident(
+  ext_ref Unix.opendir
+)
+"dynamic.ml" 176 6069 6092 "dynamic.ml" 176 6069 6095
+type(
+  string
+)
+ident(
+  int_ref dir "dynamic.ml" 174 6026 6048 "dynamic.ml" 174 6026 6051
+)
+"dynamic.ml" 176 6069 6079 "dynamic.ml" 176 6069 6095
+call(
+  stack
+)
+type(
+  Unix.dir_handle
+)
+"dynamic.ml" 177 6096 6123 "dynamic.ml" 177 6096 6124
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Unix.error
+)
+"dynamic.ml" 177 6096 6107 "dynamic.ml" 177 6096 6124
+type(
+  exn
+)
+"dynamic.ml" 177 6096 6128 "dynamic.ml" 177 6096 6137
+type(
+  Log.ctx ->
+  (Unix.dir_handle, Format.formatter, unit, Unix.dir_handle) format4 ->
+  Unix.dir_handle
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 177 6096 6138 "dynamic.ml" 177 6096 6147
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 177 6096 6148 "dynamic.ml" 177 6096 6165
+type(
+  (Unix.dir_handle, Format.formatter, unit, Unix.dir_handle) format4
+)
+"dynamic.ml" 177 6096 6128 "dynamic.ml" 177 6096 6165
+call(
+  stack
+)
+type(
+  Unix.dir_handle
+)
+"dynamic.ml" 176 6069 6075 "dynamic.ml" 177 6096 6165
+type(
+  Unix.dir_handle
+)
+"dynamic.ml" 179 6173 6189 "dynamic.ml" 179 6173 6193
+type(
+  bool
+)
+"dynamic.ml" 180 6197 6209 "dynamic.ml" 180 6197 6214
+type(
+  string
+)
+ident(
+  def dname "dynamic.ml" 181 6236 6246 "dynamic.ml" 187 6472 6514
+)
+"dynamic.ml" 180 6197 6216 "dynamic.ml" 180 6197 6228
+type(
+  Unix.dir_handle -> string
+)
+ident(
+  ext_ref Unix.readdir
+)
+"dynamic.ml" 180 6197 6229 "dynamic.ml" 180 6197 6231
+type(
+  Unix.dir_handle
+)
+ident(
+  int_ref dh "dynamic.ml" 175 6055 6063 "dynamic.ml" 175 6055 6065
+)
+"dynamic.ml" 180 6197 6216 "dynamic.ml" 180 6197 6231
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 181 6236 6249 "dynamic.ml" 181 6236 6254
+type(
+  string
+)
+ident(
+  int_ref dname "dynamic.ml" 180 6197 6209 "dynamic.ml" 180 6197 6214
+)
+"dynamic.ml" 181 6236 6255 "dynamic.ml" 181 6236 6256
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"dynamic.ml" 181 6236 6257 "dynamic.ml" 181 6236 6260
+type(
+  string
+)
+"dynamic.ml" 181 6236 6249 "dynamic.ml" 181 6236 6260
+type(
+  bool
+)
+"dynamic.ml" 181 6236 6261 "dynamic.ml" 181 6236 6263
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"dynamic.ml" 181 6236 6264 "dynamic.ml" 181 6236 6269
+type(
+  string
+)
+ident(
+  int_ref dname "dynamic.ml" 180 6197 6209 "dynamic.ml" 180 6197 6214
+)
+"dynamic.ml" 181 6236 6270 "dynamic.ml" 181 6236 6271
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"dynamic.ml" 181 6236 6272 "dynamic.ml" 181 6236 6276
+type(
+  string
+)
+"dynamic.ml" 181 6236 6264 "dynamic.ml" 181 6236 6276
+type(
+  bool
+)
+"dynamic.ml" 181 6236 6249 "dynamic.ml" 181 6236 6276
+type(
+  bool
+)
+"dynamic.ml" 181 6236 6282 "dynamic.ml" 181 6236 6284
+type(
+  unit
+)
+"dynamic.ml" 183 6301 6317 "dynamic.ml" 183 6301 6327
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"dynamic.ml" 183 6301 6329 "dynamic.ml" 183 6301 6344
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"dynamic.ml" 183 6301 6345 "dynamic.ml" 183 6301 6348
+type(
+  string
+)
+ident(
+  int_ref dir "dynamic.ml" 174 6026 6048 "dynamic.ml" 174 6026 6051
+)
+"dynamic.ml" 183 6301 6349 "dynamic.ml" 183 6301 6354
+type(
+  string
+)
+ident(
+  int_ref dname "dynamic.ml" 180 6197 6209 "dynamic.ml" 180 6197 6214
+)
+"dynamic.ml" 183 6301 6328 "dynamic.ml" 183 6301 6355
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 183 6301 6317 "dynamic.ml" 183 6301 6355
+type(
+  unit
+)
+"dynamic.ml" 184 6356 6373 "dynamic.ml" 184 6356 6374
+type(
+  exn
+)
+ident(
+  def e "dynamic.ml" 185 6378 6392 "dynamic.ml" 187 6472 6514
+)
+"dynamic.ml" 185 6378 6392 "dynamic.ml" 185 6378 6401
+type(
+  Log.ctx ->
+  (string -> string -> unit, Format.formatter, unit, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 185 6378 6402 "dynamic.ml" 185 6378 6411
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 186 6412 6428 "dynamic.ml" 186 6412 6471
+type(
+  (string -> string -> unit, Format.formatter, unit, unit) format4
+)
+"dynamic.ml" 187 6472 6488 "dynamic.ml" 187 6472 6491
+type(
+  string
+)
+ident(
+  int_ref dir "dynamic.ml" 174 6026 6048 "dynamic.ml" 174 6026 6051
+)
+"dynamic.ml" 187 6472 6493 "dynamic.ml" 187 6472 6511
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"dynamic.ml" 187 6472 6512 "dynamic.ml" 187 6472 6513
+type(
+  exn
+)
+ident(
+  int_ref e "dynamic.ml" 184 6356 6373 "dynamic.ml" 184 6356 6374
+)
+"dynamic.ml" 187 6472 6492 "dynamic.ml" 187 6472 6514
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 185 6378 6392 "dynamic.ml" 187 6472 6514
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 183 6301 6313 "dynamic.ml" 187 6472 6514
+type(
+  unit
+)
+"dynamic.ml" 181 6236 6246 "dynamic.ml" 187 6472 6514
+type(
+  unit
+)
+"dynamic.ml" 180 6197 6205 "dynamic.ml" 187 6472 6514
+type(
+  unit
+)
+"dynamic.ml" 179 6173 6183 "dynamic.ml" 188 6515 6525
+type(
+  unit
+)
+"dynamic.ml" 189 6526 6537 "dynamic.ml" 189 6526 6548
+type(
+  exn
+)
+"dynamic.ml" 189 6526 6552 "dynamic.ml" 189 6526 6565
+type(
+  Unix.dir_handle -> unit
+)
+ident(
+  ext_ref Unix.closedir
+)
+"dynamic.ml" 189 6526 6566 "dynamic.ml" 189 6526 6568
+type(
+  Unix.dir_handle
+)
+ident(
+  int_ref dh "dynamic.ml" 175 6055 6063 "dynamic.ml" 175 6055 6065
+)
+"dynamic.ml" 189 6526 6552 "dynamic.ml" 189 6526 6568
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 179 6173 6179 "dynamic.ml" 189 6526 6568
+type(
+  unit
+)
+"dynamic.ml" 175 6055 6059 "dynamic.ml" 189 6526 6568
+type(
+  unit
+)
+"dynamic.ml" 195 6836 6842 "dynamic.ml" 195 6836 6852
+type(
+  unit -> string
+)
+ident(
+  def tmp_prefix "dynamic.ml" 216 7511 7513 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 195 6836 6853 "dynamic.ml" 195 6836 6855
+type(
+  unit
+)
+"dynamic.ml" 196 6859 6867 "dynamic.ml" 196 6859 6871
+type(
+  string
+)
+"dynamic.ml" 196 6859 6875 "dynamic.ml" 196 6859 6888
+type(
+  int -> Unix.passwd_entry
+)
+ident(
+  ext_ref Unix.getpwuid
+)
+"dynamic.ml" 196 6859 6889 "dynamic.ml" 196 6859 6900
+type(
+  unit -> int
+)
+ident(
+  ext_ref Unix.getuid
+)
+"dynamic.ml" 196 6859 6900 "dynamic.ml" 196 6859 6902
+type(
+  unit
+)
+"dynamic.ml" 196 6859 6888 "dynamic.ml" 196 6859 6903
+call(
+  stack
+)
+type(
+  int
+)
+"dynamic.ml" 196 6859 6874 "dynamic.ml" 196 6859 6904
+call(
+  stack
+)
+type(
+  Unix.passwd_entry
+)
+"dynamic.ml" 196 6859 6874 "dynamic.ml" 196 6859 6917
+type(
+  string
+)
+"dynamic.ml" 197 6922 6930 "dynamic.ml" 197 6922 6934
+type(
+  string
+)
+"dynamic.ml" 197 6922 6937 "dynamic.ml" 197 6922 6959
+type(
+  string
+)
+ident(
+  ext_ref Filename.temp_dir_name
+)
+"dynamic.ml" 198 6963 6971 "dynamic.ml" 198 6963 6975
+type(
+  string
+)
+"dynamic.ml" 198 6963 6978 "dynamic.ml" 198 6963 6985
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"dynamic.ml" 198 6963 6986 "dynamic.ml" 198 6963 6997
+type(
+  (string -> string, unit, string) format
+)
+"dynamic.ml" 198 6963 6998 "dynamic.ml" 198 6963 7002
+type(
+  string
+)
+ident(
+  int_ref user "dynamic.ml" 196 6859 6867 "dynamic.ml" 196 6859 6871
+)
+"dynamic.ml" 198 6963 6978 "dynamic.ml" 198 6963 7002
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 199 7006 7014 "dynamic.ml" 199 7006 7018
+type(
+  string
+)
+"dynamic.ml" 199 7006 7021 "dynamic.ml" 199 7006 7025
+type(
+  string
+)
+ident(
+  int_ref base "dynamic.ml" 197 6922 6930 "dynamic.ml" 197 6922 6934
+)
+"dynamic.ml" 199 7006 7026 "dynamic.ml" 199 7006 7027
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 199 7006 7028 "dynamic.ml" 199 7006 7031
+type(
+  string
+)
+"dynamic.ml" 199 7006 7032 "dynamic.ml" 199 7006 7033
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 199 7006 7034 "dynamic.ml" 199 7006 7038
+type(
+  string
+)
+ident(
+  int_ref rest "dynamic.ml" 198 6963 6971 "dynamic.ml" 198 6963 6975
+)
+"dynamic.ml" 199 7006 7028 "dynamic.ml" 199 7006 7038
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 199 7006 7021 "dynamic.ml" 199 7006 7038
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 200 7042 7051 "dynamic.ml" 200 7042 7066
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"dynamic.ml" 200 7042 7067 "dynamic.ml" 200 7042 7071
+type(
+  string
+)
+ident(
+  int_ref full "dynamic.ml" 199 7006 7014 "dynamic.ml" 199 7006 7018
+)
+"dynamic.ml" 200 7042 7051 "dynamic.ml" 200 7042 7071
+type(
+  bool
+)
+"dynamic.ml" 203 7102 7112 "dynamic.ml" 203 7102 7123
+type(
+  string -> Unix.access_permission list -> unit
+)
+ident(
+  ext_ref Unix.access
+)
+"dynamic.ml" 203 7102 7124 "dynamic.ml" 203 7102 7128
+type(
+  string
+)
+ident(
+  int_ref full "dynamic.ml" 199 7006 7014 "dynamic.ml" 199 7006 7018
+)
+"dynamic.ml" 203 7102 7130 "dynamic.ml" 203 7102 7139
+type(
+  Unix.access_permission
+)
+"dynamic.ml" 203 7102 7140 "dynamic.ml" 203 7102 7149
+type(
+  Unix.access_permission
+)
+"dynamic.ml" 203 7102 7150 "dynamic.ml" 203 7102 7159
+type(
+  Unix.access_permission
+)
+"dynamic.ml" 203 7102 7129 "dynamic.ml" 203 7102 7160
+type(
+  Unix.access_permission list
+)
+"dynamic.ml" 203 7102 7112 "dynamic.ml" 203 7102 7160
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 204 7162 7172 "dynamic.ml" 204 7162 7187
+type(
+  string -> unit
+)
+ident(
+  int_ref clear_directory "dynamic.ml" 174 6026 6032 "dynamic.ml" 174 6026 6047
+)
+"dynamic.ml" 204 7162 7188 "dynamic.ml" 204 7162 7192
+type(
+  string
+)
+ident(
+  int_ref full "dynamic.ml" 199 7006 7014 "dynamic.ml" 199 7006 7018
+)
+"dynamic.ml" 204 7162 7172 "dynamic.ml" 204 7162 7192
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 205 7194 7204 "dynamic.ml" 205 7194 7208
+type(
+  string
+)
+ident(
+  int_ref rest "dynamic.ml" 198 6963 6971 "dynamic.ml" 198 6963 6975
+)
+"dynamic.ml" 204 7162 7172 "dynamic.ml" 205 7194 7208
+type(
+  string
+)
+"dynamic.ml" 203 7102 7112 "dynamic.ml" 205 7194 7208
+type(
+  string
+)
+"dynamic.ml" 206 7209 7238 "dynamic.ml" 206 7209 7239
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Unix.error
+)
+"dynamic.ml" 206 7209 7222 "dynamic.ml" 206 7209 7239
+type(
+  exn
+)
+"dynamic.ml" 207 7245 7255 "dynamic.ml" 207 7245 7264
+type(
+  Log.ctx ->
+  (string -> string, Format.formatter, unit, string) format4 ->
+  string -> string
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 207 7245 7265 "dynamic.ml" 207 7245 7274
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 207 7245 7275 "dynamic.ml" 207 7245 7309
+type(
+  (string -> string, Format.formatter, unit, string) format4
+)
+"dynamic.ml" 207 7245 7310 "dynamic.ml" 207 7245 7314
+type(
+  string
+)
+ident(
+  int_ref full "dynamic.ml" 199 7006 7014 "dynamic.ml" 199 7006 7018
+)
+"dynamic.ml" 207 7245 7255 "dynamic.ml" 207 7245 7314
+call(
+  tail
+)
+type(
+  string
+)
+"dynamic.ml" 201 7073 7084 "dynamic.ml" 208 7315 7324
+type(
+  string
+)
+"dynamic.ml" 210 7348 7358 "dynamic.ml" 210 7348 7368
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  ext_ref Unix.mkdir
+)
+"dynamic.ml" 210 7348 7369 "dynamic.ml" 210 7348 7373
+type(
+  string
+)
+ident(
+  int_ref full "dynamic.ml" 199 7006 7014 "dynamic.ml" 199 7006 7018
+)
+"dynamic.ml" 210 7348 7374 "dynamic.ml" 210 7348 7379
+type(
+  Unix.file_perm
+)
+"dynamic.ml" 210 7348 7358 "dynamic.ml" 210 7348 7379
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 211 7381 7391 "dynamic.ml" 211 7381 7395
+type(
+  string
+)
+ident(
+  int_ref rest "dynamic.ml" 198 6963 6971 "dynamic.ml" 198 6963 6975
+)
+"dynamic.ml" 210 7348 7358 "dynamic.ml" 211 7381 7395
+type(
+  string
+)
+"dynamic.ml" 212 7396 7425 "dynamic.ml" 212 7396 7426
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Unix.error
+)
+"dynamic.ml" 212 7396 7409 "dynamic.ml" 212 7396 7426
+type(
+  exn
+)
+"dynamic.ml" 213 7430 7440 "dynamic.ml" 213 7430 7449
+type(
+  Log.ctx ->
+  (string -> string, Format.formatter, unit, string) format4 ->
+  string -> string
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 213 7430 7450 "dynamic.ml" 213 7430 7459
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 213 7430 7460 "dynamic.ml" 213 7430 7494
+type(
+  (string -> string, Format.formatter, unit, string) format4
+)
+"dynamic.ml" 213 7430 7495 "dynamic.ml" 213 7430 7499
+type(
+  string
+)
+ident(
+  int_ref full "dynamic.ml" 199 7006 7014 "dynamic.ml" 199 7006 7018
+)
+"dynamic.ml" 213 7430 7440 "dynamic.ml" 213 7430 7499
+call(
+  tail
+)
+type(
+  string
+)
+"dynamic.ml" 208 7315 7330 "dynamic.ml" 214 7500 7509
+type(
+  string
+)
+"dynamic.ml" 200 7042 7048 "dynamic.ml" 214 7500 7509
+type(
+  string
+)
+"dynamic.ml" 199 7006 7010 "dynamic.ml" 214 7500 7509
+type(
+  string
+)
+"dynamic.ml" 198 6963 6967 "dynamic.ml" 214 7500 7509
+type(
+  string
+)
+"dynamic.ml" 197 6922 6926 "dynamic.ml" 214 7500 7509
+type(
+  string
+)
+"dynamic.ml" 196 6859 6863 "dynamic.ml" 214 7500 7509
+type(
+  string
+)
+"dynamic.ml" 216 7511 7530 "dynamic.ml" 216 7511 7538
+type(
+  string
+)
+"dynamic.ml" 217 7542 7550 "dynamic.ml" 217 7542 7556
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+)
+"dynamic.ml" 219 7589 7611 "dynamic.ml" 219 7589 7612
+type(
+  Cfg.expr
+)
+ident(
+  def e "dynamic.ml" 219 7589 7615 "dynamic.ml" 221 7706 7737
+)
+"dynamic.ml" 219 7589 7621 "dynamic.ml" 219 7589 7622
+type(
+  Cfg.expr
+)
+ident(
+  int_ref e "dynamic.ml" 219 7589 7611 "dynamic.ml" 219 7589 7612
+)
+"dynamic.ml" 220 7628 7644 "dynamic.ml" 220 7628 7656
+type(
+  Cfg.var_kind
+)
+"dynamic.ml" 220 7628 7657 "dynamic.ml" 220 7628 7661
+type(
+  string
+)
+"dynamic.ml" 220 7628 7643 "dynamic.ml" 220 7628 7662
+type(
+  Cfg.var_kind * string
+)
+"dynamic.ml" 220 7628 7636 "dynamic.ml" 220 7628 7662
+type(
+  Cfg.expr
+)
+"dynamic.ml" 220 7628 7696 "dynamic.ml" 220 7628 7704
+type(
+  string
+)
+"dynamic.ml" 220 7628 7683 "dynamic.ml" 220 7628 7705
+type(
+  Cfg.expr
+)
+"dynamic.ml" 220 7628 7666 "dynamic.ml" 220 7628 7705
+type(
+  Cfg.expr Visitor.visitAction
+)
+"dynamic.ml" 221 7706 7714 "dynamic.ml" 221 7706 7715
+type(
+  Cfg.expr
+)
+"dynamic.ml" 221 7706 7719 "dynamic.ml" 221 7706 7737
+type(
+  Cfg.expr Visitor.visitAction
+)
+"dynamic.ml" 219 7589 7615 "dynamic.ml" 221 7706 7737
+type(
+  Cfg.expr Visitor.visitAction
+)
+"dynamic.ml" 226 7924 7930 "dynamic.ml" 226 7924 7946
+type(
+  t -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def replace_string_0 "dynamic.ml" 230 8030 8032 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 226 7924 7947 "dynamic.ml" 226 7924 7948
+type(
+  t
+)
+ident(
+  def t "dynamic.ml" 226 7924 7949 "dynamic.ml" 228 8002 8028
+)
+"dynamic.ml" 226 7924 7949 "dynamic.ml" 226 7924 7952
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "dynamic.ml" 227 7956 7960 "dynamic.ml" 228 8002 8028
+)
+"dynamic.ml" 227 7956 7964 "dynamic.ml" 227 7956 7965
+type(
+  s0_visitor
+)
+"dynamic.ml" 227 7956 7968 "dynamic.ml" 227 7956 7982
+type(
+  string -> s0_visitor
+)
+"dynamic.ml" 227 7956 7983 "dynamic.ml" 227 7956 7984
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 226 7924 7947 "dynamic.ml" 226 7924 7948
+)
+"dynamic.ml" 227 7956 7983 "dynamic.ml" 227 7956 7998
+type(
+  string
+)
+"dynamic.ml" 227 7956 7968 "dynamic.ml" 227 7956 7998
+call(
+  stack
+)
+type(
+  s0_visitor
+)
+"dynamic.ml" 228 8002 8008 "dynamic.ml" 228 8002 8022
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"dynamic.ml" 228 8002 8023 "dynamic.ml" 228 8002 8024
+type(
+  s0_visitor
+)
+ident(
+  int_ref o "dynamic.ml" 227 7956 7964 "dynamic.ml" 227 7956 7965
+)
+"dynamic.ml" 228 8002 8025 "dynamic.ml" 228 8002 8028
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 226 7924 7949 "dynamic.ml" 226 7924 7952
+)
+"dynamic.ml" 228 8002 8008 "dynamic.ml" 228 8002 8028
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 227 7956 7960 "dynamic.ml" 228 8002 8028
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 230 8030 8036 "dynamic.ml" 230 8030 8050
+type(
+  Cfg.stmt -> string -> Cfg.stmt
+)
+ident(
+  def append_require "dynamic.ml" 237 8294 8296 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 230 8030 8051 "dynamic.ml" 230 8030 8054
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "dynamic.ml" 230 8030 8055 "dynamic.ml" 235 8254 8292
+)
+"dynamic.ml" 230 8030 8055 "dynamic.ml" 230 8030 8059
+type(
+  string
+)
+ident(
+  def file "dynamic.ml" 231 8063 8067 "dynamic.ml" 235 8254 8292
+)
+"dynamic.ml" 231 8063 8071 "dynamic.ml" 231 8063 8075
+type(
+  string
+)
+"dynamic.ml" 231 8063 8078 "dynamic.ml" 231 8063 8092
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"dynamic.ml" 231 8063 8093 "dynamic.ml" 231 8063 8112
+type(
+  (string -> string, unit, string) format
+)
+"dynamic.ml" 231 8063 8113 "dynamic.ml" 231 8063 8117
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 230 8030 8055 "dynamic.ml" 230 8030 8059
+)
+"dynamic.ml" 231 8063 8078 "dynamic.ml" 231 8063 8117
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 232 8121 8129 "dynamic.ml" 232 8121 8132
+type(
+  Ast.ast
+)
+"dynamic.ml" 232 8121 8135 "dynamic.ml" 232 8121 8160
+type(
+  ?env:Utils.StrSet.t -> ?filename:string -> ?lineno:int -> string -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_string
+)
+"dynamic.ml" 232 8121 8161 "dynamic.ml" 232 8121 8165
+type(
+  string
+)
+ident(
+  int_ref code "dynamic.ml" 231 8063 8071 "dynamic.ml" 231 8063 8075
+)
+"dynamic.ml" 232 8121 8135 "dynamic.ml" 232 8121 8165
+call(
+  stack
+)
+type(
+  Ast.ast
+)
+"dynamic.ml" 233 8169 8177 "dynamic.ml" 233 8169 8181
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 233 8169 8184 "dynamic.ml" 233 8169 8209
+type(
+  ?env:Utils.StrSet.t -> Ast.ast -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg_refactor.refactor_ast
+)
+"dynamic.ml" 233 8169 8210 "dynamic.ml" 233 8169 8213
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "dynamic.ml" 232 8121 8129 "dynamic.ml" 232 8121 8132
+)
+"dynamic.ml" 233 8169 8184 "dynamic.ml" 233 8169 8213
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 234 8217 8225 "dynamic.ml" 234 8217 8229
+type(
+  Cfg.stmt_node
+)
+"dynamic.ml" 234 8217 8241 "dynamic.ml" 234 8217 8244
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 230 8030 8051 "dynamic.ml" 230 8030 8054
+)
+"dynamic.ml" 234 8217 8245 "dynamic.ml" 234 8217 8249
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref post "dynamic.ml" 233 8169 8177 "dynamic.ml" 233 8169 8181
+)
+"dynamic.ml" 234 8217 8240 "dynamic.ml" 234 8217 8250
+type(
+  Cfg.stmt list
+)
+"dynamic.ml" 234 8217 8232 "dynamic.ml" 234 8217 8250
+type(
+  Cfg.stmt_node
+)
+"dynamic.ml" 235 8254 8260 "dynamic.ml" 235 8254 8270
+type(
+  Cfg.stmt_node -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.mkstmt
+)
+"dynamic.ml" 235 8254 8271 "dynamic.ml" 235 8254 8275
+type(
+  Cfg.stmt_node
+)
+ident(
+  int_ref node "dynamic.ml" 234 8217 8225 "dynamic.ml" 234 8217 8229
+)
+"dynamic.ml" 235 8254 8276 "dynamic.ml" 235 8254 8292
+type(
+  Cfg.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"dynamic.ml" 235 8254 8260 "dynamic.ml" 235 8254 8292
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 234 8217 8221 "dynamic.ml" 235 8254 8292
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 233 8169 8173 "dynamic.ml" 235 8254 8292
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 232 8121 8125 "dynamic.ml" 235 8254 8292
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 231 8063 8067 "dynamic.ml" 235 8254 8292
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 237 8294 8300 "dynamic.ml" 237 8294 8320
+type(
+  string -> string list -> string
+)
+ident(
+  def create_rlibrary_file "dynamic.ml" 254 9159 9161 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 237 8294 8321 "dynamic.ml" 237 8294 8324
+type(
+  string
+)
+ident(
+  def tmp "dynamic.ml" 237 8294 8325 "dynamic.ml" 248 8920 8961
+)
+"dynamic.ml" 237 8294 8325 "dynamic.ml" 237 8294 8329
+type(
+  string list
+)
+ident(
+  def libs "dynamic.ml" 243 8652 8656 "dynamic.ml" 248 8920 8961
+)
+"dynamic.ml" 243 8652 8660 "dynamic.ml" 243 8652 8667
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 243 8652 8670 "dynamic.ml" 243 8652 8684
+type(
+  (Cfg.stmt -> string -> Cfg.stmt) -> Cfg.stmt -> string list -> Cfg.stmt
+)
+ident(
+  ext_ref List.fold_left
+)
+"dynamic.ml" 243 8652 8685 "dynamic.ml" 243 8652 8699
+type(
+  Cfg.stmt -> string -> Cfg.stmt
+)
+ident(
+  int_ref append_require "dynamic.ml" 230 8030 8036 "dynamic.ml" 230 8030 8050
+)
+"dynamic.ml" 243 8652 8701 "dynamic.ml" 243 8652 8715
+type(
+  unit -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.empty_stmt
+)
+"dynamic.ml" 243 8652 8715 "dynamic.ml" 243 8652 8717
+type(
+  unit
+)
+"dynamic.ml" 243 8652 8700 "dynamic.ml" 243 8652 8718
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 243 8652 8719 "dynamic.ml" 243 8652 8723
+type(
+  string list
+)
+ident(
+  int_ref libs "dynamic.ml" 237 8294 8325 "dynamic.ml" 237 8294 8329
+)
+"dynamic.ml" 243 8652 8670 "dynamic.ml" 243 8652 8723
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 244 8727 8735 "dynamic.ml" 244 8727 8746
+type(
+  string
+)
+"dynamic.ml" 244 8727 8749 "dynamic.ml" 244 8727 8764
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"dynamic.ml" 244 8727 8765 "dynamic.ml" 244 8727 8768
+type(
+  string
+)
+ident(
+  int_ref tmp "dynamic.ml" 237 8294 8321 "dynamic.ml" 237 8294 8324
+)
+"dynamic.ml" 244 8727 8769 "dynamic.ml" 244 8727 8792
+type(
+  string
+)
+"dynamic.ml" 244 8727 8749 "dynamic.ml" 244 8727 8792
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 245 8796 8804 "dynamic.ml" 245 8796 8808
+type(
+  string
+)
+"dynamic.ml" 245 8796 8809 "dynamic.ml" 245 8796 8811
+type(
+  out_channel
+)
+"dynamic.ml" 245 8796 8804 "dynamic.ml" 245 8796 8811
+type(
+  string * out_channel
+)
+"dynamic.ml" 245 8796 8814 "dynamic.ml" 245 8796 8837
+type(
+  ?mode:open_flag list ->
+  ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  ext_ref Filename.open_temp_file
+)
+"dynamic.ml" 245 8796 8838 "dynamic.ml" 245 8796 8849
+type(
+  string
+)
+ident(
+  int_ref name_prefix "dynamic.ml" 244 8727 8735 "dynamic.ml" 244 8727 8746
+)
+"dynamic.ml" 245 8796 8850 "dynamic.ml" 245 8796 8855
+type(
+  string
+)
+"dynamic.ml" 245 8796 8814 "dynamic.ml" 245 8796 8855
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"dynamic.ml" 246 8859 8865 "dynamic.ml" 246 8859 8887
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dynamic.ml" 246 8859 8888 "dynamic.ml" 246 8859 8890
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 245 8796 8809 "dynamic.ml" 245 8796 8811
+)
+"dynamic.ml" 246 8859 8891 "dynamic.ml" 246 8859 8898
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref req_cfg "dynamic.ml" 243 8652 8660 "dynamic.ml" 243 8652 8667
+)
+"dynamic.ml" 246 8859 8865 "dynamic.ml" 246 8859 8898
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 247 8900 8906 "dynamic.ml" 247 8900 8915
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"dynamic.ml" 247 8900 8916 "dynamic.ml" 247 8900 8918
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 245 8796 8809 "dynamic.ml" 245 8796 8811
+)
+"dynamic.ml" 247 8900 8906 "dynamic.ml" 247 8900 8918
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 248 8920 8926 "dynamic.ml" 248 8920 8956
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"dynamic.ml" 248 8920 8957 "dynamic.ml" 248 8920 8961
+type(
+  string
+)
+ident(
+  int_ref name "dynamic.ml" 245 8796 8804 "dynamic.ml" 245 8796 8808
+)
+"dynamic.ml" 248 8920 8926 "dynamic.ml" 248 8920 8961
+call(
+  tail
+)
+type(
+  string
+)
+"dynamic.ml" 247 8900 8906 "dynamic.ml" 248 8920 8961
+type(
+  string
+)
+"dynamic.ml" 246 8859 8865 "dynamic.ml" 248 8920 8961
+type(
+  string
+)
+"dynamic.ml" 245 8796 8800 "dynamic.ml" 248 8920 8961
+type(
+  string
+)
+"dynamic.ml" 244 8727 8731 "dynamic.ml" 248 8920 8961
+type(
+  string
+)
+"dynamic.ml" 243 8652 8656 "dynamic.ml" 248 8920 8961
+type(
+  string
+)
+"dynamic.ml" 254 9159 9165 "dynamic.ml" 254 9159 9184
+type(
+  File_loader.t ->
+  t ->
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t ->
+  Utils.StrSet.elt * string list
+)
+ident(
+  def instrument_and_save "dynamic.ml" 303 11366 11368 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 254 9159 9185 "dynamic.ml" 254 9159 9191
+type(
+  File_loader.t
+)
+ident(
+  def loader "dynamic.ml" 254 9159 9192 "dynamic.ml" 301 11312 11364
+)
+"dynamic.ml" 254 9159 9192 "dynamic.ml" 254 9159 9193
+type(
+  t
+)
+ident(
+  def t "dynamic.ml" 254 9159 9194 "dynamic.ml" 301 11312 11364
+)
+"dynamic.ml" 254 9159 9194 "dynamic.ml" 254 9159 9202
+type(
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t
+)
+ident(
+  def req_info "dynamic.ml" 254 9159 9205 "dynamic.ml" 301 11312 11364
+)
+"dynamic.ml" 255 9209 9217 "dynamic.ml" 255 9209 9224
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  def tmp_tbl "dynamic.ml" 258 9350 9354 "dynamic.ml" 299 11207 11290
+)
+"dynamic.ml" 255 9209 9227 "dynamic.ml" 255 9209 9241
+type(
+  int -> (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"dynamic.ml" 255 9209 9242 "dynamic.ml" 255 9209 9245
+type(
+  int
+)
+"dynamic.ml" 255 9209 9227 "dynamic.ml" 255 9209 9245
+call(
+  stack
+)
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+"dynamic.ml" 258 9350 9358 "dynamic.ml" 258 9350 9368
+type(
+  (string * string) list
+)
+ident(
+  def real_files "dynamic.ml" 264 9700 9704 "dynamic.ml" 299 11207 11290
+)
+"dynamic.ml" 258 9350 9371 "dynamic.ml" 258 9350 9397
+type(
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t -> (string * string) list
+)
+ident(
+  ext_ref Require.all_required_files
+)
+"dynamic.ml" 258 9350 9398 "dynamic.ml" 258 9350 9406
+type(
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t
+)
+ident(
+  int_ref req_info "dynamic.ml" 254 9159 9194 "dynamic.ml" 254 9159 9202
+)
+"dynamic.ml" 258 9350 9371 "dynamic.ml" 258 9350 9406
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"dynamic.ml" 264 9700 9708 "dynamic.ml" 264 9700 9712
+type(
+  (string * string * string * out_channel) list
+)
+ident(
+  def tmps "dynamic.ml" 273 10075 10079 "dynamic.ml" 299 11207 11290
+)
+"dynamic.ml" 264 9700 9715 "dynamic.ml" 264 9700 9723
+type(
+  (string * string -> string * string * string * out_channel) ->
+  (string * string) list -> (string * string * string * out_channel) list
+)
+ident(
+  ext_ref List.map
+)
+"dynamic.ml" 265 9724 9736 "dynamic.ml" 265 9724 9745
+type(
+  string
+)
+ident(
+  def orig_file "dynamic.ml" 266 9756 9765 "dynamic.ml" 270 10016 10048
+)
+"dynamic.ml" 265 9724 9746 "dynamic.ml" 265 9724 9750
+type(
+  string
+)
+ident(
+  def file "dynamic.ml" 266 9756 9765 "dynamic.ml" 270 10016 10048
+)
+"dynamic.ml" 265 9724 9735 "dynamic.ml" 265 9724 9751
+type(
+  string * string
+)
+"dynamic.ml" 266 9756 9769 "dynamic.ml" 266 9756 9777
+type(
+  string
+)
+"dynamic.ml" 266 9756 9780 "dynamic.ml" 266 9756 9795
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"dynamic.ml" 266 9756 9796 "dynamic.ml" 266 9756 9797
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 254 9159 9192 "dynamic.ml" 254 9159 9193
+)
+"dynamic.ml" 266 9756 9796 "dynamic.ml" 266 9756 9805
+type(
+  string
+)
+"dynamic.ml" 266 9756 9807 "dynamic.ml" 266 9756 9823
+type(
+  string -> string
+)
+ident(
+  int_ref flatten_filename "dynamic.ml" 166 5626 5632 "dynamic.ml" 166 5626 5648
+)
+"dynamic.ml" 266 9756 9824 "dynamic.ml" 266 9756 9828
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 265 9724 9746 "dynamic.ml" 265 9724 9750
+)
+"dynamic.ml" 266 9756 9806 "dynamic.ml" 266 9756 9829
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 266 9756 9780 "dynamic.ml" 266 9756 9829
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 267 9833 9846 "dynamic.ml" 267 9833 9849
+type(
+  string
+)
+"dynamic.ml" 267 9833 9851 "dynamic.ml" 267 9833 9853
+type(
+  out_channel
+)
+"dynamic.ml" 267 9833 9846 "dynamic.ml" 267 9833 9853
+type(
+  string * out_channel
+)
+"dynamic.ml" 267 9833 9856 "dynamic.ml" 267 9833 9879
+type(
+  ?mode:open_flag list ->
+  ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  ext_ref Filename.open_temp_file
+)
+"dynamic.ml" 267 9833 9880 "dynamic.ml" 267 9833 9888
+type(
+  string
+)
+ident(
+  int_ref flatname "dynamic.ml" 266 9756 9769 "dynamic.ml" 266 9756 9777
+)
+"dynamic.ml" 267 9833 9889 "dynamic.ml" 267 9833 9894
+type(
+  string
+)
+"dynamic.ml" 267 9833 9856 "dynamic.ml" 267 9833 9894
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"dynamic.ml" 269 9975 9986 "dynamic.ml" 269 9975 9997
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t -> string -> Utils.StrSet.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"dynamic.ml" 269 9975 9998 "dynamic.ml" 269 9975 10005
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  int_ref tmp_tbl "dynamic.ml" 255 9209 9217 "dynamic.ml" 255 9209 9224
+)
+"dynamic.ml" 269 9975 10006 "dynamic.ml" 269 9975 10010
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 265 9724 9746 "dynamic.ml" 265 9724 9750
+)
+"dynamic.ml" 269 9975 10011 "dynamic.ml" 269 9975 10014
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref tmp "dynamic.ml" 267 9833 9846 "dynamic.ml" 267 9833 9849
+)
+"dynamic.ml" 269 9975 9986 "dynamic.ml" 269 9975 10014
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 270 10016 10027 "dynamic.ml" 270 10016 10036
+type(
+  string
+)
+ident(
+  int_ref orig_file "dynamic.ml" 265 9724 9736 "dynamic.ml" 265 9724 9745
+)
+"dynamic.ml" 270 10016 10037 "dynamic.ml" 270 10016 10041
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 265 9724 9746 "dynamic.ml" 265 9724 9750
+)
+"dynamic.ml" 270 10016 10042 "dynamic.ml" 270 10016 10045
+type(
+  string
+)
+ident(
+  int_ref tmp "dynamic.ml" 267 9833 9846 "dynamic.ml" 267 9833 9849
+)
+"dynamic.ml" 270 10016 10046 "dynamic.ml" 270 10016 10048
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 267 9833 9851 "dynamic.ml" 267 9833 9853
+)
+"dynamic.ml" 270 10016 10027 "dynamic.ml" 270 10016 10048
+type(
+  string * string * string * out_channel
+)
+"dynamic.ml" 269 9975 9986 "dynamic.ml" 270 10016 10048
+type(
+  string * string * string * out_channel
+)
+"dynamic.ml" 267 9833 9842 "dynamic.ml" 270 10016 10048
+type(
+  string * string * string * out_channel
+)
+"dynamic.ml" 266 9756 9765 "dynamic.ml" 270 10016 10048
+type(
+  string * string * string * out_channel
+)
+"dynamic.ml" 265 9724 9730 "dynamic.ml" 271 10049 10056
+type(
+  string * string -> string * string * string * out_channel
+)
+"dynamic.ml" 271 10049 10057 "dynamic.ml" 271 10049 10067
+type(
+  (string * string) list
+)
+ident(
+  int_ref real_files "dynamic.ml" 258 9350 9358 "dynamic.ml" 258 9350 9368
+)
+"dynamic.ml" 264 9700 9715 "dynamic.ml" 271 10049 10067
+call(
+  stack
+)
+type(
+  (string * string * string * out_channel) list
+)
+"dynamic.ml" 273 10075 10083 "dynamic.ml" 273 10075 10092
+type(
+  string
+)
+ident(
+  def main_stub "dynamic.ml" 274 10114 10118 "dynamic.ml" 299 11207 11290
+)
+"dynamic.ml" 273 10075 10095 "dynamic.ml" 273 10075 10110
+type(
+  string
+)
+"dynamic.ml" 274 10114 10122 "dynamic.ml" 274 10114 10129
+type(
+  out_channel
+)
+ident(
+  def main_oc "dynamic.ml" 275 10154 10158 "dynamic.ml" 299 11207 11290
+)
+"dynamic.ml" 274 10114 10132 "dynamic.ml" 274 10114 10140
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"dynamic.ml" 274 10114 10141 "dynamic.ml" 274 10114 10150
+type(
+  string
+)
+ident(
+  int_ref main_stub "dynamic.ml" 273 10075 10083 "dynamic.ml" 273 10075 10092
+)
+"dynamic.ml" 274 10114 10132 "dynamic.ml" 274 10114 10150
+call(
+  stack
+)
+type(
+  out_channel
+)
+"dynamic.ml" 275 10154 10162 "dynamic.ml" 275 10154 10166
+type(
+  (string * string * string * out_channel) list
+)
+ident(
+  def tmps "dynamic.ml" 276 10232 10236 "dynamic.ml" 299 11207 11290
+)
+"dynamic.ml" 275 10154 10170 "dynamic.ml" 275 10154 10171
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 254 9159 9192 "dynamic.ml" 254 9159 9193
+)
+"dynamic.ml" 275 10154 10170 "dynamic.ml" 275 10154 10185
+type(
+  string
+)
+"dynamic.ml" 275 10154 10186 "dynamic.ml" 275 10154 10187
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 254 9159 9192 "dynamic.ml" 254 9159 9193
+)
+"dynamic.ml" 275 10154 10186 "dynamic.ml" 275 10154 10201
+type(
+  string
+)
+"dynamic.ml" 275 10154 10203 "dynamic.ml" 275 10154 10212
+type(
+  string
+)
+ident(
+  int_ref main_stub "dynamic.ml" 273 10075 10083 "dynamic.ml" 273 10075 10092
+)
+"dynamic.ml" 275 10154 10214 "dynamic.ml" 275 10154 10221
+type(
+  out_channel
+)
+ident(
+  int_ref main_oc "dynamic.ml" 274 10114 10122 "dynamic.ml" 274 10114 10129
+)
+"dynamic.ml" 275 10154 10169 "dynamic.ml" 275 10154 10222
+type(
+  string * string * string * out_channel
+)
+"dynamic.ml" 275 10154 10224 "dynamic.ml" 275 10154 10228
+type(
+  (string * string * string * out_channel) list
+)
+ident(
+  int_ref tmps "dynamic.ml" 264 9700 9708 "dynamic.ml" 264 9700 9712
+)
+"dynamic.ml" 275 10154 10169 "dynamic.ml" 275 10154 10228
+type(
+  (string * string * string * out_channel) list
+)
+"dynamic.ml" 276 10232 10240 "dynamic.ml" 276 10232 10242
+type(
+  unit
+)
+"dynamic.ml" 276 10232 10245 "dynamic.ml" 276 10232 10256
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t -> string -> Utils.StrSet.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"dynamic.ml" 276 10232 10257 "dynamic.ml" 276 10232 10264
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  int_ref tmp_tbl "dynamic.ml" 255 9209 9217 "dynamic.ml" 255 9209 9224
+)
+"dynamic.ml" 276 10232 10265 "dynamic.ml" 276 10232 10266
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 254 9159 9192 "dynamic.ml" 254 9159 9193
+)
+"dynamic.ml" 276 10232 10265 "dynamic.ml" 276 10232 10280
+type(
+  string
+)
+"dynamic.ml" 276 10232 10281 "dynamic.ml" 276 10232 10290
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref main_stub "dynamic.ml" 273 10075 10083 "dynamic.ml" 273 10075 10092
+)
+"dynamic.ml" 276 10232 10245 "dynamic.ml" 276 10232 10290
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 280 10398 10406 "dynamic.ml" 280 10398 10415
+type(
+  string list
+)
+ident(
+  def tmp_files "dynamic.ml" 297 11123 11129 "dynamic.ml" 299 11207 11290
+)
+"dynamic.ml" 280 10398 10418 "dynamic.ml" 280 10398 10426
+type(
+  (string * string * string * out_channel -> string) ->
+  (string * string * string * out_channel) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"dynamic.ml" 281 10427 10439 "dynamic.ml" 281 10427 10448
+type(
+  string
+)
+ident(
+  def orig_file "dynamic.ml" 283 10535 10544 "dynamic.ml" 294 11083 11102
+)
+"dynamic.ml" 281 10427 10450 "dynamic.ml" 281 10427 10459
+type(
+  string
+)
+ident(
+  def real_file "dynamic.ml" 283 10535 10544 "dynamic.ml" 294 11083 11102
+)
+"dynamic.ml" 281 10427 10461 "dynamic.ml" 281 10427 10469
+type(
+  string
+)
+ident(
+  def tmp_file "dynamic.ml" 283 10535 10544 "dynamic.ml" 294 11083 11102
+)
+"dynamic.ml" 281 10427 10471 "dynamic.ml" 281 10427 10473
+type(
+  out_channel
+)
+ident(
+  def oc "dynamic.ml" 283 10535 10544 "dynamic.ml" 294 11083 11102
+)
+"dynamic.ml" 281 10427 10438 "dynamic.ml" 281 10427 10474
+type(
+  string * string * string * out_channel
+)
+"dynamic.ml" 283 10535 10548 "dynamic.ml" 283 10535 10552
+type(
+  Ast.expr list -> Ast.expr list
+)
+"dynamic.ml" 283 10535 10553 "dynamic.ml" 283 10535 10554
+type(
+  Ast.expr list
+)
+ident(
+  def s "dynamic.ml" 284 10558 10569 "dynamic.ml" 285 10625 10659
+)
+"dynamic.ml" 284 10558 10573 "dynamic.ml" 284 10558 10576
+type(
+  Ast.expr list
+)
+"dynamic.ml" 284 10558 10579 "dynamic.ml" 284 10558 10602
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t ->
+  Require.t -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref Require.modify_requires
+)
+"dynamic.ml" 284 10558 10603 "dynamic.ml" 284 10558 10610
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  int_ref tmp_tbl "dynamic.ml" 255 9209 9217 "dynamic.ml" 255 9209 9224
+)
+"dynamic.ml" 284 10558 10611 "dynamic.ml" 284 10558 10619
+type(
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t
+)
+ident(
+  int_ref req_info "dynamic.ml" 254 9159 9194 "dynamic.ml" 254 9159 9202
+)
+"dynamic.ml" 284 10558 10620 "dynamic.ml" 284 10558 10621
+type(
+  Ast.expr list
+)
+ident(
+  int_ref s "dynamic.ml" 283 10535 10553 "dynamic.ml" 283 10535 10554
+)
+"dynamic.ml" 284 10558 10579 "dynamic.ml" 284 10558 10621
+call(
+  stack
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 285 10625 10638 "dynamic.ml" 285 10625 10655
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref DL.instrument_ast
+)
+"dynamic.ml" 285 10625 10656 "dynamic.ml" 285 10625 10659
+type(
+  Ast.expr list
+)
+ident(
+  int_ref ast "dynamic.ml" 284 10558 10573 "dynamic.ml" 284 10558 10576
+)
+"dynamic.ml" 285 10625 10638 "dynamic.ml" 285 10625 10659
+call(
+  tail
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 284 10558 10569 "dynamic.ml" 285 10625 10659
+type(
+  Ast.expr list
+)
+"dynamic.ml" 287 10672 10685 "dynamic.ml" 287 10672 10688
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 287 10672 10691 "dynamic.ml" 287 10672 10712
+type(
+  File_loader.t ->
+  ?mod_ast_f:(Ast.expr list -> Ast.expr list) ->
+  ?no_ext:bool -> string -> Cfg.stmt
+)
+ident(
+  ext_ref File_loader.load_file
+)
+"dynamic.ml" 287 10672 10721 "dynamic.ml" 287 10672 10725
+type(
+  bool
+)
+"dynamic.ml" 287 10672 10726 "dynamic.ml" 287 10672 10732
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 254 9159 9185 "dynamic.ml" 254 9159 9191
+)
+"dynamic.ml" 287 10672 10744 "dynamic.ml" 287 10672 10748
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  int_ref modf "dynamic.ml" 283 10535 10548 "dynamic.ml" 283 10535 10552
+)
+"dynamic.ml" 287 10672 10749 "dynamic.ml" 287 10672 10758
+type(
+  string
+)
+ident(
+  int_ref orig_file "dynamic.ml" 281 10427 10439 "dynamic.ml" 281 10427 10448
+)
+"dynamic.ml" 287 10672 10691 "dynamic.ml" 287 10672 10758
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 288 10762 10775 "dynamic.ml" 288 10762 10778
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 288 10762 10781 "dynamic.ml" 288 10762 10797
+type(
+  t -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  int_ref replace_string_0 "dynamic.ml" 226 7924 7930 "dynamic.ml" 226 7924 7946
+)
+"dynamic.ml" 288 10762 10798 "dynamic.ml" 288 10762 10799
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 254 9159 9192 "dynamic.ml" 254 9159 9193
+)
+"dynamic.ml" 288 10762 10800 "dynamic.ml" 288 10762 10803
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 287 10672 10685 "dynamic.ml" 287 10672 10688
+)
+"dynamic.ml" 288 10762 10781 "dynamic.ml" 288 10762 10803
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 289 10807 10820 "dynamic.ml" 289 10807 10823
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 289 10807 10826 "dynamic.ml" 289 10807 10843
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref DL.instrument_cfg
+)
+"dynamic.ml" 289 10807 10844 "dynamic.ml" 289 10807 10847
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 288 10762 10775 "dynamic.ml" 288 10762 10778
+)
+"dynamic.ml" 289 10807 10826 "dynamic.ml" 289 10807 10847
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 291 10947 10958 "dynamic.ml" 291 10947 10981
+type(
+  ?no_ext:bool -> File_loader.t -> string -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref File_loader.update_file
+)
+"dynamic.ml" 291 10947 10990 "dynamic.ml" 291 10947 10994
+type(
+  bool
+)
+"dynamic.ml" 291 10947 10995 "dynamic.ml" 291 10947 11001
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 254 9159 9185 "dynamic.ml" 254 9159 9191
+)
+"dynamic.ml" 291 10947 11002 "dynamic.ml" 291 10947 11010
+type(
+  string
+)
+ident(
+  int_ref tmp_file "dynamic.ml" 281 10427 10461 "dynamic.ml" 281 10427 10469
+)
+"dynamic.ml" 291 10947 11011 "dynamic.ml" 291 10947 11014
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 289 10807 10820 "dynamic.ml" 289 10807 10823
+)
+"dynamic.ml" 291 10947 10958 "dynamic.ml" 291 10947 11014
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 292 11016 11027 "dynamic.ml" 292 11016 11049
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dynamic.ml" 292 11016 11050 "dynamic.ml" 292 11016 11052
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 281 10427 10471 "dynamic.ml" 281 10427 10473
+)
+"dynamic.ml" 292 11016 11053 "dynamic.ml" 292 11016 11056
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 289 10807 10820 "dynamic.ml" 289 10807 10823
+)
+"dynamic.ml" 292 11016 11027 "dynamic.ml" 292 11016 11056
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 293 11058 11069 "dynamic.ml" 293 11058 11078
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"dynamic.ml" 293 11058 11079 "dynamic.ml" 293 11058 11081
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 281 10427 10471 "dynamic.ml" 281 10427 10473
+)
+"dynamic.ml" 293 11058 11069 "dynamic.ml" 293 11058 11081
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 294 11083 11094 "dynamic.ml" 294 11083 11102
+type(
+  string
+)
+ident(
+  int_ref tmp_file "dynamic.ml" 281 10427 10461 "dynamic.ml" 281 10427 10469
+)
+"dynamic.ml" 293 11058 11069 "dynamic.ml" 294 11083 11102
+type(
+  string
+)
+"dynamic.ml" 292 11016 11027 "dynamic.ml" 294 11083 11102
+type(
+  string
+)
+"dynamic.ml" 291 10947 10958 "dynamic.ml" 294 11083 11102
+type(
+  string
+)
+"dynamic.ml" 289 10807 10816 "dynamic.ml" 294 11083 11102
+type(
+  string
+)
+"dynamic.ml" 288 10762 10771 "dynamic.ml" 294 11083 11102
+type(
+  string
+)
+"dynamic.ml" 287 10672 10681 "dynamic.ml" 294 11083 11102
+type(
+  string
+)
+"dynamic.ml" 283 10535 10544 "dynamic.ml" 294 11083 11102
+type(
+  string
+)
+"dynamic.ml" 281 10427 10433 "dynamic.ml" 295 11103 11110
+type(
+  string * string * string * out_channel -> string
+)
+"dynamic.ml" 295 11103 11111 "dynamic.ml" 295 11103 11115
+type(
+  (string * string * string * out_channel) list
+)
+ident(
+  int_ref tmps "dynamic.ml" 275 10154 10162 "dynamic.ml" 275 10154 10166
+)
+"dynamic.ml" 280 10398 10418 "dynamic.ml" 295 11103 11115
+call(
+  stack
+)
+type(
+  string list
+)
+"dynamic.ml" 297 11123 11133 "dynamic.ml" 297 11123 11145
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t -> string -> Utils.StrSet.elt
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"dynamic.ml" 297 11123 11146 "dynamic.ml" 297 11123 11153
+type(
+  (string, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  int_ref tmp_tbl "dynamic.ml" 255 9209 9217 "dynamic.ml" 255 9209 9224
+)
+"dynamic.ml" 297 11123 11154 "dynamic.ml" 297 11123 11155
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 254 9159 9192 "dynamic.ml" 254 9159 9193
+)
+"dynamic.ml" 297 11123 11154 "dynamic.ml" 297 11123 11169
+type(
+  string
+)
+"dynamic.ml" 297 11123 11133 "dynamic.ml" 297 11123 11169
+call(
+  stack
+)
+type(
+  Utils.StrSet.elt
+)
+"dynamic.ml" 297 11123 11171 "dynamic.ml" 297 11123 11180
+type(
+  string list
+)
+ident(
+  int_ref tmp_files "dynamic.ml" 280 10398 10406 "dynamic.ml" 280 10398 10415
+)
+"dynamic.ml" 297 11123 11133 "dynamic.ml" 297 11123 11180
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 298 11181 11192 "dynamic.ml" 298 11181 11201
+type(
+  exn
+)
+"dynamic.ml" 299 11207 11215 "dynamic.ml" 299 11207 11224
+type(
+  Log.ctx ->
+  (string -> Utils.StrSet.elt * string list, Format.formatter, unit,
+   Utils.StrSet.elt * string list)
+  format4 -> string -> Utils.StrSet.elt * string list
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 299 11207 11225 "dynamic.ml" 299 11207 11234
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 299 11207 11235 "dynamic.ml" 299 11207 11274
+type(
+  (string -> Utils.StrSet.elt * string list, Format.formatter, unit,
+   Utils.StrSet.elt * string list)
+  format4
+)
+"dynamic.ml" 299 11207 11275 "dynamic.ml" 299 11207 11276
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 254 9159 9192 "dynamic.ml" 254 9159 9193
+)
+"dynamic.ml" 299 11207 11275 "dynamic.ml" 299 11207 11290
+type(
+  string
+)
+"dynamic.ml" 299 11207 11215 "dynamic.ml" 299 11207 11290
+call(
+  stack
+)
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 297 11123 11129 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 280 10398 10402 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 276 10232 10236 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 275 10154 10158 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 274 10114 10118 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 273 10075 10079 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 264 9700 9704 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 258 9350 9354 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 255 9209 9213 "dynamic.ml" 299 11207 11290
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 300 11291 11298 "dynamic.ml" 300 11291 11307
+type(
+  exn
+)
+"dynamic.ml" 301 11312 11316 "dynamic.ml" 301 11312 11325
+type(
+  Log.ctx ->
+  (Utils.StrSet.elt * string list, Format.formatter, unit,
+   Utils.StrSet.elt * string list)
+  format4 -> Utils.StrSet.elt * string list
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 301 11312 11326 "dynamic.ml" 301 11312 11335
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 301 11312 11336 "dynamic.ml" 301 11312 11364
+type(
+  (Utils.StrSet.elt * string list, Format.formatter, unit,
+   Utils.StrSet.elt * string list)
+  format4
+)
+"dynamic.ml" 301 11312 11316 "dynamic.ml" 301 11312 11364
+call(
+  tail
+)
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 254 9159 9205 "dynamic.ml" 301 11312 11364
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 303 11366 11372 "dynamic.ml" 303 11366 11389
+type(
+  'b -> string list -> unit -> unit
+)
+ident(
+  def remove_temp_files "dynamic.ml" 311 11601 11603 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 303 11366 11390 "dynamic.ml" 303 11366 11391
+type(
+  'b
+)
+ident(
+  def t "dynamic.ml" 303 11366 11392 "dynamic.ml" 309 11563 11593
+)
+"dynamic.ml" 303 11366 11392 "dynamic.ml" 303 11366 11397
+type(
+  string list
+)
+ident(
+  def files "dynamic.ml" 303 11366 11398 "dynamic.ml" 309 11563 11593
+)
+"dynamic.ml" 303 11366 11398 "dynamic.ml" 303 11366 11400
+type(
+  unit
+)
+"dynamic.ml" 304 11404 11411 "dynamic.ml" 304 11404 11414
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"dynamic.ml" 304 11404 11415 "dynamic.ml" 304 11404 11419
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"dynamic.ml" 304 11404 11415 "dynamic.ml" 304 11404 11430
+type(
+  bool
+)
+"dynamic.ml" 304 11404 11411 "dynamic.ml" 304 11404 11430
+type(
+  bool
+)
+"dynamic.ml" 306 11445 11451 "dynamic.ml" 306 11445 11460
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"dynamic.ml" 306 11445 11461 "dynamic.ml" 306 11445 11477
+type(
+  string -> unit
+)
+ident(
+  int_ref remove_if_exists "dynamic.ml" 82 2547 2553 "dynamic.ml" 82 2547 2569
+)
+"dynamic.ml" 306 11445 11478 "dynamic.ml" 306 11445 11483
+type(
+  string list
+)
+ident(
+  int_ref files "dynamic.ml" 303 11366 11392 "dynamic.ml" 303 11366 11397
+)
+"dynamic.ml" 306 11445 11451 "dynamic.ml" 306 11445 11483
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 307 11484 11493 "dynamic.ml" 307 11484 11494
+type(
+  exn
+)
+ident(
+  def e "dynamic.ml" 308 11499 11505 "dynamic.ml" 309 11563 11593
+)
+"dynamic.ml" 308 11499 11505 "dynamic.ml" 308 11499 11519
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"dynamic.ml" 308 11499 11520 "dynamic.ml" 308 11499 11561
+type(
+  (string -> unit, out_channel, unit) format
+)
+"dynamic.ml" 309 11563 11572 "dynamic.ml" 309 11563 11590
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"dynamic.ml" 309 11563 11591 "dynamic.ml" 309 11563 11592
+type(
+  exn
+)
+ident(
+  int_ref e "dynamic.ml" 307 11484 11493 "dynamic.ml" 307 11484 11494
+)
+"dynamic.ml" 309 11563 11571 "dynamic.ml" 309 11563 11593
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 308 11499 11505 "dynamic.ml" 309 11563 11593
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 305 11432 11441 "dynamic.ml" 309 11563 11593
+type(
+  unit
+)
+"dynamic.ml" 304 11404 11408 "dynamic.ml" 309 11563 11593
+type(
+  unit
+)
+"dynamic.ml" 311 11601 11607 "dynamic.ml" 311 11601 11623
+type(
+  t -> Cfg.stmt -> string
+)
+ident(
+  def emit_initializer "dynamic.ml" 319 11857 11859 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 311 11601 11624 "dynamic.ml" 311 11601 11625
+type(
+  t
+)
+ident(
+  def t "dynamic.ml" 311 11601 11626 "dynamic.ml" 317 11845 11855
+)
+"dynamic.ml" 311 11601 11626 "dynamic.ml" 311 11601 11629
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "dynamic.ml" 312 11633 11637 "dynamic.ml" 317 11845 11855
+)
+"dynamic.ml" 312 11633 11641 "dynamic.ml" 312 11633 11645
+type(
+  string
+)
+"dynamic.ml" 312 11633 11646 "dynamic.ml" 312 11633 11648
+type(
+  out_channel
+)
+"dynamic.ml" 312 11633 11641 "dynamic.ml" 312 11633 11648
+type(
+  string * out_channel
+)
+"dynamic.ml" 312 11633 11651 "dynamic.ml" 312 11633 11674
+type(
+  ?mode:open_flag list ->
+  ?temp_dir:string -> string -> string -> string * out_channel
+)
+ident(
+  ext_ref Filename.open_temp_file
+)
+"dynamic.ml" 312 11633 11676 "dynamic.ml" 312 11633 11691
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"dynamic.ml" 312 11633 11692 "dynamic.ml" 312 11633 11693
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 311 11601 11624 "dynamic.ml" 311 11601 11625
+)
+"dynamic.ml" 312 11633 11692 "dynamic.ml" 312 11633 11701
+type(
+  string
+)
+"dynamic.ml" 312 11633 11702 "dynamic.ml" 312 11633 11708
+type(
+  string
+)
+"dynamic.ml" 312 11633 11675 "dynamic.ml" 312 11633 11709
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 312 11633 11710 "dynamic.ml" 312 11633 11715
+type(
+  string
+)
+"dynamic.ml" 312 11633 11651 "dynamic.ml" 312 11633 11715
+call(
+  stack
+)
+type(
+  string * out_channel
+)
+"dynamic.ml" 314 11757 11765 "dynamic.ml" 314 11757 11767
+type(
+  out_channel
+)
+"dynamic.ml" 314 11757 11770 "dynamic.ml" 314 11757 11778
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"dynamic.ml" 314 11757 11779 "dynamic.ml" 314 11757 11783
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 312 11633 11641 "dynamic.ml" 312 11633 11645
+)
+"dynamic.ml" 314 11757 11770 "dynamic.ml" 314 11757 11783
+call(
+  stack
+)
+type(
+  out_channel
+)
+"dynamic.ml" 315 11788 11794 "dynamic.ml" 315 11788 11816
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dynamic.ml" 315 11788 11817 "dynamic.ml" 315 11788 11819
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 314 11757 11765 "dynamic.ml" 314 11757 11767
+)
+"dynamic.ml" 315 11788 11820 "dynamic.ml" 315 11788 11823
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 311 11601 11626 "dynamic.ml" 311 11601 11629
+)
+"dynamic.ml" 315 11788 11794 "dynamic.ml" 315 11788 11823
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 316 11825 11831 "dynamic.ml" 316 11825 11840
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"dynamic.ml" 316 11825 11841 "dynamic.ml" 316 11825 11843
+type(
+  out_channel
+)
+ident(
+  int_ref oc "dynamic.ml" 314 11757 11765 "dynamic.ml" 314 11757 11767
+)
+"dynamic.ml" 316 11825 11831 "dynamic.ml" 316 11825 11843
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 317 11845 11851 "dynamic.ml" 317 11845 11855
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 312 11633 11641 "dynamic.ml" 312 11633 11645
+)
+"dynamic.ml" 316 11825 11831 "dynamic.ml" 317 11845 11855
+type(
+  string
+)
+"dynamic.ml" 315 11788 11794 "dynamic.ml" 317 11845 11855
+type(
+  string
+)
+"dynamic.ml" 314 11757 11761 "dynamic.ml" 317 11845 11855
+type(
+  string
+)
+"dynamic.ml" 312 11633 11637 "dynamic.ml" 317 11845 11855
+type(
+  string
+)
+"dynamic.ml" 319 11857 11863 "dynamic.ml" 319 11857 11882
+type(
+  Cfg.stmt -> string -> Cfg.stmt
+)
+ident(
+  def append_safe_require "dynamic.ml" 326 12165 12167 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 319 11857 11883 "dynamic.ml" 319 11857 11886
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "dynamic.ml" 319 11857 11887 "dynamic.ml" 324 12125 12163
+)
+"dynamic.ml" 319 11857 11887 "dynamic.ml" 319 11857 11891
+type(
+  string
+)
+ident(
+  def file "dynamic.ml" 320 11895 11899 "dynamic.ml" 324 12125 12163
+)
+"dynamic.ml" 320 11895 11903 "dynamic.ml" 320 11895 11907
+type(
+  string
+)
+"dynamic.ml" 320 11895 11910 "dynamic.ml" 320 11895 11924
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"dynamic.ml" 320 11895 11925 "dynamic.ml" 320 11895 11978
+type(
+  (string -> string -> string, unit, string) format
+)
+"dynamic.ml" 320 11895 11979 "dynamic.ml" 320 11895 11983
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 319 11857 11887 "dynamic.ml" 319 11857 11891
+)
+"dynamic.ml" 320 11895 11984 "dynamic.ml" 320 11895 11988
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 319 11857 11887 "dynamic.ml" 319 11857 11891
+)
+"dynamic.ml" 320 11895 11910 "dynamic.ml" 320 11895 11988
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 321 11992 12000 "dynamic.ml" 321 11992 12003
+type(
+  Ast.ast
+)
+"dynamic.ml" 321 11992 12006 "dynamic.ml" 321 11992 12031
+type(
+  ?env:Utils.StrSet.t -> ?filename:string -> ?lineno:int -> string -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_string
+)
+"dynamic.ml" 321 11992 12032 "dynamic.ml" 321 11992 12036
+type(
+  string
+)
+ident(
+  int_ref code "dynamic.ml" 320 11895 11903 "dynamic.ml" 320 11895 11907
+)
+"dynamic.ml" 321 11992 12006 "dynamic.ml" 321 11992 12036
+call(
+  stack
+)
+type(
+  Ast.ast
+)
+"dynamic.ml" 322 12040 12048 "dynamic.ml" 322 12040 12052
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 322 12040 12055 "dynamic.ml" 322 12040 12080
+type(
+  ?env:Utils.StrSet.t -> Ast.ast -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg_refactor.refactor_ast
+)
+"dynamic.ml" 322 12040 12081 "dynamic.ml" 322 12040 12084
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "dynamic.ml" 321 11992 12000 "dynamic.ml" 321 11992 12003
+)
+"dynamic.ml" 322 12040 12055 "dynamic.ml" 322 12040 12084
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 323 12088 12096 "dynamic.ml" 323 12088 12100
+type(
+  Cfg.stmt_node
+)
+"dynamic.ml" 323 12088 12112 "dynamic.ml" 323 12088 12115
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 319 11857 11883 "dynamic.ml" 319 11857 11886
+)
+"dynamic.ml" 323 12088 12116 "dynamic.ml" 323 12088 12120
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref post "dynamic.ml" 322 12040 12048 "dynamic.ml" 322 12040 12052
+)
+"dynamic.ml" 323 12088 12111 "dynamic.ml" 323 12088 12121
+type(
+  Cfg.stmt list
+)
+"dynamic.ml" 323 12088 12103 "dynamic.ml" 323 12088 12121
+type(
+  Cfg.stmt_node
+)
+"dynamic.ml" 324 12125 12131 "dynamic.ml" 324 12125 12141
+type(
+  Cfg.stmt_node -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.mkstmt
+)
+"dynamic.ml" 324 12125 12142 "dynamic.ml" 324 12125 12146
+type(
+  Cfg.stmt_node
+)
+ident(
+  int_ref node "dynamic.ml" 323 12088 12096 "dynamic.ml" 323 12088 12100
+)
+"dynamic.ml" 324 12125 12147 "dynamic.ml" 324 12125 12163
+type(
+  Cfg.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"dynamic.ml" 324 12125 12131 "dynamic.ml" 324 12125 12163
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 323 12088 12092 "dynamic.ml" 324 12125 12163
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 322 12040 12044 "dynamic.ml" 324 12125 12163
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 321 11992 11996 "dynamic.ml" 324 12125 12163
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 320 11895 11899 "dynamic.ml" 324 12125 12163
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 326 12165 12171 "dynamic.ml" 326 12165 12183
+type(
+  ?append:bool -> 'c -> string list -> Cfg.stmt
+)
+ident(
+  def profile_init "dynamic.ml" 335 12604 12606 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 326 12165 12186 "dynamic.ml" 326 12165 12192
+type(
+  bool
+)
+"dynamic.ml" 326 12165 12193 "dynamic.ml" 326 12165 12198
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "dynamic.ml" 326 12165 12193 "dynamic.ml" 326 12165 12198
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "dynamic.ml" 326 12165 12193 "dynamic.ml" 326 12165 12198
+)
+"dynamic.ml" 326 12165 12200 "dynamic.ml" 326 12165 12201
+type(
+  'c
+)
+ident(
+  def t "dynamic.ml" 326 12165 12202 "dynamic.ml" 333 12521 12602
+)
+"dynamic.ml" 326 12165 12202 "dynamic.ml" 326 12165 12212
+type(
+  string list
+)
+ident(
+  def components "dynamic.ml" 327 12216 12220 "dynamic.ml" 333 12521 12602
+)
+"dynamic.ml" 327 12216 12224 "dynamic.ml" 327 12216 12227
+type(
+  Buffer.t
+)
+"dynamic.ml" 327 12216 12230 "dynamic.ml" 327 12216 12243
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"dynamic.ml" 327 12216 12244 "dynamic.ml" 327 12216 12246
+type(
+  int
+)
+"dynamic.ml" 327 12216 12230 "dynamic.ml" 327 12216 12246
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"dynamic.ml" 328 12250 12256 "dynamic.ml" 328 12250 12273
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"dynamic.ml" 328 12250 12274 "dynamic.ml" 328 12250 12277
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 327 12216 12224 "dynamic.ml" 327 12216 12227
+)
+"dynamic.ml" 328 12250 12278 "dynamic.ml" 328 12250 12306
+type(
+  string
+)
+"dynamic.ml" 328 12250 12256 "dynamic.ml" 328 12250 12306
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 329 12308 12314 "dynamic.ml" 329 12308 12331
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"dynamic.ml" 330 12333 12341 "dynamic.ml" 330 12333 12344
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 327 12216 12224 "dynamic.ml" 327 12216 12227
+)
+"dynamic.ml" 330 12333 12346 "dynamic.ml" 330 12333 12353
+type(
+  (string -> bool -> string, unit, string) format -> string -> bool -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"dynamic.ml" 330 12333 12354 "dynamic.ml" 330 12333 12385
+type(
+  (string -> bool -> string, unit, string) format
+)
+"dynamic.ml" 330 12333 12386 "dynamic.ml" 330 12333 12390
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"dynamic.ml" 330 12333 12386 "dynamic.ml" 330 12333 12401
+type(
+  string
+)
+"dynamic.ml" 330 12333 12402 "dynamic.ml" 330 12333 12408
+type(
+  bool
+)
+ident(
+  int_ref append "dynamic.ml" 326 12165 12186 "dynamic.ml" 326 12165 12192
+)
+"dynamic.ml" 330 12333 12345 "dynamic.ml" 330 12333 12409
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 329 12308 12314 "dynamic.ml" 330 12333 12409
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 331 12411 12417 "dynamic.ml" 331 12411 12426
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"dynamic.ml" 331 12411 12432 "dynamic.ml" 331 12411 12433
+type(
+  string
+)
+ident(
+  def x "dynamic.ml" 331 12411 12437 "dynamic.ml" 331 12411 12471
+)
+"dynamic.ml" 331 12411 12437 "dynamic.ml" 331 12411 12454
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"dynamic.ml" 331 12411 12455 "dynamic.ml" 331 12411 12458
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 327 12216 12224 "dynamic.ml" 327 12216 12227
+)
+"dynamic.ml" 331 12411 12460 "dynamic.ml" 331 12411 12463
+type(
+  string
+)
+"dynamic.ml" 331 12411 12463 "dynamic.ml" 331 12411 12464
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 331 12411 12464 "dynamic.ml" 331 12411 12465
+type(
+  string
+)
+ident(
+  int_ref x "dynamic.ml" 331 12411 12432 "dynamic.ml" 331 12411 12433
+)
+"dynamic.ml" 331 12411 12465 "dynamic.ml" 331 12411 12466
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 331 12411 12466 "dynamic.ml" 331 12411 12470
+type(
+  string
+)
+"dynamic.ml" 331 12411 12464 "dynamic.ml" 331 12411 12470
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 331 12411 12459 "dynamic.ml" 331 12411 12471
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 331 12411 12437 "dynamic.ml" 331 12411 12471
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 331 12411 12427 "dynamic.ml" 331 12411 12472
+type(
+  string -> unit
+)
+"dynamic.ml" 331 12411 12473 "dynamic.ml" 331 12411 12483
+type(
+  string list
+)
+ident(
+  int_ref components "dynamic.ml" 326 12165 12202 "dynamic.ml" 326 12165 12212
+)
+"dynamic.ml" 331 12411 12417 "dynamic.ml" 331 12411 12483
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 332 12485 12491 "dynamic.ml" 332 12485 12508
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"dynamic.ml" 332 12485 12509 "dynamic.ml" 332 12485 12512
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 327 12216 12224 "dynamic.ml" 327 12216 12227
+)
+"dynamic.ml" 332 12485 12513 "dynamic.ml" 332 12485 12519
+type(
+  string
+)
+"dynamic.ml" 332 12485 12491 "dynamic.ml" 332 12485 12519
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 333 12521 12527 "dynamic.ml" 333 12521 12552
+type(
+  ?env:Utils.StrSet.t -> Ast.ast -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg_refactor.refactor_ast
+)
+"dynamic.ml" 333 12521 12554 "dynamic.ml" 333 12521 12579
+type(
+  ?env:Utils.StrSet.t -> ?filename:string -> ?lineno:int -> string -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_string
+)
+"dynamic.ml" 333 12521 12581 "dynamic.ml" 333 12521 12596
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"dynamic.ml" 333 12521 12597 "dynamic.ml" 333 12521 12600
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "dynamic.ml" 327 12216 12224 "dynamic.ml" 327 12216 12227
+)
+"dynamic.ml" 333 12521 12580 "dynamic.ml" 333 12521 12601
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 333 12521 12553 "dynamic.ml" 333 12521 12602
+call(
+  stack
+)
+type(
+  Ast.ast
+)
+"dynamic.ml" 333 12521 12527 "dynamic.ml" 333 12521 12602
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 332 12485 12491 "dynamic.ml" 333 12521 12602
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 331 12411 12417 "dynamic.ml" 333 12521 12602
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 329 12308 12314 "dynamic.ml" 333 12521 12602
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 328 12250 12256 "dynamic.ml" 333 12521 12602
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 327 12216 12220 "dynamic.ml" 333 12521 12602
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 335 12604 12630 "dynamic.ml" 335 12604 12664
+call(
+  stack
+)
+"dynamic.ml" 338 12734 12740 "dynamic.ml" 338 12734 12754
+type(
+  string -> YamlCollection.Map.key -> Yaml.YRaw.t
+)
+ident(
+  def yaml_load_func "dynamic.ml" 348 13132 13134 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 338 12734 12755 "dynamic.ml" 338 12734 12760
+type(
+  string
+)
+ident(
+  def fname "dynamic.ml" 338 12734 12761 "dynamic.ml" 346 13066 13130
+)
+"dynamic.ml" 339 12786 12798 "dynamic.ml" 339 12786 12801
+type(
+  YamlCollection.t
+)
+ident(
+  def map "dynamic.ml" 340 12854 12860 "dynamic.ml" 344 13027 13034
+)
+"dynamic.ml" 339 12786 12804 "dynamic.ml" 339 12786 12826
+type(
+  Yaml.yaml -> YamlCollection.t
+)
+ident(
+  ext_ref YamlCollection.of_yaml
+)
+"dynamic.ml" 339 12786 12828 "dynamic.ml" 339 12786 12843
+type(
+  ?other:bool -> string -> Yaml.yaml
+)
+ident(
+  ext_ref Yaml.parse_file
+)
+"dynamic.ml" 339 12786 12844 "dynamic.ml" 339 12786 12849
+type(
+  string
+)
+ident(
+  int_ref fname "dynamic.ml" 338 12734 12755 "dynamic.ml" 338 12734 12760
+)
+"dynamic.ml" 339 12786 12827 "dynamic.ml" 339 12786 12850
+call(
+  stack
+)
+type(
+  Yaml.yaml
+)
+"dynamic.ml" 339 12786 12804 "dynamic.ml" 339 12786 12850
+call(
+  stack
+)
+type(
+  YamlCollection.t
+)
+"dynamic.ml" 340 12854 12865 "dynamic.ml" 340 12854 12866
+type(
+  YamlCollection.Map.key
+)
+ident(
+  def s "dynamic.ml" 341 12871 12880 "dynamic.ml" 343 12942 13026
+)
+"dynamic.ml" 341 12871 12884 "dynamic.ml" 341 12871 12907
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t YamlCollection.Map.t -> Yaml.YRaw.t
+)
+ident(
+  ext_ref YamlCollection.Map.find
+)
+"dynamic.ml" 341 12871 12908 "dynamic.ml" 341 12871 12909
+type(
+  YamlCollection.Map.key
+)
+ident(
+  int_ref s "dynamic.ml" 340 12854 12865 "dynamic.ml" 340 12854 12866
+)
+"dynamic.ml" 341 12871 12910 "dynamic.ml" 341 12871 12913
+type(
+  YamlCollection.t
+)
+ident(
+  int_ref map "dynamic.ml" 339 12786 12798 "dynamic.ml" 339 12786 12801
+)
+"dynamic.ml" 341 12871 12884 "dynamic.ml" 341 12871 12913
+call(
+  stack
+)
+type(
+  Yaml.YRaw.t
+)
+"dynamic.ml" 342 12914 12928 "dynamic.ml" 342 12914 12937
+type(
+  exn
+)
+"dynamic.ml" 343 12942 12953 "dynamic.ml" 343 12942 12962
+type(
+  Log.ctx ->
+  (YamlCollection.Map.key -> Yaml.YRaw.t, Format.formatter, unit,
+   Yaml.YRaw.t)
+  format4 -> YamlCollection.Map.key -> Yaml.YRaw.t
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 343 12942 12963 "dynamic.ml" 343 12942 12972
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 343 12942 12973 "dynamic.ml" 343 12942 13024
+type(
+  (YamlCollection.Map.key -> Yaml.YRaw.t, Format.formatter, unit,
+   Yaml.YRaw.t)
+  format4
+)
+"dynamic.ml" 343 12942 13025 "dynamic.ml" 343 12942 13026
+type(
+  YamlCollection.Map.key
+)
+ident(
+  int_ref s "dynamic.ml" 340 12854 12865 "dynamic.ml" 340 12854 12866
+)
+"dynamic.ml" 343 12942 12953 "dynamic.ml" 343 12942 13026
+call(
+  tail
+)
+type(
+  Yaml.YRaw.t
+)
+"dynamic.ml" 341 12871 12880 "dynamic.ml" 343 12942 13026
+type(
+  Yaml.YRaw.t
+)
+"dynamic.ml" 340 12854 12860 "dynamic.ml" 344 13027 13034
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+"dynamic.ml" 339 12786 12794 "dynamic.ml" 344 13027 13034
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+"dynamic.ml" 345 13035 13061 "dynamic.ml" 345 13035 13062
+type(
+  string
+)
+ident(
+  def s "dynamic.ml" 346 13066 13072 "dynamic.ml" 346 13066 13130
+)
+"dynamic.ml" 345 13035 13044 "dynamic.ml" 345 13035 13062
+type(
+  exn
+)
+"dynamic.ml" 346 13066 13072 "dynamic.ml" 346 13066 13081
+type(
+  Log.ctx ->
+  (string -> string -> YamlCollection.Map.key -> Yaml.YRaw.t,
+   Format.formatter, unit, YamlCollection.Map.key -> Yaml.YRaw.t)
+  format4 -> string -> string -> YamlCollection.Map.key -> Yaml.YRaw.t
+)
+ident(
+  ext_ref Log.fatal
+)
+"dynamic.ml" 346 13066 13082 "dynamic.ml" 346 13066 13091
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"dynamic.ml" 346 13066 13092 "dynamic.ml" 346 13066 13122
+type(
+  (string -> string -> YamlCollection.Map.key -> Yaml.YRaw.t,
+   Format.formatter, unit, YamlCollection.Map.key -> Yaml.YRaw.t)
+  format4
+)
+"dynamic.ml" 346 13066 13123 "dynamic.ml" 346 13066 13128
+type(
+  string
+)
+ident(
+  int_ref fname "dynamic.ml" 338 12734 12755 "dynamic.ml" 338 12734 12760
+)
+"dynamic.ml" 346 13066 13129 "dynamic.ml" 346 13066 13130
+type(
+  string
+)
+ident(
+  int_ref s "dynamic.ml" 345 13035 13061 "dynamic.ml" 345 13035 13062
+)
+"dynamic.ml" 346 13066 13072 "dynamic.ml" 346 13066 13130
+call(
+  tail
+)
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+"dynamic.ml" 339 12786 12790 "dynamic.ml" 346 13066 13130
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+"dynamic.ml" 348 13132 13138 "dynamic.ml" 348 13132 13153
+type(
+  t -> Require.Data.t
+)
+ident(
+  def gather_requires "dynamic.ml" 358 13614 13616 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 348 13132 13154 "dynamic.ml" 348 13132 13155
+type(
+  t
+)
+ident(
+  def t "dynamic.ml" 349 13159 13163 "dynamic.ml" 356 13548 13612
+)
+"dynamic.ml" 349 13159 13167 "dynamic.ml" 349 13159 13170
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 349 13159 13173 "dynamic.ml" 349 13159 13185
+type(
+  ?append:bool -> t -> string list -> Cfg.stmt
+)
+ident(
+  int_ref profile_init "dynamic.ml" 326 12165 12171 "dynamic.ml" 326 12165 12183
+)
+"dynamic.ml" 349 13159 13186 "dynamic.ml" 349 13159 13187
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 348 13132 13154 "dynamic.ml" 348 13132 13155
+)
+"dynamic.ml" 349 13159 13188 "dynamic.ml" 349 13159 13208
+type(
+  string list
+)
+ident(
+  ext_ref Require.profile_libs
+)
+"dynamic.ml" 349 13159 13173 "dynamic.ml" 349 13159 13208
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 350 13212 13220 "dynamic.ml" 350 13212 13223
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 350 13212 13226 "dynamic.ml" 350 13212 13240
+type(
+  Cfg.stmt -> string -> Cfg.stmt
+)
+ident(
+  int_ref append_require "dynamic.ml" 230 8030 8036 "dynamic.ml" 230 8030 8050
+)
+"dynamic.ml" 350 13212 13241 "dynamic.ml" 350 13212 13244
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 349 13159 13167 "dynamic.ml" 349 13159 13170
+)
+"dynamic.ml" 350 13212 13245 "dynamic.ml" 350 13212 13246
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 348 13132 13154 "dynamic.ml" 348 13132 13155
+)
+"dynamic.ml" 350 13212 13245 "dynamic.ml" 350 13212 13260
+type(
+  string
+)
+"dynamic.ml" 350 13212 13226 "dynamic.ml" 350 13212 13260
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 353 13392 13400 "dynamic.ml" 353 13392 13409
+type(
+  string
+)
+"dynamic.ml" 353 13392 13412 "dynamic.ml" 353 13392 13428
+type(
+  t -> Cfg.stmt -> string
+)
+ident(
+  int_ref emit_initializer "dynamic.ml" 311 11601 11607 "dynamic.ml" 311 11601 11623
+)
+"dynamic.ml" 353 13392 13429 "dynamic.ml" 353 13392 13430
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 348 13132 13154 "dynamic.ml" 348 13132 13155
+)
+"dynamic.ml" 353 13392 13431 "dynamic.ml" 353 13392 13434
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 350 13212 13220 "dynamic.ml" 350 13212 13223
+)
+"dynamic.ml" 353 13392 13412 "dynamic.ml" 353 13392 13434
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 354 13438 13444 "dynamic.ml" 354 13438 13451
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.at_exit
+)
+"dynamic.ml" 354 13438 13453 "dynamic.ml" 354 13438 13470
+type(
+  t -> string list -> unit -> unit
+)
+ident(
+  int_ref remove_temp_files "dynamic.ml" 303 11366 11372 "dynamic.ml" 303 11366 11389
+)
+"dynamic.ml" 354 13438 13471 "dynamic.ml" 354 13438 13472
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 348 13132 13154 "dynamic.ml" 348 13132 13155
+)
+"dynamic.ml" 354 13438 13474 "dynamic.ml" 354 13438 13483
+type(
+  string
+)
+ident(
+  int_ref init_file "dynamic.ml" 353 13392 13400 "dynamic.ml" 353 13392 13409
+)
+"dynamic.ml" 354 13438 13473 "dynamic.ml" 354 13438 13484
+type(
+  string list
+)
+"dynamic.ml" 354 13438 13452 "dynamic.ml" 354 13438 13485
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"dynamic.ml" 354 13438 13444 "dynamic.ml" 354 13438 13485
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 355 13487 13493 "dynamic.ml" 355 13487 13510
+type(
+  t -> string list -> string -> bool -> unit
+)
+ident(
+  int_ref execute_ruby_file "dynamic.ml" 132 4330 4336 "dynamic.ml" 132 4330 4353
+)
+"dynamic.ml" 355 13487 13511 "dynamic.ml" 355 13487 13512
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 348 13132 13154 "dynamic.ml" 348 13132 13155
+)
+"dynamic.ml" 355 13487 13514 "dynamic.ml" 355 13487 13523
+type(
+  string
+)
+ident(
+  int_ref init_file "dynamic.ml" 353 13392 13400 "dynamic.ml" 353 13392 13409
+)
+"dynamic.ml" 355 13487 13513 "dynamic.ml" 355 13487 13524
+type(
+  string list
+)
+"dynamic.ml" 355 13487 13525 "dynamic.ml" 355 13487 13526
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 348 13132 13154 "dynamic.ml" 348 13132 13155
+)
+"dynamic.ml" 355 13487 13525 "dynamic.ml" 355 13487 13540
+type(
+  string
+)
+"dynamic.ml" 355 13487 13541 "dynamic.ml" 355 13487 13546
+type(
+  bool
+)
+"dynamic.ml" 355 13487 13493 "dynamic.ml" 355 13487 13546
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 356 13548 13554 "dynamic.ml" 356 13548 13579
+type(
+  (YamlCollection.Map.key -> Yaml.YRaw.t) -> Require.Data.t
+)
+ident(
+  ext_ref Require.load_runtime_data
+)
+"dynamic.ml" 356 13548 13581 "dynamic.ml" 356 13548 13595
+type(
+  string -> YamlCollection.Map.key -> Yaml.YRaw.t
+)
+ident(
+  int_ref yaml_load_func "dynamic.ml" 338 12734 12740 "dynamic.ml" 338 12734 12754
+)
+"dynamic.ml" 356 13548 13596 "dynamic.ml" 356 13548 13600
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"dynamic.ml" 356 13548 13596 "dynamic.ml" 356 13548 13611
+type(
+  string
+)
+"dynamic.ml" 356 13548 13580 "dynamic.ml" 356 13548 13612
+call(
+  stack
+)
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+"dynamic.ml" 356 13548 13554 "dynamic.ml" 356 13548 13612
+call(
+  tail
+)
+type(
+  Require.Data.t
+)
+"dynamic.ml" 355 13487 13493 "dynamic.ml" 356 13548 13612
+type(
+  Require.Data.t
+)
+"dynamic.ml" 354 13438 13444 "dynamic.ml" 356 13548 13612
+type(
+  Require.Data.t
+)
+"dynamic.ml" 353 13392 13396 "dynamic.ml" 356 13548 13612
+type(
+  Require.Data.t
+)
+"dynamic.ml" 350 13212 13216 "dynamic.ml" 356 13548 13612
+type(
+  Require.Data.t
+)
+"dynamic.ml" 349 13159 13163 "dynamic.ml" 356 13548 13612
+type(
+  Require.Data.t
+)
+"dynamic.ml" 358 13614 13620 "dynamic.ml" 358 13614 13624
+type(
+  File_loader.t -> string -> t
+)
+ident(
+  def init "dynamic.ml" 369 13983 13985 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 358 13614 13625 "dynamic.ml" 358 13614 13631
+type(
+  File_loader.t
+)
+ident(
+  def loader "dynamic.ml" 358 13614 13632 "dynamic.ml" 367 13974 13981
+)
+"dynamic.ml" 358 13614 13632 "dynamic.ml" 358 13614 13637
+type(
+  string
+)
+ident(
+  def fname "dynamic.ml" 359 13641 13645 "dynamic.ml" 367 13974 13981
+)
+"dynamic.ml" 359 13641 13649 "dynamic.ml" 359 13641 13658
+type(
+  string
+)
+"dynamic.ml" 359 13641 13661 "dynamic.ml" 359 13641 13691
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"dynamic.ml" 359 13641 13692 "dynamic.ml" 359 13641 13697
+type(
+  string
+)
+ident(
+  int_ref fname "dynamic.ml" 358 13614 13632 "dynamic.ml" 358 13614 13637
+)
+"dynamic.ml" 359 13641 13661 "dynamic.ml" 359 13641 13697
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 360 13701 13709 "dynamic.ml" 360 13701 13716
+type(
+  string
+)
+"dynamic.ml" 360 13701 13719 "dynamic.ml" 360 13701 13729
+type(
+  unit -> string
+)
+ident(
+  int_ref tmp_prefix "dynamic.ml" 195 6836 6842 "dynamic.ml" 195 6836 6852
+)
+"dynamic.ml" 360 13701 13729 "dynamic.ml" 360 13701 13731
+type(
+  unit
+)
+"dynamic.ml" 360 13701 13719 "dynamic.ml" 360 13701 13731
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 361 13735 13752 "dynamic.ml" 361 13735 13759
+type(
+  string
+)
+ident(
+  int_ref tmp_dir "dynamic.ml" 360 13701 13709 "dynamic.ml" 360 13701 13716
+)
+"dynamic.ml" 362 13761 13778 "dynamic.ml" 362 13761 13804
+type(
+  File_loader.t -> string
+)
+ident(
+  ext_ref File_loader.mk_rubylib_env
+)
+"dynamic.ml" 362 13761 13805 "dynamic.ml" 362 13761 13811
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 358 13614 13625 "dynamic.ml" 358 13614 13631
+)
+"dynamic.ml" 362 13761 13778 "dynamic.ml" 362 13761 13811
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 363 13813 13827 "dynamic.ml" 363 13813 13831
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"dynamic.ml" 363 13813 13827 "dynamic.ml" 363 13813 13841
+type(
+  string list
+)
+"dynamic.ml" 364 13843 13866 "dynamic.ml" 364 13843 13875
+type(
+  string
+)
+ident(
+  int_ref norm_file "dynamic.ml" 359 13641 13649 "dynamic.ml" 359 13641 13658
+)
+"dynamic.ml" 365 13877 13900 "dynamic.ml" 365 13877 13905
+type(
+  string
+)
+ident(
+  int_ref fname "dynamic.ml" 358 13614 13632 "dynamic.ml" 358 13614 13637
+)
+"dynamic.ml" 366 13907 13930 "dynamic.ml" 366 13907 13950
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref create_rlibrary_file "dynamic.ml" 237 8294 8300 "dynamic.ml" 237 8294 8320
+)
+"dynamic.ml" 366 13907 13951 "dynamic.ml" 366 13907 13958
+type(
+  string
+)
+ident(
+  int_ref tmp_dir "dynamic.ml" 360 13701 13709 "dynamic.ml" 360 13701 13716
+)
+"dynamic.ml" 366 13907 13959 "dynamic.ml" 366 13907 13963
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"dynamic.ml" 366 13907 13959 "dynamic.ml" 366 13907 13972
+type(
+  string list
+)
+"dynamic.ml" 366 13907 13930 "dynamic.ml" 366 13907 13972
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 361 13735 13741 "dynamic.ml" 367 13974 13981
+type(
+  t
+)
+"dynamic.ml" 360 13701 13705 "dynamic.ml" 367 13974 13981
+type(
+  t
+)
+"dynamic.ml" 359 13641 13645 "dynamic.ml" 367 13974 13981
+type(
+  t
+)
+"dynamic.ml" 369 13983 13989 "dynamic.ml" 369 13983 14004
+type(
+  File_loader.t ->
+  (string -> Yaml.yaml) ->
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t -> string -> unit
+)
+ident(
+  def transform_files "dynamic.ml" 393 14969 14971 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 369 13983 14005 "dynamic.ml" 369 13983 14011
+type(
+  File_loader.t
+)
+ident(
+  def loader "dynamic.ml" 369 13983 14012 "dynamic.ml" 391 14948 14967
+)
+"dynamic.ml" 369 13983 14012 "dynamic.ml" 369 13983 14021
+type(
+  string -> Yaml.yaml
+)
+ident(
+  def yaml_func "dynamic.ml" 369 13983 14022 "dynamic.ml" 391 14948 14967
+)
+"dynamic.ml" 369 13983 14022 "dynamic.ml" 369 13983 14027
+type(
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t
+)
+ident(
+  def req_t "dynamic.ml" 369 13983 14028 "dynamic.ml" 391 14948 14967
+)
+"dynamic.ml" 369 13983 14028 "dynamic.ml" 369 13983 14036
+type(
+  string
+)
+ident(
+  def src_file "dynamic.ml" 370 14039 14043 "dynamic.ml" 391 14948 14967
+)
+"dynamic.ml" 370 14039 14047 "dynamic.ml" 370 14039 14056
+type(
+  string
+)
+"dynamic.ml" 370 14039 14059 "dynamic.ml" 370 14039 14089
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"dynamic.ml" 370 14039 14090 "dynamic.ml" 370 14039 14098
+type(
+  string
+)
+ident(
+  int_ref src_file "dynamic.ml" 369 13983 14028 "dynamic.ml" 369 13983 14036
+)
+"dynamic.ml" 370 14039 14059 "dynamic.ml" 370 14039 14098
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 371 14102 14110 "dynamic.ml" 371 14102 14114
+type(
+  DL.t
+)
+"dynamic.ml" 371 14102 14117 "dynamic.ml" 371 14102 14137
+type(
+  (string -> Yaml.yaml) -> DL.t
+)
+ident(
+  ext_ref DL.load_runtime_data
+)
+"dynamic.ml" 371 14102 14138 "dynamic.ml" 371 14102 14147
+type(
+  string -> Yaml.yaml
+)
+ident(
+  int_ref yaml_func "dynamic.ml" 369 13983 14012 "dynamic.ml" 369 13983 14021
+)
+"dynamic.ml" 371 14102 14117 "dynamic.ml" 371 14102 14147
+call(
+  stack
+)
+type(
+  DL.t
+)
+"dynamic.ml" 372 14151 14159 "dynamic.ml" 372 14151 14168
+type(
+  (string * string) list
+)
+"dynamic.ml" 372 14151 14171 "dynamic.ml" 372 14151 14197
+type(
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t -> (string * string) list
+)
+ident(
+  ext_ref Require.all_required_files
+)
+"dynamic.ml" 372 14151 14198 "dynamic.ml" 372 14151 14203
+type(
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t
+)
+ident(
+  int_ref req_t "dynamic.ml" 369 13983 14022 "dynamic.ml" 369 13983 14027
+)
+"dynamic.ml" 372 14151 14171 "dynamic.ml" 372 14151 14203
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"dynamic.ml" 373 14207 14215 "dynamic.ml" 373 14207 14224
+type(
+  (string * string) list
+)
+"dynamic.ml" 374 14228 14237 "dynamic.ml" 374 14228 14245
+type(
+  string * string -> (string * string) list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"dynamic.ml" 374 14228 14247 "dynamic.ml" 374 14228 14255
+type(
+  string
+)
+ident(
+  int_ref src_file "dynamic.ml" 369 13983 14028 "dynamic.ml" 369 13983 14036
+)
+"dynamic.ml" 374 14228 14256 "dynamic.ml" 374 14228 14265
+type(
+  string
+)
+ident(
+  int_ref norm_file "dynamic.ml" 370 14039 14047 "dynamic.ml" 370 14039 14056
+)
+"dynamic.ml" 374 14228 14246 "dynamic.ml" 374 14228 14266
+type(
+  string * string
+)
+"dynamic.ml" 374 14228 14267 "dynamic.ml" 374 14228 14276
+type(
+  (string * string) list
+)
+ident(
+  int_ref all_files "dynamic.ml" 372 14151 14159 "dynamic.ml" 372 14151 14168
+)
+"dynamic.ml" 374 14228 14237 "dynamic.ml" 374 14228 14276
+call(
+  stack
+)
+type(
+  bool
+)
+"dynamic.ml" 374 14228 14282 "dynamic.ml" 374 14228 14291
+type(
+  (string * string) list
+)
+ident(
+  int_ref all_files "dynamic.ml" 372 14151 14159 "dynamic.ml" 372 14151 14168
+)
+"dynamic.ml" 375 14292 14304 "dynamic.ml" 375 14292 14312
+type(
+  string
+)
+ident(
+  int_ref src_file "dynamic.ml" 369 13983 14028 "dynamic.ml" 369 13983 14036
+)
+"dynamic.ml" 375 14292 14314 "dynamic.ml" 375 14292 14323
+type(
+  string
+)
+ident(
+  int_ref norm_file "dynamic.ml" 370 14039 14047 "dynamic.ml" 370 14039 14056
+)
+"dynamic.ml" 375 14292 14303 "dynamic.ml" 375 14292 14324
+type(
+  string * string
+)
+"dynamic.ml" 375 14292 14326 "dynamic.ml" 375 14292 14335
+type(
+  (string * string) list
+)
+ident(
+  int_ref all_files "dynamic.ml" 372 14151 14159 "dynamic.ml" 372 14151 14168
+)
+"dynamic.ml" 375 14292 14303 "dynamic.ml" 375 14292 14335
+type(
+  (string * string) list
+)
+"dynamic.ml" 374 14228 14234 "dynamic.ml" 375 14292 14335
+type(
+  (string * string) list
+)
+"dynamic.ml" 377 14343 14351 "dynamic.ml" 377 14343 14358
+type(
+  (Utils.StrSet.elt, Utils.StrSet.elt) Hashtbl.t
+)
+"dynamic.ml" 377 14343 14361 "dynamic.ml" 377 14343 14375
+type(
+  int -> (Utils.StrSet.elt, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"dynamic.ml" 377 14343 14376 "dynamic.ml" 377 14343 14379
+type(
+  int
+)
+"dynamic.ml" 377 14343 14361 "dynamic.ml" 377 14343 14379
+call(
+  stack
+)
+type(
+  (Utils.StrSet.elt, Utils.StrSet.elt) Hashtbl.t
+)
+"dynamic.ml" 378 14383 14389 "dynamic.ml" 378 14383 14398
+type(
+  (string * Utils.StrSet.elt -> unit) ->
+  (string * Utils.StrSet.elt) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"dynamic.ml" 379 14399 14413 "dynamic.ml" 379 14399 14422
+type(
+  string
+)
+ident(
+  def orig_file "dynamic.ml" 379 14399 14432 "dynamic.ml" 379 14399 14461
+)
+"dynamic.ml" 379 14399 14423 "dynamic.ml" 379 14399 14427
+type(
+  Utils.StrSet.elt
+)
+ident(
+  def file "dynamic.ml" 379 14399 14432 "dynamic.ml" 379 14399 14461
+)
+"dynamic.ml" 379 14399 14412 "dynamic.ml" 379 14399 14428
+type(
+  string * Utils.StrSet.elt
+)
+"dynamic.ml" 379 14399 14432 "dynamic.ml" 379 14399 14443
+type(
+  (Utils.StrSet.elt, Utils.StrSet.elt) Hashtbl.t ->
+  Utils.StrSet.elt -> Utils.StrSet.elt -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"dynamic.ml" 379 14399 14444 "dynamic.ml" 379 14399 14451
+type(
+  (Utils.StrSet.elt, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  int_ref tmp_tbl "dynamic.ml" 377 14343 14351 "dynamic.ml" 377 14343 14358
+)
+"dynamic.ml" 379 14399 14452 "dynamic.ml" 379 14399 14456
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref file "dynamic.ml" 379 14399 14423 "dynamic.ml" 379 14399 14427
+)
+"dynamic.ml" 379 14399 14457 "dynamic.ml" 379 14399 14461
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref file "dynamic.ml" 379 14399 14423 "dynamic.ml" 379 14399 14427
+)
+"dynamic.ml" 379 14399 14432 "dynamic.ml" 379 14399 14461
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 379 14399 14407 "dynamic.ml" 380 14462 14471
+type(
+  string * Utils.StrSet.elt -> unit
+)
+"dynamic.ml" 380 14462 14472 "dynamic.ml" 380 14462 14481
+type(
+  (string * Utils.StrSet.elt) list
+)
+ident(
+  int_ref all_files "dynamic.ml" 373 14207 14215 "dynamic.ml" 373 14207 14224
+)
+"dynamic.ml" 378 14383 14389 "dynamic.ml" 380 14462 14481
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 381 14483 14489 "dynamic.ml" 381 14483 14498
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"dynamic.ml" 382 14500 14514 "dynamic.ml" 382 14500 14523
+type(
+  string
+)
+ident(
+  def orig_file "dynamic.ml" 383 14533 14544 "dynamic.ml" 390 14880 14947
+)
+"dynamic.ml" 382 14500 14524 "dynamic.ml" 382 14500 14528
+type(
+  string
+)
+ident(
+  def file "dynamic.ml" 383 14533 14544 "dynamic.ml" 390 14880 14947
+)
+"dynamic.ml" 382 14500 14513 "dynamic.ml" 382 14500 14529
+type(
+  string * string
+)
+"dynamic.ml" 383 14533 14547 "dynamic.ml" 383 14533 14550
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"dynamic.ml" 383 14533 14552 "dynamic.ml" 383 14533 14573
+type(
+  string -> bool
+)
+ident(
+  ext_ref File_loader.is_native
+)
+"dynamic.ml" 383 14533 14574 "dynamic.ml" 383 14533 14578
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 382 14500 14524 "dynamic.ml" 382 14500 14528
+)
+"dynamic.ml" 383 14533 14551 "dynamic.ml" 383 14533 14579
+call(
+  stack
+)
+type(
+  bool
+)
+"dynamic.ml" 383 14533 14547 "dynamic.ml" 383 14533 14579
+type(
+  bool
+)
+"dynamic.ml" 384 14585 14602 "dynamic.ml" 384 14585 14606
+type(
+  Ast.expr list -> Ast.expr list
+)
+"dynamic.ml" 384 14585 14607 "dynamic.ml" 384 14585 14608
+type(
+  Ast.expr list
+)
+ident(
+  def s "dynamic.ml" 385 14612 14627 "dynamic.ml" 386 14680 14722
+)
+"dynamic.ml" 385 14612 14631 "dynamic.ml" 385 14612 14634
+type(
+  Ast.expr list
+)
+"dynamic.ml" 385 14612 14637 "dynamic.ml" 385 14612 14660
+type(
+  (Utils.StrSet.elt, Utils.StrSet.elt) Hashtbl.t ->
+  Require.t -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref Require.modify_requires
+)
+"dynamic.ml" 385 14612 14661 "dynamic.ml" 385 14612 14668
+type(
+  (Utils.StrSet.elt, Utils.StrSet.elt) Hashtbl.t
+)
+ident(
+  int_ref tmp_tbl "dynamic.ml" 377 14343 14351 "dynamic.ml" 377 14343 14358
+)
+"dynamic.ml" 385 14612 14669 "dynamic.ml" 385 14612 14674
+type(
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t
+)
+ident(
+  int_ref req_t "dynamic.ml" 369 13983 14022 "dynamic.ml" 369 13983 14027
+)
+"dynamic.ml" 385 14612 14675 "dynamic.ml" 385 14612 14676
+type(
+  Ast.expr list
+)
+ident(
+  int_ref s "dynamic.ml" 384 14585 14607 "dynamic.ml" 384 14585 14608
+)
+"dynamic.ml" 385 14612 14637 "dynamic.ml" 385 14612 14676
+call(
+  stack
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 386 14680 14697 "dynamic.ml" 386 14680 14713
+type(
+  DL.t -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref DL.transform_ast
+)
+"dynamic.ml" 386 14680 14714 "dynamic.ml" 386 14680 14718
+type(
+  DL.t
+)
+ident(
+  int_ref da_t "dynamic.ml" 371 14102 14110 "dynamic.ml" 371 14102 14114
+)
+"dynamic.ml" 386 14680 14719 "dynamic.ml" 386 14680 14722
+type(
+  Ast.expr list
+)
+ident(
+  int_ref ast "dynamic.ml" 385 14612 14631 "dynamic.ml" 385 14612 14634
+)
+"dynamic.ml" 386 14680 14697 "dynamic.ml" 386 14680 14722
+call(
+  tail
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 385 14612 14627 "dynamic.ml" 386 14680 14722
+type(
+  Ast.expr list
+)
+"dynamic.ml" 388 14739 14756 "dynamic.ml" 388 14739 14759
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 388 14739 14762 "dynamic.ml" 388 14739 14783
+type(
+  File_loader.t ->
+  ?mod_ast_f:(Ast.expr list -> Ast.expr list) ->
+  ?no_ext:bool -> string -> Cfg.stmt
+)
+ident(
+  ext_ref File_loader.load_file
+)
+"dynamic.ml" 388 14739 14792 "dynamic.ml" 388 14739 14796
+type(
+  bool
+)
+"dynamic.ml" 388 14739 14797 "dynamic.ml" 388 14739 14803
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 369 13983 14005 "dynamic.ml" 369 13983 14011
+)
+"dynamic.ml" 388 14739 14815 "dynamic.ml" 388 14739 14819
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  int_ref modf "dynamic.ml" 384 14585 14602 "dynamic.ml" 384 14585 14606
+)
+"dynamic.ml" 388 14739 14820 "dynamic.ml" 388 14739 14824
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 382 14500 14524 "dynamic.ml" 382 14500 14528
+)
+"dynamic.ml" 388 14739 14762 "dynamic.ml" 388 14739 14824
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 389 14828 14845 "dynamic.ml" 389 14828 14848
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 389 14828 14851 "dynamic.ml" 389 14828 14867
+type(
+  DL.t -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref DL.transform_cfg
+)
+"dynamic.ml" 389 14828 14868 "dynamic.ml" 389 14828 14872
+type(
+  DL.t
+)
+ident(
+  int_ref da_t "dynamic.ml" 371 14102 14110 "dynamic.ml" 371 14102 14114
+)
+"dynamic.ml" 389 14828 14873 "dynamic.ml" 389 14828 14876
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 388 14739 14756 "dynamic.ml" 388 14739 14759
+)
+"dynamic.ml" 389 14828 14851 "dynamic.ml" 389 14828 14876
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 390 14880 14895 "dynamic.ml" 390 14880 14918
+type(
+  ?no_ext:bool -> File_loader.t -> string -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref File_loader.update_file
+)
+"dynamic.ml" 390 14880 14927 "dynamic.ml" 390 14880 14931
+type(
+  bool
+)
+"dynamic.ml" 390 14880 14932 "dynamic.ml" 390 14880 14938
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 369 13983 14005 "dynamic.ml" 369 13983 14011
+)
+"dynamic.ml" 390 14880 14939 "dynamic.ml" 390 14880 14943
+type(
+  string
+)
+ident(
+  int_ref file "dynamic.ml" 382 14500 14524 "dynamic.ml" 382 14500 14528
+)
+"dynamic.ml" 390 14880 14944 "dynamic.ml" 390 14880 14947
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 389 14828 14845 "dynamic.ml" 389 14828 14848
+)
+"dynamic.ml" 390 14880 14895 "dynamic.ml" 390 14880 14947
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 389 14828 14841 "dynamic.ml" 390 14880 14947
+type(
+  unit
+)
+"dynamic.ml" 388 14739 14752 "dynamic.ml" 390 14880 14947
+type(
+  unit
+)
+"dynamic.ml" 384 14585 14598 "dynamic.ml" 390 14880 14947
+type(
+  unit
+)
+"dynamic.ml" 383 14533 14544 "dynamic.ml" 390 14880 14947
+type(
+  unit
+)
+"dynamic.ml" 382 14500 14508 "dynamic.ml" 391 14948 14957
+type(
+  string * string -> unit
+)
+"dynamic.ml" 391 14948 14958 "dynamic.ml" 391 14948 14967
+type(
+  (string * string) list
+)
+ident(
+  int_ref all_files "dynamic.ml" 373 14207 14215 "dynamic.ml" 373 14207 14224
+)
+"dynamic.ml" 381 14483 14489 "dynamic.ml" 391 14948 14967
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 378 14383 14389 "dynamic.ml" 391 14948 14967
+type(
+  unit
+)
+"dynamic.ml" 377 14343 14347 "dynamic.ml" 391 14948 14967
+type(
+  unit
+)
+"dynamic.ml" 373 14207 14211 "dynamic.ml" 391 14948 14967
+type(
+  unit
+)
+"dynamic.ml" 372 14151 14155 "dynamic.ml" 391 14948 14967
+type(
+  unit
+)
+"dynamic.ml" 371 14102 14106 "dynamic.ml" 391 14948 14967
+type(
+  unit
+)
+"dynamic.ml" 370 14039 14043 "dynamic.ml" 391 14948 14967
+type(
+  unit
+)
+"dynamic.ml" 393 14969 14975 "dynamic.ml" 393 14969 14989
+type(
+  t -> File_loader.t -> t
+)
+ident(
+  def tmpdir_rubylib "dynamic.ml" 399 15220 15222 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 393 14969 14990 "dynamic.ml" 393 14969 14991
+type(
+  t
+)
+ident(
+  def t "dynamic.ml" 393 14969 14992 "dynamic.ml" 397 15167 15212
+)
+"dynamic.ml" 393 14969 14992 "dynamic.ml" 393 14969 14998
+type(
+  File_loader.t
+)
+ident(
+  def loader "dynamic.ml" 394 15002 15006 "dynamic.ml" 397 15167 15212
+)
+"dynamic.ml" 394 15002 15010 "dynamic.ml" 394 15002 15014
+type(
+  string
+)
+"dynamic.ml" 394 15002 15017 "dynamic.ml" 394 15002 15044
+type(
+  File_loader.t -> string
+)
+ident(
+  ext_ref File_loader.lib_dirs_string
+)
+"dynamic.ml" 394 15002 15045 "dynamic.ml" 394 15002 15051
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 393 14969 14992 "dynamic.ml" 393 14969 14998
+)
+"dynamic.ml" 394 15002 15017 "dynamic.ml" 394 15002 15051
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 395 15055 15063 "dynamic.ml" 395 15055 15070
+type(
+  string
+)
+"dynamic.ml" 395 15055 15073 "dynamic.ml" 395 15055 15088
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"dynamic.ml" 395 15055 15089 "dynamic.ml" 395 15055 15111
+type(
+  string
+)
+ident(
+  ext_ref Filename.temp_dir_name
+)
+"dynamic.ml" 395 15055 15112 "dynamic.ml" 395 15055 15113
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 393 14969 14990 "dynamic.ml" 393 14969 14991
+)
+"dynamic.ml" 395 15055 15112 "dynamic.ml" 395 15055 15121
+type(
+  string
+)
+"dynamic.ml" 395 15055 15073 "dynamic.ml" 395 15055 15121
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 396 15125 15133 "dynamic.ml" 396 15125 15140
+type(
+  string
+)
+"dynamic.ml" 396 15125 15143 "dynamic.ml" 396 15125 15150
+type(
+  string
+)
+ident(
+  int_ref tmp_dir "dynamic.ml" 395 15055 15063 "dynamic.ml" 395 15055 15070
+)
+"dynamic.ml" 396 15125 15151 "dynamic.ml" 396 15125 15152
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 396 15125 15153 "dynamic.ml" 396 15125 15156
+type(
+  string
+)
+"dynamic.ml" 396 15125 15157 "dynamic.ml" 396 15125 15158
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 396 15125 15159 "dynamic.ml" 396 15125 15163
+type(
+  string
+)
+ident(
+  int_ref orig "dynamic.ml" 394 15002 15010 "dynamic.ml" 394 15002 15014
+)
+"dynamic.ml" 396 15125 15153 "dynamic.ml" 396 15125 15163
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 396 15125 15143 "dynamic.ml" 396 15125 15163
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 397 15167 15174 "dynamic.ml" 397 15167 15175
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 393 14969 14990 "dynamic.ml" 393 14969 14991
+)
+"dynamic.ml" 397 15167 15191 "dynamic.ml" 397 15167 15201
+type(
+  string
+)
+"dynamic.ml" 397 15167 15202 "dynamic.ml" 397 15167 15203
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 397 15167 15204 "dynamic.ml" 397 15167 15211
+type(
+  string
+)
+ident(
+  int_ref rubylib "dynamic.ml" 396 15125 15133 "dynamic.ml" 396 15125 15140
+)
+"dynamic.ml" 397 15167 15191 "dynamic.ml" 397 15167 15211
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 397 15167 15173 "dynamic.ml" 397 15167 15212
+type(
+  t
+)
+"dynamic.ml" 396 15125 15129 "dynamic.ml" 397 15167 15212
+type(
+  t
+)
+"dynamic.ml" 395 15055 15059 "dynamic.ml" 397 15167 15212
+type(
+  t
+)
+"dynamic.ml" 394 15002 15006 "dynamic.ml" 397 15167 15212
+type(
+  t
+)
+"dynamic.ml" 399 15220 15226 "dynamic.ml" 399 15220 15233
+type(
+  File_loader.t -> string -> unit
+)
+ident(
+  def profile "dynamic.ml" 432 16376 16378 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 399 15220 15234 "dynamic.ml" 399 15220 15240
+type(
+  File_loader.t
+)
+ident(
+  def loader "dynamic.ml" 399 15220 15241 "dynamic.ml" 430 16329 16374
+)
+"dynamic.ml" 399 15220 15241 "dynamic.ml" 399 15220 15250
+type(
+  string
+)
+ident(
+  def src_fname "dynamic.ml" 403 15327 15331 "dynamic.ml" 430 16329 16374
+)
+"dynamic.ml" 403 15327 15335 "dynamic.ml" 403 15327 15337
+type(
+  unit
+)
+"dynamic.ml" 403 15327 15340 "dynamic.ml" 403 15327 15352
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Mining.reset
+)
+"dynamic.ml" 403 15327 15353 "dynamic.ml" 403 15327 15355
+type(
+  unit
+)
+"dynamic.ml" 403 15327 15340 "dynamic.ml" 403 15327 15355
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 405 15360 15368 "dynamic.ml" 405 15360 15369
+type(
+  t
+)
+"dynamic.ml" 405 15360 15372 "dynamic.ml" 405 15360 15376
+type(
+  File_loader.t -> string -> t
+)
+ident(
+  int_ref init "dynamic.ml" 358 13614 13620 "dynamic.ml" 358 13614 13624
+)
+"dynamic.ml" 405 15360 15377 "dynamic.ml" 405 15360 15383
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 399 15220 15234 "dynamic.ml" 399 15220 15240
+)
+"dynamic.ml" 405 15360 15384 "dynamic.ml" 405 15360 15393
+type(
+  string
+)
+ident(
+  int_ref src_fname "dynamic.ml" 399 15220 15241 "dynamic.ml" 399 15220 15250
+)
+"dynamic.ml" 405 15360 15372 "dynamic.ml" 405 15360 15393
+call(
+  stack
+)
+type(
+  t
+)
+"dynamic.ml" 408 15427 15435 "dynamic.ml" 408 15427 15440
+type(
+  Require.Data.t
+)
+"dynamic.ml" 408 15427 15443 "dynamic.ml" 408 15427 15458
+type(
+  t -> Require.Data.t
+)
+ident(
+  int_ref gather_requires "dynamic.ml" 348 13132 13138 "dynamic.ml" 348 13132 13153
+)
+"dynamic.ml" 408 15427 15459 "dynamic.ml" 408 15427 15460
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 405 15360 15368 "dynamic.ml" 405 15360 15369
+)
+"dynamic.ml" 408 15427 15443 "dynamic.ml" 408 15427 15460
+call(
+  stack
+)
+type(
+  Require.Data.t
+)
+"dynamic.ml" 411 15491 15499 "dynamic.ml" 411 15491 15500
+type(
+  t
+)
+"dynamic.ml" 411 15491 15503 "dynamic.ml" 411 15491 15517
+type(
+  t -> File_loader.t -> t
+)
+ident(
+  int_ref tmpdir_rubylib "dynamic.ml" 393 14969 14975 "dynamic.ml" 393 14969 14989
+)
+"dynamic.ml" 411 15491 15518 "dynamic.ml" 411 15491 15519
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 405 15360 15368 "dynamic.ml" 405 15360 15369
+)
+"dynamic.ml" 411 15491 15520 "dynamic.ml" 411 15491 15526
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 399 15220 15234 "dynamic.ml" 399 15220 15240
+)
+"dynamic.ml" 411 15491 15503 "dynamic.ml" 411 15491 15526
+call(
+  stack
+)
+type(
+  t
+)
+"dynamic.ml" 412 15530 15538 "dynamic.ml" 412 15530 15549
+type(
+  File_loader.t
+)
+"dynamic.ml" 412 15530 15552 "dynamic.ml" 412 15530 15570
+type(
+  File_loader.c_handler -> string list -> File_loader.t
+)
+ident(
+  ext_ref File_loader.create
+)
+"dynamic.ml" 412 15530 15571 "dynamic.ml" 412 15530 15591
+type(
+  File_loader.c_handler
+)
+"dynamic.ml" 412 15530 15592 "dynamic.ml" 412 15530 15594
+type(
+  string list
+)
+"dynamic.ml" 412 15530 15552 "dynamic.ml" 412 15530 15594
+call(
+  stack
+)
+type(
+  File_loader.t
+)
+"dynamic.ml" 413 15598 15606 "dynamic.ml" 413 15598 15614
+type(
+  Utils.StrSet.elt
+)
+"dynamic.ml" 413 15598 15615 "dynamic.ml" 413 15598 15619
+type(
+  string list
+)
+"dynamic.ml" 413 15598 15606 "dynamic.ml" 413 15598 15619
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 413 15598 15622 "dynamic.ml" 413 15598 15641
+type(
+  File_loader.t ->
+  t ->
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t ->
+  Utils.StrSet.elt * string list
+)
+ident(
+  int_ref instrument_and_save "dynamic.ml" 254 9159 9165 "dynamic.ml" 254 9159 9184
+)
+"dynamic.ml" 413 15598 15642 "dynamic.ml" 413 15598 15653
+type(
+  File_loader.t
+)
+ident(
+  int_ref fake_loader "dynamic.ml" 412 15530 15538 "dynamic.ml" 412 15530 15549
+)
+"dynamic.ml" 413 15598 15654 "dynamic.ml" 413 15598 15655
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 411 15491 15499 "dynamic.ml" 411 15491 15500
+)
+"dynamic.ml" 413 15598 15656 "dynamic.ml" 413 15598 15661
+type(
+  Require.Data.t
+)
+ident(
+  int_ref req_t "dynamic.ml" 408 15427 15435 "dynamic.ml" 408 15427 15440
+)
+"dynamic.ml" 413 15598 15622 "dynamic.ml" 413 15598 15661
+call(
+  stack
+)
+type(
+  Utils.StrSet.elt * string list
+)
+"dynamic.ml" 416 15710 15718 "dynamic.ml" 416 15710 15720
+type(
+  unit
+)
+"dynamic.ml" 417 15724 15734 "dynamic.ml" 417 15724 15741
+type(
+  string
+)
+"dynamic.ml" 417 15724 15744 "dynamic.ml" 417 15724 15759
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"dynamic.ml" 417 15724 15760 "dynamic.ml" 417 15724 15782
+type(
+  string
+)
+ident(
+  ext_ref Filename.temp_dir_name
+)
+"dynamic.ml" 417 15724 15783 "dynamic.ml" 417 15724 15784
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 411 15491 15499 "dynamic.ml" 411 15491 15500
+)
+"dynamic.ml" 417 15724 15783 "dynamic.ml" 417 15724 15792
+type(
+  string
+)
+"dynamic.ml" 417 15724 15744 "dynamic.ml" 417 15724 15792
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 420 15884 15894 "dynamic.ml" 420 15884 15903
+type(
+  string
+)
+"dynamic.ml" 420 15884 15906 "dynamic.ml" 420 15884 15923
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"dynamic.ml" 420 15884 15924 "dynamic.ml" 420 15884 15925
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 411 15491 15499 "dynamic.ml" 411 15491 15500
+)
+"dynamic.ml" 420 15884 15924 "dynamic.ml" 420 15884 15939
+type(
+  string
+)
+"dynamic.ml" 420 15884 15906 "dynamic.ml" 420 15884 15939
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 421 15943 15953 "dynamic.ml" 421 15943 15962
+type(
+  string
+)
+"dynamic.ml" 421 15943 15966 "dynamic.ml" 421 15943 15981
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"dynamic.ml" 421 15943 15982 "dynamic.ml" 421 15943 15989
+type(
+  string
+)
+ident(
+  int_ref out_dir "dynamic.ml" 417 15724 15734 "dynamic.ml" 417 15724 15741
+)
+"dynamic.ml" 421 15943 15990 "dynamic.ml" 421 15943 15999
+type(
+  string
+)
+ident(
+  int_ref out_fname "dynamic.ml" 420 15884 15894 "dynamic.ml" 420 15884 15903
+)
+"dynamic.ml" 421 15943 15965 "dynamic.ml" 421 15943 16000
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 421 15943 16001 "dynamic.ml" 421 15943 16002
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dynamic.ml" 421 15943 16003 "dynamic.ml" 421 15943 16016
+type(
+  string
+)
+"dynamic.ml" 421 15943 15965 "dynamic.ml" 421 15943 16016
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 423 16060 16068 "dynamic.ml" 423 16060 16089
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mining.output_to_yaml
+)
+"dynamic.ml" 423 16060 16090 "dynamic.ml" 423 16060 16099
+type(
+  string
+)
+ident(
+  int_ref out_fname "dynamic.ml" 421 15943 15953 "dynamic.ml" 421 15943 15962
+)
+"dynamic.ml" 423 16060 16068 "dynamic.ml" 423 16060 16099
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 421 15943 15949 "dynamic.ml" 423 16060 16099
+type(
+  unit
+)
+"dynamic.ml" 420 15884 15890 "dynamic.ml" 423 16060 16099
+type(
+  unit
+)
+"dynamic.ml" 417 15724 15730 "dynamic.ml" 423 16060 16099
+type(
+  unit
+)
+"dynamic.ml" 426 16108 16116 "dynamic.ml" 426 16108 16124
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 426 16108 16127 "dynamic.ml" 426 16108 16139
+type(
+  ?append:bool -> t -> string list -> Cfg.stmt
+)
+ident(
+  int_ref profile_init "dynamic.ml" 326 12165 12171 "dynamic.ml" 326 12165 12183
+)
+"dynamic.ml" 426 16108 16148 "dynamic.ml" 426 16108 16152
+type(
+  bool
+)
+"dynamic.ml" 426 16108 16153 "dynamic.ml" 426 16108 16154
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 411 15491 15499 "dynamic.ml" 411 15491 15500
+)
+"dynamic.ml" 426 16108 16155 "dynamic.ml" 426 16108 16170
+type(
+  string list
+)
+ident(
+  ext_ref DL.profile_libs
+)
+"dynamic.ml" 426 16108 16127 "dynamic.ml" 426 16108 16170
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 427 16174 16182 "dynamic.ml" 427 16174 16190
+type(
+  string
+)
+"dynamic.ml" 427 16174 16193 "dynamic.ml" 427 16174 16209
+type(
+  t -> Cfg.stmt -> string
+)
+ident(
+  int_ref emit_initializer "dynamic.ml" 311 11601 11607 "dynamic.ml" 311 11601 11623
+)
+"dynamic.ml" 427 16174 16210 "dynamic.ml" 427 16174 16211
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 411 15491 15499 "dynamic.ml" 411 15491 15500
+)
+"dynamic.ml" 427 16174 16212 "dynamic.ml" 427 16174 16220
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref init_cfg "dynamic.ml" 426 16108 16116 "dynamic.ml" 426 16108 16124
+)
+"dynamic.ml" 427 16174 16193 "dynamic.ml" 427 16174 16220
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 428 16224 16232 "dynamic.ml" 428 16224 16239
+type(
+  string list
+)
+"dynamic.ml" 428 16224 16243 "dynamic.ml" 428 16224 16251
+type(
+  string
+)
+ident(
+  int_ref init_tmp "dynamic.ml" 427 16174 16182 "dynamic.ml" 427 16174 16190
+)
+"dynamic.ml" 428 16224 16252 "dynamic.ml" 428 16224 16275
+type(
+  string
+)
+"dynamic.ml" 428 16224 16242 "dynamic.ml" 428 16224 16276
+type(
+  string list
+)
+"dynamic.ml" 429 16280 16286 "dynamic.ml" 429 16280 16303
+type(
+  t -> Utils.StrSet.elt list -> Utils.StrSet.elt -> bool -> unit
+)
+ident(
+  int_ref execute_ruby_file "dynamic.ml" 132 4330 4336 "dynamic.ml" 132 4330 4353
+)
+"dynamic.ml" 429 16280 16304 "dynamic.ml" 429 16280 16305
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 411 15491 15499 "dynamic.ml" 411 15491 15500
+)
+"dynamic.ml" 429 16280 16306 "dynamic.ml" 429 16280 16313
+type(
+  Utils.StrSet.elt list
+)
+ident(
+  int_ref preload "dynamic.ml" 428 16224 16232 "dynamic.ml" 428 16224 16239
+)
+"dynamic.ml" 429 16280 16314 "dynamic.ml" 429 16280 16322
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref main_tmp "dynamic.ml" 413 15598 15606 "dynamic.ml" 413 15598 15614
+)
+"dynamic.ml" 429 16280 16323 "dynamic.ml" 429 16280 16327
+type(
+  bool
+)
+"dynamic.ml" 429 16280 16286 "dynamic.ml" 429 16280 16327
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 430 16329 16335 "dynamic.ml" 430 16329 16352
+type(
+  t -> string list -> unit -> unit
+)
+ident(
+  int_ref remove_temp_files "dynamic.ml" 303 11366 11372 "dynamic.ml" 303 11366 11389
+)
+"dynamic.ml" 430 16329 16353 "dynamic.ml" 430 16329 16354
+type(
+  t
+)
+ident(
+  int_ref t "dynamic.ml" 411 15491 15499 "dynamic.ml" 411 15491 15500
+)
+"dynamic.ml" 430 16329 16356 "dynamic.ml" 430 16329 16364
+type(
+  string
+)
+ident(
+  int_ref init_tmp "dynamic.ml" 427 16174 16182 "dynamic.ml" 427 16174 16190
+)
+"dynamic.ml" 430 16329 16366 "dynamic.ml" 430 16329 16370
+type(
+  string list
+)
+ident(
+  int_ref tmps "dynamic.ml" 413 15598 15615 "dynamic.ml" 413 15598 15619
+)
+"dynamic.ml" 430 16329 16355 "dynamic.ml" 430 16329 16371
+type(
+  string list
+)
+"dynamic.ml" 430 16329 16372 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 430 16329 16335 "dynamic.ml" 430 16329 16374
+call(
+  tail
+)
+type(
+  unit
+)
+"dynamic.ml" 429 16280 16286 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 428 16224 16228 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 427 16174 16178 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 426 16108 16112 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 416 15710 15714 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 413 15598 15602 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 412 15530 15534 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 411 15491 15495 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 408 15427 15431 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 405 15360 15364 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 403 15327 15331 "dynamic.ml" 430 16329 16374
+type(
+  unit
+)
+"dynamic.ml" 432 16376 16382 "dynamic.ml" 432 16376 16391
+type(
+  File_loader.t -> string -> Cfg.stmt
+)
+ident(
+  def transform "dynamic.ml" 441 16779 16781 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 432 16376 16392 "dynamic.ml" 432 16376 16398
+type(
+  File_loader.t
+)
+ident(
+  def loader "dynamic.ml" 432 16376 16399 "dynamic.ml" 439 16768 16777
+)
+"dynamic.ml" 432 16376 16399 "dynamic.ml" 432 16376 16408
+type(
+  string
+)
+ident(
+  def src_fname "dynamic.ml" 433 16412 16416 "dynamic.ml" 439 16768 16777
+)
+"dynamic.ml" 433 16412 16420 "dynamic.ml" 433 16412 16425
+type(
+  Require.Data.t
+)
+"dynamic.ml" 433 16412 16428 "dynamic.ml" 433 16412 16453
+type(
+  (YamlCollection.Map.key -> Yaml.YRaw.t) -> Require.Data.t
+)
+ident(
+  ext_ref Require.load_runtime_data
+)
+"dynamic.ml" 433 16412 16455 "dynamic.ml" 433 16412 16469
+type(
+  string -> YamlCollection.Map.key -> Yaml.YRaw.t
+)
+ident(
+  int_ref yaml_load_func "dynamic.ml" 338 12734 12740 "dynamic.ml" 338 12734 12754
+)
+"dynamic.ml" 433 16412 16470 "dynamic.ml" 433 16412 16474
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"dynamic.ml" 433 16412 16470 "dynamic.ml" 433 16412 16485
+type(
+  string
+)
+"dynamic.ml" 433 16412 16454 "dynamic.ml" 433 16412 16486
+call(
+  stack
+)
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+"dynamic.ml" 433 16412 16428 "dynamic.ml" 433 16412 16486
+call(
+  stack
+)
+type(
+  Require.Data.t
+)
+"dynamic.ml" 434 16490 16498 "dynamic.ml" 434 16490 16499
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+"dynamic.ml" 434 16490 16502 "dynamic.ml" 434 16490 16516
+type(
+  string -> YamlCollection.Map.key -> Yaml.YRaw.t
+)
+ident(
+  int_ref yaml_load_func "dynamic.ml" 338 12734 12740 "dynamic.ml" 338 12734 12754
+)
+"dynamic.ml" 434 16490 16517 "dynamic.ml" 434 16490 16521
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"dynamic.ml" 434 16490 16517 "dynamic.ml" 434 16490 16532
+type(
+  string
+)
+"dynamic.ml" 434 16490 16502 "dynamic.ml" 434 16490 16532
+call(
+  stack
+)
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+"dynamic.ml" 436 16561 16569 "dynamic.ml" 436 16561 16571
+type(
+  unit
+)
+"dynamic.ml" 436 16561 16574 "dynamic.ml" 436 16561 16589
+type(
+  File_loader.t ->
+  (YamlCollection.Map.key -> Yaml.YRaw.t) ->
+  Yaml.YList(Require.CoDomain).t Require.Data.Map.t -> string -> unit
+)
+ident(
+  int_ref transform_files "dynamic.ml" 369 13983 13989 "dynamic.ml" 369 13983 14004
+)
+"dynamic.ml" 436 16561 16590 "dynamic.ml" 436 16561 16596
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 432 16376 16392 "dynamic.ml" 432 16376 16398
+)
+"dynamic.ml" 436 16561 16597 "dynamic.ml" 436 16561 16598
+type(
+  YamlCollection.Map.key -> Yaml.YRaw.t
+)
+ident(
+  int_ref f "dynamic.ml" 434 16490 16498 "dynamic.ml" 434 16490 16499
+)
+"dynamic.ml" 436 16561 16599 "dynamic.ml" 436 16561 16604
+type(
+  Require.Data.t
+)
+ident(
+  int_ref req_t "dynamic.ml" 433 16412 16420 "dynamic.ml" 433 16412 16425
+)
+"dynamic.ml" 436 16561 16605 "dynamic.ml" 436 16561 16614
+type(
+  string
+)
+ident(
+  int_ref src_fname "dynamic.ml" 432 16376 16399 "dynamic.ml" 432 16376 16408
+)
+"dynamic.ml" 436 16561 16574 "dynamic.ml" 436 16561 16614
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 437 16618 16626 "dynamic.ml" 437 16618 16628
+type(
+  unit
+)
+"dynamic.ml" 437 16618 16638 "dynamic.ml" 437 16618 16664
+type(
+  ?no_ext:bool -> File_loader.t -> string -> bool
+)
+ident(
+  ext_ref File_loader.already_loaded
+)
+"dynamic.ml" 437 16618 16673 "dynamic.ml" 437 16618 16677
+type(
+  bool
+)
+"dynamic.ml" 437 16618 16678 "dynamic.ml" 437 16618 16684
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 432 16376 16392 "dynamic.ml" 432 16376 16398
+)
+"dynamic.ml" 437 16618 16685 "dynamic.ml" 437 16618 16694
+type(
+  string
+)
+ident(
+  int_ref src_fname "dynamic.ml" 432 16376 16399 "dynamic.ml" 432 16376 16408
+)
+"dynamic.ml" 437 16618 16637 "dynamic.ml" 437 16618 16695
+call(
+  stack
+)
+type(
+  bool
+)
+"dynamic.ml" 437 16618 16631 "dynamic.ml" 437 16618 16695
+type(
+  unit
+)
+"dynamic.ml" 438 16699 16707 "dynamic.ml" 438 16699 16710
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 438 16699 16713 "dynamic.ml" 438 16699 16734
+type(
+  File_loader.t ->
+  ?mod_ast_f:(Ast.expr list -> Ast.expr list) ->
+  ?no_ext:bool -> string -> Cfg.stmt
+)
+ident(
+  ext_ref File_loader.load_file
+)
+"dynamic.ml" 438 16699 16743 "dynamic.ml" 438 16699 16747
+type(
+  bool
+)
+"dynamic.ml" 438 16699 16748 "dynamic.ml" 438 16699 16754
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 432 16376 16392 "dynamic.ml" 432 16376 16398
+)
+"dynamic.ml" 438 16699 16755 "dynamic.ml" 438 16699 16764
+type(
+  string
+)
+ident(
+  int_ref src_fname "dynamic.ml" 432 16376 16399 "dynamic.ml" 432 16376 16408
+)
+"dynamic.ml" 438 16699 16713 "dynamic.ml" 438 16699 16764
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 439 16768 16774 "dynamic.ml" 439 16768 16777
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 438 16699 16707 "dynamic.ml" 438 16699 16710
+)
+"dynamic.ml" 438 16699 16703 "dynamic.ml" 439 16768 16777
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 437 16618 16622 "dynamic.ml" 439 16768 16777
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 436 16561 16565 "dynamic.ml" 439 16768 16777
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 434 16490 16494 "dynamic.ml" 439 16768 16777
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 433 16412 16416 "dynamic.ml" 439 16768 16777
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 441 16779 16785 "dynamic.ml" 441 16779 16788
+type(
+  File_loader.t -> string -> Cfg.stmt
+)
+ident(
+  def run "dynamic.ml" 443 16839 16869 "dynamic.ml" 446 16876 16879
+)
+"dynamic.ml" 441 16779 16789 "dynamic.ml" 441 16779 16795
+type(
+  File_loader.t
+)
+ident(
+  def loader "dynamic.ml" 441 16779 16796 "dynamic.ml" 443 16839 16869
+)
+"dynamic.ml" 441 16779 16796 "dynamic.ml" 441 16779 16805
+type(
+  string
+)
+ident(
+  def src_fname "dynamic.ml" 442 16809 16813 "dynamic.ml" 443 16839 16869
+)
+"dynamic.ml" 442 16809 16813 "dynamic.ml" 442 16809 16820
+type(
+  File_loader.t -> string -> unit
+)
+ident(
+  int_ref profile "dynamic.ml" 399 15220 15226 "dynamic.ml" 399 15220 15233
+)
+"dynamic.ml" 442 16809 16821 "dynamic.ml" 442 16809 16827
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 441 16779 16789 "dynamic.ml" 441 16779 16795
+)
+"dynamic.ml" 442 16809 16828 "dynamic.ml" 442 16809 16837
+type(
+  string
+)
+ident(
+  int_ref src_fname "dynamic.ml" 441 16779 16796 "dynamic.ml" 441 16779 16805
+)
+"dynamic.ml" 442 16809 16813 "dynamic.ml" 442 16809 16837
+call(
+  stack
+)
+type(
+  unit
+)
+"dynamic.ml" 443 16839 16843 "dynamic.ml" 443 16839 16852
+type(
+  File_loader.t -> string -> Cfg.stmt
+)
+ident(
+  int_ref transform "dynamic.ml" 432 16376 16382 "dynamic.ml" 432 16376 16391
+)
+"dynamic.ml" 443 16839 16853 "dynamic.ml" 443 16839 16859
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dynamic.ml" 441 16779 16789 "dynamic.ml" 441 16779 16795
+)
+"dynamic.ml" 443 16839 16860 "dynamic.ml" 443 16839 16869
+type(
+  string
+)
+ident(
+  int_ref src_fname "dynamic.ml" 441 16779 16796 "dynamic.ml" 441 16779 16805
+)
+"dynamic.ml" 443 16839 16843 "dynamic.ml" 443 16839 16869
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 442 16809 16813 "dynamic.ml" 443 16839 16869
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 451 16966 17022 "dynamic.ml" 451 16966 17039
+call(
+  stack
+)
+"dynamic.ml" 451 16966 16983 "dynamic.ml" 451 16966 17040
+call(
+  stack
+)
+"dynamic.ml" 455 17080 17086 "dynamic.ml" 455 17080 17098
+type(
+  string list
+)
+ident(
+  def profile_libs "dynamic.ml" 457 17130 17132 "dynamic.ml" 480 17910 17913
+)
+"dynamic.ml" 455 17080 17101 "dynamic.ml" 455 17080 17107
+type(
+  string
+)
+ident(
+  ext_ref X.name
+)
+"dynamic.ml" 455 17080 17109 "dynamic.ml" 455 17080 17124
+type(
+  string list
+)
+ident(
+  ext_ref XS.profile_libs
+)
+"dynamic.ml" 455 17080 17101 "dynamic.ml" 455 17080 17124
+type(
+  string list
+)
+"dynamic.ml" 457 17130 17136 "dynamic.ml" 457 17130 17141
+type(
+  [> `Cons of 'a XData.Map.t * XS.t ]
+)
+ident(
+  def empty "dynamic.ml" 459 17177 17179 "dynamic.ml" 480 17910 17913
+)
+"dynamic.ml" 457 17130 17150 "dynamic.ml" 457 17130 17165
+type(
+  'a XData.Map.t
+)
+ident(
+  ext_ref XData.Map.empty
+)
+"dynamic.ml" 457 17130 17166 "dynamic.ml" 457 17130 17174
+type(
+  XS.t
+)
+ident(
+  ext_ref XS.empty
+)
+"dynamic.ml" 457 17130 17149 "dynamic.ml" 457 17130 17175
+type(
+  'a XData.Map.t * XS.t
+)
+"dynamic.ml" 457 17130 17144 "dynamic.ml" 457 17130 17175
+type(
+  [> `Cons of 'a XData.Map.t * XS.t ] as 'b
+)
+"dynamic.ml" 459 17177 17183 "dynamic.ml" 459 17177 17197
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  def instrument_ast "dynamic.ml" 460 17245 17247 "dynamic.ml" 480 17910 17913
+)
+"dynamic.ml" 459 17177 17198 "dynamic.ml" 459 17177 17201
+type(
+  Ast.expr list
+)
+ident(
+  def ast "dynamic.ml" 459 17177 17204 "dynamic.ml" 459 17177 17244
+)
+"dynamic.ml" 459 17177 17204 "dynamic.ml" 459 17177 17221
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref XS.instrument_ast
+)
+"dynamic.ml" 459 17177 17223 "dynamic.ml" 459 17177 17239
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref X.instrument_ast
+)
+"dynamic.ml" 459 17177 17240 "dynamic.ml" 459 17177 17243
+type(
+  Ast.expr list
+)
+ident(
+  int_ref ast "dynamic.ml" 459 17177 17198 "dynamic.ml" 459 17177 17201
+)
+"dynamic.ml" 459 17177 17222 "dynamic.ml" 459 17177 17244
+call(
+  stack
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 459 17177 17204 "dynamic.ml" 459 17177 17244
+call(
+  tail
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 460 17245 17251 "dynamic.ml" 460 17245 17265
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def instrument_cfg "dynamic.ml" 462 17314 17316 "dynamic.ml" 480 17910 17913
+)
+"dynamic.ml" 460 17245 17266 "dynamic.ml" 460 17245 17269
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "dynamic.ml" 460 17245 17272 "dynamic.ml" 460 17245 17312
+)
+"dynamic.ml" 460 17245 17272 "dynamic.ml" 460 17245 17289
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref XS.instrument_cfg
+)
+"dynamic.ml" 460 17245 17291 "dynamic.ml" 460 17245 17307
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref X.instrument_cfg
+)
+"dynamic.ml" 460 17245 17308 "dynamic.ml" 460 17245 17311
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 460 17245 17266 "dynamic.ml" 460 17245 17269
+)
+"dynamic.ml" 460 17245 17290 "dynamic.ml" 460 17245 17312
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 460 17245 17272 "dynamic.ml" 460 17245 17312
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 462 17314 17320 "dynamic.ml" 462 17314 17337
+type(
+  (string -> Yaml.yaml) -> [> `Cons of XData.t * XS.t ]
+)
+ident(
+  def load_runtime_data "dynamic.ml" 466 17437 17439 "dynamic.ml" 480 17910 17913
+)
+"dynamic.ml" 462 17314 17338 "dynamic.ml" 462 17314 17342
+type(
+  string -> Yaml.yaml
+)
+ident(
+  def func "dynamic.ml" 463 17346 17350 "dynamic.ml" 464 17393 17435
+)
+"dynamic.ml" 463 17346 17354 "dynamic.ml" 463 17346 17359
+type(
+  XData.t
+)
+"dynamic.ml" 463 17346 17362 "dynamic.ml" 463 17346 17375
+type(
+  Yaml.yaml -> XData.t
+)
+ident(
+  ext_ref XData.of_yaml
+)
+"dynamic.ml" 463 17346 17377 "dynamic.ml" 463 17346 17381
+type(
+  string -> Yaml.yaml
+)
+ident(
+  int_ref func "dynamic.ml" 462 17314 17338 "dynamic.ml" 462 17314 17342
+)
+"dynamic.ml" 463 17346 17382 "dynamic.ml" 463 17346 17388
+type(
+  string
+)
+ident(
+  ext_ref X.name
+)
+"dynamic.ml" 463 17346 17376 "dynamic.ml" 463 17346 17389
+call(
+  stack
+)
+type(
+  Yaml.yaml
+)
+"dynamic.ml" 463 17346 17362 "dynamic.ml" 463 17346 17389
+call(
+  stack
+)
+type(
+  XData.t
+)
+"dynamic.ml" 464 17393 17403 "dynamic.ml" 464 17393 17408
+type(
+  XData.t
+)
+ident(
+  int_ref xdata "dynamic.ml" 463 17346 17354 "dynamic.ml" 463 17346 17359
+)
+"dynamic.ml" 464 17393 17409 "dynamic.ml" 464 17393 17429
+type(
+  (string -> Yaml.yaml) -> XS.t
+)
+ident(
+  ext_ref XS.load_runtime_data
+)
+"dynamic.ml" 464 17393 17430 "dynamic.ml" 464 17393 17434
+type(
+  string -> Yaml.yaml
+)
+ident(
+  int_ref func "dynamic.ml" 462 17314 17338 "dynamic.ml" 462 17314 17342
+)
+"dynamic.ml" 464 17393 17409 "dynamic.ml" 464 17393 17434
+call(
+  stack
+)
+type(
+  XS.t
+)
+"dynamic.ml" 464 17393 17402 "dynamic.ml" 464 17393 17435
+type(
+  XData.t * XS.t
+)
+"dynamic.ml" 464 17393 17397 "dynamic.ml" 464 17393 17435
+type(
+  [> `Cons of XData.t * XS.t ] as 'c
+)
+"dynamic.ml" 463 17346 17350 "dynamic.ml" 464 17393 17435
+type(
+  'c
+)
+"dynamic.ml" 466 17437 17443 "dynamic.ml" 466 17437 17449
+type(
+  'd list XData.Map.t -> X.Domain.t -> Lexing.position -> 'd list
+)
+ident(
+  def lookup "dynamic.ml" 472 17658 17660 "dynamic.ml" 480 17910 17913
+)
+"dynamic.ml" 466 17437 17450 "dynamic.ml" 466 17437 17453
+type(
+  'd list XData.Map.t
+)
+ident(
+  def map "dynamic.ml" 466 17437 17454 "dynamic.ml" 470 17622 17648
+)
+"dynamic.ml" 466 17437 17454 "dynamic.ml" 466 17437 17457
+type(
+  X.Domain.t
+)
+ident(
+  def key "dynamic.ml" 466 17437 17458 "dynamic.ml" 470 17622 17648
+)
+"dynamic.ml" 466 17437 17458 "dynamic.ml" 466 17437 17461
+type(
+  Lexing.position
+)
+ident(
+  def pos "dynamic.ml" 467 17465 17469 "dynamic.ml" 470 17622 17648
+)
+"dynamic.ml" 467 17465 17473 "dynamic.ml" 467 17465 17478
+type(
+  string
+)
+"dynamic.ml" 467 17465 17481 "dynamic.ml" 467 17465 17511
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"dynamic.ml" 467 17465 17512 "dynamic.ml" 467 17465 17515
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "dynamic.ml" 466 17437 17458 "dynamic.ml" 466 17437 17461
+)
+"dynamic.ml" 467 17465 17512 "dynamic.ml" 467 17465 17532
+type(
+  string
+)
+"dynamic.ml" 467 17465 17481 "dynamic.ml" 467 17465 17532
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 468 17536 17544 "dynamic.ml" 468 17536 17548
+type(
+  int
+)
+"dynamic.ml" 468 17536 17551 "dynamic.ml" 468 17536 17554
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "dynamic.ml" 466 17437 17458 "dynamic.ml" 466 17437 17461
+)
+"dynamic.ml" 468 17536 17551 "dynamic.ml" 468 17536 17570
+type(
+  int
+)
+"dynamic.ml" 469 17574 17584 "dynamic.ml" 469 17574 17598
+type(
+  XData.Map.key -> 'd list XData.Map.t -> 'd list
+)
+ident(
+  ext_ref XData.Map.find
+)
+"dynamic.ml" 469 17574 17600 "dynamic.ml" 469 17574 17605
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref fname "dynamic.ml" 467 17465 17473 "dynamic.ml" 467 17465 17478
+)
+"dynamic.ml" 469 17574 17607 "dynamic.ml" 469 17574 17611
+type(
+  Yaml.YInt.t
+)
+ident(
+  int_ref lnum "dynamic.ml" 468 17536 17544 "dynamic.ml" 468 17536 17548
+)
+"dynamic.ml" 469 17574 17613 "dynamic.ml" 469 17574 17616
+type(
+  X.Domain.t
+)
+ident(
+  int_ref key "dynamic.ml" 466 17437 17454 "dynamic.ml" 466 17437 17457
+)
+"dynamic.ml" 469 17574 17599 "dynamic.ml" 469 17574 17617
+type(
+  XData.Map.key
+)
+"dynamic.ml" 469 17574 17618 "dynamic.ml" 469 17574 17621
+type(
+  'd list XData.Map.t
+)
+ident(
+  int_ref map "dynamic.ml" 466 17437 17450 "dynamic.ml" 466 17437 17453
+)
+"dynamic.ml" 469 17574 17584 "dynamic.ml" 469 17574 17621
+call(
+  stack
+)
+type(
+  'd list
+)
+"dynamic.ml" 470 17622 17633 "dynamic.ml" 470 17622 17642
+type(
+  exn
+)
+"dynamic.ml" 470 17622 17646 "dynamic.ml" 470 17622 17648
+type(
+  'd list
+)
+"dynamic.ml" 469 17574 17580 "dynamic.ml" 470 17622 17648
+type(
+  'd list
+)
+"dynamic.ml" 468 17536 17540 "dynamic.ml" 470 17622 17648
+type(
+  'd list
+)
+"dynamic.ml" 467 17465 17469 "dynamic.ml" 470 17622 17648
+type(
+  'd list
+)
+"dynamic.ml" 472 17658 17664 "dynamic.ml" 472 17658 17677
+type(
+  [< `Cons of X.CoDomain.t list XData.Map.t * XS.t ] ->
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  def transform_ast "dynamic.ml" 476 17784 17786 "dynamic.ml" 480 17910 17913
+)
+"dynamic.ml" 472 17658 17685 "dynamic.ml" 472 17658 17686
+type(
+  X.CoDomain.t list XData.Map.t
+)
+ident(
+  def t "dynamic.ml" 472 17658 17694 "dynamic.ml" 474 17728 17782
+)
+"dynamic.ml" 472 17658 17687 "dynamic.ml" 472 17658 17691
+type(
+  XS.t
+)
+ident(
+  def rest "dynamic.ml" 472 17658 17694 "dynamic.ml" 474 17728 17782
+)
+"dynamic.ml" 472 17658 17684 "dynamic.ml" 472 17658 17692
+type(
+  X.CoDomain.t list XData.Map.t * XS.t
+)
+"dynamic.ml" 472 17658 17678 "dynamic.ml" 472 17658 17693
+type(
+  [< `Cons of X.CoDomain.t list XData.Map.t * XS.t ] as 'e
+)
+"dynamic.ml" 472 17658 17694 "dynamic.ml" 472 17658 17697
+type(
+  Ast.expr list
+)
+ident(
+  def ast "dynamic.ml" 473 17701 17705 "dynamic.ml" 474 17728 17782
+)
+"dynamic.ml" 473 17701 17709 "dynamic.ml" 473 17701 17713
+type(
+  X.Domain.t -> Cfg.pos -> X.CoDomain.t list
+)
+"dynamic.ml" 473 17701 17716 "dynamic.ml" 473 17701 17722
+type(
+  X.CoDomain.t list XData.Map.t -> X.Domain.t -> Cfg.pos -> X.CoDomain.t list
+)
+ident(
+  int_ref lookup "dynamic.ml" 466 17437 17443 "dynamic.ml" 466 17437 17449
+)
+"dynamic.ml" 473 17701 17723 "dynamic.ml" 473 17701 17724
+type(
+  X.CoDomain.t list XData.Map.t
+)
+ident(
+  int_ref t "dynamic.ml" 472 17658 17685 "dynamic.ml" 472 17658 17686
+)
+"dynamic.ml" 473 17701 17716 "dynamic.ml" 473 17701 17724
+call(
+  stack
+)
+type(
+  X.Domain.t -> Cfg.pos -> X.CoDomain.t list
+)
+"dynamic.ml" 474 17728 17734 "dynamic.ml" 474 17728 17750
+type(
+  XS.t -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref XS.transform_ast
+)
+"dynamic.ml" 474 17728 17751 "dynamic.ml" 474 17728 17755
+type(
+  XS.t
+)
+ident(
+  int_ref rest "dynamic.ml" 472 17658 17687 "dynamic.ml" 472 17658 17691
+)
+"dynamic.ml" 474 17728 17757 "dynamic.ml" 474 17728 17772
+type(
+  (X.Domain.t, X.CoDomain.t) yaml_map -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref X.transform_ast
+)
+"dynamic.ml" 474 17728 17773 "dynamic.ml" 474 17728 17777
+type(
+  (X.Domain.t, X.CoDomain.t) yaml_map
+)
+ident(
+  int_ref func "dynamic.ml" 473 17701 17709 "dynamic.ml" 473 17701 17713
+)
+"dynamic.ml" 474 17728 17778 "dynamic.ml" 474 17728 17781
+type(
+  Ast.expr list
+)
+ident(
+  int_ref ast "dynamic.ml" 472 17658 17694 "dynamic.ml" 472 17658 17697
+)
+"dynamic.ml" 474 17728 17756 "dynamic.ml" 474 17728 17782
+call(
+  stack
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 474 17728 17734 "dynamic.ml" 474 17728 17782
+call(
+  tail
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 473 17701 17705 "dynamic.ml" 474 17728 17782
+type(
+  Ast.expr list
+)
+"dynamic.ml" 476 17784 17790 "dynamic.ml" 476 17784 17803
+type(
+  [< `Cons of X.CoDomain.t list XData.Map.t * XS.t ] -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def transform_cfg "dynamic.ml" 478 17854 17908 "dynamic.ml" 480 17910 17913
+)
+"dynamic.ml" 476 17784 17811 "dynamic.ml" 476 17784 17812
+type(
+  X.CoDomain.t list XData.Map.t
+)
+ident(
+  def t "dynamic.ml" 476 17784 17820 "dynamic.ml" 478 17854 17908
+)
+"dynamic.ml" 476 17784 17813 "dynamic.ml" 476 17784 17817
+type(
+  XS.t
+)
+ident(
+  def rest "dynamic.ml" 476 17784 17820 "dynamic.ml" 478 17854 17908
+)
+"dynamic.ml" 476 17784 17810 "dynamic.ml" 476 17784 17818
+type(
+  X.CoDomain.t list XData.Map.t * XS.t
+)
+"dynamic.ml" 476 17784 17804 "dynamic.ml" 476 17784 17819
+type(
+  [< `Cons of X.CoDomain.t list XData.Map.t * XS.t ] as 'f
+)
+"dynamic.ml" 476 17784 17820 "dynamic.ml" 476 17784 17823
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "dynamic.ml" 477 17827 17831 "dynamic.ml" 478 17854 17908
+)
+"dynamic.ml" 477 17827 17835 "dynamic.ml" 477 17827 17839
+type(
+  X.Domain.t -> Cfg.pos -> X.CoDomain.t list
+)
+"dynamic.ml" 477 17827 17842 "dynamic.ml" 477 17827 17848
+type(
+  X.CoDomain.t list XData.Map.t -> X.Domain.t -> Cfg.pos -> X.CoDomain.t list
+)
+ident(
+  int_ref lookup "dynamic.ml" 466 17437 17443 "dynamic.ml" 466 17437 17449
+)
+"dynamic.ml" 477 17827 17849 "dynamic.ml" 477 17827 17850
+type(
+  X.CoDomain.t list XData.Map.t
+)
+ident(
+  int_ref t "dynamic.ml" 476 17784 17811 "dynamic.ml" 476 17784 17812
+)
+"dynamic.ml" 477 17827 17842 "dynamic.ml" 477 17827 17850
+call(
+  stack
+)
+type(
+  X.Domain.t -> Cfg.pos -> X.CoDomain.t list
+)
+"dynamic.ml" 478 17854 17860 "dynamic.ml" 478 17854 17876
+type(
+  XS.t -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref XS.transform_cfg
+)
+"dynamic.ml" 478 17854 17877 "dynamic.ml" 478 17854 17881
+type(
+  XS.t
+)
+ident(
+  int_ref rest "dynamic.ml" 476 17784 17813 "dynamic.ml" 476 17784 17817
+)
+"dynamic.ml" 478 17854 17883 "dynamic.ml" 478 17854 17898
+type(
+  (X.Domain.t, X.CoDomain.t) yaml_map -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref X.transform_cfg
+)
+"dynamic.ml" 478 17854 17899 "dynamic.ml" 478 17854 17903
+type(
+  (X.Domain.t, X.CoDomain.t) yaml_map
+)
+ident(
+  int_ref func "dynamic.ml" 477 17827 17835 "dynamic.ml" 477 17827 17839
+)
+"dynamic.ml" 478 17854 17904 "dynamic.ml" 478 17854 17907
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 476 17784 17820 "dynamic.ml" 476 17784 17823
+)
+"dynamic.ml" 478 17854 17882 "dynamic.ml" 478 17854 17908
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 478 17854 17860 "dynamic.ml" 478 17854 17908
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 477 17827 17831 "dynamic.ml" 478 17854 17908
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 483 17975 17981 "dynamic.ml" 483 17975 17993
+type(
+  string list
+)
+ident(
+  def profile_libs "dynamic.ml" 485 18006 18008 "dynamic.ml" 503 18615 18618
+)
+"dynamic.ml" 483 17975 17997 "dynamic.ml" 483 17975 18003
+type(
+  string
+)
+ident(
+  ext_ref X.name
+)
+"dynamic.ml" 483 17975 17996 "dynamic.ml" 483 17975 18004
+type(
+  string list
+)
+"dynamic.ml" 486 18018 18074 "dynamic.ml" 486 18018 18091
+call(
+  stack
+)
+"dynamic.ml" 486 18018 18035 "dynamic.ml" 486 18018 18092
+call(
+  stack
+)
+"dynamic.ml" 488 18112 18118 "dynamic.ml" 488 18112 18123
+type(
+  'a XData.Map.t
+)
+ident(
+  def empty "dynamic.ml" 490 18143 18145 "dynamic.ml" 503 18615 18618
+)
+"dynamic.ml" 488 18112 18126 "dynamic.ml" 488 18112 18141
+type(
+  'a XData.Map.t
+)
+ident(
+  ext_ref XData.Map.empty
+)
+"dynamic.ml" 490 18143 18149 "dynamic.ml" 490 18143 18166
+type(
+  (string -> Yaml.yaml) -> XData.t
+)
+ident(
+  def load_runtime_data "dynamic.ml" 492 18203 18205 "dynamic.ml" 503 18615 18618
+)
+"dynamic.ml" 490 18143 18167 "dynamic.ml" 490 18143 18171
+type(
+  string -> Yaml.yaml
+)
+ident(
+  def func "dynamic.ml" 490 18143 18174 "dynamic.ml" 490 18143 18201
+)
+"dynamic.ml" 490 18143 18174 "dynamic.ml" 490 18143 18187
+type(
+  Yaml.yaml -> XData.t
+)
+ident(
+  ext_ref XData.of_yaml
+)
+"dynamic.ml" 490 18143 18189 "dynamic.ml" 490 18143 18193
+type(
+  string -> Yaml.yaml
+)
+ident(
+  int_ref func "dynamic.ml" 490 18143 18167 "dynamic.ml" 490 18143 18171
+)
+"dynamic.ml" 490 18143 18194 "dynamic.ml" 490 18143 18200
+type(
+  string
+)
+ident(
+  ext_ref X.name
+)
+"dynamic.ml" 490 18143 18188 "dynamic.ml" 490 18143 18201
+call(
+  stack
+)
+type(
+  Yaml.yaml
+)
+"dynamic.ml" 490 18143 18174 "dynamic.ml" 490 18143 18201
+call(
+  tail
+)
+type(
+  XData.t
+)
+"dynamic.ml" 492 18203 18209 "dynamic.ml" 492 18203 18215
+type(
+  'b list XData.Map.t -> X.Domain.t -> Lexing.position -> 'b list
+)
+ident(
+  def lookup "dynamic.ml" 498 18416 18418 "dynamic.ml" 503 18615 18618
+)
+"dynamic.ml" 492 18203 18216 "dynamic.ml" 492 18203 18219
+type(
+  'b list XData.Map.t
+)
+ident(
+  def map "dynamic.ml" 492 18203 18220 "dynamic.ml" 496 18388 18414
+)
+"dynamic.ml" 492 18203 18220 "dynamic.ml" 492 18203 18223
+type(
+  X.Domain.t
+)
+ident(
+  def key "dynamic.ml" 492 18203 18224 "dynamic.ml" 496 18388 18414
+)
+"dynamic.ml" 492 18203 18224 "dynamic.ml" 492 18203 18227
+type(
+  Lexing.position
+)
+ident(
+  def pos "dynamic.ml" 493 18231 18235 "dynamic.ml" 496 18388 18414
+)
+"dynamic.ml" 493 18231 18239 "dynamic.ml" 493 18231 18244
+type(
+  string
+)
+"dynamic.ml" 493 18231 18247 "dynamic.ml" 493 18231 18277
+type(
+  string -> string
+)
+ident(
+  ext_ref File_loader.normalize_filename
+)
+"dynamic.ml" 493 18231 18278 "dynamic.ml" 493 18231 18281
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "dynamic.ml" 492 18203 18224 "dynamic.ml" 492 18203 18227
+)
+"dynamic.ml" 493 18231 18278 "dynamic.ml" 493 18231 18298
+type(
+  string
+)
+"dynamic.ml" 493 18231 18247 "dynamic.ml" 493 18231 18298
+call(
+  stack
+)
+type(
+  string
+)
+"dynamic.ml" 494 18302 18310 "dynamic.ml" 494 18302 18314
+type(
+  int
+)
+"dynamic.ml" 494 18302 18317 "dynamic.ml" 494 18302 18320
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "dynamic.ml" 492 18203 18224 "dynamic.ml" 492 18203 18227
+)
+"dynamic.ml" 494 18302 18317 "dynamic.ml" 494 18302 18336
+type(
+  int
+)
+"dynamic.ml" 495 18340 18350 "dynamic.ml" 495 18340 18364
+type(
+  XData.Map.key -> 'b list XData.Map.t -> 'b list
+)
+ident(
+  ext_ref XData.Map.find
+)
+"dynamic.ml" 495 18340 18366 "dynamic.ml" 495 18340 18371
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref fname "dynamic.ml" 493 18231 18239 "dynamic.ml" 493 18231 18244
+)
+"dynamic.ml" 495 18340 18373 "dynamic.ml" 495 18340 18377
+type(
+  Yaml.YInt.t
+)
+ident(
+  int_ref lnum "dynamic.ml" 494 18302 18310 "dynamic.ml" 494 18302 18314
+)
+"dynamic.ml" 495 18340 18379 "dynamic.ml" 495 18340 18382
+type(
+  X.Domain.t
+)
+ident(
+  int_ref key "dynamic.ml" 492 18203 18220 "dynamic.ml" 492 18203 18223
+)
+"dynamic.ml" 495 18340 18365 "dynamic.ml" 495 18340 18383
+type(
+  XData.Map.key
+)
+"dynamic.ml" 495 18340 18384 "dynamic.ml" 495 18340 18387
+type(
+  'b list XData.Map.t
+)
+ident(
+  int_ref map "dynamic.ml" 492 18203 18216 "dynamic.ml" 492 18203 18219
+)
+"dynamic.ml" 495 18340 18350 "dynamic.ml" 495 18340 18387
+call(
+  stack
+)
+type(
+  'b list
+)
+"dynamic.ml" 496 18388 18399 "dynamic.ml" 496 18388 18408
+type(
+  exn
+)
+"dynamic.ml" 496 18388 18412 "dynamic.ml" 496 18388 18414
+type(
+  'b list
+)
+"dynamic.ml" 495 18340 18346 "dynamic.ml" 496 18388 18414
+type(
+  'b list
+)
+"dynamic.ml" 494 18302 18306 "dynamic.ml" 496 18388 18414
+type(
+  'b list
+)
+"dynamic.ml" 493 18231 18235 "dynamic.ml" 496 18388 18414
+type(
+  'b list
+)
+"dynamic.ml" 498 18416 18422 "dynamic.ml" 498 18416 18436
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  def instrument_ast "dynamic.ml" 499 18456 18458 "dynamic.ml" 503 18615 18618
+)
+"dynamic.ml" 498 18416 18439 "dynamic.ml" 498 18416 18455
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref X.instrument_ast
+)
+"dynamic.ml" 499 18456 18462 "dynamic.ml" 499 18456 18476
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def instrument_cfg "dynamic.ml" 500 18496 18498 "dynamic.ml" 503 18615 18618
+)
+"dynamic.ml" 499 18456 18479 "dynamic.ml" 499 18456 18495
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref X.instrument_cfg
+)
+"dynamic.ml" 500 18496 18502 "dynamic.ml" 500 18496 18515
+type(
+  X.CoDomain.t list XData.Map.t -> Ast.expr list -> Ast.expr list
+)
+ident(
+  def transform_ast "dynamic.ml" 501 18555 18557 "dynamic.ml" 503 18615 18618
+)
+"dynamic.ml" 500 18496 18516 "dynamic.ml" 500 18496 18517
+type(
+  X.CoDomain.t list XData.Map.t
+)
+ident(
+  def t "dynamic.ml" 500 18496 18518 "dynamic.ml" 500 18496 18554
+)
+"dynamic.ml" 500 18496 18518 "dynamic.ml" 500 18496 18521
+type(
+  Ast.expr list
+)
+ident(
+  def ast "dynamic.ml" 500 18496 18524 "dynamic.ml" 500 18496 18554
+)
+"dynamic.ml" 500 18496 18524 "dynamic.ml" 500 18496 18539
+type(
+  (X.Domain.t, X.CoDomain.t) yaml_map -> Ast.expr list -> Ast.expr list
+)
+ident(
+  ext_ref X.transform_ast
+)
+"dynamic.ml" 500 18496 18541 "dynamic.ml" 500 18496 18547
+type(
+  X.CoDomain.t list XData.Map.t -> (X.Domain.t, X.CoDomain.t) yaml_map
+)
+ident(
+  int_ref lookup "dynamic.ml" 492 18203 18209 "dynamic.ml" 492 18203 18215
+)
+"dynamic.ml" 500 18496 18548 "dynamic.ml" 500 18496 18549
+type(
+  X.CoDomain.t list XData.Map.t
+)
+ident(
+  int_ref t "dynamic.ml" 500 18496 18516 "dynamic.ml" 500 18496 18517
+)
+"dynamic.ml" 500 18496 18540 "dynamic.ml" 500 18496 18550
+call(
+  stack
+)
+type(
+  (X.Domain.t, X.CoDomain.t) yaml_map
+)
+"dynamic.ml" 500 18496 18551 "dynamic.ml" 500 18496 18554
+type(
+  Ast.expr list
+)
+ident(
+  int_ref ast "dynamic.ml" 500 18496 18518 "dynamic.ml" 500 18496 18521
+)
+"dynamic.ml" 500 18496 18524 "dynamic.ml" 500 18496 18554
+call(
+  tail
+)
+type(
+  Ast.expr list
+)
+"dynamic.ml" 501 18555 18561 "dynamic.ml" 501 18555 18574
+type(
+  X.CoDomain.t list XData.Map.t -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  def transform_cfg "dynamic.ml" 501 18555 18613 "dynamic.ml" 503 18615 18618
+)
+"dynamic.ml" 501 18555 18575 "dynamic.ml" 501 18555 18576
+type(
+  X.CoDomain.t list XData.Map.t
+)
+ident(
+  def t "dynamic.ml" 501 18555 18577 "dynamic.ml" 501 18555 18613
+)
+"dynamic.ml" 501 18555 18577 "dynamic.ml" 501 18555 18580
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "dynamic.ml" 501 18555 18583 "dynamic.ml" 501 18555 18613
+)
+"dynamic.ml" 501 18555 18583 "dynamic.ml" 501 18555 18598
+type(
+  (X.Domain.t, X.CoDomain.t) yaml_map -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref X.transform_cfg
+)
+"dynamic.ml" 501 18555 18600 "dynamic.ml" 501 18555 18606
+type(
+  X.CoDomain.t list XData.Map.t -> (X.Domain.t, X.CoDomain.t) yaml_map
+)
+ident(
+  int_ref lookup "dynamic.ml" 492 18203 18209 "dynamic.ml" 492 18203 18215
+)
+"dynamic.ml" 501 18555 18607 "dynamic.ml" 501 18555 18608
+type(
+  X.CoDomain.t list XData.Map.t
+)
+ident(
+  int_ref t "dynamic.ml" 501 18555 18575 "dynamic.ml" 501 18555 18576
+)
+"dynamic.ml" 501 18555 18599 "dynamic.ml" 501 18555 18609
+call(
+  stack
+)
+type(
+  (X.Domain.t, X.CoDomain.t) yaml_map
+)
+"dynamic.ml" 501 18555 18610 "dynamic.ml" 501 18555 18613
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "dynamic.ml" 501 18555 18577 "dynamic.ml" 501 18555 18580
+)
+"dynamic.ml" 501 18555 18583 "dynamic.ml" 501 18555 18613
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"dynamic.ml" 505 18620 18634 "dynamic.ml" 505 18620 18652
+call(
+  stack
+)
+"dynamic.ml" 511 18762 18768 "dynamic.ml" 511 18762 18772
+type(
+  string
+)
+ident(
+  def name "dynamic.ml" 513 18779 18781 "dynamic.ml" 518 18891 18894
+)
+"dynamic.ml" 511 18762 18775 "dynamic.ml" 511 18762 18777
+type(
+  string
+)
+"dynamic.ml" 513 18779 18785 "dynamic.ml" 513 18779 18799
+type(
+  'a -> 'a
+)
+ident(
+  def instrument_ast "dynamic.ml" 514 18806 18808 "dynamic.ml" 518 18891 18894
+)
+"dynamic.ml" 513 18779 18800 "dynamic.ml" 513 18779 18801
+type(
+  'a
+)
+ident(
+  def e "dynamic.ml" 513 18779 18804 "dynamic.ml" 513 18779 18805
+)
+"dynamic.ml" 513 18779 18804 "dynamic.ml" 513 18779 18805
+type(
+  'a
+)
+ident(
+  int_ref e "dynamic.ml" 513 18779 18800 "dynamic.ml" 513 18779 18801
+)
+"dynamic.ml" 514 18806 18812 "dynamic.ml" 514 18806 18826
+type(
+  'b -> 'b
+)
+ident(
+  def instrument_cfg "dynamic.ml" 516 18834 18836 "dynamic.ml" 518 18891 18894
+)
+"dynamic.ml" 514 18806 18827 "dynamic.ml" 514 18806 18828
+type(
+  'b
+)
+ident(
+  def s "dynamic.ml" 514 18806 18831 "dynamic.ml" 514 18806 18832
+)
+"dynamic.ml" 514 18806 18831 "dynamic.ml" 514 18806 18832
+type(
+  'b
+)
+ident(
+  int_ref s "dynamic.ml" 514 18806 18827 "dynamic.ml" 514 18806 18828
+)
+"dynamic.ml" 516 18834 18840 "dynamic.ml" 516 18834 18853
+type(
+  'c -> 'd -> 'd
+)
+ident(
+  def transform_ast "dynamic.ml" 517 18863 18865 "dynamic.ml" 518 18891 18894
+)
+"dynamic.ml" 516 18834 18854 "dynamic.ml" 516 18834 18855
+type(
+  'c
+)
+"dynamic.ml" 516 18834 18856 "dynamic.ml" 516 18834 18857
+type(
+  'd
+)
+ident(
+  def e "dynamic.ml" 516 18834 18860 "dynamic.ml" 516 18834 18861
+)
+"dynamic.ml" 516 18834 18860 "dynamic.ml" 516 18834 18861
+type(
+  'd
+)
+ident(
+  int_ref e "dynamic.ml" 516 18834 18856 "dynamic.ml" 516 18834 18857
+)
+"dynamic.ml" 517 18863 18869 "dynamic.ml" 517 18863 18882
+type(
+  'e -> 'f -> 'f
+)
+ident(
+  def transform_cfg "dynamic.ml" 517 18863 18890 "dynamic.ml" 518 18891 18894
+)
+"dynamic.ml" 517 18863 18883 "dynamic.ml" 517 18863 18884
+type(
+  'e
+)
+"dynamic.ml" 517 18863 18885 "dynamic.ml" 517 18863 18886
+type(
+  'f
+)
+ident(
+  def s "dynamic.ml" 517 18863 18889 "dynamic.ml" 517 18863 18890
+)
+"dynamic.ml" 517 18863 18889 "dynamic.ml" 517 18863 18890
+type(
+  'f
+)
+ident(
+  int_ref s "dynamic.ml" 517 18863 18885 "dynamic.ml" 517 18863 18886
+)

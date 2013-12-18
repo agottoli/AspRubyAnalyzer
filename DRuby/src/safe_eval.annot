@@ -1,0 +1,3068 @@
+"safe_eval.ml" 12 161 165 "safe_eval.ml" 12 161 181
+type(
+  [< `ID_Assign of string
+   | `ID_MethodName of string
+   | `ID_Operator of Cfg.binary_op
+   | `ID_Super
+   | `ID_UOperator of Cfg.unary_op ] ->
+  [> `Lit_Atom of string ]
+)
+ident(
+  def symbol_of_msg_id "safe_eval.ml" 21 472 472 --
+)
+"safe_eval.ml" 13 193 211 "safe_eval.ml" 13 193 214
+type(
+  Cfg.unary_op
+)
+ident(
+  def uop "safe_eval.ml" 14 219 225 "safe_eval.ml" 14 219 276
+)
+"safe_eval.ml" 13 193 197 "safe_eval.ml" 13 193 214
+type(
+  [< `ID_Assign of string
+   | `ID_MethodName of string
+   | `ID_Operator of Cfg.binary_op
+   | `ID_Super
+   | `ID_UOperator of Cfg.unary_op ]
+  as 'a
+)
+"safe_eval.ml" 14 219 236 "safe_eval.ml" 14 219 252
+type(
+  (Format.formatter -> Cfg.unary_op -> unit) -> Cfg.unary_op -> string
+)
+ident(
+  ext_ref Utils.format_to_string
+)
+"safe_eval.ml" 14 219 253 "safe_eval.ml" 14 219 271
+type(
+  Format.formatter -> Cfg.unary_op -> unit
+)
+ident(
+  ext_ref Pr.format_unary_op
+)
+"safe_eval.ml" 14 219 272 "safe_eval.ml" 14 219 275
+type(
+  Cfg.unary_op
+)
+ident(
+  int_ref uop "safe_eval.ml" 13 193 211 "safe_eval.ml" 13 193 214
+)
+"safe_eval.ml" 14 219 235 "safe_eval.ml" 14 219 276
+call(
+  stack
+)
+type(
+  string
+)
+"safe_eval.ml" 14 219 225 "safe_eval.ml" 14 219 276
+type(
+  [> `Lit_Atom of string ] as 'b
+)
+"safe_eval.ml" 15 277 294 "safe_eval.ml" 15 277 297
+type(
+  Cfg.binary_op
+)
+ident(
+  def bop "safe_eval.ml" 16 301 307 "safe_eval.ml" 16 301 359
+)
+"safe_eval.ml" 15 277 281 "safe_eval.ml" 15 277 297
+type(
+  'a
+)
+"safe_eval.ml" 16 301 318 "safe_eval.ml" 16 301 334
+type(
+  (Format.formatter -> Cfg.binary_op -> unit) -> Cfg.binary_op -> string
+)
+ident(
+  ext_ref Utils.format_to_string
+)
+"safe_eval.ml" 16 301 335 "safe_eval.ml" 16 301 354
+type(
+  Format.formatter -> Cfg.binary_op -> unit
+)
+ident(
+  ext_ref Pr.format_binary_op
+)
+"safe_eval.ml" 16 301 355 "safe_eval.ml" 16 301 358
+type(
+  Cfg.binary_op
+)
+ident(
+  int_ref bop "safe_eval.ml" 15 277 294 "safe_eval.ml" 15 277 297
+)
+"safe_eval.ml" 16 301 317 "safe_eval.ml" 16 301 359
+call(
+  stack
+)
+type(
+  string
+)
+"safe_eval.ml" 16 301 307 "safe_eval.ml" 16 301 359
+type(
+  'b
+)
+"safe_eval.ml" 17 360 379 "safe_eval.ml" 17 360 380
+type(
+  string
+)
+ident(
+  def s "safe_eval.ml" 17 360 384 "safe_eval.ml" 17 360 395
+)
+"safe_eval.ml" 17 360 364 "safe_eval.ml" 17 360 380
+type(
+  'a
+)
+"safe_eval.ml" 17 360 394 "safe_eval.ml" 17 360 395
+type(
+  string
+)
+ident(
+  int_ref s "safe_eval.ml" 17 360 379 "safe_eval.ml" 17 360 380
+)
+"safe_eval.ml" 17 360 384 "safe_eval.ml" 17 360 395
+type(
+  'b
+)
+"safe_eval.ml" 18 396 411 "safe_eval.ml" 18 396 412
+type(
+  string
+)
+ident(
+  def s "safe_eval.ml" 18 396 416 "safe_eval.ml" 18 396 435
+)
+"safe_eval.ml" 18 396 400 "safe_eval.ml" 18 396 412
+type(
+  'a
+)
+"safe_eval.ml" 18 396 427 "safe_eval.ml" 18 396 428
+type(
+  string
+)
+ident(
+  int_ref s "safe_eval.ml" 18 396 411 "safe_eval.ml" 18 396 412
+)
+"safe_eval.ml" 18 396 429 "safe_eval.ml" 18 396 430
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"safe_eval.ml" 18 396 431 "safe_eval.ml" 18 396 434
+type(
+  string
+)
+"safe_eval.ml" 18 396 426 "safe_eval.ml" 18 396 435
+call(
+  stack
+)
+type(
+  string
+)
+"safe_eval.ml" 18 396 416 "safe_eval.ml" 18 396 435
+type(
+  'b
+)
+"safe_eval.ml" 19 436 440 "safe_eval.ml" 19 436 449
+type(
+  'a
+)
+"safe_eval.ml" 19 436 463 "safe_eval.ml" 19 436 470
+type(
+  string
+)
+"safe_eval.ml" 19 436 453 "safe_eval.ml" 19 436 470
+type(
+  'b
+)
+"safe_eval.ml" 12 161 184 "safe_eval.ml" 19 436 470
+type(
+  'a -> 'b
+)
+"safe_eval.ml" 21 472 476 "safe_eval.ml" 21 472 485
+type(
+  string ->
+  [< Cfg.star_expr
+   > `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+     `Lit_Range `Lit_Regexp `Lit_String ] ->
+  Cfg.pos -> [> Cfg.identifier ] * Cfg.stmt
+)
+ident(
+  def call_wrap "safe_eval.ml" 32 820 820 --
+)
+"safe_eval.ml" 21 472 486 "safe_eval.ml" 21 472 490
+type(
+  string
+)
+ident(
+  def code "safe_eval.ml" 21 472 491 "safe_eval.ml" 30 774 818
+)
+"safe_eval.ml" 21 472 491 "safe_eval.ml" 21 472 492
+type(
+  [< Cfg.star_expr
+   > `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+     `Lit_Range `Lit_Regexp `Lit_String ]
+  as 'a
+)
+ident(
+  def e "safe_eval.ml" 21 472 493 "safe_eval.ml" 30 774 818
+)
+"safe_eval.ml" 21 472 493 "safe_eval.ml" 21 472 496
+type(
+  Cfg.pos
+)
+ident(
+  def pos "safe_eval.ml" 22 500 502 "safe_eval.ml" 30 774 818
+)
+"safe_eval.ml" 22 500 506 "safe_eval.ml" 22 500 509
+type(
+  [> Cfg.identifier ]
+)
+"safe_eval.ml" 22 500 512 "safe_eval.ml" 22 500 519
+type(
+  string -> ([> Cfg.identifier ] as 'b)
+)
+ident(
+  ext_ref C.local
+)
+"safe_eval.ml" 22 500 520 "safe_eval.ml" 22 500 544
+type(
+  string
+)
+"safe_eval.ml" 22 500 512 "safe_eval.ml" 22 500 544
+call(
+  stack
+)
+type(
+  'b
+)
+"safe_eval.ml" 23 548 554 "safe_eval.ml" 23 548 558
+type(
+  [> Cfg.identifier ]
+)
+"safe_eval.ml" 23 548 561 "safe_eval.ml" 23 548 574
+type(
+  string list -> ([> Cfg.identifier ] as 'c)
+)
+ident(
+  ext_ref C.access_path
+)
+"safe_eval.ml" 23 548 576 "safe_eval.ml" 23 548 583
+type(
+  string
+)
+"safe_eval.ml" 23 548 584 "safe_eval.ml" 23 548 594
+type(
+  string
+)
+"safe_eval.ml" 23 548 595 "safe_eval.ml" 23 548 601
+type(
+  string
+)
+"safe_eval.ml" 23 548 575 "safe_eval.ml" 23 548 602
+type(
+  string list
+)
+"safe_eval.ml" 23 548 561 "safe_eval.ml" 23 548 602
+call(
+  stack
+)
+type(
+  'c
+)
+"safe_eval.ml" 24 606 612 "safe_eval.ml" 24 606 615
+type(
+  [> `ID_MethodName of string ]
+)
+"safe_eval.ml" 24 606 633 "safe_eval.ml" 24 606 639
+type(
+  string
+)
+"safe_eval.ml" 24 606 618 "safe_eval.ml" 24 606 639
+type(
+  [> `ID_MethodName of string ] as 'd
+)
+"safe_eval.ml" 25 643 649 "safe_eval.ml" 25 643 653
+type(
+  'a list
+)
+"safe_eval.ml" 25 643 657 "safe_eval.ml" 25 643 662
+type(
+  string -> 'a
+)
+ident(
+  ext_ref C.str
+)
+"safe_eval.ml" 25 643 663 "safe_eval.ml" 25 643 666
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 21 472 493 "safe_eval.ml" 21 472 496
+)
+"safe_eval.ml" 25 643 663 "safe_eval.ml" 25 643 683
+type(
+  string
+)
+"safe_eval.ml" 25 643 657 "safe_eval.ml" 25 643 683
+call(
+  stack
+)
+type(
+  'a
+)
+"safe_eval.ml" 26 685 699 "safe_eval.ml" 26 685 704
+type(
+  int -> 'a
+)
+ident(
+  ext_ref C.num
+)
+"safe_eval.ml" 26 685 705 "safe_eval.ml" 26 685 708
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 21 472 493 "safe_eval.ml" 21 472 496
+)
+"safe_eval.ml" 26 685 705 "safe_eval.ml" 26 685 724
+type(
+  int
+)
+"safe_eval.ml" 26 685 699 "safe_eval.ml" 26 685 724
+call(
+  stack
+)
+type(
+  'a
+)
+"safe_eval.ml" 27 726 740 "safe_eval.ml" 27 726 745
+type(
+  string -> 'a
+)
+ident(
+  ext_ref C.str
+)
+"safe_eval.ml" 27 726 746 "safe_eval.ml" 27 726 750
+type(
+  string
+)
+ident(
+  int_ref code "safe_eval.ml" 21 472 486 "safe_eval.ml" 21 472 490
+)
+"safe_eval.ml" 27 726 740 "safe_eval.ml" 27 726 750
+call(
+  stack
+)
+type(
+  'a
+)
+"safe_eval.ml" 28 752 766 "safe_eval.ml" 28 752 767
+type(
+  'a
+)
+ident(
+  int_ref e "safe_eval.ml" 21 472 491 "safe_eval.ml" 21 472 492
+)
+"safe_eval.ml" 25 643 656 "safe_eval.ml" 28 752 768
+type(
+  'a list
+)
+"safe_eval.ml" 30 774 778 "safe_eval.ml" 30 774 781
+type(
+  [> Cfg.identifier ] as 'e
+)
+ident(
+  int_ref tmp "safe_eval.ml" 22 500 506 "safe_eval.ml" 22 500 509
+)
+"safe_eval.ml" 30 774 783 "safe_eval.ml" 30 774 790
+type(
+  ?lhs:_[< Cfg.lhs
+         > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ] ->
+  ?targ:_[< Cfg.expr
+          > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ] ->
+  _[< Cfg.msg_id > `ID_MethodName ] ->
+  'a list -> ?cb:Cfg.codeblock -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.mcall
+)
+"safe_eval.ml" 30 774 796 "safe_eval.ml" 30 774 799
+type(
+  _[< Cfg.lhs
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ]
+  as 'f
+)
+ident(
+  int_ref tmp "safe_eval.ml" 22 500 506 "safe_eval.ml" 22 500 509
+)
+"safe_eval.ml" 30 774 801 "safe_eval.ml" 30 774 805
+type(
+  _[< Cfg.expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ]
+  as 'g
+)
+ident(
+  int_ref targ "safe_eval.ml" 23 548 554 "safe_eval.ml" 23 548 558
+)
+"safe_eval.ml" 30 774 806 "safe_eval.ml" 30 774 809
+type(
+  _[< Cfg.msg_id > `ID_MethodName ] as 'h
+)
+ident(
+  int_ref msg "safe_eval.ml" 24 606 612 "safe_eval.ml" 24 606 615
+)
+"safe_eval.ml" 30 774 810 "safe_eval.ml" 30 774 814
+type(
+  'a list
+)
+ident(
+  int_ref args "safe_eval.ml" 25 643 649 "safe_eval.ml" 25 643 653
+)
+"safe_eval.ml" 30 774 815 "safe_eval.ml" 30 774 818
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 21 472 493 "safe_eval.ml" 21 472 496
+)
+"safe_eval.ml" 30 774 783 "safe_eval.ml" 30 774 818
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 30 774 778 "safe_eval.ml" 30 774 818
+type(
+  'e * Cfg.stmt
+)
+"safe_eval.ml" 25 643 645 "safe_eval.ml" 30 774 818
+type(
+  'e * Cfg.stmt
+)
+"safe_eval.ml" 24 606 608 "safe_eval.ml" 30 774 818
+type(
+  'e * Cfg.stmt
+)
+"safe_eval.ml" 23 548 550 "safe_eval.ml" 30 774 818
+type(
+  'e * Cfg.stmt
+)
+"safe_eval.ml" 22 500 502 "safe_eval.ml" 30 774 818
+type(
+  'e * Cfg.stmt
+)
+"safe_eval.ml" 32 820 824 "safe_eval.ml" 32 820 837
+type(
+  string -> Cfg.lhs option -> Cfg.method_call -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  def contract_call "safe_eval.ml" 41 1247 1247 --
+)
+"safe_eval.ml" 32 820 838 "safe_eval.ml" 32 820 842
+type(
+  string
+)
+ident(
+  def code "safe_eval.ml" 32 820 843 "safe_eval.ml" 38 1136 1196
+)
+"safe_eval.ml" 32 820 843 "safe_eval.ml" 32 820 848
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "safe_eval.ml" 32 820 849 "safe_eval.ml" 38 1136 1196
+)
+"safe_eval.ml" 32 820 849 "safe_eval.ml" 32 820 851
+type(
+  Cfg.method_call
+)
+ident(
+  def mc "safe_eval.ml" 32 820 852 "safe_eval.ml" 38 1136 1196
+)
+"safe_eval.ml" 32 820 852 "safe_eval.ml" 32 820 855
+type(
+  Cfg.pos
+)
+ident(
+  def pos "safe_eval.ml" 33 859 861 "safe_eval.ml" 38 1136 1196
+)
+"safe_eval.ml" 33 859 865 "safe_eval.ml" 33 859 874
+type(
+  Cfg.expr
+)
+"safe_eval.ml" 33 859 877 "safe_eval.ml" 33 859 888
+type(
+  Cfg.expr -> Cfg.expr option -> Cfg.expr
+)
+ident(
+  ext_ref Utils.default_opt
+)
+"safe_eval.ml" 33 859 889 "safe_eval.ml" 33 859 897
+type(
+  Cfg.expr
+)
+"safe_eval.ml" 33 859 898 "safe_eval.ml" 33 859 900
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc "safe_eval.ml" 32 820 849 "safe_eval.ml" 32 820 851
+)
+"safe_eval.ml" 33 859 898 "safe_eval.ml" 33 859 910
+type(
+  Cfg.expr option
+)
+"safe_eval.ml" 33 859 877 "safe_eval.ml" 33 859 910
+call(
+  stack
+)
+type(
+  Cfg.expr
+)
+"safe_eval.ml" 34 914 920 "safe_eval.ml" 34 914 923
+type(
+  [> Cfg.identifier ]
+)
+"safe_eval.ml" 34 914 925 "safe_eval.ml" 34 914 934
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 34 914 920 "safe_eval.ml" 34 914 934
+type(
+  ([> Cfg.identifier ] as 'a) * Cfg.stmt
+)
+"safe_eval.ml" 34 914 937 "safe_eval.ml" 34 914 946
+type(
+  string -> Cfg.expr -> Cfg.pos -> 'a * Cfg.stmt
+)
+ident(
+  int_ref call_wrap "safe_eval.ml" 21 472 476 "safe_eval.ml" 21 472 485
+)
+"safe_eval.ml" 34 914 947 "safe_eval.ml" 34 914 951
+type(
+  string
+)
+ident(
+  int_ref code "safe_eval.ml" 32 820 838 "safe_eval.ml" 32 820 842
+)
+"safe_eval.ml" 34 914 952 "safe_eval.ml" 34 914 961
+type(
+  Cfg.expr
+)
+ident(
+  int_ref init_recv "safe_eval.ml" 33 859 865 "safe_eval.ml" 33 859 874
+)
+"safe_eval.ml" 34 914 962 "safe_eval.ml" 34 914 965
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 32 820 852 "safe_eval.ml" 32 820 855
+)
+"safe_eval.ml" 34 914 937 "safe_eval.ml" 34 914 965
+call(
+  stack
+)
+type(
+  'a * Cfg.stmt
+)
+"safe_eval.ml" 35 969 975 "safe_eval.ml" 35 969 979
+type(
+  Cfg.star_expr list
+)
+"safe_eval.ml" 35 969 982 "safe_eval.ml" 35 969 998
+type(
+  Cfg.msg_id -> Cfg.star_expr
+)
+ident(
+  int_ref symbol_of_msg_id "safe_eval.ml" 12 161 165 "safe_eval.ml" 12 161 181
+)
+"safe_eval.ml" 35 969 999 "safe_eval.ml" 35 969 1001
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc "safe_eval.ml" 32 820 849 "safe_eval.ml" 32 820 851
+)
+"safe_eval.ml" 35 969 999 "safe_eval.ml" 35 969 1008
+type(
+  Cfg.msg_id
+)
+"safe_eval.ml" 35 969 982 "safe_eval.ml" 35 969 1008
+call(
+  stack
+)
+type(
+  Cfg.star_expr
+)
+"safe_eval.ml" 35 969 1010 "safe_eval.ml" 35 969 1012
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc "safe_eval.ml" 32 820 849 "safe_eval.ml" 32 820 851
+)
+"safe_eval.ml" 35 969 1010 "safe_eval.ml" 35 969 1020
+type(
+  Cfg.star_expr list
+)
+"safe_eval.ml" 35 969 982 "safe_eval.ml" 35 969 1020
+type(
+  Cfg.star_expr list
+)
+"safe_eval.ml" 36 1024 1030 "safe_eval.ml" 36 1024 1033
+type(
+  [> `ID_MethodName of string ]
+)
+"safe_eval.ml" 36 1024 1051 "safe_eval.ml" 36 1024 1057
+type(
+  string
+)
+"safe_eval.ml" 36 1024 1036 "safe_eval.ml" 36 1024 1057
+type(
+  [> `ID_MethodName of string ] as 'b
+)
+"safe_eval.ml" 37 1061 1067 "safe_eval.ml" 37 1061 1070
+type(
+  Cfg.method_call
+)
+"safe_eval.ml" 37 1061 1089 "safe_eval.ml" 37 1061 1092
+type(
+  Cfg.expr
+)
+ident(
+  int_ref tmp "safe_eval.ml" 34 914 920 "safe_eval.ml" 34 914 923
+)
+"safe_eval.ml" 37 1061 1084 "safe_eval.ml" 37 1061 1092
+type(
+  Cfg.expr option
+)
+"safe_eval.ml" 37 1061 1100 "safe_eval.ml" 37 1061 1103
+type(
+  Cfg.msg_id
+)
+ident(
+  int_ref msg "safe_eval.ml" 36 1024 1030 "safe_eval.ml" 36 1024 1033
+)
+"safe_eval.ml" 37 1061 1112 "safe_eval.ml" 37 1061 1116
+type(
+  Cfg.star_expr list
+)
+ident(
+  int_ref args "safe_eval.ml" 35 969 975 "safe_eval.ml" 35 969 979
+)
+"safe_eval.ml" 37 1061 1123 "safe_eval.ml" 37 1061 1125
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc "safe_eval.ml" 32 820 849 "safe_eval.ml" 32 820 851
+)
+"safe_eval.ml" 37 1061 1123 "safe_eval.ml" 37 1061 1131
+type(
+  Cfg.codeblock option
+)
+"safe_eval.ml" 37 1061 1073 "safe_eval.ml" 37 1061 1132
+type(
+  Cfg.method_call
+)
+"safe_eval.ml" 38 1136 1140 "safe_eval.ml" 38 1136 1145
+type(
+  Cfg.stmt list -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.seq
+)
+"safe_eval.ml" 38 1136 1147 "safe_eval.ml" 38 1136 1156
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref wrap_stmt "safe_eval.ml" 34 914 925 "safe_eval.ml" 34 914 934
+)
+"safe_eval.ml" 38 1136 1157 "safe_eval.ml" 38 1136 1163
+type(
+  Cfg.stmt_node -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.mkstmt
+)
+"safe_eval.ml" 38 1136 1176 "safe_eval.ml" 38 1136 1181
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o "safe_eval.ml" 32 820 843 "safe_eval.ml" 32 820 848
+)
+"safe_eval.ml" 38 1136 1182 "safe_eval.ml" 38 1136 1185
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc' "safe_eval.ml" 37 1061 1067 "safe_eval.ml" 37 1061 1070
+)
+"safe_eval.ml" 38 1136 1164 "safe_eval.ml" 38 1136 1187
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 38 1136 1188 "safe_eval.ml" 38 1136 1191
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 32 820 852 "safe_eval.ml" 32 820 855
+)
+"safe_eval.ml" 38 1136 1157 "safe_eval.ml" 38 1136 1191
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 38 1136 1146 "safe_eval.ml" 38 1136 1192
+type(
+  Cfg.stmt list
+)
+"safe_eval.ml" 38 1136 1193 "safe_eval.ml" 38 1136 1196
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 32 820 852 "safe_eval.ml" 32 820 855
+)
+"safe_eval.ml" 38 1136 1140 "safe_eval.ml" 38 1136 1196
+call(
+  tail
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 37 1061 1063 "safe_eval.ml" 38 1136 1196
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 36 1024 1026 "safe_eval.ml" 38 1136 1196
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 35 969 971 "safe_eval.ml" 38 1136 1196
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 34 914 916 "safe_eval.ml" 38 1136 1196
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 33 859 861 "safe_eval.ml" 38 1136 1196
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 41 1247 1251 "safe_eval.ml" 41 1247 1261
+type(
+  string ->
+  ([> Cfg.identifier ] -> Cfg.stmt_node) ->
+  [< Cfg.tuple_expr ] -> Cfg.pos -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  def change_tup "safe_eval.ml" 48 1502 1502 --
+)
+"safe_eval.ml" 41 1247 1262 "safe_eval.ml" 41 1247 1266
+type(
+  string
+)
+ident(
+  def code "safe_eval.ml" 41 1247 1267 "safe_eval.ml" 46 1483 1500
+)
+"safe_eval.ml" 41 1247 1267 "safe_eval.ml" 41 1247 1268
+type(
+  ([> Cfg.identifier ] as 'a) -> Cfg.stmt_node
+)
+ident(
+  def f "safe_eval.ml" 41 1247 1269 "safe_eval.ml" 46 1483 1500
+)
+"safe_eval.ml" 41 1247 1269 "safe_eval.ml" 41 1247 1272
+type(
+  [< Cfg.tuple_expr ] as 'b
+)
+ident(
+  def tup "safe_eval.ml" 41 1247 1273 "safe_eval.ml" 46 1483 1500
+)
+"safe_eval.ml" 41 1247 1273 "safe_eval.ml" 41 1247 1276
+type(
+  Cfg.pos
+)
+ident(
+  def pos "safe_eval.ml" 42 1280 1282 "safe_eval.ml" 46 1483 1500
+)
+"safe_eval.ml" 42 1280 1286 "safe_eval.ml" 42 1280 1289
+type(
+  [> Cfg.identifier ]
+)
+"safe_eval.ml" 42 1280 1292 "safe_eval.ml" 42 1280 1299
+type(
+  string -> ([> Cfg.identifier ] as 'c)
+)
+ident(
+  ext_ref C.local
+)
+"safe_eval.ml" 42 1280 1300 "safe_eval.ml" 42 1280 1330
+type(
+  string
+)
+"safe_eval.ml" 42 1280 1292 "safe_eval.ml" 42 1280 1330
+call(
+  stack
+)
+type(
+  'c
+)
+"safe_eval.ml" 43 1334 1340 "safe_eval.ml" 43 1334 1348
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 43 1334 1351 "safe_eval.ml" 43 1334 1359
+type(
+  _[< Cfg.lhs
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ] ->
+  'b -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.assign
+)
+"safe_eval.ml" 43 1334 1360 "safe_eval.ml" 43 1334 1363
+type(
+  _[< Cfg.lhs
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ]
+  as 'd
+)
+ident(
+  int_ref tmp "safe_eval.ml" 42 1280 1286 "safe_eval.ml" 42 1280 1289
+)
+"safe_eval.ml" 43 1334 1364 "safe_eval.ml" 43 1334 1367
+type(
+  'b
+)
+ident(
+  int_ref tup "safe_eval.ml" 41 1247 1269 "safe_eval.ml" 41 1247 1272
+)
+"safe_eval.ml" 43 1334 1368 "safe_eval.ml" 43 1334 1371
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 41 1247 1273 "safe_eval.ml" 41 1247 1276
+)
+"safe_eval.ml" 43 1334 1351 "safe_eval.ml" 43 1334 1371
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 44 1375 1381 "safe_eval.ml" 44 1375 1385
+type(
+  [> Cfg.identifier ]
+)
+"safe_eval.ml" 44 1375 1387 "safe_eval.ml" 44 1375 1391
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 44 1375 1381 "safe_eval.ml" 44 1375 1391
+type(
+  ([> Cfg.identifier ] as 'e) * Cfg.stmt
+)
+"safe_eval.ml" 44 1375 1394 "safe_eval.ml" 44 1375 1403
+type(
+  string ->
+  _[< Cfg.star_expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var
+      `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+      `Lit_Range `Lit_Regexp `Lit_String ] ->
+  Cfg.pos -> 'e * Cfg.stmt
+)
+ident(
+  int_ref call_wrap "safe_eval.ml" 21 472 476 "safe_eval.ml" 21 472 485
+)
+"safe_eval.ml" 44 1375 1404 "safe_eval.ml" 44 1375 1408
+type(
+  string
+)
+ident(
+  int_ref code "safe_eval.ml" 41 1247 1262 "safe_eval.ml" 41 1247 1266
+)
+"safe_eval.ml" 44 1375 1409 "safe_eval.ml" 44 1375 1412
+type(
+  _[< Cfg.star_expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var
+      `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+      `Lit_Range `Lit_Regexp `Lit_String ]
+  as 'f
+)
+ident(
+  int_ref tmp "safe_eval.ml" 42 1280 1286 "safe_eval.ml" 42 1280 1289
+)
+"safe_eval.ml" 44 1375 1413 "safe_eval.ml" 44 1375 1416
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 41 1247 1273 "safe_eval.ml" 41 1247 1276
+)
+"safe_eval.ml" 44 1375 1394 "safe_eval.ml" 44 1375 1416
+call(
+  stack
+)
+type(
+  'e * Cfg.stmt
+)
+"safe_eval.ml" 45 1420 1426 "safe_eval.ml" 45 1420 1430
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 45 1420 1433 "safe_eval.ml" 45 1420 1438
+type(
+  Cfg.stmt list -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.seq
+)
+"safe_eval.ml" 45 1420 1440 "safe_eval.ml" 45 1420 1448
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref tmp_asgn "safe_eval.ml" 43 1334 1340 "safe_eval.ml" 43 1334 1348
+)
+"safe_eval.ml" 45 1420 1450 "safe_eval.ml" 45 1420 1454
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref call "safe_eval.ml" 44 1375 1387 "safe_eval.ml" 44 1375 1391
+)
+"safe_eval.ml" 45 1420 1455 "safe_eval.ml" 45 1420 1461
+type(
+  Cfg.stmt_node -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.mkstmt
+)
+"safe_eval.ml" 45 1420 1463 "safe_eval.ml" 45 1420 1464
+type(
+  'a -> Cfg.stmt_node
+)
+ident(
+  int_ref f "safe_eval.ml" 41 1247 1267 "safe_eval.ml" 41 1247 1268
+)
+"safe_eval.ml" 45 1420 1465 "safe_eval.ml" 45 1420 1469
+type(
+  'a
+)
+ident(
+  int_ref tmp2 "safe_eval.ml" 44 1375 1381 "safe_eval.ml" 44 1375 1385
+)
+"safe_eval.ml" 45 1420 1462 "safe_eval.ml" 45 1420 1470
+call(
+  stack
+)
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 45 1420 1471 "safe_eval.ml" 45 1420 1474
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 41 1247 1273 "safe_eval.ml" 41 1247 1276
+)
+"safe_eval.ml" 45 1420 1455 "safe_eval.ml" 45 1420 1474
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 45 1420 1439 "safe_eval.ml" 45 1420 1475
+type(
+  Cfg.stmt list
+)
+"safe_eval.ml" 45 1420 1476 "safe_eval.ml" 45 1420 1479
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "safe_eval.ml" 41 1247 1273 "safe_eval.ml" 41 1247 1276
+)
+"safe_eval.ml" 45 1420 1433 "safe_eval.ml" 45 1420 1479
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 46 1483 1496 "safe_eval.ml" 46 1483 1500
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 45 1420 1426 "safe_eval.ml" 45 1420 1430
+)
+"safe_eval.ml" 46 1483 1487 "safe_eval.ml" 46 1483 1500
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 45 1420 1422 "safe_eval.ml" 46 1483 1500
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 44 1375 1377 "safe_eval.ml" 46 1483 1500
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 43 1334 1336 "safe_eval.ml" 46 1483 1500
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 42 1280 1282 "safe_eval.ml" 46 1483 1500
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 48 1502 1506 "safe_eval.ml" 48 1502 1515
+type(
+  string list
+)
+ident(
+  def blacklist "safe_eval.ml" 54 1581 1581 --
+)
+"safe_eval.ml" 49 1520 1522 "safe_eval.ml" 49 1520 1537
+type(
+  string
+)
+"safe_eval.ml" 50 1539 1541 "safe_eval.ml" 50 1539 1555
+type(
+  string
+)
+"safe_eval.ml" 51 1557 1559 "safe_eval.ml" 51 1557 1576
+type(
+  string
+)
+"safe_eval.ml" 48 1502 1518 "safe_eval.ml" 52 1578 1579
+type(
+  string list
+)
+"safe_eval.ml" 54 1581 1585 "safe_eval.ml" 54 1581 1592
+type(
+  string ->
+  (Cfg.stmt Visitor.visitAction, 'a) Cfg_printer.CodeUnparser.fmt -> 'a
+)
+ident(
+  def failure "safe_eval.ml" 62 1789 1789 --
+)
+"safe_eval.ml" 54 1581 1593 "safe_eval.ml" 54 1581 1596
+type(
+  string
+)
+ident(
+  def msg "safe_eval.ml" 54 1581 1597 "safe_eval.ml" 60 1741 1787
+)
+"safe_eval.ml" 54 1581 1597 "safe_eval.ml" 54 1581 1600
+type(
+  (Cfg.stmt Visitor.visitAction, 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  def fmt "safe_eval.ml" 55 1604 1606 "safe_eval.ml" 60 1741 1787
+)
+"safe_eval.ml" 55 1604 1610 "safe_eval.ml" 55 1604 1614
+type(
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 56 1618 1622 "safe_eval.ml" 56 1618 1623
+type(
+  string -> (string -> 'a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.s
+)
+"safe_eval.ml" 56 1618 1623 "safe_eval.ml" 56 1618 1639
+type(
+  string
+)
+"safe_eval.ml" 56 1618 1622 "safe_eval.ml" 56 1618 1639
+call(
+  stack
+)
+type(
+  (string -> 'a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 56 1618 1640 "safe_eval.ml" 56 1618 1642
+type(
+  (string -> 'a, string -> 'a) Cfg_printer.CodeUnparser.fmt ->
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt ->
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.( ++ )
+)
+"safe_eval.ml" 56 1618 1643 "safe_eval.ml" 56 1618 1649
+type(
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.string
+)
+"safe_eval.ml" 56 1618 1622 "safe_eval.ml" 56 1618 1649
+call(
+  stack
+)
+type(
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 56 1618 1650 "safe_eval.ml" 56 1618 1652
+type(
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt ->
+  ('a, 'a) Cfg_printer.CodeUnparser.fmt ->
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.( ++ )
+)
+"safe_eval.ml" 56 1618 1653 "safe_eval.ml" 56 1618 1654
+type(
+  string -> ('a, 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.s
+)
+"safe_eval.ml" 56 1618 1654 "safe_eval.ml" 56 1618 1658
+type(
+  string
+)
+"safe_eval.ml" 56 1618 1653 "safe_eval.ml" 56 1618 1658
+call(
+  stack
+)
+type(
+  ('a, 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 56 1618 1622 "safe_eval.ml" 56 1618 1658
+call(
+  stack
+)
+type(
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 56 1618 1659 "safe_eval.ml" 56 1618 1661
+type(
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt ->
+  ('a, 'a) Cfg_printer.CodeUnparser.fmt ->
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.( ++ )
+)
+"safe_eval.ml" 57 1662 1666 "safe_eval.ml" 57 1662 1667
+type(
+  string -> ('a, 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.s
+)
+"safe_eval.ml" 57 1662 1667 "safe_eval.ml" 57 1662 1700
+type(
+  string
+)
+"safe_eval.ml" 57 1662 1666 "safe_eval.ml" 57 1662 1700
+call(
+  stack
+)
+type(
+  ('a, 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 56 1618 1622 "safe_eval.ml" 57 1662 1700
+call(
+  stack
+)
+type(
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 57 1662 1701 "safe_eval.ml" 57 1662 1703
+type(
+  ('a, string -> 'a) Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction, 'a) Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.( ++ )
+)
+"safe_eval.ml" 57 1662 1704 "safe_eval.ml" 57 1662 1707
+type(
+  (Cfg.stmt Visitor.visitAction, 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  int_ref fmt "safe_eval.ml" 54 1581 1597 "safe_eval.ml" 54 1581 1600
+)
+"safe_eval.ml" 56 1618 1622 "safe_eval.ml" 57 1662 1707
+call(
+  stack
+)
+type(
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 57 1662 1708 "safe_eval.ml" 57 1662 1710
+type(
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.( ++ )
+)
+"safe_eval.ml" 57 1662 1711 "safe_eval.ml" 57 1662 1712
+type(
+  string ->
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.s
+)
+"safe_eval.ml" 57 1662 1712 "safe_eval.ml" 57 1662 1717
+type(
+  string
+)
+"safe_eval.ml" 57 1662 1711 "safe_eval.ml" 57 1662 1717
+call(
+  stack
+)
+type(
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 56 1618 1622 "safe_eval.ml" 57 1662 1717
+call(
+  stack
+)
+type(
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 57 1662 1717 "safe_eval.ml" 57 1662 1719
+type(
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.( ++ )
+)
+"safe_eval.ml" 58 1720 1724 "safe_eval.ml" 58 1720 1725
+type(
+  string ->
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.s
+)
+"safe_eval.ml" 58 1720 1725 "safe_eval.ml" 58 1720 1734
+type(
+  string
+)
+"safe_eval.ml" 58 1720 1724 "safe_eval.ml" 58 1720 1734
+call(
+  stack
+)
+type(
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 56 1618 1622 "safe_eval.ml" 58 1720 1734
+call(
+  stack
+)
+type(
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 60 1741 1745 "safe_eval.ml" 60 1741 1756
+type(
+  ?env:Utils.StrSet.t ->
+  ?filename:string ->
+  ?lineno:int ->
+  (Cfg.stmt -> Cfg.stmt Visitor.visitAction) ->
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt ->
+  string -> 'a
+)
+ident(
+  ext_ref CR.kreparse
+)
+"safe_eval.ml" 60 1741 1762 "safe_eval.ml" 60 1741 1763
+type(
+  Cfg.stmt
+)
+ident(
+  def x "safe_eval.ml" 60 1741 1767 "safe_eval.ml" 60 1741 1777
+)
+"safe_eval.ml" 60 1741 1776 "safe_eval.ml" 60 1741 1777
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref x "safe_eval.ml" 60 1741 1762 "safe_eval.ml" 60 1741 1763
+)
+"safe_eval.ml" 60 1741 1767 "safe_eval.ml" 60 1741 1777
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 60 1741 1757 "safe_eval.ml" 60 1741 1778
+type(
+  Cfg.stmt -> Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 60 1741 1779 "safe_eval.ml" 60 1741 1783
+type(
+  (Cfg.stmt Visitor.visitAction, string -> 'a) Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  int_ref code "safe_eval.ml" 55 1604 1610 "safe_eval.ml" 55 1604 1614
+)
+"safe_eval.ml" 60 1741 1784 "safe_eval.ml" 60 1741 1787
+type(
+  string
+)
+ident(
+  int_ref msg "safe_eval.ml" 54 1581 1593 "safe_eval.ml" 54 1581 1596
+)
+"safe_eval.ml" 60 1741 1745 "safe_eval.ml" 60 1741 1787
+call(
+  tail
+)
+type(
+  'a
+)
+"safe_eval.ml" 55 1604 1606 "safe_eval.ml" 60 1741 1787
+type(
+  'a
+)
+"safe_eval.ml" 62 1789 1812 "safe_eval.ml" 62 1789 1816
+type(
+  string
+)
+"safe_eval.ml" 62 1789 1825 "safe_eval.ml" 62 1789 1833
+type(
+  string
+)
+"safe_eval.ml" 63 1837 1843 "safe_eval.ml" 63 1837 1849
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+)
+"safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "safe_eval.ml" 66 1886 1913 "safe_eval.ml" 93 3052 3073
+)
+"safe_eval.ml" 66 1886 1919 "safe_eval.ml" 66 1886 1923
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 66 1886 1919 "safe_eval.ml" 66 1886 1929
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 67 1935 1956 "safe_eval.ml" 67 1935 1966
+type(
+  Cfg.var_kind
+)
+"safe_eval.ml" 67 1935 1967 "safe_eval.ml" 67 1935 1968
+type(
+  string
+)
+"safe_eval.ml" 67 1935 1955 "safe_eval.ml" 67 1935 1969
+type(
+  Cfg.var_kind * string
+)
+"safe_eval.ml" 67 1935 1948 "safe_eval.ml" 67 1935 1969
+type(
+  Cfg.lhs
+)
+"safe_eval.ml" 67 1935 1970 "safe_eval.ml" 67 1935 1971
+type(
+  Cfg.tuple_expr
+)
+"safe_eval.ml" 67 1935 1941 "safe_eval.ml" 67 1935 1972
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 67 1935 1976 "safe_eval.ml" 67 1935 1986
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 69 1988 2001 "safe_eval.ml" 69 1988 2005
+type(
+  Cfg.lhs
+)
+ident(
+  def left "safe_eval.ml" 70 2025 2033 "safe_eval.ml" 71 2080 2148
+)
+"safe_eval.ml" 69 1988 2007 "safe_eval.ml" 69 1988 2012
+type(
+  Cfg.tuple_expr
+)
+"safe_eval.ml" 69 1988 2006 "safe_eval.ml" 69 1988 2020
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def rhs "safe_eval.ml" 70 2025 2033 "safe_eval.ml" 71 2080 2148
+)
+"safe_eval.ml" 69 1988 1994 "safe_eval.ml" 69 1988 2021
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 70 2025 2037 "safe_eval.ml" 70 2025 2040
+type(
+  [> Cfg.identifier ]
+)
+"safe_eval.ml" 70 2025 2042 "safe_eval.ml" 70 2025 2046
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 70 2025 2037 "safe_eval.ml" 70 2025 2046
+type(
+  ([> Cfg.identifier ] as 'a) * Cfg.stmt
+)
+"safe_eval.ml" 70 2025 2049 "safe_eval.ml" 70 2025 2058
+type(
+  string ->
+  _[< Cfg.star_expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var
+      `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+      `Lit_Range `Lit_Regexp `Lit_String ] ->
+  Cfg.pos -> 'a * Cfg.stmt
+)
+ident(
+  int_ref call_wrap "safe_eval.ml" 21 472 476 "safe_eval.ml" 21 472 485
+)
+"safe_eval.ml" 70 2025 2059 "safe_eval.ml" 70 2025 2063
+type(
+  string
+)
+"safe_eval.ml" 70 2025 2064 "safe_eval.ml" 70 2025 2067
+type(
+  _[< Cfg.star_expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var
+      `Lit_Array `Lit_Atom `Lit_BigNum `Lit_FixNum `Lit_Float `Lit_Hash
+      `Lit_Range `Lit_Regexp `Lit_String ]
+  as 'b
+)
+ident(
+  int_ref rhs "safe_eval.ml" 69 1988 2006 "safe_eval.ml" 69 1988 2020
+)
+"safe_eval.ml" 70 2025 2068 "safe_eval.ml" 70 2025 2072
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 70 2025 2068 "safe_eval.ml" 70 2025 2076
+type(
+  Cfg.pos
+)
+"safe_eval.ml" 70 2025 2049 "safe_eval.ml" 70 2025 2076
+call(
+  stack
+)
+type(
+  'a * Cfg.stmt
+)
+"safe_eval.ml" 71 2080 2099 "safe_eval.ml" 71 2080 2104
+type(
+  Cfg.stmt list -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.seq
+)
+"safe_eval.ml" 71 2080 2106 "safe_eval.ml" 71 2080 2110
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref wrap "safe_eval.ml" 70 2025 2042 "safe_eval.ml" 70 2025 2046
+)
+"safe_eval.ml" 71 2080 2111 "safe_eval.ml" 71 2080 2119
+type(
+  Cfg.lhs ->
+  _[< Cfg.tuple_expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ] ->
+  Cfg.pos -> Cfg.stmt
+)
+ident(
+  ext_ref C.assign
+)
+"safe_eval.ml" 71 2080 2120 "safe_eval.ml" 71 2080 2124
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref left "safe_eval.ml" 69 1988 2001 "safe_eval.ml" 69 1988 2005
+)
+"safe_eval.ml" 71 2080 2125 "safe_eval.ml" 71 2080 2128
+type(
+  _[< Cfg.tuple_expr
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ]
+  as 'c
+)
+ident(
+  int_ref tmp "safe_eval.ml" 70 2025 2037 "safe_eval.ml" 70 2025 2040
+)
+"safe_eval.ml" 71 2080 2129 "safe_eval.ml" 71 2080 2133
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 71 2080 2129 "safe_eval.ml" 71 2080 2137
+type(
+  Cfg.pos
+)
+"safe_eval.ml" 71 2080 2111 "safe_eval.ml" 71 2080 2137
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 71 2080 2105 "safe_eval.ml" 71 2080 2138
+type(
+  Cfg.stmt list
+)
+"safe_eval.ml" 71 2080 2139 "safe_eval.ml" 71 2080 2143
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 71 2080 2139 "safe_eval.ml" 71 2080 2147
+type(
+  Cfg.pos
+)
+"safe_eval.ml" 71 2080 2098 "safe_eval.ml" 71 2080 2148
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 71 2080 2090 "safe_eval.ml" 71 2080 2148
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 70 2025 2033 "safe_eval.ml" 71 2080 2148
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 73 2150 2163 "safe_eval.ml" 73 2150 2167
+type(
+  Cfg.lhs
+)
+ident(
+  def left "safe_eval.ml" 73 2150 2176 "safe_eval.ml" 73 2150 2230
+)
+"safe_eval.ml" 73 2150 2168 "safe_eval.ml" 73 2150 2171
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def rhs "safe_eval.ml" 73 2150 2176 "safe_eval.ml" 73 2150 2230
+)
+"safe_eval.ml" 73 2150 2156 "safe_eval.ml" 73 2150 2172
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 73 2150 2176 "safe_eval.ml" 73 2150 2186
+type(
+  string ->
+  (Cfg.tuple_expr -> Cfg.stmt_node) ->
+  Cfg.tuple_expr -> Cfg.pos -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  int_ref change_tup "safe_eval.ml" 41 1247 1251 "safe_eval.ml" 41 1247 1261
+)
+"safe_eval.ml" 73 2150 2187 "safe_eval.ml" 73 2150 2191
+type(
+  string
+)
+"safe_eval.ml" 73 2150 2197 "safe_eval.ml" 73 2150 2198
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def x "safe_eval.ml" 73 2150 2202 "safe_eval.ml" 73 2150 2216
+)
+"safe_eval.ml" 73 2150 2209 "safe_eval.ml" 73 2150 2213
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref left "safe_eval.ml" 73 2150 2163 "safe_eval.ml" 73 2150 2167
+)
+"safe_eval.ml" 73 2150 2214 "safe_eval.ml" 73 2150 2215
+type(
+  Cfg.tuple_expr
+)
+ident(
+  int_ref x "safe_eval.ml" 73 2150 2197 "safe_eval.ml" 73 2150 2198
+)
+"safe_eval.ml" 73 2150 2202 "safe_eval.ml" 73 2150 2216
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 73 2150 2192 "safe_eval.ml" 73 2150 2217
+type(
+  Cfg.tuple_expr -> Cfg.stmt_node
+)
+"safe_eval.ml" 73 2150 2218 "safe_eval.ml" 73 2150 2221
+type(
+  Cfg.tuple_expr
+)
+ident(
+  int_ref rhs "safe_eval.ml" 73 2150 2168 "safe_eval.ml" 73 2150 2171
+)
+"safe_eval.ml" 73 2150 2222 "safe_eval.ml" 73 2150 2226
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 73 2150 2222 "safe_eval.ml" 73 2150 2230
+type(
+  Cfg.pos
+)
+"safe_eval.ml" 73 2150 2176 "safe_eval.ml" 73 2150 2230
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 75 2232 2249 "safe_eval.ml" 75 2232 2250
+type(
+  Cfg.lhs option
+)
+"safe_eval.ml" 75 2232 2274 "safe_eval.ml" 75 2232 2277
+type(
+  string
+)
+ident(
+  def str "safe_eval.ml" 75 2232 2280 "safe_eval.ml" 76 2311 2375
+)
+"safe_eval.ml" 75 2232 2259 "safe_eval.ml" 75 2232 2277
+type(
+  Cfg.msg_id
+)
+"safe_eval.ml" 75 2232 2251 "safe_eval.ml" 75 2232 2278
+type(
+  Cfg.method_call
+)
+"safe_eval.ml" 75 2232 2238 "safe_eval.ml" 75 2232 2279
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 75 2232 2285 "safe_eval.ml" 75 2232 2293
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"safe_eval.ml" 75 2232 2294 "safe_eval.ml" 75 2232 2297
+type(
+  string
+)
+ident(
+  int_ref str "safe_eval.ml" 75 2232 2274 "safe_eval.ml" 75 2232 2277
+)
+"safe_eval.ml" 75 2232 2298 "safe_eval.ml" 75 2232 2307
+type(
+  string list
+)
+ident(
+  int_ref blacklist "safe_eval.ml" 48 1502 1506 "safe_eval.ml" 48 1502 1515
+)
+"safe_eval.ml" 75 2232 2285 "safe_eval.ml" 75 2232 2307
+call(
+  stack
+)
+type(
+  bool
+)
+"safe_eval.ml" 76 2311 2319 "safe_eval.ml" 76 2311 2326
+type(
+  string ->
+  (Cfg.stmt Visitor.visitAction, string -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt -> string -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  int_ref failure "safe_eval.ml" 54 1581 1585 "safe_eval.ml" 54 1581 1592
+)
+"safe_eval.ml" 76 2311 2327 "safe_eval.ml" 76 2311 2335
+type(
+  string
+)
+"safe_eval.ml" 76 2311 2337 "safe_eval.ml" 76 2311 2338
+type(
+  string ->
+  (string -> Cfg.stmt Visitor.visitAction,
+   string -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.s
+)
+"safe_eval.ml" 76 2311 2338 "safe_eval.ml" 76 2311 2360
+type(
+  string
+)
+"safe_eval.ml" 76 2311 2337 "safe_eval.ml" 76 2311 2360
+call(
+  stack
+)
+type(
+  (string -> Cfg.stmt Visitor.visitAction,
+   string -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 76 2311 2361 "safe_eval.ml" 76 2311 2363
+type(
+  (string -> Cfg.stmt Visitor.visitAction,
+   string -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction, string -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction, string -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.( ++ )
+)
+"safe_eval.ml" 76 2311 2364 "safe_eval.ml" 76 2311 2370
+type(
+  (Cfg.stmt Visitor.visitAction, string -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.string
+)
+"safe_eval.ml" 76 2311 2336 "safe_eval.ml" 76 2311 2371
+call(
+  stack
+)
+type(
+  (Cfg.stmt Visitor.visitAction, string -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 76 2311 2372 "safe_eval.ml" 76 2311 2375
+type(
+  string
+)
+ident(
+  int_ref str "safe_eval.ml" 75 2232 2274 "safe_eval.ml" 75 2232 2277
+)
+"safe_eval.ml" 76 2311 2319 "safe_eval.ml" 76 2311 2375
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 75 2232 2280 "safe_eval.ml" 76 2311 2375
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 78 2377 2394 "safe_eval.ml" 78 2377 2397
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs "safe_eval.ml" 78 2377 2407 "safe_eval.ml" 78 2377 2452
+)
+"safe_eval.ml" 78 2377 2399 "safe_eval.ml" 78 2377 2401
+type(
+  Cfg.method_call
+)
+ident(
+  def mc "safe_eval.ml" 78 2377 2407 "safe_eval.ml" 78 2377 2452
+)
+"safe_eval.ml" 78 2377 2383 "safe_eval.ml" 78 2377 2402
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 78 2377 2417 "safe_eval.ml" 78 2377 2430
+type(
+  string -> Cfg.lhs option -> Cfg.method_call -> Cfg.pos -> Cfg.stmt
+)
+ident(
+  int_ref contract_call "safe_eval.ml" 32 820 824 "safe_eval.ml" 32 820 837
+)
+"safe_eval.ml" 78 2377 2431 "safe_eval.ml" 78 2377 2435
+type(
+  string
+)
+"safe_eval.ml" 78 2377 2436 "safe_eval.ml" 78 2377 2439
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs "safe_eval.ml" 78 2377 2394 "safe_eval.ml" 78 2377 2397
+)
+"safe_eval.ml" 78 2377 2440 "safe_eval.ml" 78 2377 2442
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc "safe_eval.ml" 78 2377 2399 "safe_eval.ml" 78 2377 2401
+)
+"safe_eval.ml" 78 2377 2443 "safe_eval.ml" 78 2377 2447
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 78 2377 2443 "safe_eval.ml" 78 2377 2451
+type(
+  Cfg.pos
+)
+"safe_eval.ml" 78 2377 2416 "safe_eval.ml" 78 2377 2452
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 78 2377 2407 "safe_eval.ml" 78 2377 2452
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 80 2454 2467 "safe_eval.ml" 80 2454 2469
+type(
+  Cfg.def_name
+)
+ident(
+  def dn "safe_eval.ml" 81 2487 2495 "safe_eval.ml" 81 2487 2555
+)
+"safe_eval.ml" 80 2454 2470 "safe_eval.ml" 80 2454 2477
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  def formals "safe_eval.ml" 81 2487 2495 "safe_eval.ml" 81 2487 2555
+)
+"safe_eval.ml" 80 2454 2478 "safe_eval.ml" 80 2454 2482
+type(
+  Cfg.stmt
+)
+ident(
+  def body "safe_eval.ml" 81 2487 2495 "safe_eval.ml" 81 2487 2555
+)
+"safe_eval.ml" 80 2454 2460 "safe_eval.ml" 80 2454 2483
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 81 2487 2495 "safe_eval.ml" 81 2487 2502
+type(
+  string ->
+  (Cfg.stmt Visitor.visitAction,
+   Cfg.def_name -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt ->
+  Cfg.def_name -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  int_ref failure "safe_eval.ml" 54 1581 1585 "safe_eval.ml" 54 1581 1592
+)
+"safe_eval.ml" 81 2487 2503 "safe_eval.ml" 81 2487 2511
+type(
+  string
+)
+"safe_eval.ml" 81 2487 2513 "safe_eval.ml" 81 2487 2514
+type(
+  string ->
+  (Cfg.def_name -> Cfg.stmt Visitor.visitAction,
+   Cfg.def_name -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.s
+)
+"safe_eval.ml" 81 2487 2514 "safe_eval.ml" 81 2487 2539
+type(
+  string
+)
+"safe_eval.ml" 81 2487 2513 "safe_eval.ml" 81 2487 2539
+call(
+  stack
+)
+type(
+  (Cfg.def_name -> Cfg.stmt Visitor.visitAction,
+   Cfg.def_name -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 81 2487 2540 "safe_eval.ml" 81 2487 2542
+type(
+  (Cfg.def_name -> Cfg.stmt Visitor.visitAction,
+   Cfg.def_name -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction,
+   Cfg.def_name -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt ->
+  (Cfg.stmt Visitor.visitAction,
+   Cfg.def_name -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.( ++ )
+)
+"safe_eval.ml" 81 2487 2543 "safe_eval.ml" 81 2487 2551
+type(
+  (Cfg.stmt Visitor.visitAction,
+   Cfg.def_name -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.def_name
+)
+"safe_eval.ml" 81 2487 2512 "safe_eval.ml" 81 2487 2552
+call(
+  stack
+)
+type(
+  (Cfg.stmt Visitor.visitAction,
+   Cfg.def_name -> Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 81 2487 2553 "safe_eval.ml" 81 2487 2555
+type(
+  Cfg.def_name
+)
+ident(
+  int_ref dn "safe_eval.ml" 80 2454 2467 "safe_eval.ml" 80 2454 2469
+)
+"safe_eval.ml" 81 2487 2495 "safe_eval.ml" 81 2487 2555
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 83 2557 2569 "safe_eval.ml" 83 2557 2572
+type(
+  Cfg.msg_id list
+)
+ident(
+  def lst "safe_eval.ml" 83 2557 2576 "safe_eval.ml" 83 2557 2626
+)
+"safe_eval.ml" 83 2557 2563 "safe_eval.ml" 83 2557 2572
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 83 2557 2576 "safe_eval.ml" 83 2557 2583
+type(
+  string ->
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  int_ref failure "safe_eval.ml" 54 1581 1585 "safe_eval.ml" 54 1581 1592
+)
+"safe_eval.ml" 83 2557 2584 "safe_eval.ml" 83 2557 2592
+type(
+  string
+)
+"safe_eval.ml" 83 2557 2594 "safe_eval.ml" 83 2557 2595
+type(
+  string ->
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+ident(
+  ext_ref Cfg_printer.CodeUnparser.s
+)
+"safe_eval.ml" 83 2557 2595 "safe_eval.ml" 83 2557 2625
+type(
+  string
+)
+"safe_eval.ml" 83 2557 2593 "safe_eval.ml" 83 2557 2626
+call(
+  stack
+)
+type(
+  (Cfg.stmt Visitor.visitAction, Cfg.stmt Visitor.visitAction)
+  Cfg_printer.CodeUnparser.fmt
+)
+"safe_eval.ml" 83 2557 2576 "safe_eval.ml" 83 2557 2626
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 85 2628 2646 "safe_eval.ml" 85 2628 2649
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def tup "safe_eval.ml" 85 2628 2654 "safe_eval.ml" 85 2628 2709
+)
+"safe_eval.ml" 85 2628 2640 "safe_eval.ml" 85 2628 2650
+type(
+  Cfg.tuple_expr option
+)
+"safe_eval.ml" 85 2628 2634 "safe_eval.ml" 85 2628 2650
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 85 2628 2654 "safe_eval.ml" 85 2628 2664
+type(
+  string ->
+  (Cfg.tuple_expr -> Cfg.stmt_node) ->
+  Cfg.tuple_expr -> Cfg.pos -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  int_ref change_tup "safe_eval.ml" 41 1247 1251 "safe_eval.ml" 41 1247 1261
+)
+"safe_eval.ml" 85 2628 2665 "safe_eval.ml" 85 2628 2669
+type(
+  string
+)
+"safe_eval.ml" 85 2628 2675 "safe_eval.ml" 85 2628 2676
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def x "safe_eval.ml" 85 2628 2680 "safe_eval.ml" 85 2628 2695
+)
+"safe_eval.ml" 85 2628 2693 "safe_eval.ml" 85 2628 2694
+type(
+  Cfg.tuple_expr
+)
+ident(
+  int_ref x "safe_eval.ml" 85 2628 2675 "safe_eval.ml" 85 2628 2676
+)
+"safe_eval.ml" 85 2628 2687 "safe_eval.ml" 85 2628 2695
+type(
+  Cfg.tuple_expr option
+)
+"safe_eval.ml" 85 2628 2680 "safe_eval.ml" 85 2628 2695
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 85 2628 2670 "safe_eval.ml" 85 2628 2696
+type(
+  Cfg.tuple_expr -> Cfg.stmt_node
+)
+"safe_eval.ml" 85 2628 2697 "safe_eval.ml" 85 2628 2700
+type(
+  Cfg.tuple_expr
+)
+ident(
+  int_ref tup "safe_eval.ml" 85 2628 2646 "safe_eval.ml" 85 2628 2649
+)
+"safe_eval.ml" 85 2628 2701 "safe_eval.ml" 85 2628 2705
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 85 2628 2701 "safe_eval.ml" 85 2628 2709
+type(
+  Cfg.pos
+)
+"safe_eval.ml" 85 2628 2654 "safe_eval.ml" 85 2628 2709
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 86 2710 2727 "safe_eval.ml" 86 2710 2730
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def tup "safe_eval.ml" 86 2710 2735 "safe_eval.ml" 86 2710 2789
+)
+"safe_eval.ml" 86 2710 2721 "safe_eval.ml" 86 2710 2731
+type(
+  Cfg.tuple_expr option
+)
+"safe_eval.ml" 86 2710 2716 "safe_eval.ml" 86 2710 2731
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 86 2710 2735 "safe_eval.ml" 86 2710 2745
+type(
+  string ->
+  (Cfg.tuple_expr -> Cfg.stmt_node) ->
+  Cfg.tuple_expr -> Cfg.pos -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  int_ref change_tup "safe_eval.ml" 41 1247 1251 "safe_eval.ml" 41 1247 1261
+)
+"safe_eval.ml" 86 2710 2746 "safe_eval.ml" 86 2710 2750
+type(
+  string
+)
+"safe_eval.ml" 86 2710 2756 "safe_eval.ml" 86 2710 2757
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def x "safe_eval.ml" 86 2710 2761 "safe_eval.ml" 86 2710 2775
+)
+"safe_eval.ml" 86 2710 2773 "safe_eval.ml" 86 2710 2774
+type(
+  Cfg.tuple_expr
+)
+ident(
+  int_ref x "safe_eval.ml" 86 2710 2756 "safe_eval.ml" 86 2710 2757
+)
+"safe_eval.ml" 86 2710 2767 "safe_eval.ml" 86 2710 2775
+type(
+  Cfg.tuple_expr option
+)
+"safe_eval.ml" 86 2710 2761 "safe_eval.ml" 86 2710 2775
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 86 2710 2751 "safe_eval.ml" 86 2710 2776
+type(
+  Cfg.tuple_expr -> Cfg.stmt_node
+)
+"safe_eval.ml" 86 2710 2777 "safe_eval.ml" 86 2710 2780
+type(
+  Cfg.tuple_expr
+)
+ident(
+  int_ref tup "safe_eval.ml" 86 2710 2727 "safe_eval.ml" 86 2710 2730
+)
+"safe_eval.ml" 86 2710 2781 "safe_eval.ml" 86 2710 2785
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 86 2710 2781 "safe_eval.ml" 86 2710 2789
+type(
+  Cfg.pos
+)
+"safe_eval.ml" 86 2710 2735 "safe_eval.ml" 86 2710 2789
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 87 2790 2806 "safe_eval.ml" 87 2790 2809
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def tup "safe_eval.ml" 87 2790 2814 "safe_eval.ml" 87 2790 2867
+)
+"safe_eval.ml" 87 2790 2800 "safe_eval.ml" 87 2790 2810
+type(
+  Cfg.tuple_expr option
+)
+"safe_eval.ml" 87 2790 2796 "safe_eval.ml" 87 2790 2810
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 87 2790 2814 "safe_eval.ml" 87 2790 2824
+type(
+  string ->
+  (Cfg.tuple_expr -> Cfg.stmt_node) ->
+  Cfg.tuple_expr -> Cfg.pos -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  int_ref change_tup "safe_eval.ml" 41 1247 1251 "safe_eval.ml" 41 1247 1261
+)
+"safe_eval.ml" 87 2790 2825 "safe_eval.ml" 87 2790 2829
+type(
+  string
+)
+"safe_eval.ml" 87 2790 2835 "safe_eval.ml" 87 2790 2836
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def x "safe_eval.ml" 87 2790 2840 "safe_eval.ml" 87 2790 2853
+)
+"safe_eval.ml" 87 2790 2851 "safe_eval.ml" 87 2790 2852
+type(
+  Cfg.tuple_expr
+)
+ident(
+  int_ref x "safe_eval.ml" 87 2790 2835 "safe_eval.ml" 87 2790 2836
+)
+"safe_eval.ml" 87 2790 2845 "safe_eval.ml" 87 2790 2853
+type(
+  Cfg.tuple_expr option
+)
+"safe_eval.ml" 87 2790 2840 "safe_eval.ml" 87 2790 2853
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 87 2790 2830 "safe_eval.ml" 87 2790 2854
+type(
+  Cfg.tuple_expr -> Cfg.stmt_node
+)
+"safe_eval.ml" 87 2790 2855 "safe_eval.ml" 87 2790 2858
+type(
+  Cfg.tuple_expr
+)
+ident(
+  int_ref tup "safe_eval.ml" 87 2790 2806 "safe_eval.ml" 87 2790 2809
+)
+"safe_eval.ml" 87 2790 2859 "safe_eval.ml" 87 2790 2863
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "safe_eval.ml" 66 1886 1906 "safe_eval.ml" 66 1886 1910
+)
+"safe_eval.ml" 87 2790 2859 "safe_eval.ml" 87 2790 2867
+type(
+  Cfg.pos
+)
+"safe_eval.ml" 87 2790 2814 "safe_eval.ml" 87 2790 2867
+call(
+  tail
+)
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 93 3052 3058 "safe_eval.ml" 93 3052 3059
+type(
+  Cfg.stmt_node
+)
+"safe_eval.ml" 93 3052 3063 "safe_eval.ml" 93 3052 3073
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 66 1886 1913 "safe_eval.ml" 93 3052 3073
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"safe_eval.ml" 96 3079 3083 "safe_eval.ml" 96 3079 3093
+type(
+  unit -> string
+)
+ident(
+  def read_stdin "safe_eval.ml" 107 3411 3411 --
+)
+"safe_eval.ml" 96 3079 3094 "safe_eval.ml" 96 3079 3096
+type(
+  unit
+)
+"safe_eval.ml" 97 3100 3106 "safe_eval.ml" 97 3100 3109
+type(
+  Buffer.t
+)
+"safe_eval.ml" 97 3100 3112 "safe_eval.ml" 97 3100 3125
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"safe_eval.ml" 97 3100 3126 "safe_eval.ml" 97 3100 3129
+type(
+  int
+)
+"safe_eval.ml" 97 3100 3112 "safe_eval.ml" 97 3100 3129
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"safe_eval.ml" 98 3133 3139 "safe_eval.ml" 98 3133 3142
+type(
+  string
+)
+"safe_eval.ml" 98 3133 3145 "safe_eval.ml" 98 3133 3158
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"safe_eval.ml" 98 3133 3159 "safe_eval.ml" 98 3133 3162
+type(
+  int
+)
+"safe_eval.ml" 98 3133 3145 "safe_eval.ml" 98 3133 3162
+type(
+  string
+)
+"safe_eval.ml" 99 3166 3180 "safe_eval.ml" 99 3166 3184
+type(
+  bool
+)
+"safe_eval.ml" 100 3188 3198 "safe_eval.ml" 100 3188 3206
+type(
+  int
+)
+ident(
+  def num_read "safe_eval.ml" 101 3234 3242 "safe_eval.ml" 103 3312 3342
+)
+"safe_eval.ml" 100 3188 3209 "safe_eval.ml" 100 3188 3214
+type(
+  in_channel -> string -> int -> int -> int
+)
+ident(
+  ext_ref Pervasives.input
+)
+"safe_eval.ml" 100 3188 3215 "safe_eval.ml" 100 3188 3220
+type(
+  in_channel
+)
+ident(
+  ext_ref Pervasives.stdin
+)
+"safe_eval.ml" 100 3188 3221 "safe_eval.ml" 100 3188 3224
+type(
+  string
+)
+ident(
+  int_ref str "safe_eval.ml" 98 3133 3139 "safe_eval.ml" 98 3133 3142
+)
+"safe_eval.ml" 100 3188 3225 "safe_eval.ml" 100 3188 3226
+type(
+  int
+)
+"safe_eval.ml" 100 3188 3227 "safe_eval.ml" 100 3188 3230
+type(
+  int
+)
+"safe_eval.ml" 100 3188 3209 "safe_eval.ml" 100 3188 3230
+call(
+  stack
+)
+type(
+  int
+)
+"safe_eval.ml" 101 3234 3245 "safe_eval.ml" 101 3234 3253
+type(
+  int
+)
+ident(
+  int_ref num_read "safe_eval.ml" 100 3188 3198 "safe_eval.ml" 100 3188 3206
+)
+"safe_eval.ml" 101 3234 3254 "safe_eval.ml" 101 3234 3255
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"safe_eval.ml" 101 3234 3256 "safe_eval.ml" 101 3234 3257
+type(
+  int
+)
+"safe_eval.ml" 101 3234 3245 "safe_eval.ml" 101 3234 3257
+type(
+  bool
+)
+"safe_eval.ml" 102 3259 3272 "safe_eval.ml" 102 3259 3292
+type(
+  Buffer.t -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Buffer.add_substring
+)
+"safe_eval.ml" 102 3259 3293 "safe_eval.ml" 102 3259 3296
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "safe_eval.ml" 97 3100 3106 "safe_eval.ml" 97 3100 3109
+)
+"safe_eval.ml" 102 3259 3297 "safe_eval.ml" 102 3259 3300
+type(
+  string
+)
+ident(
+  int_ref str "safe_eval.ml" 98 3133 3139 "safe_eval.ml" 98 3133 3142
+)
+"safe_eval.ml" 102 3259 3301 "safe_eval.ml" 102 3259 3302
+type(
+  int
+)
+"safe_eval.ml" 102 3259 3303 "safe_eval.ml" 102 3259 3311
+type(
+  int
+)
+ident(
+  int_ref num_read "safe_eval.ml" 100 3188 3198 "safe_eval.ml" 100 3188 3206
+)
+"safe_eval.ml" 102 3259 3272 "safe_eval.ml" 102 3259 3311
+call(
+  stack
+)
+type(
+  unit
+)
+"safe_eval.ml" 103 3312 3325 "safe_eval.ml" 103 3312 3330
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"safe_eval.ml" 103 3312 3331 "safe_eval.ml" 103 3312 3342
+type(
+  exn
+)
+"safe_eval.ml" 103 3312 3325 "safe_eval.ml" 103 3312 3342
+type(
+  unit
+)
+"safe_eval.ml" 101 3234 3242 "safe_eval.ml" 103 3312 3342
+type(
+  unit
+)
+"safe_eval.ml" 100 3188 3194 "safe_eval.ml" 103 3312 3342
+type(
+  unit
+)
+"safe_eval.ml" 99 3166 3174 "safe_eval.ml" 104 3343 3351
+type(
+  unit
+)
+"safe_eval.ml" 104 3343 3353 "safe_eval.ml" 104 3343 3365
+type(
+  string
+)
+"safe_eval.ml" 99 3166 3174 "safe_eval.ml" 104 3343 3365
+type(
+  string
+)
+"safe_eval.ml" 105 3366 3375 "safe_eval.ml" 105 3366 3386
+type(
+  exn
+)
+"safe_eval.ml" 105 3366 3390 "safe_eval.ml" 105 3366 3405
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"safe_eval.ml" 105 3366 3406 "safe_eval.ml" 105 3366 3409
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "safe_eval.ml" 97 3100 3106 "safe_eval.ml" 97 3100 3109
+)
+"safe_eval.ml" 105 3366 3390 "safe_eval.ml" 105 3366 3409
+call(
+  tail
+)
+type(
+  string
+)
+"safe_eval.ml" 99 3166 3170 "safe_eval.ml" 105 3366 3409
+type(
+  string
+)
+"safe_eval.ml" 98 3133 3135 "safe_eval.ml" 105 3366 3409
+type(
+  string
+)
+"safe_eval.ml" 97 3100 3102 "safe_eval.ml" 105 3366 3409
+type(
+  string
+)
+"safe_eval.ml" 108 3421 3468 "safe_eval.ml" 108 3421 3482
+call(
+  stack
+)
+"safe_eval.ml" 108 3421 3436 "safe_eval.ml" 108 3421 3483
+call(
+  stack
+)
+"safe_eval.ml" 110 3485 3489 "safe_eval.ml" 110 3485 3502
+type(
+  string -> int -> string -> string
+)
+ident(
+  def violation_msg "safe_eval.ml" 119 3778 3778 --
+)
+"safe_eval.ml" 110 3485 3503 "safe_eval.ml" 110 3485 3511
+type(
+  string
+)
+ident(
+  def filename "safe_eval.ml" 110 3485 3512 "safe_eval.ml" 117 3733 3776
+)
+"safe_eval.ml" 110 3485 3512 "safe_eval.ml" 110 3485 3518
+type(
+  int
+)
+ident(
+  def lineno "safe_eval.ml" 110 3485 3519 "safe_eval.ml" 117 3733 3776
+)
+"safe_eval.ml" 110 3485 3519 "safe_eval.ml" 110 3485 3523
+type(
+  string
+)
+ident(
+  def code "safe_eval.ml" 111 3527 3529 "safe_eval.ml" 117 3733 3776
+)
+"safe_eval.ml" 111 3527 3533 "safe_eval.ml" 111 3527 3536
+type(
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6
+)
+"safe_eval.ml" 112 3540 3544 "safe_eval.ml" 112 3540 3555
+type(
+  (string -> int -> string -> string, unit, string, string, string,
+   string -> int -> string -> string)
+  format6
+)
+"safe_eval.ml" 112 3540 3556 "safe_eval.ml" 112 3540 3558
+type(
+  (string -> int -> string -> string, unit, string, string, string,
+   string -> int -> string -> string)
+  format6 ->
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6 ->
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"safe_eval.ml" 113 3559 3565 "safe_eval.ml" 113 3559 3649
+type(
+  (string -> int -> string -> string, unit, string, string, string,
+   string -> int -> string -> string)
+  format6
+)
+"safe_eval.ml" 113 3559 3650 "safe_eval.ml" 113 3559 3652
+type(
+  (string -> int -> string -> string, unit, string, string, string,
+   string -> int -> string -> string)
+  format6 ->
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6 ->
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"safe_eval.ml" 114 3653 3659 "safe_eval.ml" 114 3653 3691
+type(
+  (string -> int -> string -> string, unit, string, string, string,
+   string -> string)
+  format6
+)
+"safe_eval.ml" 114 3653 3692 "safe_eval.ml" 114 3653 3694
+type(
+  (string -> int -> string -> string, unit, string, string, string,
+   string -> string)
+  format6 ->
+  (string -> string, unit, string, string, string, string) format6 ->
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"safe_eval.ml" 115 3695 3701 "safe_eval.ml" 115 3695 3726
+type(
+  (string -> string, unit, string, string, string, string) format6
+)
+"safe_eval.ml" 114 3653 3659 "safe_eval.ml" 115 3695 3726
+call(
+  stack
+)
+type(
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6
+)
+"safe_eval.ml" 113 3559 3565 "safe_eval.ml" 115 3695 3726
+call(
+  stack
+)
+type(
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6
+)
+"safe_eval.ml" 112 3540 3544 "safe_eval.ml" 115 3695 3726
+call(
+  stack
+)
+type(
+  (string -> int -> string -> string, unit, string, string, string, string)
+  format6
+)
+"safe_eval.ml" 117 3733 3737 "safe_eval.ml" 117 3733 3751
+type(
+  (string -> int -> string -> string, unit, string) format ->
+  string -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"safe_eval.ml" 117 3733 3752 "safe_eval.ml" 117 3733 3755
+type(
+  (string -> int -> string -> string, unit, string) format
+)
+ident(
+  int_ref fmt "safe_eval.ml" 111 3527 3533 "safe_eval.ml" 111 3527 3536
+)
+"safe_eval.ml" 117 3733 3756 "safe_eval.ml" 117 3733 3764
+type(
+  string
+)
+ident(
+  int_ref filename "safe_eval.ml" 110 3485 3503 "safe_eval.ml" 110 3485 3511
+)
+"safe_eval.ml" 117 3733 3765 "safe_eval.ml" 117 3733 3771
+type(
+  int
+)
+ident(
+  int_ref lineno "safe_eval.ml" 110 3485 3512 "safe_eval.ml" 110 3485 3518
+)
+"safe_eval.ml" 117 3733 3772 "safe_eval.ml" 117 3733 3776
+type(
+  string
+)
+ident(
+  int_ref code "safe_eval.ml" 110 3485 3519 "safe_eval.ml" 110 3485 3523
+)
+"safe_eval.ml" 117 3733 3737 "safe_eval.ml" 117 3733 3776
+call(
+  tail
+)
+type(
+  string
+)
+"safe_eval.ml" 111 3527 3529 "safe_eval.ml" 117 3733 3776
+type(
+  string
+)
+"safe_eval.ml" 119 3778 3782 "safe_eval.ml" 119 3778 3784
+type(
+  unit
+)
+"safe_eval.ml" 120 3788 3794 "safe_eval.ml" 120 3788 3797
+type(
+  string
+)
+"safe_eval.ml" 120 3788 3800 "safe_eval.ml" 120 3788 3810
+type(
+  unit -> string
+)
+ident(
+  int_ref read_stdin "safe_eval.ml" 96 3079 3083 "safe_eval.ml" 96 3079 3093
+)
+"safe_eval.ml" 120 3788 3810 "safe_eval.ml" 120 3788 3812
+type(
+  unit
+)
+"safe_eval.ml" 120 3788 3800 "safe_eval.ml" 120 3788 3812
+call(
+  stack
+)
+type(
+  string
+)
+"safe_eval.ml" 121 3816 3822 "safe_eval.ml" 121 3816 3830
+type(
+  Yaml.YString.t
+)
+"safe_eval.ml" 121 3816 3831 "safe_eval.ml" 121 3816 3837
+type(
+  Yaml.YInt.t
+)
+"safe_eval.ml" 121 3816 3838 "safe_eval.ml" 121 3816 3842
+type(
+  Yaml.YString.t
+)
+"safe_eval.ml" 121 3816 3843 "safe_eval.ml" 121 3816 3849
+type(
+  Yaml.YList(Yaml.YString).t
+)
+"safe_eval.ml" 121 3816 3822 "safe_eval.ml" 121 3816 3849
+type(
+  Input.t
+)
+"safe_eval.ml" 121 3816 3852 "safe_eval.ml" 121 3816 3865
+type(
+  Yaml.yaml -> Input.t
+)
+ident(
+  ext_ref Input.of_yaml
+)
+"safe_eval.ml" 121 3816 3867 "safe_eval.ml" 121 3816 3884
+type(
+  ?other:bool -> string -> Yaml.yaml
+)
+ident(
+  ext_ref Yaml.parse_string
+)
+"safe_eval.ml" 121 3816 3885 "safe_eval.ml" 121 3816 3888
+type(
+  string
+)
+ident(
+  int_ref str "safe_eval.ml" 120 3788 3794 "safe_eval.ml" 120 3788 3797
+)
+"safe_eval.ml" 121 3816 3866 "safe_eval.ml" 121 3816 3889
+call(
+  stack
+)
+type(
+  Yaml.yaml
+)
+"safe_eval.ml" 121 3816 3852 "safe_eval.ml" 121 3816 3889
+call(
+  stack
+)
+type(
+  Input.t
+)
+"safe_eval.ml" 122 3893 3899 "safe_eval.ml" 122 3893 3902
+type(
+  Utils.StrSet.t
+)
+"safe_eval.ml" 122 3893 3905 "safe_eval.ml" 122 3893 3919
+type(
+  (Utils.StrSet.t -> Utils.StrSet.elt -> Utils.StrSet.t) ->
+  Utils.StrSet.t -> Yaml.YList(Yaml.YString).t -> Utils.StrSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"safe_eval.ml" 122 3893 3925 "safe_eval.ml" 122 3893 3928
+type(
+  Utils.StrSet.t
+)
+ident(
+  def acc "safe_eval.ml" 122 3893 3929 "safe_eval.ml" 122 3893 3950
+)
+"safe_eval.ml" 122 3893 3929 "safe_eval.ml" 122 3893 3930
+type(
+  Utils.StrSet.elt
+)
+ident(
+  def x "safe_eval.ml" 122 3893 3934 "safe_eval.ml" 122 3893 3950
+)
+"safe_eval.ml" 122 3893 3934 "safe_eval.ml" 122 3893 3944
+type(
+  Utils.StrSet.elt -> Utils.StrSet.t -> Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.add
+)
+"safe_eval.ml" 122 3893 3945 "safe_eval.ml" 122 3893 3946
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref x "safe_eval.ml" 122 3893 3929 "safe_eval.ml" 122 3893 3930
+)
+"safe_eval.ml" 122 3893 3947 "safe_eval.ml" 122 3893 3950
+type(
+  Utils.StrSet.t
+)
+ident(
+  int_ref acc "safe_eval.ml" 122 3893 3925 "safe_eval.ml" 122 3893 3928
+)
+"safe_eval.ml" 122 3893 3934 "safe_eval.ml" 122 3893 3950
+call(
+  tail
+)
+type(
+  Utils.StrSet.t
+)
+"safe_eval.ml" 122 3893 3920 "safe_eval.ml" 122 3893 3951
+type(
+  Utils.StrSet.t -> Utils.StrSet.elt -> Utils.StrSet.t
+)
+"safe_eval.ml" 122 3893 3952 "safe_eval.ml" 122 3893 3964
+type(
+  Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.empty
+)
+"safe_eval.ml" 122 3893 3965 "safe_eval.ml" 122 3893 3971
+type(
+  Yaml.YList(Yaml.YString).t
+)
+ident(
+  int_ref locals "safe_eval.ml" 121 3816 3843 "safe_eval.ml" 121 3816 3849
+)
+"safe_eval.ml" 122 3893 3905 "safe_eval.ml" 122 3893 3971
+call(
+  stack
+)
+type(
+  Utils.StrSet.t
+)
+"safe_eval.ml" 123 3975 3981 "safe_eval.ml" 123 3975 3984
+type(
+  Ast.ast
+)
+"safe_eval.ml" 123 3975 3987 "safe_eval.ml" 123 3975 4012
+type(
+  ?env:Utils.StrSet.t ->
+  ?filename:Yaml.YString.t ->
+  ?lineno:Yaml.YInt.t -> Yaml.YString.t -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_string
+)
+"safe_eval.ml" 123 3975 4014 "safe_eval.ml" 123 3975 4017
+type(
+  Utils.StrSet.t
+)
+ident(
+  int_ref env "safe_eval.ml" 122 3893 3899 "safe_eval.ml" 122 3893 3902
+)
+"safe_eval.ml" 123 3975 4019 "safe_eval.ml" 123 3975 4027
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref filename "safe_eval.ml" 121 3816 3822 "safe_eval.ml" 121 3816 3830
+)
+"safe_eval.ml" 123 3975 4029 "safe_eval.ml" 123 3975 4035
+type(
+  Yaml.YInt.t
+)
+ident(
+  int_ref lineno "safe_eval.ml" 121 3816 3831 "safe_eval.ml" 121 3816 3837
+)
+"safe_eval.ml" 123 3975 4036 "safe_eval.ml" 123 3975 4040
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref code "safe_eval.ml" 121 3816 3838 "safe_eval.ml" 121 3816 3842
+)
+"safe_eval.ml" 123 3975 3987 "safe_eval.ml" 123 3975 4040
+call(
+  stack
+)
+type(
+  Ast.ast
+)
+"safe_eval.ml" 124 4044 4050 "safe_eval.ml" 124 4044 4053
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 124 4044 4056 "safe_eval.ml" 124 4044 4071
+type(
+  ?env:Utils.StrSet.t -> Ast.ast -> Cfg.stmt
+)
+ident(
+  ext_ref CR.refactor_ast
+)
+"safe_eval.ml" 124 4044 4073 "safe_eval.ml" 124 4044 4076
+type(
+  Utils.StrSet.t
+)
+ident(
+  int_ref env "safe_eval.ml" 122 3893 3899 "safe_eval.ml" 122 3893 3902
+)
+"safe_eval.ml" 124 4044 4077 "safe_eval.ml" 124 4044 4080
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "safe_eval.ml" 123 3975 3981 "safe_eval.ml" 123 3975 3984
+)
+"safe_eval.ml" 124 4044 4056 "safe_eval.ml" 124 4044 4080
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 125 4084 4090 "safe_eval.ml" 125 4084 4098
+type(
+  string
+)
+"safe_eval.ml" 125 4084 4101 "safe_eval.ml" 125 4084 4114
+type(
+  Yaml.YString.t -> Yaml.YInt.t -> Yaml.YString.t -> string
+)
+ident(
+  int_ref violation_msg "safe_eval.ml" 110 3485 3489 "safe_eval.ml" 110 3485 3502
+)
+"safe_eval.ml" 125 4084 4115 "safe_eval.ml" 125 4084 4123
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref filename "safe_eval.ml" 121 3816 3822 "safe_eval.ml" 121 3816 3830
+)
+"safe_eval.ml" 125 4084 4124 "safe_eval.ml" 125 4084 4130
+type(
+  Yaml.YInt.t
+)
+ident(
+  int_ref lineno "safe_eval.ml" 121 3816 3831 "safe_eval.ml" 121 3816 3837
+)
+"safe_eval.ml" 125 4084 4131 "safe_eval.ml" 125 4084 4135
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref code "safe_eval.ml" 121 3816 3838 "safe_eval.ml" 121 3816 3842
+)
+"safe_eval.ml" 125 4084 4101 "safe_eval.ml" 125 4084 4135
+call(
+  stack
+)
+type(
+  string
+)
+"safe_eval.ml" 126 4139 4145 "safe_eval.ml" 126 4139 4148
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 126 4139 4151 "safe_eval.ml" 126 4139 4161
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"safe_eval.ml" 126 4139 4163 "safe_eval.ml" 126 4139 4182
+type(
+  Yaml.YString.t -> string -> rewrite_visitor
+)
+"safe_eval.ml" 126 4139 4183 "safe_eval.ml" 126 4139 4187
+type(
+  Yaml.YString.t
+)
+ident(
+  int_ref code "safe_eval.ml" 121 3816 3838 "safe_eval.ml" 121 3816 3842
+)
+"safe_eval.ml" 126 4139 4188 "safe_eval.ml" 126 4139 4196
+type(
+  string
+)
+ident(
+  int_ref fail_msg "safe_eval.ml" 125 4084 4090 "safe_eval.ml" 125 4084 4098
+)
+"safe_eval.ml" 126 4139 4162 "safe_eval.ml" 126 4139 4197
+call(
+  stack
+)
+type(
+  rewrite_visitor
+)
+"safe_eval.ml" 126 4139 4198 "safe_eval.ml" 126 4139 4201
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "safe_eval.ml" 124 4044 4050 "safe_eval.ml" 124 4044 4053
+)
+"safe_eval.ml" 126 4139 4151 "safe_eval.ml" 126 4139 4201
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"safe_eval.ml" 127 4205 4209 "safe_eval.ml" 127 4205 4243
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"safe_eval.ml" 127 4205 4244 "safe_eval.ml" 127 4205 4250
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"safe_eval.ml" 127 4205 4251 "safe_eval.ml" 127 4205 4254
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "safe_eval.ml" 126 4139 4145 "safe_eval.ml" 126 4139 4148
+)
+"safe_eval.ml" 127 4205 4209 "safe_eval.ml" 127 4205 4254
+call(
+  stack
+)
+type(
+  unit
+)
+"safe_eval.ml" 126 4139 4141 "safe_eval.ml" 127 4205 4254
+type(
+  unit
+)
+"safe_eval.ml" 125 4084 4086 "safe_eval.ml" 127 4205 4254
+type(
+  unit
+)
+"safe_eval.ml" 124 4044 4046 "safe_eval.ml" 127 4205 4254
+type(
+  unit
+)
+"safe_eval.ml" 123 3975 3977 "safe_eval.ml" 127 4205 4254
+type(
+  unit
+)
+"safe_eval.ml" 122 3893 3895 "safe_eval.ml" 127 4205 4254
+type(
+  unit
+)
+"safe_eval.ml" 121 3816 3818 "safe_eval.ml" 127 4205 4254
+type(
+  unit
+)
+"safe_eval.ml" 120 3788 3790 "safe_eval.ml" 127 4205 4254
+type(
+  unit
+)

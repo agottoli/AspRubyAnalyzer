@@ -1,0 +1,174 @@
+"yamlEmitter.ml" 8 143 147 "yamlEmitter.ml" 8 143 159
+type(
+  out_channel -> t -> YamlNode.t -> unit
+)
+ident(
+  def emit_channel "yamlEmitter.ml" 10 204 204 --
+)
+"yamlEmitter.ml" 8 143 160 "yamlEmitter.ml" 8 143 162
+type(
+  out_channel
+)
+ident(
+  def oc "yamlEmitter.ml" 8 143 163 "yamlEmitter.ml" 8 143 202
+)
+"yamlEmitter.ml" 8 143 163 "yamlEmitter.ml" 8 143 164
+type(
+  t
+)
+ident(
+  def t "yamlEmitter.ml" 8 143 165 "yamlEmitter.ml" 8 143 202
+)
+"yamlEmitter.ml" 8 143 165 "yamlEmitter.ml" 8 143 169
+type(
+  YamlNode.t
+)
+ident(
+  def node "yamlEmitter.ml" 8 143 172 "yamlEmitter.ml" 8 143 202
+)
+"yamlEmitter.ml" 8 143 172 "yamlEmitter.ml" 8 143 176
+type(
+  (string -> unit) -> t -> YamlNode.t -> unit
+)
+"yamlEmitter.ml" 8 143 178 "yamlEmitter.ml" 8 143 191
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"yamlEmitter.ml" 8 143 192 "yamlEmitter.ml" 8 143 194
+type(
+  out_channel
+)
+ident(
+  int_ref oc "yamlEmitter.ml" 8 143 160 "yamlEmitter.ml" 8 143 162
+)
+"yamlEmitter.ml" 8 143 177 "yamlEmitter.ml" 8 143 195
+type(
+  string -> unit
+)
+"yamlEmitter.ml" 8 143 196 "yamlEmitter.ml" 8 143 197
+type(
+  t
+)
+ident(
+  int_ref t "yamlEmitter.ml" 8 143 163 "yamlEmitter.ml" 8 143 164
+)
+"yamlEmitter.ml" 8 143 198 "yamlEmitter.ml" 8 143 202
+type(
+  YamlNode.t
+)
+ident(
+  int_ref node "yamlEmitter.ml" 8 143 165 "yamlEmitter.ml" 8 143 169
+)
+"yamlEmitter.ml" 8 143 172 "yamlEmitter.ml" 8 143 202
+type(
+  unit
+)
+"yamlEmitter.ml" 10 204 208 "yamlEmitter.ml" 10 204 219
+type(
+  t -> YamlNode.t -> string
+)
+ident(
+  def emit_string "yamlEmitter.ml" 13 304 327 --
+)
+"yamlEmitter.ml" 10 204 220 "yamlEmitter.ml" 10 204 221
+type(
+  t
+)
+ident(
+  def t "yamlEmitter.ml" 10 204 222 "yamlEmitter.ml" 13 304 327
+)
+"yamlEmitter.ml" 10 204 222 "yamlEmitter.ml" 10 204 226
+type(
+  YamlNode.t
+)
+ident(
+  def node "yamlEmitter.ml" 11 230 232 "yamlEmitter.ml" 13 304 327
+)
+"yamlEmitter.ml" 11 230 236 "yamlEmitter.ml" 11 230 239
+type(
+  Buffer.t
+)
+"yamlEmitter.ml" 11 230 242 "yamlEmitter.ml" 11 230 255
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"yamlEmitter.ml" 11 230 256 "yamlEmitter.ml" 11 230 259
+type(
+  int
+)
+"yamlEmitter.ml" 11 230 242 "yamlEmitter.ml" 11 230 259
+type(
+  Buffer.t
+)
+"yamlEmitter.ml" 12 263 267 "yamlEmitter.ml" 12 263 271
+type(
+  (string -> unit) -> t -> YamlNode.t -> unit
+)
+"yamlEmitter.ml" 12 263 273 "yamlEmitter.ml" 12 263 290
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"yamlEmitter.ml" 12 263 291 "yamlEmitter.ml" 12 263 294
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "yamlEmitter.ml" 11 230 236 "yamlEmitter.ml" 11 230 239
+)
+"yamlEmitter.ml" 12 263 272 "yamlEmitter.ml" 12 263 295
+type(
+  string -> unit
+)
+"yamlEmitter.ml" 12 263 296 "yamlEmitter.ml" 12 263 297
+type(
+  t
+)
+ident(
+  int_ref t "yamlEmitter.ml" 10 204 220 "yamlEmitter.ml" 10 204 221
+)
+"yamlEmitter.ml" 12 263 298 "yamlEmitter.ml" 12 263 302
+type(
+  YamlNode.t
+)
+ident(
+  int_ref node "yamlEmitter.ml" 10 204 222 "yamlEmitter.ml" 10 204 226
+)
+"yamlEmitter.ml" 12 263 267 "yamlEmitter.ml" 12 263 302
+type(
+  unit
+)
+"yamlEmitter.ml" 13 304 308 "yamlEmitter.ml" 13 304 323
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"yamlEmitter.ml" 13 304 324 "yamlEmitter.ml" 13 304 327
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "yamlEmitter.ml" 11 230 236 "yamlEmitter.ml" 11 230 239
+)
+"yamlEmitter.ml" 13 304 308 "yamlEmitter.ml" 13 304 327
+type(
+  string
+)
+"yamlEmitter.ml" 12 263 267 "yamlEmitter.ml" 13 304 327
+type(
+  string
+)
+"yamlEmitter.ml" 11 230 232 "yamlEmitter.ml" 13 304 327
+type(
+  string
+)

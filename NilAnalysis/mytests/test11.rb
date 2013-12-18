@@ -1,0 +1,19 @@
+if true then
+	a=0
+	c=1
+	d=nil
+else
+	b=1
+	c=2
+	d=5
+end
+a.to_s
+b.to_s
+c.to_s
+d.to_s
+e=5
+e=nil
+e.to_s
+f=nil
+f=5
+f.to_s

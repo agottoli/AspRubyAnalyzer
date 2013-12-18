@@ -85,10 +85,10 @@ oUnit_success.ml: oUnit_success.ml.custom oUnit_success.ml.exist
   else
     cp oUnit_success.ml.custom oUnit_success.ml
 
-TEST = $(OCamlProgram $(TEST_PROGRAM), $(RUN_TEST_FILES))
+#TEST = $(OCamlProgram $(TEST_PROGRAM), $(RUN_TEST_FILES))
 
-unit_tests.results: $(TEST) base_types.cfg
-	./$(TEST_PROGRAM) |& tee $@
+#unit_tests.results: $(TEST) base_types.cfg
+	#./$(TEST_PROGRAM) |& tee $@
 
 
-.DEFAULT: $(TEST) unit_tests.results
+#.DEFAULT: $(TEST) unit_tests.results

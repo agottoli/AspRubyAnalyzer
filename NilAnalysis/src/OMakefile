@@ -1,0 +1,45 @@
+#OCAMLOPTFLAGS += -p
+#OCAML_NATIVE_LINK_FLAGS += -p
+
+if $(defined BISECT)
+  OCAMLOPTFLAGS += -pp 'camlp4o $(BISECT)/instrument.cma'
+  export
+
+build_vars.ml: :value: $(SYSCONFDIR) $(VERSION)
+	echo "(* AUTO GENERATED FILE, DO NOT EDIT *)" > $@
+	echo "let sysconfdir = \"$(SYSCONFDIR)\"" >> $@
+	echo "let version = \"$(VERSION)\"" >> $@
+
+FILES[] = 
+	dls2
+	dQueue
+	log
+	utils
+	config
+	visitor
+	build_vars
+
+.SUBDIRS: parser cfg
+	include OMakefile
+	export FILES
+
+OCAMLINCLUDES += parser cfg
+DRUBY_LIB = $(OCamlLibrary druby, $(FILES))
+
+OCAMLINCLUDES += $(DYP_LIB) $(YAML_DIR) $(GETOPT_DIR) $(OCAMLGRAPH_DIR)
+OCAML_OTHER_LIBS += nums unix str getopt graph
+OCAML_LIBS = $(DYP_LIB)/dyp $(YAML_DIR)/yaml druby 
+
+DLS2_PROG = $(OCamlProgram dls2, dls2)
+
+TAGS: $(addsuffix .ml, $(FILES))
+	otags $+
+
+install: $(DLS2_PROG)
+	mkdir -p $(DESTDIR)$(BINDIR)
+	install -m 755 dls2 $(DESTDIR)$(BINDIR)
+
+uninstall:
+	rm -f $(BINDIR)/druby
+
+.DEFAULT: $(DLS2_PROG)
