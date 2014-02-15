@@ -92,6 +92,7 @@ module Forwards(DFP : DataFlowProblem) = struct
 				!newfacts
 				
 			| If(_, t, f) -> 
+				
 				print_string "-------------------------------------------\n";
 				(**) print_string "If: \n"; (**)
 				(**) print_stmt stdout stmt; (**)
