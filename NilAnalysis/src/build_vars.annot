@@ -3,20 +3,20 @@ type(
   string
 )
 ident(
-  def sysconfdir "build_vars.ml" 3 90 90 --
+  def sysconfdir "build_vars.ml" 3 113 113 --
 )
-"build_vars.ml" 2 39 56 "build_vars.ml" 2 39 89
+"build_vars.ml" 2 39 56 "build_vars.ml" 2 39 112
 type(
   string
 )
-"build_vars.ml" 3 90 94 "build_vars.ml" 3 90 101
+"build_vars.ml" 3 113 117 "build_vars.ml" 3 113 124
 type(
   string
 )
 ident(
-  def version "build_vars.ml" 3 90 116 --
+  def version "build_vars.ml" 3 113 139 --
 )
-"build_vars.ml" 3 90 104 "build_vars.ml" 3 90 116
+"build_vars.ml" 3 113 127 "build_vars.ml" 3 113 139
 type(
   string
 )

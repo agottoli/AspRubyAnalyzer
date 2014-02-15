@@ -4,6 +4,6 @@ if guardia then
 else
 a=2; b=2
 end
-a.to_s		#NonNil (sempre definita)
-b.to_s		#NonNil (prima Nil, poi definita in entrambi i rami)
-c.to_s		#MaybeNil (definita solo in un ramo)
+#a.to_s		#NonNil (sempre definita)
+#b.to_s		#NonNil (prima Nil, poi definita in entrambi i rami)
+#c.to_s		#MaybeNil (definita solo in un ramo)

@@ -423,6 +423,9 @@ ident(
   int_ref op "cfg_printer.ml" 87 2994 3020 "cfg_printer.ml" 87 2994 3022
 )
 "cfg_printer.ml" 87 2994 3046 "cfg_printer.ml" 87 2994 3056
+call(
+  stack
+)
 type(
   string
 )
@@ -431,17 +434,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "cfg_printer.ml" 87 2994 3059 "cfg_printer.ml" 87 2994 3062
 type(
   string
 )
 "cfg_printer.ml" 87 2994 3045 "cfg_printer.ml" 87 2994 3063
+call(
+  stack
+)
 type(
   string
 )
 "cfg_printer.ml" 87 2994 3025 "cfg_printer.ml" 87 2994 3063
+call(
+  tail
+)
 type(
   unit
 )
@@ -495,10 +504,16 @@ ident(
   int_ref op "cfg_printer.ml" 89 3065 3092 "cfg_printer.ml" 89 3065 3094
 )
 "cfg_printer.ml" 89 3065 3117 "cfg_printer.ml" 89 3065 3131
+call(
+  stack
+)
 type(
   string
 )
 "cfg_printer.ml" 89 3065 3097 "cfg_printer.ml" 89 3065 3131
+call(
+  tail
+)
 type(
   unit
 )
@@ -557,6 +572,9 @@ ident(
   int_ref s "cfg_printer.ml" 92 3193 3209 "cfg_printer.ml" 92 3193 3210
 )
 "cfg_printer.ml" 92 3193 3215 "cfg_printer.ml" 92 3193 3236
+call(
+  tail
+)
 type(
   unit
 )
@@ -629,6 +647,9 @@ ident(
   int_ref i2 "cfg_printer.ml" 93 3237 3256 "cfg_printer.ml" 93 3237 3258
 )
 "cfg_printer.ml" 93 3237 3263 "cfg_printer.ml" 93 3237 3310
+call(
+  tail
+)
 type(
   unit
 )
@@ -670,6 +691,9 @@ ident(
   int_ref i1 "cfg_printer.ml" 94 3311 3327 "cfg_printer.ml" 94 3311 3331
 )
 "cfg_printer.ml" 94 3311 3335 "cfg_printer.ml" 94 3311 3356
+call(
+  tail
+)
 type(
   unit
 )
@@ -696,6 +720,9 @@ type(
   string
 )
 "cfg_printer.ml" 95 3357 3375 "cfg_printer.ml" 95 3357 3401
+call(
+  tail
+)
 type(
   unit
 )
@@ -722,6 +749,9 @@ type(
   string
 )
 "cfg_printer.ml" 96 3402 3419 "cfg_printer.ml" 96 3402 3444
+call(
+  tail
+)
 type(
   unit
 )
@@ -748,6 +778,9 @@ type(
   string
 )
 "cfg_printer.ml" 97 3445 3463 "cfg_printer.ml" 97 3445 3489
+call(
+  tail
+)
 type(
   unit
 )
@@ -774,6 +807,9 @@ type(
   string
 )
 "cfg_printer.ml" 98 3490 3509 "cfg_printer.ml" 98 3490 3536
+call(
+  tail
+)
 type(
   unit
 )
@@ -867,6 +903,9 @@ ident(
   int_ref i2 "cfg_printer.ml" 101 3594 3613 "cfg_printer.ml" 101 3594 3615
 )
 "cfg_printer.ml" 101 3594 3620 "cfg_printer.ml" 101 3594 3665
+call(
+  tail
+)
 type(
   unit
 )
@@ -908,6 +947,9 @@ ident(
   int_ref i1 "cfg_printer.ml" 102 3666 3682 "cfg_printer.ml" 102 3666 3686
 )
 "cfg_printer.ml" 102 3666 3690 "cfg_printer.ml" 102 3666 3713
+call(
+  tail
+)
 type(
   unit
 )
@@ -940,6 +982,9 @@ ident(
   int_ref i "cfg_printer.ml" 103 3714 3720 "cfg_printer.ml" 103 3714 3721
 )
 "cfg_printer.ml" 103 3714 3725 "cfg_printer.ml" 103 3714 3751
+call(
+  tail
+)
 type(
   unit
 )
@@ -997,6 +1042,9 @@ ident(
   int_ref uop "cfg_printer.ml" 106 3805 3825 "cfg_printer.ml" 106 3805 3828
 )
 "cfg_printer.ml" 106 3805 3832 "cfg_printer.ml" 106 3805 3858
+call(
+  tail
+)
 type(
   unit
 )
@@ -1033,6 +1081,9 @@ ident(
   int_ref binop "cfg_printer.ml" 107 3859 3878 "cfg_printer.ml" 107 3859 3883
 )
 "cfg_printer.ml" 107 3859 3887 "cfg_printer.ml" 107 3859 3916
+call(
+  tail
+)
 type(
   unit
 )
@@ -1069,6 +1120,9 @@ ident(
   int_ref s "cfg_printer.ml" 108 3917 3937 "cfg_printer.ml" 108 3917 3940
 )
 "cfg_printer.ml" 108 3917 3944 "cfg_printer.ml" 108 3917 3965
+call(
+  tail
+)
 type(
   unit
 )
@@ -1109,17 +1163,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "cfg_printer.ml" 109 3966 4014 "cfg_printer.ml" 109 3966 4017
 type(
   string
 )
 "cfg_printer.ml" 109 3966 4009 "cfg_printer.ml" 109 3966 4018
+call(
+  stack
+)
 type(
   string
 )
 "cfg_printer.ml" 109 3966 3989 "cfg_printer.ml" 109 3966 4018
+call(
+  tail
+)
 type(
   unit
 )
@@ -1146,6 +1206,9 @@ type(
   string
 )
 "cfg_printer.ml" 110 4019 4038 "cfg_printer.ml" 110 4019 4065
+call(
+  tail
+)
 type(
   unit
 )
@@ -1203,6 +1266,9 @@ ident(
   int_ref e "cfg_printer.ml" 113 4104 4126 "cfg_printer.ml" 113 4104 4127
 )
 "cfg_printer.ml" 113 4104 4131 "cfg_printer.ml" 113 4104 4153
+call(
+  tail
+)
 type(
   unit
 )
@@ -1283,6 +1349,9 @@ ident(
   int_ref e2 "cfg_printer.ml" 114 4154 4181 "cfg_printer.ml" 114 4154 4183
 )
 "cfg_printer.ml" 115 4189 4197 "cfg_printer.ml" 115 4189 4256
+call(
+  tail
+)
 type(
   unit
 )
@@ -1342,6 +1411,9 @@ ident(
   int_ref i "cfg_printer.ml" 118 4312 4330 "cfg_printer.ml" 118 4312 4331
 )
 "cfg_printer.ml" 118 4312 4335 "cfg_printer.ml" 118 4312 4353
+call(
+  tail
+)
 type(
   unit
 )
@@ -1390,10 +1462,16 @@ ident(
   int_ref big "cfg_printer.ml" 119 4354 4372 "cfg_printer.ml" 119 4354 4375
 )
 "cfg_printer.ml" 120 4380 4405 "cfg_printer.ml" 120 4380 4436
+call(
+  stack
+)
 type(
   string
 )
 "cfg_printer.ml" 120 4380 4388 "cfg_printer.ml" 120 4380 4436
+call(
+  tail
+)
 type(
   unit
 )
@@ -1446,6 +1524,9 @@ ident(
   int_ref s "cfg_printer.ml" 121 4437 4454 "cfg_printer.ml" 121 4437 4455
 )
 "cfg_printer.ml" 121 4437 4462 "cfg_printer.ml" 121 4437 4480
+call(
+  tail
+)
 type(
   unit
 )
@@ -1506,10 +1587,16 @@ type(
   char list
 )
 "cfg_printer.ml" 122 4481 4527 "cfg_printer.ml" 122 4481 4556
+call(
+  stack
+)
 type(
   string
 )
 "cfg_printer.ml" 122 4481 4506 "cfg_printer.ml" 122 4481 4556
+call(
+  tail
+)
 type(
   unit
 )
@@ -1566,10 +1653,16 @@ type(
   char list
 )
 "cfg_printer.ml" 123 4557 4602 "cfg_printer.ml" 123 4557 4626
+call(
+  stack
+)
 type(
   string
 )
 "cfg_printer.ml" 123 4557 4580 "cfg_printer.ml" 123 4557 4626
+call(
+  tail
+)
 type(
   unit
 )
@@ -1630,6 +1723,9 @@ ident(
   int_ref m "cfg_printer.ml" 124 4627 4650 "cfg_printer.ml" 124 4627 4651
 )
 "cfg_printer.ml" 125 4657 4665 "cfg_printer.ml" 125 4657 4728
+call(
+  tail
+)
 type(
   unit
 )
@@ -1685,6 +1781,9 @@ ident(
   ext_ref PP.format_star_expr
 )
 "cfg_printer.ml" 127 4777 4785 "cfg_printer.ml" 127 4777 4824
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.star_expr list -> unit
 )
@@ -1696,6 +1795,9 @@ ident(
   int_ref lst "cfg_printer.ml" 126 4729 4746 "cfg_printer.ml" 126 4729 4749
 )
 "cfg_printer.ml" 126 4729 4753 "cfg_printer.ml" 127 4777 4828
+call(
+  tail
+)
 type(
   unit
 )
@@ -1795,6 +1897,9 @@ ident(
   int_ref r "cfg_printer.ml" 129 4853 4885 "cfg_printer.ml" 129 4853 4886
 )
 "cfg_printer.ml" 130 4891 4894 "cfg_printer.ml" 130 4891 4950
+call(
+  tail
+)
 type(
   unit
 )
@@ -1839,6 +1944,9 @@ ident(
   int_ref format_assoc "cfg_printer.ml" 129 4853 4865 "cfg_printer.ml" 129 4853 4877
 )
 "cfg_printer.ml" 132 4962 4988 "cfg_printer.ml" 132 4962 5020
+call(
+  stack
+)
 type(
   Format.formatter -> (Cfg.expr * Cfg.expr) list -> unit
 )
@@ -1850,6 +1958,9 @@ ident(
   int_ref lst "cfg_printer.ml" 128 4829 4845 "cfg_printer.ml" 128 4829 4848
 )
 "cfg_printer.ml" 132 4962 4965 "cfg_printer.ml" 132 4962 5024
+call(
+  tail
+)
 type(
   unit
 )
@@ -1939,6 +2050,9 @@ ident(
   int_ref u "cfg_printer.ml" 133 5025 5049 "cfg_printer.ml" 133 5025 5050
 )
 "cfg_printer.ml" 134 5055 5063 "cfg_printer.ml" 134 5055 5120
+call(
+  tail
+)
 type(
   unit
 )
@@ -2024,6 +2138,9 @@ ident(
   int_ref u "cfg_printer.ml" 136 5122 5147 "cfg_printer.ml" 136 5122 5148
 )
 "cfg_printer.ml" 137 5153 5161 "cfg_printer.ml" 137 5153 5217
+call(
+  tail
+)
 type(
   unit
 )
@@ -2081,6 +2198,9 @@ ident(
   int_ref l "cfg_printer.ml" 140 5267 5273 "cfg_printer.ml" 140 5267 5286
 )
 "cfg_printer.ml" 140 5267 5290 "cfg_printer.ml" 140 5267 5313
+call(
+  tail
+)
 type(
   unit
 )
@@ -2117,6 +2237,9 @@ ident(
   int_ref id "cfg_printer.ml" 141 5314 5320 "cfg_printer.ml" 141 5314 5337
 )
 "cfg_printer.ml" 141 5314 5341 "cfg_printer.ml" 141 5314 5368
+call(
+  tail
+)
 type(
   unit
 )
@@ -2174,6 +2297,9 @@ ident(
   int_ref e "cfg_printer.ml" 144 5428 5434 "cfg_printer.ml" 144 5428 5444
 )
 "cfg_printer.ml" 144 5428 5448 "cfg_printer.ml" 144 5428 5468
+call(
+  tail
+)
 type(
   unit
 )
@@ -2226,6 +2352,9 @@ ident(
   int_ref e "cfg_printer.ml" 145 5469 5481 "cfg_printer.ml" 145 5469 5482
 )
 "cfg_printer.ml" 145 5469 5486 "cfg_printer.ml" 145 5469 5520
+call(
+  tail
+)
 type(
   unit
 )
@@ -2302,6 +2431,9 @@ ident(
   ext_ref PP.format_tuple_expr
 )
 "cfg_printer.ml" 149 5613 5642 "cfg_printer.ml" 149 5613 5682
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.tuple_expr list -> unit
 )
@@ -2313,6 +2445,9 @@ ident(
   int_ref el "cfg_printer.ml" 148 5592 5604 "cfg_printer.ml" 148 5592 5608
 )
 "cfg_printer.ml" 149 5613 5621 "cfg_printer.ml" 149 5613 5685
+call(
+  tail
+)
 type(
   unit
 )
@@ -2349,6 +2484,9 @@ ident(
   int_ref e "cfg_printer.ml" 150 5686 5692 "cfg_printer.ml" 150 5686 5702
 )
 "cfg_printer.ml" 150 5686 5706 "cfg_printer.ml" 150 5686 5726
+call(
+  tail
+)
 type(
   unit
 )
@@ -2445,6 +2583,9 @@ ident(
   int_ref tup "cfg_printer.ml" 151 5727 5739 "cfg_printer.ml" 151 5727 5757
 )
 "cfg_printer.ml" 151 5727 5761 "cfg_printer.ml" 151 5727 5803
+call(
+  tail
+)
 type(
   unit
 )
@@ -2533,6 +2674,9 @@ ident(
   int_ref e "cfg_printer.ml" 152 5804 5816 "cfg_printer.ml" 152 5804 5828
 )
 "cfg_printer.ml" 152 5804 5832 "cfg_printer.ml" 152 5804 5866
+call(
+  tail
+)
 type(
   unit
 )
@@ -2590,6 +2734,9 @@ ident(
   int_ref id "cfg_printer.ml" 155 5914 5920 "cfg_printer.ml" 155 5914 5937
 )
 "cfg_printer.ml" 155 5914 5941 "cfg_printer.ml" 155 5914 5968
+call(
+  tail
+)
 type(
   unit
 )
@@ -2647,6 +2794,9 @@ ident(
   int_ref i "cfg_printer.ml" 156 5969 5981 "cfg_printer.ml" 156 5969 5999
 )
 "cfg_printer.ml" 156 5969 6003 "cfg_printer.ml" 156 5969 6043
+call(
+  tail
+)
 type(
   unit
 )
@@ -2701,6 +2851,9 @@ ident(
   ext_ref PP.format_lhs
 )
 "cfg_printer.ml" 158 6065 6096 "cfg_printer.ml" 158 6065 6129
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.lhs list -> unit
 )
@@ -2712,6 +2865,9 @@ ident(
   int_ref el "cfg_printer.ml" 157 6044 6056 "cfg_printer.ml" 157 6044 6060
 )
 "cfg_printer.ml" 158 6065 6073 "cfg_printer.ml" 158 6065 6132
+call(
+  tail
+)
 type(
   unit
 )
@@ -2806,6 +2962,9 @@ ident(
   int_ref s "cfg_printer.ml" 161 6193 6214 "cfg_printer.ml" 161 6193 6217
 )
 "cfg_printer.ml" 162 6218 6249 "cfg_printer.ml" 162 6218 6270
+call(
+  tail
+)
 type(
   unit
 )
@@ -2847,6 +3006,9 @@ ident(
   int_ref s "cfg_printer.ml" 163 6271 6289 "cfg_printer.ml" 163 6271 6290
 )
 "cfg_printer.ml" 163 6271 6294 "cfg_printer.ml" 163 6271 6313
+call(
+  tail
+)
 type(
   unit
 )
@@ -2888,6 +3050,9 @@ ident(
   int_ref s "cfg_printer.ml" 164 6314 6332 "cfg_printer.ml" 164 6314 6335
 )
 "cfg_printer.ml" 164 6314 6339 "cfg_printer.ml" 164 6314 6358
+call(
+  tail
+)
 type(
   unit
 )
@@ -2927,6 +3092,9 @@ ident(
   int_ref t "cfg_printer.ml" 165 6359 6379 "cfg_printer.ml" 165 6359 6380
 )
 "cfg_printer.ml" 165 6359 6384 "cfg_printer.ml" 165 6359 6433
+call(
+  tail
+)
 type(
   unit
 )
@@ -3001,6 +3169,9 @@ ident(
   int_ref e "cfg_printer.ml" 166 6434 6458 "cfg_printer.ml" 166 6434 6459
 )
 "cfg_printer.ml" 167 6465 6473 "cfg_printer.ml" 168 6503 6530
+call(
+  tail
+)
 type(
   unit
 )
@@ -3048,6 +3219,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 171 6587 6591 "cfg_printer.ml" 171 6587 6608
+call(
+  stack
+)
 type(
   unit
 )
@@ -3081,6 +3255,9 @@ ident(
   int_ref l "cfg_printer.ml" 170 6532 6563 "cfg_printer.ml" 170 6532 6564
 )
 "cfg_printer.ml" 172 6610 6614 "cfg_printer.ml" 172 6610 6658
+call(
+  stack
+)
 type(
   unit
 )
@@ -3103,6 +3280,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 173 6660 6664 "cfg_printer.ml" 173 6660 6681
+call(
+  tail
+)
 type(
   unit
 )
@@ -3154,6 +3334,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 176 6732 6736 "cfg_printer.ml" 176 6732 6757
+call(
+  stack
+)
 type(
   unit
 )
@@ -3187,6 +3370,9 @@ ident(
   int_ref l "cfg_printer.ml" 175 6683 6709 "cfg_printer.ml" 175 6683 6710
 )
 "cfg_printer.ml" 177 6759 6763 "cfg_printer.ml" 177 6759 6807
+call(
+  stack
+)
 type(
   unit
 )
@@ -3209,6 +3395,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 178 6809 6813 "cfg_printer.ml" 178 6809 6829
+call(
+  tail
+)
 type(
   unit
 )
@@ -3304,6 +3493,9 @@ ident(
   int_ref s "cfg_printer.ml" 181 6875 6881 "cfg_printer.ml" 181 6875 6896
 )
 "cfg_printer.ml" 181 6875 6900 "cfg_printer.ml" 181 6875 6925
+call(
+  tail
+)
 type(
   unit
 )
@@ -3356,6 +3548,9 @@ ident(
   int_ref e "cfg_printer.ml" 182 6926 6938 "cfg_printer.ml" 182 6926 6939
 )
 "cfg_printer.ml" 182 6926 6943 "cfg_printer.ml" 182 6926 6977
+call(
+  tail
+)
 type(
   unit
 )
@@ -3448,6 +3643,9 @@ ident(
   int_ref lhs "cfg_printer.ml" 186 7038 7049 "cfg_printer.ml" 186 7038 7052
 )
 "cfg_printer.ml" 186 7038 7056 "cfg_printer.ml" 186 7038 7093
+call(
+  tail
+)
 type(
   unit
 )
@@ -3544,6 +3742,9 @@ ident(
   ext_ref PP.format_rescue_guard
 )
 "cfg_printer.ml" 194 7241 7249 "cfg_printer.ml" 194 7241 7291
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.rescue_guard list -> unit
 )
@@ -3577,6 +3778,9 @@ type(
   Cfg.stmt
 )
 "cfg_printer.ml" 193 7195 7201 "cfg_printer.ml" 195 7312 7351
+call(
+  tail
+)
 type(
   unit
 )
@@ -3592,6 +3796,9 @@ ident(
   int_ref lst "cfg_printer.ml" 190 7146 7152 "cfg_printer.ml" 190 7146 7155
 )
 "cfg_printer.ml" 191 7160 7168 "cfg_printer.ml" 196 7352 7360
+call(
+  tail
+)
 type(
   unit
 )
@@ -3658,6 +3865,9 @@ ident(
   int_ref s "cfg_printer.ml" 198 7362 7390 "cfg_printer.ml" 198 7362 7391
 )
 "cfg_printer.ml" 198 7362 7394 "cfg_printer.ml" 198 7362 7446
+call(
+  tail
+)
 type(
   unit
 )
@@ -3720,6 +3930,9 @@ ident(
   int_ref s "cfg_printer.ml" 200 7448 7470 "cfg_printer.ml" 200 7448 7471
 )
 "cfg_printer.ml" 200 7448 7474 "cfg_printer.ml" 200 7448 7524
+call(
+  tail
+)
 type(
   unit
 )
@@ -3829,6 +4042,9 @@ ident(
   int_ref body "cfg_printer.ml" 204 7577 7596 "cfg_printer.ml" 204 7577 7600
 )
 "cfg_printer.ml" 205 7606 7615 "cfg_printer.ml" 207 7703 7726
+call(
+  tail
+)
 type(
   unit
 )
@@ -3844,6 +4060,9 @@ ident(
   int_ref whens "cfg_printer.ml" 202 7526 7554 "cfg_printer.ml" 202 7526 7559
 )
 "cfg_printer.ml" 203 7563 7567 "cfg_printer.ml" 208 7727 7740
+call(
+  tail
+)
 type(
   unit
 )
@@ -3936,6 +4155,9 @@ type(
   (Cfg.tuple_expr * Cfg.stmt) list
 )
 "cfg_printer.ml" 211 7769 7773 "cfg_printer.ml" 213 7840 7876
+call(
+  stack
+)
 type(
   unit
 )
@@ -3973,6 +4195,9 @@ type(
   Cfg.stmt option
 )
 "cfg_printer.ml" 214 7878 7882 "cfg_printer.ml" 214 7878 7923
+call(
+  stack
+)
 type(
   unit
 )
@@ -3995,6 +4220,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 215 7925 7929 "cfg_printer.ml" 215 7925 7948
+call(
+  tail
+)
 type(
   unit
 )
@@ -4089,6 +4317,9 @@ ident(
   ext_ref PP.format_stmt
 )
 "cfg_printer.ml" 219 8033 8068 "cfg_printer.ml" 219 8033 8102
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.stmt list -> unit
 )
@@ -4100,6 +4331,9 @@ ident(
   int_ref stmt_list "cfg_printer.ml" 218 8008 8017 "cfg_printer.ml" 218 8008 8028
 )
 "cfg_printer.ml" 219 8033 8041 "cfg_printer.ml" 219 8033 8112
+call(
+  tail
+)
 type(
   unit
 )
@@ -4184,6 +4418,9 @@ ident(
   int_ref m2 "cfg_printer.ml" 221 8114 8142 "cfg_printer.ml" 221 8114 8144
 )
 "cfg_printer.ml" 222 8151 8159 "cfg_printer.ml" 224 8209 8231
+call(
+  tail
+)
 type(
   unit
 )
@@ -4274,6 +4511,9 @@ ident(
   int_ref v2 "cfg_printer.ml" 226 8233 8261 "cfg_printer.ml" 226 8233 8263
 )
 "cfg_printer.ml" 227 8270 8278 "cfg_printer.ml" 229 8356 8405
+call(
+  tail
+)
 type(
   unit
 )
@@ -4358,6 +4598,9 @@ ident(
   int_ref then_e "cfg_printer.ml" 231 8408 8423 "cfg_printer.ml" 231 8408 8429
 )
 "cfg_printer.ml" 232 8441 8449 "cfg_printer.ml" 234 8520 8544
+call(
+  stack
+)
 type(
   unit
 )
@@ -4383,6 +4626,9 @@ ident(
   int_ref else_e "cfg_printer.ml" 231 8408 8430 "cfg_printer.ml" 231 8408 8436
 )
 "cfg_printer.ml" 235 8546 8554 "cfg_printer.ml" 235 8546 8576
+call(
+  stack
+)
 type(
   unit
 )
@@ -4405,6 +4651,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 236 8578 8586 "cfg_printer.ml" 236 8578 8605
+call(
+  tail
+)
 type(
   unit
 )
@@ -4493,6 +4742,9 @@ ident(
   int_ref mc "cfg_printer.ml" 238 8607 8630 "cfg_printer.ml" 238 8607 8632
 )
 "cfg_printer.ml" 239 8638 8646 "cfg_printer.ml" 239 8638 8719
+call(
+  tail
+)
 type(
   unit
 )
@@ -4548,6 +4800,9 @@ ident(
   ext_ref PP.format_tuple_expr
 )
 "cfg_printer.ml" 241 8731 8778 "cfg_printer.ml" 241 8731 8814
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.tuple_expr option -> unit
 )
@@ -4559,6 +4814,9 @@ ident(
   int_ref e "cfg_printer.ml" 241 8731 8743 "cfg_printer.ml" 241 8731 8746
 )
 "cfg_printer.ml" 241 8731 8750 "cfg_printer.ml" 241 8731 8816
+call(
+  tail
+)
 type(
   unit
 )
@@ -4632,6 +4890,9 @@ ident(
   ext_ref PP.format_star_expr
 )
 "cfg_printer.ml" 245 8915 8929 "cfg_printer.ml" 245 8915 8968
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.star_expr list -> unit
 )
@@ -4643,6 +4904,9 @@ ident(
   int_ref e "cfg_printer.ml" 242 8817 8833 "cfg_printer.ml" 242 8817 8834
 )
 "cfg_printer.ml" 244 8866 8886 "cfg_printer.ml" 245 8915 8970
+call(
+  tail
+)
 type(
   unit
 )
@@ -4701,6 +4965,9 @@ ident(
   ext_ref PP.format_lhs
 )
 "cfg_printer.ml" 248 9041 9057 "cfg_printer.ml" 248 9041 9086
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.lhs option -> unit
 )
@@ -4727,6 +4994,9 @@ ident(
   ext_ref PP.format_star_expr
 )
 "cfg_printer.ml" 249 9092 9108 "cfg_printer.ml" 249 9092 9147
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.star_expr list -> unit
 )
@@ -4738,6 +5008,9 @@ ident(
   int_ref e "cfg_printer.ml" 242 8817 8833 "cfg_printer.ml" 242 8817 8834
 )
 "cfg_printer.ml" 247 8994 9008 "cfg_printer.ml" 249 9092 9149
+call(
+  tail
+)
 type(
   unit
 )
@@ -4822,6 +5095,9 @@ ident(
   int_ref e "cfg_printer.ml" 251 9158 9174 "cfg_printer.ml" 251 9158 9175
 )
 "cfg_printer.ml" 252 9180 9188 "cfg_printer.ml" 252 9180 9249
+call(
+  tail
+)
 type(
   unit
 )
@@ -4873,6 +5149,9 @@ ident(
   int_ref e "cfg_printer.ml" 254 9251 9267 "cfg_printer.ml" 254 9251 9270
 )
 "cfg_printer.ml" 256 9316 9336 "cfg_printer.ml" 256 9316 9356
+call(
+  tail
+)
 type(
   unit
 )
@@ -4943,6 +5222,9 @@ ident(
   int_ref e "cfg_printer.ml" 254 9251 9267 "cfg_printer.ml" 254 9251 9270
 )
 "cfg_printer.ml" 258 9384 9398 "cfg_printer.ml" 259 9453 9485
+call(
+  tail
+)
 type(
   unit
 )
@@ -5033,6 +5315,9 @@ ident(
   ext_ref Annotation.format_annotation
 )
 "cfg_printer.ml" 264 9591 9601 "cfg_printer.ml" 264 9591 9645
+call(
+  stack
+)
 type(
   Format.formatter -> Annotation.t option -> unit
 )
@@ -5090,6 +5375,9 @@ ident(
   int_ref body "cfg_printer.ml" 262 9503 9524 "cfg_printer.ml" 262 9503 9528
 )
 "cfg_printer.ml" 263 9533 9541 "cfg_printer.ml" 267 9712 9734
+call(
+  stack
+)
 type(
   unit
 )
@@ -5112,6 +5400,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 268 9736 9744 "cfg_printer.ml" 268 9736 9763
+call(
+  tail
+)
 type(
   unit
 )
@@ -5202,6 +5493,9 @@ ident(
   ext_ref Annotation.format_annotation
 )
 "cfg_printer.ml" 272 9871 9874 "cfg_printer.ml" 272 9871 9918
+call(
+  stack
+)
 type(
   Format.formatter -> Annotation.t option -> unit
 )
@@ -5262,6 +5556,9 @@ ident(
   int_ref body "cfg_printer.ml" 270 9775 9801 "cfg_printer.ml" 270 9775 9805
 )
 "cfg_printer.ml" 271 9810 9818 "cfg_printer.ml" 275 10006 10028
+call(
+  stack
+)
 type(
   unit
 )
@@ -5284,6 +5581,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 276 10030 10038 "cfg_printer.ml" 276 10030 10057
+call(
+  tail
+)
 type(
   unit
 )
@@ -5374,6 +5674,9 @@ ident(
   ext_ref Annotation.format_annotation
 )
 "cfg_printer.ml" 280 10152 10155 "cfg_printer.ml" 280 10152 10199
+call(
+  stack
+)
 type(
   Format.formatter -> Annotation.t option -> unit
 )
@@ -5431,6 +5734,9 @@ ident(
   int_ref body "cfg_printer.ml" 278 10065 10086 "cfg_printer.ml" 278 10065 10090
 )
 "cfg_printer.ml" 279 10095 10103 "cfg_printer.ml" 283 10267 10289
+call(
+  stack
+)
 type(
   unit
 )
@@ -5453,6 +5759,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 284 10291 10299 "cfg_printer.ml" 284 10291 10318
+call(
+  tail
+)
 type(
   unit
 )
@@ -5564,6 +5873,9 @@ ident(
   int_ref body "cfg_printer.ml" 286 10326 10350 "cfg_printer.ml" 286 10326 10354
 )
 "cfg_printer.ml" 287 10359 10367 "cfg_printer.ml" 290 10495 10517
+call(
+  tail
+)
 type(
   unit
 )
@@ -5616,6 +5928,9 @@ ident(
   int_ref body "cfg_printer.ml" 292 10519 10530 "cfg_printer.ml" 292 10519 10536
 )
 "cfg_printer.ml" 293 10540 10548 "cfg_printer.ml" 294 10595 10617
+call(
+  tail
+)
 type(
   unit
 )
@@ -5668,6 +5983,9 @@ ident(
   int_ref body "cfg_printer.ml" 296 10619 10628 "cfg_printer.ml" 296 10619 10634
 )
 "cfg_printer.ml" 297 10638 10646 "cfg_printer.ml" 298 10690 10712
+call(
+  tail
+)
 type(
   unit
 )
@@ -5745,6 +6063,9 @@ ident(
   int_ref body "cfg_printer.ml" 300 10714 10732 "cfg_printer.ml" 300 10714 10736
 )
 "cfg_printer.ml" 301 10743 10751 "cfg_printer.ml" 303 10825 10847
+call(
+  tail
+)
 type(
   unit
 )
@@ -5781,6 +6102,9 @@ ident(
   int_ref c "cfg_printer.ml" 305 10849 10859 "cfg_printer.ml" 305 10849 10862
 )
 "cfg_printer.ml" 305 10849 10866 "cfg_printer.ml" 305 10849 10886
+call(
+  tail
+)
 type(
   unit
 )
@@ -5837,6 +6161,9 @@ type(
   Cfg.stmt
 )
 "cfg_printer.ml" 308 10910 10918 "cfg_printer.ml" 309 10960 10988
+call(
+  stack
+)
 type(
   unit
 )
@@ -5866,6 +6193,9 @@ type(
   Cfg.rescue_block list
 )
 "cfg_printer.ml" 310 10990 10998 "cfg_printer.ml" 310 10990 11029
+call(
+  stack
+)
 type(
   unit
 )
@@ -5903,6 +6233,9 @@ type(
   Cfg.stmt option
 )
 "cfg_printer.ml" 311 11031 11039 "cfg_printer.ml" 311 11031 11079
+call(
+  stack
+)
 type(
   unit
 )
@@ -5940,6 +6273,9 @@ type(
   Cfg.stmt option
 )
 "cfg_printer.ml" 312 11081 11089 "cfg_printer.ml" 312 11081 11137
+call(
+  stack
+)
 type(
   unit
 )
@@ -5962,6 +6298,9 @@ type(
   (unit, Format.formatter, unit) format
 )
 "cfg_printer.ml" 313 11139 11147 "cfg_printer.ml" 313 11139 11166
+call(
+  tail
+)
 type(
   unit
 )
@@ -6058,6 +6397,9 @@ ident(
   int_ref s "cfg_printer.ml" 315 11174 11192 "cfg_printer.ml" 315 11174 11193
 )
 "cfg_printer.ml" 315 11174 11198 "cfg_printer.ml" 315 11174 11279
+call(
+  tail
+)
 type(
   unit
 )
@@ -6084,6 +6426,9 @@ type(
   string
 )
 "cfg_printer.ml" 316 11280 11295 "cfg_printer.ml" 316 11280 11321
+call(
+  tail
+)
 type(
   unit
 )
@@ -6110,6 +6455,9 @@ type(
   string
 )
 "cfg_printer.ml" 317 11322 11337 "cfg_printer.ml" 317 11322 11364
+call(
+  tail
+)
 type(
   unit
 )
@@ -6140,6 +6488,9 @@ type(
   string
 )
 "cfg_printer.ml" 319 11366 11387 "cfg_printer.ml" 319 11366 11414
+call(
+  tail
+)
 type(
   unit
 )
@@ -6197,6 +6548,9 @@ ident(
   int_ref tup "cfg_printer.ml" 320 11415 11432 "cfg_printer.ml" 320 11415 11435
 )
 "cfg_printer.ml" 320 11415 11440 "cfg_printer.ml" 320 11415 11492
+call(
+  tail
+)
 type(
   unit
 )
@@ -6227,6 +6581,9 @@ type(
   string
 )
 "cfg_printer.ml" 322 11494 11515 "cfg_printer.ml" 322 11494 11541
+call(
+  tail
+)
 type(
   unit
 )
@@ -6284,6 +6641,9 @@ ident(
   int_ref tup "cfg_printer.ml" 323 11542 11558 "cfg_printer.ml" 323 11542 11561
 )
 "cfg_printer.ml" 323 11542 11567 "cfg_printer.ml" 323 11542 11618
+call(
+  tail
+)
 type(
   unit
 )
@@ -6338,6 +6698,9 @@ ident(
   ext_ref PP.format_msg_id
 )
 "cfg_printer.ml" 326 11665 11673 "cfg_printer.ml" 326 11665 11709
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.msg_id list -> unit
 )
@@ -6349,6 +6712,9 @@ ident(
   int_ref es "cfg_printer.ml" 325 11620 11632 "cfg_printer.ml" 325 11620 11634
 )
 "cfg_printer.ml" 325 11620 11638 "cfg_printer.ml" 326 11665 11712
+call(
+  tail
+)
 type(
   unit
 )
@@ -6423,6 +6789,9 @@ ident(
   int_ref id "cfg_printer.ml" 330 11754 11770 "cfg_printer.ml" 330 11754 11772
 )
 "cfg_printer.ml" 330 11754 11776 "cfg_printer.ml" 330 11754 11824
+call(
+  tail
+)
 type(
   unit
 )
@@ -6463,6 +6832,9 @@ ident(
   int_ref id "cfg_printer.ml" 331 11825 11844 "cfg_printer.ml" 331 11825 11846
 )
 "cfg_printer.ml" 331 11825 11856 "cfg_printer.ml" 331 11825 11883
+call(
+  tail
+)
 type(
   unit
 )
@@ -6547,6 +6919,9 @@ ident(
   int_ref inh "cfg_printer.ml" 332 11884 11911 "cfg_printer.ml" 332 11884 11914
 )
 "cfg_printer.ml" 333 11920 11928 "cfg_printer.ml" 333 11920 12002
+call(
+  tail
+)
 type(
   unit
 )
@@ -6627,6 +7002,9 @@ ident(
   int_ref l "cfg_printer.ml" 336 12067 12077 "cfg_printer.ml" 336 12067 12078
 )
 "cfg_printer.ml" 336 12067 12082 "cfg_printer.ml" 336 12067 12120
+call(
+  tail
+)
 type(
   unit
 )
@@ -6656,6 +7034,9 @@ ident(
   int_ref stmt "cfg_printer.ml" 335 12004 12038 "cfg_printer.ml" 335 12004 12042
 )
 "cfg_printer.ml" 337 12121 12132 "cfg_printer.ml" 337 12121 12155
+call(
+  tail
+)
 type(
   unit
 )
@@ -6710,6 +7091,9 @@ ident(
   int_ref e "cfg_printer.ml" 340 12206 12224 "cfg_printer.ml" 340 12206 12225
 )
 "cfg_printer.ml" 340 12206 12229 "cfg_printer.ml" 340 12206 12255
+call(
+  tail
+)
 type(
   unit
 )
@@ -6790,6 +7174,9 @@ ident(
   int_ref b "cfg_printer.ml" 341 12256 12277 "cfg_printer.ml" 341 12256 12278
 )
 "cfg_printer.ml" 341 12256 12283 "cfg_printer.ml" 341 12256 12351
+call(
+  tail
+)
 type(
   unit
 )
@@ -6862,6 +7249,9 @@ ident(
   int_ref msg "cfg_printer.ml" 343 12353 12391 "cfg_printer.ml" 343 12353 12394
 )
 "cfg_printer.ml" 344 12414 12428 "cfg_printer.ml" 344 12414 12452
+call(
+  tail
+)
 type(
   unit
 )
@@ -6932,6 +7322,9 @@ ident(
   int_ref msg "cfg_printer.ml" 343 12353 12391 "cfg_printer.ml" 343 12353 12394
 )
 "cfg_printer.ml" 346 12470 12478 "cfg_printer.ml" 346 12470 12535
+call(
+  tail
+)
 type(
   unit
 )
@@ -7055,6 +7448,9 @@ ident(
   ext_ref PP.format_star_expr
 )
 "cfg_printer.ml" 352 12698 12706 "cfg_printer.ml" 352 12698 12745
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.star_expr list -> unit
 )
@@ -7070,6 +7466,9 @@ type(
   Cfg.star_expr list
 )
 "cfg_printer.ml" 350 12605 12611 "cfg_printer.ml" 352 12698 12756
+call(
+  tail
+)
 type(
   unit
 )
@@ -7123,6 +7522,9 @@ type(
   unit
 )
 "cfg_printer.ml" 355 12790 12808 "cfg_printer.ml" 355 12790 12833
+call(
+  tail
+)
 type(
   unit
 )
@@ -7157,7 +7559,7 @@ type(
   Cfg.star_expr list -> Cfg.star_expr list -> bool
 )
 ident(
-  ext_ref Pervasives.==
+  ext_ref Pervasives.( == )
 )
 "cfg_printer.ml" 357 12864 12893 "cfg_printer.ml" 357 12864 12895
 type(
@@ -7220,6 +7622,9 @@ ident(
   int_ref e "cfg_printer.ml" 356 12834 12857 "cfg_printer.ml" 356 12834 12858
 )
 "cfg_printer.ml" 358 12896 12913 "cfg_printer.ml" 358 12896 12954
+call(
+  tail
+)
 type(
   unit
 )
@@ -7276,6 +7681,9 @@ ident(
   int_ref e "cfg_printer.ml" 356 12834 12857 "cfg_printer.ml" 356 12834 12858
 )
 "cfg_printer.ml" 359 12955 12972 "cfg_printer.ml" 359 12955 13014
+call(
+  tail
+)
 type(
   unit
 )
@@ -7375,6 +7783,9 @@ type(
   Cfg.block_formal_param list * Cfg.stmt
 )
 "cfg_printer.ml" 361 13059 13064 "cfg_printer.ml" 362 13089 13138
+call(
+  tail
+)
 type(
   unit
 )
@@ -7567,6 +7978,9 @@ ident(
   int_ref body "cfg_printer.ml" 364 13140 13176 "cfg_printer.ml" 364 13140 13180
 )
 "cfg_printer.ml" 366 13209 13223 "cfg_printer.ml" 366 13209 13274
+call(
+  tail
+)
 type(
   unit
 )
@@ -7639,6 +8053,9 @@ ident(
   int_ref body "cfg_printer.ml" 364 13140 13176 "cfg_printer.ml" 364 13140 13180
 )
 "cfg_printer.ml" 367 13275 13289 "cfg_printer.ml" 369 13374 13398
+call(
+  tail
+)
 type(
   unit
 )
@@ -7705,6 +8122,9 @@ ident(
   int_ref cfg "cfg_printer.ml" 371 13400 13421 "cfg_printer.ml" 371 13400 13424
 )
 "cfg_printer.ml" 371 13400 13427 "cfg_printer.ml" 371 13400 13473
+call(
+  tail
+)
 type(
   unit
 )
@@ -7744,6 +8164,9 @@ ident(
   int_ref e "cfg_printer.ml" 373 13475 13496 "cfg_printer.ml" 373 13475 13497
 )
 "cfg_printer.ml" 373 13475 13500 "cfg_printer.ml" 373 13475 13533
+call(
+  tail
+)
 type(
   string
 )
@@ -7783,6 +8206,9 @@ ident(
   int_ref cfg "cfg_printer.ml" 375 13535 13555 "cfg_printer.ml" 375 13535 13558
 )
 "cfg_printer.ml" 375 13535 13561 "cfg_printer.ml" 375 13535 13595
+call(
+  tail
+)
 type(
   string
 )
@@ -7826,6 +8252,9 @@ ident(
   int_ref oc "cfg_printer.ml" 377 13597 13614 "cfg_printer.ml" 377 13597 13616
 )
 "cfg_printer.ml" 378 13622 13636 "cfg_printer.ml" 378 13622 13670
+call(
+  stack
+)
 type(
   Format.formatter
 )
@@ -7851,6 +8280,9 @@ ident(
   int_ref s "cfg_printer.ml" 377 13597 13617 "cfg_printer.ml" 377 13597 13618
 )
 "cfg_printer.ml" 379 13674 13680 "cfg_printer.ml" 379 13674 13696
+call(
+  stack
+)
 type(
   unit
 )
@@ -7873,6 +8305,9 @@ type(
   unit
 )
 "cfg_printer.ml" 380 13698 13704 "cfg_printer.ml" 380 13698 13725
+call(
+  tail
+)
 type(
   unit
 )
@@ -7883,6 +8318,14 @@ type(
 "cfg_printer.ml" 378 13622 13626 "cfg_printer.ml" 380 13698 13725
 type(
   unit
+)
+"cfg_printer.ml" 387 13762 13800 "cfg_printer.ml" 387 13762 13819
+call(
+  stack
+)
+"cfg_printer.ml" 395 14096 14113 "cfg_printer.ml" 395 14096 14123
+call(
+  stack
 )
 "cfg_printer.ml" 398 14141 14147 "cfg_printer.ml" 398 14141 14164
 type(
@@ -7932,6 +8375,9 @@ ident(
   int_ref s "cfg_printer.ml" 399 14201 14217 "cfg_printer.ml" 399 14201 14218
 )
 "cfg_printer.ml" 401 14273 14284 "cfg_printer.ml" 401 14273 14296
+call(
+  stack
+)
 type(
   bool
 )
@@ -7954,6 +8400,9 @@ type(
   string
 )
 "cfg_printer.ml" 401 14273 14302 "cfg_printer.ml" 401 14273 14325
+call(
+  tail
+)
 type(
   unit
 )
@@ -7979,6 +8428,9 @@ ident(
   int_ref s "cfg_printer.ml" 399 14201 14217 "cfg_printer.ml" 399 14201 14218
 )
 "cfg_printer.ml" 402 14326 14339 "cfg_printer.ml" 402 14326 14360
+call(
+  tail
+)
 type(
   unit
 )
@@ -8015,6 +8467,9 @@ ident(
   int_ref i "cfg_printer.ml" 403 14361 14367 "cfg_printer.ml" 403 14361 14368
 )
 "cfg_printer.ml" 403 14361 14372 "cfg_printer.ml" 403 14361 14401
+call(
+  tail
+)
 type(
   unit
 )
@@ -8151,6 +8606,9 @@ ident(
   int_ref s1 "cfg_printer.ml" 406 14461 14532 "cfg_printer.ml" 406 14461 14534
 )
 "cfg_printer.ml" 407 14543 14551 "cfg_printer.ml" 408 14579 14632
+call(
+  tail
+)
 type(
   unit
 )
@@ -8195,6 +8653,9 @@ ident(
   int_ref tup "cfg_printer.ml" 410 14634 14652 "cfg_printer.ml" 410 14634 14655
 )
 "cfg_printer.ml" 411 14661 14677 "cfg_printer.ml" 411 14661 14721
+call(
+  stack
+)
 type(
   string
 )
@@ -8213,6 +8674,9 @@ ident(
   int_ref s "cfg_printer.ml" 411 14661 14673 "cfg_printer.ml" 411 14661 14674
 )
 "cfg_printer.ml" 417 15064 15077 "cfg_printer.ml" 417 15064 15089
+call(
+  stack
+)
 type(
   bool
 )
@@ -8240,6 +8704,9 @@ type(
   string
 )
 "cfg_printer.ml" 418 15091 15106 "cfg_printer.ml" 418 15091 15140
+call(
+  tail
+)
 type(
   unit
 )
@@ -8265,6 +8732,9 @@ ident(
   int_ref stmt "cfg_printer.ml" 405 14403 14425 "cfg_printer.ml" 405 14403 14429
 )
 "cfg_printer.ml" 419 15143 15158 "cfg_printer.ml" 419 15143 15184
+call(
+  tail
+)
 type(
   unit
 )
@@ -8325,6 +8795,9 @@ ident(
   int_ref s "cfg_printer.ml" 421 15186 15212 "cfg_printer.ml" 421 15186 15213
 )
 "cfg_printer.ml" 423 15306 15316 "cfg_printer.ml" 423 15306 15328
+call(
+  stack
+)
 type(
   bool
 )
@@ -8369,6 +8842,9 @@ ident(
   ext_ref PP.format_star_expr
 )
 "cfg_printer.ml" 424 15330 15370 "cfg_printer.ml" 424 15330 15409
+call(
+  stack
+)
 type(
   Format.formatter -> Cfg.star_expr list -> unit
 )
@@ -8380,6 +8856,9 @@ ident(
   int_ref e "cfg_printer.ml" 421 15186 15216 "cfg_printer.ml" 421 15186 15217
 )
 "cfg_printer.ml" 424 15330 15342 "cfg_printer.ml" 424 15330 15411
+call(
+  tail
+)
 type(
   unit
 )
@@ -8405,6 +8884,9 @@ ident(
   int_ref stmt "cfg_printer.ml" 405 14403 14425 "cfg_printer.ml" 405 14403 14429
 )
 "cfg_printer.ml" 425 15412 15425 "cfg_printer.ml" 425 15412 15451
+call(
+  tail
+)
 type(
   unit
 )
@@ -8438,6 +8920,9 @@ ident(
   int_ref stmt "cfg_printer.ml" 405 14403 14425 "cfg_printer.ml" 405 14403 14429
 )
 "cfg_printer.ml" 427 15453 15464 "cfg_printer.ml" 427 15453 15490
+call(
+  tail
+)
 type(
   unit
 )
@@ -8524,6 +9009,9 @@ ident(
   int_ref e "cfg_printer.ml" 430 15564 15574 "cfg_printer.ml" 430 15564 15575
 )
 "cfg_printer.ml" 433 15712 15726 "cfg_printer.ml" 433 15712 15762
+call(
+  stack
+)
 type(
   string
 )
@@ -8542,6 +9030,9 @@ ident(
   int_ref s "cfg_printer.ml" 433 15712 15722 "cfg_printer.ml" 433 15712 15723
 )
 "cfg_printer.ml" 434 15766 15777 "cfg_printer.ml" 434 15766 15789
+call(
+  stack
+)
 type(
   bool
 )
@@ -8583,6 +9074,9 @@ ident(
   int_ref msg "cfg_printer.ml" 429 15504 15541 "cfg_printer.ml" 429 15504 15544
 )
 "cfg_printer.ml" 434 15766 15795 "cfg_printer.ml" 434 15766 15832
+call(
+  tail
+)
 type(
   unit
 )
@@ -8619,6 +9113,9 @@ type(
   Cfg.expr option * Cfg.msg_id
 )
 "cfg_printer.ml" 435 15833 15846 "cfg_printer.ml" 435 15833 15888
+call(
+  tail
+)
 type(
   unit
 )
@@ -8667,6 +9164,9 @@ type(
   Cfg.expr option * Cfg.msg_id
 )
 "cfg_printer.ml" 437 15890 15900 "cfg_printer.ml" 437 15890 15942
+call(
+  tail
+)
 type(
   unit
 )
@@ -8862,6 +9362,9 @@ ident(
   int_ref body "cfg_printer.ml" 439 15944 15980 "cfg_printer.ml" 439 15944 15984
 )
 "cfg_printer.ml" 442 16070 16083 "cfg_printer.ml" 442 16070 16116
+call(
+  tail
+)
 type(
   unit
 )
@@ -8894,12 +9397,19 @@ ident(
   int_ref cb "cfg_printer.ml" 439 15944 15970 "cfg_printer.ml" 439 15944 15992
 )
 "cfg_printer.ml" 443 16117 16130 "cfg_printer.ml" 443 16117 16159
+call(
+  tail
+)
 type(
   unit
 )
 "cfg_printer.ml" 440 15996 15999 "cfg_printer.ml" 443 16117 16159
 type(
   unit
+)
+"cfg_printer.ml" 447 16166 16205 "cfg_printer.ml" 447 16166 16224
+call(
+  stack
 )
 "cfg_printer.ml" 491 17791 17797 "cfg_printer.ml" 491 17791 17798
 type(
@@ -8958,6 +9468,9 @@ ident(
   int_ref str "cfg_printer.ml" 491 17791 17799 "cfg_printer.ml" 491 17791 17802
 )
 "cfg_printer.ml" 491 17791 17814 "cfg_printer.ml" 491 17791 17844
+call(
+  stack
+)
 type(
   unit
 )
@@ -8973,6 +9486,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 491 17791 17811 "cfg_printer.ml" 491 17791 17849
+call(
+  tail
+)
 type(
   'a
 )
@@ -9033,6 +9549,9 @@ ident(
   int_ref op "cfg_printer.ml" 494 17852 17873 "cfg_printer.ml" 494 17852 17875
 )
 "cfg_printer.ml" 494 17852 17881 "cfg_printer.ml" 494 17852 17905
+call(
+  stack
+)
 type(
   unit
 )
@@ -9048,6 +9567,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 494 17852 17878 "cfg_printer.ml" 494 17852 17910
+call(
+  tail
+)
 type(
   'b
 )
@@ -9108,6 +9630,9 @@ ident(
   int_ref op "cfg_printer.ml" 495 17912 17934 "cfg_printer.ml" 495 17912 17936
 )
 "cfg_printer.ml" 495 17912 17942 "cfg_printer.ml" 495 17912 17967
+call(
+  stack
+)
 type(
   unit
 )
@@ -9123,6 +9648,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 495 17912 17939 "cfg_printer.ml" 495 17912 17972
+call(
+  tail
+)
 type(
   'c
 )
@@ -9183,6 +9711,9 @@ ident(
   int_ref x "cfg_printer.ml" 496 17973 17996 "cfg_printer.ml" 496 17973 17997
 )
 "cfg_printer.ml" 496 17973 18003 "cfg_printer.ml" 496 17973 18028
+call(
+  stack
+)
 type(
   unit
 )
@@ -9198,6 +9729,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 496 17973 18000 "cfg_printer.ml" 496 17973 18033
+call(
+  tail
+)
 type(
   'd
 )
@@ -9258,6 +9792,9 @@ ident(
   int_ref x "cfg_printer.ml" 497 18034 18053 "cfg_printer.ml" 497 18034 18054
 )
 "cfg_printer.ml" 497 18034 18060 "cfg_printer.ml" 497 18034 18081
+call(
+  stack
+)
 type(
   unit
 )
@@ -9273,6 +9810,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 497 18034 18057 "cfg_printer.ml" 497 18034 18086
+call(
+  tail
+)
 type(
   'e
 )
@@ -9333,6 +9873,9 @@ ident(
   int_ref x "cfg_printer.ml" 498 18087 18109 "cfg_printer.ml" 498 18087 18110
 )
 "cfg_printer.ml" 498 18087 18116 "cfg_printer.ml" 498 18087 18140
+call(
+  stack
+)
 type(
   unit
 )
@@ -9348,6 +9891,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 498 18087 18113 "cfg_printer.ml" 498 18087 18145
+call(
+  tail
+)
 type(
   'f
 )
@@ -9408,6 +9954,9 @@ ident(
   int_ref x "cfg_printer.ml" 499 18146 18163 "cfg_printer.ml" 499 18146 18164
 )
 "cfg_printer.ml" 499 18146 18170 "cfg_printer.ml" 499 18146 18189
+call(
+  stack
+)
 type(
   unit
 )
@@ -9423,6 +9972,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 499 18146 18167 "cfg_printer.ml" 499 18146 18194
+call(
+  tail
+)
 type(
   'g
 )
@@ -9483,6 +10035,9 @@ ident(
   int_ref x "cfg_printer.ml" 500 18195 18215 "cfg_printer.ml" 500 18195 18216
 )
 "cfg_printer.ml" 500 18195 18222 "cfg_printer.ml" 500 18195 18244
+call(
+  stack
+)
 type(
   unit
 )
@@ -9498,6 +10053,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 500 18195 18219 "cfg_printer.ml" 500 18195 18249
+call(
+  tail
+)
 type(
   'h
 )
@@ -9558,6 +10116,9 @@ ident(
   int_ref x "cfg_printer.ml" 501 18250 18273 "cfg_printer.ml" 501 18250 18274
 )
 "cfg_printer.ml" 501 18250 18280 "cfg_printer.ml" 501 18250 18305
+call(
+  stack
+)
 type(
   unit
 )
@@ -9573,6 +10134,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 501 18250 18277 "cfg_printer.ml" 501 18250 18310
+call(
+  tail
+)
 type(
   'i
 )
@@ -9633,6 +10197,9 @@ ident(
   int_ref x "cfg_printer.ml" 502 18311 18327 "cfg_printer.ml" 502 18311 18328
 )
 "cfg_printer.ml" 502 18311 18334 "cfg_printer.ml" 502 18311 18352
+call(
+  stack
+)
 type(
   unit
 )
@@ -9648,6 +10215,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 502 18311 18331 "cfg_printer.ml" 502 18311 18357
+call(
+  tail
+)
 type(
   'j
 )
@@ -9708,6 +10278,9 @@ ident(
   int_ref x "cfg_printer.ml" 503 18358 18379 "cfg_printer.ml" 503 18358 18380
 )
 "cfg_printer.ml" 503 18358 18386 "cfg_printer.ml" 503 18358 18409
+call(
+  stack
+)
 type(
   unit
 )
@@ -9723,6 +10296,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 503 18358 18383 "cfg_printer.ml" 503 18358 18414
+call(
+  tail
+)
 type(
   'k
 )
@@ -9783,6 +10359,9 @@ ident(
   int_ref x "cfg_printer.ml" 504 18415 18438 "cfg_printer.ml" 504 18415 18439
 )
 "cfg_printer.ml" 504 18415 18445 "cfg_printer.ml" 504 18415 18470
+call(
+  stack
+)
 type(
   unit
 )
@@ -9798,6 +10377,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 504 18415 18442 "cfg_printer.ml" 504 18415 18475
+call(
+  tail
+)
 type(
   'l
 )
@@ -9858,6 +10440,9 @@ ident(
   int_ref x "cfg_printer.ml" 505 18476 18499 "cfg_printer.ml" 505 18476 18500
 )
 "cfg_printer.ml" 505 18476 18506 "cfg_printer.ml" 505 18476 18531
+call(
+  stack
+)
 type(
   unit
 )
@@ -9873,6 +10458,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 505 18476 18503 "cfg_printer.ml" 505 18476 18536
+call(
+  tail
+)
 type(
   'm
 )
@@ -9933,6 +10521,9 @@ ident(
   int_ref x "cfg_printer.ml" 506 18537 18561 "cfg_printer.ml" 506 18537 18562
 )
 "cfg_printer.ml" 506 18537 18568 "cfg_printer.ml" 506 18537 18594
+call(
+  stack
+)
 type(
   unit
 )
@@ -9948,6 +10539,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 506 18537 18565 "cfg_printer.ml" 506 18537 18599
+call(
+  tail
+)
 type(
   'n
 )
@@ -10008,6 +10602,9 @@ ident(
   int_ref x "cfg_printer.ml" 507 18600 18617 "cfg_printer.ml" 507 18600 18618
 )
 "cfg_printer.ml" 507 18600 18624 "cfg_printer.ml" 507 18600 18643
+call(
+  stack
+)
 type(
   unit
 )
@@ -10023,6 +10620,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 507 18600 18621 "cfg_printer.ml" 507 18600 18648
+call(
+  tail
+)
 type(
   'o
 )
@@ -10084,6 +10684,9 @@ ident(
   int_ref x "cfg_printer.ml" 508 18649 18671 "cfg_printer.ml" 508 18649 18672
 )
 "cfg_printer.ml" 508 18649 18678 "cfg_printer.ml" 508 18649 18702
+call(
+  stack
+)
 type(
   unit
 )
@@ -10099,6 +10702,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 508 18649 18675 "cfg_printer.ml" 508 18649 18707
+call(
+  tail
+)
 type(
   'p
 )
@@ -10159,6 +10765,9 @@ ident(
   int_ref x "cfg_printer.ml" 509 18708 18733 "cfg_printer.ml" 509 18708 18734
 )
 "cfg_printer.ml" 509 18708 18740 "cfg_printer.ml" 509 18708 18767
+call(
+  stack
+)
 type(
   unit
 )
@@ -10174,6 +10783,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 509 18708 18737 "cfg_printer.ml" 509 18708 18772
+call(
+  tail
+)
 type(
   'q
 )
@@ -10234,6 +10846,9 @@ ident(
   int_ref x "cfg_printer.ml" 510 18773 18790 "cfg_printer.ml" 510 18773 18791
 )
 "cfg_printer.ml" 510 18773 18796 "cfg_printer.ml" 510 18773 18815
+call(
+  stack
+)
 type(
   unit
 )
@@ -10249,6 +10864,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 510 18773 18793 "cfg_printer.ml" 510 18773 18820
+call(
+  tail
+)
 type(
   'r
 )
@@ -10281,6 +10899,9 @@ ident(
   ext_ref Pervasives.ignore
 )
 "cfg_printer.ml" 512 18822 18839 "cfg_printer.ml" 512 18822 18847
+call(
+  tail
+)
 type(
   't
 )
@@ -10348,6 +10969,9 @@ ident(
   int_ref x "cfg_printer.ml" 513 18848 18869 "cfg_printer.ml" 513 18848 18870
 )
 "cfg_printer.ml" 513 18848 18876 "cfg_printer.ml" 513 18848 18883
+call(
+  stack
+)
 type(
   'w
 )
@@ -10363,6 +10987,9 @@ type(
   'u
 )
 "cfg_printer.ml" 513 18848 18873 "cfg_printer.ml" 513 18848 18888
+call(
+  tail
+)
 type(
   'x
 )
@@ -10421,6 +11048,9 @@ ident(
   int_ref f "cfg_printer.ml" 515 18890 18908 "cfg_printer.ml" 515 18890 18909
 )
 "cfg_printer.ml" 516 18943 18957 "cfg_printer.ml" 516 18943 18965
+call(
+  stack
+)
 type(
   Format.formatter -> 'y -> unit
 )
@@ -10469,6 +11099,9 @@ ident(
   int_ref fmt "cfg_printer.ml" 516 18943 18951 "cfg_printer.ml" 516 18943 18954
 )
 "cfg_printer.ml" 517 18969 19011 "cfg_printer.ml" 517 18969 19034
+call(
+  stack
+)
 type(
   Format.formatter -> 'y list -> unit
 )
@@ -10480,6 +11113,9 @@ ident(
   int_ref lst "cfg_printer.ml" 515 18890 18937 "cfg_printer.ml" 515 18890 18940
 )
 "cfg_printer.ml" 517 18969 18978 "cfg_printer.ml" 517 18969 19038
+call(
+  stack
+)
 type(
   unit
 )
@@ -10495,6 +11131,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 517 18969 18975 "cfg_printer.ml" 517 18969 19043
+call(
+  tail
+)
 type(
   'z
 )
@@ -10567,6 +11206,9 @@ ident(
   int_ref f "cfg_printer.ml" 519 19045 19058 "cfg_printer.ml" 519 19045 19059
 )
 "cfg_printer.ml" 520 19073 19094 "cfg_printer.ml" 520 19073 19104
+call(
+  stack
+)
 type(
   'b1 -> 'c1 -> unit
 )
@@ -10585,6 +11227,9 @@ ident(
   int_ref opt "cfg_printer.ml" 519 19045 19066 "cfg_printer.ml" 519 19045 19069
 )
 "cfg_printer.ml" 520 19073 19080 "cfg_printer.ml" 520 19073 19112
+call(
+  stack
+)
 type(
   unit
 )
@@ -10600,6 +11245,9 @@ type(
   'b1
 )
 "cfg_printer.ml" 520 19073 19077 "cfg_printer.ml" 520 19073 19117
+call(
+  tail
+)
 type(
   'd1
 )
@@ -10660,6 +11308,9 @@ ident(
   int_ref x "cfg_printer.ml" 522 19119 19138 "cfg_printer.ml" 522 19119 19139
 )
 "cfg_printer.ml" 522 19119 19145 "cfg_printer.ml" 522 19119 19173
+call(
+  stack
+)
 type(
   unit
 )
@@ -10675,6 +11326,9 @@ type(
   Format.formatter
 )
 "cfg_printer.ml" 522 19119 19142 "cfg_printer.ml" 522 19119 19178
+call(
+  tail
+)
 type(
   'e1
 )
@@ -10728,6 +11382,9 @@ ident(
   int_ref ppf "cfg_printer.ml" 524 19180 19199 "cfg_printer.ml" 524 19180 19202
 )
 "cfg_printer.ml" 524 19180 19207 "cfg_printer.ml" 524 19180 19217
+call(
+  tail
+)
 type(
   'h1
 )
@@ -10774,6 +11431,9 @@ ident(
   int_ref ppf "cfg_printer.ml" 525 19218 19231 "cfg_printer.ml" 525 19218 19234
 )
 "cfg_printer.ml" 525 19218 19239 "cfg_printer.ml" 525 19218 19251
+call(
+  tail
+)
 type(
   'k1
 )
@@ -10815,6 +11475,9 @@ type(
   int
 )
 "cfg_printer.ml" 528 19278 19292 "cfg_printer.ml" 528 19278 19309
+call(
+  stack
+)
 type(
   Buffer.t
 )
@@ -10837,6 +11500,9 @@ ident(
   int_ref buf "cfg_printer.ml" 528 19278 19286 "cfg_printer.ml" 528 19278 19289
 )
 "cfg_printer.ml" 529 19313 19327 "cfg_printer.ml" 529 19313 19357
+call(
+  stack
+)
 type(
   Format.formatter
 )
@@ -10873,6 +11539,9 @@ type(
   unit
 )
 "cfg_printer.ml" 531 19382 19393 "cfg_printer.ml" 531 19382 19421
+call(
+  stack
+)
 type(
   unit
 )
@@ -10898,10 +11567,16 @@ ident(
   int_ref buf "cfg_printer.ml" 528 19278 19286 "cfg_printer.ml" 528 19278 19289
 )
 "cfg_printer.ml" 532 19423 19439 "cfg_printer.ml" 532 19423 19460
+call(
+  stack
+)
 type(
   string
 )
 "cfg_printer.ml" 532 19423 19434 "cfg_printer.ml" 532 19423 19460
+call(
+  tail
+)
 type(
   'l1
 )
@@ -10921,6 +11596,9 @@ ident(
   int_ref ppf "cfg_printer.ml" 529 19313 19321 "cfg_printer.ml" 529 19313 19324
 )
 "cfg_printer.ml" 530 19361 19367 "cfg_printer.ml" 533 19461 19474
+call(
+  tail
+)
 type(
   'm1
 )
@@ -10969,6 +11647,9 @@ ident(
   int_ref k "cfg_printer.ml" 535 19476 19490 "cfg_printer.ml" 535 19476 19491
 )
 "cfg_printer.ml" 535 19476 19494 "cfg_printer.ml" 535 19476 19513
+call(
+  tail
+)
 type(
   'n1
 )
@@ -11022,10 +11703,24 @@ ident(
   int_ref i2 "cfg_printer.ml" 537 19515 19531 "cfg_printer.ml" 537 19515 19533
 )
 "cfg_printer.ml" 537 19515 19538 "cfg_printer.ml" 537 19515 19545
+call(
+  stack
+)
 type(
   'o1
 )
 "cfg_printer.ml" 537 19515 19536 "cfg_printer.ml" 537 19515 19545
+call(
+  tail
+)
 type(
   'p1
+)
+"cfg_printer.ml" 540 19555 19577 "cfg_printer.ml" 540 19555 19599
+call(
+  stack
+)
+"cfg_printer.ml" 541 19600 19623 "cfg_printer.ml" 541 19600 19646
+call(
+  stack
 )

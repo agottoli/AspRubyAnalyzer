@@ -47,7 +47,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "priority_by_relation.ml" 24 1031 1057 "priority_by_relation.ml" 24 1031 1070
 type(
@@ -64,10 +64,16 @@ ident(
   int_ref p "priority_by_relation.ml" 24 1031 1047 "priority_by_relation.ml" 24 1031 1048
 )
 "priority_by_relation.ml" 24 1031 1056 "priority_by_relation.ml" 24 1031 1073
+call(
+  stack
+)
 type(
   string
 )
 "priority_by_relation.ml" 24 1031 1052 "priority_by_relation.ml" 24 1031 1073
+call(
+  tail
+)
 type(
   string
 )
@@ -91,7 +97,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "priority_by_relation.ml" 25 1074 1102 "priority_by_relation.ml" 25 1074 1115
 type(
@@ -108,10 +114,16 @@ ident(
   int_ref p "priority_by_relation.ml" 25 1074 1092 "priority_by_relation.ml" 25 1074 1093
 )
 "priority_by_relation.ml" 25 1074 1101 "priority_by_relation.ml" 25 1074 1118
+call(
+  stack
+)
 type(
   string
 )
 "priority_by_relation.ml" 25 1074 1097 "priority_by_relation.ml" 25 1074 1118
+call(
+  tail
+)
 type(
   string
 )
@@ -135,7 +147,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "priority_by_relation.ml" 26 1119 1150 "priority_by_relation.ml" 26 1119 1163
 type(
@@ -152,10 +164,16 @@ ident(
   int_ref p "priority_by_relation.ml" 26 1119 1139 "priority_by_relation.ml" 26 1119 1140
 )
 "priority_by_relation.ml" 26 1119 1149 "priority_by_relation.ml" 26 1119 1166
+call(
+  stack
+)
 type(
   string
 )
 "priority_by_relation.ml" 26 1119 1144 "priority_by_relation.ml" 26 1119 1166
+call(
+  tail
+)
 type(
   string
 )
@@ -179,7 +197,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "priority_by_relation.ml" 27 1167 1198 "priority_by_relation.ml" 27 1167 1211
 type(
@@ -196,10 +214,16 @@ ident(
   int_ref p "priority_by_relation.ml" 27 1167 1188 "priority_by_relation.ml" 27 1167 1189
 )
 "priority_by_relation.ml" 27 1167 1197 "priority_by_relation.ml" 27 1167 1214
+call(
+  stack
+)
 type(
   string
 )
 "priority_by_relation.ml" 27 1167 1193 "priority_by_relation.ml" 27 1167 1214
+call(
+  tail
+)
 type(
   string
 )
@@ -223,7 +247,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "priority_by_relation.ml" 28 1215 1249 "priority_by_relation.ml" 28 1215 1262
 type(
@@ -240,10 +264,16 @@ ident(
   int_ref p "priority_by_relation.ml" 28 1215 1238 "priority_by_relation.ml" 28 1215 1239
 )
 "priority_by_relation.ml" 28 1215 1248 "priority_by_relation.ml" 28 1215 1265
+call(
+  stack
+)
 type(
   string
 )
 "priority_by_relation.ml" 28 1215 1243 "priority_by_relation.ml" 28 1215 1265
+call(
+  tail
+)
 type(
   string
 )
@@ -289,6 +319,18 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"priority_by_relation.ml" 43 1473 1491 "priority_by_relation.ml" 43 1473 1508
+call(
+  stack
+)
+"priority_by_relation.ml" 44 1509 1527 "priority_by_relation.ml" 44 1509 1544
+call(
+  stack
+)
+"priority_by_relation.ml" 45 1545 1565 "priority_by_relation.ml" 45 1545 1589
+call(
+  stack
 )
 "priority_by_relation.ml" 63 2204 2208 "priority_by_relation.ml" 63 2204 2220
 type(
@@ -364,6 +406,9 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "priority_by_relation.ml" 64 2239 2261 "priority_by_relation.ml" 64 2239 2293
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -383,6 +428,9 @@ type(
   string
 )
 "priority_by_relation.ml" 65 2294 2316 "priority_by_relation.ml" 65 2294 2339
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -429,6 +477,9 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "priority_by_relation.ml" 67 2382 2404 "priority_by_relation.ml" 67 2382 2436
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -448,6 +499,9 @@ type(
   string
 )
 "priority_by_relation.ml" 68 2437 2459 "priority_by_relation.ml" 68 2437 2482
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -496,6 +550,9 @@ ident(
   int_ref ps2 "priority_by_relation.ml" 64 2239 2250 "priority_by_relation.ml" 64 2239 2253
 )
 "priority_by_relation.ml" 71 2543 2557 "priority_by_relation.ml" 71 2543 2578
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -521,6 +578,9 @@ ident(
   int_ref ps3 "priority_by_relation.ml" 67 2382 2389 "priority_by_relation.ml" 67 2382 2392
 )
 "priority_by_relation.ml" 71 2543 2579 "priority_by_relation.ml" 71 2543 2600
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -550,6 +610,9 @@ ident(
   int_ref ps2 "priority_by_relation.ml" 64 2239 2250 "priority_by_relation.ml" 64 2239 2253
 )
 "priority_by_relation.ml" 72 2601 2610 "priority_by_relation.ml" 72 2601 2634
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -575,6 +638,9 @@ ident(
   int_ref ps3 "priority_by_relation.ml" 67 2382 2389 "priority_by_relation.ml" 67 2382 2392
 )
 "priority_by_relation.ml" 72 2601 2635 "priority_by_relation.ml" 72 2601 2659
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -672,10 +738,16 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "priority_by_relation.ml" 75 2681 2711 "priority_by_relation.ml" 75 2681 2754
+call(
+  stack
+)
 type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "priority_by_relation.ml" 75 2681 2685 "priority_by_relation.ml" 75 2681 2754
+call(
+  stack
+)
 type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
@@ -767,6 +839,9 @@ type(
   int String_map.t
 )
 "priority_by_relation.ml" 81 2838 2850 "priority_by_relation.ml" 81 2838 2888
+call(
+  stack
+)
 type(
   int
 )
@@ -848,6 +923,9 @@ type(
   int String_map.t
 )
 "priority_by_relation.ml" 85 2958 2975 "priority_by_relation.ml" 85 2958 3014
+call(
+  stack
+)
 type(
   int String_map.t
 )
@@ -902,6 +980,9 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "priority_by_relation.ml" 86 3018 3032 "priority_by_relation.ml" 86 3018 3094
+call(
+  stack
+)
 type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
@@ -931,7 +1012,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "priority_by_relation.ml" 87 3098 3154 "priority_by_relation.ml" 87 3098 3155
 type(
@@ -1019,6 +1100,9 @@ type(
   int String_map.t
 )
 "priority_by_relation.ml" 90 3194 3196 "priority_by_relation.ml" 90 3194 3234
+call(
+  tail
+)
 type(
   int
 )
@@ -1095,6 +1179,9 @@ type(
   String_map.key
 )
 "priority_by_relation.ml" 95 3361 3391 "priority_by_relation.ml" 95 3361 3447
+call(
+  stack
+)
 type(
   priority_data * int
 )
@@ -1172,6 +1259,9 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "priority_by_relation.ml" 99 3487 3504 "priority_by_relation.ml" 99 3487 3536
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -1197,6 +1287,9 @@ ident(
   int_ref ps "priority_by_relation.ml" 99 3487 3498 "priority_by_relation.ml" 99 3487 3500
 )
 "priority_by_relation.ml" 100 3540 3544 "priority_by_relation.ml" 100 3540 3562
+call(
+  stack
+)
 type(
   bool
 )
@@ -1309,6 +1402,9 @@ ident(
   int_ref p2 "priority_by_relation.ml" 105 3626 3648 "priority_by_relation.ml" 105 3626 3650
 )
 "priority_by_relation.ml" 105 3626 3656 "priority_by_relation.ml" 105 3626 3684
+call(
+  tail
+)
 type(
   priority_data
 )
@@ -1342,6 +1438,9 @@ ident(
   int_ref ppbl "priority_by_relation.ml" 104 3591 3619 "priority_by_relation.ml" 104 3591 3623
 )
 "priority_by_relation.ml" 106 3688 3690 "priority_by_relation.ml" 106 3688 3721
+call(
+  tail
+)
 type(
   priority_data
 )
@@ -1428,6 +1527,9 @@ ident(
   int_ref p2 "priority_by_relation.ml" 114 3961 3986 "priority_by_relation.ml" 114 3961 3988
 )
 "priority_by_relation.ml" 114 3961 3991 "priority_by_relation.ml" 114 3961 4022
+call(
+  tail
+)
 type(
   priority_data
 )
@@ -1507,6 +1609,9 @@ ident(
   int_ref p2 "priority_by_relation.ml" 116 4068 4075 "priority_by_relation.ml" 116 4068 4077
 )
 "priority_by_relation.ml" 116 4068 4082 "priority_by_relation.ml" 116 4068 4113
+call(
+  tail
+)
 type(
   priority_data
 )
@@ -1555,6 +1660,9 @@ ident(
   int_ref p1 "priority_by_relation.ml" 115 4026 4040 "priority_by_relation.ml" 115 4026 4042
 )
 "priority_by_relation.ml" 118 4130 4167 "priority_by_relation.ml" 118 4130 4179
+call(
+  stack
+)
 type(
   priority_data -> Prio_map.key -> priority_data
 )
@@ -1573,6 +1681,9 @@ ident(
   int_ref l "priority_by_relation.ml" 115 4026 4043 "priority_by_relation.ml" 115 4026 4044
 )
 "priority_by_relation.ml" 118 4130 4152 "priority_by_relation.ml" 118 4130 4189
+call(
+  stack
+)
 type(
   priority_data
 )
@@ -1605,6 +1716,9 @@ ident(
   int_ref priodat "priority_by_relation.ml" 118 4130 4142 "priority_by_relation.ml" 118 4130 4149
 )
 "priority_by_relation.ml" 119 4193 4201 "priority_by_relation.ml" 119 4193 4218
+call(
+  tail
+)
 type(
   priority_data
 )
@@ -1628,6 +1742,9 @@ type(
   string
 )
 "priority_by_relation.ml" 120 4219 4231 "priority_by_relation.ml" 120 4219 4259
+call(
+  tail
+)
 type(
   priority_data
 )
@@ -1657,6 +1774,9 @@ ident(
   int_ref l "priority_by_relation.ml" 113 3926 3957 "priority_by_relation.ml" 113 3926 3958
 )
 "priority_by_relation.ml" 122 4265 4271 "priority_by_relation.ml" 122 4265 4282
+call(
+  stack
+)
 type(
   Prio_map.key
 )
@@ -1675,6 +1795,9 @@ ident(
   int_ref l "priority_by_relation.ml" 113 3926 3957 "priority_by_relation.ml" 113 3926 3958
 )
 "priority_by_relation.ml" 122 4265 4283 "priority_by_relation.ml" 122 4265 4294
+call(
+  stack
+)
 type(
   Prio_map.key list
 )
@@ -1686,6 +1809,9 @@ ident(
   int_ref priodat "priority_by_relation.ml" 113 3926 3949 "priority_by_relation.ml" 113 3926 3956
 )
 "priority_by_relation.ml" 122 4265 4267 "priority_by_relation.ml" 122 4265 4302
+call(
+  tail
+)
 type(
   priority_data
 )

@@ -131,7 +131,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 6 140 181 "argument.ml" 6 140 182
 type(
@@ -164,7 +164,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 7 183 231 "argument.ml" 7 183 235
 type(
@@ -200,7 +200,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "argument.ml" 8 236 263 "argument.ml" 8 236 273
 type(
@@ -215,7 +215,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "argument.ml" 8 236 277 "argument.ml" 8 236 278
 type(
@@ -229,7 +229,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "argument.ml" 8 236 279 "argument.ml" 8 236 285
 type(
@@ -244,7 +244,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "argument.ml" 8 236 289 "argument.ml" 8 236 290
 type(
@@ -258,7 +258,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "argument.ml" 8 236 291 "argument.ml" 8 236 298
 type(
@@ -288,7 +288,7 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 8 236 313 "argument.ml" 8 236 314
 type(
@@ -313,6 +313,9 @@ type(
   string
 )
 "argument.ml" 8 236 320 "argument.ml" 8 236 353
+call(
+  tail
+)
 type(
   unit
 )
@@ -346,7 +349,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "argument.ml" 13 506 513 "argument.ml" 13 506 518
 type(
@@ -372,7 +375,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "argument.ml" 14 527 539 "argument.ml" 14 527 545
 type(
@@ -387,7 +390,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "argument.ml" 14 527 549 "argument.ml" 14 527 550
 type(
@@ -401,7 +404,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "argument.ml" 14 527 551 "argument.ml" 14 527 556
 type(
@@ -441,6 +444,9 @@ ident(
   int_ref s "argument.ml" 12 481 502 "argument.ml" 12 481 503
 )
 "argument.ml" 15 562 567 "argument.ml" 16 589 651
+call(
+  stack
+)
 type(
   unit
 )
@@ -456,6 +462,9 @@ type(
   int
 )
 "argument.ml" 17 653 657 "argument.ml" 17 653 663
+call(
+  tail
+)
 type(
   unit
 )
@@ -475,6 +484,9 @@ type(
   string
 )
 "argument.ml" 18 665 672 "argument.ml" 18 665 709
+call(
+  tail
+)
 type(
   unit
 )
@@ -509,7 +521,7 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 20 711 759 "argument.ml" 20 711 764
 type(
@@ -542,7 +554,7 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 21 765 812 "argument.ml" 21 765 817
 type(
@@ -600,7 +612,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "argument.ml" 25 868 877 "argument.ml" 25 868 879
 type(
@@ -641,7 +653,7 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 26 927 948 "argument.ml" 26 927 949
 type(
@@ -703,7 +715,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 28 973 1007 "argument.ml" 28 973 1011
 type(
@@ -758,7 +770,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 30 1037 1075 "argument.ml" 30 1037 1079
 type(
@@ -813,7 +825,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "argument.ml" 33 1105 1146 "argument.ml" 33 1105 1151
 type(
@@ -846,6 +858,9 @@ type(
   string
 )
 "argument.ml" 35 1153 1178 "argument.ml" 35 1153 1210
+call(
+  tail
+)
 type(
   unit
 )
@@ -1094,6 +1109,9 @@ type(
   Arg.usage_msg
 )
 "argument.ml" 60 3061 3069 "argument.ml" 60 3061 3244
+call(
+  stack
+)
 type(
   unit
 )
@@ -1102,7 +1120,7 @@ type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "argument.ml" 65 3457 3469 "argument.ml" 65 3457 3479
 type(
@@ -1120,7 +1138,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "argument.ml" 65 3457 3482 "argument.ml" 65 3457 3484
 type(
@@ -1146,6 +1164,9 @@ type(
   string
 )
 "argument.ml" 66 3490 3500 "argument.ml" 66 3490 3654
+call(
+  stack
+)
 type(
   unit
 )
@@ -1161,6 +1182,9 @@ type(
   int
 )
 "argument.ml" 66 3490 3658 "argument.ml" 66 3490 3664
+call(
+  stack
+)
 type(
   unit
 )

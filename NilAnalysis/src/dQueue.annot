@@ -116,6 +116,9 @@ ident(
   int_ref r "dQueue.ml" 11 213 225 "dQueue.ml" 11 213 226
 )
 "dQueue.ml" 12 242 252 "dQueue.ml" 12 242 264
+call(
+  stack
+)
 type(
   'a list
 )
@@ -218,6 +221,9 @@ type(
   'a list
 )
 "dQueue.ml" 15 283 305 "dQueue.ml" 15 283 319
+call(
+  tail
+)
 type(
   'a list * 'a list
 )
@@ -327,6 +333,9 @@ type(
   string
 )
 "dQueue.ml" 22 386 398 "dQueue.ml" 22 386 411
+call(
+  tail
+)
 type(
   'a
 )
@@ -395,6 +404,9 @@ type(
   string
 )
 "dQueue.ml" 26 447 459 "dQueue.ml" 26 447 472
+call(
+  tail
+)
 type(
   'a list * 'a list
 )
@@ -449,6 +461,9 @@ ident(
   int_ref r "dQueue.ml" 27 473 483 "dQueue.ml" 27 473 484
 )
 "dQueue.ml" 27 473 488 "dQueue.ml" 27 473 498
+call(
+  tail
+)
 type(
   'a list * 'a list
 )
@@ -487,6 +502,9 @@ type(
   string
 )
 "dQueue.ml" 30 519 531 "dQueue.ml" 30 519 545
+call(
+  tail
+)
 type(
   'a * ('a list * 'a list)
 )
@@ -548,6 +566,9 @@ ident(
   int_ref r "dQueue.ml" 31 546 556 "dQueue.ml" 31 546 557
 )
 "dQueue.ml" 31 546 564 "dQueue.ml" 31 546 576
+call(
+  stack
+)
 type(
   'a list * 'a list
 )
@@ -662,6 +683,9 @@ type(
   string
 )
 "dQueue.ml" 37 649 663 "dQueue.ml" 37 649 682
+call(
+  tail
+)
 type(
   ('a list * 'a list) * 'a
 )
@@ -747,6 +771,9 @@ ident(
   int_ref fs "dQueue.ml" 39 711 718 "dQueue.ml" 39 711 720
 )
 "dQueue.ml" 40 728 740 "dQueue.ml" 40 728 751
+call(
+  stack
+)
 type(
   'a list
 )
@@ -802,6 +829,9 @@ ident(
   int_ref rs "dQueue.ml" 42 779 785 "dQueue.ml" 42 779 787
 )
 "dQueue.ml" 42 779 791 "dQueue.ml" 42 779 805
+call(
+  stack
+)
 type(
   'a list * 'a list
 )
@@ -864,6 +894,9 @@ ident(
   int_ref f "dQueue.ml" 44 811 823 "dQueue.ml" 44 811 824
 )
 "dQueue.ml" 44 811 830 "dQueue.ml" 44 811 845
+call(
+  stack
+)
 type(
   int
 )
@@ -872,7 +905,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dQueue.ml" 44 811 849 "dQueue.ml" 44 811 860
 type(
@@ -889,6 +922,9 @@ ident(
   int_ref r "dQueue.ml" 44 811 825 "dQueue.ml" 44 811 826
 )
 "dQueue.ml" 44 811 848 "dQueue.ml" 44 811 863
+call(
+  stack
+)
 type(
   int
 )
@@ -965,6 +1001,9 @@ ident(
   int_ref r1 "dQueue.ml" 46 865 880 "dQueue.ml" 46 865 882
 )
 "dQueue.ml" 47 895 905 "dQueue.ml" 47 895 926
+call(
+  stack
+)
 type(
   'a list
 )
@@ -994,6 +1033,9 @@ ident(
   int_ref r "dQueue.ml" 47 895 901 "dQueue.ml" 47 895 902
 )
 "dQueue.ml" 48 930 940 "dQueue.ml" 48 930 956
+call(
+  stack
+)
 type(
   'a list
 )
@@ -1019,6 +1061,9 @@ ident(
   int_ref r "dQueue.ml" 48 930 936 "dQueue.ml" 48 930 937
 )
 "dQueue.ml" 49 960 964 "dQueue.ml" 49 960 974
+call(
+  tail
+)
 type(
   'a list * 'a list
 )
@@ -1077,6 +1122,9 @@ ident(
   int_ref f "dQueue.ml" 51 976 985 "dQueue.ml" 51 976 986
 )
 "dQueue.ml" 51 976 992 "dQueue.ml" 51 976 1001
+call(
+  tail
+)
 type(
   'a list * 'a list
 )
@@ -1134,6 +1182,9 @@ ident(
   int_ref f "dQueue.ml" 53 1003 1018 "dQueue.ml" 53 1003 1019
 )
 "dQueue.ml" 54 1026 1028 "dQueue.ml" 54 1026 1044
+call(
+  stack
+)
 type(
   unit
 )
@@ -1166,10 +1217,16 @@ ident(
   int_ref r "dQueue.ml" 53 1003 1020 "dQueue.ml" 53 1003 1021
 )
 "dQueue.ml" 55 1046 1063 "dQueue.ml" 55 1046 1075
+call(
+  stack
+)
 type(
   'a list
 )
 "dQueue.ml" 55 1046 1048 "dQueue.ml" 55 1046 1075
+call(
+  tail
+)
 type(
   unit
 )
@@ -1259,6 +1316,9 @@ ident(
   int_ref f "dQueue.ml" 57 1077 1096 "dQueue.ml" 57 1077 1097
 )
 "dQueue.ml" 58 1103 1125 "dQueue.ml" 58 1103 1152
+call(
+  stack
+)
 type(
   'a
 )
@@ -1277,10 +1337,16 @@ ident(
   int_ref r "dQueue.ml" 57 1077 1098 "dQueue.ml" 57 1077 1099
 )
 "dQueue.ml" 58 1103 1153 "dQueue.ml" 58 1103 1165
+call(
+  stack
+)
 type(
   'b list
 )
 "dQueue.ml" 58 1103 1105 "dQueue.ml" 58 1103 1165
+call(
+  tail
+)
 type(
   'a
 )
@@ -1338,6 +1404,9 @@ ident(
   int_ref r "dQueue.ml" 60 1167 1187 "dQueue.ml" 60 1167 1188
 )
 "dQueue.ml" 61 1193 1195 "dQueue.ml" 61 1193 1216
+call(
+  stack
+)
 type(
   'b list
 )
@@ -1363,6 +1432,9 @@ ident(
   int_ref f "dQueue.ml" 60 1167 1185 "dQueue.ml" 60 1167 1186
 )
 "dQueue.ml" 61 1193 1218 "dQueue.ml" 61 1193 1239
+call(
+  stack
+)
 type(
   'b list
 )
@@ -1431,10 +1503,16 @@ ident(
   int_ref f "dQueue.ml" 63 1241 1255 "dQueue.ml" 63 1241 1256
 )
 "dQueue.ml" 64 1263 1275 "dQueue.ml" 64 1263 1296
+call(
+  stack
+)
 type(
   'b list
 )
 "dQueue.ml" 64 1263 1265 "dQueue.ml" 64 1263 1297
+call(
+  stack
+)
 type(
   'b list
 )
@@ -1467,10 +1545,16 @@ ident(
   int_ref r "dQueue.ml" 63 1241 1257 "dQueue.ml" 63 1241 1258
 )
 "dQueue.ml" 65 1300 1312 "dQueue.ml" 65 1300 1333
+call(
+  stack
+)
 type(
   'b list
 )
 "dQueue.ml" 65 1300 1302 "dQueue.ml" 65 1300 1334
+call(
+  stack
+)
 type(
   'b list
 )
@@ -1525,6 +1609,9 @@ ident(
   int_ref f "dQueue.ml" 67 1336 1349 "dQueue.ml" 67 1336 1350
 )
 "dQueue.ml" 68 1357 1375 "dQueue.ml" 68 1357 1387
+call(
+  stack
+)
 type(
   'a list
 )
@@ -1543,10 +1630,16 @@ ident(
   int_ref r "dQueue.ml" 67 1336 1351 "dQueue.ml" 67 1336 1352
 )
 "dQueue.ml" 68 1357 1388 "dQueue.ml" 68 1357 1400
+call(
+  stack
+)
 type(
   'a list
 )
 "dQueue.ml" 68 1357 1359 "dQueue.ml" 68 1357 1400
+call(
+  tail
+)
 type(
   'a list
 )
@@ -1608,6 +1701,9 @@ ident(
   int_ref t "dQueue.ml" 72 1428 1444 "dQueue.ml" 72 1428 1445
 )
 "dQueue.ml" 73 1449 1454 "dQueue.ml" 73 1449 1464
+call(
+  stack
+)
 type(
   bool
 )
@@ -1646,6 +1742,9 @@ ident(
   int_ref t "dQueue.ml" 72 1428 1444 "dQueue.ml" 72 1428 1445
 )
 "dQueue.ml" 75 1484 1499 "dQueue.ml" 75 1484 1504
+call(
+  stack
+)
 type(
   ('a list * 'a list) * (('a list * 'a list) list * ('a list * 'a list) list)
 )
@@ -1678,10 +1777,16 @@ ident(
   int_ref xs "dQueue.ml" 75 1484 1494 "dQueue.ml" 75 1484 1496
 )
 "dQueue.ml" 76 1508 1523 "dQueue.ml" 76 1508 1535
+call(
+  stack
+)
 type(
   'a list * 'a list
 )
 "dQueue.ml" 76 1508 1514 "dQueue.ml" 76 1508 1535
+call(
+  tail
+)
 type(
   'a list * 'a list
 )
@@ -1865,6 +1970,9 @@ ident(
   int_ref hy "dQueue.ml" 94 1885 1897 "dQueue.ml" 94 1885 1899
 )
 "dQueue.ml" 94 1885 1913 "dQueue.ml" 94 1885 1922
+call(
+  stack
+)
 type(
   int
 )
@@ -1901,6 +2009,9 @@ ident(
   int_ref ys "dQueue.ml" 94 1885 1901 "dQueue.ml" 94 1885 1903
 )
 "dQueue.ml" 95 1928 1941 "dQueue.ml" 95 1928 1963
+call(
+  tail
+)
 type(
   int
 )
@@ -2049,6 +2160,9 @@ ident(
   int_ref f2 "dQueue.ml" 98 1980 2008 "dQueue.ml" 98 1980 2010
 )
 "dQueue.ml" 99 2041 2054 "dQueue.ml" 99 2041 2074
+call(
+  tail
+)
 type(
   int
 )
@@ -2085,6 +2199,9 @@ ident(
   int_ref l1 "dQueue.ml" 98 1980 1990 "dQueue.ml" 98 1980 2005
 )
 "dQueue.ml" 100 2075 2099 "dQueue.ml" 100 2075 2111
+call(
+  stack
+)
 type(
   'a list
 )
@@ -2103,10 +2220,16 @@ ident(
   int_ref l2 "dQueue.ml" 98 1980 2006 "dQueue.ml" 98 1980 2021
 )
 "dQueue.ml" 100 2075 2112 "dQueue.ml" 100 2075 2124
+call(
+  stack
+)
 type(
   'b list
 )
 "dQueue.ml" 100 2075 2084 "dQueue.ml" 100 2075 2124
+call(
+  tail
+)
 type(
   int
 )
@@ -2164,6 +2287,9 @@ ident(
   int_ref q2 "dQueue.ml" 102 2126 2141 "dQueue.ml" 102 2126 2143
 )
 "dQueue.ml" 102 2126 2146 "dQueue.ml" 102 2126 2174
+call(
+  tail
+)
 type(
   int
 )
@@ -2234,6 +2360,9 @@ ident(
   int_ref hd "dQueue.ml" 106 2226 2230 "dQueue.ml" 106 2226 2232
 )
 "dQueue.ml" 108 2270 2271 "dQueue.ml" 108 2270 2280
+call(
+  stack
+)
 type(
   string
 )
@@ -2270,7 +2399,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dQueue.ml" 109 2281 2318 "dQueue.ml" 109 2281 2322
 type(
@@ -2281,7 +2410,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dQueue.ml" 109 2281 2326 "dQueue.ml" 109 2281 2330
 type(
@@ -2298,14 +2427,23 @@ ident(
   int_ref t "dQueue.ml" 109 2281 2307 "dQueue.ml" 109 2281 2308
 )
 "dQueue.ml" 109 2281 2325 "dQueue.ml" 109 2281 2333
+call(
+  stack
+)
 type(
   string
 )
 "dQueue.ml" 109 2281 2318 "dQueue.ml" 109 2281 2333
+call(
+  stack
+)
 type(
   string
 )
 "dQueue.ml" 109 2281 2312 "dQueue.ml" 109 2281 2333
+call(
+  tail
+)
 type(
   string
 )
@@ -2325,10 +2463,16 @@ ident(
   int_ref tl "dQueue.ml" 106 2226 2234 "dQueue.ml" 106 2226 2236
 )
 "dQueue.ml" 109 2281 2282 "dQueue.ml" 109 2281 2341
+call(
+  stack
+)
 type(
   string
 )
 "dQueue.ml" 107 2240 2246 "dQueue.ml" 109 2281 2341
+call(
+  tail
+)
 type(
   string
 )
@@ -2377,7 +2521,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dQueue.ml" 112 2371 2380 "dQueue.ml" 112 2371 2394
 type(
@@ -2401,6 +2545,9 @@ ident(
   int_ref f "dQueue.ml" 111 2343 2363 "dQueue.ml" 111 2343 2364
 )
 "dQueue.ml" 112 2371 2379 "dQueue.ml" 112 2371 2402
+call(
+  stack
+)
 type(
   string
 )
@@ -2409,7 +2556,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dQueue.ml" 113 2406 2411 "dQueue.ml" 113 2406 2425
 type(
@@ -2440,18 +2587,30 @@ ident(
   int_ref r "dQueue.ml" 111 2343 2365 "dQueue.ml" 111 2343 2366
 )
 "dQueue.ml" 113 2406 2431 "dQueue.ml" 113 2406 2443
+call(
+  stack
+)
 type(
   'a list
 )
 "dQueue.ml" 113 2406 2410 "dQueue.ml" 113 2406 2444
+call(
+  stack
+)
 type(
   string
 )
 "dQueue.ml" 112 2371 2379 "dQueue.ml" 113 2406 2444
+call(
+  stack
+)
 type(
   string
 )
 "dQueue.ml" 112 2371 2373 "dQueue.ml" 113 2406 2444
+call(
+  tail
+)
 type(
   string
 )
@@ -2481,9 +2640,6 @@ type(
 type(
   int
 )
-type(
-  int
-)
 ident(
   int_ref *sth* "dQueue.ml" 116 2506 2517 "dQueue.ml" 116 2506 2519
 )
@@ -2498,18 +2654,6 @@ type(
 )
 ident(
   def *sth* "dQueue.ml" 116 2506 2517 "dQueue.ml" 116 2506 2519
-)
-type(
-  int option
-)
-ident(
-  int_ref *opt* "dQueue.ml" 116 2506 2517 "dQueue.ml" 116 2506 2519
-)
-type(
-  int option
-)
-ident(
-  def *opt* "dQueue.ml" 116 2506 2510 "dQueue.ml" 120 2629 2680
 )
 "dQueue.ml" 116 2506 2522 "dQueue.ml" 116 2506 2523
 type(
@@ -2537,6 +2681,9 @@ ident(
   int_ref size "dQueue.ml" 116 2506 2512 "dQueue.ml" 116 2506 2516
 )
 "dQueue.ml" 117 2555 2568 "dQueue.ml" 117 2555 2576
+call(
+  stack
+)
 type(
   int
 )
@@ -2562,6 +2709,9 @@ ident(
   int_ref size "dQueue.ml" 117 2555 2561 "dQueue.ml" 117 2555 2565
 )
 "dQueue.ml" 118 2580 2587 "dQueue.ml" 118 2580 2612
+call(
+  stack
+)
 type(
   int
 )
@@ -2570,7 +2720,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dQueue.ml" 118 2580 2615 "dQueue.ml" 118 2580 2616
 type(
@@ -2599,6 +2749,9 @@ ident(
   int_ref r "dQueue.ml" 116 2506 2522 "dQueue.ml" 116 2506 2523
 )
 "dQueue.ml" 120 2629 2638 "dQueue.ml" 120 2629 2645
+call(
+  stack
+)
 type(
   'a
 )
@@ -2622,7 +2775,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dQueue.ml" 120 2629 2671 "dQueue.ml" 120 2629 2672
 type(
@@ -2647,6 +2800,9 @@ ident(
   int_ref r "dQueue.ml" 116 2506 2522 "dQueue.ml" 116 2506 2523
 )
 "dQueue.ml" 120 2629 2649 "dQueue.ml" 120 2629 2680
+call(
+  stack
+)
 type(
   'a list
 )
@@ -2723,6 +2879,9 @@ ident(
   int_ref rs "dQueue.ml" 122 2682 2738 "dQueue.ml" 122 2682 2740
 )
 "dQueue.ml" 123 2751 2753 "dQueue.ml" 123 2751 2777
+call(
+  stack
+)
 type(
   'a list
 )
@@ -2756,6 +2915,9 @@ ident(
   int_ref rs "dQueue.ml" 122 2682 2738 "dQueue.ml" 122 2682 2740
 )
 "dQueue.ml" 123 2751 2779 "dQueue.ml" 123 2751 2803
+call(
+  stack
+)
 type(
   'a list
 )
@@ -2832,6 +2994,9 @@ ident(
   int_ref t "dQueue.ml" 133 2912 2927 "dQueue.ml" 133 2912 2928
 )
 "dQueue.ml" 133 2912 2932 "dQueue.ml" 133 2912 2936
+call(
+  tail
+)
 type(
   'b
 )
@@ -2864,6 +3029,9 @@ ident(
   int_ref c "dQueue.ml" 135 2938 2948 "dQueue.ml" 135 2938 2949
 )
 "dQueue.ml" 135 2938 2952 "dQueue.ml" 135 2938 2961
+call(
+  tail
+)
 type(
   'b
 )
@@ -2904,6 +3072,9 @@ ident(
   int_ref t "dQueue.ml" 136 2962 2975 "dQueue.ml" 136 2962 2976
 )
 "dQueue.ml" 136 2962 2980 "dQueue.ml" 136 2962 2984
+call(
+  tail
+)
 type(
   'b list * 'b list
 )
@@ -2947,6 +3118,9 @@ ident(
   int_ref t "dQueue.ml" 138 2986 3002 "dQueue.ml" 138 2986 3003
 )
 "dQueue.ml" 138 2986 3007 "dQueue.ml" 138 2986 3017
+call(
+  tail
+)
 type(
   bool
 )
@@ -3041,6 +3215,9 @@ type(
   string
 )
 "dQueue.ml" 142 3105 3117 "dQueue.ml" 142 3105 3138
+call(
+  tail
+)
 type(
   'a path * ('a list * 'a list)
 )
@@ -3113,6 +3290,9 @@ ident(
   int_ref r "dQueue.ml" 143 3139 3150 "dQueue.ml" 143 3139 3151
 )
 "dQueue.ml" 143 3139 3167 "dQueue.ml" 143 3139 3179
+call(
+  stack
+)
 type(
   'a list * 'a list
 )
@@ -3172,6 +3352,9 @@ type(
   string
 )
 "dQueue.ml" 146 3216 3227 "dQueue.ml" 146 3216 3247
+call(
+  tail
+)
 type(
   'a path * ('a list * 'b)
 )
@@ -3222,6 +3405,9 @@ ident(
   int_ref t "dQueue.ml" 145 3181 3198 "dQueue.ml" 145 3181 3199
 )
 "dQueue.ml" 147 3248 3270 "dQueue.ml" 147 3248 3281
+call(
+  stack
+)
 type(
   'a list * 'b
 )
@@ -3262,6 +3448,9 @@ ident(
   int_ref c "dQueue.ml" 149 3283 3302 "dQueue.ml" 149 3283 3303
 )
 "dQueue.ml" 150 3307 3312 "dQueue.ml" 150 3307 3321
+call(
+  stack
+)
 type(
   bool
 )
@@ -3294,10 +3483,16 @@ ident(
   int_ref c "dQueue.ml" 149 3283 3302 "dQueue.ml" 149 3283 3303
 )
 "dQueue.ml" 151 3329 3347 "dQueue.ml" 151 3329 3360
+call(
+  stack
+)
 type(
   'a path * ('a list * 'b)
 )
 "dQueue.ml" 151 3329 3336 "dQueue.ml" 151 3329 3360
+call(
+  tail
+)
 type(
   'a path * ('a list * 'b)
 )
@@ -3334,6 +3529,9 @@ ident(
   int_ref c "dQueue.ml" 153 3362 3380 "dQueue.ml" 153 3362 3381
 )
 "dQueue.ml" 154 3385 3390 "dQueue.ml" 154 3385 3400
+call(
+  stack
+)
 type(
   bool
 )
@@ -3366,10 +3564,16 @@ ident(
   int_ref c "dQueue.ml" 153 3362 3380 "dQueue.ml" 153 3362 3381
 )
 "dQueue.ml" 155 3408 3425 "dQueue.ml" 155 3408 3439
+call(
+  stack
+)
 type(
   'a path * ('a list * 'a list)
 )
 "dQueue.ml" 155 3408 3415 "dQueue.ml" 155 3408 3439
+call(
+  tail
+)
 type(
   'a path * ('a list * 'a list)
 )
@@ -3435,10 +3639,16 @@ ident(
   int_ref c "dQueue.ml" 159 3487 3491 "dQueue.ml" 159 3487 3492
 )
 "dQueue.ml" 159 3487 3508 "dQueue.ml" 159 3487 3521
+call(
+  stack
+)
 type(
   'a path * ('a list * 'b)
 )
 "dQueue.ml" 159 3487 3496 "dQueue.ml" 159 3487 3521
+call(
+  tail
+)
 type(
   'a list * 'b
 )

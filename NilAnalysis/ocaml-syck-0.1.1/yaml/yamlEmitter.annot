@@ -45,6 +45,9 @@ ident(
   int_ref oc "yamlEmitter.ml" 8 143 160 "yamlEmitter.ml" 8 143 162
 )
 "yamlEmitter.ml" 8 143 177 "yamlEmitter.ml" 8 143 195
+call(
+  stack
+)
 type(
   string -> unit
 )
@@ -103,6 +106,9 @@ type(
   int
 )
 "yamlEmitter.ml" 11 230 242 "yamlEmitter.ml" 11 230 259
+call(
+  stack
+)
 type(
   Buffer.t
 )
@@ -125,6 +131,9 @@ ident(
   int_ref buf "yamlEmitter.ml" 11 230 236 "yamlEmitter.ml" 11 230 239
 )
 "yamlEmitter.ml" 12 263 272 "yamlEmitter.ml" 12 263 295
+call(
+  stack
+)
 type(
   string -> unit
 )
@@ -161,6 +170,9 @@ ident(
   int_ref buf "yamlEmitter.ml" 11 230 236 "yamlEmitter.ml" 11 230 239
 )
 "yamlEmitter.ml" 13 304 308 "yamlEmitter.ml" 13 304 327
+call(
+  tail
+)
 type(
   string
 )

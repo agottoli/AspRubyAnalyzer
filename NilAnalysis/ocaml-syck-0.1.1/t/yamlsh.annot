@@ -1,0 +1,294 @@
+"yamlsh.ml" 3 15 19 "yamlsh.ml" 3 15 22
+type(
+  YamlNode.t
+)
+ident(
+  def ten "yamlsh.ml" 4 45 45 --
+)
+"yamlsh.ml" 3 15 32 "yamlsh.ml" 3 15 37
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 3 15 39 "yamlsh.ml" 3 15 43
+type(
+  string
+)
+"yamlsh.ml" 3 15 25 "yamlsh.ml" 3 15 44
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 4 45 49 "yamlsh.ml" 4 45 55
+type(
+  YamlNode.t
+)
+ident(
+  def strten "yamlsh.ml" 5 78 78 --
+)
+"yamlsh.ml" 4 45 65 "yamlsh.ml" 4 45 70
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 4 45 72 "yamlsh.ml" 4 45 76
+type(
+  string
+)
+"yamlsh.ml" 4 45 58 "yamlsh.ml" 4 45 77
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 5 78 82 "yamlsh.ml" 5 78 86
+type(
+  YamlNode.t
+)
+ident(
+  def fals "yamlsh.ml" 8 118 118 --
+)
+"yamlsh.ml" 5 78 96 "yamlsh.ml" 5 78 105
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 5 78 107 "yamlsh.ml" 5 78 114
+type(
+  string
+)
+"yamlsh.ml" 5 78 89 "yamlsh.ml" 5 78 115
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 8 118 122 "yamlsh.ml" 8 118 126
+type(
+  YamlNode.t
+)
+ident(
+  def ilst "yamlsh.ml" 10 153 153 --
+)
+"yamlsh.ml" 8 118 138 "yamlsh.ml" 8 118 140
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 8 118 142 "yamlsh.ml" 8 118 145
+type(
+  YamlNode.t
+)
+ident(
+  int_ref ten "yamlsh.ml" 3 15 19 "yamlsh.ml" 3 15 22
+)
+"yamlsh.ml" 8 118 146 "yamlsh.ml" 8 118 149
+type(
+  YamlNode.t
+)
+ident(
+  int_ref ten "yamlsh.ml" 3 15 19 "yamlsh.ml" 3 15 22
+)
+"yamlsh.ml" 8 118 141 "yamlsh.ml" 8 118 150
+type(
+  YamlNode.t list
+)
+"yamlsh.ml" 8 118 129 "yamlsh.ml" 8 118 151
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 10 153 157 "yamlsh.ml" 10 153 161
+type(
+  YamlNode.t
+)
+ident(
+  def imap "yamlsh.ml" 12 189 189 --
+)
+"yamlsh.ml" 10 153 172 "yamlsh.ml" 10 153 174
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 10 153 177 "yamlsh.ml" 10 153 180
+type(
+  YamlNode.t
+)
+ident(
+  int_ref ten "yamlsh.ml" 3 15 19 "yamlsh.ml" 3 15 22
+)
+"yamlsh.ml" 10 153 181 "yamlsh.ml" 10 153 184
+type(
+  YamlNode.t
+)
+ident(
+  int_ref ten "yamlsh.ml" 3 15 19 "yamlsh.ml" 3 15 22
+)
+"yamlsh.ml" 10 153 176 "yamlsh.ml" 10 153 185
+type(
+  YamlNode.t * YamlNode.t
+)
+"yamlsh.ml" 10 153 175 "yamlsh.ml" 10 153 186
+type(
+  (YamlNode.t * YamlNode.t) list
+)
+"yamlsh.ml" 10 153 164 "yamlsh.ml" 10 153 187
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 12 189 193 "yamlsh.ml" 12 189 196
+type(
+  YamlNode.t
+)
+ident(
+  def nan "yamlsh.ml" 13 226 226 --
+)
+"yamlsh.ml" 12 189 206 "yamlsh.ml" 12 189 217
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 12 189 218 "yamlsh.ml" 12 189 224
+type(
+  string
+)
+"yamlsh.ml" 12 189 199 "yamlsh.ml" 12 189 225
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 13 226 230 "yamlsh.ml" 13 226 233
+type(
+  YamlNode.t
+)
+ident(
+  def inf "yamlsh.ml" 14 263 263 --
+)
+"yamlsh.ml" 13 226 243 "yamlsh.ml" 13 226 254
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 13 226 255 "yamlsh.ml" 13 226 261
+type(
+  string
+)
+"yamlsh.ml" 13 226 236 "yamlsh.ml" 13 226 262
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 14 263 267 "yamlsh.ml" 14 263 271
+type(
+  YamlNode.t
+)
+ident(
+  def ninf "yamlsh.ml" 15 305 305 --
+)
+"yamlsh.ml" 14 263 281 "yamlsh.ml" 14 263 295
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 14 263 296 "yamlsh.ml" 14 263 303
+type(
+  string
+)
+"yamlsh.ml" 14 263 274 "yamlsh.ml" 14 263 304
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 15 305 309 "yamlsh.ml" 15 305 312
+type(
+  YamlNode.t
+)
+ident(
+  def flt "yamlsh.ml" 17 342 342 --
+)
+"yamlsh.ml" 15 305 322 "yamlsh.ml" 15 305 333
+type(
+  YamlNode.uri
+)
+"yamlsh.ml" 15 305 334 "yamlsh.ml" 15 305 339
+type(
+  string
+)
+"yamlsh.ml" 15 305 315 "yamlsh.ml" 15 305 340
+type(
+  YamlNode.t
+)
+"yamlsh.ml" 17 342 346 "yamlsh.ml" 17 342 348
+type(
+  unit
+)
+"yamlsh.ml" 18 352 358 "yamlsh.ml" 18 352 360
+type(
+  YamlEmitter.t
+)
+"yamlsh.ml" 18 352 363 "yamlsh.ml" 18 352 381
+type(
+  unit -> YamlEmitter.t
+)
+ident(
+  ext_ref YamlEmitter.create
+)
+"yamlsh.ml" 18 352 382 "yamlsh.ml" 18 352 384
+type(
+  unit
+)
+"yamlsh.ml" 18 352 363 "yamlsh.ml" 18 352 384
+call(
+  stack
+)
+type(
+  YamlEmitter.t
+)
+"yamlsh.ml" 19 388 394 "yamlsh.ml" 19 388 395
+type(
+  unit
+)
+"yamlsh.ml" 19 388 398 "yamlsh.ml" 19 388 422
+type(
+  out_channel -> YamlEmitter.t -> YamlNode.t -> unit
+)
+ident(
+  ext_ref YamlEmitter.emit_channel
+)
+"yamlsh.ml" 19 388 423 "yamlsh.ml" 19 388 429
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"yamlsh.ml" 19 388 430 "yamlsh.ml" 19 388 432
+type(
+  YamlEmitter.t
+)
+ident(
+  int_ref em "yamlsh.ml" 18 352 358 "yamlsh.ml" 18 352 360
+)
+"yamlsh.ml" 19 388 433 "yamlsh.ml" 19 388 437
+type(
+  YamlNode.t
+)
+ident(
+  int_ref ninf "yamlsh.ml" 14 263 267 "yamlsh.ml" 14 263 271
+)
+"yamlsh.ml" 19 388 398 "yamlsh.ml" 19 388 437
+call(
+  stack
+)
+type(
+  unit
+)
+"yamlsh.ml" 20 441 445 "yamlsh.ml" 20 441 451
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"yamlsh.ml" 20 441 451 "yamlsh.ml" 20 441 454
+type(
+  unit
+)
+ident(
+  int_ref s "yamlsh.ml" 19 388 394 "yamlsh.ml" 19 388 395
+)
+"yamlsh.ml" 20 441 445 "yamlsh.ml" 20 441 455
+type(
+  unit
+)
+"yamlsh.ml" 19 388 390 "yamlsh.ml" 20 441 455
+type(
+  unit
+)
+"yamlsh.ml" 18 352 354 "yamlsh.ml" 20 441 455
+type(
+  unit
+)

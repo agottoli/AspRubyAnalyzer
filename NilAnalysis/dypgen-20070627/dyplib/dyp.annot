@@ -48,10 +48,16 @@ ident(
   int_ref l "dyp.ml" 24 726 741 "dyp.ml" 24 726 742
 )
 "dyp.ml" 24 726 754 "dyp.ml" 24 726 772
+call(
+  stack
+)
 type(
   'b list
 )
 "dyp.ml" 24 726 745 "dyp.ml" 24 726 772
+call(
+  tail
+)
 type(
   'b list
 )
@@ -101,6 +107,14 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"dyp.ml" 105 3306 3325 "dyp.ml" 105 3306 3348
+call(
+  stack
+)
+"dyp.ml" 153 5288 5301 "dyp.ml" 153 5288 5326
+call(
+  stack
 )
 "dyp.ml" 158 5351 5357 "dyp.ml" 158 5351 5371
 type(
@@ -177,7 +191,7 @@ type(
   Dyp_special_types.datadyn ref -> Dyp_special_types.datadyn
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 167 5688 5729 "dyp.ml" 167 5688 5736
 type(
@@ -237,6 +251,9 @@ ident(
   int_ref nt_map "dyp.ml" 166 5644 5661 "dyp.ml" 166 5644 5667
 )
 "dyp.ml" 171 5787 5795 "dyp.ml" 171 5787 5819
+call(
+  stack
+)
 type(
   int * int * string
 )
@@ -252,7 +269,7 @@ type(
   String_map.key -> String_map.key -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 173 5829 5844 "dyp.ml" 173 5829 5852
 type(
@@ -362,6 +379,9 @@ ident(
   int_ref cons_map "dyp.ml" 166 5644 5678 "dyp.ml" 166 5644 5686
 )
 "dyp.ml" 179 5993 6016 "dyp.ml" 179 5993 6045
+call(
+  stack
+)
 type(
   int
 )
@@ -427,6 +447,9 @@ ident(
   int_ref cons_map "dyp.ml" 166 5644 5678 "dyp.ml" 166 5644 5686
 )
 "dyp.ml" 182 6111 6121 "dyp.ml" 182 6111 6157
+call(
+  stack
+)
 type(
   int String_map.t
 )
@@ -442,7 +465,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 183 6159 6177 "dyp.ml" 183 6159 6178
 type(
@@ -479,7 +502,7 @@ type(
   Dyp_special_types.datadyn ref -> Dyp_special_types.datadyn -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 186 6214 6233 "dyp.ml" 186 6214 6247
 type(
@@ -531,6 +554,9 @@ ident(
   int_ref nt_map "dyp.ml" 166 5644 5661 "dyp.ml" 166 5644 5667
 )
 "dyp.ml" 186 6214 6233 "dyp.ml" 186 6214 6276
+call(
+  stack
+)
 type(
   (int * int * String_map.key) String_map.t
 )
@@ -563,6 +589,9 @@ ident(
   int_ref cons_map "dyp.ml" 177 5944 5955 "dyp.ml" 177 5944 5963
 )
 "dyp.ml" 187 6278 6299 "dyp.ml" 187 6278 6334
+call(
+  stack
+)
 type(
   int String_map.t
 )
@@ -578,7 +607,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 188 6336 6361 "dyp.ml" 188 6336 6362
 type(
@@ -689,6 +718,9 @@ type(
   (int * int * string) String_map.t
 )
 "dyp.ml" 193 6435 6455 "dyp.ml" 193 6435 6487
+call(
+  stack
+)
 type(
   int * int * string
 )
@@ -833,6 +865,9 @@ ident(
   int_ref nt_map "dyp.ml" 197 6532 6546 "dyp.ml" 197 6532 6552
 )
 "dyp.ml" 198 6575 6581 "dyp.ml" 198 6575 6623
+call(
+  stack
+)
 type(
   (int * 'b * 'c) String_map.t
 )
@@ -848,7 +883,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 198 6575 6627 "dyp.ml" 198 6575 6628
 type(
@@ -916,6 +951,9 @@ ident(
   int_ref ntl "dyp.ml" 196 6501 6520 "dyp.ml" 196 6501 6523
 )
 "dyp.ml" 201 6661 6667 "dyp.ml" 201 6661 6711
+call(
+  stack
+)
 type(
   (int * int * string) String_map.t * int
 )
@@ -977,6 +1015,9 @@ ident(
   int_ref cons_map "dyp.ml" 203 6719 6733 "dyp.ml" 203 6719 6741
 )
 "dyp.ml" 204 6752 6758 "dyp.ml" 204 6752 6790
+call(
+  stack
+)
 type(
   int String_map.t
 )
@@ -992,7 +1033,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 204 6752 6794 "dyp.ml" 204 6752 6795
 type(
@@ -1056,6 +1097,9 @@ ident(
   int_ref consl "dyp.ml" 196 6501 6524 "dyp.ml" 196 6501 6529
 )
 "dyp.ml" 207 6832 6838 "dyp.ml" 207 6832 6884
+call(
+  stack
+)
 type(
   int String_map.t * int
 )
@@ -1179,6 +1223,9 @@ ident(
   int_ref mm "dyp.ml" 214 7040 7052 "dyp.ml" 214 7040 7054
 )
 "dyp.ml" 214 7040 7065 "dyp.ml" 214 7040 7084
+call(
+  tail
+)
 type(
   'e Nt_map.t
 )
@@ -1215,6 +1262,9 @@ ident(
   int_ref mnl "dyp.ml" 213 6978 7000 "dyp.ml" 213 6978 7003
 )
 "dyp.ml" 215 7088 7092 "dyp.ml" 215 7088 7127
+call(
+  tail
+)
 type(
   'd merge_function Nt_map.t
 )
@@ -1560,7 +1610,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 245 8146 8208 "dyp.ml" 245 8146 8209
 type(
@@ -1571,6 +1621,9 @@ type(
   int
 )
 "dyp.ml" 245 8146 8181 "dyp.ml" 245 8146 8211
+call(
+  stack
+)
 type(
   Lexing.position * Lexing.position
 )
@@ -1627,7 +1680,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 246 8231 8296 "dyp.ml" 246 8231 8297
 type(
@@ -1638,6 +1691,9 @@ type(
   int
 )
 "dyp.ml" 246 8231 8269 "dyp.ml" 246 8231 8299
+call(
+  stack
+)
 type(
   Lexing.position * Lexing.position
 )
@@ -1690,7 +1746,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 247 8302 8362 "dyp.ml" 247 8302 8363
 type(
@@ -1701,6 +1757,9 @@ type(
   int
 )
 "dyp.ml" 247 8302 8335 "dyp.ml" 247 8302 8365
+call(
+  stack
+)
 type(
   Lexing.position * Lexing.position
 )
@@ -1757,7 +1816,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 248 8385 8448 "dyp.ml" 248 8385 8449
 type(
@@ -1768,6 +1827,9 @@ type(
   int
 )
 "dyp.ml" 248 8385 8421 "dyp.ml" 248 8385 8451
+call(
+  stack
+)
 type(
   Lexing.position * Lexing.position
 )
@@ -1823,6 +1885,9 @@ ident(
   int_ref __dypgen_datadyn "dyp.ml" 231 7602 7612 "dyp.ml" 231 7602 7628
 )
 "dyp.ml" 249 8454 8487 "dyp.ml" 249 8454 8518
+call(
+  tail
+)
 type(
   non_ter
 )
@@ -1856,7 +1921,7 @@ type(
   Dyp_special_types.datadyn ref -> Dyp_special_types.datadyn
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 250 8521 8569 "dyp.ml" 250 8521 8585
 type(
@@ -1870,6 +1935,9 @@ type(
   Dyp_special_types.datadyn
 )
 "dyp.ml" 250 8521 8558 "dyp.ml" 250 8521 8585
+call(
+  tail
+)
 type(
   non_ter * string
 )
@@ -1929,6 +1997,9 @@ ident(
   int_ref av_list "dyp.ml" 229 7468 7508 "dyp.ml" 229 7468 7515
 )
 "dyp.ml" 257 8746 8766 "dyp.ml" 257 8746 8779
+call(
+  stack
+)
 type(
   'g
 )
@@ -1978,6 +2049,9 @@ ident(
   int_ref ac "dyp.ml" 258 8783 8803 "dyp.ml" 258 8783 8805
 )
 "dyp.ml" 258 8783 8812 "dyp.ml" 258 8783 8833
+call(
+  stack
+)
 type(
   ('g, 'h, 'i) Dyp_special_types.action
 )
@@ -2019,6 +2093,9 @@ type(
   (rule * (('g, 'h, 'i) dypgen_toolbox -> 'g list -> 'g)) list
 )
 "dyp.ml" 259 8838 8872 "dyp.ml" 259 8838 8901
+call(
+  stack
+)
 type(
   (rule * ('g, 'h, 'i) Dyp_special_types.action) list
 )
@@ -2056,7 +2133,7 @@ type(
   Dyp_special_types.datadyn ref -> Dyp_special_types.datadyn
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 260 8905 8952 "dyp.ml" 260 8905 8968
 type(
@@ -2261,6 +2338,10 @@ type(
 ident(
   ext_ref F.comp_lhslist
 )
+"dyp.ml" 291 9862 9879 "dyp.ml" 291 9862 9908
+call(
+  stack
+)
 "dyp.ml" 363 11788 11794 "dyp.ml" 363 11788 11801
 type(
   'k -> 'k -> int
@@ -2274,6 +2355,10 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"dyp.ml" 366 11828 11840 "dyp.ml" 366 11828 11863
+call(
+  stack
 )
 "dyp.ml" 372 12151 12155 "dyp.ml" 372 12151 12161
 type(
@@ -2445,7 +2530,7 @@ type(
   non_ter -> non_ter -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 383 12553 12566 "dyp.ml" 383 12553 12569
 type(
@@ -2484,6 +2569,9 @@ ident(
   int_ref vr "dyp.ml" 376 12324 12352 "dyp.ml" 376 12324 12354
 )
 "dyp.ml" 384 12586 12595 "dyp.ml" 384 12586 12606
+call(
+  stack
+)
 type(
   bool
 )
@@ -2583,6 +2671,9 @@ ident(
   int_ref t "dyp.ml" 390 12747 12783 "dyp.ml" 390 12747 12784
 )
 "dyp.ml" 390 12747 12792 "dyp.ml" 390 12747 12798
+call(
+  stack
+)
 type(
   'n list
 )
@@ -2621,6 +2712,9 @@ ident(
   int_ref litl "dyp.ml" 387 12663 12673 "dyp.ml" 387 12663 12677
 )
 "dyp.ml" 393 12840 12862 "dyp.ml" 393 12840 12869
+call(
+  stack
+)
 type(
   non_ter list
 )
@@ -2639,6 +2733,9 @@ ident(
   int_ref ntl "dyp.ml" 393 12840 12856 "dyp.ml" 393 12840 12859
 )
 "dyp.ml" 394 12873 12888 "dyp.ml" 394 12873 12905
+call(
+  stack
+)
 type(
   int
 )
@@ -2647,7 +2744,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 394 12873 12908 "dyp.ml" 394 12873 12919
 type(
@@ -2664,6 +2761,9 @@ ident(
   int_ref ntl "dyp.ml" 393 12840 12856 "dyp.ml" 393 12840 12859
 )
 "dyp.ml" 394 12873 12907 "dyp.ml" 394 12873 12924
+call(
+  stack
+)
 type(
   int
 )
@@ -2763,10 +2863,16 @@ ident(
   int_ref vr "dyp.ml" 376 12324 12352 "dyp.ml" 376 12324 12354
 )
 "dyp.ml" 401 13110 13158 "dyp.ml" 401 13110 13171
+call(
+  stack
+)
 type(
   RS.t
 )
 "dyp.ml" 401 13110 13140 "dyp.ml" 401 13110 13171
+call(
+  stack
+)
 type(
   bool
 )
@@ -2840,6 +2946,9 @@ ident(
   int_ref t "dyp.ml" 399 13055 13077 "dyp.ml" 399 13055 13078
 )
 "dyp.ml" 404 13260 13290 "dyp.ml" 404 13260 13294
+call(
+  tail
+)
 type(
   bool
 )
@@ -2874,6 +2983,9 @@ ident(
   int_ref ntl "dyp.ml" 393 12840 12856 "dyp.ml" 393 12840 12859
 )
 "dyp.ml" 407 13341 13353 "dyp.ml" 407 13341 13359
+call(
+  tail
+)
 type(
   bool
 )
@@ -2939,6 +3051,9 @@ type(
   bool
 )
 "dyp.ml" 410 13379 13383 "dyp.ml" 410 13379 13412
+call(
+  tail
+)
 type(
   bool
 )
@@ -3094,7 +3209,7 @@ type(
   non_ter -> non_ter -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 420 13662 13675 "dyp.ml" 420 13662 13678
 type(
@@ -3133,6 +3248,9 @@ ident(
   int_ref vr "dyp.ml" 413 13419 13441 "dyp.ml" 413 13419 13443
 )
 "dyp.ml" 421 13695 13704 "dyp.ml" 421 13695 13715
+call(
+  stack
+)
 type(
   bool
 )
@@ -3182,7 +3300,7 @@ type(
   non_ter -> non_ter -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 423 13751 13792 "dyp.ml" 423 13751 13795
 type(
@@ -3273,10 +3391,16 @@ ident(
   int_ref vr "dyp.ml" 413 13419 13441 "dyp.ml" 413 13419 13443
 )
 "dyp.ml" 425 13837 13871 "dyp.ml" 425 13837 13884
+call(
+  stack
+)
 type(
   RS.t
 )
 "dyp.ml" 425 13837 13857 "dyp.ml" 425 13837 13884
+call(
+  stack
+)
 type(
   bool
 )
@@ -3416,6 +3540,9 @@ ident(
   int_ref t "dyp.ml" 430 14033 14069 "dyp.ml" 430 14033 14070
 )
 "dyp.ml" 430 14033 14078 "dyp.ml" 430 14033 14084
+call(
+  stack
+)
 type(
   'q list
 )
@@ -3454,6 +3581,9 @@ ident(
   int_ref litl "dyp.ml" 427 13949 13959 "dyp.ml" 427 13949 13963
 )
 "dyp.ml" 433 14126 14148 "dyp.ml" 433 14126 14155
+call(
+  stack
+)
 type(
   non_ter list
 )
@@ -3472,6 +3602,9 @@ ident(
   int_ref ntl "dyp.ml" 433 14126 14142 "dyp.ml" 433 14126 14145
 )
 "dyp.ml" 434 14159 14174 "dyp.ml" 434 14159 14191
+call(
+  stack
+)
 type(
   int
 )
@@ -3480,7 +3613,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 434 14159 14194 "dyp.ml" 434 14159 14205
 type(
@@ -3497,6 +3630,9 @@ ident(
   int_ref ntl "dyp.ml" 433 14126 14142 "dyp.ml" 433 14126 14145
 )
 "dyp.ml" 434 14159 14193 "dyp.ml" 434 14159 14210
+call(
+  stack
+)
 type(
   int
 )
@@ -3582,7 +3718,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 441 14387 14415 "dyp.ml" 441 14387 14417
 type(
@@ -3645,10 +3781,16 @@ ident(
   int_ref vr "dyp.ml" 413 13419 13441 "dyp.ml" 413 13419 13443
 )
 "dyp.ml" 441 14387 14442 "dyp.ml" 441 14387 14455
+call(
+  stack
+)
 type(
   RS.t
 )
 "dyp.ml" 441 14387 14431 "dyp.ml" 441 14387 14455
+call(
+  stack
+)
 type(
   bool
 )
@@ -3737,6 +3879,9 @@ ident(
   ext_ref RS.empty
 )
 "dyp.ml" 443 14527 14562 "dyp.ml" 443 14527 14588
+call(
+  stack
+)
 type(
   bool
 )
@@ -3818,7 +3963,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 446 14679 14716 "dyp.ml" 446 14679 14717
 type(
@@ -3843,6 +3988,9 @@ ident(
   int_ref t "dyp.ml" 439 14332 14354 "dyp.ml" 439 14332 14355
 )
 "dyp.ml" 446 14679 14709 "dyp.ml" 446 14679 14723
+call(
+  tail
+)
 type(
   bool
 )
@@ -3922,6 +4070,9 @@ ident(
   int_ref ntl "dyp.ml" 433 14126 14142 "dyp.ml" 433 14126 14145
 )
 "dyp.ml" 451 14837 14866 "dyp.ml" 451 14837 14876
+call(
+  stack
+)
 type(
   bool
 )
@@ -3955,7 +4106,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 453 14913 14942 "dyp.ml" 453 14913 14943
 type(
@@ -3966,6 +4117,9 @@ type(
   int
 )
 "dyp.ml" 453 14913 14936 "dyp.ml" 453 14913 14944
+call(
+  tail
+)
 type(
   bool
 )
@@ -4003,10 +4157,16 @@ ident(
   int_ref ntl "dyp.ml" 433 14126 14142 "dyp.ml" 433 14126 14145
 )
 "dyp.ml" 455 14960 14975 "dyp.ml" 455 14960 14992
+call(
+  stack
+)
 type(
   int
 )
 "dyp.ml" 455 14960 14972 "dyp.ml" 455 14960 14992
+call(
+  tail
+)
 type(
   bool
 )
@@ -4076,6 +4236,9 @@ type(
   bool
 )
 "dyp.ml" 458 15012 15016 "dyp.ml" 458 15012 15045
+call(
+  tail
+)
 type(
   bool
 )
@@ -4120,6 +4283,9 @@ ident(
   ext_ref RS.empty
 )
 "dyp.ml" 460 15051 15061 "dyp.ml" 460 15051 15081
+call(
+  stack
+)
 type(
   bool
 )
@@ -4230,6 +4396,9 @@ ident(
   int_ref j "dyp.ml" 466 15156 15164 "dyp.ml" 466 15156 15165
 )
 "dyp.ml" 466 15156 15168 "dyp.ml" 466 15156 15179
+call(
+  stack
+)
 type(
   unit
 )
@@ -4245,6 +4414,9 @@ type(
   string
 )
 "dyp.ml" 466 15156 15181 "dyp.ml" 466 15156 15197
+call(
+  tail
+)
 type(
   unit
 )
@@ -4279,7 +4451,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 467 15201 15233 "dyp.ml" 467 15201 15234
 type(
@@ -4301,6 +4473,9 @@ type(
   int
 )
 "dyp.ml" 468 15238 15243 "dyp.ml" 468 15238 15254
+call(
+  stack
+)
 type(
   unit
 )
@@ -4316,6 +4491,9 @@ type(
   string
 )
 "dyp.ml" 468 15238 15256 "dyp.ml" 468 15238 15277
+call(
+  stack
+)
 type(
   unit
 )
@@ -4349,6 +4527,9 @@ type(
   int list
 )
 "dyp.ml" 469 15279 15283 "dyp.ml" 469 15279 15302
+call(
+  stack
+)
 type(
   unit
 )
@@ -4364,6 +4545,9 @@ type(
   unit
 )
 "dyp.ml" 469 15279 15304 "dyp.ml" 469 15279 15320
+call(
+  stack
+)
 type(
   unit
 )
@@ -4456,7 +4640,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 476 15405 15416 "dyp.ml" 476 15405 15418
 type(
@@ -4492,7 +4676,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 477 15431 15445 "dyp.ml" 477 15431 15458
 type(
@@ -4513,7 +4697,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.lsr
+  ext_ref Pervasives.( lsr )
 )
 "dyp.ml" 477 15431 15469 "dyp.ml" 477 15431 15470
 type(
@@ -4531,7 +4715,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 477 15431 15476 "dyp.ml" 477 15431 15477
 type(
@@ -4542,10 +4726,16 @@ type(
   int
 )
 "dyp.ml" 477 15431 15444 "dyp.ml" 477 15431 15479
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 477 15431 15441 "dyp.ml" 477 15431 15480
+call(
+  stack
+)
 type(
   string
 )
@@ -4561,7 +4751,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 477 15431 15484 "dyp.ml" 477 15431 15485
 type(
@@ -4572,6 +4762,9 @@ type(
   int
 )
 "dyp.ml" 477 15431 15437 "dyp.ml" 477 15431 15486
+call(
+  tail
+)
 type(
   string
 )
@@ -4595,6 +4788,9 @@ type(
   int
 )
 "dyp.ml" 479 15494 15498 "dyp.ml" 479 15494 15506
+call(
+  tail
+)
 type(
   string
 )
@@ -4618,7 +4814,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 481 15512 15531 "dyp.ml" 481 15512 15532
 type(
@@ -4644,7 +4840,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 482 15536 15554 "dyp.ml" 482 15536 15555
 type(
@@ -4696,10 +4892,16 @@ type(
   int
 )
 "dyp.ml" 483 15559 15586 "dyp.ml" 483 15559 15609
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 483 15559 15565 "dyp.ml" 483 15559 15609
+call(
+  stack
+)
 type(
   unit
 )
@@ -4719,6 +4921,9 @@ type(
   unit
 )
 "dyp.ml" 485 15620 15624 "dyp.ml" 485 15620 15640
+call(
+  stack
+)
 type(
   unit
 )
@@ -4824,7 +5029,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 572 17656 17673 "dyp.ml" 572 17656 17675
 type(
@@ -4839,7 +5044,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives./
+  ext_ref Pervasives.( / )
 )
 "dyp.ml" 572 17656 17677 "dyp.ml" 572 17656 17679
 type(
@@ -4919,7 +5124,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.lsl
+  ext_ref Pervasives.( lsl )
 )
 "dyp.ml" 576 17757 17778 "dyp.ml" 576 17757 17779
 type(
@@ -4945,14 +5150,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 577 17781 17796 "dyp.ml" 577 17781 17797
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 577 17781 17797 "dyp.ml" 577 17781 17804
 type(
@@ -4970,7 +5175,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 577 17781 17807 "dyp.ml" 577 17781 17809
 type(
@@ -5019,7 +5224,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 581 17829 17843 "dyp.ml" 581 17829 17848
 type(
@@ -5052,7 +5257,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 583 17855 17883 "dyp.ml" 583 17855 17886
 type(
@@ -5158,6 +5363,9 @@ ident(
   int_ref array_nt_prio "dyp.ml" 568 17487 17537 "dyp.ml" 568 17487 17550
 )
 "dyp.ml" 588 18000 18018 "dyp.ml" 588 18000 18065
+call(
+  stack
+)
 type(
   F.lhs list
 )
@@ -5188,7 +5396,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 590 18089 18116 "dyp.ml" 590 18089 18126
 type(
@@ -5205,6 +5413,9 @@ ident(
   int_ref j "dyp.ml" 589 18069 18085 "dyp.ml" 589 18069 18086
 )
 "dyp.ml" 590 18089 18115 "dyp.ml" 590 18089 18129
+call(
+  stack
+)
 type(
   int
 )
@@ -5217,7 +5428,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 590 18089 18130 "dyp.ml" 590 18089 18131
 type(
@@ -5231,7 +5442,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 590 18089 18133 "dyp.ml" 590 18089 18134
 type(
@@ -5245,7 +5456,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives./
+  ext_ref Pervasives.( / )
 )
 "dyp.ml" 590 18089 18135 "dyp.ml" 590 18089 18137
 type(
@@ -5300,7 +5511,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.lor
+  ext_ref Pervasives.( lor )
 )
 "dyp.ml" 591 18142 18185 "dyp.ml" 591 18142 18187
 type(
@@ -5321,7 +5532,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 591 18142 18195 "dyp.ml" 591 18142 18197
 type(
@@ -5369,6 +5580,9 @@ ident(
   int_ref l "dyp.ml" 588 18000 18014 "dyp.ml" 588 18000 18015
 )
 "dyp.ml" 593 18212 18222 "dyp.ml" 593 18212 18235
+call(
+  tail
+)
 type(
   unit
 )
@@ -5412,7 +5626,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 597 18264 18279 "dyp.ml" 597 18264 18280
 type(
@@ -5441,7 +5655,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 598 18284 18303 "dyp.ml" 598 18284 18304
 type(
@@ -5456,7 +5670,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 598 18284 18305 "dyp.ml" 598 18284 18306
 type(
@@ -5470,7 +5684,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 598 18284 18308 "dyp.ml" 598 18284 18309
 type(
@@ -5481,7 +5695,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives./
+  ext_ref Pervasives.( / )
 )
 "dyp.ml" 598 18284 18310 "dyp.ml" 598 18284 18312
 type(
@@ -5536,7 +5750,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.lor
+  ext_ref Pervasives.( lor )
 )
 "dyp.ml" 599 18317 18352 "dyp.ml" 599 18317 18354
 type(
@@ -5554,7 +5768,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 599 18317 18362 "dyp.ml" 599 18317 18364
 type(
@@ -5653,6 +5867,9 @@ type(
   F.lit_nt pliteral array
 )
 "dyp.ml" 602 18417 18423 "dyp.ml" 602 18417 18440
+call(
+  tail
+)
 type(
   unit
 )
@@ -5678,6 +5895,9 @@ ident(
   int_ref rn_l "dyp.ml" 600 18367 18375 "dyp.ml" 600 18367 18379
 )
 "dyp.ml" 604 18448 18452 "dyp.ml" 604 18448 18468
+call(
+  stack
+)
 type(
   unit
 )
@@ -5717,7 +5937,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 607 18481 18496 "dyp.ml" 607 18481 18497
 type(
@@ -5743,7 +5963,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 609 18551 18568 "dyp.ml" 609 18551 18569
 type(
@@ -5758,7 +5978,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 609 18551 18575 "dyp.ml" 609 18551 18576
 type(
@@ -5773,7 +5993,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 609 18551 18578 "dyp.ml" 609 18551 18581
 type(
@@ -5802,7 +6022,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 610 18585 18605 "dyp.ml" 610 18585 18606
 type(
@@ -5817,7 +6037,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 610 18585 18608 "dyp.ml" 610 18585 18611
 type(
@@ -5849,7 +6069,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 611 18615 18631 "dyp.ml" 611 18615 18632
 type(
@@ -5860,7 +6080,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives./
+  ext_ref Pervasives.( / )
 )
 "dyp.ml" 611 18615 18633 "dyp.ml" 611 18615 18635
 type(
@@ -5890,7 +6110,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 612 18640 18659 "dyp.ml" 612 18640 18661
 type(
@@ -5916,7 +6136,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 613 18665 18686 "dyp.ml" 613 18665 18687
 type(
@@ -5945,7 +6165,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 614 18691 18708 "dyp.ml" 614 18691 18709
 type(
@@ -5971,7 +6191,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 615 18713 18732 "dyp.ml" 615 18713 18733
 type(
@@ -6007,7 +6227,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 617 18753 18777 "dyp.ml" 617 18753 18778
 type(
@@ -6022,7 +6242,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 617 18753 18779 "dyp.ml" 617 18753 18781
 type(
@@ -6044,7 +6264,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.lsr
+  ext_ref Pervasives.( lsr )
 )
 "dyp.ml" 617 18753 18787 "dyp.ml" 617 18753 18789
 type(
@@ -6062,7 +6282,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 617 18753 18795 "dyp.ml" 617 18753 18796
 type(
@@ -6077,7 +6297,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 617 18753 18799 "dyp.ml" 617 18753 18800
 type(
@@ -6096,7 +6316,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 618 18801 18824 "dyp.ml" 618 18801 18831
 type(
@@ -6132,7 +6352,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 620 18843 18861 "dyp.ml" 620 18843 18862
 type(
@@ -6147,7 +6367,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 620 18843 18863 "dyp.ml" 620 18843 18865
 type(
@@ -6179,7 +6399,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 620 18843 18880 "dyp.ml" 620 18843 18881
 type(
@@ -6194,7 +6414,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 620 18843 18882 "dyp.ml" 620 18843 18884
 type(
@@ -6216,7 +6436,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.lor
+  ext_ref Pervasives.( lor )
 )
 "dyp.ml" 621 18890 18901 "dyp.ml" 621 18890 18906
 type(
@@ -6237,7 +6457,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 621 18890 18911 "dyp.ml" 621 18890 18912
 type(
@@ -6252,7 +6472,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 621 18890 18913 "dyp.ml" 621 18890 18915
 type(
@@ -6274,7 +6494,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.land
+  ext_ref Pervasives.( land )
 )
 "dyp.ml" 621 18890 18922 "dyp.ml" 621 18890 18923
 type(
@@ -6347,7 +6567,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 626 18957 18971 "dyp.ml" 626 18957 18972
 type(
@@ -6362,7 +6582,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 626 18957 18978 "dyp.ml" 626 18957 18979
 type(
@@ -6377,7 +6597,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 626 18957 18981 "dyp.ml" 626 18957 18984
 type(
@@ -6413,7 +6633,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 628 18991 19017 "dyp.ml" 628 18991 19019
 type(
@@ -6447,7 +6667,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 630 19030 19049 "dyp.ml" 630 19030 19050
 type(
@@ -6476,7 +6696,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 631 19054 19069 "dyp.ml" 631 19054 19070
 type(
@@ -6502,7 +6722,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.*
+  ext_ref Pervasives.( * )
 )
 "dyp.ml" 632 19074 19089 "dyp.ml" 632 19074 19091
 type(
@@ -6528,7 +6748,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 633 19095 19112 "dyp.ml" 633 19095 19113
 type(
@@ -6565,7 +6785,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 635 19140 19161 "dyp.ml" 635 19140 19162
 type(
@@ -6580,7 +6800,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 635 19140 19163 "dyp.ml" 635 19140 19165
 type(
@@ -6602,7 +6822,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.lsr
+  ext_ref Pervasives.( lsr )
 )
 "dyp.ml" 635 19140 19171 "dyp.ml" 635 19140 19172
 type(
@@ -6617,7 +6837,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.mod
+  ext_ref Pervasives.( mod )
 )
 "dyp.ml" 635 19140 19178 "dyp.ml" 635 19140 19179
 type(
@@ -6632,7 +6852,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 635 19140 19182 "dyp.ml" 635 19140 19183
 type(
@@ -6661,7 +6881,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 637 19197 19218 "dyp.ml" 637 19197 19219
 type(
@@ -6956,7 +7176,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 799 23119 23141 "dyp.ml" 799 23119 23142
 type(
@@ -7064,7 +7284,7 @@ type(
   Dyp_special_types.automaton_kind ref -> Dyp_special_types.automaton_kind
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 805 23271 23292 "dyp.ml" 805 23271 23306
 type(
@@ -7117,7 +7337,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 806 23328 23353 "dyp.ml" 806 23328 23367
 type(
@@ -7212,6 +7432,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 798 22967 23105 "dyp.ml" 798 22967 23116
 )
 "dyp.ml" 805 23271 23275 "dyp.ml" 808 23447 23493
+call(
+  stack
+)
 type(
   Automat.state list * int
 )
@@ -7341,6 +7564,9 @@ type(
   int -> bool option array
 )
 "dyp.ml" 829 24170 24174 "dyp.ml" 829 24170 24225
+call(
+  stack
+)
 type(
   bool option array array
 )
@@ -7442,6 +7668,9 @@ ident(
   int_ref tl "dyp.ml" 834 24346 24365 "dyp.ml" 834 24346 24367
 )
 "dyp.ml" 834 24346 24371 "dyp.ml" 834 24346 24385
+call(
+  tail
+)
 type(
   bool
 )
@@ -7550,6 +7779,9 @@ ident(
   int_ref nts0 "dyp.ml" 837 24408 24434 "dyp.ml" 837 24408 24438
 )
 "dyp.ml" 839 24474 24489 "dyp.ml" 839 24474 24504
+call(
+  stack
+)
 type(
   NTS.t
 )
@@ -7721,6 +7953,9 @@ ident(
   int_ref nts1 "dyp.ml" 837 24408 24439 "dyp.ml" 837 24408 24443
 )
 "dyp.ml" 843 24685 24701 "dyp.ml" 843 24685 24718
+call(
+  stack
+)
 type(
   NTS.t
 )
@@ -7751,6 +7986,9 @@ ident(
   int_ref litl "dyp.ml" 838 24447 24459 "dyp.ml" 838 24447 24463
 )
 "dyp.ml" 845 24732 24745 "dyp.ml" 845 24732 24761
+call(
+  stack
+)
 type(
   bool
 )
@@ -7783,6 +8021,9 @@ ident(
   int_ref new_g "dyp.ml" 837 24408 24428 "dyp.ml" 837 24408 24433
 )
 "dyp.ml" 846 24767 24779 "dyp.ml" 846 24767 24804
+call(
+  stack
+)
 type(
   'a1 Urule_map.t
 )
@@ -7808,6 +8049,9 @@ ident(
   int_ref nts1 "dyp.ml" 837 24408 24439 "dyp.ml" 837 24408 24443
 )
 "dyp.ml" 846 24767 24805 "dyp.ml" 846 24767 24822
+call(
+  stack
+)
 type(
   NTS.t
 )
@@ -7945,6 +8189,9 @@ type(
   'y Urule_map.t * NTS.t * NTS.t
 )
 "dyp.ml" 852 24920 24924 "dyp.ml" 852 24920 24992
+call(
+  stack
+)
 type(
   'y Urule_map.t * NTS.t * NTS.t
 )
@@ -7974,6 +8221,9 @@ ident(
   int_ref nt_set_1 "dyp.ml" 851 24885 24909 "dyp.ml" 851 24885 24917
 )
 "dyp.ml" 854 24998 25015 "dyp.ml" 854 24998 25041
+call(
+  stack
+)
 type(
   NTS.t
 )
@@ -8058,6 +8308,9 @@ ident(
   int_ref nt_set_0 "dyp.ml" 851 24885 24899 "dyp.ml" 851 24885 24907
 )
 "dyp.ml" 858 25128 25132 "dyp.ml" 858 25128 25153
+call(
+  stack
+)
 type(
   unit
 )
@@ -8121,6 +8374,9 @@ ident(
   int_ref nt_set_2 "dyp.ml" 854 24998 25004 "dyp.ml" 854 24998 25012
 )
 "dyp.ml" 861 25195 25206 "dyp.ml" 861 25195 25235
+call(
+  stack
+)
 type(
   unit
 )
@@ -8228,6 +8484,9 @@ ident(
   int_ref nt_epsilon "dyp.ml" 831 24231 24237 "dyp.ml" 831 24231 24247
 )
 "dyp.ml" 869 25556 25574 "dyp.ml" 869 25556 25615
+call(
+  stack
+)
 type(
   bool
 )
@@ -8265,7 +8524,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 874 25785 25799 "dyp.ml" 874 25785 25802
 type(
@@ -8279,7 +8538,7 @@ type(
   non_ter -> non_ter -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 874 25785 25803 "dyp.ml" 874 25785 25806
 type(
@@ -8337,6 +8596,9 @@ type(
   string
 )
 "dyp.ml" 875 25812 25829 "dyp.ml" 877 25941 25970
+call(
+  stack
+)
 type(
   unit
 )
@@ -8352,6 +8614,9 @@ type(
   string
 )
 "dyp.ml" 878 25974 25982 "dyp.ml" 878 25974 26007
+call(
+  tail
+)
 type(
   unit
 )
@@ -8393,6 +8658,9 @@ ident(
   int_ref nt_set_0 "dyp.ml" 851 24885 24899 "dyp.ml" 851 24885 24907
 )
 "dyp.ml" 881 26029 26033 "dyp.ml" 881 26029 26054
+call(
+  tail
+)
 type(
   unit
 )
@@ -8426,6 +8694,9 @@ ident(
   int_ref nt_set_1 "dyp.ml" 851 24885 24909 "dyp.ml" 851 24885 24917
 )
 "dyp.ml" 883 26060 26071 "dyp.ml" 883 26060 26100
+call(
+  stack
+)
 type(
   unit
 )
@@ -8453,7 +8724,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 886 26136 26142 "dyp.ml" 886 26136 26156
 type(
@@ -8468,7 +8739,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 886 26136 26157 "dyp.ml" 886 26136 26158
 type(
@@ -8490,7 +8761,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 887 26164 26185 "dyp.ml" 887 26164 26196
 type(
@@ -8516,7 +8787,7 @@ type(
   float -> float -> float
 )
 ident(
-  ext_ref Pervasives.-.
+  ext_ref Pervasives.( -. )
 )
 "dyp.ml" 887 26164 26234 "dyp.ml" 887 26164 26239
 type(
@@ -8530,6 +8801,9 @@ type(
   float
 )
 "dyp.ml" 887 26164 26169 "dyp.ml" 887 26164 26240
+call(
+  stack
+)
 type(
   unit
 )
@@ -8548,6 +8822,9 @@ ident(
   ext_ref Pervasives.stdout
 )
 "dyp.ml" 888 26242 26246 "dyp.ml" 888 26242 26258
+call(
+  stack
+)
 type(
   unit
 )
@@ -8830,7 +9107,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 896 26500 26519 "dyp.ml" 896 26500 26520
 type(
@@ -8863,7 +9140,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>=
+  ext_ref Pervasives.( >= )
 )
 "dyp.ml" 897 26524 26542 "dyp.ml" 897 26524 26543
 type(
@@ -8899,6 +9176,9 @@ ident(
   int_ref i "dyp.ml" 893 26283 26310 "dyp.ml" 893 26283 26311
 )
 "dyp.ml" 897 26524 26574 "dyp.ml" 897 26524 26586
+call(
+  stack
+)
 type(
   string
 )
@@ -8921,6 +9201,9 @@ type(
   int
 )
 "dyp.ml" 897 26524 26549 "dyp.ml" 897 26524 26594
+call(
+  stack
+)
 type(
   unit
 )
@@ -8958,6 +9241,9 @@ ident(
   int_ref i "dyp.ml" 893 26283 26310 "dyp.ml" 893 26283 26311
 )
 "dyp.ml" 900 26609 26611 "dyp.ml" 900 26609 26646
+call(
+  stack
+)
 type(
   unit
 )
@@ -9012,10 +9298,16 @@ ident(
   int_ref str_non_ter "dyp.ml" 893 26283 26373 "dyp.ml" 893 26283 26384
 )
 "dyp.ml" 902 26693 26697 "dyp.ml" 902 26693 26748
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 901 26648 26650 "dyp.ml" 902 26693 26748
+call(
+  stack
+)
 type(
   unit
 )
@@ -9081,6 +9373,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 893 26283 26373 "dyp.ml" 893 26283 26384
 )
 "dyp.ml" 903 26750 26752 "dyp.ml" 904 26804 26830
+call(
+  stack
+)
 type(
   unit
 )
@@ -9103,6 +9398,9 @@ type(
   (unit, out_channel, unit) format
 )
 "dyp.ml" 905 26832 26834 "dyp.ml" 905 26832 26883
+call(
+  stack
+)
 type(
   unit
 )
@@ -9154,6 +9452,9 @@ ident(
   ext_ref E.str_token_name
 )
 "dyp.ml" 906 26885 26887 "dyp.ml" 906 26885 26923
+call(
+  stack
+)
 type(
   unit
 )
@@ -9169,6 +9470,9 @@ type(
   unit
 )
 "dyp.ml" 906 26885 26925 "dyp.ml" 906 26885 26941
+call(
+  stack
+)
 type(
   unit
 )
@@ -9191,6 +9495,9 @@ type(
   (unit, out_channel, unit) format
 )
 "dyp.ml" 907 26943 26945 "dyp.ml" 907 26943 26998
+call(
+  stack
+)
 type(
   unit
 )
@@ -9274,6 +9581,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 893 26283 26373 "dyp.ml" 893 26283 26384
 )
 "dyp.ml" 909 27023 27037 "dyp.ml" 909 27023 27081
+call(
+  tail
+)
 type(
   string
 )
@@ -9282,6 +9592,9 @@ type(
   int -> string
 )
 "dyp.ml" 908 27000 27002 "dyp.ml" 909 27023 27082
+call(
+  stack
+)
 type(
   unit
 )
@@ -9297,6 +9610,9 @@ type(
   unit
 )
 "dyp.ml" 910 27084 27086 "dyp.ml" 910 27084 27102
+call(
+  stack
+)
 type(
   unit
 )
@@ -9312,6 +9628,9 @@ type(
   unit
 )
 "dyp.ml" 910 27084 27104 "dyp.ml" 910 27084 27120
+call(
+  tail
+)
 type(
   unit
 )
@@ -9438,6 +9757,9 @@ type(
   (unit, out_channel, unit) format
 )
 "dyp.ml" 913 27224 27226 "dyp.ml" 913 27224 27254
+call(
+  stack
+)
 type(
   unit
 )
@@ -9468,7 +9790,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 914 27256 27290 "dyp.ml" 914 27256 27291
 type(
@@ -9496,7 +9818,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 915 27295 27318 "dyp.ml" 915 27295 27329
 type(
@@ -9567,6 +9889,9 @@ ident(
   int_ref nt_of_ind "dyp.ml" 912 27122 27212 "dyp.ml" 912 27122 27221
 )
 "dyp.ml" 915 27295 27299 "dyp.ml" 916 27372 27420
+call(
+  stack
+)
 type(
   unit
 )
@@ -9708,6 +10033,9 @@ type(
   int -> int array array
 )
 "dyp.ml" 922 27501 27515 "dyp.ml" 923 27528 27599
+call(
+  stack
+)
 type(
   int array array array
 )
@@ -9910,6 +10238,9 @@ ident(
   int_ref nt "dyp.ml" 933 27939 27953 "dyp.ml" 933 27939 27955
 )
 "dyp.ml" 935 28023 28048 "dyp.ml" 935 28023 28060
+call(
+  stack
+)
 type(
   int
 )
@@ -9969,6 +10300,9 @@ type(
   int
 )
 "dyp.ml" 939 28147 28161 "dyp.ml" 939 28147 28173
+call(
+  stack
+)
 type(
   Automat.state -> unit
 )
@@ -9984,6 +10318,9 @@ type(
   Automat.state list
 )
 "dyp.ml" 939 28147 28151 "dyp.ml" 939 28147 28187
+call(
+  stack
+)
 type(
   unit
 )
@@ -10083,6 +10420,9 @@ ident(
   int_ref state_list "dyp.ml" 921 27431 27446 "dyp.ml" 921 27431 27456
 )
 "dyp.ml" 944 28272 28274 "dyp.ml" 944 28272 28296
+call(
+  stack
+)
 type(
   unit
 )
@@ -10501,6 +10841,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 956 28720 28734 "dyp.ml" 956 28720 28745
 )
 "dyp.ml" 957 28759 28780 "dyp.ml" 959 28884 28928
+call(
+  stack
+)
 type(
   Automat.state list * int
 )
@@ -10552,7 +10895,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 961 28971 29000 "dyp.ml" 961 28971 29001
 type(
@@ -10591,6 +10934,9 @@ ident(
   int_ref lhs_of_ind "dyp.ml" 955 28654 28685 "dyp.ml" 955 28654 28695
 )
 "dyp.ml" 961 28971 28975 "dyp.ml" 962 29022 29048
+call(
+  stack
+)
 type(
   int array array array * Gr.item_set array * Gr.non_terminal pliteral array
 )
@@ -10722,7 +11068,7 @@ type(
   Dyp_special_types.automaton_kind ref -> Dyp_special_types.automaton_kind
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 972 29445 29493 "dyp.ml" 972 29445 29507
 type(
@@ -10883,6 +11229,9 @@ ident(
   int_ref dt_map "dyp.ml" 983 29790 29800 "dyp.ml" 983 29790 29806
 )
 "dyp.ml" 983 29790 29817 "dyp.ml" 983 29790 29841
+call(
+  tail
+)
 type(
   'k1 Int_map.t
 )
@@ -10916,6 +11265,9 @@ ident(
   ext_ref E.entry_points
 )
 "dyp.ml" 984 29845 29847 "dyp.ml" 984 29845 29894
+call(
+  stack
+)
 type(
   int Int_map.t
 )
@@ -11000,6 +11352,9 @@ type(
   unit
 )
 "dyp.ml" 989 30049 30060 "dyp.ml" 989 30049 30075
+call(
+  stack
+)
 type(
   Gr.item_set
 )
@@ -11128,6 +11483,9 @@ ident(
   int_ref array_nt_prio "dyp.ml" 987 29897 29963 "dyp.ml" 987 29897 29976
 )
 "dyp.ml" 997 30346 30356 "dyp.ml" 997 30346 30403
+call(
+  stack
+)
 type(
   F.lhs list
 )
@@ -11171,6 +11529,9 @@ ident(
   int_ref nt_to_add "dyp.ml" 999 30415 30430 "dyp.ml" 999 30415 30439
 )
 "dyp.ml" 1000 30446 30456 "dyp.ml" 1000 30446 30481
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -11218,6 +11579,9 @@ ident(
   int_ref lhs "dyp.ml" 1002 30493 30518 "dyp.ml" 1002 30493 30521
 )
 "dyp.ml" 1003 30524 30554 "dyp.ml" 1003 30524 30568
+call(
+  stack
+)
 type(
   int
 )
@@ -11255,6 +11619,9 @@ ident(
   int_ref ind_list "dyp.ml" 1003 30524 30538 "dyp.ml" 1003 30524 30546
 )
 "dyp.ml" 1004 30573 30583 "dyp.ml" 1004 30573 30619
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -11291,6 +11658,9 @@ ident(
   int_ref lhs_l "dyp.ml" 996 30326 30338 "dyp.ml" 996 30326 30343
 )
 "dyp.ml" 1006 30631 30639 "dyp.ml" 1006 30631 30674
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -11377,6 +11747,9 @@ type(
   int list
 )
 "dyp.ml" 1009 30705 30710 "dyp.ml" 1009 30705 30763
+call(
+  stack
+)
 type(
   Int_set.t
 )
@@ -11607,7 +11980,7 @@ type(
   Dyp_special_types.automaton_kind -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 1024 31198 31218 "dyp.ml" 1024 31198 31226
 type(
@@ -11639,6 +12012,9 @@ ident(
   int_ref ist_nt_nb "dyp.ml" 1021 31048 31095 "dyp.ml" 1021 31048 31104
 )
 "dyp.ml" 1025 31228 31245 "dyp.ml" 1025 31228 31268
+call(
+  stack
+)
 type(
   F.lhslists
 )
@@ -11754,6 +12130,9 @@ ident(
   int_ref first_memo "dyp.ml" 1027 31275 31281 "dyp.ml" 1027 31275 31291
 )
 "dyp.ml" 1035 31554 31569 "dyp.ml" 1036 31606 31638
+call(
+  stack
+)
 type(
   int array * Int_set.elt list array
 )
@@ -11781,7 +12160,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1038 31671 31677 "dyp.ml" 1038 31671 31691
 type(
@@ -11796,7 +12175,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1038 31671 31692 "dyp.ml" 1038 31671 31693
 type(
@@ -11818,7 +12197,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1039 31699 31719 "dyp.ml" 1039 31699 31730
 type(
@@ -11844,7 +12223,7 @@ type(
   float -> float -> float
 )
 ident(
-  ext_ref Pervasives.-.
+  ext_ref Pervasives.( -. )
 )
 "dyp.ml" 1040 31758 31772 "dyp.ml" 1040 31758 31777
 type(
@@ -11858,6 +12237,9 @@ type(
   float
 )
 "dyp.ml" 1039 31699 31703 "dyp.ml" 1040 31758 31778
+call(
+  stack
+)
 type(
   unit
 )
@@ -11939,6 +12321,9 @@ ident(
   int_ref array_nt_prio "dyp.ml" 1020 30985 31024 "dyp.ml" 1020 30985 31037
 )
 "dyp.ml" 1041 31780 31803 "dyp.ml" 1042 31847 31877
+call(
+  stack
+)
 type(
   Gr.item_set * Int_set.t
 )
@@ -12168,6 +12553,9 @@ ident(
   int_ref cons_of_nt "dyp.ml" 1022 31117 31121 "dyp.ml" 1022 31117 31131
 )
 "dyp.ml" 1044 31883 31885 "dyp.ml" 1049 32117 32188
+call(
+  stack
+)
 type(
   ('o1, 'p1, 'q1) parsing_device
 )
@@ -12333,6 +12721,9 @@ ident(
   int_ref user_g "dyp.ml" 1071 32844 32852 "dyp.ml" 1071 32844 32858
 )
 "dyp.ml" 1072 32867 32884 "dyp.ml" 1072 32867 32907
+call(
+  stack
+)
 type(
   'x1 list
 )
@@ -12388,6 +12779,9 @@ ident(
   int_ref user_g "dyp.ml" 1071 32844 32852 "dyp.ml" 1071 32844 32858
 )
 "dyp.ml" 1073 32932 32936 "dyp.ml" 1073 32932 32966
+call(
+  tail
+)
 type(
   'x1 list Urule_map.t
 )
@@ -12425,6 +12819,9 @@ ident(
   int_ref ral "dyp.ml" 1070 32813 32831 "dyp.ml" 1070 32813 32834
 )
 "dyp.ml" 1075 32972 32974 "dyp.ml" 1075 32972 33001
+call(
+  tail
+)
 type(
   'w1 list Urule_map.t
 )
@@ -12512,6 +12909,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1078 33004 33039 "dyp.ml" 1078 33004 33050
 )
 "dyp.ml" 1080 33083 33089 "dyp.ml" 1080 33083 33125
+call(
+  stack
+)
 type(
   string
 )
@@ -12552,10 +12952,16 @@ ident(
   int_ref str_non_ter "dyp.ml" 1078 33004 33039 "dyp.ml" 1078 33004 33050
 )
 "dyp.ml" 1081 33126 33132 "dyp.ml" 1081 33126 33175
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1079 33053 33057 "dyp.ml" 1081 33126 33175
+call(
+  tail
+)
 type(
   string
 )
@@ -12622,7 +13028,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1084 33233 33271 "dyp.ml" 1084 33233 33272
 type(
@@ -12688,10 +13094,16 @@ ident(
   int_ref str_non_ter "dyp.ml" 1083 33177 33219 "dyp.ml" 1083 33177 33230
 )
 "dyp.ml" 1086 33316 33322 "dyp.ml" 1086 33316 33365
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1085 33276 33280 "dyp.ml" 1086 33316 33365
+call(
+  stack
+)
 type(
   unit
 )
@@ -12711,6 +13123,9 @@ type(
   unit
 )
 "dyp.ml" 1088 33374 33376 "dyp.ml" 1088 33374 33392
+call(
+  tail
+)
 type(
   unit
 )
@@ -12808,6 +13223,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1091 33395 33434 "dyp.ml" 1091 33395 33445
 )
 "dyp.ml" 1093 33463 33499 "dyp.ml" 1093 33463 33535
+call(
+  stack
+)
 type(
   string
 )
@@ -12819,6 +13237,9 @@ ident(
   int_ref rn "dyp.ml" 1092 33448 33458 "dyp.ml" 1092 33448 33460
 )
 "dyp.ml" 1093 33463 33467 "dyp.ml" 1093 33463 33538
+call(
+  tail
+)
 type(
   unit
 )
@@ -12849,7 +13270,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1095 33544 33581 "dyp.ml" 1095 33544 33582
 type(
@@ -12930,10 +13351,16 @@ ident(
   int_ref str_non_ter "dyp.ml" 1091 33395 33434 "dyp.ml" 1091 33395 33445
 )
 "dyp.ml" 1099 33684 33694 "dyp.ml" 1099 33684 33732
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1098 33635 33643 "dyp.ml" 1099 33684 33732
+call(
+  stack
+)
 type(
   unit
 )
@@ -12996,10 +13423,16 @@ ident(
   int_ref str_non_ter "dyp.ml" 1091 33395 33434 "dyp.ml" 1091 33395 33445
 )
 "dyp.ml" 1102 33808 33818 "dyp.ml" 1102 33808 33856
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1101 33750 33758 "dyp.ml" 1102 33808 33856
+call(
+  stack
+)
 type(
   unit
 )
@@ -13026,6 +13459,9 @@ type(
   int
 )
 "dyp.ml" 1104 33864 33878 "dyp.ml" 1104 33864 33883
+call(
+  stack
+)
 type(
   int -> unit
 )
@@ -13056,6 +13492,9 @@ type(
   int list
 )
 "dyp.ml" 1104 33864 33868 "dyp.ml" 1104 33864 33902
+call(
+  stack
+)
 type(
   unit
 )
@@ -13166,6 +13605,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1108 33914 33939 "dyp.ml" 1108 33914 33950
 )
 "dyp.ml" 1110 33971 34002 "dyp.ml" 1110 33971 34038
+call(
+  stack
+)
 type(
   string
 )
@@ -13195,10 +13637,16 @@ ident(
   int_ref str_non_ter "dyp.ml" 1108 33914 33939 "dyp.ml" 1108 33914 33950
 )
 "dyp.ml" 1111 34039 34045 "dyp.ml" 1111 34039 34075
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1110 33971 33975 "dyp.ml" 1111 34039 34075
+call(
+  tail
+)
 type(
   unit
 )
@@ -13229,7 +13677,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1113 34081 34111 "dyp.ml" 1113 34081 34112
 type(
@@ -13258,6 +13706,9 @@ type(
   int
 )
 "dyp.ml" 1114 34116 34135 "dyp.ml" 1114 34116 34140
+call(
+  stack
+)
 type(
   F.Map_rhs.key -> 'y1 -> unit
 )
@@ -13277,6 +13728,9 @@ type(
   'y1 F.Map_rhs.t
 )
 "dyp.ml" 1114 34116 34120 "dyp.ml" 1114 34116 34146
+call(
+  stack
+)
 type(
   unit
 )
@@ -13336,7 +13790,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1118 34201 34240 "dyp.ml" 1118 34201 34241
 type(
@@ -13391,10 +13845,16 @@ ident(
   int_ref str_non_ter "dyp.ml" 1117 34155 34187 "dyp.ml" 1117 34155 34198
 )
 "dyp.ml" 1119 34245 34285 "dyp.ml" 1119 34245 34321
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1119 34245 34249 "dyp.ml" 1119 34245 34321
+call(
+  stack
+)
 type(
   unit
 )
@@ -13527,7 +13987,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1124 34442 34474 "dyp.ml" 1124 34442 34475
 type(
@@ -13621,6 +14081,9 @@ ident(
   int_ref rn_set "dyp.ml" 1131 34778 34787 "dyp.ml" 1131 34778 34793
 )
 "dyp.ml" 1131 34778 34803 "dyp.ml" 1131 34778 34824
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -13658,6 +14121,9 @@ ident(
   int_ref kernel_nt "dyp.ml" 1123 34331 34374 "dyp.ml" 1123 34331 34383
 )
 "dyp.ml" 1133 34831 34846 "dyp.ml" 1133 34831 34887
+call(
+  stack
+)
 type(
   Int_set.t
 )
@@ -13695,6 +14161,9 @@ ident(
   int_ref kernel_t "dyp.ml" 1123 34331 34384 "dyp.ml" 1123 34331 34392
 )
 "dyp.ml" 1134 34891 34906 "dyp.ml" 1134 34891 34939
+call(
+  stack
+)
 type(
   Int_set.t
 )
@@ -13759,7 +14228,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1137 34976 35019 "dyp.ml" 1137 34976 35020
 type(
@@ -13781,6 +14250,9 @@ ident(
   int_ref reducible "dyp.ml" 1123 34331 34393 "dyp.ml" 1123 34331 34402
 )
 "dyp.ml" 1136 34946 34964 "dyp.ml" 1137 34976 35031
+call(
+  stack
+)
 type(
   (Int_map.key * 'f2) list
 )
@@ -13818,6 +14290,9 @@ ident(
   int_ref reducible "dyp.ml" 1136 34946 34952 "dyp.ml" 1136 34946 34961
 )
 "dyp.ml" 1140 35040 35055 "dyp.ml" 1140 35040 35089
+call(
+  stack
+)
 type(
   Int_set.t
 )
@@ -13889,6 +14364,9 @@ ident(
   int_ref rn_map1 "dyp.ml" 1142 35096 35109 "dyp.ml" 1142 35096 35116
 )
 "dyp.ml" 1143 35130 35134 "dyp.ml" 1143 35130 35160
+call(
+  stack
+)
 type(
   Int_map.key Int_map.t
 )
@@ -13922,6 +14400,9 @@ ident(
   int_ref rn_map2 "dyp.ml" 1142 35096 35117 "dyp.ml" 1142 35096 35124
 )
 "dyp.ml" 1144 35162 35166 "dyp.ml" 1144 35162 35192
+call(
+  stack
+)
 type(
   Int_map.key Int_map.t
 )
@@ -13937,7 +14418,7 @@ type(
   Int_map.key -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1144 35162 35196 "dyp.ml" 1144 35162 35197
 type(
@@ -14018,6 +14499,9 @@ type(
   Int_map.key Int_map.t * Int_map.key Int_map.t * Int_map.key
 )
 "dyp.ml" 1148 35238 35242 "dyp.ml" 1148 35238 35296
+call(
+  stack
+)
 type(
   Int_map.key Int_map.t * Int_map.key Int_map.t * Int_map.key
 )
@@ -14044,7 +14528,7 @@ type(
   Int_map.key -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1151 35305 35340 "dyp.ml" 1151 35305 35343
 type(
@@ -14088,7 +14572,7 @@ type(
   Int_map.key -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1152 35353 35389 "dyp.ml" 1152 35353 35392
 type(
@@ -14137,7 +14621,7 @@ type(
   Int_map.key -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1153 35407 35445 "dyp.ml" 1153 35407 35448
 type(
@@ -14212,6 +14696,9 @@ ident(
   int_ref ol "dyp.ml" 1154 35450 35474 "dyp.ml" 1154 35450 35476
 )
 "dyp.ml" 1155 35497 35504 "dyp.ml" 1155 35497 35514
+call(
+  stack
+)
 type(
   'a2
 )
@@ -14374,7 +14861,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1161 35661 35680 "dyp.ml" 1161 35661 35681
 type(
@@ -14492,7 +14979,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1164 35781 35837 "dyp.ml" 1164 35781 35838
 type(
@@ -14503,6 +14990,9 @@ type(
   int
 )
 "dyp.ml" 1164 35781 35799 "dyp.ml" 1164 35781 35840
+call(
+  stack
+)
 type(
   Gr.lit_nt
 )
@@ -14557,7 +15047,7 @@ type(
   Int_map.key -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1169 35871 35890 "dyp.ml" 1169 35871 35891
 type(
@@ -14593,6 +15083,9 @@ ident(
   int_ref rn_map2 "dyp.ml" 1147 35208 35222 "dyp.ml" 1147 35208 35229
 )
 "dyp.ml" 1170 35895 35909 "dyp.ml" 1170 35895 35931
+call(
+  stack
+)
 type(
   Int_map.key
 )
@@ -14666,6 +15159,9 @@ type(
   Gr.lit_nt pliteral array
 )
 "dyp.ml" 1172 35972 35992 "dyp.ml" 1172 35972 36014
+call(
+  stack
+)
 type(
   F.Map_rhs.key
 )
@@ -14766,6 +15262,9 @@ ident(
   int_ref rn_map1 "dyp.ml" 1147 35208 35214 "dyp.ml" 1147 35208 35221
 )
 "dyp.ml" 1176 36060 36079 "dyp.ml" 1176 36060 36104
+call(
+  stack
+)
 type(
   Int_map.key
 )
@@ -14807,6 +15306,9 @@ ident(
   int_ref kernel_nt "dyp.ml" 1123 34331 34374 "dyp.ml" 1123 34331 34383
 )
 "dyp.ml" 1178 36114 36132 "dyp.ml" 1178 36114 36153
+call(
+  stack
+)
 type(
   (Int_map.key * 'd2) list
 )
@@ -14837,6 +15339,9 @@ ident(
   int_ref kernel_t "dyp.ml" 1123 34331 34384 "dyp.ml" 1123 34331 34392
 )
 "dyp.ml" 1179 36157 36174 "dyp.ml" 1179 36157 36194
+call(
+  stack
+)
 type(
   (Int_map.key * 'e2) list
 )
@@ -14867,6 +15372,9 @@ ident(
   int_ref reducible "dyp.ml" 1136 34946 34952 "dyp.ml" 1136 34946 34961
 )
 "dyp.ml" 1180 36198 36216 "dyp.ml" 1180 36198 36237
+call(
+  stack
+)
 type(
   (Int_map.key * 'f2) list
 )
@@ -14930,7 +15438,7 @@ type(
   Int_map.key ref -> Int_map.key
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1185 36290 36305 "dyp.ml" 1185 36290 36307
 type(
@@ -14966,7 +15474,7 @@ type(
   Int_map.key ref -> Int_map.key
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1186 36317 36335 "dyp.ml" 1186 36317 36337
 type(
@@ -15002,7 +15510,7 @@ type(
   Int_map.key ref -> Int_map.key
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1187 36346 36362 "dyp.ml" 1187 36346 36364
 type(
@@ -15090,7 +15598,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1189 36421 36448 "dyp.ml" 1189 36421 36449
 type(
@@ -15119,7 +15627,7 @@ type(
   Int_map.key ref -> Int_map.key
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1189 36421 36473 "dyp.ml" 1189 36421 36475
 type(
@@ -15184,7 +15692,7 @@ type(
   Int_map.key ref -> Int_map.key
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1190 36486 36522 "dyp.ml" 1190 36486 36524
 type(
@@ -15278,7 +15786,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1193 36545 36575 "dyp.ml" 1193 36545 36576
 type(
@@ -15309,6 +15817,9 @@ type(
   int
 )
 "dyp.ml" 1194 36580 36599 "dyp.ml" 1194 36580 36604
+call(
+  stack
+)
 type(
   F.Map_rhs.key -> ('a2, 'b2, 'c2) Dyp_special_types.action list -> unit
 )
@@ -15328,6 +15839,9 @@ type(
   ('a2, 'b2, 'c2) Dyp_special_types.action list F.Map_rhs.t
 )
 "dyp.ml" 1194 36580 36584 "dyp.ml" 1194 36580 36610
+call(
+  stack
+)
 type(
   unit
 )
@@ -15609,6 +16123,9 @@ ident(
   ext_ref Urule_map.empty
 )
 "dyp.ml" 1207 36892 36907 "dyp.ml" 1207 36892 36940
+call(
+  stack
+)
 type(
   ('j2, 'k2, 'l2) Dyp_special_types.action list Urule_map.t
 )
@@ -15688,6 +16205,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1206 36848 36878 "dyp.ml" 1206 36848 36889
 )
 "dyp.ml" 1211 37046 37053 "dyp.ml" 1211 37046 37098
+call(
+  stack
+)
 type(
   ('j2, 'k2, 'l2) Dyp_special_types.action list F.Map_rhs.t array *
   int Prio_map.t array * int * int * F.non_terminal array * int array *
@@ -15810,6 +16330,9 @@ ident(
   int_ref lhs_of_ind "dyp.ml" 1210 36991 37031 "dyp.ml" 1210 36991 37041
 )
 "dyp.ml" 1214 37156 37160 "dyp.ml" 1215 37208 37242
+call(
+  stack
+)
 type(
   (Int_map.key list * Int_map.key option) array * F.Map_rhs.key array *
   F.lhs array * ('j2, 'k2, 'l2) Dyp_special_types.action list array *
@@ -15850,6 +16373,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1206 36848 36878 "dyp.ml" 1206 36848 36889
 )
 "dyp.ml" 1217 37248 37265 "dyp.ml" 1217 37248 37304
+call(
+  stack
+)
 type(
   bool option array array
 )
@@ -16172,6 +16698,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1224 37454 37560 "dyp.ml" 1224 37454 37571
 )
 "dyp.ml" 1228 37739 37743 "dyp.ml" 1228 37739 37791
+call(
+  stack
+)
 type(
   (Int_map.key list * Int_map.key option) array * F.Map_rhs.key array *
   F.lhs array * ('q2, 'r2, 's2) Dyp_special_types.action list array * 
@@ -16365,6 +16894,9 @@ ident(
   int_ref cons_of_nt "dyp.ml" 1224 37454 37572 "dyp.ml" 1224 37454 37582
 )
 "dyp.ml" 1230 37797 37799 "dyp.ml" 1234 38056 38070
+call(
+  stack
+)
 type(
   ('q2, 'r2, 's2) parsing_device
 )
@@ -16433,6 +16965,9 @@ ident(
   int_ref user_g "dyp.ml" 1241 38253 38261 "dyp.ml" 1241 38253 38267
 )
 "dyp.ml" 1241 38253 38272 "dyp.ml" 1241 38253 38297
+call(
+  tail
+)
 type(
   'u2 Urule_map.t
 )
@@ -16466,6 +17001,9 @@ ident(
   int_ref rl "dyp.ml" 1240 38218 38241 "dyp.ml" 1240 38218 38243
 )
 "dyp.ml" 1242 38301 38303 "dyp.ml" 1242 38301 38329
+call(
+  tail
+)
 type(
   't2 Urule_map.t
 )
@@ -16635,6 +17173,9 @@ ident(
   int_ref array_nt_prio "dyp.ml" 1244 38331 38392 "dyp.ml" 1244 38331 38405
 )
 "dyp.ml" 1248 38508 38518 "dyp.ml" 1248 38508 38565
+call(
+  stack
+)
 type(
   F.lhs list
 )
@@ -16678,6 +17219,9 @@ ident(
   int_ref nt_to_add "dyp.ml" 1250 38577 38592 "dyp.ml" 1250 38577 38601
 )
 "dyp.ml" 1251 38608 38618 "dyp.ml" 1251 38608 38643
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -16725,6 +17269,9 @@ ident(
   int_ref lhs "dyp.ml" 1253 38655 38680 "dyp.ml" 1253 38655 38683
 )
 "dyp.ml" 1254 38686 38716 "dyp.ml" 1254 38686 38730
+call(
+  stack
+)
 type(
   int
 )
@@ -16762,6 +17309,9 @@ ident(
   int_ref ind_list "dyp.ml" 1254 38686 38700 "dyp.ml" 1254 38686 38708
 )
 "dyp.ml" 1255 38735 38745 "dyp.ml" 1255 38735 38781
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -16798,6 +17348,9 @@ ident(
   int_ref lhs_l "dyp.ml" 1247 38488 38500 "dyp.ml" 1247 38488 38505
 )
 "dyp.ml" 1257 38793 38801 "dyp.ml" 1257 38793 38834
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -16855,6 +17408,9 @@ ident(
   int_ref item_list "dyp.ml" 1244 38331 38364 "dyp.ml" 1244 38331 38373
 )
 "dyp.ml" 1260 38864 38866 "dyp.ml" 1260 38864 38908
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -16961,7 +17517,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 1266 38985 39022 "dyp.ml" 1266 38985 39025
 type(
@@ -16972,7 +17528,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 1266 38985 39027 "dyp.ml" 1266 38985 39040
 type(
@@ -16989,14 +17545,23 @@ ident(
   int_ref nt "dyp.ml" 1266 38985 39001 "dyp.ml" 1266 38985 39003
 )
 "dyp.ml" 1266 38985 39026 "dyp.ml" 1266 38985 39044
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1266 38985 39022 "dyp.ml" 1266 38985 39044
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1266 38985 39019 "dyp.ml" 1266 38985 39045
+call(
+  stack
+)
 type(
   string
 )
@@ -17008,6 +17573,9 @@ ident(
   int_ref tl "dyp.ml" 1266 38985 39009 "dyp.ml" 1266 38985 39011
 )
 "dyp.ml" 1266 38985 39015 "dyp.ml" 1266 38985 39048
+call(
+  tail
+)
 type(
   string
 )
@@ -17052,7 +17620,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 1267 39049 39077 "dyp.ml" 1267 39049 39080
 type(
@@ -17063,7 +17631,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 1267 39049 39082 "dyp.ml" 1267 39049 39098
 type(
@@ -17080,14 +17648,23 @@ ident(
   int_ref t "dyp.ml" 1267 39049 39060 "dyp.ml" 1267 39049 39061
 )
 "dyp.ml" 1267 39049 39081 "dyp.ml" 1267 39049 39101
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1267 39049 39077 "dyp.ml" 1267 39049 39101
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1267 39049 39074 "dyp.ml" 1267 39049 39102
+call(
+  stack
+)
 type(
   string
 )
@@ -17099,6 +17676,9 @@ ident(
   int_ref tl "dyp.ml" 1267 39049 39064 "dyp.ml" 1267 39049 39066
 )
 "dyp.ml" 1267 39049 39070 "dyp.ml" 1267 39049 39105
+call(
+  tail
+)
 type(
   string
 )
@@ -17125,6 +17705,9 @@ ident(
   int_ref rhs "dyp.ml" 1263 38911 38928 "dyp.ml" 1263 38911 38931
 )
 "dyp.ml" 1269 39111 39113 "dyp.ml" 1269 39111 39123
+call(
+  tail
+)
 type(
   string
 )
@@ -17176,6 +17759,9 @@ ident(
   int_ref lhs "dyp.ml" 1271 39125 39144 "dyp.ml" 1271 39125 39147
 )
 "dyp.ml" 1272 39157 39159 "dyp.ml" 1272 39157 39178
+call(
+  stack
+)
 type(
   string
 )
@@ -17184,7 +17770,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 1272 39157 39179 "dyp.ml" 1272 39157 39185
 type(
@@ -17195,7 +17781,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 1272 39157 39187 "dyp.ml" 1272 39157 39199
 type(
@@ -17212,14 +17798,23 @@ ident(
   int_ref rhs "dyp.ml" 1271 39125 39148 "dyp.ml" 1271 39125 39151
 )
 "dyp.ml" 1272 39157 39186 "dyp.ml" 1272 39157 39204
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1272 39157 39179 "dyp.ml" 1272 39157 39204
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1272 39157 39159 "dyp.ml" 1272 39157 39204
+call(
+  tail
+)
 type(
   string
 )
@@ -17281,10 +17876,16 @@ ident(
   int_ref r "dyp.ml" 1275 39226 39235 "dyp.ml" 1275 39226 39236
 )
 "dyp.ml" 1275 39226 39256 "dyp.ml" 1275 39226 39273
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 1275 39226 39242 "dyp.ml" 1275 39226 39273
+call(
+  tail
+)
 type(
   unit
 )
@@ -17311,6 +17912,9 @@ ident(
   int_ref ral "dyp.ml" 1274 39206 39220 "dyp.ml" 1274 39206 39223
 )
 "dyp.ml" 1276 39277 39279 "dyp.ml" 1276 39277 39294
+call(
+  tail
+)
 type(
   unit
 )
@@ -17453,6 +18057,9 @@ type(
   ('f3, 'g3, 'h3) user_grammar
 )
 "dyp.ml" 1283 39476 39491 "dyp.ml" 1283 39476 39540
+call(
+  stack
+)
 type(
   ('f3, 'g3, 'h3) Dyp_special_types.action list Urule_map.t
 )
@@ -17484,6 +18091,9 @@ ident(
   int_ref user_g "dyp.ml" 1283 39476 39482 "dyp.ml" 1283 39476 39488
 )
 "dyp.ml" 1284 39544 39559 "dyp.ml" 1284 39544 39587
+call(
+  stack
+)
 type(
   ('f3, 'g3, 'h3) Dyp_special_types.action list Urule_map.t
 )
@@ -17599,6 +18209,9 @@ type(
   (int * int * string) String_map.t
 )
 "dyp.ml" 1288 39703 39705 "dyp.ml" 1288 39703 39740
+call(
+  stack
+)
 type(
   unit
 )
@@ -17678,6 +18291,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1286 39594 39600 "dyp.ml" 1286 39594 39611
 )
 "dyp.ml" 1293 39851 39855 "dyp.ml" 1293 39851 39899
+call(
+  stack
+)
 type(
   ('f3, 'g3, 'h3) Dyp_special_types.action list F.Map_rhs.t array *
   int Prio_map.t array * int * int * F.non_terminal array * int array *
@@ -17837,6 +18453,9 @@ ident(
   int_ref lhs_of_ind "dyp.ml" 1292 39793 39834 "dyp.ml" 1292 39793 39844
 )
 "dyp.ml" 1310 40459 40463 "dyp.ml" 1312 40585 40649
+call(
+  stack
+)
 type(
   (Int_map.key list * Int_map.key option) array * F.Map_rhs.key array *
   F.lhs array * ('f3, 'g3, 'h3) Dyp_special_types.action list array *
@@ -17877,6 +18496,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1286 39594 39600 "dyp.ml" 1286 39594 39611
 )
 "dyp.ml" 1325 41004 41021 "dyp.ml" 1325 41004 41060
+call(
+  stack
+)
 type(
   bool option array array
 )
@@ -17925,6 +18547,9 @@ ident(
   int_ref ist_nt_nb "dyp.ml" 1291 39751 39782 "dyp.ml" 1291 39751 39791
 )
 "dyp.ml" 1334 41317 41334 "dyp.ml" 1334 41317 41357
+call(
+  stack
+)
 type(
   F.lhslists
 )
@@ -18014,6 +18639,9 @@ ident(
   int_ref first_memo "dyp.ml" 1327 41067 41073 "dyp.ml" 1327 41067 41083
 )
 "dyp.ml" 1336 41390 41405 "dyp.ml" 1337 41442 41478
+call(
+  stack
+)
 type(
   int array * Int_set.elt list array
 )
@@ -18041,7 +18669,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1340 41513 41519 "dyp.ml" 1340 41513 41533
 type(
@@ -18056,7 +18684,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1340 41513 41534 "dyp.ml" 1340 41513 41535
 type(
@@ -18078,7 +18706,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1341 41541 41561 "dyp.ml" 1341 41541 41572
 type(
@@ -18104,7 +18732,7 @@ type(
   float -> float -> float
 )
 ident(
-  ext_ref Pervasives.-.
+  ext_ref Pervasives.( -. )
 )
 "dyp.ml" 1342 41600 41614 "dyp.ml" 1342 41600 41619
 type(
@@ -18118,6 +18746,9 @@ type(
   float
 )
 "dyp.ml" 1341 41541 41545 "dyp.ml" 1342 41600 41620
+call(
+  stack
+)
 type(
   unit
 )
@@ -18166,7 +18797,7 @@ type(
   (Int_map.key * int) list -> (Int_map.key * int) list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dyp.ml" 1344 41640 41684 "dyp.ml" 1344 41640 41692
 type(
@@ -18176,6 +18807,9 @@ ident(
   int_ref kernel_t "dyp.ml" 1308 40374 40426 "dyp.ml" 1308 40374 40434
 )
 "dyp.ml" 1344 41640 41673 "dyp.ml" 1344 41640 41693
+call(
+  stack
+)
 type(
   (Int_map.key * int) list
 )
@@ -18201,6 +18835,9 @@ ident(
   int_ref array_nt_prio "dyp.ml" 1291 39751 39757 "dyp.ml" 1291 39751 39770
 )
 "dyp.ml" 1344 41640 41644 "dyp.ml" 1345 41694 41730
+call(
+  stack
+)
 type(
   Int_set.t
 )
@@ -18260,6 +18897,9 @@ ident(
   int_ref kernel_nt "dyp.ml" 1308 40374 40416 "dyp.ml" 1308 40374 40425
 )
 "dyp.ml" 1353 41895 41899 "dyp.ml" 1353 41895 41922
+call(
+  stack
+)
 type(
   int
 )
@@ -18268,7 +18908,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1353 41895 41924 "dyp.ml" 1353 41895 41935
 type(
@@ -18285,6 +18925,9 @@ ident(
   int_ref kernel_t "dyp.ml" 1308 40374 40426 "dyp.ml" 1308 40374 40434
 )
 "dyp.ml" 1353 41895 41923 "dyp.ml" 1353 41895 41945
+call(
+  stack
+)
 type(
   int
 )
@@ -18297,7 +18940,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1354 41947 41952 "dyp.ml" 1354 41947 41963
 type(
@@ -18314,6 +18957,9 @@ ident(
   int_ref reducible "dyp.ml" 1309 40436 40440 "dyp.ml" 1309 40436 40449
 )
 "dyp.ml" 1354 41947 41951 "dyp.ml" 1354 41947 41974
+call(
+  stack
+)
 type(
   int
 )
@@ -18437,6 +19083,9 @@ type(
   (int * int * string) String_map.t
 )
 "dyp.ml" 1371 42493 42495 "dyp.ml" 1371 42493 42532
+call(
+  stack
+)
 type(
   unit
 )
@@ -18682,6 +19331,9 @@ ident(
   int_ref cons_of_nt "dyp.ml" 1367 42379 42385 "dyp.ml" 1367 42379 42395
 )
 "dyp.ml" 1386 42993 42995 "dyp.ml" 1392 43375 43389
+call(
+  stack
+)
 type(
   ('f3, 'g3, 'h3) parsing_device
 )
@@ -18863,6 +19515,9 @@ type(
   F.prio_imprint
 )
 "dyp.ml" 1451 46072 46082 "dyp.ml" 1453 46138 46170
+call(
+  stack
+)
 type(
   bool
 )
@@ -18878,7 +19533,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1454 46174 46183 "dyp.ml" 1454 46174 46188
 type(
@@ -18932,7 +19587,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1456 46230 46241 "dyp.ml" 1456 46230 46242
 type(
@@ -19122,7 +19777,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1465 46488 46506 "dyp.ml" 1465 46488 46507
 type(
@@ -19158,6 +19813,9 @@ type(
   (('s3, 't3, 'u3) vertex_lab, 'v3) Gs.edge list
 )
 "dyp.ml" 1465 46488 46498 "dyp.ml" 1465 46488 46525
+call(
+  stack
+)
 type(
   ((('s3, 't3, 'u3) vertex_lab, 'v3) Gs.edge list * int) list
 )
@@ -19168,7 +19826,7 @@ type(
   ((('s3, 't3, 'u3) vertex_lab, 'v3) Gs.edge list * int) list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dyp.ml" 1465 46488 46527 "dyp.ml" 1465 46488 46530
 type(
@@ -19202,10 +19860,16 @@ ident(
   int_ref path "dyp.ml" 1455 46202 46223 "dyp.ml" 1455 46202 46227
 )
 "dyp.ml" 1465 46488 46526 "dyp.ml" 1465 46488 46540
+call(
+  stack
+)
 type(
   ((('s3, 't3, 'u3) vertex_lab, 'v3) Gs.edge list * int) list
 )
 "dyp.ml" 1465 46488 46498 "dyp.ml" 1465 46488 46540
+call(
+  tail
+)
 type(
   ((('s3, 't3, 'u3) vertex_lab, 'v3) Gs.edge list * int) list
 )
@@ -19269,6 +19933,9 @@ type(
   (('n3, 'o3, 'p3) vertex_lab, 'q3) Gs.edge list
 )
 "dyp.ml" 1467 46546 46548 "dyp.ml" 1467 46546 46587
+call(
+  tail
+)
 type(
   ((('n3, 'o3, 'p3) vertex_lab, 'q3) Gs.edge list * int) list
 )
@@ -19326,7 +19993,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1469 46589 46645 "dyp.ml" 1469 46589 46648
 type(
@@ -19395,7 +20062,7 @@ type(
   'g4 -> 'g4 -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1471 46669 46715 "dyp.ml" 1471 46669 46718
 type(
@@ -19474,6 +20141,9 @@ ident(
   int_ref el2 "dyp.ml" 1472 46734 46758 "dyp.ml" 1472 46734 46761
 )
 "dyp.ml" 1472 46734 46764 "dyp.ml" 1472 46734 46796
+call(
+  tail
+)
 type(
   bool
 )
@@ -19567,6 +20237,9 @@ type(
   'o4 list
 )
 "dyp.ml" 1477 46873 46887 "dyp.ml" 1477 46873 46902
+call(
+  tail
+)
 type(
   'o4 list
 )
@@ -19721,7 +20394,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1490 47693 47721 "dyp.ml" 1490 47693 47744
 type(
@@ -19900,6 +20573,9 @@ type(
   list
 )
 "dyp.ml" 1493 47828 47840 "dyp.ml" 1493 47828 47900
+call(
+  tail
+)
 type(
   (((('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.vertex *
     (('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.edge list * int) *
@@ -20003,7 +20679,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.<
+  ext_ref Pervasives.( < )
 )
 "dyp.ml" 1495 47956 47972 "dyp.ml" 1495 47956 47980
 type(
@@ -20130,6 +20806,9 @@ type(
   list
 )
 "dyp.ml" 1496 48020 48030 "dyp.ml" 1496 48020 48093
+call(
+  tail
+)
 type(
   (((('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.vertex *
     (('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.edge list * int) *
@@ -20148,7 +20827,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.<
+  ext_ref Pervasives.( < )
 )
 "dyp.ml" 1498 48107 48123 "dyp.ml" 1498 48107 48131
 type(
@@ -20275,6 +20954,9 @@ ident(
   int_ref tl "dyp.ml" 1494 47901 47950 "dyp.ml" 1494 47901 47952
 )
 "dyp.ml" 1499 48132 48145 "dyp.ml" 1499 48132 48203
+call(
+  tail
+)
 type(
   (((('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.vertex *
     (('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.edge list * int) *
@@ -20316,7 +20998,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 1502 48275 48309 "dyp.ml" 1502 48275 48324
 type(
@@ -20447,6 +21129,9 @@ ident(
   int_ref tl "dyp.ml" 1494 47901 47950 "dyp.ml" 1494 47901 47952
 )
 "dyp.ml" 1503 48330 48343 "dyp.ml" 1503 48330 48401
+call(
+  tail
+)
 type(
   (((('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.vertex *
     (('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.edge list * int) *
@@ -20663,6 +21348,9 @@ type(
   list
 )
 "dyp.ml" 1513 48743 48763 "dyp.ml" 1514 48777 48835
+call(
+  tail
+)
 type(
   (((('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.vertex *
     (('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.edge list * int) *
@@ -20692,7 +21380,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1515 48836 48873 "dyp.ml" 1515 48836 48887
 type(
@@ -20721,7 +21409,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1515 48836 48898 "dyp.ml" 1515 48836 48901
 type(
@@ -20735,7 +21423,7 @@ type(
   'u4 -> 'u4 -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1515 48836 48902 "dyp.ml" 1515 48836 48906
 type(
@@ -20753,7 +21441,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1516 48910 48921 "dyp.ml" 1516 48910 48937
 type(
@@ -20778,6 +21466,9 @@ ident(
   int_ref start1 "dyp.ml" 1494 47901 47909 "dyp.ml" 1494 47901 47915
 )
 "dyp.ml" 1516 48910 48920 "dyp.ml" 1516 48910 48956
+call(
+  stack
+)
 type(
   bool
 )
@@ -20786,7 +21477,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1516 48910 48961 "dyp.ml" 1516 48910 48976
 type(
@@ -20811,6 +21502,9 @@ ident(
   int_ref p1 "dyp.ml" 1494 47901 47916 "dyp.ml" 1494 47901 47918
 )
 "dyp.ml" 1516 48910 48960 "dyp.ml" 1516 48910 48982
+call(
+  stack
+)
 type(
   bool
 )
@@ -20865,6 +21559,9 @@ ident(
   int_ref l "dyp.ml" 1492 47790 47811 "dyp.ml" 1492 47790 47812
 )
 "dyp.ml" 1517 48983 48996 "dyp.ml" 1517 48983 49011
+call(
+  tail
+)
 type(
   (((('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.vertex *
     (('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.edge list * int) *
@@ -20985,6 +21682,9 @@ ident(
   int_ref tl "dyp.ml" 1494 47901 47950 "dyp.ml" 1494 47901 47952
 )
 "dyp.ml" 1518 49012 49025 "dyp.ml" 1518 49012 49083
+call(
+  tail
+)
 type(
   (((('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.vertex *
     (('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.edge list * int) *
@@ -21083,6 +21783,9 @@ ident(
   int_ref l "dyp.ml" 1487 47488 47517 "dyp.ml" 1487 47488 47518
 )
 "dyp.ml" 1520 49089 49091 "dyp.ml" 1520 49089 49099
+call(
+  tail
+)
 type(
   (((('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.vertex *
     (('p4, 'q4, 'r4) vertex_lab, 's4 * 't4) Gs.edge list * int) *
@@ -21174,7 +21877,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1575 50857 50884 "dyp.ml" 1575 50857 50895
 type(
@@ -21196,6 +21899,9 @@ ident(
   int_ref snnb "dyp.ml" 1574 50819 50825 "dyp.ml" 1574 50819 50829
 )
 "dyp.ml" 1575 50857 50868 "dyp.ml" 1575 50857 50910
+call(
+  stack
+)
 type(
   unit
 )
@@ -21211,6 +21917,9 @@ type(
   unit
 )
 "dyp.ml" 1575 50857 50914 "dyp.ml" 1575 50857 50926
+call(
+  stack
+)
 type(
   unit
 )
@@ -21260,7 +21969,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1578 50973 50993 "dyp.ml" 1578 50973 51004
 type(
@@ -21282,6 +21991,9 @@ ident(
   int_ref ednb "dyp.ml" 1577 50940 50950 "dyp.ml" 1577 50940 50954
 )
 "dyp.ml" 1578 50973 50977 "dyp.ml" 1578 50973 51015
+call(
+  tail
+)
 type(
   unit
 )
@@ -21315,6 +22027,9 @@ ident(
   int_ref p "dyp.ml" 1573 50797 50815 "dyp.ml" 1573 50797 50816
 )
 "dyp.ml" 1580 51021 51032 "dyp.ml" 1580 51021 51045
+call(
+  stack
+)
 type(
   unit
 )
@@ -21330,7 +22045,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1581 51049 51067 "dyp.ml" 1581 51049 51078
 type(
@@ -21345,6 +22060,9 @@ type(
   (unit, out_channel, unit) format
 )
 "dyp.ml" 1581 51049 51051 "dyp.ml" 1581 51049 51083
+call(
+  tail
+)
 type(
   unit
 )
@@ -21626,6 +22344,9 @@ type(
   Aut_param.lhs
 )
 "dyp.ml" 1590 51451 51493 "dyp.ml" 1590 51451 51523
+call(
+  stack
+)
 type(
   int
 )
@@ -21676,6 +22397,9 @@ ident(
   int_ref rn "dyp.ml" 1587 51284 51307 "dyp.ml" 1587 51284 51309
 )
 "dyp.ml" 1591 51527 51547 "dyp.ml" 1591 51527 51571
+call(
+  stack
+)
 type(
   ((('n5, 'o5, 'p5) vertex_lab, 'q5 * int) Gs.edge list * int) list
 )
@@ -21761,7 +22485,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1593 51611 51670 "dyp.ml" 1593 51611 51677
 type(
@@ -21786,6 +22510,9 @@ ident(
   int_ref p "dyp.ml" 1592 51575 51602 "dyp.ml" 1592 51575 51603
 )
 "dyp.ml" 1593 51611 51624 "dyp.ml" 1593 51611 51680
+call(
+  stack
+)
 type(
   bool
 )
@@ -21798,7 +22525,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1594 51686 51711 "dyp.ml" 1594 51686 51725
 type(
@@ -21813,7 +22540,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1594 51686 51726 "dyp.ml" 1594 51686 51727
 type(
@@ -21846,6 +22573,9 @@ ident(
   int_ref p "dyp.ml" 1592 51575 51602 "dyp.ml" 1592 51575 51603
 )
 "dyp.ml" 1594 51686 51733 "dyp.ml" 1594 51686 51748
+call(
+  stack
+)
 type(
   unit
 )
@@ -21948,6 +22678,9 @@ type(
   (('n5, 'o5, 'p5) vertex_lab, 'q5 * int) path * (int * Gr.rhs) * ('r5 * int)
 )
 "dyp.ml" 1595 51760 51772 "dyp.ml" 1595 51760 51837
+call(
+  tail
+)
 type(
   (((('n5, 'o5, 'p5) vertex_lab, 'q5 * int) Gs.vertex *
     (('n5, 'o5, 'p5) vertex_lab, 'q5 * int) Gs.edge list * int) *
@@ -22035,6 +22768,9 @@ ident(
   int_ref paths "dyp.ml" 1591 51527 51539 "dyp.ml" 1591 51527 51544
 )
 "dyp.ml" 1599 51933 51941 "dyp.ml" 1599 51933 51975
+call(
+  tail
+)
 type(
   (((('n5, 'o5, 'p5) vertex_lab, 'q5 * int) Gs.vertex *
     (('n5, 'o5, 'p5) vertex_lab, 'q5 * int) Gs.edge list * int) *
@@ -22138,6 +22874,9 @@ type(
   (int * Gr.TNS.t) list
 )
 "dyp.ml" 1602 52007 52011 "dyp.ml" 1602 52007 52067
+call(
+  tail
+)
 type(
   (((('n5, 'o5, 'p5) vertex_lab, 'q5 * int) Gs.vertex *
     (('n5, 'o5, 'p5) vertex_lab, 'q5 * int) Gs.edge list * int) *
@@ -22215,6 +22954,9 @@ ident(
   int_ref topmost "dyp.ml" 1583 51085 51129 "dyp.ml" 1583 51085 51136
 )
 "dyp.ml" 1604 52073 52075 "dyp.ml" 1604 52073 52111
+call(
+  tail
+)
 type(
   (((('f5, 'g5, 'h5) vertex_lab, 'i5 * int) Gs.vertex *
     (('f5, 'g5, 'h5) vertex_lab, 'i5 * int) Gs.edge list * int) *
@@ -22433,6 +23175,9 @@ type(
   Aut_param.lhs
 )
 "dyp.ml" 1632 53273 53313 "dyp.ml" 1632 53273 53343
+call(
+  stack
+)
 type(
   int
 )
@@ -22483,6 +23228,9 @@ ident(
   int_ref rn "dyp.ml" 1629 53110 53131 "dyp.ml" 1629 53110 53133
 )
 "dyp.ml" 1633 53347 53365 "dyp.ml" 1633 53347 53389
+call(
+  stack
+)
 type(
   ((('s5, 't5, 'u5) vertex_lab, 'v5 * int) Gs.edge list * int) list
 )
@@ -22535,7 +23283,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1635 53427 53448 "dyp.ml" 1635 53427 53462
 type(
@@ -22550,7 +23298,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1635 53427 53463 "dyp.ml" 1635 53427 53464
 type(
@@ -22583,6 +23331,9 @@ ident(
   int_ref p "dyp.ml" 1634 53393 53418 "dyp.ml" 1634 53393 53419
 )
 "dyp.ml" 1635 53427 53470 "dyp.ml" 1635 53427 53485
+call(
+  stack
+)
 type(
   unit
 )
@@ -22685,6 +23436,9 @@ type(
   (('s5, 't5, 'u5) vertex_lab, 'v5 * int) path * (int * Gr.rhs) * ('y5 * int)
 )
 "dyp.ml" 1636 53497 53505 "dyp.ml" 1636 53497 53570
+call(
+  tail
+)
 type(
   (((('s5, 't5, 'u5) vertex_lab, 'v5 * int) Gs.vertex *
     (('s5, 't5, 'u5) vertex_lab, 'v5 * int) Gs.edge list * int) *
@@ -22755,6 +23509,9 @@ ident(
   int_ref paths "dyp.ml" 1633 53347 53357 "dyp.ml" 1633 53347 53362
 )
 "dyp.ml" 1639 53636 53642 "dyp.ml" 1639 53636 53676
+call(
+  tail
+)
 type(
   (((('s5, 't5, 'u5) vertex_lab, 'v5 * int) Gs.vertex *
     (('s5, 't5, 'u5) vertex_lab, 'v5 * int) Gs.edge list * int) *
@@ -22858,6 +23615,9 @@ type(
   (int * Gr.TNS.t) list
 )
 "dyp.ml" 1642 53704 53706 "dyp.ml" 1642 53704 53762
+call(
+  tail
+)
 type(
   (((('s5, 't5, 'u5) vertex_lab, 'v5 * int) Gs.vertex *
     (('s5, 't5, 'u5) vertex_lab, 'v5 * int) Gs.edge list * int) *
@@ -23073,7 +23833,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1673 55033 55051 "dyp.ml" 1673 55033 55056
 type(
@@ -23091,7 +23851,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1673 55033 55060 "dyp.ml" 1673 55033 55074
 type(
@@ -23109,7 +23869,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1673 55033 55082 "dyp.ml" 1673 55033 55094
 type(
@@ -23127,7 +23887,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1674 55098 55109 "dyp.ml" 1674 55098 55119
 type(
@@ -23159,6 +23919,9 @@ ident(
   int_ref data_rightSib "dyp.ml" 1665 54689 54735 "dyp.ml" 1665 54689 54748
 )
 "dyp.ml" 1674 55098 55108 "dyp.ml" 1674 55098 55172
+call(
+  stack
+)
 type(
   bool
 )
@@ -23167,7 +23930,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1675 55176 55187 "dyp.ml" 1675 55176 55197
 type(
@@ -23199,6 +23962,9 @@ ident(
   int_ref local_data_rightSib "dyp.ml" 1665 54689 54749 "dyp.ml" 1665 54689 54768
 )
 "dyp.ml" 1675 55176 55186 "dyp.ml" 1675 55176 55261
+call(
+  stack
+)
 type(
   bool
 )
@@ -23207,7 +23973,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1676 55265 55276 "dyp.ml" 1676 55265 55290
 type(
@@ -23231,6 +23997,9 @@ ident(
   int_ref sn_prio_imp "dyp.ml" 1669 54876 54910 "dyp.ml" 1669 54876 54921
 )
 "dyp.ml" 1676 55265 55275 "dyp.ml" 1676 55265 55312
+call(
+  stack
+)
 type(
   bool
 )
@@ -23273,6 +24042,9 @@ ident(
   int_ref tl "dyp.ml" 1668 54860 54870 "dyp.ml" 1668 54860 54872
 )
 "dyp.ml" 1678 55329 55342 "dyp.ml" 1678 55329 55348
+call(
+  tail
+)
 type(
   (('d6, 'z5, 'a6) vertex_lab, 'e6) Gs.vertex
 )
@@ -23304,6 +24076,9 @@ ident(
   int_ref snl "dyp.ml" 1665 54689 54769 "dyp.ml" 1665 54689 54772
 )
 "dyp.ml" 1680 55354 55356 "dyp.ml" 1680 55354 55363
+call(
+  tail
+)
 type(
   (('b6, 'z5, 'a6) vertex_lab, 'c6) Gs.vertex
 )
@@ -23334,7 +24109,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1694 55737 55751 "dyp.ml" 1694 55737 55768
 type(
@@ -23488,6 +24263,9 @@ type(
   string
 )
 "dyp.ml" 1704 56170 56172 "dyp.ml" 1704 56170 56231
+call(
+  stack
+)
 type(
   unit
 )
@@ -23537,6 +24315,9 @@ ident(
   int_ref last_token "dyp.ml" 1696 55831 55875 "dyp.ml" 1696 55831 55885
 )
 "dyp.ml" 1705 56233 56244 "dyp.ml" 1705 56233 56343
+call(
+  stack
+)
 type(
   unit
 )
@@ -23559,6 +24340,9 @@ type(
   string
 )
 "dyp.ml" 1706 56347 56349 "dyp.ml" 1706 56347 56372
+call(
+  stack
+)
 type(
   unit
 )
@@ -23615,6 +24399,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1703 56120 56126 "dyp.ml" 1703 56120 56137
 )
 "dyp.ml" 1708 56417 56419 "dyp.ml" 1708 56417 56483
+call(
+  stack
+)
 type(
   unit
 )
@@ -23648,6 +24435,9 @@ ident(
   int_ref v "dyp.ml" 1695 55772 55791 "dyp.ml" 1695 55772 55792
 )
 "dyp.ml" 1709 56485 56496 "dyp.ml" 1709 56485 56540
+call(
+  stack
+)
 type(
   unit
 )
@@ -23670,6 +24460,9 @@ type(
   string
 )
 "dyp.ml" 1710 56544 56546 "dyp.ml" 1710 56544 56569
+call(
+  stack
+)
 type(
   unit
 )
@@ -23692,6 +24485,9 @@ type(
   string
 )
 "dyp.ml" 1711 56571 56573 "dyp.ml" 1711 56571 56614
+call(
+  stack
+)
 type(
   unit
 )
@@ -23739,6 +24535,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 1703 56120 56126 "dyp.ml" 1703 56120 56137
 )
 "dyp.ml" 1712 56616 56618 "dyp.ml" 1712 56616 56677
+call(
+  stack
+)
 type(
   unit
 )
@@ -23811,6 +24610,9 @@ ident(
   int_ref ed "dyp.ml" 1713 56679 56691 "dyp.ml" 1713 56679 56693
 )
 "dyp.ml" 1715 56730 56770 "dyp.ml" 1715 56730 56775
+call(
+  stack
+)
 type(
   ('l6, 'm6, 'n6) vertex_lab
 )
@@ -23856,6 +24658,9 @@ ident(
   int_ref v "dyp.ml" 1715 56730 56751 "dyp.ml" 1715 56730 56752
 )
 "dyp.ml" 1716 56779 56783 "dyp.ml" 1716 56779 56838
+call(
+  tail
+)
 type(
   unit
 )
@@ -23886,6 +24691,9 @@ type(
   string
 )
 "dyp.ml" 1718 56844 56846 "dyp.ml" 1718 56844 56869
+call(
+  stack
+)
 type(
   unit
 )
@@ -23908,6 +24716,9 @@ type(
   string
 )
 "dyp.ml" 1719 56871 56873 "dyp.ml" 1719 56871 56922
+call(
+  stack
+)
 type(
   unit
 )
@@ -23930,6 +24741,9 @@ type(
   string
 )
 "dyp.ml" 1723 57035 57037 "dyp.ml" 1723 57035 57084
+call(
+  stack
+)
 type(
   unit
 )
@@ -23982,6 +24796,9 @@ type(
   ('f6, 'g6, 'h6) vertex_lab
 )
 "dyp.ml" 1724 57086 57107 "dyp.ml" 1724 57086 57142
+call(
+  stack
+)
 type(
   (('f6, 'g6, 'h6) vertex_lab, 'i6 * int) Gs.edge -> unit
 )
@@ -23997,6 +24814,9 @@ type(
   (('f6, 'g6, 'h6) vertex_lab, 'i6 * int) Gs.edge list
 )
 "dyp.ml" 1724 57086 57097 "dyp.ml" 1724 57086 57156
+call(
+  stack
+)
 type(
   unit
 )
@@ -24019,6 +24839,9 @@ type(
   string
 )
 "dyp.ml" 1725 57160 57162 "dyp.ml" 1725 57160 57185
+call(
+  tail
+)
 type(
   unit
 )
@@ -24259,14 +25082,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 1737 57416 57430 "dyp.ml" 1737 57416 57431
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1737 57416 57431 "dyp.ml" 1737 57416 57439
 type(
@@ -24284,7 +25107,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1737 57416 57442 "dyp.ml" 1737 57416 57443
 type(
@@ -24457,6 +25280,9 @@ type(
   string array
 )
 "dyp.ml" 1741 57620 57624 "dyp.ml" 1747 57782 57825
+call(
+  stack
+)
 type(
   F.prio_imprint * bool
 )
@@ -24472,7 +25298,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1753 58035 58042 "dyp.ml" 1753 58035 58047
 type(
@@ -24597,6 +25423,9 @@ ident(
   int_ref data_equal "dyp.ml" 1735 57300 57352 "dyp.ml" 1735 57300 57362
 )
 "dyp.ml" 1769 58613 58619 "dyp.ml" 1770 58672 58742
+call(
+  stack
+)
 type(
   (('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.vertex
 )
@@ -24706,6 +25535,9 @@ ident(
   int_ref leftSib "dyp.ml" 1772 58750 58784 "dyp.ml" 1772 58750 58791
 )
 "dyp.ml" 1775 58870 58892 "dyp.ml" 1775 58870 58925
+call(
+  stack
+)
 type(
   bool
 )
@@ -24732,6 +25564,9 @@ ident(
   int_ref tl "dyp.ml" 1775 58870 58883 "dyp.ml" 1775 58870 58885
 )
 "dyp.ml" 1775 58870 58938 "dyp.ml" 1775 58870 58944
+call(
+  tail
+)
 type(
   (('b7, 'c7, 'd7) vertex_lab, 'e7) Gs.edge
 )
@@ -24763,6 +25598,9 @@ type(
   (('t6, 'u6, 'v6) vertex_lab, 'w6) Gs.edge list
 )
 "dyp.ml" 1777 58954 58960 "dyp.ml" 1777 58954 58983
+call(
+  tail
+)
 type(
   (('t6, 'u6, 'v6) vertex_lab, 'w6) Gs.edge
 )
@@ -24801,6 +25639,9 @@ ident(
   int_ref leftSib "dyp.ml" 1734 57231 57278 "dyp.ml" 1734 57231 57285
 )
 "dyp.ml" 1780 58999 59016 "dyp.ml" 1780 58999 59049
+call(
+  stack
+)
 type(
   (('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.edge
 )
@@ -24877,7 +25718,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1785 59264 59275 "dyp.ml" 1785 59264 59289
 type(
@@ -24892,7 +25733,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1785 59264 59290 "dyp.ml" 1785 59264 59291
 type(
@@ -24907,7 +25748,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 1785 59264 59295 "dyp.ml" 1785 59264 59310
 type(
@@ -24925,7 +25766,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1785 59264 59315 "dyp.ml" 1785 59264 59327
 type(
@@ -24939,7 +25780,7 @@ type(
   'o6 list -> 'o6 list -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 1785 59264 59329 "dyp.ml" 1785 59264 59331
 type(
@@ -24992,7 +25833,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1787 59385 59425 "dyp.ml" 1787 59385 59434
 type(
@@ -25029,7 +25870,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 1788 59446 59484 "dyp.ml" 1788 59446 59491
 type(
@@ -25061,7 +25902,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1789 59503 59527 "dyp.ml" 1789 59503 59538
 type(
@@ -25103,6 +25944,9 @@ type(
   string array
 )
 "dyp.ml" 1790 59631 59639 "dyp.ml" 1790 59631 59686
+call(
+  stack
+)
 type(
   string
 )
@@ -25121,6 +25965,9 @@ ident(
   int_ref prio "dyp.ml" 1735 57300 57338 "dyp.ml" 1735 57300 57342
 )
 "dyp.ml" 1791 59687 59695 "dyp.ml" 1791 59687 59719
+call(
+  stack
+)
 type(
   string
 )
@@ -25172,6 +26019,9 @@ ident(
   int_ref col2 "dyp.ml" 1788 59446 59458 "dyp.ml" 1788 59446 59462
 )
 "dyp.ml" 1789 59503 59511 "dyp.ml" 1792 59759 59793
+call(
+  stack
+)
 type(
   unit
 )
@@ -25220,6 +26070,9 @@ ident(
   int_ref nt "dyp.ml" 1735 57300 57325 "dyp.ml" 1735 57300 57327
 )
 "dyp.ml" 1793 59796 59830 "dyp.ml" 1793 59796 59848
+call(
+  stack
+)
 type(
   Nt_map.key
 )
@@ -25235,6 +26088,9 @@ type(
   'o6 merge_map
 )
 "dyp.ml" 1793 59796 59818 "dyp.ml" 1793 59796 59872
+call(
+  stack
+)
 type(
   'o6 merge_function
 )
@@ -25286,6 +26142,9 @@ ident(
   int_ref new_obj "dyp.ml" 1735 57300 57315 "dyp.ml" 1735 57300 57322
 )
 "dyp.ml" 1795 59929 59954 "dyp.ml" 1795 59929 59980
+call(
+  stack
+)
 type(
   'o6 list
 )
@@ -25477,6 +26336,9 @@ ident(
   int_ref leftSib "dyp.ml" 1734 57231 57278 "dyp.ml" 1734 57231 57285
 )
 "dyp.ml" 1801 60215 60232 "dyp.ml" 1801 60215 60289
+call(
+  stack
+)
 type(
   (('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.edge
 )
@@ -25485,7 +26347,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1802 60293 60304 "dyp.ml" 1802 60293 60318
 type(
@@ -25500,7 +26362,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1802 60293 60319 "dyp.ml" 1802 60293 60320
 type(
@@ -25523,7 +26385,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1803 60327 60351 "dyp.ml" 1803 60327 60368
 type(
@@ -25568,6 +26430,9 @@ type(
   int
 )
 "dyp.ml" 1803 60327 60335 "dyp.ml" 1804 60404 60468
+call(
+  stack
+)
 type(
   unit
 )
@@ -25602,7 +26467,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1805 60470 60533 "dyp.ml" 1805 60470 60534
 type(
@@ -25680,6 +26545,9 @@ ident(
   int_ref dummy_token_name "dyp.ml" 1736 57363 57367 "dyp.ml" 1736 57363 57383
 )
 "dyp.ml" 1807 60561 60569 "dyp.ml" 1808 60617 60643
+call(
+  stack
+)
 type(
   (((('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.vertex *
     (('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.edge list * int) *
@@ -25852,6 +26720,9 @@ type(
   ('o6, 'p6, 'q6) vertex_lab
 )
 "dyp.ml" 1814 60826 60845 "dyp.ml" 1821 61051 61082
+call(
+  stack
+)
 type(
   (('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.vertex
 )
@@ -25910,6 +26781,9 @@ ident(
   int_ref leftSib "dyp.ml" 1734 57231 57278 "dyp.ml" 1734 57231 57285
 )
 "dyp.ml" 1823 61090 61102 "dyp.ml" 1823 61090 61159
+call(
+  stack
+)
 type(
   (('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.edge
 )
@@ -25918,7 +26792,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1824 61163 61171 "dyp.ml" 1824 61163 61185
 type(
@@ -25933,7 +26807,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1824 61163 61186 "dyp.ml" 1824 61163 61187
 type(
@@ -25958,6 +26832,9 @@ ident(
   int_ref rightSib "dyp.ml" 1814 60826 60834 "dyp.ml" 1814 60826 60842
 )
 "dyp.ml" 1824 61163 61193 "dyp.ml" 1824 61163 61210
+call(
+  stack
+)
 type(
   unit
 )
@@ -25992,7 +26869,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1826 61247 61280 "dyp.ml" 1826 61247 61281
 type(
@@ -26018,7 +26895,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1827 61283 61316 "dyp.ml" 1827 61283 61317
 type(
@@ -26110,6 +26987,9 @@ ident(
   int_ref dummy_token_name "dyp.ml" 1736 57363 57367 "dyp.ml" 1736 57363 57383
 )
 "dyp.ml" 1832 61418 61424 "dyp.ml" 1833 61469 61492
+call(
+  stack
+)
 type(
   (((('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.vertex *
     (('o6, 'p6, 'q6) vertex_lab, 'o6 list * int) Gs.edge list * int) *
@@ -26325,6 +27205,9 @@ type(
   (Lexing.position * Lexing.position) list
 )
 "dyp.ml" 1840 61606 61618 "dyp.ml" 1840 61606 61667
+call(
+  tail
+)
 type(
   (Lexing.position * Lexing.position) list
 )
@@ -26393,6 +27276,9 @@ ident(
   int_ref t "dyp.ml" 1841 61668 61677 "dyp.ml" 1841 61668 61678
 )
 "dyp.ml" 1841 61668 61682 "dyp.ml" 1841 61668 61724
+call(
+  tail
+)
 type(
   (Lexing.position * Lexing.position) list
 )
@@ -26429,10 +27315,16 @@ ident(
   int_ref p "dyp.ml" 1838 61539 61556 "dyp.ml" 1838 61539 61557
 )
 "dyp.ml" 1843 61730 61743 "dyp.ml" 1843 61730 61754
+call(
+  stack
+)
 type(
   (('f7, 'g7, 'h7) vertex_lab, 'i7) Gs.edge list
 )
 "dyp.ml" 1843 61730 61736 "dyp.ml" 1843 61730 61754
+call(
+  stack
+)
 type(
   (Lexing.position * Lexing.position) list
 )
@@ -26625,7 +27517,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1850 62065 62071 "dyp.ml" 1850 62065 62085
 type(
@@ -26640,7 +27532,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 1850 62065 62086 "dyp.ml" 1850 62065 62087
 type(
@@ -26662,7 +27554,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1851 62093 62114 "dyp.ml" 1851 62093 62125
 type(
@@ -26692,6 +27584,9 @@ type(
   int
 )
 "dyp.ml" 1851 62093 62098 "dyp.ml" 1852 62168 62203
+call(
+  stack
+)
 type(
   unit
 )
@@ -26718,6 +27613,9 @@ ident(
   int_ref p "dyp.ml" 1848 61814 61866 "dyp.ml" 1848 61814 61867
 )
 "dyp.ml" 1853 62205 62209 "dyp.ml" 1853 62205 62232
+call(
+  stack
+)
 type(
   unit
 )
@@ -26733,6 +27631,9 @@ type(
   unit
 )
 "dyp.ml" 1854 62234 62238 "dyp.ml" 1854 62234 62250
+call(
+  stack
+)
 type(
   unit
 )
@@ -26871,6 +27772,9 @@ ident(
   int_ref start_node "dyp.ml" 1848 61814 61835 "dyp.ml" 1848 61814 61845
 )
 "dyp.ml" 1863 62536 62558 "dyp.ml" 1863 62536 62583
+call(
+  stack
+)
 type(
   (Lexing.position * Lexing.position) list
 )
@@ -26901,6 +27805,9 @@ ident(
   int_ref position_list "dyp.ml" 1863 62536 62542 "dyp.ml" 1863 62536 62555
 )
 "dyp.ml" 1864 62587 62616 "dyp.ml" 1864 62587 62639
+call(
+  stack
+)
 type(
   Lexing.position * Lexing.position
 )
@@ -26998,6 +27905,9 @@ ident(
   int_ref p "dyp.ml" 1848 61814 61866 "dyp.ml" 1848 61814 61867
 )
 "dyp.ml" 1870 62858 62865 "dyp.ml" 1870 62858 62878
+call(
+  stack
+)
 type(
   int
 )
@@ -27006,7 +27916,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1870 62858 62881 "dyp.ml" 1870 62858 62882
 type(
@@ -27039,6 +27949,9 @@ ident(
   int_ref p "dyp.ml" 1848 61814 61866 "dyp.ml" 1848 61814 61867
 )
 "dyp.ml" 1871 62899 62908 "dyp.ml" 1871 62899 62919
+call(
+  stack
+)
 type(
   (('r7, 's7, 't7) vertex_lab, 'r7 list * int) Gs.edge
 )
@@ -27207,6 +28120,9 @@ ident(
   int_ref tl "dyp.ml" 1882 63314 63323 "dyp.ml" 1882 63314 63325
 )
 "dyp.ml" 1882 63314 63342 "dyp.ml" 1882 63314 63357
+call(
+  stack
+)
 type(
   'x7 list list
 )
@@ -27331,6 +28247,9 @@ ident(
   int_ref obj_list "dyp.ml" 1883 63361 63373 "dyp.ml" 1883 63361 63381
 )
 "dyp.ml" 1888 63522 63532 "dyp.ml" 1888 63522 63569
+call(
+  tail
+)
 type(
   'x7 list list
 )
@@ -27369,6 +28288,9 @@ ident(
   int_ref obj_ll "dyp.ml" 1882 63314 63333 "dyp.ml" 1882 63314 63339
 )
 "dyp.ml" 1890 63581 63602 "dyp.ml" 1890 63581 63629
+call(
+  stack
+)
 type(
   'x7 list list
 )
@@ -27430,6 +28352,9 @@ ident(
   int_ref p "dyp.ml" 1848 61814 61866 "dyp.ml" 1848 61814 61867
 )
 "dyp.ml" 1894 63670 63685 "dyp.ml" 1894 63670 63699
+call(
+  stack
+)
 type(
   'r7 list list
 )
@@ -27501,6 +28426,9 @@ type(
   Aut_param.lhs
 )
 "dyp.ml" 1900 63924 63940 "dyp.ml" 1900 63924 63980
+call(
+  stack
+)
 type(
   non_ter
 )
@@ -27545,10 +28473,16 @@ type(
   Aut_param.lhs
 )
 "dyp.ml" 1901 63984 64008 "dyp.ml" 1901 63984 64049
+call(
+  stack
+)
 type(
   Gr.non_terminal
 )
 "dyp.ml" 1901 63984 63998 "dyp.ml" 1901 63984 64049
+call(
+  stack
+)
 type(
   int
 )
@@ -27868,6 +28802,9 @@ type(
   Aut_param.non_terminal array
 )
 "dyp.ml" 1910 64372 64385 "dyp.ml" 1919 64777 64821
+call(
+  stack
+)
 type(
   unit
 )
@@ -27930,6 +28867,9 @@ type(
   string array
 )
 "dyp.ml" 1922 64870 64883 "dyp.ml" 1925 64994 65040
+call(
+  tail
+)
 type(
   unit
 )
@@ -28030,6 +28970,9 @@ type(
   Dyp_special_types.debug_infos
 )
 "dyp.ml" 1928 65071 65085 "dyp.ml" 1932 65263 65300
+call(
+  stack
+)
 type(
   'r7 * bool * 's7 * Dyp_special_types.datadyn * 't7 *
   (rule * ('r7, 's7, 't7) Dyp_special_types.action) list * rule list *
@@ -28057,6 +29000,9 @@ ident(
   int_ref tl_ac_l "dyp.ml" 1908 64299 64328 "dyp.ml" 1908 64299 64335
 )
 "dyp.ml" 1933 65301 65327 "dyp.ml" 1933 65301 65346
+call(
+  tail
+)
 type(
   'r7 * bool * 's7 * Dyp_special_types.datadyn * 't7 *
   (rule * ('r7, 's7, 't7) Dyp_special_types.action) list * rule list *
@@ -28204,6 +29150,9 @@ ident(
   int_ref ac_l "dyp.ml" 1897 63762 63768 "dyp.ml" 1897 63762 63772
 )
 "dyp.ml" 1937 65454 65508 "dyp.ml" 1937 65454 65524
+call(
+  stack
+)
 type(
   'r7 * bool * 's7 * Dyp_special_types.datadyn * 't7 *
   (rule * ('r7, 's7, 't7) Dyp_special_types.action) list * rule list *
@@ -28264,6 +29213,9 @@ ident(
   int_ref new_obj "dyp.ml" 1936 65386 65396 "dyp.ml" 1936 65386 65403
 )
 "dyp.ml" 1940 65594 65603 "dyp.ml" 1940 65594 65633
+call(
+  stack
+)
 type(
   bool
 )
@@ -28272,7 +29224,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1940 65594 65636 "dyp.ml" 1940 65594 65641
 type(
@@ -28337,6 +29289,9 @@ type(
   string array
 )
 "dyp.ml" 1941 65647 65664 "dyp.ml" 1942 65698 65755
+call(
+  stack
+)
 type(
   string
 )
@@ -28396,6 +29351,9 @@ type(
   Dyp_special_types.datadyn
 )
 "dyp.ml" 1944 65767 65790 "dyp.ml" 1945 65804 65869
+call(
+  stack
+)
 type(
   int * string
 )
@@ -28435,6 +29393,9 @@ ident(
   int_ref new_obj "dyp.ml" 1936 65386 65396 "dyp.ml" 1936 65386 65403
 )
 "dyp.ml" 1973 67032 67071 "dyp.ml" 1973 67032 67089
+call(
+  stack
+)
 type(
   string
 )
@@ -28523,7 +29484,7 @@ type(
   (rule * ('r7, 's7, 't7) Dyp_special_types.action) list -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1976 67173 67193 "dyp.ml" 1976 67173 67195
 type(
@@ -28538,7 +29499,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1976 67173 67199 "dyp.ml" 1976 67173 67207
 type(
@@ -28552,7 +29513,7 @@ type(
   rule list -> rule list -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1976 67173 67208 "dyp.ml" 1976 67173 67210
 type(
@@ -28567,7 +29528,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1976 67173 67214 "dyp.ml" 1976 67173 67221
 type(
@@ -28581,7 +29542,7 @@ type(
   priority_data -> priority_data -> bool
 )
 ident(
-  ext_ref Pervasives.==
+  ext_ref Pervasives.( == )
 )
 "dyp.ml" 1976 67173 67223 "dyp.ml" 1976 67173 67231
 type(
@@ -28624,6 +29585,9 @@ ident(
   int_ref tns "dyp.ml" 1848 61814 61907 "dyp.ml" 1848 61814 61910
 )
 "dyp.ml" 1977 67237 67251 "dyp.ml" 1977 67237 67264
+call(
+  stack
+)
 type(
   bool
 )
@@ -28632,7 +29596,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1977 67237 67267 "dyp.ml" 1977 67237 67272
 type(
@@ -28647,7 +29611,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1977 67237 67276 "dyp.ml" 1977 67237 67283
 type(
@@ -28671,6 +29635,9 @@ ident(
   int_ref tns "dyp.ml" 1848 61814 61907 "dyp.ml" 1848 61814 61910
 )
 "dyp.ml" 1977 67237 67276 "dyp.ml" 1977 67237 67304
+call(
+  stack
+)
 type(
   bool
 )
@@ -28679,7 +29646,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 1977 67237 67307 "dyp.ml" 1977 67237 67312
 type(
@@ -28694,14 +29661,14 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 1978 67314 67329 "dyp.ml" 1978 67314 67330
 type(
   Dyp_special_types.automaton_kind ref -> Dyp_special_types.automaton_kind
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 1978 67314 67330 "dyp.ml" 1978 67314 67344
 type(
@@ -28720,7 +29687,7 @@ type(
   Dyp_special_types.automaton_kind -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 1978 67314 67346 "dyp.ml" 1978 67314 67350
 type(
@@ -29001,7 +29968,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1990 67896 67928 "dyp.ml" 1990 67896 67929
 type(
@@ -29045,6 +30012,9 @@ type(
   (Int_map.key * Gr.TNS.t) list
 )
 "dyp.ml" 1988 67765 67777 "dyp.ml" 1990 67896 67969
+call(
+  stack
+)
 type(
   ('r7, 's7, 't7) parsing_device * Int_map.key Int_map.t
 )
@@ -29090,7 +30060,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 1993 68010 68063 "dyp.ml" 1993 68010 68064
 type(
@@ -29157,6 +30127,9 @@ ident(
   int_ref rn_map "dyp.ml" 1985 67595 67624 "dyp.ml" 1985 67595 67630
 )
 "dyp.ml" 1994 68068 68078 "dyp.ml" 1995 68123 68166
+call(
+  stack
+)
 type(
   F.prio_imprint * F.item_set
 )
@@ -29318,6 +30291,9 @@ type(
   Aut_param.non_terminal array
 )
 "dyp.ml" 2000 68245 68258 "dyp.ml" 2008 68568 68606
+call(
+  stack
+)
 type(
   unit
 )
@@ -29399,6 +30375,9 @@ type(
   string array
 )
 "dyp.ml" 2012 68678 68691 "dyp.ml" 2015 68787 68827
+call(
+  stack
+)
 type(
   unit
 )
@@ -29595,6 +30574,9 @@ ident(
   int_ref first_token "dyp.ml" 1858 62367 62373 "dyp.ml" 1858 62367 62384
 )
 "dyp.ml" 2018 68882 68890 "dyp.ml" 2021 69063 69100
+call(
+  stack
+)
 type(
   (((('r7, 's7, 't7) vertex_lab, 'r7 list * int) Gs.vertex *
     (('r7, 's7, 't7) vertex_lab, 'r7 list * int) Gs.edge list * int) *
@@ -29631,7 +30613,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 2023 69110 69156 "dyp.ml" 2023 69110 69166
 type(
@@ -29863,6 +30845,9 @@ ident(
   int_ref obj_ll "dyp.ml" 1894 63670 63676 "dyp.ml" 1894 63670 63682
 )
 "dyp.ml" 2026 69247 69249 "dyp.ml" 2026 69247 69318
+call(
+  tail
+)
 type(
   (((('r7, 's7, 't7) vertex_lab, 'r7 list * int) Gs.vertex *
     (('r7, 's7, 't7) vertex_lab, 'r7 list * int) Gs.edge list * int) *
@@ -30242,6 +31227,9 @@ type(
   Aut_param.lhs
 )
 "dyp.ml" 2041 69791 69807 "dyp.ml" 2041 69791 69837
+call(
+  stack
+)
 type(
   int
 )
@@ -30250,7 +31238,7 @@ type(
   Dyp_special_types.automaton_kind ref -> Dyp_special_types.automaton_kind
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2043 69850 69860 "dyp.ml" 2043 69850 69874
 type(
@@ -30269,7 +31257,7 @@ type(
   Dyp_special_types.automaton_kind -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2043 69850 69875 "dyp.ml" 2043 69850 69879
 type(
@@ -30284,7 +31272,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 2043 69850 69883 "dyp.ml" 2043 69850 69884
 type(
@@ -30298,7 +31286,7 @@ type(
   token_name -> token_name -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 2043 69850 69886 "dyp.ml" 2043 69850 69902
 type(
@@ -30316,7 +31304,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 2044 69906 69915 "dyp.ml" 2044 69906 69919
 type(
@@ -30345,7 +31333,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2044 69906 69942 "dyp.ml" 2044 69906 69953
 type(
@@ -30363,7 +31351,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 2045 69957 69966 "dyp.ml" 2045 69957 69967
 type(
@@ -30377,7 +31365,7 @@ type(
   token_name -> token_name -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2045 69957 69968 "dyp.ml" 2045 69957 69984
 type(
@@ -30395,7 +31383,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 2045 69957 69988 "dyp.ml" 2045 69957 69995
 type(
@@ -30419,6 +31407,9 @@ ident(
   int_ref tns "dyp.ml" 2040 69758 69784 "dyp.ml" 2040 69758 69787
 )
 "dyp.ml" 2045 69957 69988 "dyp.ml" 2045 69957 70001
+call(
+  stack
+)
 type(
   bool
 )
@@ -30578,10 +31569,16 @@ ident(
   int_ref rn "dyp.ml" 2040 69758 69781 "dyp.ml" 2040 69758 69783
 )
 "dyp.ml" 2059 70622 70634 "dyp.ml" 2059 70622 70660
+call(
+  stack
+)
 type(
   ((('c8, 'd8, 'e8) vertex_lab, 'f8 * 'g8) Gs.edge list * int) list
 )
 "dyp.ml" 2058 70572 70582 "dyp.ml" 2059 70622 70660
+call(
+  stack
+)
 type(
   ((('c8, 'd8, 'e8) vertex_lab, 'f8 * 'g8) Gs.vertex *
    (('c8, 'd8, 'e8) vertex_lab, 'f8 * 'g8) Gs.edge list * int)
@@ -30694,6 +31691,9 @@ type(
   (Gr.TNS.t * int)
 )
 "dyp.ml" 2062 70702 70712 "dyp.ml" 2062 70702 70768
+call(
+  tail
+)
 type(
   (((('h8, 'i8, 'j8) vertex_lab, 'k8 * 'l8) Gs.vertex *
     (('h8, 'i8, 'j8) vertex_lab, 'k8 * 'l8) Gs.edge list * int) *
@@ -30757,6 +31757,9 @@ ident(
   int_ref paths "dyp.ml" 2057 70552 70564 "dyp.ml" 2057 70552 70569
 )
 "dyp.ml" 2065 70829 70837 "dyp.ml" 2065 70829 70871
+call(
+  tail
+)
 type(
   (((('c8, 'd8, 'e8) vertex_lab, 'f8 * 'g8) Gs.vertex *
     (('c8, 'd8, 'e8) vertex_lab, 'f8 * 'g8) Gs.edge list * int) *
@@ -30884,6 +31887,9 @@ type(
   (int * Gr.TNS.t) list
 )
 "dyp.ml" 2069 70904 70908 "dyp.ml" 2069 70904 70968
+call(
+  tail
+)
 type(
   (((('c8, 'd8, 'e8) vertex_lab, 'f8 * 'g8) Gs.vertex *
     (('c8, 'd8, 'e8) vertex_lab, 'f8 * 'g8) Gs.edge list * int) *
@@ -30965,6 +31971,9 @@ ident(
   int_ref topmost "dyp.ml" 2031 69355 69395 "dyp.ml" 2031 69355 69402
 )
 "dyp.ml" 2072 70977 70994 "dyp.ml" 2072 70977 71045
+call(
+  stack
+)
 type(
   (((('z7, 'a8, 'b8) vertex_lab, 'z7 list * int) Gs.vertex *
     (('z7, 'a8, 'b8) vertex_lab, 'z7 list * int) Gs.edge list * int) *
@@ -31210,6 +32219,9 @@ ident(
   int_ref str_cons "dyp.ml" 2032 69427 69490 "dyp.ml" 2032 69427 69498
 )
 "dyp.ml" 2080 71285 71297 "dyp.ml" 2081 71354 71403
+call(
+  stack
+)
 type(
   (((('z7, 'a8, 'b8) vertex_lab, 'z7 list * int) Gs.vertex *
     (('z7, 'a8, 'b8) vertex_lab, 'z7 list * int) Gs.edge list * int) *
@@ -31229,7 +32241,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2083 71417 71443 "dyp.ml" 2083 71417 71448
 type(
@@ -31318,7 +32330,7 @@ type(
   (('z7, 'a8, 'b8) vertex_lab, 'z7 list * int) Gs.vertex -> bool
 )
 ident(
-  ext_ref Pervasives.!=
+  ext_ref Pervasives.( != )
 )
 "dyp.ml" 2085 71491 71547 "dyp.ml" 2085 71491 71549
 type(
@@ -31343,6 +32355,9 @@ ident(
   int_ref topmost "dyp.ml" 2079 71225 71255 "dyp.ml" 2079 71225 71262
 )
 "dyp.ml" 2085 71491 71517 "dyp.ml" 2085 71491 71558
+call(
+  stack
+)
 type(
   (('z7, 'a8, 'b8) vertex_lab, 'z7 list * int) Gs.vertex list
 )
@@ -31480,6 +32495,9 @@ ident(
   int_ref counters "dyp.ml" 2078 71178 71214 "dyp.ml" 2078 71178 71222
 )
 "dyp.ml" 2089 71666 71674 "dyp.ml" 2089 71666 71711
+call(
+  tail
+)
 type(
   (('z7, 'a8, 'b8) vertex_lab, 'z7 list * int) Gs.vertex list * counters
 )
@@ -31529,6 +32547,9 @@ ident(
   int_ref counters "dyp.ml" 2032 69427 69443 "dyp.ml" 2032 69427 69451
 )
 "dyp.ml" 2091 71717 71719 "dyp.ml" 2091 71717 71756
+call(
+  tail
+)
 type(
   (('z7, 'a8, 'b8) vertex_lab, 'z7 list * int) Gs.vertex list * counters
 )
@@ -31767,7 +32788,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2106 72264 72284 "dyp.ml" 2106 72264 72286
 type(
@@ -31924,6 +32945,9 @@ type(
   string array
 )
 "dyp.ml" 2109 72347 72353 "dyp.ml" 2112 72521 72581
+call(
+  stack
+)
 type(
   F.prio_imprint * bool
 )
@@ -31939,7 +32963,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2114 72589 72598 "dyp.ml" 2114 72589 72603
 type(
@@ -32050,6 +33074,9 @@ ident(
   int_ref data_equal "dyp.ml" 2097 71834 71870 "dyp.ml" 2097 71834 71880
 )
 "dyp.ml" 2117 72667 72675 "dyp.ml" 2118 72729 72801
+call(
+  stack
+)
 type(
   (('r8, 'o8, 'p8) vertex_lab, 'm8 list * int) Gs.vertex
 )
@@ -32108,6 +33135,9 @@ ident(
   int_ref sn "dyp.ml" 2099 71990 72024 "dyp.ml" 2099 71990 72026
 )
 "dyp.ml" 2120 72811 72825 "dyp.ml" 2120 72811 72879
+call(
+  stack
+)
 type(
   (('r8, 'o8, 'p8) vertex_lab, 'm8 list * int) Gs.edge
 )
@@ -32116,7 +33146,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2121 72883 72894 "dyp.ml" 2121 72883 72908
 type(
@@ -32131,7 +33161,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2121 72883 72909 "dyp.ml" 2121 72883 72910
 type(
@@ -32154,7 +33184,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2122 72917 72941 "dyp.ml" 2122 72917 72958
 type(
@@ -32199,6 +33229,9 @@ type(
   int
 )
 "dyp.ml" 2122 72917 72925 "dyp.ml" 2123 72994 73053
+call(
+  stack
+)
 type(
   unit
 )
@@ -32236,7 +33269,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2124 73055 73118 "dyp.ml" 2124 73055 73119
 type(
@@ -32341,7 +33374,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 2131 73319 73362 "dyp.ml" 2131 73319 73363
 type(
@@ -32377,6 +33410,9 @@ ident(
   int_ref lexbuf "dyp.ml" 2097 71834 71854 "dyp.ml" 2097 71834 71860
 )
 "dyp.ml" 2133 73408 73428 "dyp.ml" 2133 73408 73450
+call(
+  stack
+)
 type(
   Lexing.position * Lexing.position
 )
@@ -32392,6 +33428,9 @@ type(
   ('r8, 'o8, 'p8) vertex_lab
 )
 "dyp.ml" 2127 73188 73209 "dyp.ml" 2134 73452 73485
+call(
+  stack
+)
 type(
   (('r8, 'o8, 'p8) vertex_lab, 'm8 list * int) Gs.vertex
 )
@@ -32450,6 +33489,9 @@ ident(
   int_ref sn "dyp.ml" 2099 71990 72024 "dyp.ml" 2099 71990 72026
 )
 "dyp.ml" 2136 73495 73509 "dyp.ml" 2136 73495 73563
+call(
+  stack
+)
 type(
   (('r8, 'o8, 'p8) vertex_lab, 'm8 list * int) Gs.edge
 )
@@ -32458,7 +33500,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2137 73567 73577 "dyp.ml" 2137 73567 73591
 type(
@@ -32473,7 +33515,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2137 73567 73592 "dyp.ml" 2137 73567 73593
 type(
@@ -32498,6 +33540,9 @@ ident(
   int_ref rightSib "dyp.ml" 2127 73188 73198 "dyp.ml" 2127 73188 73206
 )
 "dyp.ml" 2137 73567 73599 "dyp.ml" 2137 73567 73616
+call(
+  stack
+)
 type(
   unit
 )
@@ -32532,7 +33577,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2139 73655 73690 "dyp.ml" 2139 73655 73691
 type(
@@ -32558,7 +33603,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2140 73693 73728 "dyp.ml" 2140 73693 73729
 type(
@@ -32693,6 +33738,9 @@ ident(
   int_ref prevTops "dyp.ml" 2096 71761 71801 "dyp.ml" 2096 71761 71809
 )
 "dyp.ml" 2146 73824 73826 "dyp.ml" 2146 73824 73872
+call(
+  tail
+)
 type(
   (('n8, 'o8, 'p8) vertex_lab, 'm8 list * int) Gs.vertex list * counters
 )
@@ -32873,6 +33921,9 @@ ident(
   int_ref li "dyp.ml" 2203 76334 76342 "dyp.ml" 2203 76334 76344
 )
 "dyp.ml" 2206 76463 76478 "dyp.ml" 2206 76463 76527
+call(
+  stack
+)
 type(
   priority
 )
@@ -32946,7 +33997,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2210 76627 76643 "dyp.ml" 2210 76627 76644
 type(
@@ -33039,6 +34090,9 @@ ident(
   int_ref ol "dyp.ml" 2211 76650 76662 "dyp.ml" 2211 76650 76664
 )
 "dyp.ml" 2213 76718 76726 "dyp.ml" 2213 76718 76742
+call(
+  stack
+)
 type(
   ('c9 * priority) list
 )
@@ -33047,7 +34101,7 @@ type(
   ('c9 * priority) list -> ('c9 * priority) list -> ('c9 * priority) list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dyp.ml" 2213 76718 76743 "dyp.ml" 2213 76718 76744
 type(
@@ -33057,6 +34111,9 @@ ident(
   int_ref l "dyp.ml" 2208 76564 76575 "dyp.ml" 2208 76564 76576
 )
 "dyp.ml" 2213 76718 76726 "dyp.ml" 2213 76718 76744
+call(
+  tail
+)
 type(
   ('c9 * priority) list
 )
@@ -33119,6 +34176,9 @@ ident(
   int_ref edges "dyp.ml" 2207 76531 76539 "dyp.ml" 2207 76531 76544
 )
 "dyp.ml" 2216 76765 76769 "dyp.ml" 2216 76765 76794
+call(
+  tail
+)
 type(
   ('x8 * priority) list
 )
@@ -33183,6 +34243,9 @@ ident(
   int_ref successful "dyp.ml" 2198 76115 76136 "dyp.ml" 2198 76115 76146
 )
 "dyp.ml" 2218 76800 76802 "dyp.ml" 2218 76800 76832
+call(
+  tail
+)
 type(
   ('v8 * priority) list
 )
@@ -33350,7 +34413,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2244 77507 77513 "dyp.ml" 2244 77507 77527
 type(
@@ -33365,7 +34428,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2244 77507 77528 "dyp.ml" 2244 77507 77529
 type(
@@ -33394,6 +34457,9 @@ type(
   string
 )
 "dyp.ml" 2246 77546 77573 "dyp.ml" 2246 77546 77599
+call(
+  stack
+)
 type(
   in_channel
 )
@@ -33419,6 +34485,9 @@ ident(
   int_ref log_count_chan "dyp.ml" 2246 77546 77556 "dyp.ml" 2246 77546 77570
 )
 "dyp.ml" 2247 77603 77619 "dyp.ml" 2247 77603 77644
+call(
+  stack
+)
 type(
   string
 )
@@ -33441,7 +34510,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2248 77648 77673 "dyp.ml" 2248 77648 77675
 type(
@@ -33482,7 +34551,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 2249 77697 77725 "dyp.ml" 2249 77697 77738
 type(
@@ -33521,6 +34590,9 @@ ident(
   int_ref log_count_chan "dyp.ml" 2246 77546 77556 "dyp.ml" 2246 77546 77570
 )
 "dyp.ml" 2250 77746 77752 "dyp.ml" 2250 77746 77775
+call(
+  stack
+)
 type(
   unit
 )
@@ -33556,7 +34628,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 2251 77776 77803 "dyp.ml" 2251 77776 77804
 type(
@@ -33586,6 +34658,9 @@ type(
   string
 )
 "dyp.ml" 2252 77807 77832 "dyp.ml" 2252 77807 77859
+call(
+  stack
+)
 type(
   out_channel
 )
@@ -33615,7 +34690,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2253 77863 77913 "dyp.ml" 2253 77863 77922
 type(
@@ -33633,7 +34708,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2253 77863 77923 "dyp.ml" 2253 77863 77924
 type(
@@ -33644,10 +34719,16 @@ type(
   int
 )
 "dyp.ml" 2253 77863 77896 "dyp.ml" 2253 77863 77926
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2253 77863 77867 "dyp.ml" 2253 77863 77926
+call(
+  stack
+)
 type(
   unit
 )
@@ -33666,6 +34747,9 @@ ident(
   int_ref log_count_chan "dyp.ml" 2252 77807 77815 "dyp.ml" 2252 77807 77829
 )
 "dyp.ml" 2254 77928 77932 "dyp.ml" 2254 77928 77956
+call(
+  stack
+)
 type(
   unit
 )
@@ -33678,7 +34762,7 @@ type(
   out_channel ref -> out_channel -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 2256 77977 77983 "dyp.ml" 2256 77977 77991
 type(
@@ -33696,7 +34780,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2256 77977 78004 "dyp.ml" 2256 77977 78017
 type(
@@ -33710,7 +34794,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2256 77977 78019 "dyp.ml" 2256 77977 78028
 type(
@@ -33724,6 +34808,9 @@ type(
   int
 )
 "dyp.ml" 2256 77977 78003 "dyp.ml" 2256 77977 78029
+call(
+  stack
+)
 type(
   string
 )
@@ -33732,21 +34819,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2256 77977 78030 "dyp.ml" 2256 77977 78036
 type(
   string
 )
 "dyp.ml" 2256 77977 78003 "dyp.ml" 2256 77977 78036
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2256 77977 77992 "dyp.ml" 2256 77977 78037
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2256 77977 77983 "dyp.ml" 2256 77977 78037
+call(
+  stack
+)
 type(
   out_channel
 )
@@ -33763,7 +34859,7 @@ type(
   out_channel ref -> out_channel -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dyp.ml" 2258 78064 78070 "dyp.ml" 2258 78064 78078
 type(
@@ -33781,7 +34877,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2258 78064 78094 "dyp.ml" 2258 78064 78107
 type(
@@ -33795,7 +34891,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2258 78064 78109 "dyp.ml" 2258 78064 78118
 type(
@@ -33809,6 +34905,9 @@ type(
   int
 )
 "dyp.ml" 2258 78064 78093 "dyp.ml" 2258 78064 78119
+call(
+  stack
+)
 type(
   string
 )
@@ -33817,21 +34916,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2258 78064 78120 "dyp.ml" 2258 78064 78126
 type(
   string
 )
 "dyp.ml" 2258 78064 78093 "dyp.ml" 2258 78064 78126
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2258 78064 78079 "dyp.ml" 2258 78064 78127
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2258 78064 78070 "dyp.ml" 2258 78064 78127
+call(
+  stack
+)
 type(
   out_channel
 )
@@ -33851,7 +34959,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2259 78129 78148 "dyp.ml" 2259 78129 78165
 type(
@@ -33866,6 +34974,9 @@ type(
   string
 )
 "dyp.ml" 2259 78129 78133 "dyp.ml" 2260 78166 78234
+call(
+  stack
+)
 type(
   unit
 )
@@ -33954,6 +35065,9 @@ ident(
   int_ref lexbuf "dyp.ml" 2228 77171 77200 "dyp.ml" 2228 77171 77206
 )
 "dyp.ml" 2268 78382 78398 "dyp.ml" 2268 78382 78420
+call(
+  stack
+)
 type(
   Lexing.position * Lexing.position
 )
@@ -33969,6 +35083,9 @@ type(
   ('i9, 'j9, 'k9) vertex_lab
 )
 "dyp.ml" 2262 78238 78252 "dyp.ml" 2269 78422 78459
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex
 )
@@ -33998,6 +35115,9 @@ ident(
   int_ref dummy_token_map "dyp.ml" 982 29768 29772 "dyp.ml" 982 29768 29787
 )
 "dyp.ml" 2271 78465 78490 "dyp.ml" 2271 78465 78530
+call(
+  stack
+)
 type(
   int
 )
@@ -34028,7 +35148,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2272 78534 78592 "dyp.ml" 2272 78534 78593
 type(
@@ -34165,6 +35285,9 @@ ident(
   int_ref nt "dyp.ml" 2284 79032 79048 "dyp.ml" 2284 79032 79050
 )
 "dyp.ml" 2284 79032 79056 "dyp.ml" 2284 79032 79074
+call(
+  stack
+)
 type(
   non_ter
 )
@@ -34173,7 +35296,7 @@ type(
   non_ter -> non_ter -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2284 79032 79075 "dyp.ml" 2284 79032 79086
 type(
@@ -34251,7 +35374,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2289 79165 79173 "dyp.ml" 2289 79165 79187
 type(
@@ -34266,7 +35389,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2289 79165 79188 "dyp.ml" 2289 79165 79189
 type(
@@ -34289,7 +35412,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2290 79195 79218 "dyp.ml" 2290 79195 79229
 type(
@@ -34318,6 +35441,9 @@ ident(
   int_ref t "dyp.ml" 2288 79120 79152 "dyp.ml" 2288 79120 79153
 )
 "dyp.ml" 2291 79269 79277 "dyp.ml" 2291 79269 79290
+call(
+  stack
+)
 type(
   string
 )
@@ -34336,10 +35462,16 @@ ident(
   int_ref topmost "dyp.ml" 2288 79120 79144 "dyp.ml" 2288 79120 79151
 )
 "dyp.ml" 2291 79269 79291 "dyp.ml" 2291 79269 79312
+call(
+  stack
+)
 type(
   int
 )
 "dyp.ml" 2290 79195 79202 "dyp.ml" 2291 79269 79312
+call(
+  stack
+)
 type(
   unit
 )
@@ -34355,6 +35487,9 @@ type(
   unit
 )
 "dyp.ml" 2291 79269 79314 "dyp.ml" 2291 79269 79326
+call(
+  stack
+)
 type(
   unit
 )
@@ -34408,6 +35543,9 @@ ident(
   int_ref t "dyp.ml" 2288 79120 79152 "dyp.ml" 2288 79120 79153
 )
 "dyp.ml" 2293 79363 79382 "dyp.ml" 2293 79363 79394
+call(
+  stack
+)
 type(
   token_name
 )
@@ -34461,6 +35599,9 @@ ident(
   int_ref str_cons "dyp.ml" 2227 77115 77162 "dyp.ml" 2227 77115 77170
 )
 "dyp.ml" 2293 79363 79369 "dyp.ml" 2294 79431 79485
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -34491,7 +35632,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2297 79528 79569 "dyp.ml" 2297 79528 79570
 type(
@@ -34546,6 +35687,9 @@ ident(
   int_ref t "dyp.ml" 2288 79120 79152 "dyp.ml" 2288 79120 79153
 )
 "dyp.ml" 2300 79614 79629 "dyp.ml" 2300 79614 79641
+call(
+  stack
+)
 type(
   token_name
 )
@@ -34564,6 +35708,9 @@ ident(
   int_ref t "dyp.ml" 2288 79120 79152 "dyp.ml" 2288 79120 79153
 )
 "dyp.ml" 2300 79614 79642 "dyp.ml" 2300 79614 79655
+call(
+  stack
+)
 type(
   'i9
 )
@@ -34603,6 +35750,9 @@ ident(
   int_ref data_equal "dyp.ml" 2227 77115 77141 "dyp.ml" 2227 77115 77151
 )
 "dyp.ml" 2300 79614 79620 "dyp.ml" 2301 79687 79721
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -34690,6 +35840,9 @@ ident(
   int_ref str_cons "dyp.ml" 2227 77115 77162 "dyp.ml" 2227 77115 77170
 )
 "dyp.ml" 2304 79763 79769 "dyp.ml" 2305 79835 79889
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -34706,7 +35859,7 @@ type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2307 79940 79957 "dyp.ml" 2307 79940 79959
 type(
@@ -34760,6 +35913,9 @@ ident(
   int_ref topmost "dyp.ml" 2303 79729 79744 "dyp.ml" 2303 79729 79751
 )
 "dyp.ml" 2311 80061 80082 "dyp.ml" 2311 80061 80115
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list
 )
@@ -34776,7 +35932,7 @@ type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 2312 80119 80138 "dyp.ml" 2312 80119 80140
 type(
@@ -34836,6 +35992,9 @@ ident(
   int_ref lexbuf "dyp.ml" 2228 77171 77200 "dyp.ml" 2228 77171 77206
 )
 "dyp.ml" 2313 80178 80206 "dyp.ml" 2313 80178 80221
+call(
+  stack
+)
 type(
   'l9
 )
@@ -34847,6 +36006,9 @@ ident(
   int_ref counters "dyp.ml" 2303 79729 79752 "dyp.ml" 2303 79729 79760
 )
 "dyp.ml" 2313 80178 80184 "dyp.ml" 2313 80178 80230
+call(
+  tail
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -34915,7 +36077,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2319 80368 80376 "dyp.ml" 2319 80368 80390
 type(
@@ -34930,7 +36092,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2319 80368 80391 "dyp.ml" 2319 80368 80392
 type(
@@ -34953,7 +36115,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2320 80398 80421 "dyp.ml" 2320 80398 80432
 type(
@@ -34982,6 +36144,9 @@ ident(
   int_ref t "dyp.ml" 2316 80237 80270 "dyp.ml" 2316 80237 80271
 )
 "dyp.ml" 2321 80472 80480 "dyp.ml" 2321 80472 80493
+call(
+  stack
+)
 type(
   string
 )
@@ -35000,10 +36165,16 @@ ident(
   int_ref topmost "dyp.ml" 2316 80237 80262 "dyp.ml" 2316 80237 80269
 )
 "dyp.ml" 2321 80472 80494 "dyp.ml" 2321 80472 80515
+call(
+  stack
+)
 type(
   int
 )
 "dyp.ml" 2320 80398 80405 "dyp.ml" 2321 80472 80515
+call(
+  stack
+)
 type(
   unit
 )
@@ -35019,6 +36190,9 @@ type(
   unit
 )
 "dyp.ml" 2321 80472 80517 "dyp.ml" 2321 80472 80529
+call(
+  stack
+)
 type(
   unit
 )
@@ -35057,7 +36231,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2323 80551 80608 "dyp.ml" 2323 80551 80609
 type(
@@ -35112,6 +36286,9 @@ ident(
   int_ref t "dyp.ml" 2316 80237 80270 "dyp.ml" 2316 80237 80271
 )
 "dyp.ml" 2326 80653 80668 "dyp.ml" 2326 80653 80680
+call(
+  stack
+)
 type(
   token_name
 )
@@ -35130,6 +36307,9 @@ ident(
   int_ref t "dyp.ml" 2316 80237 80270 "dyp.ml" 2316 80237 80271
 )
 "dyp.ml" 2326 80653 80681 "dyp.ml" 2326 80653 80694
+call(
+  stack
+)
 type(
   'i9
 )
@@ -35169,6 +36349,9 @@ ident(
   int_ref data_equal "dyp.ml" 2227 77115 77141 "dyp.ml" 2227 77115 77151
 )
 "dyp.ml" 2326 80653 80659 "dyp.ml" 2327 80726 80760
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -35256,6 +36439,9 @@ ident(
   int_ref str_cons "dyp.ml" 2227 77115 77162 "dyp.ml" 2227 77115 77170
 )
 "dyp.ml" 2330 80802 80808 "dyp.ml" 2331 80874 80928
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -35272,7 +36458,7 @@ type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2333 80936 80953 "dyp.ml" 2333 80936 80955
 type(
@@ -35326,6 +36512,9 @@ ident(
   int_ref topmost "dyp.ml" 2329 80768 80783 "dyp.ml" 2329 80768 80790
 )
 "dyp.ml" 2337 81057 81078 "dyp.ml" 2337 81057 81111
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list
 )
@@ -35342,7 +36531,7 @@ type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 2338 81115 81134 "dyp.ml" 2338 81115 81136
 type(
@@ -35402,6 +36591,9 @@ ident(
   int_ref lexbuf "dyp.ml" 2228 77171 77200 "dyp.ml" 2228 77171 77206
 )
 "dyp.ml" 2339 81174 81201 "dyp.ml" 2339 81174 81216
+call(
+  stack
+)
 type(
   'l9
 )
@@ -35413,6 +36605,9 @@ ident(
   int_ref counters "dyp.ml" 2329 80768 80791 "dyp.ml" 2329 80768 80799
 )
 "dyp.ml" 2339 81174 81178 "dyp.ml" 2339 81174 81225
+call(
+  tail
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -35461,7 +36656,7 @@ type(
   Dyp_special_types.automaton_kind ref -> Dyp_special_types.automaton_kind
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2347 81398 81408 "dyp.ml" 2347 81398 81422
 type(
@@ -35480,7 +36675,7 @@ type(
   Dyp_special_types.automaton_kind -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 2347 81398 81426 "dyp.ml" 2347 81398 81430
 type(
@@ -35522,6 +36717,9 @@ ident(
   int_ref lexbuf "dyp.ml" 2228 77171 77200 "dyp.ml" 2228 77171 77206
 )
 "dyp.ml" 2348 81431 81464 "dyp.ml" 2348 81431 81479
+call(
+  stack
+)
 type(
   'l9
 )
@@ -35533,6 +36731,9 @@ ident(
   int_ref counters "dyp.ml" 2272 78534 78540 "dyp.ml" 2272 78534 78548
 )
 "dyp.ml" 2348 81431 81442 "dyp.ml" 2348 81431 81488
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -35620,6 +36821,9 @@ ident(
   int_ref str_cons "dyp.ml" 2227 77115 77162 "dyp.ml" 2227 77115 77170
 )
 "dyp.ml" 2351 81574 81584 "dyp.ml" 2352 81641 81708
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -35655,6 +36859,9 @@ ident(
   int_ref lexbuf "dyp.ml" 2228 77171 77200 "dyp.ml" 2228 77171 77206
 )
 "dyp.ml" 2354 81720 81751 "dyp.ml" 2354 81720 81766
+call(
+  stack
+)
 type(
   'l9
 )
@@ -35666,6 +36873,9 @@ ident(
   int_ref counters "dyp.ml" 2350 81500 81527 "dyp.ml" 2350 81500 81535
 )
 "dyp.ml" 2354 81720 81728 "dyp.ml" 2354 81720 81775
+call(
+  stack
+)
 type(
   (('i9, 'j9, 'k9) vertex_lab, 'i9 list * int) Gs.vertex list * counters
 )
@@ -35693,6 +36903,9 @@ type(
   unit
 )
 "dyp.ml" 2356 81802 81809 "dyp.ml" 2356 81802 81821
+call(
+  stack
+)
 type(
   unit
 )
@@ -35701,7 +36914,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2357 81823 81833 "dyp.ml" 2357 81823 81847
 type(
@@ -35716,7 +36929,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2357 81823 81848 "dyp.ml" 2357 81823 81849
 type(
@@ -35738,7 +36951,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2357 81823 81866 "dyp.ml" 2357 81823 81877
 type(
@@ -35749,6 +36962,9 @@ type(
   out_channel
 )
 "dyp.ml" 2357 81823 81855 "dyp.ml" 2357 81823 81877
+call(
+  stack
+)
 type(
   unit
 )
@@ -35789,7 +37005,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2362 81967 81973 "dyp.ml" 2362 81967 81987
 type(
@@ -35804,7 +37020,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2362 81967 81988 "dyp.ml" 2362 81967 81989
 type(
@@ -35845,7 +37061,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2364 82027 82047 "dyp.ml" 2364 82027 82058
 type(
@@ -35871,7 +37087,7 @@ type(
   float -> float -> float
 )
 ident(
-  ext_ref Pervasives.-.
+  ext_ref Pervasives.( -. )
 )
 "dyp.ml" 2365 82083 82097 "dyp.ml" 2365 82083 82102
 type(
@@ -35885,6 +37101,9 @@ type(
   float
 )
 "dyp.ml" 2364 82027 82031 "dyp.ml" 2365 82083 82103
+call(
+  stack
+)
 type(
   unit
 )
@@ -35900,7 +37119,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2366 82105 82124 "dyp.ml" 2366 82105 82135
 type(
@@ -35919,7 +37138,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2367 82165 82172 "dyp.ml" 2367 82165 82185
 type(
@@ -35940,6 +37159,9 @@ type(
   int
 )
 "dyp.ml" 2367 82165 82171 "dyp.ml" 2367 82165 82203
+call(
+  stack
+)
 type(
   string
 )
@@ -35948,21 +37170,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2367 82165 82204 "dyp.ml" 2367 82165 82208
 type(
   string
 )
 "dyp.ml" 2367 82165 82171 "dyp.ml" 2367 82165 82208
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2366 82105 82136 "dyp.ml" 2367 82165 82209
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2366 82105 82109 "dyp.ml" 2367 82165 82209
+call(
+  stack
+)
 type(
   unit
 )
@@ -35978,7 +37209,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2368 82211 82230 "dyp.ml" 2368 82211 82241
 type(
@@ -35997,7 +37228,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2369 82265 82272 "dyp.ml" 2369 82265 82285
 type(
@@ -36018,6 +37249,9 @@ type(
   int
 )
 "dyp.ml" 2369 82265 82271 "dyp.ml" 2369 82265 82303
+call(
+  stack
+)
 type(
   string
 )
@@ -36026,21 +37260,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2369 82265 82304 "dyp.ml" 2369 82265 82308
 type(
   string
 )
 "dyp.ml" 2369 82265 82271 "dyp.ml" 2369 82265 82308
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2368 82211 82242 "dyp.ml" 2369 82265 82309
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2368 82211 82215 "dyp.ml" 2369 82265 82309
+call(
+  stack
+)
 type(
   unit
 )
@@ -36056,7 +37299,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2370 82311 82330 "dyp.ml" 2370 82311 82341
 type(
@@ -36075,7 +37318,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2371 82370 82377 "dyp.ml" 2371 82370 82390
 type(
@@ -36089,7 +37332,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2371 82370 82392 "dyp.ml" 2371 82370 82400
 type(
@@ -36103,6 +37346,9 @@ type(
   int
 )
 "dyp.ml" 2371 82370 82376 "dyp.ml" 2371 82370 82401
+call(
+  stack
+)
 type(
   string
 )
@@ -36111,21 +37357,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2371 82370 82402 "dyp.ml" 2371 82370 82406
 type(
   string
 )
 "dyp.ml" 2371 82370 82376 "dyp.ml" 2371 82370 82406
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2370 82311 82342 "dyp.ml" 2371 82370 82407
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2370 82311 82315 "dyp.ml" 2371 82370 82407
+call(
+  stack
+)
 type(
   unit
 )
@@ -36141,6 +37396,9 @@ type(
   unit
 )
 "dyp.ml" 2372 82409 82413 "dyp.ml" 2372 82409 82425
+call(
+  stack
+)
 type(
   unit
 )
@@ -36173,7 +37431,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2374 82466 82472 "dyp.ml" 2374 82466 82486
 type(
@@ -36188,7 +37446,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2374 82466 82487 "dyp.ml" 2374 82466 82488
 type(
@@ -36210,7 +37468,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2374 82466 82505 "dyp.ml" 2374 82466 82516
 type(
@@ -36221,6 +37479,9 @@ type(
   out_channel
 )
 "dyp.ml" 2374 82466 82494 "dyp.ml" 2374 82466 82516
+call(
+  stack
+)
 type(
   unit
 )
@@ -36262,6 +37523,9 @@ type(
   F.rhs array
 )
 "dyp.ml" 2375 82518 82520 "dyp.ml" 2375 82518 82583
+call(
+  tail
+)
 type(
   ('i9 * priority) list
 )
@@ -36674,6 +37938,9 @@ ident(
   int_ref nt_list "dyp.ml" 2399 83041 83071 "dyp.ml" 2399 83041 83078
 )
 "dyp.ml" 2400 83081 83085 "dyp.ml" 2400 83081 83141
+call(
+  tail
+)
 type(
   unit
 )
@@ -36761,6 +38028,9 @@ type(
   'j10 Prio_map.t
 )
 "dyp.ml" 2402 83187 83205 "dyp.ml" 2402 83187 83239
+call(
+  stack
+)
 type(
   'j10
 )
@@ -36924,7 +38194,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2407 83402 83413 "dyp.ml" 2407 83402 83414
 type(
@@ -36943,7 +38213,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2408 83420 83431 "dyp.ml" 2408 83420 83442
 type(
@@ -36968,7 +38238,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2408 83420 83449 "dyp.ml" 2408 83420 83452
 type(
@@ -36979,7 +38249,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2408 83420 83454 "dyp.ml" 2408 83420 83467
 type(
@@ -36996,6 +38266,9 @@ ident(
   int_ref nt "dyp.ml" 2406 83356 83380 "dyp.ml" 2406 83356 83382
 )
 "dyp.ml" 2408 83420 83453 "dyp.ml" 2408 83420 83471
+call(
+  stack
+)
 type(
   string
 )
@@ -37004,7 +38277,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2408 83420 83472 "dyp.ml" 2408 83420 83475
 type(
@@ -37015,7 +38288,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2408 83420 83477 "dyp.ml" 2408 83420 83490
 type(
@@ -37032,6 +38305,9 @@ ident(
   int_ref i "dyp.ml" 2406 83356 83385 "dyp.ml" 2406 83356 83386
 )
 "dyp.ml" 2408 83420 83476 "dyp.ml" 2408 83420 83493
+call(
+  stack
+)
 type(
   string
 )
@@ -37040,33 +38316,51 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2408 83420 83494 "dyp.ml" 2408 83420 83497
 type(
   string
 )
 "dyp.ml" 2408 83420 83476 "dyp.ml" 2408 83420 83497
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2408 83420 83472 "dyp.ml" 2408 83420 83497
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2408 83420 83453 "dyp.ml" 2408 83420 83497
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2408 83420 83449 "dyp.ml" 2408 83420 83497
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2408 83420 83430 "dyp.ml" 2408 83420 83497
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2408 83420 83426 "dyp.ml" 2408 83420 83497
+call(
+  tail
+)
 type(
   string
 )
@@ -37079,7 +38373,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2411 83534 83545 "dyp.ml" 2411 83534 83556
 type(
@@ -37104,7 +38398,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2412 83564 83570 "dyp.ml" 2412 83564 83573
 type(
@@ -37115,7 +38409,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2412 83564 83575 "dyp.ml" 2412 83564 83591
 type(
@@ -37140,7 +38434,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2412 83564 83598 "dyp.ml" 2412 83564 83601
 type(
@@ -37151,7 +38445,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2412 83564 83603 "dyp.ml" 2412 83564 83616
 type(
@@ -37168,6 +38462,9 @@ ident(
   int_ref i "dyp.ml" 2406 83356 83385 "dyp.ml" 2406 83356 83386
 )
 "dyp.ml" 2412 83564 83602 "dyp.ml" 2412 83564 83619
+call(
+  stack
+)
 type(
   string
 )
@@ -37176,33 +38473,51 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2412 83564 83620 "dyp.ml" 2412 83564 83623
 type(
   string
 )
 "dyp.ml" 2412 83564 83602 "dyp.ml" 2412 83564 83623
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2412 83564 83598 "dyp.ml" 2412 83564 83623
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2412 83564 83574 "dyp.ml" 2412 83564 83623
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2412 83564 83570 "dyp.ml" 2412 83564 83623
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2411 83534 83544 "dyp.ml" 2412 83564 83623
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2411 83534 83540 "dyp.ml" 2412 83564 83623
+call(
+  tail
+)
 type(
   string
 )
@@ -37627,7 +38942,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2435 84294 84305 "dyp.ml" 2435 84294 84306
 type(
@@ -37646,7 +38961,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2436 84312 84323 "dyp.ml" 2436 84312 84334
 type(
@@ -37671,7 +38986,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2436 84312 84341 "dyp.ml" 2436 84312 84344
 type(
@@ -37682,7 +38997,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2436 84312 84346 "dyp.ml" 2436 84312 84359
 type(
@@ -37699,6 +39014,9 @@ ident(
   int_ref i "dyp.ml" 2434 84257 84277 "dyp.ml" 2434 84257 84278
 )
 "dyp.ml" 2436 84312 84345 "dyp.ml" 2436 84312 84362
+call(
+  stack
+)
 type(
   string
 )
@@ -37707,25 +39025,37 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2436 84312 84363 "dyp.ml" 2436 84312 84366
 type(
   string
 )
 "dyp.ml" 2436 84312 84345 "dyp.ml" 2436 84312 84366
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2436 84312 84341 "dyp.ml" 2436 84312 84366
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2436 84312 84322 "dyp.ml" 2436 84312 84366
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2436 84312 84318 "dyp.ml" 2436 84312 84366
+call(
+  tail
+)
 type(
   string
 )
@@ -37738,7 +39068,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2438 84376 84387 "dyp.ml" 2438 84376 84398
 type(
@@ -37763,7 +39093,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2439 84406 84412 "dyp.ml" 2439 84406 84415
 type(
@@ -37774,7 +39104,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2439 84406 84417 "dyp.ml" 2439 84406 84433
 type(
@@ -37799,7 +39129,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2439 84406 84440 "dyp.ml" 2439 84406 84443
 type(
@@ -37810,7 +39140,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2439 84406 84445 "dyp.ml" 2439 84406 84458
 type(
@@ -37827,6 +39157,9 @@ ident(
   int_ref i "dyp.ml" 2434 84257 84277 "dyp.ml" 2434 84257 84278
 )
 "dyp.ml" 2439 84406 84444 "dyp.ml" 2439 84406 84461
+call(
+  stack
+)
 type(
   string
 )
@@ -37835,39 +39168,65 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2439 84406 84462 "dyp.ml" 2439 84406 84465
 type(
   string
 )
 "dyp.ml" 2439 84406 84444 "dyp.ml" 2439 84406 84465
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2439 84406 84440 "dyp.ml" 2439 84406 84465
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2439 84406 84416 "dyp.ml" 2439 84406 84465
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2439 84406 84412 "dyp.ml" 2439 84406 84465
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2438 84376 84386 "dyp.ml" 2439 84406 84465
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2438 84376 84382 "dyp.ml" 2439 84406 84465
+call(
+  tail
+)
 type(
   string
 )
 "dyp.ml" 2435 84294 84298 "dyp.ml" 2439 84406 84465
 type(
   string
+)
+"dyp.ml" 2442 84471 84504 "dyp.ml" 2442 84471 84539
+call(
+  stack
+)
+"dyp.ml" 2443 84540 84571 "dyp.ml" 2443 84540 84604
+call(
+  stack
 )
 "dyp.ml" 2453 84708 84712 "dyp.ml" 2453 84708 84720
 type(
@@ -37990,6 +39349,14 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"dyp.ml" 2466 84989 85009 "dyp.ml" 2466 84989 85028
+call(
+  stack
+)
+"dyp.ml" 2467 85029 85050 "dyp.ml" 2467 85029 85075
+call(
+  stack
 )
 "dyp.ml" 2474 85364 85368 "dyp.ml" 2474 85364 85381
 type(
@@ -38174,6 +39541,9 @@ ident(
   ext_ref Prio_set.empty
 )
 "dyp.ml" 2484 85706 85728 "dyp.ml" 2484 85706 85758
+call(
+  tail
+)
 type(
   Prio_set.t
 )
@@ -38222,6 +39592,9 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "dyp.ml" 2485 85759 85792 "dyp.ml" 2485 85759 85824
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -38303,6 +39676,9 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "dyp.ml" 2487 85865 85917 "dyp.ml" 2487 85865 85949
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -38326,6 +39702,9 @@ type(
   Prio_set.t
 )
 "dyp.ml" 2487 85865 85891 "dyp.ml" 2488 85951 85990
+call(
+  tail
+)
 type(
   Prio_set.t
 )
@@ -38374,6 +39753,9 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "dyp.ml" 2489 85991 86027 "dyp.ml" 2489 85991 86059
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -38455,6 +39837,9 @@ type(
   (Prio_set.t * Prio_set.t) Prio_map.t
 )
 "dyp.ml" 2491 86100 86155 "dyp.ml" 2491 86100 86187
+call(
+  stack
+)
 type(
   Prio_set.t * Prio_set.t
 )
@@ -38478,6 +39863,9 @@ type(
   Prio_set.t
 )
 "dyp.ml" 2491 86100 86129 "dyp.ml" 2492 86189 86228
+call(
+  tail
+)
 type(
   Prio_set.t
 )
@@ -38718,6 +40106,9 @@ ident(
   int_ref p "dyp.ml" 2510 87111 87125 "dyp.ml" 2510 87111 87126
 )
 "dyp.ml" 2513 87212 87237 "dyp.ml" 2513 87212 87267
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -38769,6 +40160,9 @@ ident(
   int_ref prio_set2 "dyp.ml" 2514 87271 87285 "dyp.ml" 2514 87271 87294
 )
 "dyp.ml" 2515 87317 87342 "dyp.ml" 2515 87317 87375
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -38827,6 +40221,9 @@ type(
   int Prio_map.t
 )
 "dyp.ml" 2517 87408 87432 "dyp.ml" 2517 87408 87467
+call(
+  stack
+)
 type(
   int
 )
@@ -38846,6 +40243,9 @@ type(
   string
 )
 "dyp.ml" 2518 87468 87500 "dyp.ml" 2518 87468 87537
+call(
+  stack
+)
 type(
   int
 )
@@ -38869,7 +40269,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2520 87599 87636 "dyp.ml" 2520 87599 87647
 type(
@@ -38902,6 +40302,9 @@ type(
   string
 )
 "dyp.ml" 2520 87599 87620 "dyp.ml" 2521 87695 87733
+call(
+  stack
+)
 type(
   unit
 )
@@ -38917,6 +40320,9 @@ type(
   string
 )
 "dyp.ml" 2521 87695 87734 "dyp.ml" 2521 87695 87781
+call(
+  stack
+)
 type(
   int
 )
@@ -38961,6 +40367,9 @@ ident(
   int_ref pn_set "dyp.ml" 2516 87379 87399 "dyp.ml" 2516 87379 87405
 )
 "dyp.ml" 2525 87961 87973 "dyp.ml" 2525 87961 88001
+call(
+  tail
+)
 type(
   PrioNb_set.t
 )
@@ -39002,6 +40411,9 @@ ident(
   ext_ref PrioNb_set.empty
 )
 "dyp.ml" 2527 88015 88038 "dyp.ml" 2527 88015 88080
+call(
+  stack
+)
 type(
   PrioNb_set.t
 )
@@ -39124,6 +40536,9 @@ type(
   (int * int * int) pliteral list list
 )
 "dyp.ml" 2529 88146 88171 "dyp.ml" 2529 88146 88198
+call(
+  stack
+)
 type(
   (int * int * int) pliteral list list
 )
@@ -39151,6 +40566,9 @@ ident(
   int_ref lit_ll_2 "dyp.ml" 2529 88146 88160 "dyp.ml" 2529 88146 88168
 )
 "dyp.ml" 2530 88202 88212 "dyp.ml" 2530 88202 88228
+call(
+  stack
+)
 type(
   (int * int * int) pliteral list list
 )
@@ -39161,7 +40579,7 @@ type(
   (int * int * int) pliteral list list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dyp.ml" 2530 88202 88229 "dyp.ml" 2530 88202 88239
 type(
@@ -39171,6 +40589,9 @@ ident(
   int_ref new_lit_ll "dyp.ml" 2511 87136 87160 "dyp.ml" 2511 87136 87170
 )
 "dyp.ml" 2530 88202 88212 "dyp.ml" 2530 88202 88239
+call(
+  tail
+)
 type(
   (int * int * int) pliteral list list
 )
@@ -39238,6 +40659,9 @@ type(
   (int * int * int) pliteral list list
 )
 "dyp.ml" 2533 88272 88276 "dyp.ml" 2533 88272 88290
+call(
+  tail
+)
 type(
   (int * int * int) pliteral list list
 )
@@ -39335,6 +40759,9 @@ ident(
   int_ref tn "dyp.ml" 2536 88341 88352 "dyp.ml" 2536 88341 88354
 )
 "dyp.ml" 2536 88341 88381 "dyp.ml" 2536 88341 88390
+call(
+  stack
+)
 type(
   (int * int * int) pliteral list -> (int * int * int) pliteral list
 )
@@ -39346,10 +40773,16 @@ ident(
   int_ref lit_ll "dyp.ml" 2535 88296 88316 "dyp.ml" 2535 88296 88322
 )
 "dyp.ml" 2536 88341 88371 "dyp.ml" 2536 88341 88398
+call(
+  stack
+)
 type(
   (int * int * int) pliteral list list
 )
 "dyp.ml" 2536 88341 88363 "dyp.ml" 2536 88341 88398
+call(
+  tail
+)
 type(
   (int * int * int) pliteral list list
 )
@@ -39434,10 +40867,16 @@ ident(
   int_ref lit_ll "dyp.ml" 2535 88296 88316 "dyp.ml" 2535 88296 88322
 )
 "dyp.ml" 2537 88399 88437 "dyp.ml" 2537 88399 88455
+call(
+  stack
+)
 type(
   (int * int * int) pliteral list list
 )
 "dyp.ml" 2537 88399 88429 "dyp.ml" 2537 88399 88455
+call(
+  tail
+)
 type(
   (int * int * int) pliteral list list
 )
@@ -39485,6 +40924,9 @@ type(
   (int * int * int) pliteral list list
 )
 "dyp.ml" 2540 88480 88495 "dyp.ml" 2540 88480 88509
+call(
+  stack
+)
 type(
   (int * int * int) pliteral list list
 )
@@ -39591,7 +41033,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2543 88575 88629 "dyp.ml" 2543 88575 88630
 type(
@@ -39621,6 +41063,9 @@ ident(
   int_ref l "dyp.ml" 2541 88513 88533 "dyp.ml" 2541 88513 88534
 )
 "dyp.ml" 2543 88575 88587 "dyp.ml" 2543 88575 88636
+call(
+  stack
+)
 type(
   int
 )
@@ -39667,6 +41112,9 @@ ident(
   int_ref lit_ll "dyp.ml" 2540 88480 88486 "dyp.ml" 2540 88480 88492
 )
 "dyp.ml" 2546 88651 88666 "dyp.ml" 2546 88651 88695
+call(
+  stack
+)
 type(
   (int * int * int) pliteral array list
 )
@@ -39707,6 +41155,9 @@ type(
   int Prio_map.t
 )
 "dyp.ml" 2547 88699 88714 "dyp.ml" 2547 88699 88752
+call(
+  stack
+)
 type(
   int
 )
@@ -39726,6 +41177,9 @@ type(
   string
 )
 "dyp.ml" 2548 88753 88775 "dyp.ml" 2548 88753 88812
+call(
+  stack
+)
 type(
   int
 )
@@ -39806,6 +41260,9 @@ ident(
   int_ref lit_ll "dyp.ml" 2546 88651 88657 "dyp.ml" 2546 88651 88663
 )
 "dyp.ml" 2551 88875 88877 "dyp.ml" 2551 88875 88910
+call(
+  tail
+)
 type(
   ((int * Prio_map.key * int) * (int * int * int) pliteral array) list
 )
@@ -39880,7 +41337,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2557 89045 89051 "dyp.ml" 2557 89045 89065
 type(
@@ -39895,7 +41352,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2557 89045 89066 "dyp.ml" 2557 89045 89067
 type(
@@ -39945,7 +41402,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2558 89073 89119 "dyp.ml" 2558 89073 89120
 type(
@@ -39972,6 +41429,9 @@ type(
   int
 )
 "dyp.ml" 2558 89073 89088 "dyp.ml" 2558 89073 89130
+call(
+  stack
+)
 type(
   int
 )
@@ -39987,7 +41447,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2559 89134 89154 "dyp.ml" 2559 89134 89165
 type(
@@ -40009,6 +41469,9 @@ ident(
   int_ref nbr "dyp.ml" 2558 89073 89082 "dyp.ml" 2558 89073 89085
 )
 "dyp.ml" 2559 89134 89138 "dyp.ml" 2559 89134 89204
+call(
+  stack
+)
 type(
   unit
 )
@@ -40072,6 +41535,9 @@ ident(
   int_ref pset "dyp.ml" 2562 89221 89248 "dyp.ml" 2562 89221 89252
 )
 "dyp.ml" 2565 89345 89351 "dyp.ml" 2565 89345 89370
+call(
+  tail
+)
 type(
   Prio_set.t
 )
@@ -40098,6 +41564,9 @@ ident(
   ext_ref Prio_set.empty
 )
 "dyp.ml" 2562 89221 89225 "dyp.ml" 2565 89345 89399
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -40124,6 +41593,9 @@ ident(
   int_ref ps "dyp.ml" 2561 89210 89216 "dyp.ml" 2561 89210 89218
 )
 "dyp.ml" 2567 89405 89416 "dyp.ml" 2567 89405 89448
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -40265,6 +41737,9 @@ ident(
   int_ref x "dyp.ml" 2570 89555 89581 "dyp.ml" 2570 89555 89582
 )
 "dyp.ml" 2571 89604 89611 "dyp.ml" 2571 89604 89620
+call(
+  stack
+)
 type(
   'j12
 )
@@ -40352,6 +41827,9 @@ ident(
   int_ref user_g "dyp.ml" 2568 89452 89466 "dyp.ml" 2568 89452 89472
 )
 "dyp.ml" 2569 89482 89486 "dyp.ml" 2571 89604 89664
+call(
+  tail
+)
 type(
   ('j12, 'k12, 'l12) Dyp_special_types.action list Urule_map.t
 )
@@ -40395,6 +41873,9 @@ ident(
   ext_ref E.entry_points
 )
 "dyp.ml" 2573 89670 89685 "dyp.ml" 2573 89670 89727
+call(
+  stack
+)
 type(
   ('g12, 'h12, 'i12) Dyp_special_types.action list Urule_map.t
 )
@@ -40461,6 +41942,9 @@ ident(
   int_ref nt "dyp.ml" 2577 89931 89941 "dyp.ml" 2577 89931 89943
 )
 "dyp.ml" 2578 89958 89970 "dyp.ml" 2578 89958 89978
+call(
+  stack
+)
 type(
   'n12
 )
@@ -40530,6 +42014,9 @@ ident(
   int_ref nt "dyp.ml" 2580 90016 90033 "dyp.ml" 2580 90016 90035
 )
 "dyp.ml" 2580 90016 90042 "dyp.ml" 2580 90016 90050
+call(
+  tail
+)
 type(
   'r12
 )
@@ -40578,6 +42065,9 @@ ident(
   int_ref litl "dyp.ml" 2577 89931 89944 "dyp.ml" 2577 89931 89948
 )
 "dyp.ml" 2583 90073 90077 "dyp.ml" 2583 90073 90101
+call(
+  tail
+)
 type(
   'n12
 )
@@ -40623,6 +42113,9 @@ type(
   non_ter
 )
 "dyp.ml" 2585 90107 90121 "dyp.ml" 2585 90107 90149
+call(
+  stack
+)
 type(
   non_ter
 )
@@ -40631,7 +42124,7 @@ type(
   non_ter -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2585 90107 90150 "dyp.ml" 2585 90107 90151
 type(
@@ -40646,7 +42139,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2587 90158 90164 "dyp.ml" 2587 90158 90178
 type(
@@ -40661,7 +42154,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2587 90158 90179 "dyp.ml" 2587 90158 90180
 type(
@@ -40683,7 +42176,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2588 90186 90206 "dyp.ml" 2588 90186 90217
 type(
@@ -40705,6 +42198,9 @@ ident(
   int_ref nt_nb "dyp.ml" 2585 90107 90113 "dyp.ml" 2585 90107 90118
 )
 "dyp.ml" 2588 90186 90190 "dyp.ml" 2588 90186 90256
+call(
+  stack
+)
 type(
   unit
 )
@@ -40879,6 +42375,9 @@ ident(
   int_ref tl "dyp.ml" 2593 90376 90402 "dyp.ml" 2593 90376 90404
 )
 "dyp.ml" 2596 90490 90500 "dyp.ml" 2596 90490 90505
+call(
+  tail
+)
 type(
   unit
 )
@@ -41043,6 +42542,9 @@ ident(
   int_ref rhs "dyp.ml" 2600 90553 90568 "dyp.ml" 2600 90553 90571
 )
 "dyp.ml" 2603 90653 90659 "dyp.ml" 2603 90653 90665
+call(
+  tail
+)
 type(
   unit
 )
@@ -41077,6 +42579,9 @@ ident(
   int_ref user_g "dyp.ml" 2573 89670 89676 "dyp.ml" 2573 89670 89682
 )
 "dyp.ml" 2605 90673 90677 "dyp.ml" 2605 90673 90701
+call(
+  stack
+)
 type(
   unit
 )
@@ -41096,7 +42601,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 2606 90703 90724 "dyp.ml" 2606 90703 90725
 type(
@@ -41126,7 +42631,7 @@ type(
   bool * bool -> bool * bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2607 90729 90758 "dyp.ml" 2607 90729 90763
 type(
@@ -41308,6 +42813,9 @@ type(
   Prio_set.t
 )
 "dyp.ml" 2613 90893 90940 "dyp.ml" 2613 90893 90971
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -41338,6 +42846,9 @@ ident(
   int_ref user_g "dyp.ml" 2573 89670 89676 "dyp.ml" 2573 89670 89682
 )
 "dyp.ml" 2615 90978 90980 "dyp.ml" 2615 90978 91009
+call(
+  stack
+)
 type(
   unit
 )
@@ -41400,7 +42911,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2618 91071 91098 "dyp.ml" 2618 91071 91103
 type(
@@ -41500,6 +43011,9 @@ ident(
   int_ref prio_map "dyp.ml" 2620 91154 91176 "dyp.ml" 2620 91154 91184
 )
 "dyp.ml" 2620 91154 91190 "dyp.ml" 2620 91154 91220
+call(
+  stack
+)
 type(
   int Prio_map.t
 )
@@ -41515,7 +43029,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2620 91154 91224 "dyp.ml" 2620 91154 91225
 type(
@@ -41582,6 +43096,9 @@ type(
   int Prio_map.t * int
 )
 "dyp.ml" 2621 91230 91251 "dyp.ml" 2621 91230 91300
+call(
+  stack
+)
 type(
   int Prio_map.t * int
 )
@@ -41633,7 +43150,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2623 91350 91363 "dyp.ml" 2623 91350 91364
 type(
@@ -41651,6 +43168,9 @@ ident(
   int_ref n "dyp.ml" 2621 91230 91247 "dyp.ml" 2621 91230 91248
 )
 "dyp.ml" 2623 91350 91354 "dyp.ml" 2623 91350 91367
+call(
+  tail
+)
 type(
   int
 )
@@ -41694,6 +43214,9 @@ type(
   int
 )
 "dyp.ml" 2625 91373 91390 "dyp.ml" 2625 91373 91399
+call(
+  stack
+)
 type(
   int
 )
@@ -41929,7 +43452,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 2635 91657 91676 "dyp.ml" 2635 91657 91677
 type(
@@ -41958,6 +43481,9 @@ type(
   int
 )
 "dyp.ml" 2636 91681 91699 "dyp.ml" 2636 91681 91705
+call(
+  stack
+)
 type(
   Prio_map.key -> int -> unit
 )
@@ -41977,6 +43503,9 @@ type(
   int Prio_map.t
 )
 "dyp.ml" 2636 91681 91685 "dyp.ml" 2636 91681 91723
+call(
+  stack
+)
 type(
   unit
 )
@@ -42072,6 +43601,9 @@ ident(
   int_ref litl "dyp.ml" 2658 92338 92353 "dyp.ml" 2658 92338 92357
 )
 "dyp.ml" 2659 92365 92380 "dyp.ml" 2659 92365 92393
+call(
+  stack
+)
 type(
   (non_ter * non_terminal_priority) pliteral list
 )
@@ -42155,6 +43687,9 @@ ident(
   int_ref litl "dyp.ml" 2659 92365 92373 "dyp.ml" 2659 92365 92377
 )
 "dyp.ml" 2662 92469 92477 "dyp.ml" 2662 92469 92495
+call(
+  stack
+)
 type(
   int
 )
@@ -42180,6 +43715,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 2555 88952 89028 "dyp.ml" 2555 88952 89039
 )
 "dyp.ml" 2661 92410 92416 "dyp.ml" 2662 92469 92515
+call(
+  stack
+)
 type(
   ((int * Prio_map.key * int) * Grammar_PrioInAutomaton.lit_nt pliteral array)
   list
@@ -42275,6 +43813,9 @@ type(
   ('g12, 'h12, 'i12) Dyp_special_types.action list Map_rhs.t
 )
 "dyp.ml" 2664 92523 92559 "dyp.ml" 2664 92523 92583
+call(
+  stack
+)
 type(
   ('g12, 'h12, 'i12) Dyp_special_types.action list Map_rhs.t
 )
@@ -42305,6 +43846,9 @@ ident(
   int_ref rl "dyp.ml" 2660 92397 92405 "dyp.ml" 2660 92397 92407
 )
 "dyp.ml" 2665 92587 92591 "dyp.ml" 2665 92587 92605
+call(
+  tail
+)
 type(
   unit
 )
@@ -42347,6 +43891,9 @@ ident(
   int_ref user_g "dyp.ml" 2573 89670 89676 "dyp.ml" 2573 89670 89682
 )
 "dyp.ml" 2667 92611 92622 "dyp.ml" 2667 92611 92647
+call(
+  stack
+)
 type(
   unit
 )
@@ -42381,7 +43928,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2668 92651 92671 "dyp.ml" 2668 92651 92672
 type(
@@ -42421,7 +43968,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2669 92676 92701 "dyp.ml" 2669 92676 92709
 type(
@@ -42460,7 +44007,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2670 92722 92732 "dyp.ml" 2670 92722 92733
 type(
@@ -42513,10 +44060,16 @@ ident(
   int_ref i "dyp.ml" 2669 92676 92691 "dyp.ml" 2669 92676 92692
 )
 "dyp.ml" 2670 92722 92735 "dyp.ml" 2670 92722 92762
+call(
+  stack
+)
 type(
   int
 )
 "dyp.ml" 2670 92722 92726 "dyp.ml" 2670 92722 92762
+call(
+  tail
+)
 type(
   int
 )
@@ -42544,6 +44097,9 @@ type(
   int
 )
 "dyp.ml" 2672 92768 92780 "dyp.ml" 2672 92768 92785
+call(
+  stack
+)
 type(
   int
 )
@@ -42552,7 +44108,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2673 92789 92795 "dyp.ml" 2673 92789 92809
 type(
@@ -42567,7 +44123,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2673 92789 92810 "dyp.ml" 2673 92789 92811
 type(
@@ -42589,7 +44145,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2674 92817 92838 "dyp.ml" 2674 92817 92849
 type(
@@ -42611,6 +44167,9 @@ ident(
   int_ref nbr "dyp.ml" 2672 92768 92774 "dyp.ml" 2672 92768 92777
 )
 "dyp.ml" 2674 92817 92822 "dyp.ml" 2674 92817 92892
+call(
+  stack
+)
 type(
   unit
 )
@@ -42626,7 +44185,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2675 92894 92914 "dyp.ml" 2675 92894 92925
 type(
@@ -42648,6 +44207,9 @@ ident(
   int_ref newnt_nb "dyp.ml" 2625 91373 91379 "dyp.ml" 2625 91373 91387
 )
 "dyp.ml" 2675 92894 92898 "dyp.ml" 2675 92894 92971
+call(
+  stack
+)
 type(
   unit
 )
@@ -42666,6 +44228,9 @@ ident(
   ext_ref Pervasives.stdout
 )
 "dyp.ml" 2676 92973 92977 "dyp.ml" 2676 92973 92989
+call(
+  stack
+)
 type(
   unit
 )
@@ -43206,6 +44771,9 @@ type(
   string
 )
 "dyp.ml" 2692 93408 93421 "dyp.ml" 2692 93408 93471
+call(
+  tail
+)
 type(
   'd14
 )
@@ -43313,7 +44881,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2713 94001 94047 "dyp.ml" 2713 94001 94061
 type(
@@ -43338,17 +44906,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2713 94001 94067 "dyp.ml" 2713 94001 94070
 type(
   string
 )
 "dyp.ml" 2713 94001 94046 "dyp.ml" 2713 94001 94070
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2713 94001 94027 "dyp.ml" 2713 94001 94070
+call(
+  tail
+)
 type(
   string
 )
@@ -43412,7 +44986,7 @@ type(
   Prio_map.key -> Prio_map.key -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2759 95832 95843 "dyp.ml" 2759 95832 95851
 type(
@@ -43473,6 +45047,9 @@ type(
   'k14 Prio_map.t
 )
 "dyp.ml" 2761 95882 95900 "dyp.ml" 2761 95882 95934
+call(
+  stack
+)
 type(
   'k14
 )
@@ -43520,7 +45097,7 @@ type(
   Prio_map.key -> int -> Prio_map.key
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2762 95938 95964 "dyp.ml" 2762 95938 95965
 type(
@@ -43531,6 +45108,9 @@ type(
   Prio_map.key
 )
 "dyp.ml" 2762 95938 95958 "dyp.ml" 2762 95938 95967
+call(
+  stack
+)
 type(
   (int * Prio_map.key * 'k14) list
 )
@@ -43565,7 +45145,7 @@ type(
   Prio_map.key -> int -> Prio_map.key
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2763 95968 95997 "dyp.ml" 2763 95968 95998
 type(
@@ -43576,6 +45156,9 @@ type(
   Prio_map.key
 )
 "dyp.ml" 2763 95968 95992 "dyp.ml" 2763 95968 95999
+call(
+  tail
+)
 type(
   (int * Prio_map.key * 'k14) list
 )
@@ -43599,6 +45182,9 @@ type(
   Prio_map.key
 )
 "dyp.ml" 2765 96005 96007 "dyp.ml" 2765 96005 96010
+call(
+  tail
+)
 type(
   (int * Prio_map.key * 'k14) list
 )
@@ -43619,6 +45205,10 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"dyp.ml" 2772 96112 96129 "dyp.ml" 2772 96112 96150
+call(
+  stack
 )
 "dyp.ml" 2775 96197 96201 "dyp.ml" 2775 96197 96214
 type(
@@ -43741,6 +45331,9 @@ type(
   (int * priority * 'n14) list Ntp_map.t
 )
 "dyp.ml" 2779 96374 96380 "dyp.ml" 2779 96374 96411
+call(
+  stack
+)
 type(
   (int * priority * 'n14) list
 )
@@ -43805,7 +45398,7 @@ type(
   priority -> priority -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2782 96497 96532 "dyp.ml" 2782 96497 96533
 type(
@@ -43866,6 +45459,9 @@ ident(
   int_ref q "dyp.ml" 2783 96535 96555 "dyp.ml" 2783 96535 96556
 )
 "dyp.ml" 2783 96535 96570 "dyp.ml" 2783 96535 96594
+call(
+  tail
+)
 type(
   bool
 )
@@ -43917,6 +45513,9 @@ ident(
   int_ref q "dyp.ml" 2784 96596 96618 "dyp.ml" 2784 96596 96619
 )
 "dyp.ml" 2784 96596 96633 "dyp.ml" 2784 96596 96659
+call(
+  stack
+)
 type(
   bool
 )
@@ -43925,7 +45524,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 2784 96596 96664 "dyp.ml" 2784 96596 96665
 type(
@@ -43939,7 +45538,7 @@ type(
   priority -> priority -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2784 96596 96666 "dyp.ml" 2784 96596 96667
 type(
@@ -44004,6 +45603,9 @@ ident(
   int_ref p "dyp.ml" 2785 96670 96703 "dyp.ml" 2785 96670 96704
 )
 "dyp.ml" 2785 96670 96708 "dyp.ml" 2785 96670 96732
+call(
+  tail
+)
 type(
   bool
 )
@@ -44055,6 +45657,9 @@ ident(
   int_ref p "dyp.ml" 2786 96734 96769 "dyp.ml" 2786 96734 96770
 )
 "dyp.ml" 2786 96734 96774 "dyp.ml" 2786 96734 96800
+call(
+  stack
+)
 type(
   bool
 )
@@ -44063,7 +45668,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 2786 96734 96805 "dyp.ml" 2786 96734 96806
 type(
@@ -44077,7 +45682,7 @@ type(
   priority -> priority -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2786 96734 96807 "dyp.ml" 2786 96734 96808
 type(
@@ -44125,7 +45730,7 @@ type(
   priority -> priority -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2789 96832 96843 "dyp.ml" 2789 96832 96851
 type(
@@ -44161,6 +45766,9 @@ ident(
   int_ref p "dyp.ml" 2788 96816 96828 "dyp.ml" 2788 96816 96829
 )
 "dyp.ml" 2790 96872 96879 "dyp.ml" 2790 96872 96885
+call(
+  stack
+)
 type(
   bool
 )
@@ -44204,6 +45812,9 @@ type(
   'n14 Prio_map.t
 )
 "dyp.ml" 2792 96901 96919 "dyp.ml" 2792 96901 96953
+call(
+  stack
+)
 type(
   'n14
 )
@@ -44251,7 +45862,7 @@ type(
   priority -> int -> priority
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2793 96957 96983 "dyp.ml" 2793 96957 96984
 type(
@@ -44262,6 +45873,9 @@ type(
   priority
 )
 "dyp.ml" 2793 96957 96977 "dyp.ml" 2793 96957 96986
+call(
+  stack
+)
 type(
   (int * priority * 'n14) list
 )
@@ -44296,7 +45910,7 @@ type(
   priority -> int -> priority
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2794 96987 97016 "dyp.ml" 2794 96987 97017
 type(
@@ -44307,6 +45921,9 @@ type(
   priority
 )
 "dyp.ml" 2794 96987 97011 "dyp.ml" 2794 96987 97018
+call(
+  tail
+)
 type(
   (int * priority * 'n14) list
 )
@@ -44354,6 +45971,9 @@ type(
   int
 )
 "dyp.ml" 2795 97019 97035 "dyp.ml" 2796 97087 97128
+call(
+  stack
+)
 type(
   unit
 )
@@ -44402,7 +46022,7 @@ type(
   priority -> int -> priority
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2797 97139 97153 "dyp.ml" 2797 97139 97154
 type(
@@ -44413,6 +46033,9 @@ type(
   priority
 )
 "dyp.ml" 2797 97139 97148 "dyp.ml" 2797 97139 97155
+call(
+  tail
+)
 type(
   (int * priority * 'n14) list
 )
@@ -44440,6 +46063,9 @@ type(
   priority
 )
 "dyp.ml" 2799 97161 97171 "dyp.ml" 2799 97161 97174
+call(
+  stack
+)
 type(
   (int * priority * 'n14) list
 )
@@ -44500,6 +46126,9 @@ type(
   (int * priority * 'n14) list Ntp_map.t
 )
 "dyp.ml" 2800 97178 97197 "dyp.ml" 2800 97178 97229
+call(
+  stack
+)
 type(
   (int * priority * 'n14) list Ntp_map.t
 )
@@ -44567,6 +46196,9 @@ type(
   int
 )
 "dyp.ml" 2803 97296 97306 "dyp.ml" 2804 97343 97371
+call(
+  stack
+)
 type(
   unit
 )
@@ -44657,7 +46289,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2840 98500 98506 "dyp.ml" 2840 98500 98520
 type(
@@ -44672,7 +46304,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2840 98500 98521 "dyp.ml" 2840 98500 98522
 type(
@@ -44722,7 +46354,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2841 98528 98574 "dyp.ml" 2841 98528 98575
 type(
@@ -44749,6 +46381,9 @@ type(
   int
 )
 "dyp.ml" 2841 98528 98543 "dyp.ml" 2841 98528 98585
+call(
+  stack
+)
 type(
   int
 )
@@ -44764,7 +46399,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2842 98589 98609 "dyp.ml" 2842 98589 98620
 type(
@@ -44786,6 +46421,9 @@ ident(
   int_ref nbr "dyp.ml" 2841 98528 98537 "dyp.ml" 2841 98528 98540
 )
 "dyp.ml" 2842 98589 98593 "dyp.ml" 2842 98589 98659
+call(
+  stack
+)
 type(
   unit
 )
@@ -44935,6 +46573,9 @@ ident(
   int_ref x "dyp.ml" 2845 98765 98791 "dyp.ml" 2845 98765 98792
 )
 "dyp.ml" 2845 98765 98815 "dyp.ml" 2845 98765 98824
+call(
+  stack
+)
 type(
   'r14
 )
@@ -45022,6 +46663,9 @@ ident(
   int_ref user_g "dyp.ml" 2843 98662 98676 "dyp.ml" 2843 98662 98682
 )
 "dyp.ml" 2844 98692 98696 "dyp.ml" 2845 98765 98868
+call(
+  tail
+)
 type(
   ('r14, 's14, 't14) Dyp_special_types.action list Urule_map.t
 )
@@ -45065,6 +46709,9 @@ ident(
   ext_ref E.entry_points
 )
 "dyp.ml" 2847 98874 98889 "dyp.ml" 2847 98874 98931
+call(
+  stack
+)
 type(
   ('o14, 'p14, 'q14) Dyp_special_types.action list Urule_map.t
 )
@@ -45131,6 +46778,9 @@ ident(
   int_ref nt "dyp.ml" 2851 99135 99145 "dyp.ml" 2851 99135 99147
 )
 "dyp.ml" 2852 99162 99174 "dyp.ml" 2852 99162 99182
+call(
+  stack
+)
 type(
   'v14
 )
@@ -45200,6 +46850,9 @@ ident(
   int_ref nt "dyp.ml" 2854 99220 99237 "dyp.ml" 2854 99220 99239
 )
 "dyp.ml" 2854 99220 99246 "dyp.ml" 2854 99220 99254
+call(
+  tail
+)
 type(
   'z14
 )
@@ -45248,6 +46901,9 @@ ident(
   int_ref litl "dyp.ml" 2851 99135 99148 "dyp.ml" 2851 99135 99152
 )
 "dyp.ml" 2857 99277 99281 "dyp.ml" 2857 99277 99305
+call(
+  tail
+)
 type(
   'v14
 )
@@ -45293,6 +46949,9 @@ type(
   non_ter
 )
 "dyp.ml" 2859 99311 99325 "dyp.ml" 2859 99311 99353
+call(
+  stack
+)
 type(
   non_ter
 )
@@ -45301,7 +46960,7 @@ type(
   non_ter -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2859 99311 99354 "dyp.ml" 2859 99311 99355
 type(
@@ -45316,7 +46975,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2860 99359 99365 "dyp.ml" 2860 99359 99379
 type(
@@ -45331,7 +46990,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2860 99359 99380 "dyp.ml" 2860 99359 99381
 type(
@@ -45353,7 +47012,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2861 99387 99407 "dyp.ml" 2861 99387 99418
 type(
@@ -45375,6 +47034,9 @@ ident(
   int_ref nt_nb "dyp.ml" 2859 99311 99317 "dyp.ml" 2859 99311 99322
 )
 "dyp.ml" 2861 99387 99391 "dyp.ml" 2861 99387 99457
+call(
+  stack
+)
 type(
   unit
 )
@@ -45549,6 +47211,9 @@ ident(
   int_ref tl "dyp.ml" 2866 99577 99603 "dyp.ml" 2866 99577 99605
 )
 "dyp.ml" 2869 99691 99701 "dyp.ml" 2869 99691 99706
+call(
+  tail
+)
 type(
   unit
 )
@@ -45713,6 +47378,9 @@ ident(
   int_ref rhs "dyp.ml" 2873 99754 99769 "dyp.ml" 2873 99754 99772
 )
 "dyp.ml" 2876 99854 99860 "dyp.ml" 2876 99854 99866
+call(
+  tail
+)
 type(
   unit
 )
@@ -45747,6 +47415,9 @@ ident(
   int_ref user_g "dyp.ml" 2847 98874 98880 "dyp.ml" 2847 98874 98886
 )
 "dyp.ml" 2878 99874 99878 "dyp.ml" 2878 99874 99902
+call(
+  stack
+)
 type(
   unit
 )
@@ -45766,7 +47437,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 2879 99904 99925 "dyp.ml" 2879 99904 99926
 type(
@@ -45796,7 +47467,7 @@ type(
   bool * bool -> bool * bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2880 99930 99959 "dyp.ml" 2880 99930 99964
 type(
@@ -45978,6 +47649,9 @@ type(
   Prio_set.t
 )
 "dyp.ml" 2886 100094 100141 "dyp.ml" 2886 100094 100172
+call(
+  stack
+)
 type(
   Prio_set.t
 )
@@ -46012,6 +47686,9 @@ ident(
   int_ref user_g "dyp.ml" 2847 98874 98880 "dyp.ml" 2847 98874 98886
 )
 "dyp.ml" 2888 100179 100190 "dyp.ml" 2888 100179 100219
+call(
+  stack
+)
 type(
   unit
 )
@@ -46074,7 +47751,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2891 100283 100310 "dyp.ml" 2891 100283 100315
 type(
@@ -46174,6 +47851,9 @@ ident(
   int_ref prio_map "dyp.ml" 2893 100366 100388 "dyp.ml" 2893 100366 100396
 )
 "dyp.ml" 2893 100366 100402 "dyp.ml" 2893 100366 100432
+call(
+  stack
+)
 type(
   int Prio_map.t
 )
@@ -46189,7 +47869,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2893 100366 100436 "dyp.ml" 2893 100366 100437
 type(
@@ -46256,6 +47936,9 @@ type(
   int Prio_map.t * int
 )
 "dyp.ml" 2894 100442 100463 "dyp.ml" 2894 100442 100512
+call(
+  stack
+)
 type(
   int Prio_map.t * int
 )
@@ -46307,7 +47990,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2896 100562 100575 "dyp.ml" 2896 100562 100576
 type(
@@ -46325,6 +48008,9 @@ ident(
   int_ref n "dyp.ml" 2894 100442 100459 "dyp.ml" 2894 100442 100460
 )
 "dyp.ml" 2896 100562 100566 "dyp.ml" 2896 100562 100579
+call(
+  tail
+)
 type(
   int
 )
@@ -46368,6 +48054,9 @@ type(
   int
 )
 "dyp.ml" 2898 100585 100602 "dyp.ml" 2898 100585 100611
+call(
+  stack
+)
 type(
   int
 )
@@ -46603,7 +48292,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dyp.ml" 2908 100871 100890 "dyp.ml" 2908 100871 100891
 type(
@@ -46632,6 +48321,9 @@ type(
   int
 )
 "dyp.ml" 2909 100895 100913 "dyp.ml" 2909 100895 100919
+call(
+  stack
+)
 type(
   Prio_map.key -> int -> unit
 )
@@ -46651,6 +48343,9 @@ type(
   int Prio_map.t
 )
 "dyp.ml" 2909 100895 100899 "dyp.ml" 2909 100895 100937
+call(
+  stack
+)
 type(
   unit
 )
@@ -46726,6 +48421,9 @@ ident(
   int_ref l "dyp.ml" 2931 101550 101570 "dyp.ml" 2931 101550 101571
 )
 "dyp.ml" 2932 101574 101597 "dyp.ml" 2932 101574 101612
+call(
+  stack
+)
 type(
   int
 )
@@ -46803,7 +48501,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2933 101624 101678 "dyp.ml" 2933 101624 101679
 type(
@@ -46833,6 +48531,9 @@ ident(
   int_ref l "dyp.ml" 2931 101550 101570 "dyp.ml" 2931 101550 101571
 )
 "dyp.ml" 2933 101624 101636 "dyp.ml" 2933 101624 101685
+call(
+  stack
+)
 type(
   int
 )
@@ -46925,6 +48626,9 @@ type(
   int Prio_map.t
 )
 "dyp.ml" 2938 101730 101744 "dyp.ml" 2938 101730 101779
+call(
+  stack
+)
 type(
   int
 )
@@ -46967,6 +48671,9 @@ ident(
   int_ref litl "dyp.ml" 2937 101703 101718 "dyp.ml" 2937 101703 101722
 )
 "dyp.ml" 2939 101783 101810 "dyp.ml" 2939 101783 101830
+call(
+  stack
+)
 type(
   Map_rhs.key
 )
@@ -46996,6 +48703,9 @@ type(
   ('o14, 'p14, 'q14) Dyp_special_types.action list Map_rhs.t
 )
 "dyp.ml" 2939 101783 101798 "dyp.ml" 2939 101783 101840
+call(
+  stack
+)
 type(
   ('o14, 'p14, 'q14) Dyp_special_types.action list Map_rhs.t
 )
@@ -47034,6 +48744,9 @@ ident(
   int_ref user_g "dyp.ml" 2847 98874 98880 "dyp.ml" 2847 98874 98886
 )
 "dyp.ml" 2941 101846 101857 "dyp.ml" 2941 101846 101882
+call(
+  stack
+)
 type(
   unit
 )
@@ -47068,7 +48781,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2943 101889 101909 "dyp.ml" 2943 101889 101910
 type(
@@ -47108,7 +48821,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2944 101914 101939 "dyp.ml" 2944 101914 101947
 type(
@@ -47147,7 +48860,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2945 101960 101970 "dyp.ml" 2945 101960 101971
 type(
@@ -47200,10 +48913,16 @@ ident(
   int_ref i "dyp.ml" 2944 101914 101929 "dyp.ml" 2944 101914 101930
 )
 "dyp.ml" 2945 101960 101973 "dyp.ml" 2945 101960 102000
+call(
+  stack
+)
 type(
   int
 )
 "dyp.ml" 2945 101960 101964 "dyp.ml" 2945 101960 102000
+call(
+  tail
+)
 type(
   int
 )
@@ -47231,6 +48950,9 @@ type(
   int
 )
 "dyp.ml" 2947 102006 102018 "dyp.ml" 2947 102006 102023
+call(
+  stack
+)
 type(
   int
 )
@@ -47239,7 +48961,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2948 102027 102033 "dyp.ml" 2948 102027 102047
 type(
@@ -47254,7 +48976,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "dyp.ml" 2948 102027 102048 "dyp.ml" 2948 102027 102049
 type(
@@ -47276,7 +48998,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2949 102055 102076 "dyp.ml" 2949 102055 102087
 type(
@@ -47298,6 +49020,9 @@ ident(
   int_ref nbr "dyp.ml" 2947 102006 102012 "dyp.ml" 2947 102006 102015
 )
 "dyp.ml" 2949 102055 102060 "dyp.ml" 2949 102055 102130
+call(
+  stack
+)
 type(
   unit
 )
@@ -47313,7 +49038,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2950 102132 102152 "dyp.ml" 2950 102132 102163
 type(
@@ -47335,6 +49060,9 @@ ident(
   int_ref newnt_nb "dyp.ml" 2898 100585 100591 "dyp.ml" 2898 100585 100599
 )
 "dyp.ml" 2950 102132 102136 "dyp.ml" 2950 102132 102209
+call(
+  stack
+)
 type(
   unit
 )
@@ -47353,6 +49081,9 @@ ident(
   ext_ref Pervasives.stdout
 )
 "dyp.ml" 2951 102211 102215 "dyp.ml" 2951 102211 102227
+call(
+  stack
+)
 type(
   unit
 )
@@ -47811,6 +49542,9 @@ type(
   int * int
 )
 "dyp.ml" 2966 102626 102630 "dyp.ml" 2966 102626 102686
+call(
+  stack
+)
 type(
   unit
 )
@@ -47844,7 +49578,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2967 102688 102708 "dyp.ml" 2967 102688 102724
 type(
@@ -47869,17 +49603,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2967 102688 102730 "dyp.ml" 2967 102688 102733
 type(
   string
 )
 "dyp.ml" 2967 102688 102707 "dyp.ml" 2967 102688 102733
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2967 102688 102705 "dyp.ml" 2967 102688 102733
+call(
+  tail
+)
 type(
   string
 )
@@ -47906,7 +49646,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2968 102737 102767 "dyp.ml" 2968 102737 102781
 type(
@@ -47923,6 +49663,9 @@ ident(
   int_ref b "dyp.ml" 2965 102601 102621 "dyp.ml" 2965 102601 102622
 )
 "dyp.ml" 2968 102737 102766 "dyp.ml" 2968 102737 102784
+call(
+  stack
+)
 type(
   string
 )
@@ -47931,7 +49674,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2968 102737 102785 "dyp.ml" 2968 102737 102791
 type(
@@ -47942,7 +49685,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2968 102737 102793 "dyp.ml" 2968 102737 102807
 type(
@@ -47970,6 +49713,9 @@ ident(
   int_ref pl "dyp.ml" 2965 102601 102618 "dyp.ml" 2965 102601 102620
 )
 "dyp.ml" 2968 102737 102792 "dyp.ml" 2968 102737 102818
+call(
+  stack
+)
 type(
   string
 )
@@ -47978,29 +49724,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dyp.ml" 2968 102737 102819 "dyp.ml" 2968 102737 102824
 type(
   string
 )
 "dyp.ml" 2968 102737 102792 "dyp.ml" 2968 102737 102824
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2968 102737 102785 "dyp.ml" 2968 102737 102824
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2968 102737 102766 "dyp.ml" 2968 102737 102824
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2968 102737 102760 "dyp.ml" 2968 102737 102825
+call(
+  stack
+)
 type(
   string
 )
 "dyp.ml" 2968 102737 102741 "dyp.ml" 2968 102737 102825
+call(
+  tail
+)
 type(
   unit
 )
@@ -48035,6 +49796,9 @@ ident(
   int_ref prio_imp "dyp.ml" 2964 102535 102578 "dyp.ml" 2964 102535 102586
 )
 "dyp.ml" 2970 102831 102833 "dyp.ml" 2970 102831 102857
+call(
+  tail
+)
 type(
   unit
 )
@@ -48221,6 +49985,9 @@ ident(
   int_ref lit "dyp.ml" 2976 103015 103023 "dyp.ml" 2976 103015 103026
 )
 "dyp.ml" 2977 103041 103048 "dyp.ml" 2977 103041 103065
+call(
+  stack
+)
 type(
   non_ter pliteral
 )
@@ -48229,7 +49996,7 @@ type(
   non_ter pliteral -> non_ter pliteral -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 2977 103041 103067 "dyp.ml" 2977 103041 103071
 type(
@@ -48338,7 +50105,7 @@ type(
   priority -> priority -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2980 103169 103211 "dyp.ml" 2980 103169 103212
 type(
@@ -48400,6 +50167,9 @@ ident(
   int_ref p "dyp.ml" 2981 103213 103246 "dyp.ml" 2981 103213 103247
 )
 "dyp.ml" 2982 103252 103262 "dyp.ml" 2982 103252 103288
+call(
+  stack
+)
 type(
   bool
 )
@@ -48452,6 +50222,9 @@ ident(
   int_ref p "dyp.ml" 2983 103289 103324 "dyp.ml" 2983 103289 103325
 )
 "dyp.ml" 2984 103330 103340 "dyp.ml" 2984 103330 103368
+call(
+  stack
+)
 type(
   bool
 )
@@ -48460,7 +50233,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 2984 103330 103371 "dyp.ml" 2984 103330 103372
 type(
@@ -48474,7 +50247,7 @@ type(
   priority -> priority -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2984 103330 103373 "dyp.ml" 2984 103330 103377
 type(
@@ -48540,6 +50313,9 @@ ident(
   int_ref prio "dyp.ml" 2973 102860 102906 "dyp.ml" 2973 102860 102910
 )
 "dyp.ml" 2986 103421 103431 "dyp.ml" 2986 103421 103457
+call(
+  stack
+)
 type(
   bool
 )
@@ -48592,6 +50368,9 @@ ident(
   int_ref prio "dyp.ml" 2973 102860 102906 "dyp.ml" 2973 102860 102910
 )
 "dyp.ml" 2988 103502 103512 "dyp.ml" 2988 103502 103540
+call(
+  stack
+)
 type(
   bool
 )
@@ -48600,7 +50379,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 2988 103502 103543 "dyp.ml" 2988 103502 103544
 type(
@@ -48614,7 +50393,7 @@ type(
   priority -> priority -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2988 103502 103545 "dyp.ml" 2988 103502 103549
 type(
@@ -48659,7 +50438,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 2991 103585 103597 "dyp.ml" 2991 103585 103598
 type(
@@ -48716,6 +50495,9 @@ ident(
   int_ref prio_imp "dyp.ml" 2973 102860 102889 "dyp.ml" 2973 102860 102897
 )
 "dyp.ml" 2992 103619 103629 "dyp.ml" 2992 103619 103659
+call(
+  stack
+)
 type(
   priority list * bool
 )
@@ -48737,7 +50519,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2995 103694 103716 "dyp.ml" 2995 103694 103727
 type(
@@ -48787,6 +50569,9 @@ type(
   int * int
 )
 "dyp.ml" 2995 103694 103702 "dyp.ml" 2995 103694 103766
+call(
+  stack
+)
 type(
   unit
 )
@@ -48806,7 +50591,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 2996 103768 103792 "dyp.ml" 2996 103768 103803
 type(
@@ -48845,6 +50630,9 @@ ident(
   int_ref str_non_ter "dyp.ml" 2973 102860 102941 "dyp.ml" 2973 102860 102952
 )
 "dyp.ml" 2996 103768 103776 "dyp.ml" 2996 103768 103843
+call(
+  stack
+)
 type(
   unit
 )
@@ -48860,6 +50648,9 @@ type(
   string
 )
 "dyp.ml" 2997 103845 103853 "dyp.ml" 2997 103845 103880
+call(
+  stack
+)
 type(
   priority list * bool
 )
@@ -48908,7 +50699,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dyp.ml" 2999 103889 103914 "dyp.ml" 2999 103889 103915
 type(
@@ -48952,7 +50743,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dyp.ml" 2999 103889 103944 "dyp.ml" 2999 103889 103949
 type(
@@ -48977,6 +50768,9 @@ ident(
   int_ref new_pi "dyp.ml" 2974 102955 102964 "dyp.ml" 2974 102955 102970
 )
 "dyp.ml" 2999 103889 103893 "dyp.ml" 2999 103889 103959
+call(
+  stack
+)
 type(
   (priority list * bool) Grammar_PrioAtRuntime.Item_map.t
 )
@@ -48992,7 +50786,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 3000 103961 103971 "dyp.ml" 3000 103961 103973
 type(
@@ -49088,6 +50882,9 @@ type(
   (int * int) list
 )
 "dyp.ml" 3002 103980 103993 "dyp.ml" 3002 103980 104044
+call(
+  stack
+)
 type(
   (priority list * bool) Grammar_PrioAtRuntime.Item_map.t * bool
 )
@@ -49153,6 +50950,9 @@ type(
   (int * int) list
 )
 "dyp.ml" 3003 104048 104061 "dyp.ml" 3003 104048 104097
+call(
+  stack
+)
 type(
   (priority list * bool) Grammar_PrioAtRuntime.Item_map.t * bool
 )
@@ -49206,6 +51006,9 @@ type(
   int * int
 )
 "dyp.ml" 3004 104101 104116 "dyp.ml" 3004 104101 104126
+call(
+  tail
+)
 type(
   (priority list * bool) Grammar_PrioAtRuntime.Item_map.t * bool
 )
@@ -49257,6 +51060,9 @@ type(
   int list
 )
 "dyp.ml" 3005 104130 104132 "dyp.ml" 3005 104130 104169
+call(
+  tail
+)
 type(
   (priority list * bool) Grammar_PrioAtRuntime.Item_map.t * bool
 )
@@ -49323,6 +51129,9 @@ type(
   unit
 )
 "dyp.ml" 3011 104390 104405 "dyp.ml" 3011 104390 104420
+call(
+  stack
+)
 type(
   Grammar_PrioAtRuntime.item_set
 )
@@ -49384,6 +51193,9 @@ ident(
   int_ref rn_map "dyp.ml" 3010 104355 104381 "dyp.ml" 3010 104355 104387
 )
 "dyp.ml" 3014 104456 104475 "dyp.ml" 3014 104456 104497
+call(
+  stack
+)
 type(
   int
 )
@@ -49473,6 +51285,9 @@ type(
   (Int_map.key * int) list
 )
 "dyp.ml" 3018 104560 104582 "dyp.ml" 3018 104560 104614
+call(
+  stack
+)
 type(
   (int * int) list
 )
@@ -49518,6 +51333,9 @@ type(
   (Int_map.key * int) list
 )
 "dyp.ml" 3019 104616 104637 "dyp.ml" 3019 104616 104668
+call(
+  stack
+)
 type(
   (int * int) list
 )
@@ -49569,6 +51387,9 @@ type(
   (Int_map.key * Grammar_PrioAtRuntime.TNS.t) list
 )
 "dyp.ml" 3020 104670 104692 "dyp.ml" 3020 104670 104724
+call(
+  stack
+)
 type(
   (int * Grammar_PrioAtRuntime.TNS.t) list
 )
@@ -49623,6 +51444,9 @@ ident(
   int_ref rn_map "dyp.ml" 3010 104355 104381 "dyp.ml" 3010 104355 104387
 )
 "dyp.ml" 3023 104758 104777 "dyp.ml" 3023 104758 104799
+call(
+  stack
+)
 type(
   int
 )
@@ -49701,6 +51525,9 @@ type(
   Int_map.key list
 )
 "dyp.ml" 3027 104866 104889 "dyp.ml" 3027 104866 104922
+call(
+  stack
+)
 type(
   int list
 )
@@ -49776,6 +51603,9 @@ ident(
   int_ref rn_map "dyp.ml" 3010 104355 104381 "dyp.ml" 3010 104355 104387
 )
 "dyp.ml" 3031 104969 104988 "dyp.ml" 3031 104969 105010
+call(
+  stack
+)
 type(
   int
 )
@@ -49822,6 +51652,9 @@ ident(
   int_ref new_prio_imp "dyp.ml" 3029 104927 104946 "dyp.ml" 3029 104927 104958
 )
 "dyp.ml" 3032 105014 105020 "dyp.ml" 3032 105014 105060
+call(
+  stack
+)
 type(
   'p15 Grammar_PrioAtRuntime.Item_map.t
 )
@@ -49886,6 +51719,9 @@ ident(
   ext_ref Grammar_PrioAtRuntime.Item_map.empty
 )
 "dyp.ml" 3035 105101 105122 "dyp.ml" 3035 105101 105161
+call(
+  stack
+)
 type(
   'n15 Grammar_PrioAtRuntime.Item_map.t
 )
@@ -50041,6 +51877,9 @@ ident(
   int_ref prio_imp "dyp.ml" 3038 105189 105224 "dyp.ml" 3038 105189 105232
 )
 "dyp.ml" 3039 105235 105251 "dyp.ml" 3039 105235 105305
+call(
+  stack
+)
 type(
   'r15 list * bool
 )
@@ -50125,7 +51964,7 @@ type(
   't15 -> 't15 -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 3047 105491 105539 "dyp.ml" 3047 105491 105542
 type(
@@ -50142,6 +51981,9 @@ ident(
   int_ref pi2 "dyp.ml" 3047 105491 105514 "dyp.ml" 3047 105491 105517
 )
 "dyp.ml" 3047 105491 105520 "dyp.ml" 3047 105491 105546
+call(
+  tail
+)
 type(
   bool
 )
@@ -50226,7 +52068,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>=
+  ext_ref Pervasives.( >= )
 )
 "dyp.ml" 3053 105693 105706 "dyp.ml" 3053 105693 105718
 type(
@@ -50263,7 +52105,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dyp.ml" 3054 105735 105757 "dyp.ml" 3054 105735 105768
 type(
@@ -50303,6 +52145,9 @@ type(
   int
 )
 "dyp.ml" 3054 105735 105741 "dyp.ml" 3055 105796 105828
+call(
+  stack
+)
 type(
   unit
 )
@@ -50318,6 +52163,9 @@ type(
   string
 )
 "dyp.ml" 3055 105796 105830 "dyp.ml" 3055 105796 105849
+call(
+  stack
+)
 type(
   unit
 )
@@ -50341,7 +52189,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 3056 105852 105863 "dyp.ml" 3056 105852 105864
 type(
@@ -50356,7 +52204,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "dyp.ml" 3056 105852 105868 "dyp.ml" 3056 105852 105880
 type(
@@ -50392,7 +52240,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dyp.ml" 3056 105852 105896 "dyp.ml" 3056 105852 105897
 type(
@@ -50467,7 +52315,7 @@ type(
   non_ter -> non_ter -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dyp.ml" 3058 105944 105975 "dyp.ml" 3058 105944 105986
 type(
@@ -50502,6 +52350,9 @@ ident(
   int_ref prio_l "dyp.ml" 3052 105664 105681 "dyp.ml" 3052 105664 105687
 )
 "dyp.ml" 3059 105990 106018 "dyp.ml" 3059 105990 106034
+call(
+  stack
+)
 type(
   priority
 )
@@ -50560,6 +52411,9 @@ ident(
   int_ref prio_imp "dyp.ml" 3051 105582 105616 "dyp.ml" 3051 105582 105624
 )
 "dyp.ml" 3062 106057 106063 "dyp.ml" 3062 106057 106087
+call(
+  stack
+)
 type(
   unit
 )
@@ -50575,6 +52429,9 @@ type(
   string
 )
 "dyp.ml" 3063 106089 106093 "dyp.ml" 3063 106089 106120
+call(
+  stack
+)
 type(
   priority
 )
@@ -50607,4 +52464,12 @@ type(
 "dyp.ml" 3052 105664 105666 "dyp.ml" 3064 106121 106151
 type(
   priority
+)
+"dyp.ml" 3101 107231 107251 "dyp.ml" 3101 107231 107299
+call(
+  stack
+)
+"dyp.ml" 3102 107300 107320 "dyp.ml" 3102 107300 107364
+call(
+  stack
 )

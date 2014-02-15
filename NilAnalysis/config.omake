@@ -91,7 +91,7 @@ exit 1;;"" | ocaml -I $(OUNIT_DIR) unix.cma oUnit.cma)
 
         # Our installation variables
         DESTDIR = $(conf-dir DESTDIR, $(EMPTY))
-        PREFIX = $(conf-dir PREFIX, /root/workspace/NilAnalysis)
+        PREFIX = $(conf-dir PREFIX, /home/nicolo/Documenti/asprubyanalizer/NilAnalysis)
         SYSCONFDIR = $(PREFIX)/etc
         BINDIR = $(conf-dir BINDIR, $(PREFIX)/bin)
         DRUBYSITELIB = $(conf-dir DRUBYSITELIB, $(RUBYSITEDIR)/druby)

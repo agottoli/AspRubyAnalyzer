@@ -78,8 +78,8 @@ module Forwards(DFP : DataFlowProblem) = struct
 		
 		match stmt.snode with
 			| Seq(list) -> 
-				(* print_string "Sequence: \n"; *)
-				(* print_stmt stdout stmt; *)
+				 print_string "Sequence: \n"; 
+				 print_stmt stdout stmt; 
 				let newfacts = ref !ifacts in
   				List.iter (fun x -> 
   					Hashtbl.replace in_tbl x !ifacts;
@@ -92,8 +92,15 @@ module Forwards(DFP : DataFlowProblem) = struct
 				!newfacts
 				
 			| If(_, t, f) -> 
-				(* print_string "If: \n"; *)
-				(* print_stmt stdout stmt; *)
+				print_string "-------------------------------------------\n";
+				(**) print_string "If: \n"; (**)
+				(**) print_stmt stdout stmt; (**)
+				print_string "TRUE:  -> ---------------------------------\n";
+				print_stmt stdout t;
+				print_string "FALSE:  -> ---------------------------------\n";
+				print_stmt stdout f;
+				print_string "-------------------------------------------\n";
+				print_string "-------------------------------------------\n";
 				(* we add the t and f branches with what we know before them (before the if) to in_tbl *)
 				Hashtbl.replace in_tbl t !ifacts;
 				Hashtbl.replace in_tbl f !ifacts;
@@ -191,18 +198,18 @@ module Forwards(DFP : DataFlowProblem) = struct
 							) (List.hd finalfacts) (List.tl finalfacts)
 							
 		  |Assign (_) ->  
-				(* print_string "Assignment: \n"; *)
-				(* print_stmt stdout stmt; *)
+				(**) print_string "Assignment: \n"; (**)
+				(**) print_stmt stdout stmt; (**)
 				DFP.transfer !ifacts stmt	(* we compute newfacts on stmt based on what we know *)
 				
 			|MethodCall(_, _) ->
-				(* print_string "Method call: \n"; *)
-				(* print_stmt stdout stmt; *)
+				(**) print_string "Method call: \n"; (**)
+				(**) print_stmt stdout stmt; (**)
 				DFP.transfer !ifacts stmt 
 				
 			| _ ->  
-				(* print_string "Other: \n"; *)
-				(* print_stmt stdout stmt; *)
+				(**) print_string "Other: \n"; (**)
+				(**) print_stmt stdout stmt; (**)
 				DFP.transfer !ifacts stmt 
 
 	let fixpoint stmt =
@@ -213,7 +220,8 @@ module Forwards(DFP : DataFlowProblem) = struct
 				(*newfacts is what we know after stmt, the entire program! *)
 				Hashtbl.replace out_tbl stmt newfacts;
 		in_tbl, out_tbl
-			
+		
+
 (*		let fixpoint stmt =
 		let in_tbl = Hashtbl.create 127 in
 		let out_tbl = Hashtbl.create 127 in
@@ -307,6 +315,7 @@ module Backwards(DFP : DataFlowProblem) = struct
 					StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
 					Hashtbl.replace out_tbl stmt new_facts
 		done;
+
 		in_tbl, out_tbl
 	
 end

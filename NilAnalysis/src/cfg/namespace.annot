@@ -196,7 +196,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "namespace.ml" 38 709 730 "namespace.ml" 38 709 734
 type(
@@ -207,7 +207,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "namespace.ml" 38 709 737 "namespace.ml" 38 709 751
 type(
@@ -224,14 +224,23 @@ ident(
   int_ref tl "namespace.ml" 38 709 719 "namespace.ml" 38 709 721
 )
 "namespace.ml" 38 709 737 "namespace.ml" 38 709 754
+call(
+  stack
+)
 type(
   string
 )
 "namespace.ml" 38 709 730 "namespace.ml" 38 709 754
+call(
+  stack
+)
 type(
   string
 )
 "namespace.ml" 38 709 725 "namespace.ml" 38 709 754
+call(
+  tail
+)
 type(
   string
 )
@@ -266,7 +275,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "namespace.ml" 41 777 812 "namespace.ml" 41 777 826
 type(
@@ -283,10 +292,16 @@ ident(
   int_ref l "namespace.ml" 41 777 800 "namespace.ml" 41 777 801
 )
 "namespace.ml" 41 777 812 "namespace.ml" 41 777 828
+call(
+  stack
+)
 type(
   string
 )
 "namespace.ml" 41 777 805 "namespace.ml" 41 777 828
+call(
+  tail
+)
 type(
   string
 )
@@ -316,6 +331,9 @@ ident(
   int_ref l "namespace.ml" 42 829 852 "namespace.ml" 42 829 853
 )
 "namespace.ml" 42 829 857 "namespace.ml" 42 829 873
+call(
+  tail
+)
 type(
   string
 )
@@ -426,6 +444,9 @@ ident(
   int_ref ctx "namespace.ml" 47 948 959 "namespace.ml" 47 948 962
 )
 "namespace.ml" 47 948 974 "namespace.ml" 47 948 998
+call(
+  tail
+)
 type(
   string list
 )
@@ -476,6 +497,9 @@ ident(
   int_ref targ_ctx "namespace.ml" 48 999 1021 "namespace.ml" 48 999 1029
 )
 "namespace.ml" 48 999 1034 "namespace.ml" 48 999 1053
+call(
+  tail
+)
 type(
   string list
 )
@@ -502,6 +526,9 @@ ident(
   int_ref c "namespace.ml" 44 876 891 "namespace.ml" 44 876 892
 )
 "namespace.ml" 50 1059 1063 "namespace.ml" 50 1059 1074
+call(
+  tail
+)
 type(
   string list
 )
@@ -538,6 +565,9 @@ ident(
   int_ref c "namespace.ml" 52 1076 1094 "namespace.ml" 52 1076 1095
 )
 "namespace.ml" 52 1076 1113 "namespace.ml" 52 1076 1126
+call(
+  stack
+)
 type(
   string list
 )
@@ -610,6 +640,9 @@ type(
   string list
 )
 "namespace.ml" 55 1174 1213 "namespace.ml" 55 1174 1234
+call(
+  stack
+)
 type(
   string list
 )
@@ -654,6 +687,9 @@ type(
   string list
 )
 "namespace.ml" 56 1235 1274 "namespace.ml" 56 1235 1295
+call(
+  stack
+)
 type(
   string list
 )
@@ -738,6 +774,9 @@ ident(
   int_ref curs "namespace.ml" 58 1297 1322 "namespace.ml" 58 1297 1326
 )
 "namespace.ml" 61 1401 1422 "namespace.ml" 61 1401 1440
+call(
+  stack
+)
 type(
   scope
 )
@@ -767,6 +806,9 @@ ident(
   int_ref l "namespace.ml" 62 1446 1464 "namespace.ml" 62 1446 1465
 )
 "namespace.ml" 62 1446 1469 "namespace.ml" 62 1446 1479
+call(
+  stack
+)
 type(
   string list
 )
@@ -841,6 +883,9 @@ ident(
   int_ref acc "namespace.ml" 65 1510 1531 "namespace.ml" 65 1510 1534
 )
 "namespace.ml" 67 1559 1581 "namespace.ml" 67 1559 1594
+call(
+  stack
+)
 type(
   string list
 )
@@ -852,6 +897,9 @@ ident(
   int_ref tl "namespace.ml" 67 1559 1568 "namespace.ml" 67 1559 1570
 )
 "namespace.ml" 67 1559 1574 "namespace.ml" 67 1559 1597
+call(
+  tail
+)
 type(
   string list
 )
@@ -906,6 +954,9 @@ ident(
   int_ref tl "namespace.ml" 68 1598 1605 "namespace.ml" 68 1598 1607
 )
 "namespace.ml" 68 1598 1611 "namespace.ml" 68 1598 1630
+call(
+  tail
+)
 type(
   string list
 )
@@ -942,10 +993,16 @@ ident(
   int_ref l "namespace.ml" 60 1376 1395 "namespace.ml" 60 1376 1396
 )
 "namespace.ml" 70 1640 1666 "namespace.ml" 70 1640 1679
+call(
+  stack
+)
 type(
   string list
 )
 "namespace.ml" 70 1640 1656 "namespace.ml" 70 1640 1680
+call(
+  stack
+)
 type(
   string list
 )
@@ -1085,6 +1142,9 @@ ident(
   int_ref k "namespace.ml" 74 1754 1777 "namespace.ml" 74 1754 1778
 )
 "namespace.ml" 74 1754 1788 "namespace.ml" 74 1754 1810
+call(
+  tail
+)
 type(
   string
 )
@@ -1104,6 +1164,9 @@ type(
   string
 )
 "namespace.ml" 74 1754 1760 "namespace.ml" 74 1754 1816
+call(
+  tail
+)
 type(
   string
 )
@@ -1147,10 +1210,16 @@ ident(
   int_ref c "namespace.ml" 76 1819 1838 "namespace.ml" 76 1819 1839
 )
 "namespace.ml" 76 1819 1858 "namespace.ml" 76 1819 1875
+call(
+  stack
+)
 type(
   scope
 )
 "namespace.ml" 76 1819 1842 "namespace.ml" 76 1819 1875
+call(
+  tail
+)
 type(
   string
 )
@@ -1298,6 +1367,9 @@ ident(
   int_ref bind_map "namespace.ml" 80 1939 1954 "namespace.ml" 80 1939 1962
 )
 "namespace.ml" 83 2039 2049 "namespace.ml" 83 2039 2074
+call(
+  stack
+)
 type(
   'a t
 )
@@ -1399,6 +1471,9 @@ ident(
   int_ref been_theres "namespace.ml" 78 1877 1908 "namespace.ml" 78 1877 1919
 )
 "namespace.ml" 86 2128 2152 "namespace.ml" 86 2128 2198
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -1482,6 +1557,9 @@ ident(
   int_ref curs "namespace.ml" 89 2210 2236 "namespace.ml" 89 2210 2253
 )
 "namespace.ml" 90 2278 2296 "namespace.ml" 90 2278 2314
+call(
+  stack
+)
 type(
   scope
 )
@@ -1525,6 +1603,9 @@ ident(
   int_ref curs "namespace.ml" 89 2210 2236 "namespace.ml" 89 2210 2253
 )
 "namespace.ml" 94 2400 2416 "namespace.ml" 94 2400 2439
+call(
+  stack
+)
 type(
   scope
 )
@@ -1554,6 +1635,9 @@ ident(
   int_ref been_theres "namespace.ml" 89 2210 2263 "namespace.ml" 89 2210 2274
 )
 "namespace.ml" 95 2443 2457 "namespace.ml" 95 2443 2485
+call(
+  stack
+)
 type(
   bool
 )
@@ -1639,6 +1723,9 @@ ident(
   int_ref been_theres "namespace.ml" 96 2510 2516 "namespace.ml" 96 2510 2527
 )
 "namespace.ml" 97 2554 2572 "namespace.ml" 97 2554 2607
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
@@ -1700,6 +1787,9 @@ ident(
   int_ref been_theres "namespace.ml" 96 2510 2516 "namespace.ml" 96 2510 2527
 )
 "namespace.ml" 98 2611 2615 "namespace.ml" 98 2611 2674
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -1731,6 +1821,9 @@ ident(
   int_ref inc_list "namespace.ml" 89 2210 2254 "namespace.ml" 89 2210 2262
 )
 "namespace.ml" 91 2318 2322 "namespace.ml" 99 2675 2691
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -1793,6 +1886,9 @@ type(
   string
 )
 "namespace.ml" 102 2739 2750 "namespace.ml" 102 2739 2785
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -1882,6 +1978,9 @@ ident(
   int_ref m "namespace.ml" 104 2839 2852 "namespace.ml" 104 2839 2853
 )
 "namespace.ml" 104 2839 2871 "namespace.ml" 104 2839 2890
+call(
+  stack
+)
 type(
   'a t Utils.StrMap.t
 )
@@ -1961,6 +2060,9 @@ ident(
   int_ref m "namespace.ml" 105 2894 2907 "namespace.ml" 105 2894 2908
 )
 "namespace.ml" 105 2894 2928 "namespace.ml" 105 2894 2947
+call(
+  stack
+)
 type(
   'a t Utils.StrMap.t
 )
@@ -2055,6 +2157,9 @@ ident(
   int_ref been_theres "namespace.ml" 101 2693 2712 "namespace.ml" 101 2693 2723
 )
 "namespace.ml" 107 2961 2989 "namespace.ml" 107 2961 3030
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2105,6 +2210,9 @@ ident(
   int_ref bt "namespace.ml" 109 3032 3051 "namespace.ml" 109 3032 3053
 )
 "namespace.ml" 109 3032 3056 "namespace.ml" 109 3032 3069
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2223,10 +2331,16 @@ ident(
   int_ref been_theres "namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
 )
 "namespace.ml" 116 3288 3317 "namespace.ml" 116 3288 3348
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
 "namespace.ml" 116 3288 3307 "namespace.ml" 116 3288 3348
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2291,10 +2405,16 @@ ident(
   int_ref been_theres "namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
 )
 "namespace.ml" 117 3349 3375 "namespace.ml" 117 3349 3409
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
 "namespace.ml" 117 3349 3365 "namespace.ml" 117 3349 3409
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2349,10 +2469,16 @@ ident(
   int_ref curs "namespace.ml" 111 3071 3092 "namespace.ml" 111 3071 3096
 )
 "namespace.ml" 120 3432 3471 "namespace.ml" 120 3432 3490
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
 "namespace.ml" 120 3432 3461 "namespace.ml" 120 3432 3490
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2389,6 +2515,9 @@ ident(
   int_ref curs "namespace.ml" 111 3071 3092 "namespace.ml" 111 3071 3096
 )
 "namespace.ml" 122 3521 3528 "namespace.ml" 122 3521 3542
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
@@ -2411,6 +2540,9 @@ ident(
   int_ref curs "namespace.ml" 111 3071 3092 "namespace.ml" 111 3071 3096
 )
 "namespace.ml" 124 3565 3573 "namespace.ml" 124 3565 3585
+call(
+  stack
+)
 type(
   bool
 )
@@ -2465,6 +2597,9 @@ ident(
   int_ref been_theres "namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
 )
 "namespace.ml" 125 3607 3634 "namespace.ml" 125 3607 3661
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
@@ -2476,6 +2611,9 @@ ident(
   int_ref been_theres "namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
 )
 "namespace.ml" 125 3607 3617 "namespace.ml" 125 3607 3673
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2575,10 +2713,16 @@ type(
   scope list
 )
 "namespace.ml" 129 3736 3757 "namespace.ml" 129 3736 3772
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
 "namespace.ml" 129 3736 3745 "namespace.ml" 129 3736 3772
+call(
+  tail
+)
 type(
   'a t
 )
@@ -2622,10 +2766,16 @@ ident(
   int_ref curs "namespace.ml" 131 3774 3791 "namespace.ml" 131 3774 3795
 )
 "namespace.ml" 131 3774 3808 "namespace.ml" 131 3774 3826
+call(
+  stack
+)
 type(
   'a t
 )
 "namespace.ml" 131 3774 3798 "namespace.ml" 131 3774 3826
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2676,6 +2826,9 @@ type(
   scope list
 )
 "namespace.ml" 133 3828 3853 "namespace.ml" 133 3828 3875
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2712,6 +2865,9 @@ type(
   scope list
 )
 "namespace.ml" 134 3876 3895 "namespace.ml" 134 3876 3911
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2762,6 +2918,9 @@ type(
   scope list
 )
 "namespace.ml" 135 3912 3939 "namespace.ml" 135 3912 3963
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2798,6 +2957,9 @@ type(
   scope list
 )
 "namespace.ml" 136 3964 3984 "namespace.ml" 136 3964 4001
+call(
+  tail
+)
 type(
   'a ctx * 'a t
 )
@@ -2883,6 +3045,9 @@ ident(
   int_ref m "namespace.ml" 139 4050 4059 "namespace.ml" 139 4050 4060
 )
 "namespace.ml" 140 4070 4079 "namespace.ml" 140 4070 4096
+call(
+  stack
+)
 type(
   bool
 )
@@ -2922,6 +3087,9 @@ ident(
   int_ref m "namespace.ml" 139 4050 4059 "namespace.ml" 139 4050 4060
 )
 "namespace.ml" 141 4104 4121 "namespace.ml" 141 4104 4143
+call(
+  stack
+)
 type(
   'a t Utils.StrMap.t
 )
@@ -2987,6 +3155,9 @@ ident(
   int_ref m "namespace.ml" 142 4149 4158 "namespace.ml" 142 4149 4159
 )
 "namespace.ml" 143 4167 4176 "namespace.ml" 143 4167 4193
+call(
+  stack
+)
 type(
   bool
 )
@@ -3026,6 +3197,9 @@ ident(
   int_ref m "namespace.ml" 142 4149 4158 "namespace.ml" 142 4149 4159
 )
 "namespace.ml" 144 4201 4217 "namespace.ml" 144 4201 4239
+call(
+  stack
+)
 type(
   'a t Utils.StrMap.t
 )
@@ -3130,6 +3304,9 @@ ident(
   int_ref t "namespace.ml" 146 4244 4281 "namespace.ml" 146 4244 4282
 )
 "namespace.ml" 148 4303 4316 "namespace.ml" 148 4303 4343
+call(
+  stack
+)
 type(
   'a t
 )
@@ -3145,7 +3322,7 @@ type(
   'a t -> 'a t -> bool
 )
 ident(
-  ext_ref Pervasives.==
+  ext_ref Pervasives.( == )
 )
 "namespace.ml" 149 4347 4362 "namespace.ml" 149 4347 4363
 type(
@@ -3251,14 +3428,23 @@ ident(
   int_ref curs "namespace.ml" 146 4244 4277 "namespace.ml" 146 4244 4292
 )
 "namespace.ml" 152 4467 4495 "namespace.ml" 152 4467 4515
+call(
+  stack
+)
 type(
   scope
 )
 "namespace.ml" 152 4467 4478 "namespace.ml" 152 4467 4516
+call(
+  stack
+)
 type(
   string
 )
 "namespace.ml" 151 4404 4408 "namespace.ml" 152 4467 4516
+call(
+  tail
+)
 type(
   'b ctx * 'a t
 )
@@ -3338,6 +3524,9 @@ ident(
   int_ref curs "namespace.ml" 154 4524 4546 "namespace.ml" 154 4524 4550
 )
 "namespace.ml" 155 4554 4556 "namespace.ml" 155 4554 4617
+call(
+  tail
+)
 type(
   'b ctx * 'a t
 )
@@ -3406,6 +3595,9 @@ ident(
   int_ref curs "namespace.ml" 157 4619 4638 "namespace.ml" 157 4619 4653
 )
 "namespace.ml" 158 4657 4671 "namespace.ml" 158 4657 4696
+call(
+  stack
+)
 type(
   scope
 )
@@ -3428,6 +3620,9 @@ ident(
   int_ref curs "namespace.ml" 157 4619 4638 "namespace.ml" 157 4619 4653
 )
 "namespace.ml" 159 4700 4719 "namespace.ml" 159 4700 4737
+call(
+  stack
+)
 type(
   scope
 )
@@ -3443,7 +3638,7 @@ type(
   scope -> scope -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "namespace.ml" 160 4741 4756 "namespace.ml" 160 4741 4766
 type(
@@ -3510,6 +3705,9 @@ ident(
   int_ref l "namespace.ml" 166 4935 4945 "namespace.ml" 166 4935 4946
 )
 "namespace.ml" 166 4935 4954 "namespace.ml" 166 4935 4970
+call(
+  stack
+)
 type(
   bool
 )
@@ -3611,6 +3809,9 @@ ident(
   int_ref l "namespace.ml" 167 5005 5015 "namespace.ml" 167 5005 5016
 )
 "namespace.ml" 167 5005 5026 "namespace.ml" 167 5005 5042
+call(
+  stack
+)
 type(
   bool
 )
@@ -3803,6 +4004,9 @@ ident(
   int_ref m "namespace.ml" 171 5125 5134 "namespace.ml" 171 5125 5135
 )
 "namespace.ml" 171 5125 5150 "namespace.ml" 171 5125 5190
+call(
+  stack
+)
 type(
   'a t Utils.StrMap.t
 )
@@ -3897,6 +4101,9 @@ ident(
   int_ref m "namespace.ml" 172 5195 5204 "namespace.ml" 172 5195 5205
 )
 "namespace.ml" 172 5195 5223 "namespace.ml" 172 5195 5263
+call(
+  stack
+)
 type(
   'a t Utils.StrMap.t
 )
@@ -3982,6 +4189,9 @@ type(
   string
 )
 "namespace.ml" 176 5318 5332 "namespace.ml" 176 5318 5351
+call(
+  tail
+)
 type(
   'a
 )
@@ -4137,10 +4347,16 @@ ident(
   int_ref m "namespace.ml" 181 5437 5450 "namespace.ml" 181 5437 5451
 )
 "namespace.ml" 183 5487 5509 "namespace.ml" 183 5487 5526
+call(
+  stack
+)
 type(
   'b t
 )
 "namespace.ml" 183 5487 5499 "namespace.ml" 183 5487 5527
+call(
+  stack
+)
 type(
   'b
 )
@@ -4192,6 +4408,9 @@ ident(
   int_ref curs "namespace.ml" 179 5379 5401 "namespace.ml" 179 5379 5416
 )
 "namespace.ml" 187 5594 5607 "namespace.ml" 187 5594 5636
+call(
+  stack
+)
 type(
   scope
 )
@@ -4217,6 +4436,9 @@ ident(
   int_ref seen "namespace.ml" 179 5379 5396 "namespace.ml" 179 5379 5400
 )
 "namespace.ml" 188 5640 5648 "namespace.ml" 188 5640 5665
+call(
+  stack
+)
 type(
   bool
 )
@@ -4286,10 +4508,16 @@ ident(
   int_ref curs "namespace.ml" 179 5379 5401 "namespace.ml" 179 5379 5416
 )
 "namespace.ml" 189 5688 5712 "namespace.ml" 189 5688 5742
+call(
+  stack
+)
 type(
   'b ctx * 'b t
 )
 "namespace.ml" 189 5688 5693 "namespace.ml" 189 5688 5742
+call(
+  tail
+)
 type(
   'b option
 )
@@ -4313,6 +4541,9 @@ ident(
   int_ref links "namespace.ml" 181 5437 5452 "namespace.ml" 181 5437 5457
 )
 "namespace.ml" 185 5550 5559 "namespace.ml" 190 5743 5757
+call(
+  stack
+)
 type(
   'b option
 )
@@ -4366,6 +4597,9 @@ type(
   'a ctx * 'a t
 )
 "namespace.ml" 192 5786 5791 "namespace.ml" 192 5786 5806
+call(
+  tail
+)
 type(
   'a option
 )
@@ -4416,6 +4650,9 @@ ident(
   int_ref curs "namespace.ml" 194 5808 5828 "namespace.ml" 194 5808 5832
 )
 "namespace.ml" 195 5836 5844 "namespace.ml" 195 5836 5861
+call(
+  stack
+)
 type(
   'a option
 )
@@ -4504,6 +4741,9 @@ ident(
   int_ref curs "namespace.ml" 199 5910 5925 "namespace.ml" 199 5910 5940
 )
 "namespace.ml" 200 5944 5952 "namespace.ml" 200 5944 5969
+call(
+  stack
+)
 type(
   'a option
 )
@@ -4526,6 +4766,9 @@ ident(
   int_ref curs "namespace.ml" 199 5910 5925 "namespace.ml" 199 5910 5940
 )
 "namespace.ml" 202 5989 5993 "namespace.ml" 202 5989 6005
+call(
+  stack
+)
 type(
   bool
 )
@@ -4562,10 +4805,16 @@ ident(
   int_ref curs "namespace.ml" 199 5910 5925 "namespace.ml" 199 5910 5940
 )
 "namespace.ml" 203 6016 6029 "namespace.ml" 203 6016 6043
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
 "namespace.ml" 203 6016 6022 "namespace.ml" 203 6016 6043
+call(
+  tail
+)
 type(
   'a option
 )
@@ -4641,10 +4890,16 @@ ident(
   int_ref curs "namespace.ml" 206 6058 6085 "namespace.ml" 206 6058 6089
 )
 "namespace.ml" 206 6058 6106 "namespace.ml" 206 6058 6132
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
 "namespace.ml" 206 6058 6092 "namespace.ml" 206 6058 6132
+call(
+  tail
+)
 type(
   scope
 )
@@ -4691,6 +4946,9 @@ ident(
   int_ref curs "namespace.ml" 208 6134 6144 "namespace.ml" 208 6134 6148
 )
 "namespace.ml" 208 6134 6157 "namespace.ml" 208 6134 6168
+call(
+  stack
+)
 type(
   'a option
 )
@@ -4758,6 +5016,9 @@ ident(
   int_ref t "namespace.ml" 212 6212 6231 "namespace.ml" 212 6212 6232
 )
 "namespace.ml" 213 6237 6243 "namespace.ml" 213 6237 6253
+call(
+  stack
+)
 type(
   'b
 )
@@ -4781,6 +5042,9 @@ type(
   string
 )
 "namespace.ml" 214 6254 6274 "namespace.ml" 214 6254 6296
+call(
+  tail
+)
 type(
   'b
 )
@@ -4824,6 +5088,9 @@ ident(
   int_ref f "namespace.ml" 216 6298 6307 "namespace.ml" 216 6298 6308
 )
 "namespace.ml" 216 6298 6313 "namespace.ml" 216 6298 6316
+call(
+  tail
+)
 type(
   'b
 )
@@ -4874,6 +5141,9 @@ ident(
   int_ref c "namespace.ml" 218 6318 6338 "namespace.ml" 218 6318 6339
 )
 "namespace.ml" 219 6343 6358 "namespace.ml" 219 6343 6373
+call(
+  stack
+)
 type(
   scope
 )
@@ -4899,6 +5169,9 @@ ident(
   int_ref c "namespace.ml" 218 6318 6338 "namespace.ml" 218 6318 6339
 )
 "namespace.ml" 220 6377 6381 "namespace.ml" 220 6377 6398
+call(
+  stack
+)
 type(
   'a ctx * 'a t
 )
@@ -4917,6 +5190,9 @@ ident(
   int_ref f "namespace.ml" 218 6318 6334 "namespace.ml" 218 6318 6335
 )
 "namespace.ml" 220 6377 6381 "namespace.ml" 220 6377 6403
+call(
+  stack
+)
 type(
   'b ctx * 'b t
 )
@@ -4942,10 +5218,16 @@ ident(
   int_ref orig_s "namespace.ml" 219 6343 6349 "namespace.ml" 219 6343 6355
 )
 "namespace.ml" 220 6377 6407 "namespace.ml" 220 6377 6427
+call(
+  stack
+)
 type(
   'b ctx * 'b t -> 'b ctx * 'b t
 )
 "namespace.ml" 220 6377 6381 "namespace.ml" 220 6377 6427
+call(
+  tail
+)
 type(
   'b ctx * 'b t
 )
@@ -5008,6 +5290,9 @@ ident(
   int_ref curs "namespace.ml" 222 6429 6455 "namespace.ml" 222 6429 6459
 )
 "namespace.ml" 223 6463 6478 "namespace.ml" 223 6463 6496
+call(
+  stack
+)
 type(
   scope
 )
@@ -5037,6 +5322,9 @@ ident(
   int_ref curs "namespace.ml" 222 6429 6455 "namespace.ml" 222 6429 6459
 )
 "namespace.ml" 224 6500 6513 "namespace.ml" 224 6500 6533
+call(
+  stack
+)
 type(
   'b ctx * 'b t
 )
@@ -5074,6 +5362,9 @@ ident(
   int_ref curs "namespace.ml" 224 6500 6506 "namespace.ml" 224 6500 6510
 )
 "namespace.ml" 225 6537 6556 "namespace.ml" 225 6537 6566
+call(
+  stack
+)
 type(
   'c * ('d ctx * 'd t)
 )
@@ -5106,6 +5397,9 @@ ident(
   int_ref curs "namespace.ml" 225 6537 6548 "namespace.ml" 225 6537 6552
 )
 "namespace.ml" 226 6570 6579 "namespace.ml" 226 6570 6606
+call(
+  stack
+)
 type(
   'd ctx * 'd t
 )
@@ -5206,6 +5500,9 @@ ident(
   int_ref id1 "namespace.ml" 231 6698 6714 "namespace.ml" 231 6698 6717
 )
 "namespace.ml" 232 6726 6727 "namespace.ml" 232 6726 6739
+call(
+  stack
+)
 type(
   string list
 )
@@ -5214,7 +5511,7 @@ type(
   string list -> string list -> string list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "namespace.ml" 232 6726 6743 "namespace.ml" 232 6726 6746
 type(
@@ -5228,6 +5525,9 @@ type(
   string list
 )
 "namespace.ml" 232 6726 6727 "namespace.ml" 232 6726 6747
+call(
+  tail
+)
 type(
   string list
 )
@@ -5260,6 +5560,9 @@ ident(
   int_ref id "namespace.ml" 233 6748 6754 "namespace.ml" 233 6748 6756
 )
 "namespace.ml" 233 6748 6761 "namespace.ml" 233 6748 6798
+call(
+  stack
+)
 type(
   string
 )
@@ -5286,6 +5589,9 @@ ident(
   int_ref e "namespace.ml" 228 6608 6632 "namespace.ml" 228 6608 6633
 )
 "namespace.ml" 234 6800 6811 "namespace.ml" 234 6800 6819
+call(
+  stack
+)
 type(
   string list
 )
@@ -5452,6 +5758,9 @@ ident(
   int_ref id1 "namespace.ml" 244 7192 7208 "namespace.ml" 244 7192 7211
 )
 "namespace.ml" 245 7221 7235 "namespace.ml" 245 7221 7245
+call(
+  stack
+)
 type(
   string list * string
 )
@@ -5467,7 +5776,7 @@ type(
   string list -> string list -> string list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "namespace.ml" 246 7249 7257 "namespace.ml" 246 7249 7261
 type(
@@ -5481,6 +5790,9 @@ type(
   string list
 )
 "namespace.ml" 246 7249 7252 "namespace.ml" 246 7249 7262
+call(
+  stack
+)
 type(
   string list
 )
@@ -5532,6 +5844,9 @@ ident(
   int_ref id "namespace.ml" 247 7268 7274 "namespace.ml" 247 7268 7276
 )
 "namespace.ml" 247 7268 7283 "namespace.ml" 247 7268 7322
+call(
+  stack
+)
 type(
   string
 )
@@ -5561,6 +5876,9 @@ ident(
   int_ref e "namespace.ml" 238 6891 6921 "namespace.ml" 238 6891 6922
 )
 "namespace.ml" 249 7328 7338 "namespace.ml" 249 7328 7346
+call(
+  stack
+)
 type(
   string list * string
 )

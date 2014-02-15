@@ -81,6 +81,9 @@ type(
   ctx
 )
 "log.ml" 15 218 235 "log.ml" 15 218 252
+call(
+  tail
+)
 type(
   ctx
 )
@@ -156,6 +159,9 @@ type(
   ctx
 )
 "log.ml" 17 288 305 "log.ml" 17 288 322
+call(
+  tail
+)
 type(
   ctx
 )
@@ -268,7 +274,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "log.ml" 23 456 471 "log.ml" 23 456 475
 type(
@@ -286,7 +292,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "log.ml" 23 456 479 "log.ml" 23 456 482
 type(
@@ -300,7 +306,7 @@ type(
   pos -> pos -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "log.ml" 23 456 485 "log.ml" 23 456 489
 type(
@@ -350,6 +356,9 @@ ident(
   int_ref rest "log.ml" 22 416 446 "log.ml" 22 416 450
 )
 "log.ml" 25 506 517 "log.ml" 25 506 536
+call(
+  tail
+)
 type(
   bool
 )
@@ -420,6 +429,9 @@ ident(
   int_ref rest "log.ml" 26 537 551 "log.ml" 26 537 555
 )
 "log.ml" 27 557 580 "log.ml" 27 557 599
+call(
+  tail
+)
 type(
   bool
 )
@@ -470,6 +482,9 @@ ident(
   int_ref c1 "log.ml" 28 600 614 "log.ml" 28 600 616
 )
 "log.ml" 29 624 630 "log.ml" 29 624 647
+call(
+  stack
+)
 type(
   bool
 )
@@ -478,7 +493,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "log.ml" 29 624 651 "log.ml" 29 624 657
 type(
@@ -509,6 +524,9 @@ ident(
   int_ref c2 "log.ml" 28 600 617 "log.ml" 28 600 619
 )
 "log.ml" 29 624 651 "log.ml" 29 624 668
+call(
+  tail
+)
 type(
   bool
 )
@@ -617,6 +635,9 @@ ident(
   int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
 )
 "log.ml" 34 766 775 "log.ml" 34 766 792
+call(
+  stack
+)
 type(
   bool
 )
@@ -642,6 +663,9 @@ ident(
   int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
 )
 "log.ml" 35 793 804 "log.ml" 35 793 818
+call(
+  tail
+)
 type(
   ctx
 )
@@ -681,6 +705,9 @@ ident(
   int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
 )
 "log.ml" 36 819 854 "log.ml" 36 819 868
+call(
+  stack
+)
 type(
   ctx
 )
@@ -743,6 +770,9 @@ ident(
   int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
 )
 "log.ml" 37 871 903 "log.ml" 37 871 916
+call(
+  stack
+)
 type(
   ctx
 )
@@ -797,6 +827,9 @@ ident(
   int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
 )
 "log.ml" 38 918 950 "log.ml" 38 918 963
+call(
+  stack
+)
 type(
   ctx
 )
@@ -874,6 +907,9 @@ type(
   int
 )
 "log.ml" 42 1025 1035 "log.ml" 42 1025 1052
+call(
+  stack
+)
 type(
   Buffer.t
 )
@@ -896,6 +932,9 @@ ident(
   int_ref b "log.ml" 42 1025 1031 "log.ml" 42 1025 1032
 )
 "log.ml" 43 1056 1068 "log.ml" 43 1056 1096
+call(
+  stack
+)
 type(
   Format.formatter
 )
@@ -918,6 +957,9 @@ type(
   int
 )
 "log.ml" 44 1100 1104 "log.ml" 44 1100 1175
+call(
+  stack
+)
 type(
   unit
 )
@@ -955,6 +997,9 @@ type(
   unit
 )
 "log.ml" 47 1216 1218 "log.ml" 47 1216 1246
+call(
+  stack
+)
 type(
   unit
 )
@@ -980,10 +1025,16 @@ ident(
   int_ref b "log.ml" 42 1025 1031 "log.ml" 42 1025 1032
 )
 "log.ml" 48 1248 1252 "log.ml" 48 1248 1271
+call(
+  stack
+)
 type(
   string
 )
 "log.ml" 48 1248 1250 "log.ml" 48 1248 1271
+call(
+  tail
+)
 type(
   'a
 )
@@ -1010,6 +1061,9 @@ ident(
   int_ref fmt "log.ml" 41 1002 1018 "log.ml" 41 1002 1021
 )
 "log.ml" 45 1177 1181 "log.ml" 49 1272 1287
+call(
+  tail
+)
 type(
   'b
 )
@@ -1108,6 +1162,9 @@ ident(
   int_ref fmt "log.ml" 51 1289 1309 "log.ml" 51 1289 1312
 )
 "log.ml" 52 1330 1342 "log.ml" 52 1330 1385
+call(
+  tail
+)
 type(
   'a
 )
@@ -1177,6 +1234,9 @@ ident(
   int_ref fmt "log.ml" 51 1289 1309 "log.ml" 51 1289 1312
 )
 "log.ml" 53 1386 1400 "log.ml" 53 1386 1454
+call(
+  tail
+)
 type(
   'a
 )
@@ -1248,6 +1308,9 @@ type(
   int
 )
 "log.ml" 56 1482 1484 "log.ml" 58 1555 1578
+call(
+  tail
+)
 type(
   unit
 )
@@ -1281,7 +1344,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>=
+  ext_ref Pervasives.( >= )
 )
 "log.ml" 60 1585 1617 "log.ml" 60 1585 1618
 type(
@@ -1316,6 +1379,9 @@ ident(
   ext_ref Pervasives.stderr
 )
 "log.ml" 62 1620 1637 "log.ml" 62 1620 1668
+call(
+  stack
+)
 type(
   Format.formatter
 )
@@ -1338,6 +1404,9 @@ type(
   int
 )
 "log.ml" 68 1744 1758 "log.ml" 68 1744 1778
+call(
+  stack
+)
 type(
   (string, unit) Hashtbl.t
 )
@@ -1432,6 +1501,9 @@ ident(
   int_ref pos "log.ml" 73 1874 1888 "log.ml" 73 1874 1891
 )
 "log.ml" 74 1907 1915 "log.ml" 74 1907 1949
+call(
+  tail
+)
 type(
   unit
 )
@@ -1506,6 +1578,9 @@ ident(
   int_ref pos "log.ml" 75 1950 1976 "log.ml" 75 1950 1979
 )
 "log.ml" 76 1995 2003 "log.ml" 76 1995 2057
+call(
+  tail
+)
 type(
   unit
 )
@@ -1551,6 +1626,9 @@ ident(
   int_ref msg "log.ml" 77 2058 2072 "log.ml" 77 2058 2075
 )
 "log.ml" 78 2090 2098 "log.ml" 78 2090 2121
+call(
+  tail
+)
 type(
   unit
 )
@@ -1608,6 +1686,9 @@ ident(
   int_ref pos "log.ml" 79 2122 2136 "log.ml" 79 2122 2139
 )
 "log.ml" 80 2149 2157 "log.ml" 80 2149 2193
+call(
+  stack
+)
 type(
   unit
 )
@@ -1633,6 +1714,9 @@ ident(
   int_ref ctx "log.ml" 79 2122 2140 "log.ml" 79 2122 2143
 )
 "log.ml" 80 2149 2195 "log.ml" 80 2149 2207
+call(
+  tail
+)
 type(
   unit
 )
@@ -1714,6 +1798,9 @@ ident(
   int_ref pos "log.ml" 81 2208 2234 "log.ml" 81 2208 2237
 )
 "log.ml" 82 2247 2255 "log.ml" 82 2247 2302
+call(
+  stack
+)
 type(
   unit
 )
@@ -1739,6 +1826,9 @@ ident(
   int_ref ctx "log.ml" 81 2208 2238 "log.ml" 81 2208 2241
 )
 "log.ml" 82 2247 2304 "log.ml" 82 2247 2316
+call(
+  tail
+)
 type(
   unit
 )
@@ -1897,6 +1987,9 @@ ident(
   int_ref ctx1 "log.ml" 85 2391 2407 "log.ml" 85 2391 2411
 )
 "log.ml" 86 2421 2429 "log.ml" 87 2499 2538
+call(
+  tail
+)
 type(
   unit
 )
@@ -1940,6 +2033,9 @@ ident(
   int_ref ctx "log.ml" 70 1792 1815 "log.ml" 70 1792 1818
 )
 "log.ml" 89 2544 2548 "log.ml" 89 2544 2580
+call(
+  tail
+)
 type(
   unit
 )
@@ -2002,7 +2098,7 @@ type(
   (string -> 'b, Format.formatter, unit, 'a) format4
 )
 ident(
-  ext_ref Pervasives.^^
+  ext_ref Pervasives.( ^^ )
 )
 "log.ml" 92 2617 2653 "log.ml" 92 2617 2656
 type(
@@ -2018,17 +2114,23 @@ type(
   ('b, Format.formatter, unit, unit, unit, 'a) format6
 )
 ident(
-  ext_ref Pervasives.^^
+  ext_ref Pervasives.( ^^ )
 )
 "log.ml" 92 2617 2660 "log.ml" 92 2617 2664
 type(
   ('a, Format.formatter, unit, unit, unit, 'a) format6
 )
 "log.ml" 92 2617 2653 "log.ml" 92 2617 2664
+call(
+  stack
+)
 type(
   ('b, Format.formatter, unit, unit, unit, 'a) format6
 )
 "log.ml" 92 2617 2634 "log.ml" 92 2617 2665
+call(
+  stack
+)
 type(
   (string -> 'b, Format.formatter, unit, 'a) format4
 )
@@ -2040,6 +2142,9 @@ ident(
   int_ref code "log.ml" 91 2582 2605 "log.ml" 91 2582 2609
 )
 "log.ml" 92 2617 2619 "log.ml" 92 2617 2670
+call(
+  tail
+)
 type(
   'b
 )
@@ -2116,6 +2221,9 @@ ident(
   int_ref ctx "log.ml" 94 2672 2699 "log.ml" 94 2672 2702
 )
 "log.ml" 95 2706 2708 "log.ml" 95 2706 2772
+call(
+  tail
+)
 type(
   unit
 )
@@ -2202,6 +2310,9 @@ type(
   int
 )
 "log.ml" 101 2866 2878 "log.ml" 101 2866 2895
+call(
+  stack
+)
 type(
   Buffer.t
 )
@@ -2224,6 +2335,9 @@ ident(
   int_ref buf "log.ml" 101 2866 2872 "log.ml" 101 2866 2875
 )
 "log.ml" 102 2899 2911 "log.ml" 102 2899 2941
+call(
+  stack
+)
 type(
   Format.formatter
 )
@@ -2260,6 +2374,9 @@ ident(
   int_ref ctx "log.ml" 97 2774 2792 "log.ml" 97 2774 2795
 )
 "log.ml" 103 2945 2956 "log.ml" 103 2945 2982
+call(
+  stack
+)
 type(
   unit
 )
@@ -2292,6 +2409,9 @@ ident(
   int_ref buf "log.ml" 101 2866 2872 "log.ml" 101 2866 2875
 )
 "log.ml" 105 3005 3026 "log.ml" 105 3005 3045
+call(
+  stack
+)
 type(
   string
 )
@@ -2317,6 +2437,9 @@ ident(
   int_ref full_msg "log.ml" 105 3005 3015 "log.ml" 105 3005 3023
 )
 "log.ml" 106 3049 3060 "log.ml" 106 3049 3088
+call(
+  stack
+)
 type(
   bool
 )
@@ -2350,6 +2473,9 @@ type(
   unit
 )
 "log.ml" 109 3124 3127 "log.ml" 109 3124 3158
+call(
+  stack
+)
 type(
   unit
 )
@@ -2375,6 +2501,9 @@ ident(
   int_ref full_msg "log.ml" 105 3005 3015 "log.ml" 105 3005 3023
 )
 "log.ml" 110 3160 3163 "log.ml" 110 3160 3198
+call(
+  tail
+)
 type(
   unit
 )
@@ -2412,6 +2541,9 @@ ident(
   int_ref buf "log.ml" 101 2866 2872 "log.ml" 101 2866 2875
 )
 "log.ml" 112 3211 3220 "log.ml" 112 3211 3251
+call(
+  tail
+)
 type(
   unit
 )
@@ -2454,6 +2586,9 @@ ident(
   int_ref fmt "log.ml" 97 2774 2801 "log.ml" 97 2774 2804
 )
 "log.ml" 98 2808 2810 "log.ml" 114 3263 3277
+call(
+  tail
+)
 type(
   'a
 )
@@ -2487,6 +2622,9 @@ type(
   unit
 )
 "log.ml" 116 3279 3294 "log.ml" 116 3279 3329
+call(
+  tail
+)
 type(
   unit
 )
@@ -2509,6 +2647,9 @@ ident(
   int_ref flush "log.ml" 116 3279 3283 "log.ml" 116 3279 3288
 )
 "log.ml" 118 3331 3340 "log.ml" 118 3331 3353
+call(
+  stack
+)
 type(
   unit
 )
@@ -2530,9 +2671,6 @@ type(
 type(
   ctx
 )
-type(
-  ctx
-)
 ident(
   int_ref *sth* "log.ml" 120 3355 3371 "log.ml" 120 3355 3380
 )
@@ -2547,18 +2685,6 @@ type(
 )
 ident(
   def *sth* "log.ml" 120 3355 3371 "log.ml" 120 3355 3380
-)
-type(
-  ctx option
-)
-ident(
-  int_ref *opt* "log.ml" 120 3355 3371 "log.ml" 120 3355 3380
-)
-type(
-  ctx option
-)
-ident(
-  def *opt* "log.ml" 120 3355 3365 "log.ml" 120 3355 3432
 )
 "log.ml" 120 3355 3382 "log.ml" 120 3355 3385
 type(
@@ -2611,6 +2737,9 @@ ident(
   int_ref fmt "log.ml" 120 3355 3382 "log.ml" 120 3355 3385
 )
 "log.ml" 120 3355 3388 "log.ml" 120 3355 3432
+call(
+  tail
+)
 type(
   'a
 )
@@ -2668,6 +2797,9 @@ type(
   int
 )
 "log.ml" 123 3470 3487 "log.ml" 123 3470 3495
+call(
+  stack
+)
 type(
   bool
 )
@@ -2691,6 +2823,9 @@ ident(
   int_ref fmt "log.ml" 122 3434 3449 "log.ml" 122 3434 3452
 )
 "log.ml" 123 3470 3482 "log.ml" 123 3470 3523
+call(
+  tail
+)
 type(
   'a
 )
@@ -2727,6 +2862,9 @@ type(
   int
 )
 "log.ml" 124 3524 3543 "log.ml" 124 3524 3551
+call(
+  stack
+)
 type(
   bool
 )
@@ -2749,6 +2887,9 @@ ident(
   int_ref p "log.ml" 124 3524 3533 "log.ml" 124 3524 3534
 )
 "log.ml" 124 3524 3558 "log.ml" 124 3524 3568
+call(
+  stack
+)
 type(
   ctx
 )
@@ -2764,6 +2905,9 @@ ident(
   int_ref fmt "log.ml" 122 3434 3449 "log.ml" 122 3434 3452
 )
 "log.ml" 124 3524 3538 "log.ml" 124 3524 3580
+call(
+  tail
+)
 type(
   'a
 )
@@ -2789,9 +2933,6 @@ type(
 type(
   ctx
 )
-type(
-  ctx
-)
 ident(
   int_ref *sth* "log.ml" 126 3582 3597 "log.ml" 126 3582 3606
 )
@@ -2806,18 +2947,6 @@ type(
 )
 ident(
   def *sth* "log.ml" 126 3582 3597 "log.ml" 126 3582 3606
-)
-type(
-  ctx option
-)
-ident(
-  int_ref *opt* "log.ml" 126 3582 3597 "log.ml" 126 3582 3606
-)
-type(
-  ctx option
-)
-ident(
-  def *opt* "log.ml" 126 3582 3591 "log.ml" 126 3582 3648
 )
 "log.ml" 126 3582 3608 "log.ml" 126 3582 3611
 type(
@@ -2848,6 +2977,9 @@ type(
   int
 )
 "log.ml" 126 3582 3619 "log.ml" 126 3582 3627
+call(
+  stack
+)
 type(
   bool
 )
@@ -2874,6 +3006,9 @@ ident(
   int_ref fmt "log.ml" 126 3582 3608 "log.ml" 126 3582 3611
 )
 "log.ml" 126 3582 3614 "log.ml" 126 3582 3648
+call(
+  tail
+)
 type(
   'a
 )
@@ -2895,9 +3030,6 @@ type(
 type(
   ctx
 )
-type(
-  ctx
-)
 ident(
   int_ref *sth* "log.ml" 128 3650 3665 "log.ml" 128 3650 3674
 )
@@ -2912,18 +3044,6 @@ type(
 )
 ident(
   def *sth* "log.ml" 128 3650 3665 "log.ml" 128 3650 3674
-)
-type(
-  ctx option
-)
-ident(
-  int_ref *opt* "log.ml" 128 3650 3665 "log.ml" 128 3650 3674
-)
-type(
-  ctx option
-)
-ident(
-  def *opt* "log.ml" 128 3650 3659 "log.ml" 128 3650 3718
 )
 "log.ml" 128 3650 3676 "log.ml" 128 3650 3679
 type(
@@ -2954,6 +3074,9 @@ type(
   int
 )
 "log.ml" 128 3650 3687 "log.ml" 128 3650 3694
+call(
+  stack
+)
 type(
   bool
 )
@@ -2980,6 +3103,9 @@ ident(
   int_ref fmt "log.ml" 128 3650 3676 "log.ml" 128 3650 3679
 )
 "log.ml" 128 3650 3682 "log.ml" 128 3650 3718
+call(
+  tail
+)
 type(
   'a
 )
@@ -3073,6 +3199,9 @@ ident(
   int_ref ctx "log.ml" 130 3720 3735 "log.ml" 130 3720 3738
 )
 "log.ml" 133 3800 3809 "log.ml" 133 3800 3840
+call(
+  stack
+)
 type(
   unit
 )
@@ -3099,6 +3228,9 @@ type(
   unit
 )
 "log.ml" 134 3843 3847 "log.ml" 134 3843 3882
+call(
+  stack
+)
 type(
   unit
 )
@@ -3117,6 +3249,9 @@ ident(
   int_ref m "log.ml" 131 3751 3762 "log.ml" 131 3751 3763
 )
 "log.ml" 135 3884 3888 "log.ml" 135 3884 3898
+call(
+  tail
+)
 type(
   'c
 )
@@ -3158,6 +3293,9 @@ ident(
   int_ref fmt "log.ml" 130 3720 3744 "log.ml" 130 3720 3747
 )
 "log.ml" 137 3905 3909 "log.ml" 137 3905 3936
+call(
+  tail
+)
 type(
   'a
 )
@@ -3183,9 +3321,6 @@ type(
 type(
   ctx
 )
-type(
-  ctx
-)
 ident(
   int_ref *sth* "log.ml" 139 3938 3952 "log.ml" 139 3938 3961
 )
@@ -3200,18 +3335,6 @@ type(
 )
 ident(
   def *sth* "log.ml" 139 3938 3952 "log.ml" 139 3938 3961
-)
-type(
-  ctx option
-)
-ident(
-  int_ref *opt* "log.ml" 139 3938 3952 "log.ml" 139 3938 3961
-)
-type(
-  ctx option
-)
-ident(
-  def *opt* "log.ml" 139 3938 3946 "log.ml" 142 4032 4083
 )
 "log.ml" 139 3938 3963 "log.ml" 139 3938 3966
 type(
@@ -3258,6 +3381,9 @@ ident(
   int_ref fmt "log.ml" 139 3938 3963 "log.ml" 139 3938 3966
 )
 "log.ml" 141 3998 4005 "log.ml" 141 3998 4031
+call(
+  tail
+)
 type(
   'a
 )
@@ -3305,6 +3431,9 @@ ident(
   int_ref fmt "log.ml" 139 3938 3963 "log.ml" 139 3938 3966
 )
 "log.ml" 142 4032 4039 "log.ml" 142 4032 4083
+call(
+  tail
+)
 type(
   'a
 )
@@ -3374,6 +3503,9 @@ ident(
   int_ref fmt "log.ml" 144 4085 4099 "log.ml" 144 4085 4102
 )
 "log.ml" 146 4138 4140 "log.ml" 146 4138 4166
+call(
+  tail
+)
 type(
   'a
 )

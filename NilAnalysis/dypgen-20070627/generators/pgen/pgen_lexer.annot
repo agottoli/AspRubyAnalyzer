@@ -174,6 +174,9 @@ type(
   int
 )
 "pgen_lexer.ml" 280 17793 17797 "pgen_lexer.ml" 280 17793 17827
+call(
+  tail
+)
 type(
   Pgen_parser_param.token
 )
@@ -227,6 +230,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
 )
 "pgen_lexer.ml" 282 17881 17889 "pgen_lexer.ml" 282 17881 17946
+call(
+  stack
+)
 type(
   int
 )
@@ -249,6 +255,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
 )
 "pgen_lexer.mll" 18 17987 17993 "pgen_lexer.mll" 18 17987 18009
+call(
+  tail
+)
 type(
   Pgen_parser_param.token
 )
@@ -271,6 +280,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
 )
 "pgen_lexer.mll" 20 18064 18070 "pgen_lexer.mll" 20 18064 18086
+call(
+  tail
+)
 type(
   Pgen_parser_param.token
 )
@@ -325,6 +337,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
 )
 "pgen_lexer.mll" 26 18469 18483 "pgen_lexer.mll" 26 18469 18505
+call(
+  stack
+)
 type(
   string
 )
@@ -351,6 +366,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
 )
 "pgen_lexer.mll" 28 18562 18576 "pgen_lexer.mll" 28 18562 18598
+call(
+  stack
+)
 type(
   string
 )
@@ -406,7 +424,7 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 34 18962 18991 "pgen_lexer.mll" 34 18962 18993
 type(
@@ -431,6 +449,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
 )
 "pgen_lexer.mll" 35 18995 19003 "pgen_lexer.mll" 35 18995 19020
+call(
+  stack
+)
 type(
   unit
 )
@@ -439,7 +460,7 @@ type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 36 19022 19043 "pgen_lexer.mll" 36 19022 19060
 type(
@@ -480,7 +501,7 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 39 19125 19154 "pgen_lexer.mll" 39 19125 19156
 type(
@@ -505,6 +526,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
 )
 "pgen_lexer.mll" 40 19158 19166 "pgen_lexer.mll" 40 19158 19183
+call(
+  stack
+)
 type(
   unit
 )
@@ -513,7 +537,7 @@ type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 41 19185 19206 "pgen_lexer.mll" 41 19185 19223
 type(
@@ -588,6 +612,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
 )
 "pgen_lexer.ml" 374 19473 19498 "pgen_lexer.ml" 374 19473 19530
+call(
+  stack
+)
 type(
   unit
 )
@@ -613,6 +640,9 @@ ident(
   int_ref __ocaml_lex_state "pgen_lexer.ml" 374 19473 19477 "pgen_lexer.ml" 374 19473 19494
 )
 "pgen_lexer.ml" 374 19473 19532 "pgen_lexer.ml" 374 19473 19578
+call(
+  tail
+)
 type(
   Pgen_parser_param.token
 )
@@ -657,6 +687,9 @@ type(
   int
 )
 "pgen_lexer.ml" 377 19604 19608 "pgen_lexer.ml" 377 19604 19644
+call(
+  tail
+)
 type(
   unit
 )
@@ -710,6 +743,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.ml" 379 19703 19711 "pgen_lexer.ml" 379 19703 19768
+call(
+  stack
+)
 type(
   int
 )
@@ -722,7 +758,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 50 19818 19830 "pgen_lexer.mll" 50 19818 19839
 type(
@@ -740,7 +776,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen_lexer.mll" 50 19818 19842 "pgen_lexer.mll" 50 19818 19847
 type(
@@ -755,14 +791,14 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "pgen_lexer.mll" 50 19818 19851 "pgen_lexer.mll" 50 19818 19852
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 50 19818 19852 "pgen_lexer.mll" 50 19818 19865
 type(
@@ -780,7 +816,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen_lexer.mll" 50 19818 19868 "pgen_lexer.mll" 50 19818 19869
 type(
@@ -799,7 +835,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 52 19891 19908 "pgen_lexer.mll" 52 19891 19919
 type(
@@ -817,7 +853,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen_lexer.mll" 52 19891 19923 "pgen_lexer.mll" 52 19891 19924
 type(
@@ -847,14 +883,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 54 19950 19995 "pgen_lexer.mll" 54 19950 19996
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 54 19950 19996 "pgen_lexer.mll" 54 19950 20013
 type(
@@ -872,7 +908,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 55 20018 20035 "pgen_lexer.mll" 55 20018 20046
 type(
@@ -904,14 +940,23 @@ type(
   int
 )
 "pgen_lexer.mll" 55 20018 20049 "pgen_lexer.mll" 55 20018 20078
+call(
+  stack
+)
 type(
   char
 )
 "pgen_lexer.mll" 55 20018 20034 "pgen_lexer.mll" 55 20018 20079
+call(
+  stack
+)
 type(
   string
 )
 "pgen_lexer.mll" 54 19950 19993 "pgen_lexer.mll" 55 20018 20080
+call(
+  stack
+)
 type(
   string
 )
@@ -935,14 +980,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 56 20084 20123 "pgen_lexer.mll" 56 20084 20124
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 56 20084 20124 "pgen_lexer.mll" 56 20084 20135
 type(
@@ -960,7 +1005,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "pgen_lexer.mll" 56 20084 20137 "pgen_lexer.mll" 56 20084 20138
 type(
@@ -989,6 +1034,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 57 20143 20157 "pgen_lexer.mll" 57 20143 20174
+call(
+  tail
+)
 type(
   unit
 )
@@ -1016,14 +1064,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 61 20218 20252 "pgen_lexer.mll" 61 20218 20253
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 61 20218 20253 "pgen_lexer.mll" 61 20218 20270
 type(
@@ -1041,13 +1089,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 61 20218 20274 "pgen_lexer.mll" 61 20218 20277
 type(
   string
 )
 "pgen_lexer.mll" 61 20218 20251 "pgen_lexer.mll" 61 20218 20277
+call(
+  stack
+)
 type(
   string
 )
@@ -1070,6 +1121,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 62 20279 20291 "pgen_lexer.mll" 62 20279 20308
+call(
+  tail
+)
 type(
   unit
 )
@@ -1097,14 +1151,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 66 20385 20416 "pgen_lexer.mll" 66 20385 20417
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 66 20385 20417 "pgen_lexer.mll" 66 20385 20434
 type(
@@ -1122,13 +1176,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 67 20439 20449 "pgen_lexer.mll" 67 20439 20452
 type(
   string
 )
 "pgen_lexer.mll" 66 20385 20414 "pgen_lexer.mll" 67 20439 20453
+call(
+  stack
+)
 type(
   string
 )
@@ -1151,6 +1208,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 68 20455 20463 "pgen_lexer.mll" 68 20455 20480
+call(
+  tail
+)
 type(
   unit
 )
@@ -1174,14 +1234,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 71 20543 20574 "pgen_lexer.mll" 71 20543 20575
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 71 20543 20575 "pgen_lexer.mll" 71 20543 20592
 type(
@@ -1199,13 +1259,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 71 20543 20596 "pgen_lexer.mll" 71 20543 20602
 type(
   string
 )
 "pgen_lexer.mll" 71 20543 20572 "pgen_lexer.mll" 71 20543 20603
+call(
+  stack
+)
 type(
   string
 )
@@ -1228,6 +1291,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 72 20605 20613 "pgen_lexer.mll" 72 20605 20630
+call(
+  tail
+)
 type(
   unit
 )
@@ -1244,7 +1310,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 76 20702 20714 "pgen_lexer.mll" 76 20702 20723
 type(
@@ -1269,7 +1335,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 76 20702 20742 "pgen_lexer.mll" 76 20702 20747
 type(
@@ -1291,7 +1357,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 76 20702 20766 "pgen_lexer.mll" 76 20702 20770
 type(
@@ -1317,14 +1383,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 77 20772 20802 "pgen_lexer.mll" 77 20772 20803
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 77 20772 20803 "pgen_lexer.mll" 77 20772 20820
 type(
@@ -1342,13 +1408,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 77 20772 20824 "pgen_lexer.mll" 77 20772 20828
 type(
   string
 )
 "pgen_lexer.mll" 77 20772 20801 "pgen_lexer.mll" 77 20772 20828
+call(
+  stack
+)
 type(
   string
 )
@@ -1371,6 +1440,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 78 20830 20838 "pgen_lexer.mll" 78 20830 20855
+call(
+  tail
+)
 type(
   unit
 )
@@ -1398,14 +1470,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 81 20918 20948 "pgen_lexer.mll" 81 20918 20949
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 81 20918 20949 "pgen_lexer.mll" 81 20918 20966
 type(
@@ -1423,13 +1495,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 81 20918 20970 "pgen_lexer.mll" 81 20918 20973
 type(
   string
 )
 "pgen_lexer.mll" 81 20918 20947 "pgen_lexer.mll" 81 20918 20973
+call(
+  stack
+)
 type(
   string
 )
@@ -1442,7 +1517,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 82 20975 20987 "pgen_lexer.mll" 82 20975 20996
 type(
@@ -1460,7 +1535,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen_lexer.mll" 82 20975 20999 "pgen_lexer.mll" 82 20975 21004
 type(
@@ -1475,14 +1550,14 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "pgen_lexer.mll" 82 20975 21008 "pgen_lexer.mll" 82 20975 21009
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 82 20975 21009 "pgen_lexer.mll" 82 20975 21022
 type(
@@ -1500,7 +1575,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen_lexer.mll" 82 20975 21025 "pgen_lexer.mll" 82 20975 21026
 type(
@@ -1526,14 +1601,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 83 21032 21058 "pgen_lexer.mll" 83 21032 21059
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 83 21032 21059 "pgen_lexer.mll" 83 21032 21070
 type(
@@ -1551,7 +1626,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "pgen_lexer.mll" 83 21032 21072 "pgen_lexer.mll" 83 21032 21073
 type(
@@ -1584,6 +1659,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 84 21075 21083 "pgen_lexer.mll" 84 21075 21100
+call(
+  tail
+)
 type(
   unit
 )
@@ -1604,7 +1682,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 88 21172 21184 "pgen_lexer.mll" 88 21172 21193
 type(
@@ -1633,14 +1711,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 88 21172 21224 "pgen_lexer.mll" 88 21172 21225
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 88 21172 21225 "pgen_lexer.mll" 88 21172 21238
 type(
@@ -1658,7 +1736,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "pgen_lexer.mll" 88 21172 21241 "pgen_lexer.mll" 88 21172 21242
 type(
@@ -1688,14 +1766,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 89 21244 21275 "pgen_lexer.mll" 89 21244 21276
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 89 21244 21276 "pgen_lexer.mll" 89 21244 21293
 type(
@@ -1713,13 +1791,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 89 21244 21297 "pgen_lexer.mll" 89 21244 21301
 type(
   string
 )
 "pgen_lexer.mll" 89 21244 21273 "pgen_lexer.mll" 89 21244 21302
+call(
+  stack
+)
 type(
   string
 )
@@ -1742,6 +1823,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 90 21304 21312 "pgen_lexer.mll" 90 21304 21329
+call(
+  tail
+)
 type(
   unit
 )
@@ -1762,7 +1846,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 94 21401 21413 "pgen_lexer.mll" 94 21401 21422
 type(
@@ -1791,14 +1875,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 94 21401 21453 "pgen_lexer.mll" 94 21401 21454
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 94 21401 21454 "pgen_lexer.mll" 94 21401 21467
 type(
@@ -1816,7 +1900,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "pgen_lexer.mll" 94 21401 21470 "pgen_lexer.mll" 94 21401 21471
 type(
@@ -1846,14 +1930,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 95 21473 21504 "pgen_lexer.mll" 95 21473 21505
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 95 21473 21505 "pgen_lexer.mll" 95 21473 21522
 type(
@@ -1871,13 +1955,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 95 21473 21526 "pgen_lexer.mll" 95 21473 21530
 type(
   string
 )
 "pgen_lexer.mll" 95 21473 21502 "pgen_lexer.mll" 95 21473 21531
+call(
+  stack
+)
 type(
   string
 )
@@ -1900,6 +1987,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 96 21533 21541 "pgen_lexer.mll" 96 21533 21558
+call(
+  tail
+)
 type(
   unit
 )
@@ -1927,14 +2017,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 99 21621 21652 "pgen_lexer.mll" 99 21621 21653
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 99 21621 21653 "pgen_lexer.mll" 99 21621 21670
 type(
@@ -1952,7 +2042,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 100 21675 21686 "pgen_lexer.mll" 100 21675 21697
 type(
@@ -1984,14 +2074,23 @@ type(
   int
 )
 "pgen_lexer.mll" 100 21675 21700 "pgen_lexer.mll" 100 21675 21729
+call(
+  stack
+)
 type(
   char
 )
 "pgen_lexer.mll" 100 21675 21685 "pgen_lexer.mll" 100 21675 21730
+call(
+  stack
+)
 type(
   string
 )
 "pgen_lexer.mll" 99 21621 21650 "pgen_lexer.mll" 100 21675 21731
+call(
+  stack
+)
 type(
   string
 )
@@ -2014,6 +2113,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.mll" 101 21733 21741 "pgen_lexer.mll" 101 21733 21758
+call(
+  tail
+)
 type(
   unit
 )
@@ -2047,6 +2149,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
 )
 "pgen_lexer.ml" 459 21790 21815 "pgen_lexer.ml" 459 21790 21847
+call(
+  stack
+)
 type(
   unit
 )
@@ -2072,6 +2177,9 @@ ident(
   int_ref __ocaml_lex_state "pgen_lexer.ml" 459 21790 21794 "pgen_lexer.ml" 459 21790 21811
 )
 "pgen_lexer.ml" 459 21790 21849 "pgen_lexer.ml" 459 21790 21900
+call(
+  tail
+)
 type(
   unit
 )
@@ -2116,6 +2224,9 @@ type(
   int
 )
 "pgen_lexer.ml" 462 21926 21930 "pgen_lexer.ml" 462 21926 21966
+call(
+  tail
+)
 type(
   unit
 )
@@ -2169,6 +2280,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
 )
 "pgen_lexer.ml" 464 22025 22033 "pgen_lexer.ml" 464 22025 22090
+call(
+  stack
+)
 type(
   int
 )
@@ -2196,14 +2310,14 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen_lexer.mll" 107 22202 22233 "pgen_lexer.mll" 107 22202 22234
 type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen_lexer.mll" 107 22202 22234 "pgen_lexer.mll" 107 22202 22251
 type(
@@ -2221,7 +2335,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen_lexer.mll" 108 22256 22267 "pgen_lexer.mll" 108 22256 22278
 type(
@@ -2253,14 +2367,23 @@ type(
   int
 )
 "pgen_lexer.mll" 108 22256 22281 "pgen_lexer.mll" 108 22256 22310
+call(
+  stack
+)
 type(
   char
 )
 "pgen_lexer.mll" 108 22256 22266 "pgen_lexer.mll" 108 22256 22311
+call(
+  stack
+)
 type(
   string
 )
 "pgen_lexer.mll" 107 22202 22231 "pgen_lexer.mll" 108 22256 22312
+call(
+  stack
+)
 type(
   string
 )
@@ -2283,6 +2406,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
 )
 "pgen_lexer.mll" 109 22314 22322 "pgen_lexer.mll" 109 22314 22339
+call(
+  tail
+)
 type(
   unit
 )
@@ -2316,6 +2442,9 @@ ident(
   int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
 )
 "pgen_lexer.ml" 478 22371 22396 "pgen_lexer.ml" 478 22371 22428
+call(
+  stack
+)
 type(
   unit
 )
@@ -2341,6 +2470,9 @@ ident(
   int_ref __ocaml_lex_state "pgen_lexer.ml" 478 22371 22375 "pgen_lexer.ml" 478 22371 22392
 )
 "pgen_lexer.ml" 478 22371 22430 "pgen_lexer.ml" 478 22371 22481
+call(
+  tail
+)
 type(
   unit
 )

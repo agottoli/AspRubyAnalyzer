@@ -176,7 +176,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "insert_linenum.mll" 14 313 370 "insert_linenum.mll" 14 313 374
 type(
@@ -209,7 +209,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "insert_linenum.mll" 15 376 405 "insert_linenum.mll" 15 376 410
 type(
@@ -326,6 +326,9 @@ type(
   int
 )
 "insert_linenum.ml" 119 6067 6071 "insert_linenum.ml" 119 6067 6110
+call(
+  tail
+)
 type(
   string
 )
@@ -379,6 +382,9 @@ ident(
   int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
 )
 "insert_linenum.ml" 121 6173 6181 "insert_linenum.ml" 121 6173 6238
+call(
+  stack
+)
 type(
   int
 )
@@ -417,6 +423,9 @@ type(
   int
 )
 "insert_linenum.mll" 23 6283 6291 "insert_linenum.mll" 23 6283 6323
+call(
+  stack
+)
 type(
   unit
 )
@@ -435,6 +444,9 @@ ident(
   int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
 )
 "insert_linenum.mll" 25 6383 6391 "insert_linenum.mll" 25 6383 6412
+call(
+  tail
+)
 type(
   string
 )
@@ -465,6 +477,9 @@ ident(
   int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
 )
 "insert_linenum.mll" 29 6491 6509 "insert_linenum.mll" 29 6491 6537
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -489,7 +504,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "insert_linenum.mll" 31 6587 6611 "insert_linenum.mll" 31 6587 6624
 type(
@@ -514,7 +529,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "insert_linenum.mll" 31 6587 6639 "insert_linenum.mll" 31 6587 6640
 type(
@@ -525,10 +540,16 @@ type(
   int
 )
 "insert_linenum.mll" 31 6587 6610 "insert_linenum.mll" 31 6587 6642
+call(
+  stack
+)
 type(
   string
 )
 "insert_linenum.mll" 31 6587 6605 "insert_linenum.mll" 31 6587 6642
+call(
+  stack
+)
 type(
   string
 )
@@ -584,6 +605,9 @@ type(
   int
 )
 "insert_linenum.mll" 32 6646 6663 "insert_linenum.mll" 32 6646 6708
+call(
+  stack
+)
 type(
   unit
 )
@@ -614,7 +638,7 @@ type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "insert_linenum.mll" 33 6712 6750 "insert_linenum.mll" 33 6712 6756
 type(
@@ -643,6 +667,9 @@ type(
   int
 )
 "insert_linenum.mll" 33 6712 6729 "insert_linenum.mll" 33 6712 6772
+call(
+  stack
+)
 type(
   unit
 )
@@ -661,6 +688,9 @@ ident(
   int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
 )
 "insert_linenum.mll" 35 6849 6857 "insert_linenum.mll" 35 6849 6878
+call(
+  tail
+)
 type(
   string
 )
@@ -697,7 +727,7 @@ type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "insert_linenum.mll" 39 6949 6971 "insert_linenum.mll" 39 6949 6977
 type(
@@ -722,7 +752,7 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "insert_linenum.mll" 40 6981 6999 "insert_linenum.mll" 40 6981 7001
 type(
@@ -766,6 +796,9 @@ ident(
   int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
 )
 "insert_linenum.mll" 43 7082 7088 "insert_linenum.mll" 46 7178 7185
+call(
+  tail
+)
 type(
   string
 )
@@ -788,6 +821,9 @@ ident(
   int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
 )
 "insert_linenum.mll" 48 7248 7254 "insert_linenum.mll" 51 7344 7351
+call(
+  tail
+)
 type(
   string
 )
@@ -817,6 +853,9 @@ ident(
   int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
 )
 "insert_linenum.ml" 166 7379 7404 "insert_linenum.ml" 166 7379 7436
+call(
+  stack
+)
 type(
   unit
 )
@@ -842,6 +881,9 @@ ident(
   int_ref __ocaml_lex_state "insert_linenum.ml" 166 7379 7383 "insert_linenum.ml" 166 7379 7400
 )
 "insert_linenum.ml" 166 7379 7438 "insert_linenum.ml" 166 7379 7493
+call(
+  tail
+)
 type(
   string
 )

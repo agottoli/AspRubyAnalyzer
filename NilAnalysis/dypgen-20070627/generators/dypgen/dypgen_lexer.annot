@@ -31,6 +31,9 @@ type(
   int
 )
 "dypgen_lexer.mll" 6 85 109 "dypgen_lexer.mll" 6 85 129
+call(
+  stack
+)
 type(
   Buffer.t
 )
@@ -444,7 +447,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dypgen_lexer.mll" 30 786 843 "dypgen_lexer.mll" 30 786 847
 type(
@@ -477,7 +480,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dypgen_lexer.mll" 31 849 878 "dypgen_lexer.mll" 31 849 883
 type(
@@ -594,6 +597,9 @@ type(
   int
 )
 "dypgen_lexer.ml" 333 20397 20401 "dypgen_lexer.ml" 333 20397 20431
+call(
+  tail
+)
 type(
   Dypgen_parser.token
 )
@@ -647,6 +653,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.ml" 335 20485 20493 "dypgen_lexer.ml" 335 20485 20550
+call(
+  stack
+)
 type(
   int
 )
@@ -685,6 +694,9 @@ type(
   int
 )
 "dypgen_lexer.mll" 44 20593 20601 "dypgen_lexer.mll" 44 20593 20633
+call(
+  stack
+)
 type(
   unit
 )
@@ -703,6 +715,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 45 20635 20643 "dypgen_lexer.mll" 45 20635 20655
+call(
+  tail
+)
 type(
   Dypgen_parser.token
 )
@@ -729,6 +744,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 48 20722 20728 "dypgen_lexer.mll" 48 20722 20744
+call(
+  tail
+)
 type(
   Dypgen_parser.token
 )
@@ -748,7 +766,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 49 20803 20833 "dypgen_lexer.mll" 49 20803 20837
 type(
@@ -782,7 +800,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 50 20909 20939 "dypgen_lexer.mll" 50 20909 20943
 type(
@@ -816,7 +834,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 51 21015 21048 "dypgen_lexer.mll" 51 21015 21053
 type(
@@ -905,6 +923,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 59 21662 21680 "dypgen_lexer.mll" 59 21662 21701
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -943,7 +964,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dypgen_lexer.mll" 61 21740 21774 "dypgen_lexer.mll" 61 21740 21777
 type(
@@ -984,7 +1005,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dypgen_lexer.mll" 62 21789 21837 "dypgen_lexer.mll" 62 21789 21843
 type(
@@ -1020,6 +1041,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 63 21866 21881 "dypgen_lexer.mll" 63 21866 21903
+call(
+  stack
+)
 type(
   string
 )
@@ -1095,6 +1119,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 65 21983 22001 "dypgen_lexer.mll" 65 21983 22022
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -1133,7 +1160,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dypgen_lexer.mll" 67 22061 22095 "dypgen_lexer.mll" 67 22061 22098
 type(
@@ -1174,7 +1201,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dypgen_lexer.mll" 68 22110 22158 "dypgen_lexer.mll" 68 22110 22164
 type(
@@ -1210,6 +1237,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 69 22187 22202 "dypgen_lexer.mll" 69 22187 22224
+call(
+  stack
+)
 type(
   string
 )
@@ -1297,6 +1327,9 @@ ident(
   int_ref ocaml_code_buffer "dypgen_lexer.mll" 6 85 89 "dypgen_lexer.mll" 6 85 106
 )
 "dypgen_lexer.mll" 73 22462 22470 "dypgen_lexer.mll" 73 22462 22500
+call(
+  stack
+)
 type(
   unit
 )
@@ -1319,6 +1352,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 74 22502 22520 "dypgen_lexer.mll" 74 22502 22541
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -1334,7 +1370,7 @@ type(
   Lexing.position ref -> Lexing.position -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 75 22545 22570 "dypgen_lexer.mll" 75 22545 22573
 type(
@@ -1362,6 +1398,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 77 22603 22611 "dypgen_lexer.mll" 77 22603 22628
+call(
+  stack
+)
 type(
   unit
 )
@@ -1380,6 +1419,9 @@ ident(
   int_ref ocaml_code_buffer "dypgen_lexer.mll" 6 85 89 "dypgen_lexer.mll" 6 85 106
 )
 "dypgen_lexer.mll" 78 22630 22647 "dypgen_lexer.mll" 78 22630 22680
+call(
+  stack
+)
 type(
   string
 )
@@ -1410,7 +1452,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dypgen_lexer.mll" 79 22682 22719 "dypgen_lexer.mll" 79 22682 22722
 type(
@@ -1503,7 +1545,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 85 23113 23139 "dypgen_lexer.mll" 85 23113 23144
 type(
@@ -1530,7 +1572,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 87 23222 23234 "dypgen_lexer.mll" 87 23222 23247
 type(
@@ -1548,7 +1590,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 87 23222 23248 "dypgen_lexer.mll" 87 23222 23253
 type(
@@ -1577,6 +1619,9 @@ ident(
   int_ref ocaml_code_buffer "dypgen_lexer.mll" 6 85 89 "dypgen_lexer.mll" 6 85 106
 )
 "dypgen_lexer.mll" 89 23277 23288 "dypgen_lexer.mll" 89 23277 23318
+call(
+  stack
+)
 type(
   unit
 )
@@ -1592,7 +1637,7 @@ type(
   Lexing.position ref -> Lexing.position -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 90 23320 23350 "dypgen_lexer.mll" 90 23320 23364
 type(
@@ -1609,6 +1654,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 90 23320 23350 "dypgen_lexer.mll" 90 23320 23371
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -1631,6 +1679,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 91 23373 23383 "dypgen_lexer.mll" 91 23373 23400
+call(
+  stack
+)
 type(
   unit
 )
@@ -1649,6 +1700,9 @@ ident(
   int_ref ocaml_code_buffer "dypgen_lexer.mll" 6 85 89 "dypgen_lexer.mll" 6 85 106
 )
 "dypgen_lexer.mll" 92 23402 23423 "dypgen_lexer.mll" 92 23402 23458
+call(
+  stack
+)
 type(
   string
 )
@@ -1691,6 +1745,9 @@ ident(
   int_ref ocaml_code_buffer "dypgen_lexer.mll" 6 85 89 "dypgen_lexer.mll" 6 85 106
 )
 "dypgen_lexer.mll" 95 23527 23535 "dypgen_lexer.mll" 95 23527 23565
+call(
+  stack
+)
 type(
   unit
 )
@@ -1713,6 +1770,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 96 23567 23585 "dypgen_lexer.mll" 96 23567 23606
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -1728,7 +1788,7 @@ type(
   Lexing.position ref -> Lexing.position -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 97 23610 23638 "dypgen_lexer.mll" 97 23610 23641
 type(
@@ -1756,6 +1816,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 98 23643 23651 "dypgen_lexer.mll" 98 23643 23668
+call(
+  stack
+)
 type(
   unit
 )
@@ -1774,6 +1837,9 @@ ident(
   int_ref ocaml_code_buffer "dypgen_lexer.mll" 6 85 89 "dypgen_lexer.mll" 6 85 106
 )
 "dypgen_lexer.mll" 99 23670 23690 "dypgen_lexer.mll" 99 23670 23723
+call(
+  stack
+)
 type(
   string
 )
@@ -1804,7 +1870,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dypgen_lexer.mll" 100 23725 23762 "dypgen_lexer.mll" 100 23725 23765
 type(
@@ -1865,7 +1931,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 104 23894 23928 "dypgen_lexer.mll" 104 23894 23942
 type(
@@ -1882,6 +1948,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 104 23894 23927 "dypgen_lexer.mll" 104 23894 23950
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -1890,7 +1959,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 104 23894 23954 "dypgen_lexer.mll" 104 23894 23974
 type(
@@ -1926,6 +1995,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 105 23977 23986 "dypgen_lexer.mll" 105 23977 24000
+call(
+  stack
+)
 type(
   unit
 )
@@ -1944,6 +2016,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.mll" 105 23977 24002 "dypgen_lexer.mll" 105 23977 24014
+call(
+  tail
+)
 type(
   Dypgen_parser.token
 )
@@ -2005,6 +2080,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 334 20432 20458 "dypgen_lexer.ml" 334 20432 20464
 )
 "dypgen_lexer.ml" 502 24274 24299 "dypgen_lexer.ml" 502 24274 24331
+call(
+  stack
+)
 type(
   unit
 )
@@ -2030,6 +2108,9 @@ ident(
   int_ref __ocaml_lex_state "dypgen_lexer.ml" 502 24274 24278 "dypgen_lexer.ml" 502 24274 24295
 )
 "dypgen_lexer.ml" 502 24274 24333 "dypgen_lexer.ml" 502 24274 24379
+call(
+  tail
+)
 type(
   Dypgen_parser.token
 )
@@ -2074,6 +2155,9 @@ type(
   int
 )
 "dypgen_lexer.ml" 505 24402 24406 "dypgen_lexer.ml" 505 24402 24439
+call(
+  tail
+)
 type(
   unit
 )
@@ -2127,6 +2211,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 506 24440 24468 "dypgen_lexer.ml" 506 24440 24474
 )
 "dypgen_lexer.ml" 507 24495 24503 "dypgen_lexer.ml" 507 24495 24560
+call(
+  stack
+)
 type(
   int
 )
@@ -2146,7 +2233,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 112 24656 24692 "dypgen_lexer.mll" 112 24656 24706
 type(
@@ -2163,6 +2250,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 506 24440 24468 "dypgen_lexer.ml" 506 24440 24474
 )
 "dypgen_lexer.mll" 112 24656 24691 "dypgen_lexer.mll" 112 24656 24714
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -2171,7 +2261,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 112 24656 24718 "dypgen_lexer.mll" 112 24656 24738
 type(
@@ -2207,6 +2297,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 506 24440 24468 "dypgen_lexer.ml" 506 24440 24474
 )
 "dypgen_lexer.mll" 113 24741 24752 "dypgen_lexer.mll" 113 24741 24766
+call(
+  tail
+)
 type(
   unit
 )
@@ -2230,7 +2323,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 116 24877 24910 "dypgen_lexer.mll" 116 24877 24917
 type(
@@ -2244,7 +2337,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 116 24877 24920 "dypgen_lexer.mll" 116 24877 24940
 type(
@@ -2258,6 +2351,9 @@ type(
   Lexing.position list
 )
 "dypgen_lexer.mll" 116 24877 24910 "dypgen_lexer.mll" 116 24877 24941
+call(
+  stack
+)
 type(
   Lexing.position list
 )
@@ -2270,7 +2366,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 117 24943 24956 "dypgen_lexer.mll" 117 24943 24976
 type(
@@ -2288,7 +2384,7 @@ type(
   Lexing.position list -> Lexing.position list -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 117 24943 24977 "dypgen_lexer.mll" 117 24943 24979
 type(
@@ -2317,6 +2413,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 506 24440 24468 "dypgen_lexer.ml" 506 24440 24474
 )
 "dypgen_lexer.mll" 117 24943 24993 "dypgen_lexer.mll" 117 24943 25007
+call(
+  tail
+)
 type(
   unit
 )
@@ -2363,6 +2462,9 @@ type(
   int
 )
 "dypgen_lexer.mll" 119 25069 25077 "dypgen_lexer.mll" 119 25069 25109
+call(
+  stack
+)
 type(
   unit
 )
@@ -2381,6 +2483,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 506 24440 24468 "dypgen_lexer.ml" 506 24440 24474
 )
 "dypgen_lexer.mll" 119 25069 25111 "dypgen_lexer.mll" 119 25069 25125
+call(
+  tail
+)
 type(
   unit
 )
@@ -2407,6 +2512,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 506 24440 24468 "dypgen_lexer.ml" 506 24440 24474
 )
 "dypgen_lexer.mll" 120 25187 25193 "dypgen_lexer.mll" 120 25187 25211
+call(
+  tail
+)
 type(
   unit
 )
@@ -2436,6 +2544,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 506 24440 24468 "dypgen_lexer.ml" 506 24440 24474
 )
 "dypgen_lexer.ml" 532 25237 25262 "dypgen_lexer.ml" 532 25237 25294
+call(
+  stack
+)
 type(
   unit
 )
@@ -2461,6 +2572,9 @@ ident(
   int_ref __ocaml_lex_state "dypgen_lexer.ml" 532 25237 25241 "dypgen_lexer.ml" 532 25237 25258
 )
 "dypgen_lexer.ml" 532 25237 25296 "dypgen_lexer.ml" 532 25237 25344
+call(
+  tail
+)
 type(
   unit
 )
@@ -2505,6 +2619,9 @@ type(
   int
 )
 "dypgen_lexer.ml" 535 25370 25374 "dypgen_lexer.ml" 535 25370 25410
+call(
+  tail
+)
 type(
   unit
 )
@@ -2558,6 +2675,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.ml" 537 25469 25477 "dypgen_lexer.ml" 537 25469 25534
+call(
+  stack
+)
 type(
   int
 )
@@ -2570,7 +2690,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 125 25587 25599 "dypgen_lexer.mll" 125 25587 25608
 type(
@@ -2588,7 +2708,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 125 25587 25611 "dypgen_lexer.mll" 125 25587 25616
 type(
@@ -2603,14 +2723,14 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dypgen_lexer.mll" 125 25587 25620 "dypgen_lexer.mll" 125 25587 25621
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 125 25587 25621 "dypgen_lexer.mll" 125 25587 25634
 type(
@@ -2628,7 +2748,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 125 25587 25637 "dypgen_lexer.mll" 125 25587 25638
 type(
@@ -2647,7 +2767,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 127 25660 25679 "dypgen_lexer.mll" 127 25660 25691
 type(
@@ -2669,7 +2789,7 @@ type(
   Lexing.position ref -> Lexing.position
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 129 25719 25739 "dypgen_lexer.mll" 129 25719 25755
 type(
@@ -2687,7 +2807,7 @@ type(
   Lexing.position -> Lexing.position -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 129 25719 25756 "dypgen_lexer.mll" 129 25719 25765
 type(
@@ -2719,6 +2839,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 130 25773 25791 "dypgen_lexer.mll" 130 25773 25814
+call(
+  stack
+)
 type(
   unit
 )
@@ -2737,6 +2860,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 131 25816 25834 "dypgen_lexer.mll" 131 25816 25851
+call(
+  tail
+)
 type(
   unit
 )
@@ -2756,7 +2882,7 @@ type(
   Lexing.position ref -> Lexing.position -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 132 25853 25892 "dypgen_lexer.mll" 132 25853 25901
 type(
@@ -2800,7 +2926,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 134 25927 25959 "dypgen_lexer.mll" 134 25927 25961
 type(
@@ -2832,6 +2958,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 135 25963 25981 "dypgen_lexer.mll" 135 25963 26004
+call(
+  stack
+)
 type(
   unit
 )
@@ -2850,6 +2979,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 136 26006 26024 "dypgen_lexer.mll" 136 26006 26041
+call(
+  tail
+)
 type(
   unit
 )
@@ -2884,6 +3016,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 147 26374 26386 "dypgen_lexer.mll" 147 26374 26409
+call(
+  stack
+)
 type(
   unit
 )
@@ -2902,6 +3037,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 148 26411 26423 "dypgen_lexer.mll" 148 26411 26440
+call(
+  tail
+)
 type(
   unit
 )
@@ -2922,7 +3060,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 151 26522 26536 "dypgen_lexer.mll" 151 26522 26545
 type(
@@ -2940,7 +3078,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 151 26522 26546 "dypgen_lexer.mll" 151 26522 26551
 type(
@@ -2955,14 +3093,14 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dypgen_lexer.mll" 151 26522 26555 "dypgen_lexer.mll" 151 26522 26556
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 151 26522 26556 "dypgen_lexer.mll" 151 26522 26569
 type(
@@ -2980,7 +3118,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 151 26522 26570 "dypgen_lexer.mll" 151 26522 26571
 type(
@@ -2999,7 +3137,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 152 26579 26596 "dypgen_lexer.mll" 152 26579 26609
 type(
@@ -3039,7 +3177,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 153 26615 26655 "dypgen_lexer.mll" 153 26615 26657
 type(
@@ -3071,6 +3209,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 154 26659 26675 "dypgen_lexer.mll" 154 26659 26698
+call(
+  stack
+)
 type(
   unit
 )
@@ -3089,6 +3230,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 155 26700 26716 "dypgen_lexer.mll" 155 26700 26733
+call(
+  tail
+)
 type(
   unit
 )
@@ -3109,7 +3253,7 @@ type(
   Lexing.position ref -> Lexing.position
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 157 26754 26774 "dypgen_lexer.mll" 157 26754 26787
 type(
@@ -3127,7 +3271,7 @@ type(
   Lexing.position -> Lexing.position -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 157 26754 26788 "dypgen_lexer.mll" 157 26754 26797
 type(
@@ -3159,6 +3303,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 158 26805 26823 "dypgen_lexer.mll" 158 26805 26846
+call(
+  stack
+)
 type(
   unit
 )
@@ -3177,6 +3324,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 159 26848 26866 "dypgen_lexer.mll" 159 26848 26883
+call(
+  tail
+)
 type(
   unit
 )
@@ -3196,7 +3346,7 @@ type(
   Lexing.position ref -> Lexing.position -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 161 26906 26939 "dypgen_lexer.mll" 161 26906 26948
 type(
@@ -3236,6 +3386,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 163 26967 26979 "dypgen_lexer.mll" 163 26967 27002
+call(
+  stack
+)
 type(
   unit
 )
@@ -3254,6 +3407,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 164 27004 27016 "dypgen_lexer.mll" 164 27004 27033
+call(
+  tail
+)
 type(
   unit
 )
@@ -3274,7 +3430,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 165 27096 27110 "dypgen_lexer.mll" 165 27096 27119
 type(
@@ -3292,7 +3448,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 165 27096 27120 "dypgen_lexer.mll" 165 27096 27125
 type(
@@ -3307,14 +3463,14 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dypgen_lexer.mll" 165 27096 27129 "dypgen_lexer.mll" 165 27096 27130
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 165 27096 27130 "dypgen_lexer.mll" 165 27096 27143
 type(
@@ -3332,7 +3488,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 165 27096 27144 "dypgen_lexer.mll" 165 27096 27145
 type(
@@ -3358,7 +3514,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 166 27151 27181 "dypgen_lexer.mll" 166 27151 27195
 type(
@@ -3375,6 +3531,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 166 27151 27180 "dypgen_lexer.mll" 166 27151 27203
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -3383,7 +3542,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 166 27151 27207 "dypgen_lexer.mll" 166 27151 27220
 type(
@@ -3427,6 +3586,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 167 27223 27233 "dypgen_lexer.mll" 167 27223 27256
+call(
+  stack
+)
 type(
   unit
 )
@@ -3445,6 +3607,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 168 27258 27268 "dypgen_lexer.mll" 168 27258 27285
+call(
+  tail
+)
 type(
   unit
 )
@@ -3465,7 +3630,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 170 27347 27360 "dypgen_lexer.mll" 170 27347 27369
 type(
@@ -3497,6 +3662,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 170 27347 27375 "dypgen_lexer.mll" 170 27347 27398
+call(
+  stack
+)
 type(
   unit
 )
@@ -3519,6 +3687,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 171 27399 27410 "dypgen_lexer.mll" 171 27399 27433
+call(
+  stack
+)
 type(
   unit
 )
@@ -3541,6 +3712,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 172 27436 27444 "dypgen_lexer.mll" 172 27436 27461
+call(
+  tail
+)
 type(
   unit
 )
@@ -3571,6 +3745,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 175 27529 27537 "dypgen_lexer.mll" 175 27529 27563
+call(
+  stack
+)
 type(
   unit
 )
@@ -3589,6 +3766,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 176 27565 27573 "dypgen_lexer.mll" 176 27565 27590
+call(
+  tail
+)
 type(
   unit
 )
@@ -3605,7 +3785,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 180 27667 27679 "dypgen_lexer.mll" 180 27667 27688
 type(
@@ -3630,7 +3810,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 180 27667 27708 "dypgen_lexer.mll" 180 27667 27713
 type(
@@ -3652,7 +3832,7 @@ type(
   Lexing.position ref -> Lexing.position -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 180 27667 27731 "dypgen_lexer.mll" 180 27667 27740
 type(
@@ -3681,7 +3861,7 @@ type(
   bool ref -> bool -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 181 27742 27769 "dypgen_lexer.mll" 181 27742 27773
 type(
@@ -3703,7 +3883,7 @@ type(
   Lexing.position ref -> Lexing.position -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 181 27742 27791 "dypgen_lexer.mll" 181 27742 27805
 type(
@@ -3720,6 +3900,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 181 27742 27791 "dypgen_lexer.mll" 181 27742 27812
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -3754,6 +3937,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 182 27815 27823 "dypgen_lexer.mll" 182 27815 27847
+call(
+  stack
+)
 type(
   unit
 )
@@ -3772,6 +3958,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 183 27849 27857 "dypgen_lexer.mll" 183 27849 27874
+call(
+  tail
+)
 type(
   unit
 )
@@ -3806,6 +3995,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 186 27942 27950 "dypgen_lexer.mll" 186 27942 27973
+call(
+  stack
+)
 type(
   unit
 )
@@ -3814,7 +4006,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 187 27975 27987 "dypgen_lexer.mll" 187 27975 27996
 type(
@@ -3832,7 +4024,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 187 27975 27999 "dypgen_lexer.mll" 187 27975 28004
 type(
@@ -3847,14 +4039,14 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dypgen_lexer.mll" 187 27975 28008 "dypgen_lexer.mll" 187 27975 28009
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 187 27975 28009 "dypgen_lexer.mll" 187 27975 28022
 type(
@@ -3872,7 +4064,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_lexer.mll" 187 27975 28025 "dypgen_lexer.mll" 187 27975 28026
 type(
@@ -3898,7 +4090,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 188 28032 28059 "dypgen_lexer.mll" 188 28032 28073
 type(
@@ -3915,6 +4107,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 188 28032 28058 "dypgen_lexer.mll" 188 28032 28081
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -3923,7 +4118,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 188 28032 28084 "dypgen_lexer.mll" 188 28032 28096
 type(
@@ -3963,6 +4158,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 190 28145 28153 "dypgen_lexer.mll" 190 28145 28170
+call(
+  tail
+)
 type(
   unit
 )
@@ -3983,7 +4181,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 194 28247 28259 "dypgen_lexer.mll" 194 28247 28268
 type(
@@ -4012,14 +4210,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 194 28247 28300 "dypgen_lexer.mll" 194 28247 28301
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 194 28247 28301 "dypgen_lexer.mll" 194 28247 28314
 type(
@@ -4037,7 +4235,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dypgen_lexer.mll" 194 28247 28317 "dypgen_lexer.mll" 194 28247 28318
 type(
@@ -4063,7 +4261,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 196 28353 28366 "dypgen_lexer.mll" 196 28353 28380
 type(
@@ -4080,6 +4278,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 196 28353 28365 "dypgen_lexer.mll" 196 28353 28388
+call(
+  stack
+)
 type(
   Lexing.position
 )
@@ -4088,7 +4289,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 196 28353 28392 "dypgen_lexer.mll" 196 28353 28411
 type(
@@ -4136,6 +4337,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 197 28415 28423 "dypgen_lexer.mll" 197 28415 28447
+call(
+  stack
+)
 type(
   unit
 )
@@ -4154,6 +4358,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 198 28449 28457 "dypgen_lexer.mll" 198 28449 28474
+call(
+  tail
+)
 type(
   unit
 )
@@ -4174,7 +4381,7 @@ type(
   bool ref -> bool
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 202 28551 28563 "dypgen_lexer.mll" 202 28551 28572
 type(
@@ -4203,14 +4410,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 202 28551 28604 "dypgen_lexer.mll" 202 28551 28605
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 202 28551 28605 "dypgen_lexer.mll" 202 28551 28618
 type(
@@ -4228,7 +4435,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "dypgen_lexer.mll" 202 28551 28621 "dypgen_lexer.mll" 202 28551 28622
 type(
@@ -4254,7 +4461,7 @@ type(
   Lexing.position list ref -> Lexing.position list -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 203 28624 28657 "dypgen_lexer.mll" 203 28624 28664
 type(
@@ -4268,7 +4475,7 @@ type(
   Lexing.position list ref -> Lexing.position list
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "dypgen_lexer.mll" 203 28624 28667 "dypgen_lexer.mll" 203 28624 28686
 type(
@@ -4282,6 +4489,9 @@ type(
   Lexing.position list
 )
 "dypgen_lexer.mll" 203 28624 28657 "dypgen_lexer.mll" 203 28624 28687
+call(
+  stack
+)
 type(
   Lexing.position list
 )
@@ -4316,6 +4526,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 204 28690 28698 "dypgen_lexer.mll" 204 28690 28722
+call(
+  stack
+)
 type(
   unit
 )
@@ -4334,6 +4547,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 205 28724 28732 "dypgen_lexer.mll" 205 28724 28749
+call(
+  tail
+)
 type(
   unit
 )
@@ -4380,6 +4596,9 @@ type(
   int
 )
 "dypgen_lexer.mll" 208 28817 28825 "dypgen_lexer.mll" 208 28817 28857
+call(
+  stack
+)
 type(
   unit
 )
@@ -4427,14 +4646,23 @@ type(
   int
 )
 "dypgen_lexer.mll" 210 28887 28912 "dypgen_lexer.mll" 210 28887 28941
+call(
+  stack
+)
 type(
   char
 )
 "dypgen_lexer.mll" 210 28887 28897 "dypgen_lexer.mll" 210 28887 28942
+call(
+  stack
+)
 type(
   string
 )
 "dypgen_lexer.mll" 209 28859 28867 "dypgen_lexer.mll" 210 28887 28942
+call(
+  stack
+)
 type(
   unit
 )
@@ -4453,6 +4681,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 211 28944 28952 "dypgen_lexer.mll" 211 28944 28969
+call(
+  tail
+)
 type(
   unit
 )
@@ -4512,14 +4743,23 @@ type(
   int
 )
 "dypgen_lexer.mll" 215 29066 29091 "dypgen_lexer.mll" 215 29066 29120
+call(
+  stack
+)
 type(
   char
 )
 "dypgen_lexer.mll" 215 29066 29076 "dypgen_lexer.mll" 215 29066 29121
+call(
+  stack
+)
 type(
   string
 )
 "dypgen_lexer.mll" 214 29038 29046 "dypgen_lexer.mll" 215 29066 29121
+call(
+  stack
+)
 type(
   unit
 )
@@ -4538,6 +4778,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.mll" 216 29123 29131 "dypgen_lexer.mll" 216 29123 29148
+call(
+  tail
+)
 type(
   unit
 )
@@ -4571,6 +4814,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 536 25411 25442 "dypgen_lexer.ml" 536 25411 25448
 )
 "dypgen_lexer.ml" 668 29182 29207 "dypgen_lexer.ml" 668 29182 29239
+call(
+  stack
+)
 type(
   unit
 )
@@ -4596,6 +4842,9 @@ ident(
   int_ref __ocaml_lex_state "dypgen_lexer.ml" 668 29182 29186 "dypgen_lexer.ml" 668 29182 29203
 )
 "dypgen_lexer.ml" 668 29182 29241 "dypgen_lexer.ml" 668 29182 29292
+call(
+  tail
+)
 type(
   unit
 )
@@ -4640,6 +4889,9 @@ type(
   int
 )
 "dypgen_lexer.ml" 671 29318 29322 "dypgen_lexer.ml" 671 29318 29359
+call(
+  tail
+)
 type(
   unit
 )
@@ -4693,6 +4945,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 672 29360 29391 "dypgen_lexer.ml" 672 29360 29397
 )
 "dypgen_lexer.ml" 673 29418 29426 "dypgen_lexer.ml" 673 29418 29483
+call(
+  stack
+)
 type(
   int
 )
@@ -4719,6 +4974,9 @@ type(
   string
 )
 "dypgen_lexer.mll" 221 29527 29535 "dypgen_lexer.mll" 221 29527 29559
+call(
+  stack
+)
 type(
   unit
 )
@@ -4737,6 +4995,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 672 29360 29391 "dypgen_lexer.ml" 672 29360 29397
 )
 "dypgen_lexer.mll" 222 29561 29569 "dypgen_lexer.mll" 222 29561 29586
+call(
+  tail
+)
 type(
   unit
 )
@@ -4760,7 +5021,7 @@ type(
   Lexing.position ref -> Lexing.position -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_lexer.mll" 224 29654 29684 "dypgen_lexer.mll" 224 29654 29693
 type(
@@ -4816,6 +5077,9 @@ type(
   int
 )
 "dypgen_lexer.mll" 226 29759 29767 "dypgen_lexer.mll" 226 29759 29799
+call(
+  stack
+)
 type(
   unit
 )
@@ -4863,14 +5127,23 @@ type(
   int
 )
 "dypgen_lexer.mll" 228 29829 29854 "dypgen_lexer.mll" 228 29829 29883
+call(
+  stack
+)
 type(
   char
 )
 "dypgen_lexer.mll" 228 29829 29839 "dypgen_lexer.mll" 228 29829 29884
+call(
+  stack
+)
 type(
   string
 )
 "dypgen_lexer.mll" 227 29801 29809 "dypgen_lexer.mll" 228 29829 29884
+call(
+  stack
+)
 type(
   unit
 )
@@ -4889,6 +5162,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 672 29360 29391 "dypgen_lexer.ml" 672 29360 29397
 )
 "dypgen_lexer.mll" 229 29886 29894 "dypgen_lexer.mll" 229 29886 29911
+call(
+  tail
+)
 type(
   unit
 )
@@ -4948,14 +5224,23 @@ type(
   int
 )
 "dypgen_lexer.mll" 233 30007 30032 "dypgen_lexer.mll" 233 30007 30061
+call(
+  stack
+)
 type(
   char
 )
 "dypgen_lexer.mll" 233 30007 30017 "dypgen_lexer.mll" 233 30007 30062
+call(
+  stack
+)
 type(
   string
 )
 "dypgen_lexer.mll" 232 29979 29987 "dypgen_lexer.mll" 233 30007 30062
+call(
+  stack
+)
 type(
   unit
 )
@@ -4974,6 +5259,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 672 29360 29391 "dypgen_lexer.ml" 672 29360 29397
 )
 "dypgen_lexer.mll" 234 30064 30072 "dypgen_lexer.mll" 234 30064 30089
+call(
+  tail
+)
 type(
   unit
 )
@@ -5007,6 +5295,9 @@ ident(
   int_ref lexbuf "dypgen_lexer.ml" 672 29360 29391 "dypgen_lexer.ml" 672 29360 29397
 )
 "dypgen_lexer.ml" 703 30123 30148 "dypgen_lexer.ml" 703 30123 30180
+call(
+  stack
+)
 type(
   unit
 )
@@ -5032,6 +5323,9 @@ ident(
   int_ref __ocaml_lex_state "dypgen_lexer.ml" 703 30123 30127 "dypgen_lexer.ml" 703 30123 30144
 )
 "dypgen_lexer.ml" 703 30123 30182 "dypgen_lexer.ml" 703 30123 30233
+call(
+  tail
+)
 type(
   unit
 )

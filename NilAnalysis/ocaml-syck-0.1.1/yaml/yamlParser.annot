@@ -18,6 +18,9 @@ type(
   exn
 )
 "yamlParser.ml" 5 35 43 "yamlParser.ml" 5 35 100
+call(
+  stack
+)
 type(
   unit
 )

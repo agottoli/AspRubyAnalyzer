@@ -35,6 +35,9 @@ type(
   string
 )
 "file_loader.ml" 25 713 731 "file_loader.ml" 25 713 747
+call(
+  stack
+)
 type(
   Str.regexp
 )
@@ -54,6 +57,9 @@ type(
   string
 )
 "file_loader.ml" 25 713 721 "file_loader.ml" 25 713 770
+call(
+  stack
+)
 type(
   string list
 )
@@ -81,7 +87,7 @@ type(
   string list -> string list -> string list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "file_loader.ml" 28 802 818 "file_loader.ml" 28 802 826
 type(
@@ -95,7 +101,7 @@ type(
   string list -> string list -> string list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "file_loader.ml" 28 802 830 "file_loader.ml" 28 802 833
 type(
@@ -106,10 +112,16 @@ type(
   string list
 )
 "file_loader.ml" 28 802 817 "file_loader.ml" 28 802 835
+call(
+  stack
+)
 type(
   string list
 )
 "file_loader.ml" 28 802 806 "file_loader.ml" 28 802 835
+call(
+  tail
+)
 type(
   string list
 )
@@ -153,6 +165,9 @@ ident(
   int_ref lib_dirs "file_loader.ml" 32 975 994 "file_loader.ml" 32 975 1002
 )
 "file_loader.ml" 33 1006 1017 "file_loader.ml" 33 1006 1044
+call(
+  stack
+)
 type(
   string list
 )
@@ -175,6 +190,9 @@ type(
   int
 )
 "file_loader.ml" 35 1071 1081 "file_loader.ml" 35 1071 1099
+call(
+  stack
+)
 type(
   (string, Cfg.stmt) Hashtbl.t
 )
@@ -306,6 +324,9 @@ type(
   int
 )
 "file_loader.ml" 46 1345 1357 "file_loader.ml" 46 1345 1374
+call(
+  stack
+)
 type(
   Buffer.t
 )
@@ -349,17 +370,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 47 1378 1429 "file_loader.ml" 47 1378 1432
 type(
   string
 )
 "file_loader.ml" 47 1378 1424 "file_loader.ml" 47 1378 1433
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 47 1378 1402 "file_loader.ml" 47 1378 1433
+call(
+  tail
+)
 type(
   unit
 )
@@ -379,6 +406,9 @@ type(
   string list
 )
 "file_loader.ml" 47 1378 1382 "file_loader.ml" 47 1378 1441
+call(
+  stack
+)
 type(
   unit
 )
@@ -397,6 +427,9 @@ ident(
   int_ref buf "file_loader.ml" 46 1345 1351 "file_loader.ml" 46 1345 1354
 )
 "file_loader.ml" 48 1443 1447 "file_loader.ml" 48 1443 1466
+call(
+  tail
+)
 type(
   string
 )
@@ -444,10 +477,16 @@ ident(
   int_ref fname "file_loader.ml" 50 1468 1485 "file_loader.ml" 50 1468 1490
 )
 "file_loader.ml" 52 1500 1517 "file_loader.ml" 52 1500 1537
+call(
+  stack
+)
 type(
   Unix.dir_handle
 )
 "file_loader.ml" 52 1500 1504 "file_loader.ml" 52 1500 1537
+call(
+  stack
+)
 type(
   unit
 )
@@ -489,9 +528,6 @@ type(
 type(
   bool
 )
-type(
-  bool
-)
 ident(
   int_ref *sth* "file_loader.ml" 57 1628 1661 "file_loader.ml" 57 1628 1666
 )
@@ -506,18 +542,6 @@ type(
 )
 ident(
   def *sth* "file_loader.ml" 57 1628 1661 "file_loader.ml" 57 1628 1666
-)
-type(
-  bool option
-)
-ident(
-  int_ref *opt* "file_loader.ml" 57 1628 1661 "file_loader.ml" 57 1628 1666
-)
-type(
-  bool option
-)
-ident(
-  def *opt* "file_loader.ml" 57 1628 1652 "file_loader.ml" 79 2418 2442
 )
 "file_loader.ml" 57 1628 1668 "file_loader.ml" 57 1628 1669
 type(
@@ -582,6 +606,9 @@ ident(
   int_ref fullname "file_loader.ml" 58 1677 1697 "file_loader.ml" 58 1677 1705
 )
 "file_loader.ml" 60 1747 1768 "file_loader.ml" 60 1747 1786
+call(
+  stack
+)
 type(
   string option
 )
@@ -655,6 +682,9 @@ ident(
   int_ref exts "file_loader.ml" 59 1709 1717 "file_loader.ml" 59 1709 1721
 )
 "file_loader.ml" 62 1843 1864 "file_loader.ml" 62 1843 1881
+call(
+  stack
+)
 type(
   bool
 )
@@ -663,7 +693,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.or
+  ext_ref Pervasives.( or )
 )
 "file_loader.ml" 62 1843 1885 "file_loader.ml" 62 1843 1891
 type(
@@ -718,7 +748,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 64 1924 1942 "file_loader.ml" 64 1924 1951
 type(
@@ -750,7 +780,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 66 1984 2026 "file_loader.ml" 66 1984 2027
 type(
@@ -760,6 +790,9 @@ ident(
   int_ref e "file_loader.ml" 65 1953 1978 "file_loader.ml" 65 1953 1979
 )
 "file_loader.ml" 66 1984 2015 "file_loader.ml" 66 1984 2027
+call(
+  stack
+)
 type(
   string
 )
@@ -786,7 +819,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "file_loader.ml" 67 2031 2077 "file_loader.ml" 67 2031 2080
 type(
@@ -810,6 +843,9 @@ ident(
   int_ref f "file_loader.ml" 66 1984 2011 "file_loader.ml" 66 1984 2012
 )
 "file_loader.ml" 67 2031 2081 "file_loader.ml" 67 2031 2097
+call(
+  stack
+)
 type(
   bool
 )
@@ -837,10 +873,16 @@ ident(
   int_ref exts "file_loader.ml" 60 1747 1755 "file_loader.ml" 60 1747 1759
 )
 "file_loader.ml" 64 1924 1941 "file_loader.ml" 68 2098 2125
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 64 1924 1930 "file_loader.ml" 68 2098 2125
+call(
+  tail
+)
 type(
   string
 )
@@ -921,6 +963,9 @@ ident(
   int_ref hd "file_loader.ml" 72 2185 2191 "file_loader.ml" 72 2185 2193
 )
 "file_loader.ml" 73 2202 2210 "file_loader.ml" 73 2202 2246
+call(
+  stack
+)
 type(
   unit
 )
@@ -950,6 +995,9 @@ ident(
   int_ref f "file_loader.ml" 57 1628 1668 "file_loader.ml" 57 1628 1669
 )
 "file_loader.ml" 74 2248 2271 "file_loader.ml" 74 2248 2291
+call(
+  stack
+)
 type(
   string
 )
@@ -968,6 +1016,9 @@ ident(
   int_ref fullname "file_loader.ml" 74 2248 2260 "file_loader.ml" 74 2248 2268
 )
 "file_loader.ml" 75 2295 2309 "file_loader.ml" 75 2295 2331
+call(
+  stack
+)
 type(
   string
 )
@@ -990,6 +1041,9 @@ ident(
   int_ref tl "file_loader.ml" 72 2185 2195 "file_loader.ml" 72 2185 2197
 )
 "file_loader.ml" 76 2332 2360 "file_loader.ml" 76 2332 2367
+call(
+  tail
+)
 type(
   string
 )
@@ -1024,6 +1078,9 @@ ident(
   int_ref f "file_loader.ml" 57 1628 1668 "file_loader.ml" 57 1628 1669
 )
 "file_loader.ml" 78 2373 2380 "file_loader.ml" 78 2373 2402
+call(
+  stack
+)
 type(
   bool
 )
@@ -1042,6 +1099,9 @@ ident(
   int_ref lst "file_loader.ml" 57 1628 1670 "file_loader.ml" 57 1628 1673
 )
 "file_loader.ml" 78 2373 2408 "file_loader.ml" 78 2373 2416
+call(
+  tail
+)
 type(
   string
 )
@@ -1060,6 +1120,9 @@ ident(
   int_ref f "file_loader.ml" 57 1628 1668 "file_loader.ml" 57 1628 1669
 )
 "file_loader.ml" 79 2418 2427 "file_loader.ml" 79 2418 2442
+call(
+  tail
+)
 type(
   string
 )
@@ -1108,6 +1171,9 @@ ident(
   int_ref fname "file_loader.ml" 82 2496 2519 "file_loader.ml" 82 2496 2524
 )
 "file_loader.ml" 83 2528 2540 "file_loader.ml" 83 2528 2562
+call(
+  stack
+)
 type(
   string
 )
@@ -1130,6 +1196,9 @@ ident(
   int_ref fname "file_loader.ml" 82 2496 2519 "file_loader.ml" 82 2496 2524
 )
 "file_loader.ml" 84 2566 2579 "file_loader.ml" 84 2566 2602
+call(
+  stack
+)
 type(
   string
 )
@@ -1233,6 +1302,9 @@ ident(
   int_ref file "file_loader.ml" 84 2566 2572 "file_loader.ml" 84 2566 2576
 )
 "file_loader.ml" 89 2720 2724 "file_loader.ml" 89 2720 2749
+call(
+  tail
+)
 type(
   string
 )
@@ -1329,6 +1401,9 @@ ident(
   int_ref file "file_loader.ml" 91 2751 2769 "file_loader.ml" 91 2751 2773
 )
 "file_loader.ml" 93 2820 2836 "file_loader.ml" 93 2820 2842
+call(
+  tail
+)
 type(
   string
 )
@@ -1372,6 +1447,9 @@ ident(
   int_ref f "file_loader.ml" 95 2844 2858 "file_loader.ml" 95 2844 2859
 )
 "file_loader.ml" 96 2863 2877 "file_loader.ml" 96 2863 2902
+call(
+  stack
+)
 type(
   string -> bool
 )
@@ -1383,6 +1461,9 @@ ident(
   int_ref c_extensions "file_loader.ml" 41 1199 1203 "file_loader.ml" 41 1199 1215
 )
 "file_loader.ml" 96 2863 2865 "file_loader.ml" 96 2863 2915
+call(
+  tail
+)
 type(
   bool
 )
@@ -1451,6 +1532,9 @@ type(
   string list
 )
 "file_loader.ml" 100 2993 3006 "file_loader.ml" 100 2993 3038
+call(
+  stack
+)
 type(
   string
 )
@@ -1473,6 +1557,9 @@ ident(
   int_ref file "file_loader.ml" 100 2993 2999 "file_loader.ml" 100 2993 3003
 )
 "file_loader.ml" 102 3056 3063 "file_loader.ml" 102 3056 3077
+call(
+  stack
+)
 type(
   bool
 )
@@ -1498,6 +1585,9 @@ ident(
   int_ref file "file_loader.ml" 100 2993 2999 "file_loader.ml" 100 2993 3003
 )
 "file_loader.ml" 103 3078 3087 "file_loader.ml" 103 3078 3105
+call(
+  stack
+)
 type(
   string
 )
@@ -1588,6 +1678,9 @@ ident(
   int_ref file "file_loader.ml" 108 3136 3152 "file_loader.ml" 108 3136 3156
 )
 "file_loader.ml" 110 3203 3219 "file_loader.ml" 110 3203 3235
+call(
+  stack
+)
 type(
   Unix.stats
 )
@@ -1617,6 +1710,9 @@ ident(
   int_ref ast_file "file_loader.ml" 108 3136 3157 "file_loader.ml" 108 3136 3165
 )
 "file_loader.ml" 111 3253 3270 "file_loader.ml" 111 3253 3290
+call(
+  stack
+)
 type(
   Unix.stats
 )
@@ -1646,6 +1742,9 @@ ident(
   ext_ref Sys.executable_name
 )
 "file_loader.ml" 112 3308 3327 "file_loader.ml" 112 3308 3358
+call(
+  stack
+)
 type(
   Unix.stats
 )
@@ -1665,7 +1764,7 @@ type(
   float -> float -> bool
 )
 ident(
-  ext_ref Pervasives.<
+  ext_ref Pervasives.( < )
 )
 "file_loader.ml" 113 3376 3390 "file_loader.ml" 113 3376 3396
 type(
@@ -1683,7 +1782,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "file_loader.ml" 113 3376 3400 "file_loader.ml" 113 3376 3408
 type(
@@ -1697,7 +1796,7 @@ type(
   float -> float -> bool
 )
 ident(
-  ext_ref Pervasives.<
+  ext_ref Pervasives.( < )
 )
 "file_loader.ml" 113 3376 3411 "file_loader.ml" 113 3376 3417
 type(
@@ -1781,6 +1880,9 @@ ident(
   int_ref fname "file_loader.ml" 117 3479 3495 "file_loader.ml" 117 3479 3500
 )
 "file_loader.ml" 118 3507 3521 "file_loader.ml" 118 3507 3547
+call(
+  stack
+)
 type(
   string
 )
@@ -1789,13 +1891,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 118 3507 3550 "file_loader.ml" 118 3507 3556
 type(
   string
 )
 "file_loader.ml" 118 3507 3521 "file_loader.ml" 118 3507 3556
+call(
+  stack
+)
 type(
   string
 )
@@ -1818,6 +1923,9 @@ ident(
   int_ref fname "file_loader.ml" 118 3507 3513 "file_loader.ml" 118 3507 3518
 )
 "file_loader.ml" 119 3560 3571 "file_loader.ml" 119 3560 3585
+call(
+  stack
+)
 type(
   out_channel
 )
@@ -1850,6 +1958,9 @@ type(
   Marshal.extern_flags list
 )
 "file_loader.ml" 120 3589 3593 "file_loader.ml" 120 3589 3631
+call(
+  stack
+)
 type(
   unit
 )
@@ -1868,6 +1979,9 @@ ident(
   int_ref oc "file_loader.ml" 119 3560 3566 "file_loader.ml" 119 3560 3568
 )
 "file_loader.ml" 121 3633 3637 "file_loader.ml" 121 3633 3649
+call(
+  stack
+)
 type(
   unit
 )
@@ -1904,6 +2018,9 @@ type(
   Utils.StrSet.t
 )
 "file_loader.ml" 122 3651 3672 "file_loader.ml" 122 3651 3702
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -1967,6 +2084,9 @@ ident(
   int_ref fname "file_loader.ml" 124 3704 3726 "file_loader.ml" 124 3704 3731
 )
 "file_loader.ml" 125 3735 3753 "file_loader.ml" 125 3735 3777
+call(
+  stack
+)
 type(
   string
 )
@@ -1986,13 +2106,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 126 3781 3810 "file_loader.ml" 126 3781 3816
 type(
   string
 )
 "file_loader.ml" 126 3781 3798 "file_loader.ml" 126 3781 3816
+call(
+  stack
+)
 type(
   string
 )
@@ -2018,6 +2141,9 @@ ident(
   int_ref ast_name "file_loader.ml" 126 3781 3787 "file_loader.ml" 126 3781 3795
 )
 "file_loader.ml" 127 3820 3827 "file_loader.ml" 127 3820 3857
+call(
+  stack
+)
 type(
   bool
 )
@@ -2043,6 +2169,9 @@ ident(
   int_ref ast_name "file_loader.ml" 126 3781 3787 "file_loader.ml" 126 3781 3795
 )
 "file_loader.ml" 129 3867 3882 "file_loader.ml" 129 3867 3898
+call(
+  stack
+)
 type(
   in_channel
 )
@@ -2068,6 +2197,9 @@ ident(
   int_ref ic "file_loader.ml" 129 3867 3877 "file_loader.ml" 129 3867 3879
 )
 "file_loader.ml" 130 3903 3929 "file_loader.ml" 130 3903 3952
+call(
+  stack
+)
 type(
   Ast.ast
 )
@@ -2086,6 +2218,9 @@ ident(
   int_ref ic "file_loader.ml" 129 3867 3877 "file_loader.ml" 129 3867 3879
 )
 "file_loader.ml" 131 3956 3964 "file_loader.ml" 131 3956 3975
+call(
+  stack
+)
 type(
   unit
 )
@@ -2122,6 +2257,9 @@ type(
   Utils.StrSet.t
 )
 "file_loader.ml" 132 3978 4003 "file_loader.ml" 132 3978 4036
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -2171,6 +2309,9 @@ ident(
   int_ref fname "file_loader.ml" 124 3704 3726 "file_loader.ml" 124 3704 3731
 )
 "file_loader.ml" 135 4060 4076 "file_loader.ml" 135 4060 4105
+call(
+  stack
+)
 type(
   Ast.ast
 )
@@ -2203,6 +2344,9 @@ ident(
   int_ref ast "file_loader.ml" 135 4060 4070 "file_loader.ml" 135 4060 4073
 )
 "file_loader.ml" 136 4109 4117 "file_loader.ml" 136 4109 4138
+call(
+  stack
+)
 type(
   unit
 )
@@ -2284,6 +2428,9 @@ ident(
   int_ref fname "file_loader.ml" 139 4153 4168 "file_loader.ml" 139 4153 4173
 )
 "file_loader.ml" 141 4204 4211 "file_loader.ml" 141 4204 4253
+call(
+  stack
+)
 type(
   unit
 )
@@ -2324,6 +2471,9 @@ ident(
   int_ref fname "file_loader.ml" 139 4153 4168 "file_loader.ml" 139 4153 4173
 )
 "file_loader.ml" 143 4272 4279 "file_loader.ml" 143 4272 4302
+call(
+  tail
+)
 type(
   Ast.ast
 )
@@ -2342,6 +2492,9 @@ ident(
   int_ref fname "file_loader.ml" 139 4153 4168 "file_loader.ml" 139 4153 4173
 )
 "file_loader.ml" 144 4303 4310 "file_loader.ml" 144 4303 4339
+call(
+  tail
+)
 type(
   Ast.ast
 )
@@ -2375,9 +2528,6 @@ type(
 type(
   Ast.ast -> Ast.ast
 )
-type(
-  Ast.ast -> Ast.ast
-)
 ident(
   ext_ref Utils.id
 )
@@ -2398,18 +2548,6 @@ type(
 )
 ident(
   def *sth* "file_loader.ml" 147 4416 4446 "file_loader.ml" 147 4416 4454
-)
-type(
-  (Ast.ast -> Ast.ast) option
-)
-ident(
-  int_ref *opt* "file_loader.ml" 147 4416 4446 "file_loader.ml" 147 4416 4454
-)
-type(
-  (Ast.ast -> Ast.ast) option
-)
-ident(
-  def *opt* "file_loader.ml" 147 4416 4432 "file_loader.ml" 166 5279 5300
 )
 "file_loader.ml" 147 4416 4457 "file_loader.ml" 147 4416 4463
 type(
@@ -2445,6 +2583,9 @@ ident(
   int_ref fname "file_loader.ml" 147 4416 4464 "file_loader.ml" 147 4416 4469
 )
 "file_loader.ml" 148 4473 4475 "file_loader.ml" 148 4473 4507
+call(
+  stack
+)
 type(
   unit
 )
@@ -2484,6 +2625,9 @@ ident(
   int_ref fname "file_loader.ml" 147 4416 4464 "file_loader.ml" 147 4416 4469
 )
 "file_loader.ml" 149 4509 4532 "file_loader.ml" 149 4509 4557
+call(
+  stack
+)
 type(
   string
 )
@@ -2509,6 +2653,9 @@ ident(
   int_ref found_name "file_loader.ml" 149 4509 4519 "file_loader.ml" 149 4509 4529
 )
 "file_loader.ml" 150 4561 4579 "file_loader.ml" 150 4561 4608
+call(
+  stack
+)
 type(
   string
 )
@@ -2527,6 +2674,9 @@ ident(
   int_ref full_name "file_loader.ml" 150 4561 4567 "file_loader.ml" 150 4561 4576
 )
 "file_loader.ml" 151 4612 4619 "file_loader.ml" 151 4612 4640
+call(
+  stack
+)
 type(
   bool
 )
@@ -2550,6 +2700,9 @@ ident(
   int_ref fname "file_loader.ml" 147 4416 4464 "file_loader.ml" 147 4416 4469
 )
 "file_loader.ml" 152 4641 4651 "file_loader.ml" 152 4641 4691
+call(
+  stack
+)
 type(
   unit
 )
@@ -2565,6 +2718,9 @@ type(
   unit
 )
 "file_loader.ml" 152 4641 4693 "file_loader.ml" 152 4641 4710
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -2598,6 +2754,9 @@ ident(
   int_ref full_name "file_loader.ml" 150 4561 4567 "file_loader.ml" 150 4561 4576
 )
 "file_loader.ml" 155 4788 4798 "file_loader.ml" 155 4788 4826
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -2631,6 +2790,9 @@ ident(
   int_ref found_name "file_loader.ml" 149 4509 4519 "file_loader.ml" 149 4509 4529
 )
 "file_loader.ml" 158 4928 4946 "file_loader.ml" 158 4928 4967
+call(
+  stack
+)
 type(
   Ast.ast
 )
@@ -2654,7 +2816,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "file_loader.ml" 159 4971 5010 "file_loader.ml" 159 4971 5014
 type(
@@ -2686,6 +2848,9 @@ ident(
   int_ref ast "file_loader.ml" 158 4928 4940 "file_loader.ml" 158 4928 4943
 )
 "file_loader.ml" 159 4971 5028 "file_loader.ml" 159 4971 5041
+call(
+  stack
+)
 type(
   Ast.ast
 )
@@ -2719,6 +2884,9 @@ ident(
   int_ref ast "file_loader.ml" 159 4971 4983 "file_loader.ml" 159 4971 4986
 )
 "file_loader.ml" 160 5054 5072 "file_loader.ml" 160 5054 5101
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -2755,6 +2923,9 @@ ident(
   int_ref cfg "file_loader.ml" 160 5054 5066 "file_loader.ml" 160 5054 5069
 )
 "file_loader.ml" 161 5105 5115 "file_loader.ml" 161 5105 5146
+call(
+  stack
+)
 type(
   unit
 )
@@ -2840,10 +3011,16 @@ ident(
   int_ref no_ext "file_loader.ml" 147 4416 4457 "file_loader.ml" 147 4416 4463
 )
 "file_loader.ml" 165 5239 5251 "file_loader.ml" 165 5239 5277
+call(
+  stack
+)
 type(
   bool
 )
 "file_loader.ml" 164 5183 5187 "file_loader.ml" 165 5239 5277
+call(
+  stack
+)
 type(
   unit
 )
@@ -2859,6 +3036,9 @@ type(
   unit
 )
 "file_loader.ml" 166 5279 5283 "file_loader.ml" 166 5279 5300
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -2942,6 +3122,9 @@ ident(
   int_ref fname "file_loader.ml" 169 5379 5405 "file_loader.ml" 169 5379 5410
 )
 "file_loader.ml" 170 5418 5431 "file_loader.ml" 170 5418 5456
+call(
+  stack
+)
 type(
   string
 )
@@ -2964,6 +3147,9 @@ ident(
   int_ref name "file_loader.ml" 170 5418 5424 "file_loader.ml" 170 5418 5428
 )
 "file_loader.ml" 171 5460 5478 "file_loader.ml" 171 5460 5501
+call(
+  stack
+)
 type(
   string
 )
@@ -3000,6 +3186,9 @@ ident(
   int_ref cfg "file_loader.ml" 169 5379 5411 "file_loader.ml" 169 5379 5414
 )
 "file_loader.ml" 172 5505 5509 "file_loader.ml" 172 5505 5544
+call(
+  tail
+)
 type(
   unit
 )
@@ -3075,6 +3264,9 @@ ident(
   int_ref fname "file_loader.ml" 176 5605 5634 "file_loader.ml" 176 5605 5639
 )
 "file_loader.ml" 177 5643 5665 "file_loader.ml" 177 5643 5690
+call(
+  stack
+)
 type(
   string
 )
@@ -3093,6 +3285,9 @@ ident(
   int_ref full_name "file_loader.ml" 177 5643 5653 "file_loader.ml" 177 5643 5662
 )
 "file_loader.ml" 178 5694 5701 "file_loader.ml" 178 5694 5720
+call(
+  stack
+)
 type(
   bool
 )
@@ -3133,10 +3328,16 @@ ident(
   int_ref full_name "file_loader.ml" 177 5643 5653 "file_loader.ml" 177 5643 5662
 )
 "file_loader.ml" 180 5735 5762 "file_loader.ml" 180 5735 5792
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 180 5735 5744 "file_loader.ml" 180 5735 5792
+call(
+  stack
+)
 type(
   bool
 )
@@ -3172,6 +3373,9 @@ ident(
   int_ref fname "file_loader.ml" 176 5605 5634 "file_loader.ml" 176 5605 5639
 )
 "file_loader.ml" 182 5814 5818 "file_loader.ml" 182 5814 5870
+call(
+  stack
+)
 type(
   unit
 )
@@ -3243,7 +3447,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 189 5999 6017 "file_loader.ml" 189 5999 6020
 type(
@@ -3254,7 +3458,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 189 5999 6024 "file_loader.ml" 189 5999 6033
 type(
@@ -3271,14 +3475,23 @@ ident(
   int_ref t "file_loader.ml" 189 5999 6008 "file_loader.ml" 189 5999 6009
 )
 "file_loader.ml" 189 5999 6023 "file_loader.ml" 189 5999 6036
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 189 5999 6017 "file_loader.ml" 189 5999 6036
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 189 5999 6013 "file_loader.ml" 189 5999 6036
+call(
+  tail
+)
 type(
   string
 )
@@ -3295,7 +3508,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 191 6042 6059 "file_loader.ml" 191 6042 6068
 type(
@@ -3316,10 +3529,16 @@ type(
   string list
 )
 "file_loader.ml" 191 6042 6059 "file_loader.ml" 191 6042 6080
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 191 6042 6046 "file_loader.ml" 191 6042 6080
+call(
+  tail
+)
 type(
   string
 )
@@ -3367,6 +3586,9 @@ ident(
   int_ref fname "file_loader.ml" 194 6143 6171 "file_loader.ml" 194 6143 6176
 )
 "file_loader.ml" 195 6180 6194 "file_loader.ml" 195 6180 6218
+call(
+  stack
+)
 type(
   string
 )
@@ -3386,13 +3608,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 196 6222 6250 "file_loader.ml" 196 6222 6258
 type(
   string
 )
 "file_loader.ml" 196 6222 6242 "file_loader.ml" 196 6222 6258
+call(
+  stack
+)
 type(
   string
 )
@@ -3415,6 +3640,9 @@ ident(
   int_ref cache_fname "file_loader.ml" 196 6222 6228 "file_loader.ml" 196 6222 6239
 )
 "file_loader.ml" 197 6262 6273 "file_loader.ml" 197 6262 6293
+call(
+  stack
+)
 type(
   out_channel
 )
@@ -3440,6 +3668,9 @@ ident(
   int_ref oc "file_loader.ml" 197 6262 6268 "file_loader.ml" 197 6262 6270
 )
 "file_loader.ml" 198 6297 6313 "file_loader.ml" 198 6297 6331
+call(
+  stack
+)
 type(
   Utils.StrSet.elt -> unit
 )
@@ -3455,6 +3686,9 @@ type(
   Utils.StrSet.t
 )
 "file_loader.ml" 198 6297 6301 "file_loader.ml" 198 6297 6350
+call(
+  stack
+)
 type(
   unit
 )
@@ -3473,6 +3707,9 @@ ident(
   int_ref oc "file_loader.ml" 197 6262 6268 "file_loader.ml" 197 6262 6270
 )
 "file_loader.ml" 199 6352 6356 "file_loader.ml" 199 6352 6368
+call(
+  tail
+)
 type(
   unit
 )
@@ -3522,6 +3759,9 @@ type(
   string
 )
 "file_loader.ml" 203 6473 6484 "file_loader.ml" 203 6473 6526
+call(
+  stack
+)
 type(
   unit
 )
@@ -3544,6 +3784,9 @@ ident(
   int_ref fname "file_loader.ml" 202 6448 6465 "file_loader.ml" 202 6448 6470
 )
 "file_loader.ml" 204 6530 6550 "file_loader.ml" 204 6530 6576
+call(
+  stack
+)
 type(
   string
 )
@@ -3552,13 +3795,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 204 6530 6579 "file_loader.ml" 204 6530 6587
 type(
   string
 )
 "file_loader.ml" 204 6530 6550 "file_loader.ml" 204 6530 6587
+call(
+  stack
+)
 type(
   string
 )
@@ -3589,7 +3835,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 206 6610 6643 "file_loader.ml" 206 6610 6644
 type(
@@ -3603,21 +3849,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 206 6610 6647 "file_loader.ml" 206 6610 6652
 type(
   string
 )
 "file_loader.ml" 206 6610 6643 "file_loader.ml" 206 6610 6652
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 206 6610 6628 "file_loader.ml" 206 6610 6653
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 206 6610 6614 "file_loader.ml" 206 6610 6653
+call(
+  stack
+)
 type(
   unit
 )
@@ -3662,6 +3917,9 @@ ident(
   int_ref cache_fname "file_loader.ml" 204 6530 6536 "file_loader.ml" 204 6530 6547
 )
 "file_loader.ml" 209 6677 6688 "file_loader.ml" 209 6677 6707
+call(
+  stack
+)
 type(
   in_channel
 )
@@ -3691,6 +3949,9 @@ ident(
   int_ref ic "file_loader.ml" 209 6677 6683 "file_loader.ml" 209 6677 6685
 )
 "file_loader.ml" 212 6739 6755 "file_loader.ml" 212 6739 6768
+call(
+  stack
+)
 type(
   string
 )
@@ -3709,6 +3970,9 @@ ident(
   int_ref f "file_loader.ml" 212 6739 6751 "file_loader.ml" 212 6739 6752
 )
 "file_loader.ml" 213 6772 6782 "file_loader.ml" 213 6772 6791
+call(
+  stack
+)
 type(
   unit
 )
@@ -3739,6 +4003,9 @@ ident(
   int_ref ic "file_loader.ml" 209 6677 6683 "file_loader.ml" 209 6677 6685
 )
 "file_loader.ml" 215 6803 6827 "file_loader.ml" 215 6803 6838
+call(
+  stack
+)
 type(
   unit
 )
@@ -3758,7 +4025,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 216 6840 6873 "file_loader.ml" 216 6840 6884
 type(
@@ -3772,21 +4039,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "file_loader.ml" 216 6840 6887 "file_loader.ml" 216 6840 6892
 type(
   string
 )
 "file_loader.ml" 216 6840 6873 "file_loader.ml" 216 6840 6892
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 216 6840 6858 "file_loader.ml" 216 6840 6893
+call(
+  stack
+)
 type(
   string
 )
 "file_loader.ml" 216 6840 6844 "file_loader.ml" 216 6840 6893
+call(
+  stack
+)
 type(
   unit
 )
@@ -3820,6 +4096,9 @@ type(
   string
 )
 "file_loader.ml" 218 6970 6974 "file_loader.ml" 218 6970 7027
+call(
+  tail
+)
 type(
   unit
 )

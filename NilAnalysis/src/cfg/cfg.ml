@@ -3,7 +3,7 @@ open Printf
 open Utils
 open Format
 
-type pos = Log.pos
+type pos = Log.pos 
 
 type unary_op =
 		Op_UMinus

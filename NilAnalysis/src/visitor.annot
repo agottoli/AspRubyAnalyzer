@@ -41,6 +41,9 @@ ident(
   int_ref orig "visitor.ml" 22 1166 1181 "visitor.ml" 22 1166 1185
 )
 "visitor.ml" 23 1197 1205 "visitor.ml" 23 1197 1214
+call(
+  stack
+)
 type(
   'a visitAction
 )
@@ -74,6 +77,9 @@ ident(
   int_ref orig "visitor.ml" 22 1166 1181 "visitor.ml" 22 1166 1185
 )
 "visitor.ml" 25 1247 1267 "visitor.ml" 25 1247 1279
+call(
+  tail
+)
 type(
   'a
 )
@@ -135,10 +141,16 @@ ident(
   int_ref res1 "visitor.ml" 27 1314 1341 "visitor.ml" 27 1314 1345
 )
 "visitor.ml" 27 1314 1354 "visitor.ml" 27 1314 1368
+call(
+  stack
+)
 type(
   'a
 )
 "visitor.ml" 27 1314 1352 "visitor.ml" 27 1314 1368
+call(
+  tail
+)
 type(
   'a
 )

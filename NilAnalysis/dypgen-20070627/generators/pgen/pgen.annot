@@ -1,3 +1,7 @@
+"pgen.ml" 44 1235 1246 "pgen.ml" 44 1235 1277
+call(
+  stack
+)
 "pgen.ml" 51 1355 1359 "pgen.ml" 51 1355 1372
 type(
   Dyp.priority_data
@@ -35,6 +39,9 @@ type(
   string
 )
 "pgen.ml" 52 1394 1396 "pgen.ml" 52 1394 1458
+call(
+  stack
+)
 type(
   Dyp.priority_data * Dyp.priority
 )
@@ -512,7 +519,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen.ml" 97 2476 2521 "pgen.ml" 97 2476 2522
 type(
@@ -570,7 +577,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 100 2575 2584 "pgen.ml" 100 2575 2586
 type(
@@ -611,7 +618,7 @@ type(
   string ref -> string -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "pgen.ml" 101 2635 2656 "pgen.ml" 101 2635 2657
 type(
@@ -689,6 +696,9 @@ type(
   Arg.usage_msg
 )
 "pgen.ml" 103 2786 2794 "pgen.ml" 103 2786 2862
+call(
+  stack
+)
 type(
   unit
 )
@@ -697,7 +707,7 @@ type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen.ml" 104 2864 2876 "pgen.ml" 104 2864 2886
 type(
@@ -715,7 +725,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 104 2864 2889 "pgen.ml" 104 2864 2891
 type(
@@ -741,6 +751,9 @@ type(
   string
 )
 "pgen.ml" 105 2898 2908 "pgen.ml" 105 2898 2955
+call(
+  stack
+)
 type(
   unit
 )
@@ -756,6 +769,9 @@ type(
   int
 )
 "pgen.ml" 105 2898 2959 "pgen.ml" 105 2898 2965
+call(
+  stack
+)
 type(
   unit
 )
@@ -1221,6 +1237,9 @@ type(
   string
 )
 "pgen.ml" 149 4542 4553 "pgen.ml" 149 4542 4576
+call(
+  stack
+)
 type(
   obj
 )
@@ -1484,6 +1503,9 @@ type(
   string
 )
 "pgen.ml" 158 4938 4949 "pgen.ml" 158 4938 4971
+call(
+  stack
+)
 type(
   obj
 )
@@ -2069,7 +2091,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 176 6076 6106 "pgen.ml" 176 6076 6108
 type(
@@ -2110,7 +2132,7 @@ type(
   Pgen_parser_param.token_desc list -> Pgen_parser_param.token_desc list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "pgen.ml" 177 6131 6167 "pgen.ml" 177 6131 6170
 type(
@@ -2120,6 +2142,9 @@ ident(
   int_ref tl2 "pgen.ml" 175 5987 6057 "pgen.ml" 175 5987 6060
 )
 "pgen.ml" 177 6131 6163 "pgen.ml" 177 6131 6170
+call(
+  stack
+)
 type(
   Pgen_parser_param.token_desc list
 )
@@ -2136,7 +2161,7 @@ type(
   Pgen_parser_param.relation_desc -> Pgen_parser_param.relation_desc
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "pgen.ml" 177 6131 6176 "pgen.ml" 177 6131 6180
 type(
@@ -2146,6 +2171,9 @@ ident(
   int_ref rel2 "pgen.ml" 175 5987 6061 "pgen.ml" 175 5987 6065
 )
 "pgen.ml" 177 6131 6171 "pgen.ml" 177 6131 6180
+call(
+  stack
+)
 type(
   Pgen_parser_param.relation_desc
 )
@@ -2184,6 +2212,9 @@ type(
   string
 )
 "pgen.ml" 178 6186 6197 "pgen.ml" 178 6186 6227
+call(
+  stack
+)
 type(
   obj
 )
@@ -2444,6 +2475,9 @@ type(
   string
 )
 "pgen.ml" 190 6630 6641 "pgen.ml" 190 6630 6667
+call(
+  stack
+)
 type(
   obj
 )
@@ -3063,6 +3097,9 @@ type(
   string
 )
 "pgen.ml" 210 7746 7757 "pgen.ml" 210 7746 7780
+call(
+  stack
+)
 type(
   obj
 )
@@ -3560,6 +3597,9 @@ type(
   string
 )
 "pgen.ml" 226 8587 8598 "pgen.ml" 226 8587 8619
+call(
+  stack
+)
 type(
   obj
 )
@@ -4545,6 +4585,9 @@ ident(
   int_ref ll "pgen.ml" 245 10567 10619 "pgen.ml" 245 10567 10621
 )
 "pgen.ml" 246 10647 10670 "pgen.ml" 246 10647 10681
+call(
+  stack
+)
 type(
   Pgen_parser_param.literal_desc list
 )
@@ -4667,6 +4710,9 @@ ident(
   int_ref ll "pgen.ml" 247 10702 10764 "pgen.ml" 247 10702 10766
 )
 "pgen.ml" 248 10792 10815 "pgen.ml" 248 10792 10826
+call(
+  stack
+)
 type(
   Pgen_parser_param.literal_desc list
 )
@@ -4771,6 +4817,9 @@ ident(
   int_ref g "pgen.ml" 249 10850 10865 "pgen.ml" 249 10850 10866
 )
 "pgen.ml" 250 10917 10941 "pgen.ml" 250 10917 10950
+call(
+  stack
+)
 type(
   Pgen_parser_param.rule_desc
 )
@@ -4830,6 +4879,9 @@ ident(
   int_ref ll "pgen.ml" 249 10850 10889 "pgen.ml" 249 10850 10891
 )
 "pgen.ml" 252 11006 11043 "pgen.ml" 252 11006 11054
+call(
+  stack
+)
 type(
   Pgen_parser_param.literal_desc list
 )
@@ -4960,6 +5012,9 @@ ident(
   int_ref ll "pgen.ml" 253 11078 11130 "pgen.ml" 253 11078 11132
 )
 "pgen.ml" 254 11167 11190 "pgen.ml" 254 11167 11201
+call(
+  stack
+)
 type(
   Pgen_parser_param.literal_desc list
 )
@@ -5086,6 +5141,9 @@ ident(
   int_ref ll "pgen.ml" 255 11219 11281 "pgen.ml" 255 11219 11283
 )
 "pgen.ml" 256 11318 11341 "pgen.ml" 256 11318 11352
+call(
+  stack
+)
 type(
   Pgen_parser_param.literal_desc list
 )
@@ -5194,6 +5252,9 @@ ident(
   int_ref g "pgen.ml" 257 11373 11388 "pgen.ml" 257 11373 11389
 )
 "pgen.ml" 258 11449 11473 "pgen.ml" 258 11449 11482
+call(
+  stack
+)
 type(
   Pgen_parser_param.rule_desc
 )
@@ -5253,6 +5314,9 @@ ident(
   int_ref ll "pgen.ml" 257 11373 11412 "pgen.ml" 257 11373 11414
 )
 "pgen.ml" 260 11538 11575 "pgen.ml" 260 11538 11586
+call(
+  stack
+)
 type(
   Pgen_parser_param.literal_desc list
 )
@@ -5310,6 +5374,9 @@ type(
   string
 )
 "pgen.ml" 261 11607 11618 "pgen.ml" 261 11607 11638
+call(
+  stack
+)
 type(
   obj
 )
@@ -6759,6 +6826,9 @@ type(
   string
 )
 "pgen.ml" 309 14462 14473 "pgen.ml" 309 14462 14498
+call(
+  stack
+)
 type(
   obj
 )
@@ -7019,6 +7089,9 @@ type(
   string
 )
 "pgen.ml" 319 14847 14858 "pgen.ml" 319 14847 14879
+call(
+  stack
+)
 type(
   obj
 )
@@ -7839,6 +7912,9 @@ type(
   int array
 )
 "pgen.ml" 325 15001 15022 "pgen.ml" 361 16272 16289
+call(
+  stack
+)
 type(
   (obj, data, int) P.Parser_PAR.parsing_device
 )
@@ -7854,7 +7930,7 @@ type(
   string ref -> string
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "pgen.ml" 363 16293 16311 "pgen.ml" 363 16293 16321
 type(
@@ -7889,6 +7965,9 @@ ident(
   int_ref input_file "pgen.ml" 363 16293 16297 "pgen.ml" 363 16293 16307
 )
 "pgen.ml" 364 16323 16341 "pgen.ml" 364 16323 16377
+call(
+  stack
+)
 type(
   string
 )
@@ -7897,13 +7976,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 364 16323 16378 "pgen.ml" 364 16323 16383
 type(
   string
 )
 "pgen.ml" 364 16323 16341 "pgen.ml" 364 16323 16383
+call(
+  stack
+)
 type(
   string
 )
@@ -7929,6 +8011,9 @@ ident(
   int_ref input_file "pgen.ml" 363 16293 16297 "pgen.ml" 363 16293 16307
 )
 "pgen.ml" 365 16385 16407 "pgen.ml" 365 16385 16443
+call(
+  stack
+)
 type(
   string
 )
@@ -7937,13 +8022,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 365 16385 16444 "pgen.ml" 365 16385 16450
 type(
   string
 )
 "pgen.ml" 365 16385 16407 "pgen.ml" 365 16385 16450
+call(
+  stack
+)
 type(
   string
 )
@@ -7976,10 +8064,16 @@ ident(
   int_ref input_file "pgen.ml" 363 16293 16297 "pgen.ml" 363 16293 16307
 )
 "pgen.ml" 367 16454 16487 "pgen.ml" 367 16454 16518
+call(
+  stack
+)
 type(
   in_channel
 )
 "pgen.ml" 367 16454 16467 "pgen.ml" 367 16454 16518
+call(
+  stack
+)
 type(
   Lexing.lexbuf
 )
@@ -8140,14 +8234,14 @@ type(
   'a -> 'a -> bool
 )
 ident(
-  ext_ref Pervasives.==
+  ext_ref Pervasives.( == )
 )
 "pgen.ml" 381 16826 16853 "pgen.ml" 381 16826 16857
 type(
   'b -> 'b -> bool
 )
 ident(
-  ext_ref Pervasives.==
+  ext_ref Pervasives.( == )
 )
 "pgen.ml" 379 16771 16788 "pgen.ml" 381 16826 16859
 type(
@@ -8289,6 +8383,9 @@ type(
   Lexing.lexbuf -> Lexing.position * Lexing.position
 )
 "pgen.ml" 383 16863 16882 "pgen.ml" 385 17014 17060
+call(
+  stack
+)
 type(
   (obj * Dyp.priority) list
 )
@@ -8369,6 +8466,9 @@ ident(
   int_ref parse_result "pgen.ml" 383 16863 16867 "pgen.ml" 383 16863 16879
 )
 "pgen.ml" 388 17136 17172 "pgen.ml" 388 17136 17194
+call(
+  stack
+)
 type(
   obj * Dyp.priority
 )
@@ -8516,6 +8616,9 @@ type(
   string
 )
 "pgen.ml" 390 17280 17289 "pgen.ml" 390 17280 17310
+call(
+  stack
+)
 type(
   string * Pgen_parser_param.token_desc list *
   Pgen_parser_param.relation_desc * string * string *
@@ -8546,13 +8649,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 391 17312 17342 "pgen.ml" 391 17312 17346
 type(
   string
 )
 "pgen.ml" 391 17312 17330 "pgen.ml" 391 17312 17346
+call(
+  stack
+)
 type(
   string
 )
@@ -8575,13 +8681,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 392 17348 17380 "pgen.ml" 392 17348 17384
 type(
   string
 )
 "pgen.ml" 392 17348 17367 "pgen.ml" 392 17348 17384
+call(
+  stack
+)
 type(
   string
 )
@@ -8598,6 +8707,14 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"pgen.ml" 400 17483 17503 "pgen.ml" 400 17483 17527
+call(
+  stack
+)
+"pgen.ml" 401 17529 17549 "pgen.ml" 401 17529 17573
+call(
+  stack
 )
 "pgen.ml" 405 17625 17629 "pgen.ml" 405 17625 17640
 type(
@@ -8643,7 +8760,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 406 17647 17671 "pgen.ml" 406 17647 17672
 type(
@@ -8657,17 +8774,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 406 17647 17673 "pgen.ml" 406 17647 17676
 type(
   string
 )
 "pgen.ml" 406 17647 17671 "pgen.ml" 406 17647 17676
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 406 17647 17666 "pgen.ml" 406 17647 17676
+call(
+  tail
+)
 type(
   string
 )
@@ -8701,6 +8824,9 @@ ident(
   int_ref sl "pgen.ml" 405 17625 17641 "pgen.ml" 405 17625 17643
 )
 "pgen.ml" 407 17681 17694 "pgen.ml" 407 17681 17719
+call(
+  stack
+)
 type(
   string
 )
@@ -8756,7 +8882,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "pgen.ml" 409 17769 17805 "pgen.ml" 409 17769 17806
 type(
@@ -8767,6 +8893,9 @@ type(
   int
 )
 "pgen.ml" 409 17769 17771 "pgen.ml" 409 17769 17808
+call(
+  stack
+)
 type(
   string
 )
@@ -8775,13 +8904,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 409 17769 17809 "pgen.ml" 409 17769 17812
 type(
   string
 )
 "pgen.ml" 409 17769 17771 "pgen.ml" 409 17769 17812
+call(
+  tail
+)
 type(
   string
 )
@@ -8876,7 +9008,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 415 17968 17981 "pgen.ml" 415 17968 17990
 type(
@@ -8898,7 +9030,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 416 17992 18018 "pgen.ml" 416 17992 18023
 type(
@@ -8909,7 +9041,7 @@ type(
   string -> String_map.key -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 416 17992 18024 "pgen.ml" 416 17992 18027
 type(
@@ -8919,10 +9051,16 @@ ident(
   int_ref tok "pgen.ml" 414 17917 17956 "pgen.ml" 414 17917 17959
 )
 "pgen.ml" 416 17992 18018 "pgen.ml" 416 17992 18027
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 416 17992 18001 "pgen.ml" 416 17992 18028
+call(
+  stack
+)
 type(
   string
 )
@@ -8955,6 +9093,9 @@ ident(
   int_ref token_map "pgen.ml" 414 17917 17944 "pgen.ml" 414 17917 17953
 )
 "pgen.ml" 417 18031 18037 "pgen.ml" 417 18031 18071
+call(
+  stack
+)
 type(
   string String_map.t
 )
@@ -8974,7 +9115,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 418 18073 18099 "pgen.ml" 418 18073 18104
 type(
@@ -8985,7 +9126,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 418 18073 18105 "pgen.ml" 418 18073 18108
 type(
@@ -8999,7 +9140,7 @@ type(
   String_map.key -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 418 18073 18109 "pgen.ml" 418 18073 18116
 type(
@@ -9010,7 +9151,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 418 18073 18117 "pgen.ml" 418 18073 18120
 type(
@@ -9024,29 +9165,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 418 18073 18121 "pgen.ml" 418 18073 18124
 type(
   string
 )
 "pgen.ml" 418 18073 18117 "pgen.ml" 418 18073 18124
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 418 18073 18109 "pgen.ml" 418 18073 18124
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 418 18073 18105 "pgen.ml" 418 18073 18124
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 418 18073 18099 "pgen.ml" 418 18073 18124
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 418 18073 18082 "pgen.ml" 418 18073 18125
+call(
+  stack
+)
 type(
   string
 )
@@ -9079,6 +9235,9 @@ ident(
   int_ref token_map "pgen.ml" 414 17917 17944 "pgen.ml" 414 17917 17953
 )
 "pgen.ml" 419 18128 18134 "pgen.ml" 419 18128 18168
+call(
+  stack
+)
 type(
   string String_map.t
 )
@@ -9146,6 +9305,9 @@ ident(
   int_ref token_list "pgen.ml" 387 17064 17081 "pgen.ml" 387 17064 17091
 )
 "pgen.ml" 422 18211 18215 "pgen.ml" 422 18211 18279
+call(
+  stack
+)
 type(
   string * string String_map.t
 )
@@ -9165,13 +9327,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 424 18287 18327 "pgen.ml" 424 18287 18331
 type(
   string
 )
 "pgen.ml" 424 18287 18311 "pgen.ml" 424 18287 18331
+call(
+  stack
+)
 type(
   string
 )
@@ -9292,7 +9457,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 435 18620 18630 "pgen.ml" 435 18620 18647
 type(
@@ -9303,7 +9468,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 435 18620 18648 "pgen.ml" 435 18620 18651
 type(
@@ -9317,7 +9482,7 @@ type(
   String_map.key -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 435 18620 18652 "pgen.ml" 435 18620 18657
 type(
@@ -9328,7 +9493,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 435 18620 18659 "pgen.ml" 435 18620 18672
 type(
@@ -9345,6 +9510,9 @@ ident(
   int_ref n "pgen.ml" 434 18575 18591 "pgen.ml" 434 18575 18592
 )
 "pgen.ml" 435 18620 18658 "pgen.ml" 435 18620 18675
+call(
+  stack
+)
 type(
   string
 )
@@ -9353,29 +9521,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 435 18620 18676 "pgen.ml" 435 18620 18680
 type(
   string
 )
 "pgen.ml" 435 18620 18658 "pgen.ml" 435 18620 18680
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 435 18620 18652 "pgen.ml" 435 18620 18680
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 435 18620 18648 "pgen.ml" 435 18620 18680
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 435 18620 18630 "pgen.ml" 435 18620 18680
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 435 18620 18625 "pgen.ml" 435 18620 18680
+call(
+  stack
+)
 type(
   string
 )
@@ -9391,7 +9574,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "pgen.ml" 436 18683 18690 "pgen.ml" 436 18683 18691
 type(
@@ -9430,6 +9613,9 @@ ident(
   int_ref token_name_map "pgen.ml" 434 18575 18593 "pgen.ml" 434 18575 18607
 )
 "pgen.ml" 436 18683 18693 "pgen.ml" 436 18683 18728
+call(
+  stack
+)
 type(
   int String_map.t
 )
@@ -9501,6 +9687,9 @@ ident(
   int_ref token_list "pgen.ml" 387 17064 17081 "pgen.ml" 387 17064 17091
 )
 "pgen.ml" 439 18784 18788 "pgen.ml" 439 18784 18859
+call(
+  stack
+)
 type(
   string * int * int String_map.t
 )
@@ -9516,7 +9705,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 446 19092 19115 "pgen.ml" 446 19092 19132
 type(
@@ -9527,7 +9716,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 446 19092 19134 "pgen.ml" 446 19092 19147
 type(
@@ -9544,6 +9733,9 @@ ident(
   int_ref n "pgen.ml" 438 18737 18764 "pgen.ml" 438 18737 18765
 )
 "pgen.ml" 446 19092 19133 "pgen.ml" 446 19092 19150
+call(
+  stack
+)
 type(
   string
 )
@@ -9552,21 +9744,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 446 19092 19151 "pgen.ml" 446 19092 19155
 type(
   string
 )
 "pgen.ml" 446 19092 19133 "pgen.ml" 446 19092 19155
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 446 19092 19115 "pgen.ml" 446 19092 19155
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 446 19092 19094 "pgen.ml" 446 19092 19155
+call(
+  stack
+)
 type(
   string
 )
@@ -9660,7 +9861,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 458 19509 19522 "pgen.ml" 458 19509 19531
 type(
@@ -9682,7 +9883,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 458 19509 19542 "pgen.ml" 458 19509 19547
 type(
@@ -9693,7 +9894,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 458 19509 19548 "pgen.ml" 458 19509 19551
 type(
@@ -9707,7 +9908,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 458 19509 19552 "pgen.ml" 458 19509 19569
 type(
@@ -9718,7 +9919,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 458 19509 19570 "pgen.ml" 458 19509 19573
 type(
@@ -9728,18 +9929,30 @@ ident(
   int_ref tok "pgen.ml" 457 19481 19497 "pgen.ml" 457 19481 19500
 )
 "pgen.ml" 458 19509 19552 "pgen.ml" 458 19509 19573
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 458 19509 19548 "pgen.ml" 458 19509 19573
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 458 19509 19542 "pgen.ml" 458 19509 19573
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 458 19509 19537 "pgen.ml" 458 19509 19573
+call(
+  tail
+)
 type(
   string
 )
@@ -9755,7 +9968,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 459 19575 19589 "pgen.ml" 459 19575 19594
 type(
@@ -9766,7 +9979,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 459 19575 19595 "pgen.ml" 459 19575 19598
 type(
@@ -9780,7 +9993,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 459 19575 19599 "pgen.ml" 459 19575 19618
 type(
@@ -9791,7 +10004,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 459 19575 19619 "pgen.ml" 459 19575 19622
 type(
@@ -9801,18 +10014,30 @@ ident(
   int_ref tok "pgen.ml" 457 19481 19497 "pgen.ml" 457 19481 19500
 )
 "pgen.ml" 459 19575 19599 "pgen.ml" 459 19575 19622
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 459 19575 19595 "pgen.ml" 459 19575 19622
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 459 19575 19589 "pgen.ml" 459 19575 19622
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 459 19575 19584 "pgen.ml" 459 19575 19622
+call(
+  tail
+)
 type(
   string
 )
@@ -9854,6 +10079,9 @@ ident(
   int_ref token_list "pgen.ml" 387 17064 17081 "pgen.ml" 387 17064 17091
 )
 "pgen.ml" 461 19630 19659 "pgen.ml" 461 19630 19709
+call(
+  stack
+)
 type(
   string
 )
@@ -9873,7 +10101,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 463 19744 19769 "pgen.ml" 463 19744 19773
 type(
@@ -9884,17 +10112,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 464 19776 19780 "pgen.ml" 464 19776 19814
 type(
   string
 )
 "pgen.ml" 463 19744 19769 "pgen.ml" 464 19776 19814
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 463 19744 19748 "pgen.ml" 464 19776 19814
+call(
+  stack
+)
 type(
   string
 )
@@ -9939,7 +10173,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 467 19850 19863 "pgen.ml" 467 19850 19872
 type(
@@ -9961,7 +10195,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 467 19850 19883 "pgen.ml" 467 19850 19888
 type(
@@ -9972,7 +10206,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 467 19850 19889 "pgen.ml" 467 19850 19892
 type(
@@ -9986,7 +10220,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 467 19850 19893 "pgen.ml" 467 19850 19901
 type(
@@ -9997,7 +10231,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 467 19850 19902 "pgen.ml" 467 19850 19905
 type(
@@ -10011,29 +10245,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 467 19850 19906 "pgen.ml" 467 19850 19910
 type(
   string
 )
 "pgen.ml" 467 19850 19902 "pgen.ml" 467 19850 19910
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 467 19850 19893 "pgen.ml" 467 19850 19910
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 467 19850 19889 "pgen.ml" 467 19850 19910
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 467 19850 19883 "pgen.ml" 467 19850 19910
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 467 19850 19878 "pgen.ml" 467 19850 19910
+call(
+  tail
+)
 type(
   string
 )
@@ -10049,7 +10298,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 468 19912 19930 "pgen.ml" 468 19912 19935
 type(
@@ -10071,7 +10320,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 468 19912 19946 "pgen.ml" 468 19912 19951
 type(
@@ -10082,7 +10331,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 468 19912 19952 "pgen.ml" 468 19912 19955
 type(
@@ -10096,21 +10345,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 468 19912 19956 "pgen.ml" 468 19912 19979
 type(
   string
 )
 "pgen.ml" 468 19912 19952 "pgen.ml" 468 19912 19979
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 468 19912 19946 "pgen.ml" 468 19912 19979
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 468 19912 19941 "pgen.ml" 468 19912 19979
+call(
+  tail
+)
 type(
   string
 )
@@ -10126,7 +10384,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 469 19981 19999 "pgen.ml" 469 19981 20007
 type(
@@ -10148,7 +10406,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 469 19981 20018 "pgen.ml" 469 19981 20023
 type(
@@ -10159,7 +10417,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 469 19981 20024 "pgen.ml" 469 19981 20027
 type(
@@ -10173,21 +10431,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 469 19981 20028 "pgen.ml" 469 19981 20037
 type(
   string
 )
 "pgen.ml" 469 19981 20024 "pgen.ml" 469 19981 20037
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 469 19981 20018 "pgen.ml" 469 19981 20037
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 469 19981 20013 "pgen.ml" 469 19981 20037
+call(
+  tail
+)
 type(
   string
 )
@@ -10203,7 +10470,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 470 20039 20053 "pgen.ml" 470 20039 20058
 type(
@@ -10214,7 +10481,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 470 20039 20059 "pgen.ml" 470 20039 20062
 type(
@@ -10228,7 +10495,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 470 20039 20063 "pgen.ml" 470 20039 20073
 type(
@@ -10239,7 +10506,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 470 20039 20074 "pgen.ml" 470 20039 20077
 type(
@@ -10253,29 +10520,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 470 20039 20078 "pgen.ml" 470 20039 20082
 type(
   string
 )
 "pgen.ml" 470 20039 20074 "pgen.ml" 470 20039 20082
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 470 20039 20063 "pgen.ml" 470 20039 20082
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 470 20039 20059 "pgen.ml" 470 20039 20082
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 470 20039 20053 "pgen.ml" 470 20039 20082
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 470 20039 20048 "pgen.ml" 470 20039 20082
+call(
+  tail
+)
 type(
   string
 )
@@ -10325,6 +10607,9 @@ ident(
   int_ref token_list "pgen.ml" 387 17064 17081 "pgen.ml" 387 17064 17091
 )
 "pgen.ml" 473 20120 20124 "pgen.ml" 473 20120 20176
+call(
+  stack
+)
 type(
   string
 )
@@ -10333,13 +10618,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 473 20120 20177 "pgen.ml" 473 20120 20181
 type(
   string
 )
 "pgen.ml" 473 20120 20124 "pgen.ml" 473 20120 20181
+call(
+  stack
+)
 type(
   string
 )
@@ -10411,7 +10699,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 477 20270 20300 "pgen.ml" 477 20270 20303
 type(
@@ -10425,7 +10713,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 477 20270 20304 "pgen.ml" 477 20270 20309
 type(
@@ -10436,7 +10724,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 477 20270 20311 "pgen.ml" 477 20270 20314
 type(
@@ -10464,18 +10752,30 @@ type(
   (string * 'a) list
 )
 "pgen.ml" 477 20270 20310 "pgen.ml" 477 20270 20322
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 477 20270 20304 "pgen.ml" 477 20270 20322
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 477 20270 20300 "pgen.ml" 477 20270 20322
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 477 20270 20295 "pgen.ml" 477 20270 20322
+call(
+  tail
+)
 type(
   string
 )
@@ -10507,7 +10807,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 478 20324 20350 "pgen.ml" 478 20324 20353
 type(
@@ -10521,17 +10821,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 478 20324 20354 "pgen.ml" 478 20324 20358
 type(
   string
 )
 "pgen.ml" 478 20324 20350 "pgen.ml" 478 20324 20358
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 478 20324 20345 "pgen.ml" 478 20324 20358
+call(
+  tail
+)
 type(
   string
 )
@@ -10556,7 +10862,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 482 20463 20468 "pgen.ml" 482 20463 20471
 type(
@@ -10573,6 +10879,9 @@ ident(
   int_ref token_list "pgen.ml" 387 17064 17081 "pgen.ml" 387 17064 17091
 )
 "pgen.ml" 482 20463 20467 "pgen.ml" 482 20463 20483
+call(
+  stack
+)
 type(
   string
 )
@@ -10581,7 +10890,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 482 20463 20484 "pgen.ml" 482 20463 20490
 type(
@@ -10592,21 +10901,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 483 20493 20497 "pgen.ml" 483 20493 20544
 type(
   string
 )
 "pgen.ml" 482 20463 20484 "pgen.ml" 483 20493 20544
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 482 20463 20467 "pgen.ml" 483 20493 20544
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 481 20395 20399 "pgen.ml" 483 20493 20544
+call(
+  stack
+)
 type(
   string
 )
@@ -10770,6 +11088,9 @@ ident(
   int_ref st_set "pgen.ml" 540 23170 23181 "pgen.ml" 540 23170 23187
 )
 "pgen.ml" 542 23240 23275 "pgen.ml" 542 23240 23299
+call(
+  tail
+)
 type(
   String_set.t
 )
@@ -10853,6 +11174,9 @@ ident(
   int_ref st_set "pgen.ml" 544 23307 23318 "pgen.ml" 544 23307 23324
 )
 "pgen.ml" 545 23349 23373 "pgen.ml" 545 23349 23403
+call(
+  stack
+)
 type(
   String_set.t
 )
@@ -10864,6 +11188,9 @@ ident(
   int_ref ld_list "pgen.ml" 544 23307 23335 "pgen.ml" 544 23307 23342
 )
 "pgen.ml" 545 23349 23353 "pgen.ml" 545 23349 23411
+call(
+  tail
+)
 type(
   String_set.t
 )
@@ -10901,6 +11228,9 @@ ident(
   int_ref grammar "pgen.ml" 388 17136 17138 "pgen.ml" 388 17136 17145
 )
 "pgen.ml" 547 23419 23444 "pgen.ml" 547 23419 23488
+call(
+  stack
+)
 type(
   String_set.t
 )
@@ -10952,7 +11282,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 549 23530 23540 "pgen.ml" 549 23530 23546
 type(
@@ -10963,7 +11293,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 549 23530 23547 "pgen.ml" 549 23530 23556
 type(
@@ -10977,7 +11307,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 549 23530 23557 "pgen.ml" 549 23530 23562
 type(
@@ -10988,7 +11318,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 549 23530 23564 "pgen.ml" 549 23530 23577
 type(
@@ -11005,6 +11335,9 @@ ident(
   int_ref n "pgen.ml" 548 23493 23524 "pgen.ml" 548 23493 23525
 )
 "pgen.ml" 549 23530 23563 "pgen.ml" 549 23530 23580
+call(
+  stack
+)
 type(
   string
 )
@@ -11013,29 +11346,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 549 23530 23581 "pgen.ml" 549 23530 23585
 type(
   string
 )
 "pgen.ml" 549 23530 23563 "pgen.ml" 549 23530 23585
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 549 23530 23557 "pgen.ml" 549 23530 23585
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 549 23530 23547 "pgen.ml" 549 23530 23585
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 549 23530 23540 "pgen.ml" 549 23530 23585
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 549 23530 23534 "pgen.ml" 549 23530 23585
+call(
+  stack
+)
 type(
   string
 )
@@ -11048,7 +11396,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 550 23588 23603 "pgen.ml" 550 23588 23612
 type(
@@ -11062,7 +11410,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 550 23588 23613 "pgen.ml" 550 23588 23616
 type(
@@ -11073,7 +11421,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 550 23588 23618 "pgen.ml" 550 23588 23631
 type(
@@ -11090,18 +11438,30 @@ ident(
   int_ref n "pgen.ml" 548 23493 23524 "pgen.ml" 548 23493 23525
 )
 "pgen.ml" 550 23588 23617 "pgen.ml" 550 23588 23634
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 550 23588 23613 "pgen.ml" 550 23588 23634
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 550 23588 23603 "pgen.ml" 550 23588 23634
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 550 23588 23593 "pgen.ml" 550 23588 23635
+call(
+  stack
+)
 type(
   string
 )
@@ -11128,7 +11488,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "pgen.ml" 551 23644 23651 "pgen.ml" 551 23644 23652
 type(
@@ -11197,6 +11557,9 @@ type(
   string * string list * int
 )
 "pgen.ml" 554 23715 23719 "pgen.ml" 555 23757 23771
+call(
+  stack
+)
 type(
   string * string list * int
 )
@@ -11265,7 +11628,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 563 23877 23914 "pgen.ml" 563 23877 23932
 type(
@@ -11279,17 +11642,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 563 23877 23933 "pgen.ml" 563 23877 23941
 type(
   string
 )
 "pgen.ml" 563 23877 23914 "pgen.ml" 563 23877 23941
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 563 23877 23890 "pgen.ml" 563 23877 23941
+call(
+  stack
+)
 type(
   string
 )
@@ -11323,7 +11692,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 566 24003 24035 "pgen.ml" 566 24003 24040
 type(
@@ -11334,7 +11703,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 566 24003 24041 "pgen.ml" 566 24003 24050
 type(
@@ -11348,21 +11717,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 566 24003 24051 "pgen.ml" 566 24003 24055
 type(
   string
 )
 "pgen.ml" 566 24003 24041 "pgen.ml" 566 24003 24055
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 566 24003 24035 "pgen.ml" 566 24003 24055
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 566 24003 24030 "pgen.ml" 566 24003 24055
+call(
+  tail
+)
 type(
   string
 )
@@ -11396,6 +11774,9 @@ type(
   string
 )
 "pgen.ml" 568 24083 24087 "pgen.ml" 568 24083 24126
+call(
+  stack
+)
 type(
   string
 )
@@ -11412,7 +11793,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 570 24134 24181 "pgen.ml" 570 24134 24194
 type(
@@ -11426,17 +11807,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 570 24134 24195 "pgen.ml" 570 24134 24201
 type(
   string
 )
 "pgen.ml" 570 24134 24181 "pgen.ml" 570 24134 24201
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 570 24134 24156 "pgen.ml" 570 24134 24201
+call(
+  stack
+)
 type(
   string
 )
@@ -11452,7 +11839,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 571 24206 24222 "pgen.ml" 571 24206 24226
 type(
@@ -11462,6 +11849,9 @@ ident(
   int_ref code "pgen.ml" 563 23877 23883 "pgen.ml" 563 23877 23887
 )
 "pgen.ml" 571 24206 24208 "pgen.ml" 571 24206 24226
+call(
+  stack
+)
 type(
   string
 )
@@ -11560,10 +11950,16 @@ ident(
   int_ref str_set "pgen.ml" 588 24579 24588 "pgen.ml" 588 24579 24595
 )
 "pgen.ml" 589 24621 24641 "pgen.ml" 589 24621 24668
+call(
+  stack
+)
 type(
   String_set.t
 )
 "pgen.ml" 589 24621 24623 "pgen.ml" 589 24621 24668
+call(
+  tail
+)
 type(
   String_set.t
 )
@@ -11604,6 +12000,9 @@ ident(
   int_ref relation "pgen.ml" 387 17064 17093 "pgen.ml" 387 17064 17101
 )
 "pgen.ml" 590 24670 24689 "pgen.ml" 590 24670 24733
+call(
+  stack
+)
 type(
   String_set.t
 )
@@ -11685,7 +12084,7 @@ type(
   String_set.elt -> String_set.elt -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 594 24803 24840 "pgen.ml" 594 24803 24853
 type(
@@ -11724,6 +12123,9 @@ ident(
   int_ref st_set "pgen.ml" 592 24737 24746 "pgen.ml" 592 24737 24752
 )
 "pgen.ml" 595 24867 24878 "pgen.ml" 595 24867 24901
+call(
+  tail
+)
 type(
   String_set.t
 )
@@ -11814,6 +12216,9 @@ ident(
   int_ref st_set "pgen.ml" 596 24903 24912 "pgen.ml" 596 24903 24918
 )
 "pgen.ml" 597 24938 24960 "pgen.ml" 597 24938 24985
+call(
+  stack
+)
 type(
   String_set.t
 )
@@ -11825,6 +12230,9 @@ ident(
   int_ref ld_list "pgen.ml" 596 24903 24924 "pgen.ml" 596 24903 24931
 )
 "pgen.ml" 597 24938 24940 "pgen.ml" 597 24938 24993
+call(
+  tail
+)
 type(
   String_set.t
 )
@@ -11865,6 +12273,9 @@ ident(
   int_ref grammar "pgen.ml" 388 17136 17138 "pgen.ml" 388 17136 17145
 )
 "pgen.ml" 598 24995 25014 "pgen.ml" 598 24995 25054
+call(
+  stack
+)
 type(
   String_set.t
 )
@@ -11929,6 +12340,9 @@ ident(
   int_ref st_map "pgen.ml" 600 25058 25069 "pgen.ml" 600 25058 25075
 )
 "pgen.ml" 600 25058 25082 "pgen.ml" 600 25058 25107
+call(
+  stack
+)
 type(
   int String_map.t
 )
@@ -11944,7 +12358,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "pgen.ml" 600 25058 25110 "pgen.ml" 600 25058 25111
 type(
@@ -12011,6 +12425,9 @@ type(
   int String_map.t * int
 )
 "pgen.ml" 601 25114 25135 "pgen.ml" 601 25114 25188
+call(
+  stack
+)
 type(
   int String_map.t * int
 )
@@ -12044,6 +12461,9 @@ ident(
   int_ref priority_map "pgen.ml" 601 25114 25118 "pgen.ml" 601 25114 25130
 )
 "pgen.ml" 603 25192 25211 "pgen.ml" 603 25192 25259
+call(
+  stack
+)
 type(
   int String_map.t
 )
@@ -12136,7 +12556,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 615 25539 25570 "pgen.ml" 615 25539 25587
 type(
@@ -12147,7 +12567,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 615 25539 25588 "pgen.ml" 615 25539 25591
 type(
@@ -12161,21 +12581,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 615 25539 25592 "pgen.ml" 615 25539 25595
 type(
   string
 )
 "pgen.ml" 615 25539 25588 "pgen.ml" 615 25539 25595
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 615 25539 25570 "pgen.ml" 615 25539 25595
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 615 25539 25565 "pgen.ml" 615 25539 25595
+call(
+  tail
+)
 type(
   string
 )
@@ -12224,7 +12653,7 @@ type(
   String_map.key -> String_map.key -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 618 25657 25674 "pgen.ml" 618 25657 25687
 type(
@@ -12262,7 +12691,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 621 25793 25806 "pgen.ml" 621 25793 25819
 type(
@@ -12293,14 +12722,23 @@ ident(
   int_ref priority_map "pgen.ml" 603 25192 25196 "pgen.ml" 603 25192 25208
 )
 "pgen.ml" 621 25793 25820 "pgen.ml" 621 25793 25852
+call(
+  stack
+)
 type(
   int
 )
 "pgen.ml" 621 25793 25805 "pgen.ml" 621 25793 25853
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 620 25725 25737 "pgen.ml" 621 25793 25853
+call(
+  stack
+)
 type(
   string
 )
@@ -12320,7 +12758,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 623 25867 25880 "pgen.ml" 623 25867 25891
 type(
@@ -12331,7 +12769,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 623 25867 25892 "pgen.ml" 623 25867 25895
 type(
@@ -12345,7 +12783,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 623 25867 25896 "pgen.ml" 623 25867 25899
 type(
@@ -12356,7 +12794,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 623 25867 25900 "pgen.ml" 623 25867 25906
 type(
@@ -12370,29 +12808,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 623 25867 25907 "pgen.ml" 623 25867 25911
 type(
   string
 )
 "pgen.ml" 623 25867 25900 "pgen.ml" 623 25867 25911
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 623 25867 25896 "pgen.ml" 623 25867 25911
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 623 25867 25892 "pgen.ml" 623 25867 25911
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 623 25867 25880 "pgen.ml" 623 25867 25911
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 623 25867 25875 "pgen.ml" 623 25867 25911
+call(
+  tail
+)
 type(
   string
 )
@@ -12435,6 +12888,9 @@ ident(
   int_ref ld_list "pgen.ml" 613 25462 25480 "pgen.ml" 613 25462 25487
 )
 "pgen.ml" 626 25998 26024 "pgen.ml" 626 25998 26054
+call(
+  stack
+)
 type(
   string
 )
@@ -12476,7 +12932,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 629 26146 26169 "pgen.ml" 629 26146 26170
 type(
@@ -12523,7 +12979,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "pgen.ml" 630 26195 26250 "pgen.ml" 630 26195 26251
 type(
@@ -12534,6 +12990,9 @@ type(
   int
 )
 "pgen.ml" 630 26195 26204 "pgen.ml" 630 26195 26252
+call(
+  stack
+)
 type(
   string
 )
@@ -12554,7 +13013,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 632 26260 26283 "pgen.ml" 632 26260 26289
 type(
@@ -12568,7 +13027,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 632 26260 26291 "pgen.ml" 632 26260 26295
 type(
@@ -12579,7 +13038,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 632 26260 26297 "pgen.ml" 632 26260 26314
 type(
@@ -12593,25 +13052,37 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 632 26260 26316 "pgen.ml" 632 26260 26337
 type(
   string
 )
 "pgen.ml" 632 26260 26297 "pgen.ml" 632 26260 26337
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 632 26260 26291 "pgen.ml" 632 26260 26337
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 632 26260 26283 "pgen.ml" 632 26260 26337
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 632 26260 26278 "pgen.ml" 632 26260 26337
+call(
+  stack
+)
 type(
   string
 )
@@ -12692,6 +13163,9 @@ ident(
   int_ref token_map "pgen.ml" 412 17818 17861 "pgen.ml" 412 17818 17870
 )
 "pgen.ml" 648 26934 26972 "pgen.ml" 648 26934 27001
+call(
+  stack
+)
 type(
   string
 )
@@ -12707,7 +13181,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 649 27006 27025 "pgen.ml" 649 27006 27034
 type(
@@ -12729,7 +13203,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 650 27041 27058 "pgen.ml" 650 27041 27062
 type(
@@ -12740,7 +13214,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 650 27041 27064 "pgen.ml" 650 27041 27077
 type(
@@ -12757,6 +13231,9 @@ ident(
   int_ref n "pgen.ml" 647 26893 26909 "pgen.ml" 647 26893 26910
 )
 "pgen.ml" 650 27041 27063 "pgen.ml" 650 27041 27080
+call(
+  stack
+)
 type(
   string
 )
@@ -12765,21 +13242,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 650 27041 27081 "pgen.ml" 650 27041 27084
 type(
   string
 )
 "pgen.ml" 650 27041 27063 "pgen.ml" 650 27041 27084
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 650 27041 27058 "pgen.ml" 650 27041 27084
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 650 27041 27053 "pgen.ml" 650 27041 27084
+call(
+  stack
+)
 type(
   string
 )
@@ -12795,7 +13281,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "pgen.ml" 650 27041 27088 "pgen.ml" 650 27041 27089
 type(
@@ -12821,7 +13307,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 651 27091 27111 "pgen.ml" 651 27091 27117
 type(
@@ -12832,7 +13318,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 651 27091 27118 "pgen.ml" 651 27091 27121
 type(
@@ -12846,7 +13332,7 @@ type(
   String_map.key -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 651 27091 27122 "pgen.ml" 651 27091 27126
 type(
@@ -12857,7 +13343,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 651 27091 27128 "pgen.ml" 651 27091 27141
 type(
@@ -12874,6 +13360,9 @@ ident(
   int_ref n "pgen.ml" 647 26893 26909 "pgen.ml" 647 26893 26910
 )
 "pgen.ml" 651 27091 27127 "pgen.ml" 651 27091 27144
+call(
+  stack
+)
 type(
   string
 )
@@ -12882,29 +13371,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 651 27091 27145 "pgen.ml" 651 27091 27148
 type(
   string
 )
 "pgen.ml" 651 27091 27127 "pgen.ml" 651 27091 27148
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 651 27091 27122 "pgen.ml" 651 27091 27148
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 651 27091 27118 "pgen.ml" 651 27091 27148
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 651 27091 27111 "pgen.ml" 651 27091 27148
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 651 27091 27106 "pgen.ml" 651 27091 27148
+call(
+  stack
+)
 type(
   string
 )
@@ -12920,7 +13424,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "pgen.ml" 651 27091 27152 "pgen.ml" 651 27091 27153
 type(
@@ -12977,7 +13481,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 652 27155 27197 "pgen.ml" 652 27155 27203
 type(
@@ -12988,7 +13492,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 652 27155 27204 "pgen.ml" 652 27155 27206
 type(
@@ -13002,7 +13506,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 652 27155 27207 "pgen.ml" 652 27155 27211
 type(
@@ -13013,7 +13517,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 652 27155 27213 "pgen.ml" 652 27155 27226
 type(
@@ -13030,6 +13534,9 @@ ident(
   int_ref n "pgen.ml" 647 26893 26909 "pgen.ml" 647 26893 26910
 )
 "pgen.ml" 652 27155 27212 "pgen.ml" 652 27155 27229
+call(
+  stack
+)
 type(
   string
 )
@@ -13038,29 +13545,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 652 27155 27230 "pgen.ml" 652 27155 27233
 type(
   string
 )
 "pgen.ml" 652 27155 27212 "pgen.ml" 652 27155 27233
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 652 27155 27207 "pgen.ml" 652 27155 27233
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 652 27155 27204 "pgen.ml" 652 27155 27233
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 652 27155 27197 "pgen.ml" 652 27155 27233
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 652 27155 27192 "pgen.ml" 652 27155 27233
+call(
+  stack
+)
 type(
   string
 )
@@ -13076,7 +13598,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "pgen.ml" 652 27155 27237 "pgen.ml" 652 27155 27238
 type(
@@ -13141,6 +13663,9 @@ ident(
   int_ref ld_list "pgen.ml" 613 25462 25480 "pgen.ml" 613 25462 25487
 )
 "pgen.ml" 654 27248 27262 "pgen.ml" 654 27248 27293
+call(
+  stack
+)
 type(
   string * int
 )
@@ -13178,7 +13703,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 656 27339 27357 "pgen.ml" 656 27339 27358
 type(
@@ -13225,7 +13750,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "pgen.ml" 657 27367 27401 "pgen.ml" 657 27367 27402
 type(
@@ -13236,6 +13761,9 @@ type(
   int
 )
 "pgen.ml" 657 27367 27376 "pgen.ml" 657 27367 27403
+call(
+  stack
+)
 type(
   string
 )
@@ -13286,7 +13814,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 663 27619 27627 "pgen.ml" 663 27619 27640
 type(
@@ -13300,7 +13828,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 663 27619 27641 "pgen.ml" 663 27619 27652
 type(
@@ -13311,7 +13839,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 663 27619 27653 "pgen.ml" 663 27619 27659
 type(
@@ -13325,7 +13853,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 663 27619 27660 "pgen.ml" 663 27619 27664
 type(
@@ -13336,7 +13864,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 663 27619 27665 "pgen.ml" 663 27619 27672
 type(
@@ -13350,33 +13878,51 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 664 27675 27683 "pgen.ml" 664 27675 27786
 type(
   string
 )
 "pgen.ml" 663 27619 27665 "pgen.ml" 664 27675 27786
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 663 27619 27660 "pgen.ml" 664 27675 27786
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 663 27619 27653 "pgen.ml" 664 27675 27786
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 663 27619 27641 "pgen.ml" 664 27675 27786
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 663 27619 27627 "pgen.ml" 664 27675 27786
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 662 27491 27499 "pgen.ml" 664 27675 27786
+call(
+  stack
+)
 type(
   string
 )
@@ -13400,7 +13946,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 667 27946 27954 "pgen.ml" 667 27946 27967
 type(
@@ -13414,7 +13960,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 667 27946 27968 "pgen.ml" 667 27946 27975
 type(
@@ -13425,7 +13971,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 668 27978 27986 "pgen.ml" 668 27978 28001
 type(
@@ -13436,7 +13982,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 668 27978 28002 "pgen.ml" 668 27978 28009
 type(
@@ -13450,7 +13996,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 669 28012 28020 "pgen.ml" 669 28012 28032
 type(
@@ -13461,7 +14007,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 669 28012 28033 "pgen.ml" 669 28012 28039
 type(
@@ -13475,7 +14021,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 669 28012 28040 "pgen.ml" 669 28012 28082
 type(
@@ -13486,41 +14032,65 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 670 28085 28093 "pgen.ml" 670 28085 28163
 type(
   string
 )
 "pgen.ml" 669 28012 28040 "pgen.ml" 670 28085 28163
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 669 28012 28033 "pgen.ml" 670 28085 28163
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 669 28012 28020 "pgen.ml" 670 28085 28163
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 668 27978 28002 "pgen.ml" 670 28085 28163
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 668 27978 27986 "pgen.ml" 670 28085 28163
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 667 27946 27968 "pgen.ml" 670 28085 28163
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 667 27946 27954 "pgen.ml" 670 28085 28163
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 666 27818 27826 "pgen.ml" 670 28085 28163
+call(
+  stack
+)
 type(
   string
 )
@@ -13537,7 +14107,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 672 28171 28177 "pgen.ml" 672 28171 28186
 type(
@@ -13551,7 +14121,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 672 28171 28187 "pgen.ml" 672 28171 28190
 type(
@@ -13562,7 +14132,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 672 28171 28191 "pgen.ml" 672 28171 28202
 type(
@@ -13576,25 +14146,37 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 672 28171 28203 "pgen.ml" 672 28171 28206
 type(
   string
 )
 "pgen.ml" 672 28171 28191 "pgen.ml" 672 28171 28206
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 672 28171 28187 "pgen.ml" 672 28171 28206
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 672 28171 28177 "pgen.ml" 672 28171 28206
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 672 28171 28173 "pgen.ml" 672 28171 28206
+call(
+  tail
+)
 type(
   string
 )
@@ -13656,6 +14238,9 @@ ident(
   int_ref grammar "pgen.ml" 388 17136 17138 "pgen.ml" 388 17136 17145
 )
 "pgen.ml" 674 28210 28231 "pgen.ml" 674 28210 28251
+call(
+  stack
+)
 type(
   string list
 )
@@ -13740,7 +14325,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 679 28339 28355 "pgen.ml" 679 28339 28362
 type(
@@ -13751,7 +14336,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 679 28339 28364 "pgen.ml" 679 28339 28367
 type(
@@ -13768,14 +14353,23 @@ ident(
   int_ref t "pgen.ml" 679 28339 28348 "pgen.ml" 679 28339 28349
 )
 "pgen.ml" 679 28339 28363 "pgen.ml" 679 28339 28370
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 679 28339 28355 "pgen.ml" 679 28339 28370
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 679 28339 28353 "pgen.ml" 679 28339 28370
+call(
+  tail
+)
 type(
   string
 )
@@ -13792,7 +14386,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 680 28372 28400 "pgen.ml" 680 28372 28403
 type(
@@ -13809,6 +14403,9 @@ ident(
   int_ref list_code_rapf "pgen.ml" 674 28210 28214 "pgen.ml" 674 28210 28228
 )
 "pgen.ml" 680 28372 28399 "pgen.ml" 680 28372 28419
+call(
+  stack
+)
 type(
   string
 )
@@ -13817,17 +14414,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 680 28372 28420 "pgen.ml" 680 28372 28425
 type(
   string
 )
 "pgen.ml" 680 28372 28399 "pgen.ml" 680 28372 28425
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 680 28372 28377 "pgen.ml" 680 28372 28425
+call(
+  stack
+)
 type(
   string
 )
@@ -13911,10 +14514,16 @@ ident(
   int_ref priority_map "pgen.ml" 603 25192 25196 "pgen.ml" 603 25192 25208
 )
 "pgen.ml" 686 28626 28651 "pgen.ml" 686 28626 28684
+call(
+  stack
+)
 type(
   int
 )
 "pgen.ml" 686 28626 28637 "pgen.ml" 686 28626 28684
+call(
+  stack
+)
 type(
   string
 )
@@ -13951,10 +14560,16 @@ ident(
   int_ref priority_map "pgen.ml" 603 25192 25196 "pgen.ml" 603 25192 25208
 )
 "pgen.ml" 687 28689 28714 "pgen.ml" 687 28689 28747
+call(
+  stack
+)
 type(
   int
 )
 "pgen.ml" 687 28689 28700 "pgen.ml" 687 28689 28747
+call(
+  stack
+)
 type(
   string
 )
@@ -13970,7 +14585,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 688 28752 28759 "pgen.ml" 688 28752 28829
 type(
@@ -13981,7 +14596,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 689 28832 28835 "pgen.ml" 689 28832 28837
 type(
@@ -13995,7 +14610,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 689 28832 28838 "pgen.ml" 689 28832 28841
 type(
@@ -14006,7 +14621,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 689 28832 28842 "pgen.ml" 689 28832 28844
 type(
@@ -14020,29 +14635,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 689 28832 28845 "pgen.ml" 689 28832 28856
 type(
   string
 )
 "pgen.ml" 689 28832 28842 "pgen.ml" 689 28832 28856
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 689 28832 28838 "pgen.ml" 689 28832 28856
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 689 28832 28835 "pgen.ml" 689 28832 28856
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 688 28752 28759 "pgen.ml" 689 28832 28856
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 688 28752 28754 "pgen.ml" 689 28832 28856
+call(
+  tail
+)
 type(
   string
 )
@@ -14091,6 +14721,9 @@ ident(
   int_ref relation "pgen.ml" 387 17064 17093 "pgen.ml" 387 17064 17101
 )
 "pgen.ml" 690 28858 28879 "pgen.ml" 690 28858 28923
+call(
+  stack
+)
 type(
   string
 )
@@ -14099,13 +14732,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 690 28858 28924 "pgen.ml" 690 28858 28928
 type(
   string
 )
 "pgen.ml" 690 28858 28879 "pgen.ml" 690 28858 28928
+call(
+  stack
+)
 type(
   string
 )
@@ -14139,7 +14775,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 695 29157 29157 "pgen.ml" 695 29157 29163
 type(
@@ -14150,7 +14786,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 695 29157 29164 "pgen.ml" 695 29157 29182
 type(
@@ -14164,7 +14800,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 695 29157 29183 "pgen.ml" 701 29391 29465
 type(
@@ -14175,7 +14811,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 701 29391 29466 "pgen.ml" 701 29391 29484
 type(
@@ -14189,7 +14825,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 702 29487 29489 "pgen.ml" 704 29599 29610
 type(
@@ -14200,7 +14836,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 704 29599 29611 "pgen.ml" 704 29599 29629
 type(
@@ -14214,37 +14850,58 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 704 29599 29630 "pgen.ml" 705 29695 29718
 type(
   string
 )
 "pgen.ml" 704 29599 29611 "pgen.ml" 705 29695 29718
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 702 29487 29489 "pgen.ml" 705 29695 29718
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 701 29391 29466 "pgen.ml" 705 29695 29718
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 695 29157 29183 "pgen.ml" 705 29695 29718
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 695 29157 29164 "pgen.ml" 705 29695 29718
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 695 29157 29157 "pgen.ml" 705 29695 29718
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 694 29125 29143 "pgen.ml" 705 29695 29718
+call(
+  stack
+)
 type(
   string
 )
@@ -14300,7 +14957,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 716 29977 29991 "pgen.ml" 716 29977 30009
 type(
@@ -14332,7 +14989,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 717 30021 30037 "pgen.ml" 717 30021 30041
 type(
@@ -14343,7 +15000,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 717 30021 30042 "pgen.ml" 717 30021 30044
 type(
@@ -14357,21 +15014,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 717 30021 30045 "pgen.ml" 717 30021 30048
 type(
   string
 )
 "pgen.ml" 717 30021 30042 "pgen.ml" 717 30021 30048
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 717 30021 30037 "pgen.ml" 717 30021 30048
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 717 30021 30032 "pgen.ml" 717 30021 30048
+call(
+  tail
+)
 type(
   string
 )
@@ -14409,6 +15075,9 @@ type(
   string
 )
 "pgen.ml" 719 30058 30078 "pgen.ml" 719 30058 30119
+call(
+  stack
+)
 type(
   string
 )
@@ -14468,7 +15137,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "pgen.ml" 721 30177 30237 "pgen.ml" 721 30177 30238
 type(
@@ -14479,6 +15148,9 @@ type(
   int
 )
 "pgen.ml" 721 30177 30198 "pgen.ml" 721 30177 30239
+call(
+  stack
+)
 type(
   string
 )
@@ -14491,7 +15163,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 722 30244 30252 "pgen.ml" 722 30244 30262
 type(
@@ -14505,17 +15177,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 722 30244 30263 "pgen.ml" 722 30244 30270
 type(
   string
 )
 "pgen.ml" 722 30244 30252 "pgen.ml" 722 30244 30270
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 722 30244 30248 "pgen.ml" 722 30244 30270
+call(
+  stack
+)
 type(
   string
 )
@@ -14572,7 +15250,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 724 30278 30313 "pgen.ml" 724 30278 30322
 type(
@@ -14594,7 +15272,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 724 30278 30333 "pgen.ml" 724 30278 30343
 type(
@@ -14605,7 +15283,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 724 30278 30344 "pgen.ml" 724 30278 30347
 type(
@@ -14619,21 +15297,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 724 30278 30348 "pgen.ml" 724 30278 30352
 type(
   string
 )
 "pgen.ml" 724 30278 30344 "pgen.ml" 724 30278 30352
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 724 30278 30333 "pgen.ml" 724 30278 30352
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 724 30278 30328 "pgen.ml" 724 30278 30352
+call(
+  tail
+)
 type(
   string
 )
@@ -14649,7 +15336,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 725 30354 30368 "pgen.ml" 725 30354 30378
 type(
@@ -14660,7 +15347,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 725 30354 30379 "pgen.ml" 725 30354 30382
 type(
@@ -14674,7 +15361,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 725 30354 30383 "pgen.ml" 725 30354 30390
 type(
@@ -14685,7 +15372,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 725 30354 30391 "pgen.ml" 725 30354 30394
 type(
@@ -14699,29 +15386,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 725 30354 30395 "pgen.ml" 725 30354 30400
 type(
   string
 )
 "pgen.ml" 725 30354 30391 "pgen.ml" 725 30354 30400
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 725 30354 30383 "pgen.ml" 725 30354 30400
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 725 30354 30379 "pgen.ml" 725 30354 30400
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 725 30354 30368 "pgen.ml" 725 30354 30400
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 725 30354 30363 "pgen.ml" 725 30354 30400
+call(
+  tail
+)
 type(
   string
 )
@@ -14759,7 +15461,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 728 30430 30442 "pgen.ml" 728 30430 30460
 type(
@@ -14784,7 +15486,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 729 30467 30478 "pgen.ml" 729 30467 30488
 type(
@@ -14795,7 +15497,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 729 30467 30489 "pgen.ml" 729 30467 30491
 type(
@@ -14809,7 +15511,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 729 30467 30492 "pgen.ml" 729 30467 30498
 type(
@@ -14820,7 +15522,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 729 30467 30499 "pgen.ml" 729 30467 30509
 type(
@@ -14834,29 +15536,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 729 30467 30510 "pgen.ml" 729 30467 30514
 type(
   string
 )
 "pgen.ml" 729 30467 30499 "pgen.ml" 729 30467 30514
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 729 30467 30492 "pgen.ml" 729 30467 30514
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 729 30467 30489 "pgen.ml" 729 30467 30514
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 729 30467 30478 "pgen.ml" 729 30467 30514
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 729 30467 30473 "pgen.ml" 729 30467 30514
+call(
+  tail
+)
 type(
   string
 )
@@ -14872,7 +15589,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 730 30516 30530 "pgen.ml" 730 30516 30540
 type(
@@ -14883,7 +15600,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 730 30516 30541 "pgen.ml" 730 30516 30543
 type(
@@ -14897,7 +15614,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 730 30516 30544 "pgen.ml" 730 30516 30551
 type(
@@ -14908,7 +15625,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 730 30516 30552 "pgen.ml" 730 30516 30554
 type(
@@ -14922,29 +15639,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 730 30516 30555 "pgen.ml" 730 30516 30559
 type(
   string
 )
 "pgen.ml" 730 30516 30552 "pgen.ml" 730 30516 30559
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 730 30516 30544 "pgen.ml" 730 30516 30559
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 730 30516 30541 "pgen.ml" 730 30516 30559
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 730 30516 30530 "pgen.ml" 730 30516 30559
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 730 30516 30525 "pgen.ml" 730 30516 30559
+call(
+  tail
+)
 type(
   string
 )
@@ -14961,7 +15693,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 732 30567 30577 "pgen.ml" 732 30567 30585
 type(
@@ -14975,7 +15707,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 732 30567 30586 "pgen.ml" 732 30567 30592
 type(
@@ -14986,7 +15718,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 733 30595 30598 "pgen.ml" 733 30595 30613
 type(
@@ -15015,6 +15747,9 @@ type(
   string
 )
 "pgen.ml" 733 30595 30597 "pgen.ml" 733 30595 30632
+call(
+  stack
+)
 type(
   string
 )
@@ -15023,7 +15758,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 734 30635 30638 "pgen.ml" 734 30635 30653
 type(
@@ -15051,6 +15786,9 @@ type(
   string
 )
 "pgen.ml" 734 30635 30637 "pgen.ml" 734 30635 30679
+call(
+  stack
+)
 type(
   string
 )
@@ -15059,29 +15797,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 735 30682 30684 "pgen.ml" 735 30682 30709
 type(
   string
 )
 "pgen.ml" 734 30635 30637 "pgen.ml" 735 30682 30709
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 733 30595 30597 "pgen.ml" 735 30682 30709
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 732 30567 30586 "pgen.ml" 735 30682 30709
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 732 30567 30577 "pgen.ml" 735 30682 30709
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 732 30567 30569 "pgen.ml" 735 30682 30709
+call(
+  stack
+)
 type(
   string
 )
@@ -15134,7 +15887,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 740 30745 30777 "pgen.ml" 740 30745 30789
 type(
@@ -15145,7 +15898,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 740 30745 30790 "pgen.ml" 740 30745 30799
 type(
@@ -15159,21 +15912,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 740 30745 30800 "pgen.ml" 740 30745 30814
 type(
   string
 )
 "pgen.ml" 740 30745 30790 "pgen.ml" 740 30745 30814
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 740 30745 30777 "pgen.ml" 740 30745 30814
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 740 30745 30772 "pgen.ml" 740 30745 30814
+call(
+  tail
+)
 type(
   string
 )
@@ -15203,6 +15965,9 @@ type(
   string
 )
 "pgen.ml" 741 30819 30821 "pgen.ml" 741 30819 30860
+call(
+  stack
+)
 type(
   string
 )
@@ -15236,6 +16001,9 @@ ident(
   int_ref merge_function_list "pgen.ml" 539 23103 23147 "pgen.ml" 539 23103 23166
 )
 "pgen.ml" 744 30886 30919 "pgen.ml" 744 30886 30950
+call(
+  stack
+)
 type(
   string
 )
@@ -15248,7 +16016,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 746 31001 31003 "pgen.ml" 746 31001 31027
 type(
@@ -15258,6 +16026,9 @@ ident(
   int_ref code_merge_function_list "pgen.ml" 744 30886 30892 "pgen.ml" 744 30886 30916
 )
 "pgen.ml" 745 30955 30957 "pgen.ml" 746 31001 31027
+call(
+  stack
+)
 type(
   string
 )
@@ -15317,7 +16088,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "pgen.ml" 772 31975 31996 "pgen.ml" 772 31975 32005
 type(
@@ -15336,7 +16107,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 772 31975 32022 "pgen.ml" 772 31975 32025
 type(
@@ -15350,17 +16121,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 772 31975 32026 "pgen.ml" 772 31975 32030
 type(
   string
 )
 "pgen.ml" 772 31975 32022 "pgen.ml" 772 31975 32030
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 772 31975 32011 "pgen.ml" 772 31975 32030
+call(
+  stack
+)
 type(
   string
 )
@@ -15373,7 +16150,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 773 32032 32056 "pgen.ml" 773 32032 32059
 type(
@@ -15387,17 +16164,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 773 32032 32060 "pgen.ml" 773 32032 32066
 type(
   string
 )
 "pgen.ml" 773 32032 32056 "pgen.ml" 773 32032 32066
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 773 32032 32043 "pgen.ml" 773 32032 32066
+call(
+  stack
+)
 type(
   string
 )
@@ -15417,7 +16200,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 775 32076 32085 "pgen.ml" 775 32076 32091
 type(
@@ -15428,7 +16211,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 775 32076 32092 "pgen.ml" 775 32076 32095
 type(
@@ -15442,7 +16225,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 775 32076 32096 "pgen.ml" 775 32076 32097
 type(
@@ -15452,14 +16235,23 @@ ident(
   int_ref s "pgen.ml" 772 31975 31983 "pgen.ml" 772 31975 31984
 )
 "pgen.ml" 775 32076 32092 "pgen.ml" 775 32076 32097
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 775 32076 32085 "pgen.ml" 775 32076 32097
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 775 32076 32080 "pgen.ml" 775 32076 32097
+call(
+  tail
+)
 type(
   string
 )
@@ -15476,7 +16268,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 778 32153 32156 "pgen.ml" 778 32153 32170
 type(
@@ -15505,6 +16297,9 @@ ident(
   int_ref token_list "pgen.ml" 387 17064 17081 "pgen.ml" 387 17064 17091
 )
 "pgen.ml" 778 32153 32155 "pgen.ml" 778 32153 32189
+call(
+  stack
+)
 type(
   string
 )
@@ -15513,17 +16308,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 778 32153 32190 "pgen.ml" 778 32153 32194
 type(
   string
 )
 "pgen.ml" 778 32153 32155 "pgen.ml" 778 32153 32194
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 777 32105 32107 "pgen.ml" 778 32153 32194
+call(
+  stack
+)
 type(
   string
 )
@@ -15550,7 +16351,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 783 32267 32269 "pgen.ml" 783 32267 32289
 type(
@@ -15564,7 +16365,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 784 32292 32294 "pgen.ml" 784 32292 32313
 type(
@@ -15578,7 +16379,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 786 32318 32320 "pgen.ml" 786 32318 32342
 type(
@@ -15592,7 +16393,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 787 32345 32347 "pgen.ml" 787 32345 32364
 type(
@@ -15606,7 +16407,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 790 32400 32402 "pgen.ml" 790 32400 32434
 type(
@@ -15617,7 +16418,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 791 32437 32439 "pgen.ml" 791 32437 32468
 type(
@@ -15628,7 +16429,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 792 32471 32473 "pgen.ml" 792 32471 32496
 type(
@@ -15639,7 +16440,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 793 32499 32501 "pgen.ml" 793 32499 32510
 type(
@@ -15650,7 +16451,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 795 32515 32517 "pgen.ml" 795 32515 32528
 type(
@@ -15664,7 +16465,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 796 32531 32533 "pgen.ml" 796 32531 32548
 type(
@@ -15678,7 +16479,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 797 32551 32553 "pgen.ml" 797 32551 32573
 type(
@@ -15692,7 +16493,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 799 32606 32608 "pgen.ml" 799 32606 32621
 type(
@@ -15706,7 +16507,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 800 32624 32626 "pgen.ml" 800 32624 32640
 type(
@@ -15720,7 +16521,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 801 32643 32645 "pgen.ml" 801 32643 32668
 type(
@@ -15731,7 +16532,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 802 32671 32673 "pgen.ml" 802 32671 32684
 type(
@@ -15745,7 +16546,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 803 32687 32689 "pgen.ml" 803 32687 32701
 type(
@@ -15759,7 +16560,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 804 32704 32706 "pgen.ml" 804 32704 32720
 type(
@@ -15773,7 +16574,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 805 32723 32725 "pgen.ml" 805 32723 32745
 type(
@@ -15787,7 +16588,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 806 32748 32750 "pgen.ml" 806 32748 32762
 type(
@@ -15801,7 +16602,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 807 32765 32767 "pgen.ml" 807 32765 32781
 type(
@@ -15815,7 +16616,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 808 32784 32786 "pgen.ml" 808 32784 32797
 type(
@@ -15825,86 +16626,149 @@ ident(
   int_ref code_main_2 "pgen.ml" 694 29125 29129 "pgen.ml" 694 29125 29140
 )
 "pgen.ml" 807 32765 32767 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 806 32748 32750 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 805 32723 32725 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 804 32704 32706 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 803 32687 32689 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 802 32671 32673 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 801 32643 32645 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 800 32624 32626 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 799 32606 32608 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 797 32551 32553 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 796 32531 32533 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 795 32515 32517 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 793 32499 32501 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 792 32471 32473 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 791 32437 32439 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 790 32400 32402 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 787 32345 32347 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 786 32318 32320 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 784 32292 32294 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 783 32267 32269 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 780 32198 32216 "pgen.ml" 808 32784 32797
+call(
+  stack
+)
 type(
   string
 )
@@ -15924,7 +16788,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 812 32846 32848 "pgen.ml" 812 32846 32863
 type(
@@ -15938,7 +16802,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 812 32846 32864 "pgen.ml" 812 32846 32870
 type(
@@ -15949,7 +16813,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 812 32846 32871 "pgen.ml" 812 32846 32889
 type(
@@ -15963,7 +16827,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 813 32892 32894 "pgen.ml" 813 32892 32945
 type(
@@ -15974,7 +16838,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 813 32892 32946 "pgen.ml" 813 32892 32956
 type(
@@ -15988,33 +16852,51 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "pgen.ml" 813 32892 32957 "pgen.ml" 813 32892 32978
 type(
   string
 )
 "pgen.ml" 813 32892 32946 "pgen.ml" 813 32892 32978
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 813 32892 32894 "pgen.ml" 813 32892 32978
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 812 32846 32871 "pgen.ml" 813 32892 32978
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 812 32846 32864 "pgen.ml" 813 32892 32978
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 812 32846 32848 "pgen.ml" 813 32892 32978
+call(
+  stack
+)
 type(
   string
 )
 "pgen.ml" 811 32824 32826 "pgen.ml" 813 32892 32978
+call(
+  stack
+)
 type(
   string
 )
@@ -16040,6 +16922,9 @@ ident(
   int_ref output_file "pgen.ml" 364 16323 16327 "pgen.ml" 364 16323 16338
 )
 "pgen.ml" 815 32982 32998 "pgen.ml" 815 32982 33018
+call(
+  stack
+)
 type(
   out_channel
 )
@@ -16065,6 +16950,9 @@ ident(
   int_ref output_file_mli "pgen.ml" 365 16385 16389 "pgen.ml" 365 16385 16404
 )
 "pgen.ml" 816 33020 33040 "pgen.ml" 816 33020 33064
+call(
+  stack
+)
 type(
   out_channel
 )
@@ -16094,6 +16982,9 @@ ident(
   int_ref parser_code "pgen.ml" 780 32198 32202 "pgen.ml" 780 32198 32213
 )
 "pgen.ml" 818 33068 33077 "pgen.ml" 818 33068 33112
+call(
+  stack
+)
 type(
   unit
 )
@@ -16123,6 +17014,9 @@ ident(
   int_ref parser_code_mli "pgen.ml" 810 32801 32805 "pgen.ml" 810 32801 32820
 )
 "pgen.ml" 819 33114 33123 "pgen.ml" 819 33114 33166
+call(
+  stack
+)
 type(
   unit
 )

@@ -873,6 +873,10 @@ ident(
 type(
   bool
 )
+"dypgen_parser.ml" 63 2067 2078 "dypgen_parser.ml" 63 2067 2116
+call(
+  stack
+)
 "dypgen_parser.ml" 69 2216 2220 "dypgen_parser.ml" 69 2216 2233
 type(
   Dyp.priority_data
@@ -910,6 +914,9 @@ type(
   string
 )
 "dypgen_parser.ml" 70 2255 2257 "dypgen_parser.ml" 70 2255 2319
+call(
+  stack
+)
 type(
   Dyp.priority_data * Dyp.priority
 )
@@ -1933,7 +1940,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "dypgen_parser.ml" 161 6893 6920 "dypgen_parser.ml" 161 6893 6921
 type(
@@ -2311,6 +2318,9 @@ type(
   string
 )
 "dypgen_parser.ml" 174 7104 7338 "dypgen_parser.ml" 174 7104 7386
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -2831,6 +2841,9 @@ type(
   string
 )
 "dypgen_parser.ml" 176 7432 7626 "dypgen_parser.ml" 176 7432 7674
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -3480,6 +3493,9 @@ type(
   string
 )
 "dypgen_parser.ml" 178 7720 8023 "dypgen_parser.ml" 178 7720 8071
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -4032,6 +4048,9 @@ type(
   string
 )
 "dypgen_parser.ml" 180 8117 8328 "dypgen_parser.ml" 180 8117 8376
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -4580,6 +4599,9 @@ type(
   string
 )
 "dypgen_parser.ml" 182 8422 8635 "dypgen_parser.ml" 182 8422 8683
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -5104,6 +5126,9 @@ type(
   string
 )
 "dypgen_parser.ml" 184 8729 8937 "dypgen_parser.ml" 184 8729 8985
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -5682,7 +5707,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "dypgen_parser.ml" 186 9031 9324 "dypgen_parser.ml" 186 9031 9337
 type(
@@ -5699,10 +5724,16 @@ ident(
   int_ref _data "dypgen_parser.ml" 186 9031 9195 "dypgen_parser.ml" 186 9031 9200
 )
 "dypgen_parser.ml" 186 9031 9323 "dypgen_parser.ml" 186 9031 9344
+call(
+  stack
+)
 type(
   string
 )
 "dypgen_parser.ml" 186 9031 9302 "dypgen_parser.ml" 186 9031 9344
+call(
+  stack
+)
 type(
   string
 )
@@ -5830,7 +5861,7 @@ type(
   'f list -> 'f list -> 'f list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 188 9404 9452 "dypgen_parser.ml" 188 9404 9455
 type(
@@ -5840,6 +5871,9 @@ ident(
   int_ref rl2 "dypgen_parser.ml" 187 9348 9365 "dypgen_parser.ml" 187 9348 9368
 )
 "dypgen_parser.ml" 188 9404 9442 "dypgen_parser.ml" 188 9404 9455
+call(
+  stack
+)
 type(
   'f list
 )
@@ -5970,6 +6004,9 @@ ident(
   int_ref _2 "dypgen_parser.ml" 186 9031 9268 "dypgen_parser.ml" 186 9031 9270
 )
 "dypgen_parser.ml" 190 9465 9510 "dypgen_parser.ml" 190 9465 9523
+call(
+  stack
+)
 type(
   (Parse_tree.priority_desc *
    (Parse_tree.literal_desc * Parse_tree.pattern_desc) list *
@@ -5978,6 +6015,9 @@ type(
   list
 )
 "dypgen_parser.ml" 190 9465 9485 "dypgen_parser.ml" 190 9465 9523
+call(
+  stack
+)
 type(
   (string * Parse_tree.priority_desc *
    (Parse_tree.literal_desc * Parse_tree.pattern_desc) list *
@@ -6025,7 +6065,7 @@ type(
   Parse_tree.rule_desc list -> Parse_tree.rule_desc list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 191 9527 9551 "dypgen_parser.ml" 191 9527 9554
 type(
@@ -6035,6 +6075,9 @@ ident(
   int_ref rl1 "dypgen_parser.ml" 190 9465 9475 "dypgen_parser.ml" 190 9465 9478
 )
 "dypgen_parser.ml" 191 9527 9547 "dypgen_parser.ml" 191 9527 9554
+call(
+  stack
+)
 type(
   Parse_tree.rule_desc list
 )
@@ -6058,7 +6101,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dypgen_parser.ml" 191 9527 9568 "dypgen_parser.ml" 191 9527 9569
 type(
@@ -6360,6 +6403,9 @@ type(
   string
 )
 "dypgen_parser.ml" 192 9626 9634 "dypgen_parser.ml" 192 9626 9690
+call(
+  tail
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -6847,6 +6893,9 @@ type(
   string
 )
 "dypgen_parser.ml" 194 9696 9910 "dypgen_parser.ml" 194 9696 9958
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -7589,6 +7638,9 @@ type(
   string
 )
 "dypgen_parser.ml" 196 10004 10376 "dypgen_parser.ml" 196 10004 10424
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -8368,6 +8420,9 @@ type(
   string
 )
 "dypgen_parser.ml" 198 10470 10869 "dypgen_parser.ml" 198 10470 10917
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -9110,6 +9165,9 @@ type(
   string
 )
 "dypgen_parser.ml" 200 10963 11329 "dypgen_parser.ml" 200 10963 11377
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -9889,6 +9947,9 @@ type(
   string
 )
 "dypgen_parser.ml" 202 11423 11816 "dypgen_parser.ml" 202 11423 11864
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -10631,6 +10692,9 @@ type(
   string
 )
 "dypgen_parser.ml" 204 11910 12275 "dypgen_parser.ml" 204 11910 12323
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -11273,6 +11337,9 @@ type(
   string
 )
 "dypgen_parser.ml" 209 12663 12687 "dypgen_parser.ml" 209 12663 12735
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -11833,6 +11900,9 @@ type(
   string
 )
 "dypgen_parser.ml" 211 12781 13010 "dypgen_parser.ml" 211 12781 13058
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -12496,7 +12566,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_parser.ml" 214 13526 13541 "dypgen_parser.ml" 214 13526 13542
 type(
@@ -12511,7 +12581,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "dypgen_parser.ml" 214 13526 13546 "dypgen_parser.ml" 214 13526 13548
 type(
@@ -12526,7 +12596,7 @@ type(
   Parse_tree.action_desc * Parse_tree.pattern_desc -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "dypgen_parser.ml" 214 13526 13552 "dypgen_parser.ml" 214 13526 13554
 type(
@@ -12643,7 +12713,7 @@ type(
   Parse_tree.action_desc -> Parse_tree.action_desc -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "dypgen_parser.ml" 218 13667 13684 "dypgen_parser.ml" 218 13667 13686
 type(
@@ -12909,7 +12979,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "dypgen_parser.ml" 226 13926 14012 "dypgen_parser.ml" 226 13926 14013
 type(
@@ -12939,7 +13009,7 @@ type(
   Parse_tree.rule_desc list -> Parse_tree.rule_desc list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 227 14016 14048 "dypgen_parser.ml" 227 14016 14057
 type(
@@ -12949,6 +13019,9 @@ ident(
   int_ref add_rule1 "dypgen_parser.ml" 213 13104 13508 "dypgen_parser.ml" 213 13104 13517
 )
 "dypgen_parser.ml" 227 14016 14038 "dypgen_parser.ml" 227 14016 14057
+call(
+  stack
+)
 type(
   Parse_tree.rule_desc list
 )
@@ -13066,6 +13139,9 @@ type(
   string
 )
 "dypgen_parser.ml" 227 14016 14069 "dypgen_parser.ml" 227 14016 14117
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -13588,6 +13664,9 @@ type(
   string
 )
 "dypgen_parser.ml" 229 14163 14360 "dypgen_parser.ml" 229 14163 14408
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -14129,6 +14208,9 @@ type(
   string
 )
 "dypgen_parser.ml" 231 14454 14652 "dypgen_parser.ml" 231 14454 14700
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -14633,6 +14715,9 @@ type(
   string
 )
 "dypgen_parser.ml" 233 14746 14923 "dypgen_parser.ml" 233 14746 14971
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -15250,6 +15335,9 @@ ident(
   int_ref litl "dypgen_parser.ml" 235 15017 15324 "dypgen_parser.ml" 235 15017 15328
 )
 "dypgen_parser.ml" 236 15367 15379 "dypgen_parser.ml" 236 15367 15392
+call(
+  stack
+)
 type(
   (Parse_tree.literal_desc * Parse_tree.pattern_desc) list
 )
@@ -15366,6 +15454,9 @@ type(
   string
 )
 "dypgen_parser.ml" 236 15367 15437 "dypgen_parser.ml" 236 15367 15485
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -16037,6 +16128,9 @@ type(
   string
 )
 "dypgen_parser.ml" 238 15531 15821 "dypgen_parser.ml" 238 15531 15869
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -16607,6 +16701,9 @@ type(
   string
 )
 "dypgen_parser.ml" 240 15915 16132 "dypgen_parser.ml" 240 15915 16180
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -17344,7 +17441,7 @@ type(
   'k list -> 'k list -> 'k list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 243 16598 16648 "dypgen_parser.ml" 243 16598 16651
 type(
@@ -17354,6 +17451,9 @@ ident(
   int_ref rl2 "dypgen_parser.ml" 242 16226 16559 "dypgen_parser.ml" 242 16226 16562
 )
 "dypgen_parser.ml" 243 16598 16638 "dypgen_parser.ml" 243 16598 16651
+call(
+  stack
+)
 type(
   'k list
 )
@@ -17484,6 +17584,9 @@ ident(
   int_ref _4 "dypgen_parser.ml" 242 16226 16525 "dypgen_parser.ml" 242 16226 16527
 )
 "dypgen_parser.ml" 245 16659 16702 "dypgen_parser.ml" 245 16659 16715
+call(
+  stack
+)
 type(
   (Parse_tree.priority_desc *
    (Parse_tree.literal_desc * Parse_tree.pattern_desc) list *
@@ -17492,6 +17595,9 @@ type(
   list
 )
 "dypgen_parser.ml" 245 16659 16677 "dypgen_parser.ml" 245 16659 16715
+call(
+  stack
+)
 type(
   (string * Parse_tree.priority_desc *
    (Parse_tree.literal_desc * Parse_tree.pattern_desc) list *
@@ -17512,7 +17618,7 @@ type(
   Parse_tree.rule_desc list -> Parse_tree.rule_desc list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 246 16719 16727 "dypgen_parser.ml" 246 16719 16730
 type(
@@ -17522,6 +17628,9 @@ ident(
   int_ref rl1 "dypgen_parser.ml" 245 16659 16667 "dypgen_parser.ml" 245 16659 16670
 )
 "dypgen_parser.ml" 246 16719 16723 "dypgen_parser.ml" 246 16719 16730
+call(
+  stack
+)
 type(
   Parse_tree.rule_desc list
 )
@@ -17611,6 +17720,9 @@ type(
   string
 )
 "dypgen_parser.ml" 246 16719 16740 "dypgen_parser.ml" 246 16719 16788
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -18167,6 +18279,9 @@ type(
   string
 )
 "dypgen_parser.ml" 248 16834 17059 "dypgen_parser.ml" 248 16834 17107
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -18700,7 +18815,7 @@ type(
   Parse_tree.rule_desc list -> Parse_tree.rule_desc list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 250 17153 17415 "dypgen_parser.ml" 250 17153 17417
 type(
@@ -18710,6 +18825,9 @@ ident(
   int_ref _1 "dypgen_parser.ml" 250 17153 17374 "dypgen_parser.ml" 250 17153 17376
 )
 "dypgen_parser.ml" 250 17153 17410 "dypgen_parser.ml" 250 17153 17419
+call(
+  stack
+)
 type(
   Parse_tree.rule_desc list
 )
@@ -18791,6 +18909,9 @@ type(
   string
 )
 "dypgen_parser.ml" 250 17153 17427 "dypgen_parser.ml" 250 17153 17475
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -19447,6 +19568,9 @@ type(
   string
 )
 "dypgen_parser.ml" 252 17521 17836 "dypgen_parser.ml" 252 17521 17884
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -20106,6 +20230,9 @@ type(
   string
 )
 "dypgen_parser.ml" 254 17930 18230 "dypgen_parser.ml" 254 17930 18278
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -20729,6 +20856,9 @@ type(
   string
 )
 "dypgen_parser.ml" 256 18324 18608 "dypgen_parser.ml" 256 18324 18656
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -21264,6 +21394,9 @@ ident(
   int_ref _2 "dypgen_parser.ml" 258 18702 18951 "dypgen_parser.ml" 258 18702 18953
 )
 "dypgen_parser.ml" 258 18702 18983 "dypgen_parser.ml" 258 18702 18996
+call(
+  stack
+)
 type(
   string list
 )
@@ -21360,6 +21493,9 @@ type(
   string
 )
 "dypgen_parser.ml" 258 18702 19011 "dypgen_parser.ml" 258 18702 19059
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -21901,6 +22037,9 @@ type(
   string
 )
 "dypgen_parser.ml" 260 19105 19314 "dypgen_parser.ml" 260 19105 19362
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -22572,6 +22711,9 @@ type(
   string
 )
 "dypgen_parser.ml" 262 19408 19736 "dypgen_parser.ml" 262 19408 19784
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -23199,6 +23341,9 @@ type(
   string
 )
 "dypgen_parser.ml" 264 19830 20121 "dypgen_parser.ml" 264 19830 20169
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -23851,6 +23996,9 @@ type(
   string
 )
 "dypgen_parser.ml" 266 20215 20518 "dypgen_parser.ml" 266 20215 20566
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -24459,6 +24607,9 @@ type(
   string
 )
 "dypgen_parser.ml" 268 20612 20878 "dypgen_parser.ml" 268 20612 20926
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -25044,6 +25195,9 @@ type(
   string
 )
 "dypgen_parser.ml" 270 20972 21228 "dypgen_parser.ml" 270 20972 21276
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -25564,6 +25718,9 @@ type(
   string
 )
 "dypgen_parser.ml" 272 21322 21517 "dypgen_parser.ml" 272 21322 21565
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -26112,6 +26269,9 @@ type(
   string
 )
 "dypgen_parser.ml" 274 21611 21842 "dypgen_parser.ml" 274 21611 21890
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -26632,6 +26792,9 @@ type(
   string
 )
 "dypgen_parser.ml" 276 21936 22133 "dypgen_parser.ml" 276 21936 22181
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -27251,6 +27414,9 @@ type(
   string
 )
 "dypgen_parser.ml" 278 22227 22510 "dypgen_parser.ml" 278 22227 22558
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -27814,6 +27980,9 @@ type(
   string
 )
 "dypgen_parser.ml" 280 22604 22831 "dypgen_parser.ml" 280 22604 22879
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -28433,6 +28602,9 @@ type(
   string
 )
 "dypgen_parser.ml" 282 22925 23208 "dypgen_parser.ml" 282 22925 23256
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -28996,6 +29168,9 @@ type(
   string
 )
 "dypgen_parser.ml" 284 23302 23529 "dypgen_parser.ml" 284 23302 23577
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -29549,7 +29724,7 @@ type(
   Parse_tree.token_desc list -> Parse_tree.token_desc list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 287 23931 23967 "dypgen_parser.ml" 287 23931 23969
 type(
@@ -29563,6 +29738,9 @@ type(
   Parse_tree.token_desc list
 )
 "dypgen_parser.ml" 287 23931 23952 "dypgen_parser.ml" 287 23931 23981
+call(
+  stack
+)
 type(
   Parse_tree.token_desc list
 )
@@ -29583,7 +29761,7 @@ type(
   Parse_tree.relation_desc list -> Parse_tree.relation_desc list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 288 23983 24014 "dypgen_parser.ml" 288 23983 24016
 type(
@@ -29597,6 +29775,9 @@ type(
   Parse_tree.relation_desc list
 )
 "dypgen_parser.ml" 288 23983 24002 "dypgen_parser.ml" 288 23983 24025
+call(
+  stack
+)
 type(
   Parse_tree.relation_desc list
 )
@@ -29616,7 +29797,7 @@ type(
   (string * string) list -> (string * string) list -> (string * string) list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 289 24027 24052 "dypgen_parser.ml" 289 24027 24054
 type(
@@ -29630,6 +29811,9 @@ type(
   (string * string) list
 )
 "dypgen_parser.ml" 289 24027 24043 "dypgen_parser.ml" 289 24027 24060
+call(
+  stack
+)
 type(
   (string * string) list
 )
@@ -29650,7 +29834,7 @@ type(
   (string * string list) list -> (string * string list) list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 290 24062 24103 "dypgen_parser.ml" 290 24062 24105
 type(
@@ -29664,6 +29848,9 @@ type(
   (string * string list) list
 )
 "dypgen_parser.ml" 290 24062 24086 "dypgen_parser.ml" 290 24062 24119
+call(
+  stack
+)
 type(
   (string * string list) list
 )
@@ -29684,7 +29871,7 @@ type(
   (string * string list) list -> (string * string list) list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 291 24121 24144 "dypgen_parser.ml" 291 24121 24146
 type(
@@ -29698,6 +29885,9 @@ type(
   (string * string list) list
 )
 "dypgen_parser.ml" 291 24121 24136 "dypgen_parser.ml" 291 24121 24151
+call(
+  stack
+)
 type(
   (string * string list) list
 )
@@ -29717,7 +29907,7 @@ type(
   string list -> string list -> string list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 292 24153 24198 "dypgen_parser.ml" 292 24153 24200
 type(
@@ -29731,6 +29921,9 @@ type(
   string list
 )
 "dypgen_parser.ml" 292 24153 24179 "dypgen_parser.ml" 292 24153 24216
+call(
+  stack
+)
 type(
   string list
 )
@@ -29751,7 +29944,7 @@ type(
   (string * string list) list -> (string * string list) list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 293 24218 24247 "dypgen_parser.ml" 293 24218 24249
 type(
@@ -29765,6 +29958,9 @@ type(
   (string * string list) list
 )
 "dypgen_parser.ml" 293 24218 24236 "dypgen_parser.ml" 293 24218 24257
+call(
+  stack
+)
 type(
   (string * string list) list
 )
@@ -29784,7 +29980,7 @@ type(
   string list -> string list -> string list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "dypgen_parser.ml" 294 24259 24292 "dypgen_parser.ml" 294 24259 24294
 type(
@@ -29798,6 +29994,9 @@ type(
   string list
 )
 "dypgen_parser.ml" 294 24259 24279 "dypgen_parser.ml" 294 24259 24304
+call(
+  stack
+)
 type(
   string list
 )
@@ -30096,6 +30295,9 @@ type(
   string
 )
 "dypgen_parser.ml" 296 24395 24403 "dypgen_parser.ml" 296 24395 24459
+call(
+  tail
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -30583,6 +30785,9 @@ type(
   string
 )
 "dypgen_parser.ml" 298 24465 24728 "dypgen_parser.ml" 298 24465 24776
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -31113,6 +31318,9 @@ ident(
   int_ref _2 "dypgen_parser.ml" 300 24822 25064 "dypgen_parser.ml" 300 24822 25066
 )
 "dypgen_parser.ml" 300 24822 25123 "dypgen_parser.ml" 300 24822 25134
+call(
+  stack
+)
 type(
   string list
 )
@@ -31198,6 +31406,9 @@ type(
   string
 )
 "dypgen_parser.ml" 300 24822 25145 "dypgen_parser.ml" 300 24822 25193
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -31776,6 +31987,9 @@ ident(
   int_ref _3 "dypgen_parser.ml" 302 25239 25517 "dypgen_parser.ml" 302 25239 25519
 )
 "dypgen_parser.ml" 302 25239 25578 "dypgen_parser.ml" 302 25239 25589
+call(
+  stack
+)
 type(
   string list
 )
@@ -31869,6 +32083,9 @@ type(
   string
 )
 "dypgen_parser.ml" 302 25239 25601 "dypgen_parser.ml" 302 25239 25649
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -32458,6 +32675,9 @@ ident(
   int_ref _3 "dypgen_parser.ml" 304 25695 25966 "dypgen_parser.ml" 304 25695 25968
 )
 "dypgen_parser.ml" 304 25695 26040 "dypgen_parser.ml" 304 25695 26051
+call(
+  stack
+)
 type(
   string list
 )
@@ -32551,6 +32771,9 @@ type(
   string
 )
 "dypgen_parser.ml" 304 25695 26064 "dypgen_parser.ml" 304 25695 26112
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -33081,6 +33304,9 @@ ident(
   int_ref _2 "dypgen_parser.ml" 306 26158 26399 "dypgen_parser.ml" 306 26158 26401
 )
 "dypgen_parser.ml" 306 26158 26465 "dypgen_parser.ml" 306 26158 26476
+call(
+  stack
+)
 type(
   string list
 )
@@ -33166,6 +33392,9 @@ type(
   string
 )
 "dypgen_parser.ml" 306 26158 26489 "dypgen_parser.ml" 306 26158 26537
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -33792,6 +34021,9 @@ ident(
   int_ref _4 "dypgen_parser.ml" 308 26583 26887 "dypgen_parser.ml" 308 26583 26889
 )
 "dypgen_parser.ml" 308 26583 26951 "dypgen_parser.ml" 308 26583 26962
+call(
+  stack
+)
 type(
   string list
 )
@@ -33885,6 +34117,9 @@ type(
   string
 )
 "dypgen_parser.ml" 308 26583 26977 "dypgen_parser.ml" 308 26583 27025
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -34452,6 +34687,9 @@ type(
   string
 )
 "dypgen_parser.ml" 310 27071 27342 "dypgen_parser.ml" 310 27071 27390
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -35019,6 +35257,9 @@ type(
   string
 )
 "dypgen_parser.ml" 312 27436 27713 "dypgen_parser.ml" 312 27436 27761
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -35682,6 +35923,9 @@ type(
   string
 )
 "dypgen_parser.ml" 314 27807 28149 "dypgen_parser.ml" 314 27807 28197
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -36267,6 +36511,9 @@ type(
   string
 )
 "dypgen_parser.ml" 316 28243 28514 "dypgen_parser.ml" 316 28243 28562
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -36787,6 +37034,9 @@ type(
   string
 )
 "dypgen_parser.ml" 318 28608 28811 "dypgen_parser.ml" 318 28608 28859
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -37557,6 +37807,9 @@ ident(
   int_ref _4 "dypgen_parser.ml" 320 28905 29345 "dypgen_parser.ml" 320 28905 29347
 )
 "dypgen_parser.ml" 320 28905 29418 "dypgen_parser.ml" 320 28905 29429
+call(
+  stack
+)
 type(
   Parse_tree.rule_desc list
 )
@@ -37656,6 +37909,9 @@ type(
   string
 )
 "dypgen_parser.ml" 320 28905 29446 "dypgen_parser.ml" 320 28905 29494
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -39795,6 +40051,9 @@ type(
   list
 )
 "dypgen_parser.ml" 346 30273 30289 "dypgen_parser.ml" 346 30273 30746
+call(
+  stack
+)
 type(
   (Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
    Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -40089,6 +40348,9 @@ type(
   int array
 )
 "dypgen_parser.ml" 346 30273 30767 "dypgen_parser.ml" 346 30273 30913
+call(
+  stack
+)
 type(
   ((Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
     Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -40143,14 +40405,14 @@ type(
   'a -> 'a -> bool
 )
 ident(
-  ext_ref Pervasives.==
+  ext_ref Pervasives.( == )
 )
 "dypgen_parser.ml" 350 30996 31027 "dypgen_parser.ml" 350 30996 31031
 type(
   'b -> 'b -> bool
 )
 ident(
-  ext_ref Pervasives.==
+  ext_ref Pervasives.( == )
 )
 "dypgen_parser.ml" 348 30935 30954 "dypgen_parser.ml" 350 30996 31033
 type(
@@ -40562,6 +40824,9 @@ ident(
   int_ref lexbuf_position "dypgen_parser.ml" 352 31041 31047 "dypgen_parser.ml" 352 31041 31062
 )
 "dypgen_parser.ml" 353 31129 31140 "dypgen_parser.ml" 353 31129 31275
+call(
+  stack
+)
 type(
   ((Parse_tree.rule_desc list, Parse_tree.rule_desc list, string list,
     Parse_tree.literal_desc * Parse_tree.rule_desc list,
@@ -40671,6 +40936,9 @@ type(
   string
 )
 "dypgen_parser.ml" 355 31313 31346 "dypgen_parser.ml" 355 31313 31384
+call(
+  tail
+)
 type(
   Parse_tree.obj * 'x
 )
@@ -40779,6 +41047,9 @@ ident(
   int_ref pf "dypgen_parser.ml" 353 31129 31135 "dypgen_parser.ml" 353 31129 31137
 )
 "dypgen_parser.ml" 356 31389 31391 "dypgen_parser.ml" 356 31389 31407
+call(
+  tail
+)
 type(
   (Parse_tree.obj * Dyp.priority) list
 )

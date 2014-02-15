@@ -6,6 +6,38 @@ open Cfg_refactor
 open Cfg_printer .CodePrinter
 open Printf
 
+(* INIZIO CONTRACT LIVENESS 
+
+module LivenessAnalysis = struct
+	
+	type fact = Live | NotLive
+	
+	let fact_to_s = function Live -> "Live" | NotLive -> "NotLive"
+	
+	type t = fact StrMap.t
+  let empty = StrMap.empty
+  let eq t1 t2 = StrMap.compare Pervasives.compare t1 t2 = 0 
+  let to_string t = strmap_to_string fact_to_s t
+	
+	  let update s v map =
+  	let fact =
+    	try meet_fact (StrMap.find s map) v
+      with Not_found -> v
+    in
+    	(*print_string "update ";
+			print_string s;
+			print_string " -> ";
+			print_string (fact_to_s v);
+			print_string "\n";*)
+    	StrMap.add s fact map (* this instruction returns a new map! it does not modify ifacts *)
+			
+
+
+	
+end
+
+ FINE CONTRACT LIVENESS *)
+
 module NilAnalysis = struct
 	type fact = MaybeNil | NonNil
         
@@ -91,6 +123,22 @@ module NilAnalysis = struct
      | _ -> map             
 end
 
+(* INIZIO MODULO LIVENESS 
+
+module Liveness = Dataflow.Backwards(LivenessAnalysis)
+
+	let print_pos node pos =
+		print_string "[WARNING]: Not live variable: \n in method call "; print_stmt stdout node; 
+		Printf.printf " at %s:%d \n"
+		pos.Lexing.pos_fname pos.Lexing.pos_lnum; 
+		flush_all () 
+  	(* Printf.printf "[WARNING]: MaybeNil dereference in %s at line %d \n" *)
+    (* pos.Lexing.pos_fname pos.Lexing.pos_lnum; *)
+  	(* flush_all () *)
+end
+
+ FINE MODULO LIVENESS *)
+
 module DataNil = Dataflow.Forwards(NilAnalysis)
 
 	let print_pos node pos =
@@ -120,7 +168,7 @@ class safeNil ifs = object(s)		(* safeNil visitor *)
        print_string "Method definition: \n";
        let in', out' = DataNil.fixpoint body in
        s#print_hash (in', out');
-       print_string "--------------------------------------------\n";
+       print_string "\n--------------------------------------------\n";
        let me = {<facts = in'>} in
        let body' = visit_stmt (me:>cfg_visitor) body in
        	ChangeTo (update_stmt node (Method(mname, args, body')))
@@ -202,17 +250,22 @@ let main fname =
         let s = File_loader.load_file loader fname in
         let () = compute_cfg s in
         let () = compute_cfg_locals s in
-        (* print_string "RIL transformed code: \n"; *)
-        (* print_stmt stdout s; *)
-        print_string "---------------------------------------------\n";
+          print_string "RIL transformed code: \n"; 
+          print_stmt stdout s; 
+					
+					(* ALE *)
+					print_int s.pos.Lexing.pos_lnum;
+					(**)
+					
+          print_string "\n---------------------------------------------\n\n";
         let ifs, ofs = DataNil.fixpoint s in
-        	(* print_string "-------------------------------------------\n"; *)
-        	(* print_string "ifs content: \n"; *)
-        	(* print_hash ifs; *)
-					(* print_string "-------------------------------------------\n"; *)
-        	(* print_string "ofs content: \n"; *)
-        	(* print_hash ofs; *)
-        	(* print_string "--------------------------------------------\n"; *)
+        	print_string "-------------------------------------------\n"; 
+        	print_string "ifs content: \n"; 
+        	print_hash ifs; 
+					print_string "-------------------------------------------\n"; 
+        	print_string "ofs content: \n"; 
+        	print_hash ofs; 
+        	print_string "--------------------------------------------\n";  
         let sn = ( new safeNil ifs :> cfg_visitor ) in
         let _ = visit_stmt (sn) s in
         	(* print_string "Transformed code: \n"; *)
@@ -220,8 +273,8 @@ let main fname =
 					(* print_string "--------------------------------------------\n"; *)
 					(* print_string "Output code: \n"; *)
         	(* ErrorPrinter.print_stmt stdout ss *)
-					Printf.printf("---------------------------------------------\n");
-					print_endline "Nilness analysis complete."
+					Printf.printf("\n---------------------------------------------\n");
+					print_endline "Nilness analysis complete.\n"
                 
 let _ = 
   if (Array.length Sys.argv) != 2 

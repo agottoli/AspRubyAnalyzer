@@ -92,6 +92,9 @@ type(
   'a DQueue.t
 )
 "cfg_refactor.ml" 20 307 317 "cfg_refactor.ml" 20 307 342
+call(
+  stack
+)
 type(
   'a DQueue.t
 )
@@ -207,6 +210,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 26 442 462 "cfg_refactor.ml" 26 442 494
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -268,6 +274,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 28 497 535 "cfg_refactor.ml" 28 497 556
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -326,6 +335,9 @@ type(
   'a DQueue.t
 )
 "cfg_refactor.ml" 31 587 594 "cfg_refactor.ml" 31 587 621
+call(
+  stack
+)
 type(
   'a DQueue.t
 )
@@ -359,6 +371,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 32 623 633 "cfg_refactor.ml" 32 623 665
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -379,7 +394,7 @@ type(
   (Cfg.star_expr list * Cfg.expr option) option -> bool
 )
 ident(
-  ext_ref Pervasives.==
+  ext_ref Pervasives.( == )
 )
 "cfg_refactor.ml" 33 667 710 "cfg_refactor.ml" 33 667 714
 type(
@@ -526,6 +541,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 38 845 868 "cfg_refactor.ml" 38 845 891
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -596,6 +614,9 @@ ident(
   int_ref ls "cfg_refactor.ml" 41 939 950 "cfg_refactor.ml" 41 939 952
 )
 "cfg_refactor.ml" 41 939 956 "cfg_refactor.ml" 41 939 986
+call(
+  tail
+)
 type(
   'a acc
 )
@@ -659,7 +680,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "cfg_refactor.ml" 44 1013 1047 "cfg_refactor.ml" 44 1013 1059
 type(
@@ -703,7 +724,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "cfg_refactor.ml" 47 1078 1109 "cfg_refactor.ml" 47 1078 1122
 type(
@@ -724,14 +745,23 @@ type(
   unit
 )
 "cfg_refactor.ml" 47 1078 1123 "cfg_refactor.ml" 47 1078 1132
+call(
+  stack
+)
 type(
   int
 )
 "cfg_refactor.ml" 47 1078 1108 "cfg_refactor.ml" 47 1078 1133
+call(
+  stack
+)
 type(
   string
 )
 "cfg_refactor.ml" 47 1078 1097 "cfg_refactor.ml" 47 1078 1133
+call(
+  stack
+)
 type(
   string
 )
@@ -780,6 +810,9 @@ ident(
   int_ref id "cfg_refactor.ml" 48 1137 1143 "cfg_refactor.ml" 48 1137 1145
 )
 "cfg_refactor.ml" 49 1184 1188 "cfg_refactor.ml" 49 1184 1205
+call(
+  stack
+)
 type(
   'a acc
 )
@@ -854,10 +887,16 @@ type(
   unit
 )
 "cfg_refactor.ml" 52 1235 1300 "cfg_refactor.ml" 52 1235 1308
+call(
+  stack
+)
 type(
   int
 )
 "cfg_refactor.ml" 52 1235 1248 "cfg_refactor.ml" 52 1235 1308
+call(
+  stack
+)
 type(
   string
 )
@@ -940,7 +979,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "cfg_refactor.ml" 56 1371 1415 "cfg_refactor.ml" 56 1371 1429
 type(
@@ -980,7 +1019,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "cfg_refactor.ml" 58 1431 1464 "cfg_refactor.ml" 58 1431 1465
 type(
@@ -1154,6 +1193,9 @@ ident(
   int_ref params "cfg_refactor.ml" 60 1467 1486 "cfg_refactor.ml" 60 1467 1492
 )
 "cfg_refactor.ml" 67 1684 1694 "cfg_refactor.ml" 67 1684 1709
+call(
+  stack
+)
 type(
   'f list
 )
@@ -1211,6 +1253,9 @@ ident(
   int_ref rest "cfg_refactor.ml" 68 1715 1740 "cfg_refactor.ml" 68 1715 1744
 )
 "cfg_refactor.ml" 69 1749 1770 "cfg_refactor.ml" 69 1749 1792
+call(
+  stack
+)
 type(
   'p list
 )
@@ -1288,6 +1333,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 71 1850 1858 "cfg_refactor.ml" 71 1850 1861
 )
 "cfg_refactor.ml" 72 1867 1883 "cfg_refactor.ml" 72 1867 1904
+call(
+  stack
+)
 type(
   'q list
 )
@@ -1392,6 +1440,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 74 1913 1932 "cfg_refactor.ml" 74 1913 1935
 )
 "cfg_refactor.ml" 75 1960 1977 "cfg_refactor.ml" 75 1960 1986
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'd
 )
@@ -1450,6 +1501,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 74 1913 1953 "cfg_refactor.ml" 74 1913 1956
 )
 "cfg_refactor.ml" 76 1990 2003 "cfg_refactor.ml" 76 1990 2038
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -1475,6 +1529,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 75 1960 1966 "cfg_refactor.ml" 75 1960 1969
 )
 "cfg_refactor.ml" 77 2042 2046 "cfg_refactor.ml" 77 2042 2068
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -1534,6 +1591,9 @@ type(
   string
 )
 "cfg_refactor.ml" 89 2513 2542 "cfg_refactor.ml" 89 2513 2562
+call(
+  stack
+)
 type(
   Str.regexp
 )
@@ -1549,6 +1609,9 @@ ident(
   int_ref s "cfg_refactor.ml" 87 2425 2452 "cfg_refactor.ml" 87 2425 2453
 )
 "cfg_refactor.ml" 89 2513 2523 "cfg_refactor.ml" 89 2513 2568
+call(
+  stack
+)
 type(
   string
 )
@@ -1568,6 +1631,9 @@ type(
   string
 )
 "cfg_refactor.ml" 91 2589 2606 "cfg_refactor.ml" 91 2589 2637
+call(
+  stack
+)
 type(
   Str.regexp
 )
@@ -1612,6 +1678,9 @@ ident(
   int_ref s "cfg_refactor.ml" 89 2513 2519 "cfg_refactor.ml" 89 2513 2520
 )
 "cfg_refactor.ml" 93 2668 2678 "cfg_refactor.ml" 93 2668 2709
+call(
+  stack
+)
 type(
   string
 )
@@ -1631,6 +1700,9 @@ type(
   string
 )
 "cfg_refactor.ml" 95 2737 2755 "cfg_refactor.ml" 95 2737 2798
+call(
+  stack
+)
 type(
   Str.regexp
 )
@@ -1675,6 +1747,9 @@ ident(
   int_ref s "cfg_refactor.ml" 93 2668 2674 "cfg_refactor.ml" 93 2668 2675
 )
 "cfg_refactor.ml" 97 2832 2842 "cfg_refactor.ml" 97 2832 2874
+call(
+  stack
+)
 type(
   string
 )
@@ -1694,6 +1769,9 @@ type(
   string
 )
 "cfg_refactor.ml" 99 2898 2918 "cfg_refactor.ml" 99 2898 2963
+call(
+  stack
+)
 type(
   Str.regexp
 )
@@ -1738,6 +1816,9 @@ ident(
   int_ref s "cfg_refactor.ml" 97 2832 2838 "cfg_refactor.ml" 97 2832 2839
 )
 "cfg_refactor.ml" 101 2997 3007 "cfg_refactor.ml" 101 2997 3041
+call(
+  stack
+)
 type(
   string
 )
@@ -1788,6 +1869,9 @@ type(
   char list
 )
 "cfg_refactor.ml" 103 3108 3112 "cfg_refactor.ml" 103 3108 3157
+call(
+  tail
+)
 type(
   string
 )
@@ -1969,6 +2053,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 109 3257 3268 "cfg_refactor.ml" 109 3257 3271
 )
 "cfg_refactor.ml" 113 3390 3415 "cfg_refactor.ml" 113 3390 3424
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'g
 )
@@ -2028,6 +2115,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 109 3257 3288 "cfg_refactor.ml" 109 3257 3291
 )
 "cfg_refactor.ml" 114 3428 3449 "cfg_refactor.ml" 114 3428 3500
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -2057,6 +2147,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 113 3390 3404 "cfg_refactor.ml" 113 3390 3407
 )
 "cfg_refactor.ml" 115 3504 3524 "cfg_refactor.ml" 115 3504 3544
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -2278,6 +2371,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 129 4059 4092 "cfg_refactor.ml" 129 4059 4095
 )
 "cfg_refactor.ml" 131 4193 4206 "cfg_refactor.ml" 131 4193 4247
+call(
+  tail
+)
 type(
   Cfg.stmt acc * 'a option * char option * bool
 )
@@ -2335,6 +2431,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 129 4059 4092 "cfg_refactor.ml" 129 4059 4095
 )
 "cfg_refactor.ml" 132 4248 4261 "cfg_refactor.ml" 132 4248 4300
+call(
+  tail
+)
 type(
   Cfg.stmt acc * 'a option * char option * bool
 )
@@ -2392,6 +2491,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 129 4059 4092 "cfg_refactor.ml" 129 4059 4095
 )
 "cfg_refactor.ml" 133 4301 4314 "cfg_refactor.ml" 133 4301 4353
+call(
+  tail
+)
 type(
   Cfg.stmt acc * 'a option * char option * bool
 )
@@ -2577,6 +2679,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 129 4059 4092 "cfg_refactor.ml" 129 4059 4095
 )
 "cfg_refactor.ml" 139 4540 4567 "cfg_refactor.ml" 139 4540 4583
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -2599,6 +2704,9 @@ ident(
   int_ref c' "cfg_refactor.ml" 138 4517 4534 "cfg_refactor.ml" 138 4517 4536
 )
 "cfg_refactor.ml" 139 4540 4554 "cfg_refactor.ml" 141 4650 4670
+call(
+  stack
+)
 type(
   unit
 )
@@ -2678,6 +2786,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 129 4059 4092 "cfg_refactor.ml" 129 4059 4095
 )
 "cfg_refactor.ml" 144 4719 4740 "cfg_refactor.ml" 144 4719 4756
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -2695,6 +2806,9 @@ ident(
   int_ref c "cfg_refactor.ml" 144 4719 4725 "cfg_refactor.ml" 144 4719 4726
 )
 "cfg_refactor.ml" 144 4719 4730 "cfg_refactor.ml" 144 4719 4788
+call(
+  tail
+)
 type(
   Cfg.stmt acc * 'a option * char option * bool
 )
@@ -2751,6 +2865,9 @@ ident(
   int_ref str "cfg_refactor.ml" 129 4059 4088 "cfg_refactor.ml" 129 4059 4091
 )
 "cfg_refactor.ml" 146 4794 4798 "cfg_refactor.ml" 146 4794 4850
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr option * char option * bool
 )
@@ -2807,6 +2924,9 @@ type(
   int
 )
 "cfg_refactor.ml" 150 4906 4918 "cfg_refactor.ml" 150 4906 4934
+call(
+  stack
+)
 type(
   Buffer.t
 )
@@ -2871,6 +2991,9 @@ ident(
   int_ref c "cfg_refactor.ml" 153 4970 4987 "cfg_refactor.ml" 153 4970 4988
 )
 "cfg_refactor.ml" 155 5030 5043 "cfg_refactor.ml" 155 5030 5064
+call(
+  stack
+)
 type(
   unit
 )
@@ -2886,7 +3009,7 @@ type(
   char -> char -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 156 5066 5086 "cfg_refactor.ml" 156 5066 5090
 type(
@@ -2912,7 +3035,7 @@ type(
   char -> char -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 157 5101 5126 "cfg_refactor.ml" 157 5101 5129
 type(
@@ -2968,6 +3091,9 @@ ident(
   int_ref c "cfg_refactor.ml" 153 4970 4987 "cfg_refactor.ml" 153 4970 4988
 )
 "cfg_refactor.ml" 161 5186 5205 "cfg_refactor.ml" 161 5186 5226
+call(
+  stack
+)
 type(
   unit
 )
@@ -3005,6 +3131,9 @@ ident(
   int_ref escaped "cfg_refactor.ml" 149 4876 4882 "cfg_refactor.ml" 149 4876 4889
 )
 "cfg_refactor.ml" 164 5261 5277 "cfg_refactor.ml" 164 5261 5295
+call(
+  stack
+)
 type(
   bool
 )
@@ -3027,6 +3156,9 @@ type(
   char
 )
 "cfg_refactor.ml" 165 5296 5314 "cfg_refactor.ml" 165 5296 5338
+call(
+  stack
+)
 type(
   unit
 )
@@ -3056,6 +3188,9 @@ ident(
   int_ref c "cfg_refactor.ml" 153 4970 4987 "cfg_refactor.ml" 153 4970 4988
 )
 "cfg_refactor.ml" 166 5340 5353 "cfg_refactor.ml" 166 5340 5374
+call(
+  stack
+)
 type(
   unit
 )
@@ -3071,7 +3206,7 @@ type(
   char -> char -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 167 5376 5396 "cfg_refactor.ml" 167 5376 5400
 type(
@@ -3097,7 +3232,7 @@ type(
   char -> char -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 168 5416 5441 "cfg_refactor.ml" 168 5416 5444
 type(
@@ -3157,6 +3292,9 @@ ident(
   int_ref c "cfg_refactor.ml" 153 4970 4987 "cfg_refactor.ml" 153 4970 4988
 )
 "cfg_refactor.ml" 173 5525 5538 "cfg_refactor.ml" 173 5525 5559
+call(
+  stack
+)
 type(
   unit
 )
@@ -3189,6 +3327,9 @@ ident(
   int_ref re "cfg_refactor.ml" 148 4852 4870 "cfg_refactor.ml" 148 4852 4872
 )
 "cfg_refactor.ml" 152 4948 4952 "cfg_refactor.ml" 175 5585 5604
+call(
+  stack
+)
 type(
   [ `CharClass | `Esc | `EscClass | `NoEsc ]
 )
@@ -3207,6 +3348,9 @@ ident(
   int_ref buf "cfg_refactor.ml" 150 4906 4912 "cfg_refactor.ml" 150 4906 4915
 )
 "cfg_refactor.ml" 177 5610 5612 "cfg_refactor.ml" 177 5610 5631
+call(
+  tail
+)
 type(
   string
 )
@@ -3328,6 +3472,9 @@ ident(
   int_ref hd "cfg_refactor.ml" 186 5943 5947 "cfg_refactor.ml" 186 5943 5949
 )
 "cfg_refactor.ml" 187 5958 5976 "cfg_refactor.ml" 187 5958 5984
+call(
+  stack
+)
 type(
   'a * 'c
 )
@@ -3357,6 +3504,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 184 5879 5908 "cfg_refactor.ml" 184 5879 5911
 )
 "cfg_refactor.ml" 188 5988 6003 "cfg_refactor.ml" 188 5988 6023
+call(
+  stack
+)
 type(
   'c DQueue.t
 )
@@ -3400,6 +3550,9 @@ ident(
   int_ref tl "cfg_refactor.ml" 186 5943 5951 "cfg_refactor.ml" 186 5943 5953
 )
 "cfg_refactor.ml" 189 6027 6035 "cfg_refactor.ml" 189 6027 6062
+call(
+  tail
+)
 type(
   'a * 'c DQueue.t
 )
@@ -3696,6 +3849,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 209 6489 6514 "cfg_refactor.ml" 209 6489 6517
 )
 "cfg_refactor.ml" 217 6789 6805 "cfg_refactor.ml" 217 6789 6821
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -3704,6 +3860,9 @@ type(
   (Cfg.var_kind, Format.formatter, unit, Cfg.var_kind) format4
 )
 "cfg_refactor.ml" 217 6789 6795 "cfg_refactor.ml" 218 6822 6893
+call(
+  tail
+)
 type(
   Cfg.var_kind
 )
@@ -3770,6 +3929,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 220 6895 6926 "cfg_refactor.ml" 220 6895 6929
 )
 "cfg_refactor.ml" 224 7018 7034 "cfg_refactor.ml" 224 7018 7050
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -3778,6 +3940,9 @@ type(
   ('a, Format.formatter, unit, 'a) format4
 )
 "cfg_refactor.ml" 224 7018 7024 "cfg_refactor.ml" 225 7051 7113
+call(
+  tail
+)
 type(
   'a
 )
@@ -3883,6 +4048,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 227 7115 7132 "cfg_refactor.ml" 227 7115 7135
 )
 "cfg_refactor.ml" 236 7328 7344 "cfg_refactor.ml" 236 7328 7360
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -3891,6 +4059,9 @@ type(
   (Cfg.unary_op, Format.formatter, unit, Cfg.unary_op) format4
 )
 "cfg_refactor.ml" 236 7328 7334 "cfg_refactor.ml" 236 7328 7410
+call(
+  tail
+)
 type(
   Cfg.unary_op
 )
@@ -4215,6 +4386,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 238 7412 7431 "cfg_refactor.ml" 238 7412 7434
 )
 "cfg_refactor.ml" 274 8251 8267 "cfg_refactor.ml" 274 8251 8283
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -4237,10 +4411,16 @@ ident(
   int_ref bop "cfg_refactor.ml" 261 8027 8031 "cfg_refactor.ml" 273 8224 8246
 )
 "cfg_refactor.ml" 276 8347 8355 "cfg_refactor.ml" 276 8347 8374
+call(
+  stack
+)
 type(
   string
 )
 "cfg_refactor.ml" 274 8251 8257 "cfg_refactor.ml" 276 8347 8374
+call(
+  tail
+)
 type(
   Cfg.binary_op
 )
@@ -4679,6 +4859,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 306 9336 9367 "cfg_refactor.ml" 306 9336 9370
 )
 "cfg_refactor.ml" 309 9447 9481 "cfg_refactor.ml" 309 9447 9499
+call(
+  tail
+)
 type(
   Cfg.tuple_expr
 )
@@ -4694,6 +4877,9 @@ ident(
   int_ref l "cfg_refactor.ml" 308 9429 9439 "cfg_refactor.ml" 308 9429 9442
 )
 "cfg_refactor.ml" 309 9447 9462 "cfg_refactor.ml" 309 9447 9502
+call(
+  stack
+)
 type(
   Cfg.tuple_expr list
 )
@@ -4898,6 +5084,9 @@ type(
   (Cfg.msg_id, Format.formatter, unit, Cfg.msg_id) format4
 )
 "cfg_refactor.ml" 322 9822 9828 "cfg_refactor.ml" 322 9822 9893
+call(
+  tail
+)
 type(
   Cfg.msg_id
 )
@@ -4957,6 +5146,9 @@ type(
   (Cfg.msg_id, Format.formatter, unit, Cfg.msg_id) format4
 )
 "cfg_refactor.ml" 328 9988 9994 "cfg_refactor.ml" 328 9988 10056
+call(
+  tail
+)
 type(
   Cfg.msg_id
 )
@@ -4984,6 +5176,9 @@ type(
   (Cfg.msg_id, Format.formatter, unit, Cfg.msg_id) format4
 )
 "cfg_refactor.ml" 330 10058 10075 "cfg_refactor.ml" 330 10058 10125
+call(
+  tail
+)
 type(
   Cfg.msg_id
 )
@@ -5038,6 +5233,9 @@ ident(
   int_ref l "cfg_refactor.ml" 335 10179 10183 "cfg_refactor.ml" 335 10179 10184
 )
 "cfg_refactor.ml" 335 10179 10194 "cfg_refactor.ml" 335 10179 10204
+call(
+  stack
+)
 type(
   'a list
 )
@@ -5089,6 +5287,9 @@ ident(
   int_ref hd "cfg_refactor.ml" 337 10237 10245 "cfg_refactor.ml" 337 10237 10247
 )
 "cfg_refactor.ml" 337 10237 10266 "cfg_refactor.ml" 337 10237 10272
+call(
+  stack
+)
 type(
   'a
 )
@@ -5104,6 +5305,9 @@ type(
   'a list
 )
 "cfg_refactor.ml" 337 10237 10255 "cfg_refactor.ml" 337 10237 10278
+call(
+  tail
+)
 type(
   'a list
 )
@@ -5178,6 +5382,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 341 10399 10408 "cfg_refactor.ml" 341 10399 10457
+call(
+  tail
+)
 type(
   Cfg.method_formal_param
 )
@@ -5265,6 +5472,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 346 10580 10586 "cfg_refactor.ml" 346 10580 10634
+call(
+  tail
+)
 type(
   Cfg.block_formal_param
 )
@@ -5359,6 +5569,9 @@ ident(
   int_ref q "cfg_refactor.ml" 351 10810 10830 "cfg_refactor.ml" 351 10810 10831
 )
 "cfg_refactor.ml" 351 10810 10840 "cfg_refactor.ml" 351 10810 10858
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -5374,6 +5587,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 351 10810 10834 "cfg_refactor.ml" 351 10810 10867
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -5436,10 +5652,16 @@ type(
   Cfg.stmt
 )
 "cfg_refactor.ml" 353 10902 10943 "cfg_refactor.ml" 353 10902 10987
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 353 10902 10933 "cfg_refactor.ml" 353 10902 10987
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -5492,10 +5714,16 @@ type(
   Cfg.stmt
 )
 "cfg_refactor.ml" 355 10998 11025 "cfg_refactor.ml" 355 10998 11066
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 355 10998 11015 "cfg_refactor.ml" 355 10998 11066
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -5530,6 +5758,9 @@ type(
   Cfg.rescue_block list
 )
 "cfg_refactor.ml" 356 11070 11089 "cfg_refactor.ml" 356 11070 11126
+call(
+  stack
+)
 type(
   Cfg.rescue_block list
 )
@@ -5598,6 +5829,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 349 10697 10757 "cfg_refactor.ml" 349 10697 10760
 )
 "cfg_refactor.ml" 359 11238 11255 "cfg_refactor.ml" 359 11238 11284
+call(
+  stack
+)
 type(
   Cfg.stmt -> Cfg.stmt DQueue.t
 )
@@ -5613,10 +5847,16 @@ type(
   Cfg.stmt option
 )
 "cfg_refactor.ml" 359 11238 11246 "cfg_refactor.ml" 359 11238 11297
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t option
 )
 "cfg_refactor.ml" 358 11202 11220 "cfg_refactor.ml" 359 11238 11297
+call(
+  stack
+)
 type(
   Cfg.stmt option
 )
@@ -5673,6 +5913,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 361 11307 11324 "cfg_refactor.ml" 361 11307 11370
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -5698,6 +5941,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 362 11374 11382 "cfg_refactor.ml" 362 11374 11414
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -5804,6 +6050,9 @@ ident(
   int_ref bs "cfg_refactor.ml" 367 11468 11487 "cfg_refactor.ml" 367 11468 11489
 )
 "cfg_refactor.ml" 368 11494 11514 "cfg_refactor.ml" 368 11494 11544
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -5833,6 +6082,9 @@ ident(
   int_ref q "cfg_refactor.ml" 368 11494 11510 "cfg_refactor.ml" 368 11494 11511
 )
 "cfg_refactor.ml" 369 11548 11576 "cfg_refactor.ml" 369 11548 11594
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -5848,6 +6100,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 369 11548 11570 "cfg_refactor.ml" 369 11548 11601
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -5893,6 +6148,9 @@ type(
   (Cfg.tuple_expr * Cfg.stmt) list
 )
 "cfg_refactor.ml" 366 11451 11459 "cfg_refactor.ml" 371 11628 11653
+call(
+  stack
+)
 type(
   (Cfg.tuple_expr * Cfg.stmt) list
 )
@@ -5958,10 +6216,16 @@ ident(
   int_ref s "cfg_refactor.ml" 374 11689 11702 "cfg_refactor.ml" 374 11689 11703
 )
 "cfg_refactor.ml" 375 11708 11741 "cfg_refactor.ml" 375 11708 11772
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 375 11708 11725 "cfg_refactor.ml" 375 11708 11773
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -5977,6 +6241,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 375 11708 11719 "cfg_refactor.ml" 375 11708 11779
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -5996,6 +6263,9 @@ type(
   Cfg.stmt option
 )
 "cfg_refactor.ml" 373 11663 11681 "cfg_refactor.ml" 376 11780 11802
+call(
+  stack
+)
 type(
   Cfg.stmt option
 )
@@ -6065,6 +6335,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 379 11878 11901 "cfg_refactor.ml" 379 11878 11929
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -6076,6 +6349,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 379 11878 11886 "cfg_refactor.ml" 379 11878 11942
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6142,6 +6418,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 382 11974 11988 "cfg_refactor.ml" 382 11974 12020
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6174,6 +6453,9 @@ ident(
   int_ref guard "cfg_refactor.ml" 381 11944 11959 "cfg_refactor.ml" 381 11944 11964
 )
 "cfg_refactor.ml" 383 12024 12047 "cfg_refactor.ml" 383 12024 12076
+call(
+  stack
+)
 type(
   Cfg.stmt_node
 )
@@ -6189,6 +6471,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 383 12024 12040 "cfg_refactor.ml" 383 12024 12085
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -6214,6 +6499,9 @@ ident(
   int_ref q "cfg_refactor.ml" 382 11974 11984 "cfg_refactor.ml" 382 11974 11985
 )
 "cfg_refactor.ml" 384 12089 12097 "cfg_refactor.ml" 384 12089 12117
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6291,10 +6579,16 @@ ident(
   int_ref t "cfg_refactor.ml" 386 12119 12128 "cfg_refactor.ml" 386 12119 12129
 )
 "cfg_refactor.ml" 387 12136 12166 "cfg_refactor.ml" 387 12136 12197
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 387 12136 12151 "cfg_refactor.ml" 387 12136 12197
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -6328,6 +6622,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 388 12201 12216 "cfg_refactor.ml" 388 12201 12233
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -6372,10 +6669,16 @@ ident(
   int_ref f "cfg_refactor.ml" 386 12119 12130 "cfg_refactor.ml" 386 12119 12131
 )
 "cfg_refactor.ml" 389 12237 12267 "cfg_refactor.ml" 389 12237 12298
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 389 12237 12252 "cfg_refactor.ml" 389 12237 12298
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -6409,6 +6712,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 390 12302 12317 "cfg_refactor.ml" 390 12302 12334
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -6460,6 +6766,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 391 12338 12355 "cfg_refactor.ml" 391 12338 12384
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -6485,6 +6794,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 392 12388 12396 "cfg_refactor.ml" 392 12388 12427
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6538,6 +6850,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 394 12429 12445 "cfg_refactor.ml" 394 12429 12477
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6571,6 +6886,9 @@ ident(
   int_ref slist "cfg_refactor.ml" 396 12479 12487 "cfg_refactor.ml" 396 12479 12492
 )
 "cfg_refactor.ml" 397 12497 12511 "cfg_refactor.ml" 397 12497 12533
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6601,6 +6919,9 @@ ident(
   int_ref q "cfg_refactor.ml" 397 12497 12507 "cfg_refactor.ml" 397 12497 12508
 )
 "cfg_refactor.ml" 398 12537 12556 "cfg_refactor.ml" 398 12537 12573
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t * Cfg.stmt
 )
@@ -6648,10 +6969,16 @@ ident(
   int_ref last "cfg_refactor.ml" 398 12537 12549 "cfg_refactor.ml" 398 12537 12553
 )
 "cfg_refactor.ml" 399 12577 12601 "cfg_refactor.ml" 399 12577 12635
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 399 12577 12585 "cfg_refactor.ml" 399 12577 12635
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6703,6 +7030,9 @@ ident(
   int_ref e "cfg_refactor.ml" 401 12637 12652 "cfg_refactor.ml" 401 12637 12653
 )
 "cfg_refactor.ml" 402 12657 12680 "cfg_refactor.ml" 402 12657 12705
+call(
+  stack
+)
 type(
   Cfg.stmt_node
 )
@@ -6718,6 +7048,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 402 12657 12673 "cfg_refactor.ml" 402 12657 12714
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -6743,6 +7076,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 403 12718 12726 "cfg_refactor.ml" 403 12718 12757
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6799,10 +7135,16 @@ ident(
   int_ref acc "cfg_refactor.ml" 349 10697 10757 "cfg_refactor.ml" 349 10697 10760
 )
 "cfg_refactor.ml" 408 12884 12909 "cfg_refactor.ml" 408 12884 12924
+call(
+  stack
+)
 type(
   'b acc
 )
 "cfg_refactor.ml" 408 12884 12903 "cfg_refactor.ml" 408 12884 12924
+call(
+  stack
+)
 type(
   'b acc * 'c
 )
@@ -6844,6 +7186,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 409 12928 12946 "cfg_refactor.ml" 409 12928 12975
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -6873,6 +7218,9 @@ ident(
   int_ref v "cfg_refactor.ml" 408 12884 12899 "cfg_refactor.ml" 408 12884 12900
 )
 "cfg_refactor.ml" 410 12979 13002 "cfg_refactor.ml" 410 12979 13011
+call(
+  stack
+)
 type(
   Cfg.stmt_node
 )
@@ -6888,6 +7236,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 410 12979 12995 "cfg_refactor.ml" 410 12979 13020
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -6917,6 +7268,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 411 13024 13038 "cfg_refactor.ml" 411 13024 13071
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -6942,6 +7296,9 @@ ident(
   int_ref q "cfg_refactor.ml" 411 13024 13034 "cfg_refactor.ml" 411 13024 13035
 )
 "cfg_refactor.ml" 412 13075 13083 "cfg_refactor.ml" 412 13075 13103
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7010,10 +7367,16 @@ ident(
   int_ref acc "cfg_refactor.ml" 349 10697 10757 "cfg_refactor.ml" 349 10697 10760
 )
 "cfg_refactor.ml" 417 13227 13252 "cfg_refactor.ml" 417 13227 13267
+call(
+  stack
+)
 type(
   'e acc
 )
 "cfg_refactor.ml" 417 13227 13246 "cfg_refactor.ml" 417 13227 13267
+call(
+  stack
+)
 type(
   'e acc * 'f
 )
@@ -7062,6 +7425,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 418 13271 13288 "cfg_refactor.ml" 418 13271 13327
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -7091,6 +7457,9 @@ ident(
   int_ref v "cfg_refactor.ml" 417 13227 13242 "cfg_refactor.ml" 417 13227 13243
 )
 "cfg_refactor.ml" 419 13331 13354 "cfg_refactor.ml" 419 13331 13363
+call(
+  stack
+)
 type(
   Cfg.stmt_node
 )
@@ -7106,6 +7475,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 419 13331 13347 "cfg_refactor.ml" 419 13331 13372
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -7135,6 +7507,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 420 13376 13390 "cfg_refactor.ml" 420 13376 13422
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7160,6 +7535,9 @@ ident(
   int_ref q "cfg_refactor.ml" 420 13376 13386 "cfg_refactor.ml" 420 13376 13387
 )
 "cfg_refactor.ml" 421 13426 13434 "cfg_refactor.ml" 421 13426 13454
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7284,10 +7662,16 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 426 13526 13556 "cfg_refactor.ml" 426 13526 13583
+call(
+  stack
+)
 type(
   Cfg.tuple_expr
 )
 "cfg_refactor.ml" 426 13526 13549 "cfg_refactor.ml" 426 13526 13584
+call(
+  stack
+)
 type(
   Cfg.stmt_node
 )
@@ -7303,6 +7687,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 426 13526 13542 "cfg_refactor.ml" 426 13526 13593
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -7332,6 +7719,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 427 13597 13611 "cfg_refactor.ml" 427 13597 13643
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7357,6 +7747,9 @@ ident(
   int_ref q "cfg_refactor.ml" 427 13597 13607 "cfg_refactor.ml" 427 13597 13608
 )
 "cfg_refactor.ml" 428 13647 13655 "cfg_refactor.ml" 428 13647 13675
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7415,6 +7808,9 @@ ident(
   int_ref id "cfg_refactor.ml" 430 13677 13689 "cfg_refactor.ml" 430 13677 13691
 )
 "cfg_refactor.ml" 431 13698 13721 "cfg_refactor.ml" 431 13698 13747
+call(
+  stack
+)
 type(
   Cfg.stmt_node
 )
@@ -7430,6 +7826,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 431 13698 13714 "cfg_refactor.ml" 431 13698 13756
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -7459,6 +7858,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 432 13760 13774 "cfg_refactor.ml" 432 13760 13806
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7484,6 +7886,9 @@ ident(
   int_ref q "cfg_refactor.ml" 432 13760 13770 "cfg_refactor.ml" 432 13760 13771
 )
 "cfg_refactor.ml" 433 13810 13818 "cfg_refactor.ml" 433 13810 13838
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7553,6 +7958,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 436 13880 13886 "cfg_refactor.ml" 436 13880 13918
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7671,6 +8079,9 @@ ident(
   ext_ref DQueue.empty
 )
 "cfg_refactor.ml" 444 14028 14042 "cfg_refactor.ml" 444 14028 14074
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7697,6 +8108,9 @@ type(
   Cfg.tuple_expr
 )
 "cfg_refactor.ml" 445 14078 14101 "cfg_refactor.ml" 445 14078 14116
+call(
+  stack
+)
 type(
   Cfg.stmt_node
 )
@@ -7712,6 +8126,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 445 14078 14094 "cfg_refactor.ml" 445 14078 14125
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -7737,6 +8154,9 @@ ident(
   int_ref q "cfg_refactor.ml" 444 14028 14038 "cfg_refactor.ml" 444 14028 14039
 )
 "cfg_refactor.ml" 446 14129 14137 "cfg_refactor.ml" 446 14129 14157
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7796,6 +8216,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 449 14183 14199 "cfg_refactor.ml" 449 14183 14220
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -7804,6 +8227,9 @@ type(
   (Cfg.stmt DQueue.t, Format.formatter, unit, Cfg.stmt DQueue.t) format4
 )
 "cfg_refactor.ml" 449 14183 14189 "cfg_refactor.ml" 450 14221 14281
+call(
+  tail
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -7866,6 +8292,9 @@ type(
   Cfg.stmt_node
 )
 "cfg_refactor.ml" 456 14397 14427 "cfg_refactor.ml" 456 14397 14454
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -8075,6 +8504,9 @@ ident(
   int_ref body "cfg_refactor.ml" 468 14693 14713 "cfg_refactor.ml" 468 14693 14717
 )
 "cfg_refactor.ml" 470 14766 14784 "cfg_refactor.ml" 470 14766 14807
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -8156,6 +8588,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 474 14883 14888 "cfg_refactor.ml" 474 14883 14909
+call(
+  stack
+)
 type(
   bool
 )
@@ -8185,6 +8620,9 @@ type(
   Cfg.tuple_expr
 )
 "cfg_refactor.ml" 475 14910 14937 "cfg_refactor.ml" 475 14910 14955
+call(
+  stack
+)
 type(
   Cfg.stmt_node
 )
@@ -8196,6 +8634,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 473 14843 14877 "cfg_refactor.ml" 473 14843 14880
 )
 "cfg_refactor.ml" 475 14910 14929 "cfg_refactor.ml" 475 14910 14960
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -8207,6 +8648,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 473 14843 14873 "cfg_refactor.ml" 473 14843 14876
 )
 "cfg_refactor.ml" 475 14910 14917 "cfg_refactor.ml" 475 14910 14964
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -8241,6 +8685,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 477 14973 14990 "cfg_refactor.ml" 477 14973 15011
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t * Cfg.stmt
 )
@@ -8278,6 +8725,9 @@ ident(
   int_ref last "cfg_refactor.ml" 477 14973 14983 "cfg_refactor.ml" 477 14973 14987
 )
 "cfg_refactor.ml" 478 15015 15032 "cfg_refactor.ml" 478 15015 15067
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -8310,6 +8760,9 @@ ident(
   int_ref last_q "cfg_refactor.ml" 478 15015 15023 "cfg_refactor.ml" 478 15015 15029
 )
 "cfg_refactor.ml" 480 15137 15157 "cfg_refactor.ml" 480 15137 15179
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -8450,6 +8903,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 482 15182 15217 "cfg_refactor.ml" 482 15182 15220
 )
 "cfg_refactor.ml" 485 15286 15311 "cfg_refactor.ml" 485 15286 15327
+call(
+  stack
+)
 type(
   'a * 'd
 )
@@ -8513,6 +8969,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 482 15182 15213 "cfg_refactor.ml" 482 15182 15216
 )
 "cfg_refactor.ml" 483 15224 15242 "cfg_refactor.ml" 487 15358 15376
+call(
+  stack
+)
 type(
   'a * 'd list
 )
@@ -8538,6 +8997,9 @@ ident(
   int_ref rlst "cfg_refactor.ml" 483 15224 15235 "cfg_refactor.ml" 483 15224 15239
 )
 "cfg_refactor.ml" 488 15377 15387 "cfg_refactor.ml" 488 15377 15400
+call(
+  stack
+)
 type(
   'd list
 )
@@ -8943,6 +9405,9 @@ ident(
   int_ref s "cfg_refactor.ml" 492 15494 15500 "cfg_refactor.ml" 497 15785 15859
 )
 "cfg_refactor.ml" 504 16167 16186 "cfg_refactor.ml" 504 16167 16205
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -8977,6 +9442,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 506 16272 16294 "cfg_refactor.ml" 506 16272 16316
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t * Cfg.stmt
 )
@@ -9029,6 +9497,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 507 16320 16332 "cfg_refactor.ml" 507 16320 16335
 )
 "cfg_refactor.ml" 508 16362 16383 "cfg_refactor.ml" 508 16362 16392
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'a
 )
@@ -9062,6 +9533,9 @@ ident(
   int_ref s' "cfg_refactor.ml" 506 16272 16289 "cfg_refactor.ml" 506 16272 16291
 )
 "cfg_refactor.ml" 510 16462 16479 "cfg_refactor.ml" 510 16462 16515
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -9091,6 +9565,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 508 16362 16374 "cfg_refactor.ml" 508 16362 16377
 )
 "cfg_refactor.ml" 511 16519 16537 "cfg_refactor.ml" 511 16519 16555
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -9198,6 +9675,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 516 16628 16649 "cfg_refactor.ml" 516 16628 16658
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'b
 )
@@ -9227,6 +9707,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 516 16628 16640 "cfg_refactor.ml" 516 16628 16643
 )
 "cfg_refactor.ml" 517 16662 16697 "cfg_refactor.ml" 517 16662 16713
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -9238,6 +9721,9 @@ ident(
   int_ref e "cfg_refactor.ml" 490 15402 15440 "cfg_refactor.ml" 490 15402 15441
 )
 "cfg_refactor.ml" 517 16662 16683 "cfg_refactor.ml" 517 16662 16715
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -9267,6 +9753,9 @@ ident(
   int_ref st_acc "cfg_refactor.ml" 517 16662 16674 "cfg_refactor.ml" 517 16662 16680
 )
 "cfg_refactor.ml" 518 16719 16737 "cfg_refactor.ml" 518 16719 16756
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -9301,6 +9790,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 519 16760 16781 "cfg_refactor.ml" 519 16760 16805
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t * Cfg.stmt
 )
@@ -9341,6 +9833,9 @@ type(
   Cfg.stmt acc
 )
 "cfg_refactor.ml" 520 16809 16827 "cfg_refactor.ml" 520 16809 16859
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -9429,6 +9924,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 523 16934 16948 "cfg_refactor.ml" 523 16934 16984
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -9502,6 +10000,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 525 17023 17037 "cfg_refactor.ml" 525 17023 17076
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -9546,10 +10047,16 @@ ident(
   int_ref e "cfg_refactor.ml" 490 15402 15440 "cfg_refactor.ml" 490 15402 15441
 )
 "cfg_refactor.ml" 527 17095 17131 "cfg_refactor.ml" 527 17095 17145
+call(
+  stack
+)
 type(
   Ast.pos
 )
 "cfg_refactor.ml" 527 17095 17119 "cfg_refactor.ml" 527 17095 17146
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -9590,6 +10097,9 @@ ident(
   int_ref v "cfg_refactor.ml" 516 16628 16645 "cfg_refactor.ml" 516 16628 16646
 )
 "cfg_refactor.ml" 527 17095 17109 "cfg_refactor.ml" 530 17248 17295
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -9619,6 +10129,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 520 16809 16821 "cfg_refactor.ml" 520 16809 16824
 )
 "cfg_refactor.ml" 532 17307 17317 "cfg_refactor.ml" 532 17307 17335
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -9713,6 +10226,9 @@ ident(
   int_ref e "cfg_refactor.ml" 535 17341 17373 "cfg_refactor.ml" 535 17341 17374
 )
 "cfg_refactor.ml" 536 17383 17404 "cfg_refactor.ml" 536 17383 17421
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -9783,6 +10299,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 535 17341 17375 "cfg_refactor.ml" 535 17341 17378
 )
 "cfg_refactor.ml" 539 17498 17525 "cfg_refactor.ml" 539 17498 17541
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -9807,6 +10326,9 @@ ident(
   int_ref e' "cfg_refactor.ml" 536 17383 17399 "cfg_refactor.ml" 536 17383 17401
 )
 "cfg_refactor.ml" 539 17498 17515 "cfg_refactor.ml" 540 17577 17623
+call(
+  stack
+)
 type(
   string
 )
@@ -9890,7 +10412,7 @@ type(
   int -> int
 )
 ident(
-  ext_ref Pervasives.~-
+  ext_ref Pervasives.( ~- )
 )
 "cfg_refactor.ml" 545 17743 17770 "cfg_refactor.ml" 545 17743 17771
 type(
@@ -9967,6 +10489,9 @@ ident(
   int_ref i "cfg_refactor.ml" 547 17774 17836 "cfg_refactor.ml" 547 17774 17837
 )
 "cfg_refactor.ml" 548 17851 17876 "cfg_refactor.ml" 548 17851 17901
+call(
+  stack
+)
 type(
   Big_int.big_int
 )
@@ -10039,7 +10564,7 @@ type(
   char -> char -> bool
 )
 ident(
-  ext_ref Pervasives.!=
+  ext_ref Pervasives.( != )
 )
 "cfg_refactor.ml" 551 17982 18006 "cfg_refactor.ml" 551 17982 18009
 type(
@@ -10069,7 +10594,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "cfg_refactor.ml" 552 18012 18042 "cfg_refactor.ml" 552 18012 18043
 type(
@@ -10079,6 +10604,9 @@ ident(
   int_ref s "cfg_refactor.ml" 550 17903 17964 "cfg_refactor.ml" 550 17903 17965
 )
 "cfg_refactor.ml" 552 18012 18036 "cfg_refactor.ml" 552 18012 18043
+call(
+  stack
+)
 type(
   string
 )
@@ -10087,7 +10615,7 @@ type(
   float -> float
 )
 ident(
-  ext_ref Pervasives.~-.
+  ext_ref Pervasives.( ~-. )
 )
 "cfg_refactor.ml" 552 18012 18050 "cfg_refactor.ml" 552 18012 18051
 type(
@@ -10173,6 +10701,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 555 18112 18132 "cfg_refactor.ml" 555 18112 18141
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'c
 )
@@ -10207,6 +10738,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 554 18055 18104 "cfg_refactor.ml" 554 18055 18107
 )
 "cfg_refactor.ml" 556 18145 18161 "cfg_refactor.ml" 556 18145 18184
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -10241,6 +10775,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 554 18055 18104 "cfg_refactor.ml" 554 18055 18107
 )
 "cfg_refactor.ml" 557 18188 18204 "cfg_refactor.ml" 557 18188 18228
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -10278,6 +10815,9 @@ ident(
   int_ref e "cfg_refactor.ml" 554 18055 18102 "cfg_refactor.ml" 554 18055 18103
 )
 "cfg_refactor.ml" 558 18232 18253 "cfg_refactor.ml" 558 18232 18272
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -10328,6 +10868,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 554 18055 18104 "cfg_refactor.ml" 554 18055 18107
 )
 "cfg_refactor.ml" 559 18276 18306 "cfg_refactor.ml" 559 18276 18331
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -10339,6 +10882,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 558 18232 18244 "cfg_refactor.ml" 558 18232 18247
 )
 "cfg_refactor.ml" 559 18276 18294 "cfg_refactor.ml" 559 18276 18335
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -10439,6 +10985,9 @@ ident(
   int_ref e "cfg_refactor.ml" 562 18357 18379 "cfg_refactor.ml" 562 18357 18380
 )
 "cfg_refactor.ml" 563 18391 18412 "cfg_refactor.ml" 563 18391 18431
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -10468,6 +11017,9 @@ ident(
   int_ref uop "cfg_refactor.ml" 562 18357 18375 "cfg_refactor.ml" 562 18357 18378
 )
 "cfg_refactor.ml" 564 18435 18467 "cfg_refactor.ml" 564 18435 18489
+call(
+  stack
+)
 type(
   Cfg.unary_op
 )
@@ -10527,6 +11079,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 562 18357 18382 "cfg_refactor.ml" 562 18357 18385
 )
 "cfg_refactor.ml" 565 18493 18503 "cfg_refactor.ml" 565 18493 18547
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -10603,6 +11158,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 569 18672 18692 "cfg_refactor.ml" 569 18672 18701
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'k
 )
@@ -10632,6 +11190,9 @@ ident(
   int_ref v "cfg_refactor.ml" 569 18672 18688 "cfg_refactor.ml" 569 18672 18689
 )
 "cfg_refactor.ml" 570 18705 18723 "cfg_refactor.ml" 570 18705 18737
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -10698,6 +11259,9 @@ ident(
   int_ref e' "cfg_refactor.ml" 571 18741 18753 "cfg_refactor.ml" 571 18741 18755
 )
 "cfg_refactor.ml" 572 18795 18805 "cfg_refactor.ml" 572 18795 18850
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -10787,6 +11351,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 574 18855 18873 "cfg_refactor.ml" 574 18855 18875
 )
 "cfg_refactor.ml" 575 18902 18924 "cfg_refactor.ml" 575 18902 18942
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -10824,6 +11391,9 @@ ident(
   int_ref e2 "cfg_refactor.ml" 574 18855 18889 "cfg_refactor.ml" 574 18855 18891
 )
 "cfg_refactor.ml" 576 18946 18968 "cfg_refactor.ml" 576 18946 18986
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -10894,6 +11464,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 574 18855 18893 "cfg_refactor.ml" 574 18855 18896
 )
 "cfg_refactor.ml" 579 19064 19091 "cfg_refactor.ml" 579 19064 19107
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -10918,6 +11491,9 @@ ident(
   int_ref e2' "cfg_refactor.ml" 576 18946 18962 "cfg_refactor.ml" 576 18946 18965
 )
 "cfg_refactor.ml" 579 19064 19081 "cfg_refactor.ml" 580 19142 19189
+call(
+  stack
+)
 type(
   string
 )
@@ -11026,6 +11602,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 585 19278 19300 "cfg_refactor.ml" 585 19278 19309
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'l
 )
@@ -11056,6 +11635,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 585 19278 19290 "cfg_refactor.ml" 585 19278 19293
 )
 "cfg_refactor.ml" 586 19313 19335 "cfg_refactor.ml" 586 19313 19344
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'm
 )
@@ -11116,6 +11698,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 584 19235 19270 "cfg_refactor.ml" 584 19235 19273
 )
 "cfg_refactor.ml" 587 19348 19366 "cfg_refactor.ml" 587 19348 19422
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -11150,6 +11735,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 584 19235 19270 "cfg_refactor.ml" 584 19235 19273
 )
 "cfg_refactor.ml" 588 19426 19442 "cfg_refactor.ml" 588 19426 19466
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -11184,6 +11772,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 584 19235 19270 "cfg_refactor.ml" 584 19235 19273
 )
 "cfg_refactor.ml" 589 19470 19486 "cfg_refactor.ml" 589 19470 19511
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -11234,6 +11825,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 584 19235 19270 "cfg_refactor.ml" 584 19235 19273
 )
 "cfg_refactor.ml" 590 19515 19545 "cfg_refactor.ml" 590 19515 19570
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -11245,6 +11839,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 587 19348 19360 "cfg_refactor.ml" 587 19348 19363
 )
 "cfg_refactor.ml" 590 19515 19533 "cfg_refactor.ml" 590 19515 19574
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -11346,6 +11943,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 594 19643 19665 "cfg_refactor.ml" 594 19643 19674
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 's
 )
@@ -11376,6 +11976,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 594 19643 19655 "cfg_refactor.ml" 594 19643 19658
 )
 "cfg_refactor.ml" 595 19678 19700 "cfg_refactor.ml" 595 19678 19709
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 't
 )
@@ -11436,6 +12039,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 593 19597 19635 "cfg_refactor.ml" 593 19597 19638
 )
 "cfg_refactor.ml" 596 19713 19731 "cfg_refactor.ml" 596 19713 19790
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -11470,6 +12076,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 593 19597 19635 "cfg_refactor.ml" 593 19597 19638
 )
 "cfg_refactor.ml" 597 19794 19810 "cfg_refactor.ml" 597 19794 19834
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -11504,6 +12113,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 593 19597 19635 "cfg_refactor.ml" 593 19597 19638
 )
 "cfg_refactor.ml" 598 19838 19854 "cfg_refactor.ml" 598 19838 19879
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -11554,6 +12166,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 593 19597 19635 "cfg_refactor.ml" 593 19597 19638
 )
 "cfg_refactor.ml" 599 19883 19913 "cfg_refactor.ml" 599 19883 19938
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -11565,6 +12180,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 596 19713 19725 "cfg_refactor.ml" 596 19713 19728
 )
 "cfg_refactor.ml" 599 19883 19901 "cfg_refactor.ml" 599 19883 19942
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -11657,6 +12275,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 602 19965 19999 "cfg_refactor.ml" 602 19965 20002
 )
 "cfg_refactor.ml" 603 20008 20026 "cfg_refactor.ml" 603 20008 20042
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -11666,6 +12287,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 603 20008 20016 "cfg_refactor.ml" 603 20008 20073
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -11742,6 +12366,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 605 20075 20127 "cfg_refactor.ml" 605 20075 20130
 )
 "cfg_refactor.ml" 606 20135 20143 "cfg_refactor.ml" 606 20135 20172
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -11818,6 +12445,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 607 20173 20223 "cfg_refactor.ml" 607 20173 20226
 )
 "cfg_refactor.ml" 608 20231 20239 "cfg_refactor.ml" 608 20231 20267
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -11884,6 +12514,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 610 20269 20287 "cfg_refactor.ml" 610 20269 20289
 )
 "cfg_refactor.ml" 611 20314 20336 "cfg_refactor.ml" 611 20314 20356
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -11921,6 +12554,9 @@ ident(
   int_ref e2 "cfg_refactor.ml" 610 20269 20303 "cfg_refactor.ml" 610 20269 20305
 )
 "cfg_refactor.ml" 612 20360 20382 "cfg_refactor.ml" 612 20360 20402
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -12032,6 +12668,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 615 20444 20462 "cfg_refactor.ml" 615 20444 20464
 )
 "cfg_refactor.ml" 616 20488 20510 "cfg_refactor.ml" 616 20488 20530
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -12069,6 +12708,9 @@ ident(
   int_ref e2 "cfg_refactor.ml" 615 20444 20477 "cfg_refactor.ml" 615 20444 20479
 )
 "cfg_refactor.ml" 617 20534 20556 "cfg_refactor.ml" 617 20534 20576
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -12180,6 +12822,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 620 20624 20642 "cfg_refactor.ml" 620 20624 20644
 )
 "cfg_refactor.ml" 621 20668 20690 "cfg_refactor.ml" 621 20668 20710
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -12217,6 +12862,9 @@ ident(
   int_ref e2 "cfg_refactor.ml" 620 20624 20657 "cfg_refactor.ml" 620 20624 20659
 )
 "cfg_refactor.ml" 622 20714 20736 "cfg_refactor.ml" 622 20714 20756
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -12332,6 +12980,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 625 20815 20833 "cfg_refactor.ml" 625 20815 20835
 )
 "cfg_refactor.ml" 626 20863 20891 "cfg_refactor.ml" 626 20863 20910
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -12369,6 +13020,9 @@ ident(
   int_ref e2 "cfg_refactor.ml" 625 20815 20850 "cfg_refactor.ml" 625 20815 20852
 )
 "cfg_refactor.ml" 627 20914 20936 "cfg_refactor.ml" 627 20914 20962
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr
 )
@@ -12412,6 +13066,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 625 20815 20854 "cfg_refactor.ml" 625 20815 20857
 )
 "cfg_refactor.ml" 628 20966 20996 "cfg_refactor.ml" 628 20966 21019
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -12423,6 +13080,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 627 20914 20926 "cfg_refactor.ml" 627 20914 20929
 )
 "cfg_refactor.ml" 628 20966 20984 "cfg_refactor.ml" 628 20966 21023
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -12452,6 +13112,9 @@ ident(
   int_ref after "cfg_refactor.ml" 626 20863 20883 "cfg_refactor.ml" 626 20863 20888
 )
 "cfg_refactor.ml" 629 21027 21045 "cfg_refactor.ml" 629 21027 21065
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -12507,6 +13170,9 @@ type(
   ('z, Format.formatter, unit, 'z) format4
 )
 "cfg_refactor.ml" 632 21140 21157 "cfg_refactor.ml" 632 21140 21215
+call(
+  stack
+)
 type(
   'z
 )
@@ -12611,6 +13277,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 637 21299 21320 "cfg_refactor.ml" 637 21299 21329
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'a1
 )
@@ -12674,6 +13343,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 636 21261 21290 "cfg_refactor.ml" 636 21261 21293
 )
 "cfg_refactor.ml" 638 21333 21351 "cfg_refactor.ml" 638 21333 21400
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -12784,6 +13456,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 642 21495 21528 "cfg_refactor.ml" 642 21495 21531
 )
 "cfg_refactor.ml" 643 21536 21580 "cfg_refactor.ml" 643 21536 21596
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -12792,6 +13467,9 @@ type(
   ('b1, Format.formatter, unit, 'b1) format4
 )
 "cfg_refactor.ml" 643 21536 21570 "cfg_refactor.ml" 643 21536 21619
+call(
+  tail
+)
 type(
   'b1
 )
@@ -12807,6 +13485,9 @@ ident(
   int_ref cb "cfg_refactor.ml" 642 21495 21524 "cfg_refactor.ml" 642 21495 21526
 )
 "cfg_refactor.ml" 643 21536 21552 "cfg_refactor.ml" 643 21536 21623
+call(
+  stack
+)
 type(
   'b1 option
 )
@@ -12837,6 +13518,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 644 21627 21648 "cfg_refactor.ml" 644 21627 21657
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'c1
 )
@@ -12876,6 +13560,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 642 21495 21528 "cfg_refactor.ml" 642 21495 21531
 )
 "cfg_refactor.ml" 645 21661 21671 "cfg_refactor.ml" 645 21661 21702
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -12957,6 +13644,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 648 21754 21774 "cfg_refactor.ml" 648 21754 21783
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'd1
 )
@@ -12986,6 +13676,9 @@ ident(
   int_ref v "cfg_refactor.ml" 648 21754 21770 "cfg_refactor.ml" 648 21754 21771
 )
 "cfg_refactor.ml" 649 21787 21805 "cfg_refactor.ml" 649 21787 21819
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -13022,6 +13715,9 @@ ident(
   int_ref e "cfg_refactor.ml" 490 15402 15440 "cfg_refactor.ml" 490 15402 15441
 )
 "cfg_refactor.ml" 650 21823 21833 "cfg_refactor.ml" 650 21823 21877
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -13088,6 +13784,9 @@ ident(
   int_ref s "cfg_refactor.ml" 652 21882 21922 "cfg_refactor.ml" 652 21882 21923
 )
 "cfg_refactor.ml" 653 21939 21950 "cfg_refactor.ml" 653 21939 21962
+call(
+  stack
+)
 type(
   bool
 )
@@ -13120,6 +13819,9 @@ ident(
   int_ref s "cfg_refactor.ml" 652 21882 21922 "cfg_refactor.ml" 652 21882 21923
 )
 "cfg_refactor.ml" 653 21939 21973 "cfg_refactor.ml" 653 21939 21998
+call(
+  stack
+)
 type(
   Cfg.expr
 )
@@ -13153,6 +13855,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 654 21999 22015 "cfg_refactor.ml" 654 21999 22036
+call(
+  stack
+)
 type(
   bool
 )
@@ -13198,7 +13903,7 @@ type(
   Utils.StrSet.elt -> Utils.StrSet.elt -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 656 22079 22099 "cfg_refactor.ml" 656 22079 22106
 type(
@@ -13241,6 +13946,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 490 15402 15425 "cfg_refactor.ml" 490 15402 15428
 )
 "cfg_refactor.ml" 658 22121 22146 "cfg_refactor.ml" 658 22121 22155
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'e1
 )
@@ -13277,6 +13985,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 652 21882 21925 "cfg_refactor.ml" 652 21882 21928
 )
 "cfg_refactor.ml" 659 22159 22171 "cfg_refactor.ml" 659 22159 22206
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -13336,6 +14047,9 @@ type(
   Ast.expr
 )
 "cfg_refactor.ml" 660 22212 22225 "cfg_refactor.ml" 660 22212 22276
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -13436,6 +14150,9 @@ ident(
   int_ref s "cfg_refactor.ml" 666 22405 22431 "cfg_refactor.ml" 666 22405 22432
 )
 "cfg_refactor.ml" 667 22443 22454 "cfg_refactor.ml" 667 22443 22466
+call(
+  stack
+)
 type(
   bool
 )
@@ -13468,6 +14185,9 @@ ident(
   int_ref s "cfg_refactor.ml" 666 22405 22431 "cfg_refactor.ml" 666 22405 22432
 )
 "cfg_refactor.ml" 667 22443 22477 "cfg_refactor.ml" 667 22443 22502
+call(
+  stack
+)
 type(
   Cfg.expr
 )
@@ -13504,6 +14224,9 @@ ident(
   int_ref ik "cfg_refactor.ml" 666 22405 22428 "cfg_refactor.ml" 666 22405 22430
 )
 "cfg_refactor.ml" 668 22503 22529 "cfg_refactor.ml" 668 22503 22552
+call(
+  stack
+)
 type(
   Cfg.var_kind
 )
@@ -13607,6 +14330,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 671 22614 22636 "cfg_refactor.ml" 671 22614 22639
 )
 "cfg_refactor.ml" 671 22614 22644 "cfg_refactor.ml" 671 22614 22666
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -13704,6 +14430,9 @@ ident(
   int_ref l "cfg_refactor.ml" 673 22668 22686 "cfg_refactor.ml" 673 22668 22687
 )
 "cfg_refactor.ml" 675 22722 22743 "cfg_refactor.ml" 675 22722 22796
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr DQueue.t
 )
@@ -13729,6 +14458,9 @@ ident(
   int_ref l' "cfg_refactor.ml" 675 22722 22738 "cfg_refactor.ml" 675 22722 22740
 )
 "cfg_refactor.ml" 676 22800 22826 "cfg_refactor.ml" 676 22800 22845
+call(
+  stack
+)
 type(
   Cfg.star_expr list
 )
@@ -13813,6 +14545,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 678 22847 22868 "cfg_refactor.ml" 678 22847 22871
 )
 "cfg_refactor.ml" 679 22876 22898 "cfg_refactor.ml" 679 22876 22926
+call(
+  stack
+)
 type(
   Cfg.stmt acc * (Cfg.star_expr Cfg.expr_ * Cfg.star_expr Cfg.expr_) list
 )
@@ -13900,6 +14635,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 682 22959 22982 "cfg_refactor.ml" 682 22959 22985
 )
 "cfg_refactor.ml" 685 23086 23104 "cfg_refactor.ml" 685 23086 23120
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -13909,6 +14647,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 685 23086 23094 "cfg_refactor.ml" 685 23086 23160
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -13945,6 +14686,9 @@ ident(
   int_ref l "cfg_refactor.ml" 688 23173 23191 "cfg_refactor.ml" 688 23173 23192
 )
 "cfg_refactor.ml" 688 23173 23213 "cfg_refactor.ml" 688 23173 23223
+call(
+  stack
+)
 type(
   Ast.expr list
 )
@@ -13974,6 +14718,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 689 23229 23245 "cfg_refactor.ml" 689 23229 23296
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -14028,10 +14775,16 @@ ident(
   int_ref rest "cfg_refactor.ml" 690 23297 23313 "cfg_refactor.ml" 690 23297 23317
 )
 "cfg_refactor.ml" 691 23321 23366 "cfg_refactor.ml" 691 23321 23381
+call(
+  stack
+)
 type(
   Ast.expr list
 )
 "cfg_refactor.ml" 691 23321 23343 "cfg_refactor.ml" 691 23321 23381
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -14057,6 +14810,9 @@ ident(
   int_ref last "cfg_refactor.ml" 690 23297 23307 "cfg_refactor.ml" 690 23297 23311
 )
 "cfg_refactor.ml" 692 23385 23399 "cfg_refactor.ml" 692 23385 23421
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -14094,6 +14850,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 695 23441 23462 "cfg_refactor.ml" 695 23441 23511
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -14194,6 +14953,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 697 23513 23547 "cfg_refactor.ml" 697 23513 23550
 )
 "cfg_refactor.ml" 700 23597 23618 "cfg_refactor.ml" 700 23597 23634
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -14202,6 +14964,9 @@ type(
   (Ast.expr, Format.formatter, unit, Ast.expr) format4
 )
 "cfg_refactor.ml" 700 23597 23608 "cfg_refactor.ml" 700 23597 23662
+call(
+  stack
+)
 type(
   Ast.expr
 )
@@ -14235,6 +15000,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 697 23513 23534 "cfg_refactor.ml" 697 23513 23537
 )
 "cfg_refactor.ml" 702 23668 23701 "cfg_refactor.ml" 702 23668 23717
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -14246,6 +15014,9 @@ ident(
   int_ref arg "cfg_refactor.ml" 698 23554 23560 "cfg_refactor.ml" 698 23554 23563
 )
 "cfg_refactor.ml" 702 23668 23687 "cfg_refactor.ml" 702 23668 23721
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -14275,6 +15046,9 @@ ident(
   int_ref inside_acc "cfg_refactor.ml" 702 23668 23674 "cfg_refactor.ml" 702 23668 23684
 )
 "cfg_refactor.ml" 703 23725 23737 "cfg_refactor.ml" 703 23725 23760
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -14308,6 +15082,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 704 23764 23780 "cfg_refactor.ml" 704 23764 23809
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -14319,6 +15096,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 697 23513 23547 "cfg_refactor.ml" 697 23513 23550
 )
 "cfg_refactor.ml" 704 23764 23774 "cfg_refactor.ml" 704 23764 23813
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -14358,6 +15138,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 697 23513 23547 "cfg_refactor.ml" 697 23513 23550
 )
 "cfg_refactor.ml" 705 23817 23833 "cfg_refactor.ml" 705 23817 23854
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -14369,6 +15152,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 703 23725 23731 "cfg_refactor.ml" 703 23725 23734
 )
 "cfg_refactor.ml" 705 23817 23821 "cfg_refactor.ml" 705 23817 23858
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -14455,6 +15241,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 707 23860 23887 "cfg_refactor.ml" 707 23860 23890
 )
 "cfg_refactor.ml" 708 23919 23941 "cfg_refactor.ml" 708 23919 23957
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -14463,6 +15252,9 @@ type(
   (Cfg.stmt acc, Format.formatter, unit, Cfg.stmt acc) format4
 )
 "cfg_refactor.ml" 708 23919 23931 "cfg_refactor.ml" 708 23919 23990
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -14528,6 +15320,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 707 23860 23887 "cfg_refactor.ml" 707 23860 23890
 )
 "cfg_refactor.ml" 710 24014 24032 "cfg_refactor.ml" 710 24014 24065
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -14539,6 +15334,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 707 23860 23879 "cfg_refactor.ml" 707 23860 23882
 )
 "cfg_refactor.ml" 710 24014 24020 "cfg_refactor.ml" 710 24014 24069
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -14622,6 +15420,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 707 23860 23887 "cfg_refactor.ml" 707 23860 23890
 )
 "cfg_refactor.ml" 712 24095 24113 "cfg_refactor.ml" 712 24095 24161
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -14633,6 +15434,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 707 23860 23879 "cfg_refactor.ml" 707 23860 23882
 )
 "cfg_refactor.ml" 712 24095 24101 "cfg_refactor.ml" 712 24095 24165
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -14726,6 +15530,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 715 24220 24254 "cfg_refactor.ml" 715 24220 24257
 )
 "cfg_refactor.ml" 716 24276 24306 "cfg_refactor.ml" 716 24276 24339
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr option * char option * bool
 )
@@ -14815,6 +15622,9 @@ type(
   char list
 )
 "cfg_refactor.ml" 721 24451 24493 "cfg_refactor.ml" 721 24451 24516
+call(
+  stack
+)
 type(
   string
 )
@@ -14834,6 +15644,9 @@ ident(
   int_ref re_interp "cfg_refactor.ml" 715 24220 24258 "cfg_refactor.ml" 715 24220 24267
 )
 "cfg_refactor.ml" 718 24371 24391 "cfg_refactor.ml" 722 24517 24534
+call(
+  stack
+)
 type(
   Ast.string_contents list
 )
@@ -14878,6 +15691,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 715 24220 24254 "cfg_refactor.ml" 715 24220 24257
 )
 "cfg_refactor.ml" 724 24543 24561 "cfg_refactor.ml" 724 24543 24601
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -14930,6 +15746,9 @@ ident(
   int_ref c "cfg_refactor.ml" 727 24659 24672 "cfg_refactor.ml" 727 24659 24673
 )
 "cfg_refactor.ml" 727 24659 24690 "cfg_refactor.ml" 727 24659 24707
+call(
+  stack
+)
 type(
   string
 )
@@ -15086,6 +15905,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 715 24220 24254 "cfg_refactor.ml" 715 24220 24257
 )
 "cfg_refactor.ml" 733 24837 24852 "cfg_refactor.ml" 734 24893 24934
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -15111,6 +15933,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 724 24543 24551 "cfg_refactor.ml" 724 24543 24554
 )
 "cfg_refactor.ml" 736 24948 24954 "cfg_refactor.ml" 736 24948 24974
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -15163,6 +15988,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 715 24220 24254 "cfg_refactor.ml" 715 24220 24257
 )
 "cfg_refactor.ml" 739 25003 25020 "cfg_refactor.ml" 739 25003 25036
+call(
+  stack
+)
 type(
   'm1
 )
@@ -15188,6 +16016,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 716 24276 24282 "cfg_refactor.ml" 716 24276 24285
 )
 "cfg_refactor.ml" 740 25040 25058 "cfg_refactor.ml" 740 25040 25072
+call(
+  stack
+)
 type(
   'n1 acc
 )
@@ -15220,6 +16051,9 @@ ident(
   int_ref glob "cfg_refactor.ml" 739 25003 25013 "cfg_refactor.ml" 739 25003 25017
 )
 "cfg_refactor.ml" 741 25076 25094 "cfg_refactor.ml" 741 25076 25115
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -15252,6 +16086,9 @@ ident(
   int_ref f_acc "cfg_refactor.ml" 741 25076 25086 "cfg_refactor.ml" 741 25076 25091
 )
 "cfg_refactor.ml" 742 25119 25135 "cfg_refactor.ml" 742 25119 25153
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -15305,6 +16142,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 715 24220 24254 "cfg_refactor.ml" 715 24220 24257
 )
 "cfg_refactor.ml" 745 25199 25212 "cfg_refactor.ml" 745 25199 25229
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -15334,6 +16174,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 746 25230 25250 "cfg_refactor.ml" 746 25230 25274
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -15345,10 +16188,16 @@ ident(
   int_ref pos "cfg_refactor.ml" 715 24220 24254 "cfg_refactor.ml" 715 24220 24257
 )
 "cfg_refactor.ml" 746 25230 25243 "cfg_refactor.ml" 746 25230 25279
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
 "cfg_refactor.ml" 744 25175 25183 "cfg_refactor.ml" 746 25230 25279
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -15374,6 +16223,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 742 25119 25129 "cfg_refactor.ml" 742 25119 25132
 )
 "cfg_refactor.ml" 748 25289 25297 "cfg_refactor.ml" 748 25289 25317
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -15435,6 +16287,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 716 24276 24282 "cfg_refactor.ml" 716 24276 24285
 )
 "cfg_refactor.ml" 750 25337 25358 "cfg_refactor.ml" 750 25337 25367
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'r1
 )
@@ -15460,6 +16315,9 @@ ident(
   int_ref lhs "cfg_refactor.ml" 750 25337 25352 "cfg_refactor.ml" 750 25337 25355
 )
 "cfg_refactor.ml" 751 25371 25379 "cfg_refactor.ml" 751 25371 25397
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -15607,6 +16465,9 @@ ident(
   int_ref ast_e "cfg_refactor.ml" 756 25570 25588 "cfg_refactor.ml" 756 25570 25593
 )
 "cfg_refactor.ml" 757 25598 25619 "cfg_refactor.ml" 757 25598 25642
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -15663,6 +16524,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 753 25404 25440 "cfg_refactor.ml" 753 25404 25443
 )
 "cfg_refactor.ml" 758 25646 25656 "cfg_refactor.ml" 758 25646 25719
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -15785,6 +16649,9 @@ ident(
   int_ref hd "cfg_refactor.ml" 762 25798 25804 "cfg_refactor.ml" 762 25798 25806
 )
 "cfg_refactor.ml" 763 25815 25836 "cfg_refactor.ml" 763 25815 25860
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -15859,6 +16726,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 753 25404 25440 "cfg_refactor.ml" 753 25404 25443
 )
 "cfg_refactor.ml" 765 25893 25903 "cfg_refactor.ml" 765 25893 25973
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'w1
 )
@@ -15891,6 +16761,9 @@ ident(
   int_ref tl "cfg_refactor.ml" 762 25798 25808 "cfg_refactor.ml" 762 25798 25810
 )
 "cfg_refactor.ml" 767 25986 25996 "cfg_refactor.ml" 767 25986 26018
+call(
+  tail
+)
 type(
   Cfg.stmt acc * 'v1
 )
@@ -15988,6 +16861,9 @@ ident(
   int_ref hd "cfg_refactor.ml" 772 26125 26133 "cfg_refactor.ml" 772 26125 26135
 )
 "cfg_refactor.ml" 773 26144 26167 "cfg_refactor.ml" 773 26144 26191
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16021,6 +16897,9 @@ ident(
   int_ref tl "cfg_refactor.ml" 772 26125 26137 "cfg_refactor.ml" 772 26125 26139
 )
 "cfg_refactor.ml" 774 26195 26207 "cfg_refactor.ml" 774 26195 26222
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16229,6 +17108,9 @@ ident(
   int_ref s "cfg_refactor.ml" 781 26449 26486 "cfg_refactor.ml" 781 26449 26487
 )
 "cfg_refactor.ml" 782 26493 26518 "cfg_refactor.ml" 782 26493 26544
+call(
+  stack
+)
 type(
   string
 )
@@ -16284,6 +17166,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 776 26238 26278 "cfg_refactor.ml" 776 26238 26281
 )
 "cfg_refactor.ml" 785 26590 26596 "cfg_refactor.ml" 785 26590 26628
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16343,6 +17228,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 776 26238 26278 "cfg_refactor.ml" 776 26238 26281
 )
 "cfg_refactor.ml" 787 26671 26690 "cfg_refactor.ml" 787 26671 26722
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16398,6 +17286,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 776 26238 26278 "cfg_refactor.ml" 776 26238 26281
 )
 "cfg_refactor.ml" 788 26726 26734 "cfg_refactor.ml" 788 26726 26800
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16498,6 +17389,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 776 26238 26278 "cfg_refactor.ml" 776 26238 26281
 )
 "cfg_refactor.ml" 792 26882 26903 "cfg_refactor.ml" 792 26882 26938
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16554,6 +17448,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 776 26238 26278 "cfg_refactor.ml" 776 26238 26281
 )
 "cfg_refactor.ml" 793 26942 26950 "cfg_refactor.ml" 793 26942 27017
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16606,6 +17503,9 @@ ident(
   int_ref s1 "cfg_refactor.ml" 795 27019 27052 "cfg_refactor.ml" 795 27019 27054
 )
 "cfg_refactor.ml" 796 27064 27080 "cfg_refactor.ml" 796 27064 27096
+call(
+  stack
+)
 type(
   string
 )
@@ -16701,6 +17601,9 @@ ident(
   int_ref s2 "cfg_refactor.ml" 799 27134 27156 "cfg_refactor.ml" 799 27134 27158
 )
 "cfg_refactor.ml" 799 27134 27163 "cfg_refactor.ml" 799 27134 27202
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16787,6 +17690,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 805 27341 27347 "cfg_refactor.ml" 806 27367 27443
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16881,6 +17787,9 @@ ident(
   int_ref e "cfg_refactor.ml" 809 27523 27553 "cfg_refactor.ml" 809 27523 27554
 )
 "cfg_refactor.ml" 810 27565 27585 "cfg_refactor.ml" 810 27565 27604
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -16951,6 +17860,9 @@ ident(
   int_ref e "cfg_refactor.ml" 812 27630 27634 "cfg_refactor.ml" 812 27630 27635
 )
 "cfg_refactor.ml" 813 27639 27659 "cfg_refactor.ml" 813 27639 27678
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -17061,6 +17973,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 817 27789 27823 "cfg_refactor.ml" 817 27789 27826
 )
 "cfg_refactor.ml" 818 27832 27848 "cfg_refactor.ml" 818 27832 27864
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -17071,6 +17986,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 818 27832 27838 "cfg_refactor.ml" 818 27832 27903
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.star_expr
 )
@@ -17103,6 +18021,9 @@ ident(
   int_ref e "cfg_refactor.ml" 819 27904 27908 "cfg_refactor.ml" 819 27904 27909
 )
 "cfg_refactor.ml" 819 27904 27913 "cfg_refactor.ml" 819 27904 27937
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.star_expr
 )
@@ -17174,6 +18095,9 @@ ident(
   int_ref arg_list "cfg_refactor.ml" 821 27939 27975 "cfg_refactor.ml" 821 27939 27983
 )
 "cfg_refactor.ml" 822 27990 28021 "cfg_refactor.ml" 822 27990 28038
+call(
+  stack
+)
 type(
   Ast.expr list
 )
@@ -17263,6 +18187,9 @@ ident(
   int_ref e "cfg_refactor.ml" 823 28048 28081 "cfg_refactor.ml" 823 28048 28082
 )
 "cfg_refactor.ml" 824 28105 28127 "cfg_refactor.ml" 824 28105 28146
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -17288,6 +18215,9 @@ ident(
   int_ref rest "cfg_refactor.ml" 823 28048 28090 "cfg_refactor.ml" 823 28048 28094
 )
 "cfg_refactor.ml" 825 28150 28165 "cfg_refactor.ml" 825 28150 28180
+call(
+  stack
+)
 type(
   Ast.expr list
 )
@@ -17378,6 +18308,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 826 28199 28236 "cfg_refactor.ml" 826 28199 28239
 )
 "cfg_refactor.ml" 827 28257 28275 "cfg_refactor.ml" 827 28257 28291
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -17388,6 +18321,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 827 28257 28265 "cfg_refactor.ml" 828 28292 28355
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Ast.expr list * Cfg.codeblock option
 )
@@ -17449,6 +18385,9 @@ ident(
   int_ref cb_e "cfg_refactor.ml" 829 28356 28372 "cfg_refactor.ml" 829 28356 28376
 )
 "cfg_refactor.ml" 829 28356 28400 "cfg_refactor.ml" 829 28356 28429
+call(
+  stack
+)
 type(
   Cfg.codeblock
 )
@@ -17582,6 +18521,9 @@ ident(
   int_ref x "cfg_refactor.ml" 833 28516 28535 "cfg_refactor.ml" 833 28516 28536
 )
 "cfg_refactor.ml" 834 28541 28563 "cfg_refactor.ml" 834 28541 28594
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr
 )
@@ -17646,6 +18588,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 822 27990 28001 "cfg_refactor.ml" 822 27990 28004
 )
 "cfg_refactor.ml" 832 28474 28501 "cfg_refactor.ml" 836 28621 28639
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr list
 )
@@ -17671,6 +18616,9 @@ ident(
   int_ref final_rev_args "cfg_refactor.ml" 832 28474 28484 "cfg_refactor.ml" 832 28474 28498
 )
 "cfg_refactor.ml" 838 28645 28654 "cfg_refactor.ml" 838 28645 28679
+call(
+  stack
+)
 type(
   Cfg.star_expr list
 )
@@ -17786,6 +18734,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 840 28689 28718 "cfg_refactor.ml" 840 28689 28721
 )
 "cfg_refactor.ml" 844 28791 28809 "cfg_refactor.ml" 844 28791 28825
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -17817,10 +18768,16 @@ ident(
   int_ref x "cfg_refactor.ml" 843 28775 28781 "cfg_refactor.ml" 843 28775 28782
 )
 "cfg_refactor.ml" 845 28864 28874 "cfg_refactor.ml" 845 28864 28918
+call(
+  stack
+)
 type(
   string
 )
 "cfg_refactor.ml" 844 28791 28799 "cfg_refactor.ml" 845 28864 28918
+call(
+  tail
+)
 type(
   (Cfg.expr * Cfg.expr) list
 )
@@ -17897,6 +18854,9 @@ ident(
   int_ref tl "cfg_refactor.ml" 846 28919 28931 "cfg_refactor.ml" 846 28919 28933
 )
 "cfg_refactor.ml" 846 28919 28937 "cfg_refactor.ml" 846 28919 28962
+call(
+  tail
+)
 type(
   (Cfg.expr * Cfg.expr) list
 )
@@ -18061,6 +19021,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 854 29149 29180 "cfg_refactor.ml" 854 29149 29182
 )
 "cfg_refactor.ml" 855 29207 29242 "cfg_refactor.ml" 855 29207 29262
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -18098,6 +19061,9 @@ ident(
   int_ref e2 "cfg_refactor.ml" 854 29149 29196 "cfg_refactor.ml" 854 29149 29198
 )
 "cfg_refactor.ml" 856 29266 29301 "cfg_refactor.ml" 856 29266 29321
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -18178,6 +19144,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 840 28689 28718 "cfg_refactor.ml" 840 28689 28721
 )
 "cfg_refactor.ml" 858 29369 29403 "cfg_refactor.ml" 858 29369 29419
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -18188,6 +19157,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 858 29369 29393 "cfg_refactor.ml" 858 29369 29456
+call(
+  tail
+)
 type(
   Cfg.stmt acc * (Cfg.expr * Cfg.expr) list
 )
@@ -18223,6 +19195,9 @@ ident(
   int_ref l "cfg_refactor.ml" 840 28689 28716 "cfg_refactor.ml" 840 28689 28717
 )
 "cfg_refactor.ml" 852 29081 29093 "cfg_refactor.ml" 859 29457 29483
+call(
+  stack
+)
 type(
   Cfg.stmt acc * (Cfg.expr * Cfg.expr) list
 )
@@ -18249,6 +19224,9 @@ ident(
   int_ref rlst "cfg_refactor.ml" 851 29055 29073 "cfg_refactor.ml" 851 29055 29077
 )
 "cfg_refactor.ml" 861 29497 29514 "cfg_refactor.ml" 861 29497 29527
+call(
+  stack
+)
 type(
   (Cfg.star_expr Cfg.expr_ * Cfg.star_expr Cfg.expr_) list
 )
@@ -18326,6 +19304,9 @@ ident(
   int_ref l "cfg_refactor.ml" 840 28689 28716 "cfg_refactor.ml" 840 28689 28717
 )
 "cfg_refactor.ml" 864 29546 29569 "cfg_refactor.ml" 864 29546 29617
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr DQueue.t
 )
@@ -18366,14 +19347,23 @@ ident(
   int_ref l' "cfg_refactor.ml" 864 29546 29564 "cfg_refactor.ml" 864 29546 29566
 )
 "cfg_refactor.ml" 865 29621 29664 "cfg_refactor.ml" 865 29621 29683
+call(
+  stack
+)
 type(
   Cfg.expr list
 )
 "cfg_refactor.ml" 865 29621 29650 "cfg_refactor.ml" 865 29621 29684
+call(
+  stack
+)
 type(
   (Cfg.expr * Cfg.expr) list
 )
 "cfg_refactor.ml" 865 29621 29641 "cfg_refactor.ml" 865 29621 29684
+call(
+  stack
+)
 type(
   (Cfg.expr * Cfg.expr) list
 )
@@ -18496,6 +19486,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 868 29710 29745 "cfg_refactor.ml" 868 29710 29747
 )
 "cfg_refactor.ml" 869 29762 29778 "cfg_refactor.ml" 869 29762 29798
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -18533,6 +19526,9 @@ ident(
   int_ref e2 "cfg_refactor.ml" 868 29710 29752 "cfg_refactor.ml" 868 29710 29754
 )
 "cfg_refactor.ml" 870 29802 29818 "cfg_refactor.ml" 870 29802 29850
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr
 )
@@ -18586,6 +19582,9 @@ ident(
   int_ref bop "cfg_refactor.ml" 868 29710 29748 "cfg_refactor.ml" 868 29710 29751
 )
 "cfg_refactor.ml" 871 29855 29909 "cfg_refactor.ml" 871 29855 29933
+call(
+  stack
+)
 type(
   Cfg.binary_op
 )
@@ -18612,6 +19611,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 868 29710 29755 "cfg_refactor.ml" 868 29710 29758
 )
 "cfg_refactor.ml" 871 29855 29868 "cfg_refactor.ml" 872 29935 29948
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -18637,6 +19639,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 870 29802 29808 "cfg_refactor.ml" 870 29802 29811
 )
 "cfg_refactor.ml" 873 29949 29954 "cfg_refactor.ml" 873 29949 29974
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -18721,6 +19726,9 @@ ident(
   int_ref l "cfg_refactor.ml" 875 29976 30011 "cfg_refactor.ml" 875 29976 30012
 )
 "cfg_refactor.ml" 876 30040 30055 "cfg_refactor.ml" 876 30040 30074
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -18750,6 +19758,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 876 30040 30046 "cfg_refactor.ml" 876 30040 30049
 )
 "cfg_refactor.ml" 880 30293 30321 "cfg_refactor.ml" 880 30293 30337
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -18761,6 +19772,9 @@ ident(
   int_ref r "cfg_refactor.ml" 875 29976 30013 "cfg_refactor.ml" 875 29976 30014
 )
 "cfg_refactor.ml" 880 30293 30307 "cfg_refactor.ml" 880 30293 30339
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -18791,6 +19805,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 876 30040 30046 "cfg_refactor.ml" 876 30040 30049
 )
 "cfg_refactor.ml" 881 30343 30358 "cfg_refactor.ml" 881 30343 30367
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'd2
 )
@@ -18827,6 +19844,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 875 29976 30015 "cfg_refactor.ml" 875 29976 30018
 )
 "cfg_refactor.ml" 882 30371 30382 "cfg_refactor.ml" 882 30371 30399
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -18886,6 +19906,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 875 29976 30015 "cfg_refactor.ml" 875 29976 30018
 )
 "cfg_refactor.ml" 883 30403 30417 "cfg_refactor.ml" 883 30403 30466
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -18919,6 +19942,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 884 30470 30487 "cfg_refactor.ml" 884 30470 30511
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -18930,6 +19956,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 875 29976 30015 "cfg_refactor.ml" 875 29976 30018
 )
 "cfg_refactor.ml" 884 30470 30481 "cfg_refactor.ml" 884 30470 30515
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -18980,6 +20009,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 875 29976 30015 "cfg_refactor.ml" 875 29976 30018
 )
 "cfg_refactor.ml" 889 30692 30716 "cfg_refactor.ml" 889 30692 30743
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -18991,6 +20023,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 881 30343 30349 "cfg_refactor.ml" 881 30343 30352
 )
 "cfg_refactor.ml" 889 30692 30704 "cfg_refactor.ml" 889 30692 30747
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -19016,6 +20051,9 @@ ident(
   int_ref v_acc "cfg_refactor.ml" 883 30403 30409 "cfg_refactor.ml" 883 30403 30414
 )
 "cfg_refactor.ml" 890 30751 30755 "cfg_refactor.ml" 890 30751 30775
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -19130,6 +20168,9 @@ ident(
   int_ref l "cfg_refactor.ml" 892 30780 30803 "cfg_refactor.ml" 892 30780 30804
 )
 "cfg_refactor.ml" 893 30814 30829 "cfg_refactor.ml" 893 30814 30848
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -19160,6 +20201,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 893 30814 30820 "cfg_refactor.ml" 893 30814 30823
 )
 "cfg_refactor.ml" 898 31107 31122 "cfg_refactor.ml" 898 31107 31131
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'f2
 )
@@ -19196,6 +20240,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 892 30780 30807 "cfg_refactor.ml" 892 30780 30810
 )
 "cfg_refactor.ml" 899 31135 31146 "cfg_refactor.ml" 899 31135 31163
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -19254,6 +20301,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 898 31107 31113 "cfg_refactor.ml" 898 31107 31116
 )
 "cfg_refactor.ml" 901 31201 31229 "cfg_refactor.ml" 901 31201 31245
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -19265,6 +20315,9 @@ ident(
   int_ref r "cfg_refactor.ml" 892 30780 30805 "cfg_refactor.ml" 892 30780 30806
 )
 "cfg_refactor.ml" 901 31201 31215 "cfg_refactor.ml" 901 31201 31247
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -19302,6 +20355,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 892 30780 30807 "cfg_refactor.ml" 892 30780 30810
 )
 "cfg_refactor.ml" 902 31251 31265 "cfg_refactor.ml" 902 31251 31300
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -19335,6 +20391,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 903 31304 31321 "cfg_refactor.ml" 903 31304 31345
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -19346,6 +20405,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 892 30780 30807 "cfg_refactor.ml" 892 30780 30810
 )
 "cfg_refactor.ml" 903 31304 31315 "cfg_refactor.ml" 903 31304 31349
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -19396,6 +20458,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 892 30780 30807 "cfg_refactor.ml" 892 30780 30810
 )
 "cfg_refactor.ml" 908 31527 31551 "cfg_refactor.ml" 908 31527 31578
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -19407,6 +20472,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 898 31107 31113 "cfg_refactor.ml" 898 31107 31116
 )
 "cfg_refactor.ml" 908 31527 31539 "cfg_refactor.ml" 908 31527 31582
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -19432,6 +20500,9 @@ ident(
   int_ref v_acc "cfg_refactor.ml" 902 31251 31257 "cfg_refactor.ml" 902 31251 31262
 )
 "cfg_refactor.ml" 909 31586 31590 "cfg_refactor.ml" 909 31586 31610
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -19578,6 +20649,9 @@ ident(
   int_ref l "cfg_refactor.ml" 913 31720 31738 "cfg_refactor.ml" 913 31720 31739
 )
 "cfg_refactor.ml" 914 31749 31770 "cfg_refactor.ml" 914 31749 31824
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr DQueue.t
 )
@@ -19603,6 +20677,9 @@ ident(
   int_ref l' "cfg_refactor.ml" 914 31749 31765 "cfg_refactor.ml" 914 31749 31767
 )
 "cfg_refactor.ml" 915 31828 31849 "cfg_refactor.ml" 915 31828 31870
+call(
+  stack
+)
 type(
   Cfg.tuple_expr list
 )
@@ -19674,6 +20751,9 @@ ident(
   int_ref e "cfg_refactor.ml" 917 31872 31904 "cfg_refactor.ml" 917 31872 31905
 )
 "cfg_refactor.ml" 918 31916 31938 "cfg_refactor.ml" 918 31916 31963
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr
 )
@@ -19769,6 +20849,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 922 32075 32091 "cfg_refactor.ml" 922 32075 32165
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr
 )
@@ -19818,6 +20901,9 @@ ident(
   int_ref e "cfg_refactor.ml" 911 31621 31661 "cfg_refactor.ml" 911 31621 31662
 )
 "cfg_refactor.ml" 925 32192 32216 "cfg_refactor.ml" 925 32192 32235
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -20064,6 +21150,9 @@ ident(
   int_ref hd "cfg_refactor.ml" 934 32504 32516 "cfg_refactor.ml" 934 32504 32518
 )
 "cfg_refactor.ml" 935 32527 32560 "cfg_refactor.ml" 935 32527 32579
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -20093,6 +21182,9 @@ ident(
   int_ref after' "cfg_refactor.ml" 935 32527 32551 "cfg_refactor.ml" 935 32527 32557
 )
 "cfg_refactor.ml" 936 32583 32609 "cfg_refactor.ml" 936 32583 32632
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -20122,6 +21214,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 932 32423 32449 "cfg_refactor.ml" 932 32423 32452
 )
 "cfg_refactor.ml" 937 32636 32659 "cfg_refactor.ml" 937 32636 32679
+call(
+  stack
+)
 type(
   Cfg.lhs DQueue.t
 )
@@ -20166,6 +21261,9 @@ ident(
   int_ref tl "cfg_refactor.ml" 934 32504 32520 "cfg_refactor.ml" 934 32504 32522
 )
 "cfg_refactor.ml" 938 32683 32699 "cfg_refactor.ml" 938 32683 32721
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.lhs DQueue.t * Cfg.stmt acc
 )
@@ -20238,6 +21336,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 929 32303 32320 "cfg_refactor.ml" 929 32303 32323
 )
 "cfg_refactor.ml" 940 32733 32783 "cfg_refactor.ml" 940 32733 32796
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -20253,6 +21354,9 @@ ident(
   int_ref l "cfg_refactor.ml" 931 32394 32412 "cfg_refactor.ml" 931 32394 32413
 )
 "cfg_refactor.ml" 940 32733 32760 "cfg_refactor.ml" 940 32733 32799
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs DQueue.t * Cfg.stmt acc
 )
@@ -20278,6 +21382,9 @@ ident(
   int_ref l' "cfg_refactor.ml" 940 32733 32749 "cfg_refactor.ml" 940 32733 32751
 )
 "cfg_refactor.ml" 941 32803 32824 "cfg_refactor.ml" 941 32803 32845
+call(
+  stack
+)
 type(
   Cfg.lhs list
 )
@@ -20346,6 +21453,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 929 32303 32320 "cfg_refactor.ml" 929 32303 32323
 )
 "cfg_refactor.ml" 944 32909 32930 "cfg_refactor.ml" 944 32909 32939
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'i2
 )
@@ -20382,6 +21492,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 944 32909 32921 "cfg_refactor.ml" 944 32909 32924
 )
 "cfg_refactor.ml" 945 32943 32969 "cfg_refactor.ml" 945 32943 32982
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -20453,6 +21566,9 @@ ident(
   int_ref e "cfg_refactor.ml" 947 32994 33026 "cfg_refactor.ml" 947 32994 33027
 )
 "cfg_refactor.ml" 948 33038 33066 "cfg_refactor.ml" 948 33038 33084
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -20548,6 +21664,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 947 32994 33029 "cfg_refactor.ml" 947 32994 33032
 )
 "cfg_refactor.ml" 952 33210 33236 "cfg_refactor.ml" 952 33210 33252
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -20558,6 +21677,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 952 33210 33226 "cfg_refactor.ml" 952 33210 33281
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'h2 * Cfg.stmt acc
 )
@@ -20606,6 +21728,9 @@ ident(
   int_ref s "cfg_refactor.ml" 955 33297 33337 "cfg_refactor.ml" 955 33297 33338
 )
 "cfg_refactor.ml" 956 33350 33361 "cfg_refactor.ml" 956 33350 33373
+call(
+  stack
+)
 type(
   bool
 )
@@ -20633,6 +21758,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 956 33350 33379 "cfg_refactor.ml" 956 33350 33413
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'h2 * Cfg.stmt acc
 )
@@ -20677,6 +21805,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 929 32303 32320 "cfg_refactor.ml" 929 32303 32323
 )
 "cfg_refactor.ml" 957 33414 33456 "cfg_refactor.ml" 957 33414 33469
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -20728,6 +21859,9 @@ ident(
   int_ref s "cfg_refactor.ml" 959 33471 33497 "cfg_refactor.ml" 959 33471 33498
 )
 "cfg_refactor.ml" 960 33509 33520 "cfg_refactor.ml" 960 33509 33532
+call(
+  stack
+)
 type(
   bool
 )
@@ -20755,6 +21889,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 960 33509 33538 "cfg_refactor.ml" 960 33509 33572
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'h2 * Cfg.stmt acc
 )
@@ -20787,6 +21924,9 @@ ident(
   int_ref ik "cfg_refactor.ml" 959 33471 33494 "cfg_refactor.ml" 959 33471 33496
 )
 "cfg_refactor.ml" 961 33573 33599 "cfg_refactor.ml" 961 33573 33622
+call(
+  stack
+)
 type(
   Cfg.var_kind
 )
@@ -20820,6 +21960,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 929 32303 32320 "cfg_refactor.ml" 929 32303 32323
 )
 "cfg_refactor.ml" 961 33573 33628 "cfg_refactor.ml" 961 33573 33641
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -20884,6 +22027,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 964 33696 33704 "cfg_refactor.ml" 964 33696 33748
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'h2 * Cfg.stmt acc
 )
@@ -20954,6 +22100,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 929 32303 32320 "cfg_refactor.ml" 929 32303 32323
 )
 "cfg_refactor.ml" 967 33826 33846 "cfg_refactor.ml" 967 33826 33859
+call(
+  stack
+)
 type(
   'k2 acc
 )
@@ -20991,6 +22140,9 @@ ident(
   int_ref targ "cfg_refactor.ml" 966 33750 33785 "cfg_refactor.ml" 966 33750 33789
 )
 "cfg_refactor.ml" 968 33863 33889 "cfg_refactor.ml" 968 33863 33913
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -21028,6 +22180,9 @@ ident(
   int_ref msg "cfg_refactor.ml" 966 33750 33801 "cfg_refactor.ml" 966 33750 33804
 )
 "cfg_refactor.ml" 969 33917 33942 "cfg_refactor.ml" 969 33917 33964
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -21050,6 +22205,9 @@ ident(
   int_ref msg' "cfg_refactor.ml" 969 33917 33935 "cfg_refactor.ml" 969 33917 33939
 )
 "cfg_refactor.ml" 970 33968 33987 "cfg_refactor.ml" 970 33968 34011
+call(
+  stack
+)
 type(
   Cfg.msg_id
 )
@@ -21097,6 +22255,9 @@ type(
   Ast.expr option
 )
 "cfg_refactor.ml" 971 34015 34046 "cfg_refactor.ml" 971 34015 34089
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr list * Cfg.codeblock option
 )
@@ -21127,6 +22288,9 @@ ident(
   int_ref after "cfg_refactor.ml" 971 34015 34027 "cfg_refactor.ml" 971 34015 34032
 )
 "cfg_refactor.ml" 972 34093 34123 "cfg_refactor.ml" 972 34093 34134
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'l2
 )
@@ -21146,7 +22310,7 @@ type(
   Cfg.star_expr list -> Cfg.star_expr list -> Cfg.star_expr list
 )
 ident(
-  ext_ref Pervasives.@
+  ext_ref Pervasives.( @ )
 )
 "cfg_refactor.ml" 973 34138 34167 "cfg_refactor.ml" 973 34138 34175
 type(
@@ -21160,6 +22324,9 @@ type(
   Cfg.star_expr list
 )
 "cfg_refactor.ml" 973 34138 34158 "cfg_refactor.ml" 973 34138 34176
+call(
+  stack
+)
 type(
   Cfg.star_expr list
 )
@@ -21213,6 +22380,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 966 33750 33818 "cfg_refactor.ml" 966 33750 33821
 )
 "cfg_refactor.ml" 974 34180 34202 "cfg_refactor.ml" 974 34180 34240
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -21242,6 +22412,9 @@ ident(
   int_ref after "cfg_refactor.ml" 972 34093 34105 "cfg_refactor.ml" 972 34093 34110
 )
 "cfg_refactor.ml" 975 34244 34264 "cfg_refactor.ml" 975 34244 34289
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -21347,6 +22520,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 979 34365 34373 "cfg_refactor.ml" 979 34365 34423
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'h2 * Cfg.stmt acc
 )
@@ -21376,6 +22552,9 @@ ident(
   int_ref e "cfg_refactor.ml" 929 32303 32324 "cfg_refactor.ml" 929 32303 32325
 )
 "cfg_refactor.ml" 982 34437 34451 "cfg_refactor.ml" 982 34437 34470
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -21430,6 +22609,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 983 34476 34488 "cfg_refactor.ml" 983 34476 34491
 )
 "cfg_refactor.ml" 983 34476 34525 "cfg_refactor.ml" 983 34476 34538
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -21476,6 +22658,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 984 34539 34568 "cfg_refactor.ml" 984 34539 34602
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'h2 * Cfg.stmt acc
 )
@@ -21513,6 +22698,9 @@ ident(
   int_ref lhs "cfg_refactor.ml" 930 32359 32369 "cfg_refactor.ml" 930 32359 32372
 )
 "cfg_refactor.ml" 986 34608 34620 "cfg_refactor.ml" 986 34608 34636
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -21595,6 +22783,9 @@ ident(
   int_ref e "cfg_refactor.ml" 989 34660 34691 "cfg_refactor.ml" 989 34660 34692
 )
 "cfg_refactor.ml" 990 34720 34728 "cfg_refactor.ml" 990 34720 34747
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -21678,10 +22869,16 @@ ident(
   int_ref e "cfg_refactor.ml" 989 34660 34691 "cfg_refactor.ml" 989 34660 34692
 )
 "cfg_refactor.ml" 993 34822 34852 "cfg_refactor.ml" 993 34822 34866
+call(
+  stack
+)
 type(
   Ast.pos
 )
 "cfg_refactor.ml" 993 34822 34840 "cfg_refactor.ml" 993 34822 34867
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -21707,6 +22904,9 @@ ident(
   int_ref l "cfg_refactor.ml" 992 34794 34802 "cfg_refactor.ml" 992 34794 34817
 )
 "cfg_refactor.ml" 993 34822 34830 "cfg_refactor.ml" 994 34895 34933
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -21792,6 +22992,9 @@ ident(
   int_ref bop "cfg_refactor.ml" 997 35008 35027 "cfg_refactor.ml" 997 35008 35030
 )
 "cfg_refactor.ml" 997 35008 35059 "cfg_refactor.ml" 997 35008 35083
+call(
+  stack
+)
 type(
   Cfg.binary_op
 )
@@ -21850,6 +23053,9 @@ ident(
   int_ref uop "cfg_refactor.ml" 998 35084 35104 "cfg_refactor.ml" 998 35084 35107
 )
 "cfg_refactor.ml" 998 35084 35136 "cfg_refactor.ml" 998 35084 35158
+call(
+  stack
+)
 type(
   Cfg.unary_op
 )
@@ -22063,6 +23269,9 @@ ident(
   int_ref lk "cfg_refactor.ml" 1007 35412 35430 "cfg_refactor.ml" 1007 35412 35495
 )
 "cfg_refactor.ml" 1009 35525 35541 "cfg_refactor.ml" 1009 35525 35588
+call(
+  stack
+)
 type(
   string
 )
@@ -22131,10 +23340,16 @@ ident(
   int_ref e "cfg_refactor.ml" 1011 35624 35628 "cfg_refactor.ml" 1011 35624 35629
 )
 "cfg_refactor.ml" 1012 35633 35661 "cfg_refactor.ml" 1012 35633 35675
+call(
+  stack
+)
 type(
   Ast.pos
 )
 "cfg_refactor.ml" 1012 35633 35649 "cfg_refactor.ml" 1012 35633 35676
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -22159,10 +23374,16 @@ ident(
   int_ref e "cfg_refactor.ml" 1011 35624 35628 "cfg_refactor.ml" 1011 35624 35629
 )
 "cfg_refactor.ml" 1013 35710 35718 "cfg_refactor.ml" 1013 35710 35748
+call(
+  stack
+)
 type(
   string
 )
 "cfg_refactor.ml" 1012 35633 35639 "cfg_refactor.ml" 1013 35710 35748
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -22264,6 +23485,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1016 35821 35860 "cfg_refactor.ml" 1016 35821 35863
 )
 "cfg_refactor.ml" 1017 35868 35887 "cfg_refactor.ml" 1017 35868 35924
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -22307,6 +23531,9 @@ ident(
   int_ref s "cfg_refactor.ml" 1019 35956 35980 "cfg_refactor.ml" 1019 35956 35981
 )
 "cfg_refactor.ml" 1019 35956 35990 "cfg_refactor.ml" 1019 35956 36010
+call(
+  stack
+)
 type(
   Cfg.msg_id
 )
@@ -22342,6 +23569,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 1020 36011 36028 "cfg_refactor.ml" 1020 36011 36082
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -22382,6 +23612,9 @@ ident(
   int_ref msg "cfg_refactor.ml" 1022 36095 36099 "cfg_refactor.ml" 1022 36095 36102
 )
 "cfg_refactor.ml" 1022 36095 36106 "cfg_refactor.ml" 1022 36095 36126
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -22520,6 +23753,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1025 36190 36226 "cfg_refactor.ml" 1025 36190 36229
 )
 "cfg_refactor.ml" 1030 36344 36369 "cfg_refactor.ml" 1030 36344 36411
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.block_formal_param list
 )
@@ -22549,6 +23785,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1030 36344 36354 "cfg_refactor.ml" 1030 36344 36357
 )
 "cfg_refactor.ml" 1031 36415 36455 "cfg_refactor.ml" 1031 36415 36471
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -22560,6 +23799,9 @@ ident(
   int_ref body "cfg_refactor.ml" 1025 36190 36220 "cfg_refactor.ml" 1025 36190 36224
 )
 "cfg_refactor.ml" 1031 36415 36436 "cfg_refactor.ml" 1031 36415 36476
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -22623,6 +23865,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1025 36190 36226 "cfg_refactor.ml" 1025 36190 36229
 )
 "cfg_refactor.ml" 1033 36519 36540 "cfg_refactor.ml" 1033 36519 36578
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -22659,6 +23904,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1034 36582 36614 "cfg_refactor.ml" 1034 36582 36641
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -22670,6 +23918,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1025 36190 36226 "cfg_refactor.ml" 1025 36190 36229
 )
 "cfg_refactor.ml" 1034 36582 36608 "cfg_refactor.ml" 1034 36582 36645
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -22722,6 +23973,9 @@ type(
   (Cfg.codeblock, Format.formatter, unit, Cfg.codeblock) format4
 )
 "cfg_refactor.ml" 1036 36657 36663 "cfg_refactor.ml" 1036 36657 36718
+call(
+  tail
+)
 type(
   Cfg.codeblock
 )
@@ -22775,6 +24029,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1038 36720 36738 "cfg_refactor.ml" 1038 36720 36741
 )
 "cfg_refactor.ml" 1038 36720 36757 "cfg_refactor.ml" 1038 36720 36781
+call(
+  stack
+)
 type(
   Ast.expr -> Cfg.codeblock
 )
@@ -22786,6 +24043,9 @@ ident(
   int_ref cb_o "cfg_refactor.ml" 1038 36720 36742 "cfg_refactor.ml" 1038 36720 36746
 )
 "cfg_refactor.ml" 1038 36720 36749 "cfg_refactor.ml" 1038 36720 36786
+call(
+  tail
+)
 type(
   Cfg.codeblock option
 )
@@ -22868,6 +24128,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 1046 37047 37056 "cfg_refactor.ml" 1046 37047 37061
 )
 "cfg_refactor.ml" 1046 37047 37077 "cfg_refactor.ml" 1046 37047 37089
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -22905,6 +24168,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1048 37134 37150 "cfg_refactor.ml" 1048 37134 37176
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -22959,6 +24225,9 @@ ident(
   int_ref last "cfg_refactor.ml" 1049 37177 37187 "cfg_refactor.ml" 1049 37177 37191
 )
 "cfg_refactor.ml" 1050 37201 37225 "cfg_refactor.ml" 1050 37201 37258
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -22995,6 +24264,9 @@ type(
   Cfg.stmt list
 )
 "cfg_refactor.ml" 1051 37262 37282 "cfg_refactor.ml" 1051 37262 37306
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -23010,6 +24282,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1051 37262 37276 "cfg_refactor.ml" 1051 37262 37312
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23065,6 +24340,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1055 37370 37378 "cfg_refactor.ml" 1055 37370 37398
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23127,6 +24405,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1058 37472 37505 "cfg_refactor.ml" 1058 37472 37528
+call(
+  stack
+)
 type(
   Cfg.tuple_expr
 )
@@ -23142,6 +24423,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1058 37472 37492 "cfg_refactor.ml" 1058 37472 37534
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23182,6 +24466,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1059 37538 37548 "cfg_refactor.ml" 1059 37538 37569
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23245,6 +24532,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1062 37632 37640 "cfg_refactor.ml" 1062 37632 37679
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23296,6 +24586,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1063 37680 37704 "cfg_refactor.ml" 1063 37680 37731
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23385,6 +24678,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1067 37839 37872 "cfg_refactor.ml" 1067 37839 37896
+call(
+  stack
+)
 type(
   Cfg.tuple_expr
 )
@@ -23400,6 +24696,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1067 37839 37859 "cfg_refactor.ml" 1067 37839 37902
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23440,6 +24739,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1068 37906 37916 "cfg_refactor.ml" 1068 37906 37937
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23505,6 +24807,9 @@ ident(
   int_ref t "cfg_refactor.ml" 1070 37939 37950 "cfg_refactor.ml" 1070 37939 37951
 )
 "cfg_refactor.ml" 1071 37958 37975 "cfg_refactor.ml" 1071 37958 38005
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23541,6 +24846,9 @@ ident(
   int_ref f "cfg_refactor.ml" 1070 37939 37952 "cfg_refactor.ml" 1070 37939 37953
 )
 "cfg_refactor.ml" 1072 38009 38026 "cfg_refactor.ml" 1072 38009 38056
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23584,6 +24892,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1073 38060 38070 "cfg_refactor.ml" 1073 38060 38096
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23643,6 +24954,9 @@ ident(
   int_ref body "cfg_refactor.ml" 1075 38110 38125 "cfg_refactor.ml" 1075 38110 38129
 )
 "cfg_refactor.ml" 1076 38134 38154 "cfg_refactor.ml" 1076 38134 38192
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23680,6 +24994,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1078 38272 38295 "cfg_refactor.ml" 1078 38272 38321
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23730,6 +25047,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1079 38325 38351 "cfg_refactor.ml" 1079 38325 38376
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23749,6 +25069,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1079 38325 38335 "cfg_refactor.ml" 1079 38325 38383
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23822,6 +25145,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1082 38413 38433 "cfg_refactor.ml" 1082 38413 38452
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23855,6 +25181,9 @@ ident(
   int_ref body "cfg_refactor.ml" 1081 38385 38403 "cfg_refactor.ml" 1081 38385 38407
 )
 "cfg_refactor.ml" 1083 38456 38476 "cfg_refactor.ml" 1083 38456 38514
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23915,6 +25244,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1084 38518 38541 "cfg_refactor.ml" 1084 38518 38577
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -23934,6 +25266,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1084 38518 38528 "cfg_refactor.ml" 1084 38518 38584
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -23997,6 +25332,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1087 38611 38631 "cfg_refactor.ml" 1087 38611 38652
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -24037,6 +25375,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1088 38656 38666 "cfg_refactor.ml" 1088 38656 38687
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -24092,6 +25433,9 @@ type(
   Cfg.stmt
 )
 "cfg_refactor.ml" 1091 38725 38744 "cfg_refactor.ml" 1091 38725 38785
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -24165,10 +25509,16 @@ type(
   Cfg.stmt
 )
 "cfg_refactor.ml" 1094 38865 38887 "cfg_refactor.ml" 1094 38865 38931
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
 "cfg_refactor.ml" 1093 38811 38840 "cfg_refactor.ml" 1094 38865 38931
+call(
+  tail
+)
 type(
   Cfg.rescue_block
 )
@@ -24188,6 +25538,9 @@ type(
   Cfg.rescue_block list
 )
 "cfg_refactor.ml" 1093 38811 38821 "cfg_refactor.ml" 1095 38932 38968
+call(
+  stack
+)
 type(
   Cfg.rescue_block list
 )
@@ -24239,6 +25592,9 @@ ident(
   int_ref id "cfg_refactor.ml" 1044 36934 36965 "cfg_refactor.ml" 1044 36934 36967
 )
 "cfg_refactor.ml" 1098 39056 39084 "cfg_refactor.ml" 1098 39056 39114
+call(
+  stack
+)
 type(
   Cfg.stmt -> Cfg.stmt
 )
@@ -24254,6 +25610,9 @@ type(
   Cfg.stmt option
 )
 "cfg_refactor.ml" 1098 39056 39076 "cfg_refactor.ml" 1098 39056 39127
+call(
+  stack
+)
 type(
   Cfg.stmt option
 )
@@ -24306,6 +25665,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1099 39131 39141 "cfg_refactor.ml" 1099 39131 39184
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -24413,6 +25775,9 @@ ident(
   int_ref ss "cfg_refactor.ml" 1106 39321 39344 "cfg_refactor.ml" 1106 39321 39346
 )
 "cfg_refactor.ml" 1107 39352 39373 "cfg_refactor.ml" 1107 39352 39406
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -24436,6 +25801,9 @@ type(
   (Cfg.tuple_expr * Cfg.stmt) list
 )
 "cfg_refactor.ml" 1105 39300 39312 "cfg_refactor.ml" 1108 39407 39436
+call(
+  stack
+)
 type(
   (Cfg.tuple_expr * Cfg.stmt) list
 )
@@ -24498,6 +25866,9 @@ ident(
   int_ref x "cfg_refactor.ml" 1111 39512 39531 "cfg_refactor.ml" 1111 39512 39532
 )
 "cfg_refactor.ml" 1111 39512 39541 "cfg_refactor.ml" 1111 39512 39573
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -24543,6 +25914,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1112 39574 39587 "cfg_refactor.ml" 1112 39574 39610
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -24606,6 +25980,9 @@ ident(
   int_ref o "cfg_refactor.ml" 1117 39691 39703 "cfg_refactor.ml" 1117 39691 39704
 )
 "cfg_refactor.ml" 1118 39722 39740 "cfg_refactor.ml" 1118 39722 39761
+call(
+  stack
+)
 type(
   Cfg.tuple_expr
 )
@@ -24649,6 +26026,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1119 39765 39782 "cfg_refactor.ml" 1119 39765 39803
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -24671,6 +26051,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1119 39765 39804 "cfg_refactor.ml" 1119 39765 39817
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -24690,6 +26073,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1119 39765 39775 "cfg_refactor.ml" 1119 39765 39824
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -24876,6 +26262,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1130 40033 40053 "cfg_refactor.ml" 1130 40033 40079
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -24916,6 +26305,9 @@ type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1131 40083 40093 "cfg_refactor.ml" 1131 40083 40114
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -25015,6 +26407,9 @@ ident(
   int_ref p1 "cfg_refactor.ml" 1134 40193 40256 "cfg_refactor.ml" 1134 40193 40258
 )
 "cfg_refactor.ml" 1135 40278 40296 "cfg_refactor.ml" 1135 40278 40308
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -25026,6 +26421,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1133 40116 40149 "cfg_refactor.ml" 1133 40116 40152
 )
 "cfg_refactor.ml" 1135 40278 40284 "cfg_refactor.ml" 1135 40278 40312
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -25089,6 +26487,9 @@ ident(
   int_ref p1 "cfg_refactor.ml" 1136 40313 40375 "cfg_refactor.ml" 1136 40313 40377
 )
 "cfg_refactor.ml" 1137 40397 40415 "cfg_refactor.ml" 1137 40397 40426
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -25100,6 +26501,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1133 40116 40149 "cfg_refactor.ml" 1133 40116 40152
 )
 "cfg_refactor.ml" 1137 40397 40403 "cfg_refactor.ml" 1137 40397 40430
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -25198,6 +26602,9 @@ ident(
   int_ref args "cfg_refactor.ml" 1139 40432 40499 "cfg_refactor.ml" 1139 40432 40503
 )
 "cfg_refactor.ml" 1140 40518 40538 "cfg_refactor.ml" 1140 40518 40596
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr DQueue.t
 )
@@ -25227,10 +26634,16 @@ ident(
   int_ref es "cfg_refactor.ml" 1140 40518 40533 "cfg_refactor.ml" 1140 40518 40535
 )
 "cfg_refactor.ml" 1141 40600 40634 "cfg_refactor.ml" 1141 40600 40653
+call(
+  stack
+)
 type(
   Cfg.tuple_expr list
 )
 "cfg_refactor.ml" 1141 40600 40616 "cfg_refactor.ml" 1141 40600 40653
+call(
+  stack
+)
 type(
   Cfg.tuple_expr option
 )
@@ -25263,6 +26676,9 @@ ident(
   int_ref p1 "cfg_refactor.ml" 1139 40432 40494 "cfg_refactor.ml" 1139 40432 40496
 )
 "cfg_refactor.ml" 1142 40657 40677 "cfg_refactor.ml" 1142 40657 40695
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -25274,6 +26690,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1133 40116 40149 "cfg_refactor.ml" 1133 40116 40152
 )
 "cfg_refactor.ml" 1142 40657 40665 "cfg_refactor.ml" 1142 40657 40699
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -25380,6 +26799,9 @@ ident(
   int_ref args "cfg_refactor.ml" 1144 40701 40769 "cfg_refactor.ml" 1144 40701 40773
 )
 "cfg_refactor.ml" 1145 40788 40808 "cfg_refactor.ml" 1145 40788 40866
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr DQueue.t
 )
@@ -25409,10 +26831,16 @@ ident(
   int_ref es "cfg_refactor.ml" 1145 40788 40803 "cfg_refactor.ml" 1145 40788 40805
 )
 "cfg_refactor.ml" 1146 40870 40904 "cfg_refactor.ml" 1146 40870 40923
+call(
+  stack
+)
 type(
   Cfg.tuple_expr list
 )
 "cfg_refactor.ml" 1146 40870 40886 "cfg_refactor.ml" 1146 40870 40923
+call(
+  stack
+)
 type(
   Cfg.tuple_expr option
 )
@@ -25445,6 +26873,9 @@ ident(
   int_ref p1 "cfg_refactor.ml" 1144 40701 40764 "cfg_refactor.ml" 1144 40701 40766
 )
 "cfg_refactor.ml" 1147 40927 40947 "cfg_refactor.ml" 1147 40927 40966
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -25456,6 +26887,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1133 40116 40149 "cfg_refactor.ml" 1133 40116 40152
 )
 "cfg_refactor.ml" 1147 40927 40935 "cfg_refactor.ml" 1147 40927 40970
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -25532,6 +26966,9 @@ ident(
   int_ref p1 "cfg_refactor.ml" 1150 40973 41036 "cfg_refactor.ml" 1150 40973 41038
 )
 "cfg_refactor.ml" 1151 41060 41076 "cfg_refactor.ml" 1151 41060 41091
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -25540,6 +26977,9 @@ type(
   (Cfg.stmt acc, Format.formatter, unit, Cfg.stmt acc) format4
 )
 "cfg_refactor.ml" 1151 41060 41066 "cfg_refactor.ml" 1151 41060 41110
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -25624,6 +27064,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1153 41112 41193 "cfg_refactor.ml" 1153 41112 41196
 )
 "cfg_refactor.ml" 1154 41201 41243 "cfg_refactor.ml" 1154 41201 41259
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -25632,6 +27075,9 @@ type(
   ('p2, Format.formatter, unit, 'p2) format4
 )
 "cfg_refactor.ml" 1154 41201 41233 "cfg_refactor.ml" 1154 41201 41282
+call(
+  tail
+)
 type(
   'p2
 )
@@ -25647,6 +27093,9 @@ ident(
   int_ref cb "cfg_refactor.ml" 1153 41112 41189 "cfg_refactor.ml" 1153 41112 41191
 )
 "cfg_refactor.ml" 1154 41201 41215 "cfg_refactor.ml" 1154 41201 41286
+call(
+  stack
+)
 type(
   'p2 option
 )
@@ -25688,6 +27137,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1133 40116 40149 "cfg_refactor.ml" 1133 40116 40152
 )
 "cfg_refactor.ml" 1156 41324 41342 "cfg_refactor.ml" 1156 41324 41351
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'q2
 )
@@ -25756,6 +27208,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1153 41112 41193 "cfg_refactor.ml" 1153 41112 41196
 )
 "cfg_refactor.ml" 1158 41398 41428 "cfg_refactor.ml" 1158 41398 41444
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -25764,6 +27219,9 @@ type(
   (Cfg.stmt acc * 'q2, Format.formatter, unit, Cfg.stmt acc * 'q2) format4
 )
 "cfg_refactor.ml" 1158 41398 41418 "cfg_refactor.ml" 1158 41398 41467
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'q2
 )
@@ -25807,6 +27265,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1153 41112 41193 "cfg_refactor.ml" 1153 41112 41196
 )
 "cfg_refactor.ml" 1160 41477 41485 "cfg_refactor.ml" 1160 41477 41516
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -25901,6 +27362,9 @@ ident(
   int_ref cb "cfg_refactor.ml" 1163 41600 41630 "cfg_refactor.ml" 1163 41600 41632
 )
 "cfg_refactor.ml" 1164 41642 41658 "cfg_refactor.ml" 1164 41642 41683
+call(
+  stack
+)
 type(
   Cfg.codeblock
 )
@@ -25923,6 +27387,9 @@ ident(
   int_ref cb' "cfg_refactor.ml" 1164 41642 41652 "cfg_refactor.ml" 1164 41642 41655
 )
 "cfg_refactor.ml" 1165 41687 41703 "cfg_refactor.ml" 1165 41687 41721
+call(
+  stack
+)
 type(
   Cfg.codeblock
 )
@@ -25977,6 +27444,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1163 41600 41634 "cfg_refactor.ml" 1163 41600 41637
 )
 "cfg_refactor.ml" 1166 41725 41742 "cfg_refactor.ml" 1166 41725 41788
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -26002,6 +27472,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1133 40116 40149 "cfg_refactor.ml" 1133 40116 40152
 )
 "cfg_refactor.ml" 1167 41792 41800 "cfg_refactor.ml" 1167 41792 41820
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -26132,6 +27605,9 @@ ident(
   int_ref params_o "cfg_refactor.ml" 1171 41979 42023 "cfg_refactor.ml" 1171 41979 42031
 )
 "cfg_refactor.ml" 1172 42053 42072 "cfg_refactor.ml" 1172 42053 42101
+call(
+  stack
+)
 type(
   Ast.formal_param list
 )
@@ -26161,6 +27637,9 @@ ident(
   int_ref atompos "cfg_refactor.ml" 1170 41897 41967 "cfg_refactor.ml" 1170 41897 41974
 )
 "cfg_refactor.ml" 1173 42105 42122 "cfg_refactor.ml" 1173 42105 42150
+call(
+  stack
+)
 type(
   Ast.expr
 )
@@ -26249,6 +27728,9 @@ ident(
   int_ref e' "cfg_refactor.ml" 1175 42245 42255 "cfg_refactor.ml" 1175 42245 42257
 )
 "cfg_refactor.ml" 1176 42302 42310 "cfg_refactor.ml" 1176 42302 42330
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -26414,6 +27896,9 @@ ident(
   int_ref targ "cfg_refactor.ml" 1178 42332 42365 "cfg_refactor.ml" 1178 42332 42369
 )
 "cfg_refactor.ml" 1180 42489 42511 "cfg_refactor.ml" 1180 42489 42533
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -26451,6 +27936,9 @@ ident(
   int_ref msg "cfg_refactor.ml" 1178 42332 42381 "cfg_refactor.ml" 1178 42332 42384
 )
 "cfg_refactor.ml" 1181 42537 42558 "cfg_refactor.ml" 1181 42537 42578
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -26501,6 +27989,9 @@ ident(
   int_ref cb "cfg_refactor.ml" 1178 42332 42398 "cfg_refactor.ml" 1178 42332 42400
 )
 "cfg_refactor.ml" 1182 42582 42608 "cfg_refactor.ml" 1182 42582 42647
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr list * Cfg.codeblock option
 )
@@ -26561,6 +28052,9 @@ ident(
   int_ref pos2 "cfg_refactor.ml" 1178 42332 42402 "cfg_refactor.ml" 1178 42332 42406
 )
 "cfg_refactor.ml" 1183 42651 42668 "cfg_refactor.ml" 1183 42651 42716
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -26586,6 +28080,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1182 42582 42592 "cfg_refactor.ml" 1182 42582 42595
 )
 "cfg_refactor.ml" 1184 42720 42728 "cfg_refactor.ml" 1184 42720 42748
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -26729,6 +28226,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1186 42750 42786 "cfg_refactor.ml" 1186 42750 42789
 )
 "cfg_refactor.ml" 1190 42942 42967 "cfg_refactor.ml" 1190 42942 42983
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -26737,6 +28237,9 @@ type(
   (unit, Format.formatter, unit, unit) format4
 )
 "cfg_refactor.ml" 1190 42942 42954 "cfg_refactor.ml" 1190 42942 43027
+call(
+  stack
+)
 type(
   unit
 )
@@ -26828,6 +28331,9 @@ ident(
   int_ref msg "cfg_refactor.ml" 1186 42750 42771 "cfg_refactor.ml" 1186 42750 42774
 )
 "cfg_refactor.ml" 1196 43179 43194 "cfg_refactor.ml" 1196 43179 43214
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -26882,6 +28388,9 @@ ident(
   int_ref cb "cfg_refactor.ml" 1186 42750 42782 "cfg_refactor.ml" 1186 42750 42784
 )
 "cfg_refactor.ml" 1198 43225 43251 "cfg_refactor.ml" 1198 43225 43290
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr list * Cfg.codeblock option
 )
@@ -26935,6 +28444,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1186 42750 42786 "cfg_refactor.ml" 1186 42750 42789
 )
 "cfg_refactor.ml" 1199 43294 43311 "cfg_refactor.ml" 1199 43294 43346
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -26960,6 +28472,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1198 43225 43235 "cfg_refactor.ml" 1198 43225 43238
 )
 "cfg_refactor.ml" 1200 43350 43358 "cfg_refactor.ml" 1200 43350 43378
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -27151,6 +28666,9 @@ ident(
   int_ref targ "cfg_refactor.ml" 1208 43658 43676 "cfg_refactor.ml" 1208 43658 43680
 )
 "cfg_refactor.ml" 1210 43750 43772 "cfg_refactor.ml" 1210 43750 43794
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -27188,6 +28706,9 @@ ident(
   int_ref rhs "cfg_refactor.ml" 1205 43525 43569 "cfg_refactor.ml" 1205 43525 43572
 )
 "cfg_refactor.ml" 1211 43798 43822 "cfg_refactor.ml" 1211 43798 43848
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr
 )
@@ -27245,6 +28766,9 @@ ident(
   int_ref args "cfg_refactor.ml" 1208 43658 43727 "cfg_refactor.ml" 1208 43658 43731
 )
 "cfg_refactor.ml" 1212 43852 43877 "cfg_refactor.ml" 1212 43852 43933
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr DQueue.t
 )
@@ -27267,6 +28791,9 @@ ident(
   int_ref lhs_args "cfg_refactor.ml" 1212 43852 43866 "cfg_refactor.ml" 1212 43852 43874
 )
 "cfg_refactor.ml" 1213 43937 43958 "cfg_refactor.ml" 1213 43937 43981
+call(
+  stack
+)
 type(
   Cfg.star_expr list
 )
@@ -27321,6 +28848,9 @@ ident(
   int_ref lhs_list "cfg_refactor.ml" 1213 43937 43947 "cfg_refactor.ml" 1213 43937 43955
 )
 "cfg_refactor.ml" 1219 44252 44263 "cfg_refactor.ml" 1219 44252 44322
+call(
+  stack
+)
 type(
   bool
 )
@@ -27397,6 +28927,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1212 43852 43862 "cfg_refactor.ml" 1212 43852 43865
 )
 "cfg_refactor.ml" 1224 44484 44509 "cfg_refactor.ml" 1224 44484 44518
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'v2
 )
@@ -27459,6 +28992,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1205 43525 43573 "cfg_refactor.ml" 1205 43525 43576
 )
 "cfg_refactor.ml" 1225 44522 44543 "cfg_refactor.ml" 1226 44574 44622
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -27484,6 +29020,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1224 44484 44498 "cfg_refactor.ml" 1224 44484 44501
 )
 "cfg_refactor.ml" 1228 44637 44649 "cfg_refactor.ml" 1228 44637 44671
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -27558,10 +29097,16 @@ ident(
   int_ref lhs_args "cfg_refactor.ml" 1212 43852 43866 "cfg_refactor.ml" 1212 43852 43874
 )
 "cfg_refactor.ml" 1232 44774 44804 "cfg_refactor.ml" 1232 44774 44837
+call(
+  stack
+)
 type(
   Cfg.star_expr DQueue.t
 )
 "cfg_refactor.ml" 1232 44774 44789 "cfg_refactor.ml" 1232 44774 44837
+call(
+  stack
+)
 type(
   Cfg.star_expr list
 )
@@ -27617,6 +29162,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1205 43525 43573 "cfg_refactor.ml" 1205 43525 43576
 )
 "cfg_refactor.ml" 1234 44847 44864 "cfg_refactor.ml" 1234 44847 44915
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -27642,6 +29190,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1218 44230 44240 "cfg_refactor.ml" 1218 44230 44243
 )
 "cfg_refactor.ml" 1235 44919 44927 "cfg_refactor.ml" 1235 44919 44947
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -27734,7 +29285,7 @@ type(
   Ast.expr list -> Ast.expr list -> bool
 )
 ident(
-  ext_ref Pervasives.<>
+  ext_ref Pervasives.( <> )
 )
 "cfg_refactor.ml" 1239 45093 45110 "cfg_refactor.ml" 1239 45093 45112
 type(
@@ -27766,6 +29317,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1205 43525 43573 "cfg_refactor.ml" 1205 43525 43576
 )
 "cfg_refactor.ml" 1239 45093 45128 "cfg_refactor.ml" 1239 45093 45144
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -27774,6 +29328,9 @@ type(
   (unit, Format.formatter, unit, unit) format4
 )
 "cfg_refactor.ml" 1239 45093 45118 "cfg_refactor.ml" 1239 45093 45173
+call(
+  stack
+)
 type(
   unit
 )
@@ -27815,6 +29372,9 @@ ident(
   int_ref targ "cfg_refactor.ml" 1238 45018 45051 "cfg_refactor.ml" 1238 45018 45055
 )
 "cfg_refactor.ml" 1240 45175 45197 "cfg_refactor.ml" 1240 45175 45219
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -27852,6 +29412,9 @@ ident(
   int_ref msg "cfg_refactor.ml" 1238 45018 45067 "cfg_refactor.ml" 1238 45018 45070
 )
 "cfg_refactor.ml" 1241 45223 45244 "cfg_refactor.ml" 1241 45223 45264
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -27874,6 +29437,9 @@ ident(
   int_ref msg' "cfg_refactor.ml" 1241 45223 45237 "cfg_refactor.ml" 1241 45223 45241
 )
 "cfg_refactor.ml" 1242 45268 45285 "cfg_refactor.ml" 1242 45268 45309
+call(
+  stack
+)
 type(
   Cfg.msg_id
 )
@@ -27911,6 +29477,9 @@ ident(
   int_ref rhs "cfg_refactor.ml" 1205 43525 43569 "cfg_refactor.ml" 1205 43525 43572
 )
 "cfg_refactor.ml" 1243 45313 45333 "cfg_refactor.ml" 1243 45313 45366
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr
 )
@@ -27964,6 +29533,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1205 43525 43573 "cfg_refactor.ml" 1205 43525 43576
 )
 "cfg_refactor.ml" 1244 45370 45390 "cfg_refactor.ml" 1244 45370 45426
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -27975,6 +29547,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1243 45313 45323 "cfg_refactor.ml" 1243 45313 45326
 )
 "cfg_refactor.ml" 1244 45370 45378 "cfg_refactor.ml" 1244 45370 45430
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -28074,6 +29649,9 @@ ident(
   int_ref rhs "cfg_refactor.ml" 1205 43525 43569 "cfg_refactor.ml" 1205 43525 43572
 )
 "cfg_refactor.ml" 1247 45475 45496 "cfg_refactor.ml" 1247 45475 45523
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr
 )
@@ -28115,6 +29693,9 @@ ident(
   int_ref lhs "cfg_refactor.ml" 1205 43525 43565 "cfg_refactor.ml" 1205 43525 43568
 )
 "cfg_refactor.ml" 1248 45527 45554 "cfg_refactor.ml" 1248 45527 45574
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -28158,6 +29739,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1205 43525 43573 "cfg_refactor.ml" 1205 43525 43576
 )
 "cfg_refactor.ml" 1249 45578 45606 "cfg_refactor.ml" 1249 45578 45630
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -28169,6 +29753,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1248 45527 45537 "cfg_refactor.ml" 1248 45527 45540
 )
 "cfg_refactor.ml" 1249 45578 45594 "cfg_refactor.ml" 1249 45578 45634
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -28194,6 +29781,9 @@ ident(
   int_ref after "cfg_refactor.ml" 1248 45527 45546 "cfg_refactor.ml" 1248 45527 45551
 )
 "cfg_refactor.ml" 1250 45638 45646 "cfg_refactor.ml" 1250 45638 45666
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -28279,6 +29869,9 @@ ident(
   int_ref lhs "cfg_refactor.ml" 1205 43525 43565 "cfg_refactor.ml" 1205 43525 43568
 )
 "cfg_refactor.ml" 1254 45777 45804 "cfg_refactor.ml" 1254 45777 45824
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -28319,6 +29912,9 @@ ident(
   int_ref m "cfg_refactor.ml" 1253 45741 45748 "cfg_refactor.ml" 1253 45741 45773
 )
 "cfg_refactor.ml" 1255 45828 45844 "cfg_refactor.ml" 1255 45828 45889
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -28344,6 +29940,9 @@ ident(
   int_ref after "cfg_refactor.ml" 1254 45777 45796 "cfg_refactor.ml" 1254 45777 45801
 )
 "cfg_refactor.ml" 1256 45893 45901 "cfg_refactor.ml" 1256 45893 45921
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -28428,6 +30027,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1259 45988 46004 "cfg_refactor.ml" 1259 45988 46025
+call(
+  stack
+)
 type(
   bool
 )
@@ -28436,7 +30038,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "cfg_refactor.ml" 1259 45988 46029 "cfg_refactor.ml" 1259 45988 46039
 type(
@@ -28453,6 +30055,9 @@ ident(
   int_ref s "cfg_refactor.ml" 1258 45923 45973 "cfg_refactor.ml" 1258 45923 45974
 )
 "cfg_refactor.ml" 1259 45988 46029 "cfg_refactor.ml" 1259 45988 46041
+call(
+  stack
+)
 type(
   bool
 )
@@ -28519,6 +30124,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1205 43525 43573 "cfg_refactor.ml" 1205 43525 43576
 )
 "cfg_refactor.ml" 1260 46047 46053 "cfg_refactor.ml" 1260 46047 46118
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -28568,6 +30176,9 @@ ident(
   int_ref lhs "cfg_refactor.ml" 1205 43525 43565 "cfg_refactor.ml" 1205 43525 43568
 )
 "cfg_refactor.ml" 1263 46130 46157 "cfg_refactor.ml" 1263 46130 46177
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -28605,6 +30216,9 @@ ident(
   int_ref rhs "cfg_refactor.ml" 1205 43525 43569 "cfg_refactor.ml" 1205 43525 43572
 )
 "cfg_refactor.ml" 1264 46181 46202 "cfg_refactor.ml" 1264 46181 46229
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr
 )
@@ -28648,6 +30262,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1205 43525 43573 "cfg_refactor.ml" 1205 43525 43576
 )
 "cfg_refactor.ml" 1265 46233 46261 "cfg_refactor.ml" 1265 46233 46285
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -28659,6 +30276,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1264 46181 46191 "cfg_refactor.ml" 1264 46181 46194
 )
 "cfg_refactor.ml" 1265 46233 46249 "cfg_refactor.ml" 1265 46233 46289
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -28684,6 +30304,9 @@ ident(
   int_ref after "cfg_refactor.ml" 1263 46130 46149 "cfg_refactor.ml" 1263 46130 46154
 )
 "cfg_refactor.ml" 1266 46293 46301 "cfg_refactor.ml" 1266 46293 46321
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -28842,6 +30465,9 @@ ident(
   int_ref k1 "cfg_refactor.ml" 1269 46396 46429 "cfg_refactor.ml" 1269 46396 46463
 )
 "cfg_refactor.ml" 1271 46558 46581 "cfg_refactor.ml" 1271 46558 46613
+call(
+  stack
+)
 type(
   'b3
 )
@@ -28886,6 +30512,9 @@ ident(
   int_ref k2 "cfg_refactor.ml" 1270 46474 46507 "cfg_refactor.ml" 1270 46474 46541
 )
 "cfg_refactor.ml" 1272 46621 46644 "cfg_refactor.ml" 1272 46621 46676
+call(
+  stack
+)
 type(
   'd3
 )
@@ -28941,6 +30570,9 @@ ident(
   int_ref p3 "cfg_refactor.ml" 1270 46474 46551 "cfg_refactor.ml" 1270 46474 46553
 )
 "cfg_refactor.ml" 1273 46684 46704 "cfg_refactor.ml" 1273 46684 46736
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -28952,6 +30584,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1273 46684 46692 "cfg_refactor.ml" 1273 46684 46740
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -29022,6 +30657,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 1275 46742 46758 "cfg_refactor.ml" 1275 46742 46760
 )
 "cfg_refactor.ml" 1276 46774 46794 "cfg_refactor.ml" 1276 46774 46823
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -29059,6 +30697,9 @@ ident(
   int_ref e2 "cfg_refactor.ml" 1275 46742 46761 "cfg_refactor.ml" 1275 46742 46763
 )
 "cfg_refactor.ml" 1277 46827 46847 "cfg_refactor.ml" 1277 46827 46876
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -29098,6 +30739,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1275 46742 46765 "cfg_refactor.ml" 1275 46742 46768
 )
 "cfg_refactor.ml" 1278 46880 46900 "cfg_refactor.ml" 1278 46880 46935
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -29109,6 +30753,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1277 46827 46837 "cfg_refactor.ml" 1277 46827 46840
 )
 "cfg_refactor.ml" 1278 46880 46888 "cfg_refactor.ml" 1278 46880 46939
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -29192,6 +30839,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 1280 46941 46957 "cfg_refactor.ml" 1280 46941 46959
 )
 "cfg_refactor.ml" 1281 46970 46990 "cfg_refactor.ml" 1281 46970 47048
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id DQueue.t
 )
@@ -29224,6 +30874,9 @@ ident(
   int_ref e1' "cfg_refactor.ml" 1281 46970 46984 "cfg_refactor.ml" 1281 46970 46987
 )
 "cfg_refactor.ml" 1282 47052 47081 "cfg_refactor.ml" 1282 47052 47101
+call(
+  stack
+)
 type(
   Cfg.msg_id list
 )
@@ -29235,6 +30888,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1280 46941 46961 "cfg_refactor.ml" 1280 46941 46964
 )
 "cfg_refactor.ml" 1282 47052 47072 "cfg_refactor.ml" 1282 47052 47106
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -29246,6 +30902,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1281 46970 46980 "cfg_refactor.ml" 1281 46970 46983
 )
 "cfg_refactor.ml" 1282 47052 47060 "cfg_refactor.ml" 1282 47052 47110
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -29319,6 +30978,9 @@ ident(
   int_ref g "cfg_refactor.ml" 1284 47112 47130 "cfg_refactor.ml" 1284 47112 47131
 )
 "cfg_refactor.ml" 1285 47145 47164 "cfg_refactor.ml" 1285 47145 47183
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -29348,6 +31010,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1285 47145 47155 "cfg_refactor.ml" 1285 47145 47158
 )
 "cfg_refactor.ml" 1286 47187 47218 "cfg_refactor.ml" 1286 47187 47234
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29359,6 +31024,9 @@ ident(
   int_ref t "cfg_refactor.ml" 1284 47112 47132 "cfg_refactor.ml" 1284 47112 47133
 )
 "cfg_refactor.ml" 1286 47187 47204 "cfg_refactor.ml" 1286 47187 47236
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29392,6 +31060,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1287 47241 47262 "cfg_refactor.ml" 1287 47241 47285
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -29403,6 +31074,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1284 47112 47137 "cfg_refactor.ml" 1284 47112 47140
 )
 "cfg_refactor.ml" 1287 47241 47256 "cfg_refactor.ml" 1287 47241 47289
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -29432,6 +31106,9 @@ ident(
   int_ref tacc "cfg_refactor.ml" 1286 47187 47197 "cfg_refactor.ml" 1286 47187 47201
 )
 "cfg_refactor.ml" 1289 47350 47381 "cfg_refactor.ml" 1289 47350 47398
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29443,6 +31120,9 @@ ident(
   int_ref f "cfg_refactor.ml" 1284 47112 47134 "cfg_refactor.ml" 1284 47112 47135
 )
 "cfg_refactor.ml" 1289 47350 47367 "cfg_refactor.ml" 1289 47350 47400
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29476,6 +31156,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1290 47405 47426 "cfg_refactor.ml" 1290 47405 47449
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -29487,6 +31170,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1284 47112 47137 "cfg_refactor.ml" 1284 47112 47140
 )
 "cfg_refactor.ml" 1290 47405 47420 "cfg_refactor.ml" 1290 47405 47453
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -29516,6 +31202,9 @@ ident(
   int_ref facc "cfg_refactor.ml" 1289 47350 47360 "cfg_refactor.ml" 1289 47350 47364
 )
 "cfg_refactor.ml" 1291 47457 47473 "cfg_refactor.ml" 1291 47457 47490
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29566,6 +31255,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1284 47112 47137 "cfg_refactor.ml" 1284 47112 47140
 )
 "cfg_refactor.ml" 1292 47494 47514 "cfg_refactor.ml" 1292 47494 47541
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -29577,6 +31269,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1291 47457 47467 "cfg_refactor.ml" 1291 47457 47470
 )
 "cfg_refactor.ml" 1292 47494 47502 "cfg_refactor.ml" 1292 47494 47545
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -29706,6 +31401,9 @@ ident(
   int_ref g "cfg_refactor.ml" 1294 47547 47560 "cfg_refactor.ml" 1294 47547 47561
 )
 "cfg_refactor.ml" 1296 47603 47622 "cfg_refactor.ml" 1296 47603 47641
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -29735,6 +31433,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1296 47603 47613 "cfg_refactor.ml" 1296 47603 47616
 )
 "cfg_refactor.ml" 1297 47645 47681 "cfg_refactor.ml" 1297 47645 47697
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29746,6 +31447,9 @@ ident(
   int_ref t "cfg_refactor.ml" 1294 47547 47562 "cfg_refactor.ml" 1294 47547 47563
 )
 "cfg_refactor.ml" 1297 47645 47662 "cfg_refactor.ml" 1297 47645 47699
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29779,6 +31483,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1298 47703 47724 "cfg_refactor.ml" 1298 47703 47747
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -29790,6 +31497,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1294 47547 47566 "cfg_refactor.ml" 1294 47547 47569
 )
 "cfg_refactor.ml" 1298 47703 47718 "cfg_refactor.ml" 1298 47703 47751
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -29819,6 +31529,9 @@ ident(
   int_ref tacc "cfg_refactor.ml" 1297 47645 47655 "cfg_refactor.ml" 1297 47645 47659
 )
 "cfg_refactor.ml" 1300 47812 47848 "cfg_refactor.ml" 1300 47812 47865
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29830,6 +31543,9 @@ ident(
   int_ref f "cfg_refactor.ml" 1294 47547 47564 "cfg_refactor.ml" 1294 47547 47565
 )
 "cfg_refactor.ml" 1300 47812 47829 "cfg_refactor.ml" 1300 47812 47867
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -29863,6 +31579,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1301 47871 47892 "cfg_refactor.ml" 1301 47871 47915
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -29874,6 +31593,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1294 47547 47566 "cfg_refactor.ml" 1294 47547 47569
 )
 "cfg_refactor.ml" 1301 47871 47886 "cfg_refactor.ml" 1301 47871 47919
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -29918,6 +31640,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1302 47923 47956 "cfg_refactor.ml" 1302 47923 47987
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -29968,6 +31693,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1294 47547 47566 "cfg_refactor.ml" 1294 47547 47569
 )
 "cfg_refactor.ml" 1303 47992 48012 "cfg_refactor.ml" 1303 47992 48039
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -29979,6 +31707,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1302 47923 47933 "cfg_refactor.ml" 1302 47923 47936
 )
 "cfg_refactor.ml" 1303 47992 48000 "cfg_refactor.ml" 1303 47992 48043
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -30053,6 +31784,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1305 48045 48065 "cfg_refactor.ml" 1305 48045 48068
 )
 "cfg_refactor.ml" 1305 48045 48073 "cfg_refactor.ml" 1305 48045 48099
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -30128,6 +31862,9 @@ ident(
   int_ref args "cfg_refactor.ml" 1307 48101 48118 "cfg_refactor.ml" 1307 48101 48122
 )
 "cfg_refactor.ml" 1308 48131 48153 "cfg_refactor.ml" 1308 48131 48210
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr DQueue.t
 )
@@ -30157,10 +31894,16 @@ ident(
   int_ref args' "cfg_refactor.ml" 1308 48131 48145 "cfg_refactor.ml" 1308 48131 48150
 )
 "cfg_refactor.ml" 1309 48214 48248 "cfg_refactor.ml" 1309 48214 48270
+call(
+  stack
+)
 type(
   Cfg.tuple_expr list
 )
 "cfg_refactor.ml" 1309 48214 48230 "cfg_refactor.ml" 1309 48214 48270
+call(
+  stack
+)
 type(
   Cfg.tuple_expr option
 )
@@ -30193,6 +31936,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1307 48101 48123 "cfg_refactor.ml" 1307 48101 48126
 )
 "cfg_refactor.ml" 1310 48274 48294 "cfg_refactor.ml" 1310 48274 48315
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -30204,6 +31950,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1308 48131 48141 "cfg_refactor.ml" 1308 48131 48144
 )
 "cfg_refactor.ml" 1310 48274 48282 "cfg_refactor.ml" 1310 48274 48319
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -30287,6 +32036,9 @@ ident(
   int_ref args "cfg_refactor.ml" 1312 48321 48337 "cfg_refactor.ml" 1312 48321 48341
 )
 "cfg_refactor.ml" 1313 48350 48372 "cfg_refactor.ml" 1313 48350 48435
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr DQueue.t
 )
@@ -30319,6 +32071,9 @@ ident(
   int_ref args' "cfg_refactor.ml" 1313 48350 48364 "cfg_refactor.ml" 1313 48350 48369
 )
 "cfg_refactor.ml" 1314 48439 48474 "cfg_refactor.ml" 1314 48439 48496
+call(
+  stack
+)
 type(
   Cfg.star_expr list
 )
@@ -30330,6 +32085,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1312 48321 48342 "cfg_refactor.ml" 1312 48321 48345
 )
 "cfg_refactor.ml" 1314 48439 48459 "cfg_refactor.ml" 1314 48439 48501
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -30341,6 +32099,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1313 48350 48360 "cfg_refactor.ml" 1313 48350 48363
 )
 "cfg_refactor.ml" 1314 48439 48447 "cfg_refactor.ml" 1314 48439 48505
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -30392,6 +32153,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1317 48535 48574 "cfg_refactor.ml" 1317 48535 48590
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -30403,6 +32167,9 @@ ident(
   int_ref el "cfg_refactor.ml" 1316 48507 48523 "cfg_refactor.ml" 1316 48507 48525
 )
 "cfg_refactor.ml" 1317 48535 48555 "cfg_refactor.ml" 1317 48535 48593
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -30447,6 +32214,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1318 48597 48630 "cfg_refactor.ml" 1318 48597 48664
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -30487,6 +32257,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1319 48669 48696 "cfg_refactor.ml" 1319 48669 48722
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -30498,6 +32271,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1316 48507 48526 "cfg_refactor.ml" 1316 48507 48529
 )
 "cfg_refactor.ml" 1319 48669 48689 "cfg_refactor.ml" 1319 48669 48727
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -30509,6 +32285,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1318 48597 48607 "cfg_refactor.ml" 1318 48597 48610
 )
 "cfg_refactor.ml" 1319 48669 48677 "cfg_refactor.ml" 1319 48669 48731
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -30598,6 +32377,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 1321 48733 48749 "cfg_refactor.ml" 1321 48733 48751
 )
 "cfg_refactor.ml" 1322 48801 48827 "cfg_refactor.ml" 1322 48801 48846
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -30655,6 +32437,9 @@ ident(
   int_ref args "cfg_refactor.ml" 1321 48733 48779 "cfg_refactor.ml" 1321 48733 48783
 )
 "cfg_refactor.ml" 1323 48850 48872 "cfg_refactor.ml" 1323 48850 48935
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.star_expr DQueue.t
 )
@@ -30691,6 +32476,9 @@ ident(
   int_ref args' "cfg_refactor.ml" 1323 48850 48864 "cfg_refactor.ml" 1323 48850 48869
 )
 "cfg_refactor.ml" 1324 48939 48982 "cfg_refactor.ml" 1324 48939 49004
+call(
+  stack
+)
 type(
   Cfg.star_expr list
 )
@@ -30702,6 +32490,9 @@ ident(
   int_ref pos2 "cfg_refactor.ml" 1321 48733 48792 "cfg_refactor.ml" 1321 48733 48796
 )
 "cfg_refactor.ml" 1324 48939 48959 "cfg_refactor.ml" 1324 48939 49009
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -30731,6 +32522,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1323 48850 48860 "cfg_refactor.ml" 1323 48850 48863
 )
 "cfg_refactor.ml" 1325 49013 49029 "cfg_refactor.ml" 1325 49013 49052
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -30756,6 +32550,9 @@ ident(
   int_ref after "cfg_refactor.ml" 1322 48801 48819 "cfg_refactor.ml" 1322 48801 48824
 )
 "cfg_refactor.ml" 1326 49056 49064 "cfg_refactor.ml" 1326 49056 49084
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -31031,6 +32828,9 @@ ident(
   int_ref e1 "cfg_refactor.ml" 1328 49086 49102 "cfg_refactor.ml" 1328 49086 49104
 )
 "cfg_refactor.ml" 1341 49811 49837 "cfg_refactor.ml" 1341 49811 49856
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -31094,6 +32894,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1340 49787 49803 "cfg_refactor.ml" 1340 49787 49806
 )
 "cfg_refactor.ml" 1342 49860 49876 "cfg_refactor.ml" 1342 49860 49924
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -31119,6 +32922,9 @@ ident(
   int_ref after "cfg_refactor.ml" 1341 49811 49829 "cfg_refactor.ml" 1341 49811 49834
 )
 "cfg_refactor.ml" 1343 49928 49936 "cfg_refactor.ml" 1343 49928 49956
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -31195,6 +33001,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1345 49958 49997 "cfg_refactor.ml" 1345 49958 50000
 )
 "cfg_refactor.ml" 1346 50005 50011 "cfg_refactor.ml" 1346 50005 50046
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -31281,6 +33090,9 @@ type(
   Ast.expr
 )
 "cfg_refactor.ml" 1350 50177 50183 "cfg_refactor.ml" 1350 50177 50255
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -31334,6 +33146,9 @@ ident(
   int_ref m "cfg_refactor.ml" 1352 50257 50261 "cfg_refactor.ml" 1352 50257 50284
 )
 "cfg_refactor.ml" 1353 50288 50294 "cfg_refactor.ml" 1353 50288 50332
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -31418,6 +33233,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1361 50617 50633 "cfg_refactor.ml" 1361 50617 50654
+call(
+  stack
+)
 type(
   bool
 )
@@ -31426,7 +33244,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "cfg_refactor.ml" 1361 50617 50658 "cfg_refactor.ml" 1361 50617 50668
 type(
@@ -31443,6 +33261,9 @@ ident(
   int_ref s "cfg_refactor.ml" 1359 50501 50552 "cfg_refactor.ml" 1359 50501 50553
 )
 "cfg_refactor.ml" 1361 50617 50658 "cfg_refactor.ml" 1361 50617 50670
+call(
+  stack
+)
 type(
   bool
 )
@@ -31503,6 +33324,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1363 50717 50733 "cfg_refactor.ml" 1363 50717 50747
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -31531,6 +33355,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1360 50562 50611 "cfg_refactor.ml" 1360 50562 50614
 )
 "cfg_refactor.ml" 1364 50751 50772 "cfg_refactor.ml" 1364 50751 50788
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -31555,6 +33382,9 @@ ident(
   int_ref rhs "cfg_refactor.ml" 1360 50562 50606 "cfg_refactor.ml" 1360 50562 50609
 )
 "cfg_refactor.ml" 1364 50751 50759 "cfg_refactor.ml" 1365 50789 50851
+call(
+  stack
+)
 type(
   unit
 )
@@ -31592,6 +33422,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1360 50562 50611 "cfg_refactor.ml" 1360 50562 50614
 )
 "cfg_refactor.ml" 1366 50853 50873 "cfg_refactor.ml" 1366 50853 50899
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -31603,6 +33436,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1363 50717 50727 "cfg_refactor.ml" 1363 50717 50730
 )
 "cfg_refactor.ml" 1366 50853 50861 "cfg_refactor.ml" 1366 50853 50903
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -31710,6 +33546,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1372 51167 51183 "cfg_refactor.ml" 1372 51167 51204
+call(
+  stack
+)
 type(
   bool
 )
@@ -31718,7 +33557,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "cfg_refactor.ml" 1372 51167 51208 "cfg_refactor.ml" 1372 51167 51218
 type(
@@ -31735,6 +33574,9 @@ ident(
   int_ref s "cfg_refactor.ml" 1370 51045 51096 "cfg_refactor.ml" 1370 51045 51097
 )
 "cfg_refactor.ml" 1372 51167 51208 "cfg_refactor.ml" 1372 51167 51220
+call(
+  stack
+)
 type(
   bool
 )
@@ -31782,6 +33624,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1371 51113 51161 "cfg_refactor.ml" 1371 51113 51164
 )
 "cfg_refactor.ml" 1373 51225 51231 "cfg_refactor.ml" 1373 51225 51266
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -31856,6 +33701,9 @@ ident(
   int_ref lhs "cfg_refactor.ml" 1375 51268 51284 "cfg_refactor.ml" 1375 51268 51287
 )
 "cfg_refactor.ml" 1376 51329 51353 "cfg_refactor.ml" 1376 51329 51372
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -31885,6 +33733,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1376 51329 51339 "cfg_refactor.ml" 1376 51329 51342
 )
 "cfg_refactor.ml" 1377 51376 51417 "cfg_refactor.ml" 1377 51376 51433
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -31910,6 +33761,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1375 51268 51321 "cfg_refactor.ml" 1375 51268 51324
 )
 "cfg_refactor.ml" 1377 51376 51397 "cfg_refactor.ml" 1377 51376 51445
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -31943,6 +33797,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1378 51449 51476 "cfg_refactor.ml" 1378 51449 51503
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -31954,6 +33811,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1375 51268 51321 "cfg_refactor.ml" 1375 51268 51324
 )
 "cfg_refactor.ml" 1378 51449 51470 "cfg_refactor.ml" 1378 51449 51507
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -31983,6 +33843,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1375 51268 51321 "cfg_refactor.ml" 1375 51268 51324
 )
 "cfg_refactor.ml" 1379 51511 51532 "cfg_refactor.ml" 1379 51511 51549
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -32026,6 +33889,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1375 51268 51321 "cfg_refactor.ml" 1375 51268 51324
 )
 "cfg_refactor.ml" 1380 51553 51567 "cfg_refactor.ml" 1380 51553 51608
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -32065,10 +33931,16 @@ ident(
   int_ref asgn_acc "cfg_refactor.ml" 1377 51376 51386 "cfg_refactor.ml" 1377 51376 51394
 )
 "cfg_refactor.ml" 1381 51612 51634 "cfg_refactor.ml" 1381 51612 51657
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
 "cfg_refactor.ml" 1381 51612 51620 "cfg_refactor.ml" 1381 51612 51657
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -32159,6 +34031,9 @@ ident(
   int_ref lhs "cfg_refactor.ml" 1383 51659 51675 "cfg_refactor.ml" 1383 51659 51678
 )
 "cfg_refactor.ml" 1384 51719 51743 "cfg_refactor.ml" 1384 51719 51762
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -32188,6 +34063,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1384 51719 51729 "cfg_refactor.ml" 1384 51719 51732
 )
 "cfg_refactor.ml" 1385 51766 51807 "cfg_refactor.ml" 1385 51766 51823
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -32213,6 +34091,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1383 51659 51711 "cfg_refactor.ml" 1383 51659 51714
 )
 "cfg_refactor.ml" 1385 51766 51787 "cfg_refactor.ml" 1385 51766 51835
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -32242,6 +34123,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1383 51659 51711 "cfg_refactor.ml" 1383 51659 51714
 )
 "cfg_refactor.ml" 1386 51839 51860 "cfg_refactor.ml" 1386 51839 51877
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -32275,6 +34159,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1387 51881 51908 "cfg_refactor.ml" 1387 51881 51935
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -32286,6 +34173,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1383 51659 51711 "cfg_refactor.ml" 1383 51659 51714
 )
 "cfg_refactor.ml" 1387 51881 51902 "cfg_refactor.ml" 1387 51881 51939
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -32329,6 +34219,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1383 51659 51711 "cfg_refactor.ml" 1383 51659 51714
 )
 "cfg_refactor.ml" 1388 51943 51957 "cfg_refactor.ml" 1388 51943 51998
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -32368,10 +34261,16 @@ ident(
   int_ref asgn_acc "cfg_refactor.ml" 1385 51766 51776 "cfg_refactor.ml" 1385 51766 51784
 )
 "cfg_refactor.ml" 1389 52002 52024 "cfg_refactor.ml" 1389 52002 52047
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
 "cfg_refactor.ml" 1389 52002 52010 "cfg_refactor.ml" 1389 52002 52047
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -32492,6 +34391,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1391 52049 52094 "cfg_refactor.ml" 1391 52049 52097
 )
 "cfg_refactor.ml" 1392 52102 52108 "cfg_refactor.ml" 1392 52102 52169
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -32550,6 +34452,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1395 52218 52234 "cfg_refactor.ml" 1395 52218 52255
+call(
+  stack
+)
 type(
   bool
 )
@@ -32558,7 +34463,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "cfg_refactor.ml" 1395 52218 52259 "cfg_refactor.ml" 1395 52218 52269
 type(
@@ -32575,6 +34480,9 @@ ident(
   int_ref s "cfg_refactor.ml" 1394 52171 52209 "cfg_refactor.ml" 1394 52171 52210
 )
 "cfg_refactor.ml" 1395 52218 52259 "cfg_refactor.ml" 1395 52218 52271
+call(
+  stack
+)
 type(
   bool
 )
@@ -32598,7 +34506,7 @@ type(
   Utils.StrSet.elt -> Utils.StrSet.elt -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 1396 52277 52290 "cfg_refactor.ml" 1396 52277 52297
 type(
@@ -32634,6 +34542,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1394 52171 52212 "cfg_refactor.ml" 1394 52171 52215
 )
 "cfg_refactor.ml" 1396 52277 52303 "cfg_refactor.ml" 1396 52277 52330
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -32678,6 +34589,9 @@ type(
   Ast.expr
 )
 "cfg_refactor.ml" 1397 52331 52342 "cfg_refactor.ml" 1397 52331 52393
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -32846,6 +34760,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1399 52403 52407 "cfg_refactor.ml" 1405 52517 52539
 )
 "cfg_refactor.ml" 1406 52543 52562 "cfg_refactor.ml" 1406 52543 52581
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -32885,10 +34802,16 @@ ident(
   int_ref e "cfg_refactor.ml" 1399 52403 52407 "cfg_refactor.ml" 1405 52517 52539
 )
 "cfg_refactor.ml" 1407 52585 52616 "cfg_refactor.ml" 1407 52585 52630
+call(
+  stack
+)
 type(
   Ast.pos
 )
 "cfg_refactor.ml" 1407 52585 52605 "cfg_refactor.ml" 1407 52585 52631
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -32900,6 +34823,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1406 52543 52553 "cfg_refactor.ml" 1406 52543 52556
 )
 "cfg_refactor.ml" 1407 52585 52593 "cfg_refactor.ml" 1407 52585 52635
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -32955,6 +34881,9 @@ ident(
   int_ref g "cfg_refactor.ml" 1409 52637 52658 "cfg_refactor.ml" 1409 52637 52659
 )
 "cfg_refactor.ml" 1410 52692 52706 "cfg_refactor.ml" 1410 52692 52718
+call(
+  stack
+)
 type(
   Ast.pos
 )
@@ -32984,6 +34913,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1411 52722 52762 "cfg_refactor.ml" 1411 52722 52778
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -32995,6 +34927,9 @@ ident(
   int_ref body "cfg_refactor.ml" 1409 52637 52660 "cfg_refactor.ml" 1409 52637 52664
 )
 "cfg_refactor.ml" 1411 52722 52743 "cfg_refactor.ml" 1411 52722 52783
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -33032,6 +34967,9 @@ ident(
   int_ref g "cfg_refactor.ml" 1409 52637 52658 "cfg_refactor.ml" 1409 52637 52659
 )
 "cfg_refactor.ml" 1412 52787 52811 "cfg_refactor.ml" 1412 52787 52835
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -33068,6 +35006,9 @@ ident(
   int_ref gpos "cfg_refactor.ml" 1410 52692 52699 "cfg_refactor.ml" 1410 52692 52703
 )
 "cfg_refactor.ml" 1413 52839 52867 "cfg_refactor.ml" 1413 52839 52880
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33086,6 +35027,9 @@ ident(
   int_ref gpos "cfg_refactor.ml" 1410 52692 52699 "cfg_refactor.ml" 1410 52692 52703
 )
 "cfg_refactor.ml" 1413 52839 52881 "cfg_refactor.ml" 1413 52839 52895
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33097,6 +35041,9 @@ ident(
   int_ref gpos "cfg_refactor.ml" 1410 52692 52699 "cfg_refactor.ml" 1410 52692 52703
 )
 "cfg_refactor.ml" 1413 52839 52857 "cfg_refactor.ml" 1413 52839 52900
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33126,6 +35073,9 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1412 52787 52797 "cfg_refactor.ml" 1412 52787 52805
 )
 "cfg_refactor.ml" 1414 52904 52925 "cfg_refactor.ml" 1414 52904 52951
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -33159,6 +35109,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1415 52955 52979 "cfg_refactor.ml" 1415 52955 53006
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -33170,6 +35123,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1409 52637 52666 "cfg_refactor.ml" 1409 52637 52669
 )
 "cfg_refactor.ml" 1415 52955 52973 "cfg_refactor.ml" 1415 52955 53010
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33199,6 +35155,9 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1414 52904 52914 "cfg_refactor.ml" 1414 52904 52922
 )
 "cfg_refactor.ml" 1416 53014 53030 "cfg_refactor.ml" 1416 53014 53051
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -33235,6 +35194,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1409 52637 52666 "cfg_refactor.ml" 1409 52637 52669
 )
 "cfg_refactor.ml" 1417 53055 53075 "cfg_refactor.ml" 1417 53055 53105
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33246,6 +35208,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1416 53014 53024 "cfg_refactor.ml" 1416 53014 53027
 )
 "cfg_refactor.ml" 1417 53055 53063 "cfg_refactor.ml" 1417 53055 53109
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -33325,6 +35290,9 @@ ident(
   int_ref g "cfg_refactor.ml" 1419 53111 53133 "cfg_refactor.ml" 1419 53111 53134
 )
 "cfg_refactor.ml" 1420 53167 53181 "cfg_refactor.ml" 1420 53167 53193
+call(
+  stack
+)
 type(
   Ast.pos
 )
@@ -33362,6 +35330,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1421 53197 53236 "cfg_refactor.ml" 1421 53197 53252
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -33373,6 +35344,9 @@ ident(
   int_ref g "cfg_refactor.ml" 1419 53111 53133 "cfg_refactor.ml" 1419 53111 53134
 )
 "cfg_refactor.ml" 1421 53197 53222 "cfg_refactor.ml" 1421 53197 53254
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -33402,6 +35376,9 @@ ident(
   int_ref while_acc "cfg_refactor.ml" 1421 53197 53207 "cfg_refactor.ml" 1421 53197 53216
 )
 "cfg_refactor.ml" 1422 53258 53298 "cfg_refactor.ml" 1422 53258 53320
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -33413,6 +35390,9 @@ ident(
   int_ref body "cfg_refactor.ml" 1419 53111 53135 "cfg_refactor.ml" 1419 53111 53139
 )
 "cfg_refactor.ml" 1422 53258 53279 "cfg_refactor.ml" 1422 53258 53325
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -33435,6 +35415,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1423 53329 53340 "cfg_refactor.ml" 1423 53329 53369
+call(
+  stack
+)
 type(
   bool
 )
@@ -33471,6 +35454,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1425 53441 53474 "cfg_refactor.ml" 1425 53441 53501
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -33482,6 +35468,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1419 53111 53141 "cfg_refactor.ml" 1419 53111 53144
 )
 "cfg_refactor.ml" 1425 53441 53468 "cfg_refactor.ml" 1425 53441 53505
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33521,6 +35510,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1419 53111 53141 "cfg_refactor.ml" 1419 53111 53144
 )
 "cfg_refactor.ml" 1426 53509 53533 "cfg_refactor.ml" 1426 53509 53562
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33546,10 +35538,16 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1422 53258 53268 "cfg_refactor.ml" 1422 53258 53276
 )
 "cfg_refactor.ml" 1426 53509 53563 "cfg_refactor.ml" 1426 53509 53586
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
 "cfg_refactor.ml" 1426 53509 53521 "cfg_refactor.ml" 1426 53509 53586
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -33587,6 +35585,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1428 53600 53628 "cfg_refactor.ml" 1428 53600 53655
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -33598,6 +35599,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1419 53111 53141 "cfg_refactor.ml" 1419 53111 53144
 )
 "cfg_refactor.ml" 1428 53600 53622 "cfg_refactor.ml" 1428 53600 53659
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33641,6 +35645,9 @@ ident(
   int_ref gpos "cfg_refactor.ml" 1420 53167 53174 "cfg_refactor.ml" 1420 53167 53178
 )
 "cfg_refactor.ml" 1429 53663 53707 "cfg_refactor.ml" 1429 53663 53721
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33652,6 +35659,9 @@ ident(
   int_ref gpos "cfg_refactor.ml" 1420 53167 53174 "cfg_refactor.ml" 1420 53167 53178
 )
 "cfg_refactor.ml" 1429 53663 53685 "cfg_refactor.ml" 1429 53663 53726
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33681,6 +35691,9 @@ ident(
   int_ref while_acc "cfg_refactor.ml" 1421 53197 53207 "cfg_refactor.ml" 1421 53197 53216
 )
 "cfg_refactor.ml" 1430 53730 53756 "cfg_refactor.ml" 1430 53730 53783
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -33714,6 +35727,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1431 53787 53820 "cfg_refactor.ml" 1431 53787 53848
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -33725,6 +35741,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1419 53111 53141 "cfg_refactor.ml" 1419 53111 53144
 )
 "cfg_refactor.ml" 1431 53787 53814 "cfg_refactor.ml" 1431 53787 53852
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33754,6 +35773,9 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1422 53258 53268 "cfg_refactor.ml" 1422 53258 53276
 )
 "cfg_refactor.ml" 1432 53856 53876 "cfg_refactor.ml" 1432 53856 53897
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -33790,6 +35812,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1419 53111 53141 "cfg_refactor.ml" 1419 53111 53144
 )
 "cfg_refactor.ml" 1433 53901 53925 "cfg_refactor.ml" 1433 53901 53960
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -33801,6 +35826,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1432 53856 53870 "cfg_refactor.ml" 1432 53856 53873
 )
 "cfg_refactor.ml" 1433 53901 53913 "cfg_refactor.ml" 1433 53901 53964
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -33934,6 +35962,9 @@ type(
   Ast.expr
 )
 "cfg_refactor.ml" 1453 54794 54800 "cfg_refactor.ml" 1453 54794 54874
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -34012,6 +36043,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1455 54876 54910 "cfg_refactor.ml" 1455 54876 54913
 )
 "cfg_refactor.ml" 1456 54918 54943 "cfg_refactor.ml" 1456 54918 54985
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.block_formal_param list
 )
@@ -34049,6 +36083,9 @@ ident(
   int_ref guard "cfg_refactor.ml" 1455 54876 54898 "cfg_refactor.ml" 1455 54876 54903
 )
 "cfg_refactor.ml" 1457 54989 55013 "cfg_refactor.ml" 1457 54989 55036
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -34078,6 +36115,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1457 54989 54999 "cfg_refactor.ml" 1457 54989 55002
 )
 "cfg_refactor.ml" 1458 55040 55080 "cfg_refactor.ml" 1458 55040 55096
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34089,6 +36129,9 @@ ident(
   int_ref body "cfg_refactor.ml" 1455 54876 54904 "cfg_refactor.ml" 1455 54876 54908
 )
 "cfg_refactor.ml" 1458 55040 55061 "cfg_refactor.ml" 1458 55040 55101
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34122,6 +36165,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1459 55105 55129 "cfg_refactor.ml" 1459 55105 55156
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -34133,6 +36179,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1455 54876 54910 "cfg_refactor.ml" 1455 54876 54913
 )
 "cfg_refactor.ml" 1459 55105 55123 "cfg_refactor.ml" 1459 55105 55160
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -34162,6 +36211,9 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1458 55040 55050 "cfg_refactor.ml" 1458 55040 55058
 )
 "cfg_refactor.ml" 1460 55164 55180 "cfg_refactor.ml" 1460 55164 55201
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34208,6 +36260,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1455 54876 54910 "cfg_refactor.ml" 1455 54876 54913
 )
 "cfg_refactor.ml" 1461 55205 55225 "cfg_refactor.ml" 1461 55205 55259
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -34219,6 +36274,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1460 55164 55174 "cfg_refactor.ml" 1460 55164 55177
 )
 "cfg_refactor.ml" 1461 55205 55213 "cfg_refactor.ml" 1461 55205 55263
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -34301,6 +36359,9 @@ ident(
   int_ref m "cfg_refactor.ml" 1463 55265 55285 "cfg_refactor.ml" 1463 55265 55286
 )
 "cfg_refactor.ml" 1464 55301 55320 "cfg_refactor.ml" 1464 55301 55337
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -34330,6 +36391,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1464 55301 55311 "cfg_refactor.ml" 1464 55301 55314
 )
 "cfg_refactor.ml" 1465 55341 55376 "cfg_refactor.ml" 1465 55341 55391
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34348,6 +36412,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1463 55265 55293 "cfg_refactor.ml" 1463 55265 55296
 )
 "cfg_refactor.ml" 1465 55341 55362 "cfg_refactor.ml" 1465 55341 55400
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34381,6 +36448,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1466 55404 55428 "cfg_refactor.ml" 1466 55404 55455
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -34392,6 +36462,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1463 55265 55293 "cfg_refactor.ml" 1463 55265 55296
 )
 "cfg_refactor.ml" 1466 55404 55422 "cfg_refactor.ml" 1466 55404 55459
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -34431,6 +36504,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1463 55265 55293 "cfg_refactor.ml" 1463 55265 55296
 )
 "cfg_refactor.ml" 1467 55463 55483 "cfg_refactor.ml" 1467 55463 55508
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -34442,6 +36518,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1464 55301 55311 "cfg_refactor.ml" 1464 55301 55314
 )
 "cfg_refactor.ml" 1467 55463 55471 "cfg_refactor.ml" 1467 55463 55512
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -34523,6 +36602,9 @@ ident(
   int_ref meth "cfg_refactor.ml" 1469 55514 55534 "cfg_refactor.ml" 1469 55514 55538
 )
 "cfg_refactor.ml" 1470 55560 55579 "cfg_refactor.ml" 1470 55560 55608
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.def_name
 )
@@ -34562,6 +36644,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1470 55560 55570 "cfg_refactor.ml" 1470 55560 55573
 )
 "cfg_refactor.ml" 1472 55641 55677 "cfg_refactor.ml" 1472 55641 55692
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34580,6 +36665,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1469 55514 55552 "cfg_refactor.ml" 1469 55514 55555
 )
 "cfg_refactor.ml" 1472 55641 55649 "cfg_refactor.ml" 1472 55641 55703
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.method_formal_param list
 )
@@ -34602,6 +36690,9 @@ ident(
   int_ref in_acc "cfg_refactor.ml" 1471 55612 55622 "cfg_refactor.ml" 1471 55612 55628
 )
 "cfg_refactor.ml" 1474 55714 55736 "cfg_refactor.ml" 1474 55714 55755
+call(
+  stack
+)
 type(
   'l3 acc
 )
@@ -34621,6 +36712,9 @@ ident(
   int_ref params' "cfg_refactor.ml" 1471 55612 55630 "cfg_refactor.ml" 1471 55612 55637
 )
 "cfg_refactor.ml" 1475 55762 55797 "cfg_refactor.ml" 1475 55762 55819
+call(
+  stack
+)
 type(
   (Cfg.star_expr list * Cfg.expr option) option
 )
@@ -34661,6 +36755,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1469 55514 55552 "cfg_refactor.ml" 1469 55514 55555
 )
 "cfg_refactor.ml" 1477 55830 55851 "cfg_refactor.ml" 1477 55830 55882
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34687,6 +36784,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1479 55908 55919 "cfg_refactor.ml" 1479 55908 55945
+call(
+  stack
+)
 type(
   bool
 )
@@ -34716,6 +36816,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1469 55514 55552 "cfg_refactor.ml" 1469 55514 55555
 )
 "cfg_refactor.ml" 1480 55946 55971 "cfg_refactor.ml" 1480 55946 55991
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -34727,6 +36830,9 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1477 55830 55840 "cfg_refactor.ml" 1477 55830 55848
 )
 "cfg_refactor.ml" 1480 55946 55959 "cfg_refactor.ml" 1480 55946 56000
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34775,6 +36881,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1486 56208 56234 "cfg_refactor.ml" 1486 56208 56267
+call(
+  stack
+)
 type(
   Cfg.stmt DQueue.t
 )
@@ -34808,6 +36917,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1487 56269 56298 "cfg_refactor.ml" 1487 56269 56336
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -34886,6 +36998,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1469 55514 55552 "cfg_refactor.ml" 1469 55514 55555
 )
 "cfg_refactor.ml" 1491 56447 56468 "cfg_refactor.ml" 1491 56447 56508
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -34919,6 +37034,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1492 56512 56536 "cfg_refactor.ml" 1492 56512 56563
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -34930,6 +37048,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1469 55514 55552 "cfg_refactor.ml" 1469 55514 55555
 )
 "cfg_refactor.ml" 1492 56512 56530 "cfg_refactor.ml" 1492 56512 56567
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -34978,6 +37099,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1469 55514 55552 "cfg_refactor.ml" 1469 55514 55555
 )
 "cfg_refactor.ml" 1493 56571 56591 "cfg_refactor.ml" 1493 56571 56620
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -34989,6 +37113,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1470 55560 55570 "cfg_refactor.ml" 1470 55560 55573
 )
 "cfg_refactor.ml" 1493 56571 56579 "cfg_refactor.ml" 1493 56571 56624
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -35086,6 +37213,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1496 56669 56704 "cfg_refactor.ml" 1496 56669 56719
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -35104,6 +37234,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1495 56626 56661 "cfg_refactor.ml" 1495 56626 56664
 )
 "cfg_refactor.ml" 1496 56669 56690 "cfg_refactor.ml" 1496 56669 56728
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -35148,6 +37281,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1499 56782 56814 "cfg_refactor.ml" 1499 56782 56841
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -35159,6 +37295,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1495 56626 56661 "cfg_refactor.ml" 1495 56626 56664
 )
 "cfg_refactor.ml" 1499 56782 56808 "cfg_refactor.ml" 1499 56782 56845
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35196,6 +37335,9 @@ ident(
   int_ref clazz "cfg_refactor.ml" 1495 56626 56645 "cfg_refactor.ml" 1495 56626 56650
 )
 "cfg_refactor.ml" 1500 56849 56880 "cfg_refactor.ml" 1500 56849 56901
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -35237,6 +37379,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1495 56626 56661 "cfg_refactor.ml" 1495 56626 56664
 )
 "cfg_refactor.ml" 1501 56906 56934 "cfg_refactor.ml" 1501 56906 56964
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35248,6 +37393,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1500 56849 56867 "cfg_refactor.ml" 1500 56849 56870
 )
 "cfg_refactor.ml" 1501 56906 56922 "cfg_refactor.ml" 1501 56906 56968
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -35304,6 +37452,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1504 57013 57045 "cfg_refactor.ml" 1504 57013 57072
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -35315,6 +37466,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1495 56626 56661 "cfg_refactor.ml" 1495 56626 56664
 )
 "cfg_refactor.ml" 1504 57013 57039 "cfg_refactor.ml" 1504 57013 57076
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35352,6 +37506,9 @@ ident(
   int_ref clazz "cfg_refactor.ml" 1495 56626 56645 "cfg_refactor.ml" 1495 56626 56650
 )
 "cfg_refactor.ml" 1505 57080 57111 "cfg_refactor.ml" 1505 57080 57132
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -35389,6 +37546,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1503 56970 57006 "cfg_refactor.ml" 1503 56970 57007
 )
 "cfg_refactor.ml" 1506 57136 57163 "cfg_refactor.ml" 1506 57136 57180
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -35436,6 +37596,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1495 56626 56661 "cfg_refactor.ml" 1495 56626 56664
 )
 "cfg_refactor.ml" 1507 57184 57212 "cfg_refactor.ml" 1507 57184 57250
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35447,6 +37610,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1506 57136 57154 "cfg_refactor.ml" 1506 57136 57157
 )
 "cfg_refactor.ml" 1507 57184 57200 "cfg_refactor.ml" 1507 57184 57254
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -35489,7 +37655,7 @@ type(
   Ast.expr -> Ast.expr -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 1510 57298 57327 "cfg_refactor.ml" 1510 57298 57338
 type(
@@ -35537,6 +37703,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1509 57256 57291 "cfg_refactor.ml" 1509 57256 57292
 )
 "cfg_refactor.ml" 1511 57341 57368 "cfg_refactor.ml" 1511 57341 57385
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -35563,6 +37732,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1512 57389 57418 "cfg_refactor.ml" 1512 57389 57443
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -35592,6 +37764,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1495 56626 56661 "cfg_refactor.ml" 1495 56626 56664
 )
 "cfg_refactor.ml" 1513 57447 57473 "cfg_refactor.ml" 1513 57447 57491
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35631,6 +37806,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1495 56626 56661 "cfg_refactor.ml" 1495 56626 56664
 )
 "cfg_refactor.ml" 1514 57495 57523 "cfg_refactor.ml" 1514 57495 57549
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35642,6 +37820,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1511 57341 57359 "cfg_refactor.ml" 1511 57341 57362
 )
 "cfg_refactor.ml" 1514 57495 57511 "cfg_refactor.ml" 1514 57495 57553
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -35713,6 +37894,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1518 57600 57640 "cfg_refactor.ml" 1518 57600 57655
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -35724,6 +37908,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 1517 57567 57588 "cfg_refactor.ml" 1517 57567 57591
 )
 "cfg_refactor.ml" 1518 57600 57621 "cfg_refactor.ml" 1518 57600 57659
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -35757,6 +37944,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1519 57663 57687 "cfg_refactor.ml" 1519 57663 57714
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -35768,6 +37958,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1517 57567 57592 "cfg_refactor.ml" 1517 57567 57595
 )
 "cfg_refactor.ml" 1519 57663 57681 "cfg_refactor.ml" 1519 57663 57718
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35804,6 +37997,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1517 57567 57592 "cfg_refactor.ml" 1517 57567 57595
 )
 "cfg_refactor.ml" 1520 57722 57742 "cfg_refactor.ml" 1520 57722 57768
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35815,6 +38011,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1520 57722 57730 "cfg_refactor.ml" 1520 57722 57772
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -35870,6 +38069,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1523 57805 57845 "cfg_refactor.ml" 1523 57805 57860
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -35881,6 +38083,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 1522 57774 57793 "cfg_refactor.ml" 1522 57774 57796
 )
 "cfg_refactor.ml" 1523 57805 57826 "cfg_refactor.ml" 1523 57805 57864
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -35914,6 +38119,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1524 57868 57892 "cfg_refactor.ml" 1524 57868 57919
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -35925,6 +38133,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1522 57774 57797 "cfg_refactor.ml" 1522 57774 57800
 )
 "cfg_refactor.ml" 1524 57868 57886 "cfg_refactor.ml" 1524 57868 57923
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35961,6 +38172,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1522 57774 57797 "cfg_refactor.ml" 1522 57774 57800
 )
 "cfg_refactor.ml" 1525 57927 57947 "cfg_refactor.ml" 1525 57927 57971
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -35972,6 +38186,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1268 46323 46342 "cfg_refactor.ml" 1268 46323 46345
 )
 "cfg_refactor.ml" 1525 57927 57935 "cfg_refactor.ml" 1525 57927 57975
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -36030,6 +38247,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1527 57977 58001 "cfg_refactor.ml" 1527 57977 58004
 )
 "cfg_refactor.ml" 1527 57977 58009 "cfg_refactor.ml" 1527 57977 58035
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -36114,6 +38334,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1531 58061 58080 "cfg_refactor.ml" 1531 58061 58081
 )
 "cfg_refactor.ml" 1532 58124 58147 "cfg_refactor.ml" 1532 58124 58164
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -36143,6 +38366,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1531 58061 58116 "cfg_refactor.ml" 1531 58061 58119
 )
 "cfg_refactor.ml" 1533 58168 58185 "cfg_refactor.ml" 1533 58168 58201
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -36172,6 +38398,9 @@ ident(
   int_ref annot "cfg_refactor.ml" 1531 58061 58082 "cfg_refactor.ml" 1531 58061 58115
 )
 "cfg_refactor.ml" 1534 58205 58222 "cfg_refactor.ml" 1534 58205 58247
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -36197,6 +38426,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1532 58124 58134 "cfg_refactor.ml" 1532 58124 58137
 )
 "cfg_refactor.ml" 1535 58251 58259 "cfg_refactor.ml" 1535 58251 58279
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -36462,10 +38694,16 @@ ident(
   int_ref s "cfg_refactor.ml" 1543 58498 58502 "cfg_refactor.ml" 1545 58541 58567
 )
 "cfg_refactor.ml" 1546 58572 58600 "cfg_refactor.ml" 1546 58572 58614
+call(
+  stack
+)
 type(
   Ast.pos
 )
 "cfg_refactor.ml" 1546 58572 58588 "cfg_refactor.ml" 1546 58572 58615
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -36488,10 +38726,16 @@ ident(
   int_ref s "cfg_refactor.ml" 1543 58498 58502 "cfg_refactor.ml" 1545 58541 58567
 )
 "cfg_refactor.ml" 1548 58672 58680 "cfg_refactor.ml" 1548 58672 58710
+call(
+  stack
+)
 type(
   string
 )
 "cfg_refactor.ml" 1546 58572 58578 "cfg_refactor.ml" 1548 58672 58710
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -36626,6 +38870,9 @@ ident(
   int_ref targ "cfg_refactor.ml" 1551 58797 58813 "cfg_refactor.ml" 1551 58797 58817
 )
 "cfg_refactor.ml" 1553 58886 58908 "cfg_refactor.ml" 1553 58886 58928
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.identifier
 )
@@ -36663,6 +38910,9 @@ ident(
   int_ref msg "cfg_refactor.ml" 1551 58797 58831 "cfg_refactor.ml" 1551 58797 58834
 )
 "cfg_refactor.ml" 1554 58932 58953 "cfg_refactor.ml" 1554 58932 58973
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -36803,6 +39053,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1560 59130 59164 "cfg_refactor.ml" 1560 59130 59167
 )
 "cfg_refactor.ml" 1561 59173 59189 "cfg_refactor.ml" 1561 59173 59205
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -36813,6 +39066,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 1561 59173 59179 "cfg_refactor.ml" 1561 59173 59247
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.def_name
 )
@@ -36857,6 +39113,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1562 59248 59252 "cfg_refactor.ml" 1562 59248 59253
 )
 "cfg_refactor.ml" 1563 59258 59277 "cfg_refactor.ml" 1563 59258 59295
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.msg_id
 )
@@ -36937,7 +39196,7 @@ type(
   (Ast.expr * Ast.expr) list -> (Ast.expr * Ast.expr) list -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 1567 59387 59413 "cfg_refactor.ml" 1567 59387 59415
 type(
@@ -36952,7 +39211,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "cfg_refactor.ml" 1567 59387 59419 "cfg_refactor.ml" 1567 59387 59420
 type(
@@ -36970,7 +39229,7 @@ type(
   Ast.expr list -> Ast.expr list -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 1567 59387 59439 "cfg_refactor.ml" 1567 59387 59441
 type(
@@ -36985,7 +39244,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.&&
+  ext_ref Pervasives.( && )
 )
 "cfg_refactor.ml" 1567 59387 59445 "cfg_refactor.ml" 1567 59387 59446
 type(
@@ -37003,7 +39262,7 @@ type(
   Ast.expr list -> Ast.expr list -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "cfg_refactor.ml" 1567 59387 59463 "cfg_refactor.ml" 1567 59387 59465
 type(
@@ -37047,6 +39306,9 @@ type(
   Ast.expr list
 )
 "cfg_refactor.ml" 1568 59466 59473 "cfg_refactor.ml" 1568 59466 59512
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -37076,6 +39338,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1566 59334 59353 "cfg_refactor.ml" 1566 59334 59356
 )
 "cfg_refactor.ml" 1571 59586 59624 "cfg_refactor.ml" 1571 59586 59640
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37091,6 +39356,9 @@ type(
   Ast.expr list
 )
 "cfg_refactor.ml" 1571 59586 59605 "cfg_refactor.ml" 1571 59586 59657
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37183,6 +39451,9 @@ ident(
   int_ref resc "cfg_refactor.ml" 1574 59715 59738 "cfg_refactor.ml" 1574 59715 59742
 )
 "cfg_refactor.ml" 1575 59746 59774 "cfg_refactor.ml" 1575 59746 59802
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.rescue_block
 )
@@ -37239,6 +39510,9 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1571 59586 59594 "cfg_refactor.ml" 1571 59586 59602
 )
 "cfg_refactor.ml" 1577 59835 59846 "cfg_refactor.ml" 1577 59835 59867
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37262,6 +39536,9 @@ type(
   (Ast.expr * Ast.expr) list
 )
 "cfg_refactor.ml" 1573 59694 59700 "cfg_refactor.ml" 1577 59835 59890
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.rescue_block list
 )
@@ -37284,6 +39561,9 @@ ident(
   int_ref resc_rlist "cfg_refactor.ml" 1572 59661 59680 "cfg_refactor.ml" 1572 59661 59690
 )
 "cfg_refactor.ml" 1579 59899 59921 "cfg_refactor.ml" 1579 59899 59940
+call(
+  stack
+)
 type(
   Cfg.rescue_block list
 )
@@ -37313,6 +39593,9 @@ ident(
   int_ref rescue_acc "cfg_refactor.ml" 1572 59661 59669 "cfg_refactor.ml" 1572 59661 59679
 )
 "cfg_refactor.ml" 1581 59966 59991 "cfg_refactor.ml" 1581 59966 60014
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37328,6 +39611,9 @@ type(
   Ast.expr list
 )
 "cfg_refactor.ml" 1581 59966 59972 "cfg_refactor.ml" 1581 59966 60032
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37357,6 +39643,9 @@ ident(
   int_ref ensure_acc "cfg_refactor.ml" 1580 59944 59952 "cfg_refactor.ml" 1580 59944 59962
 )
 "cfg_refactor.ml" 1584 60061 60086 "cfg_refactor.ml" 1584 60061 60109
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37372,6 +39661,9 @@ type(
   Ast.expr list
 )
 "cfg_refactor.ml" 1584 60061 60067 "cfg_refactor.ml" 1584 60061 60125
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37401,6 +39693,9 @@ ident(
   int_ref else_acc "cfg_refactor.ml" 1583 60041 60049 "cfg_refactor.ml" 1583 60041 60057
 )
 "cfg_refactor.ml" 1586 60134 60148 "cfg_refactor.ml" 1586 60134 60169
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37434,6 +39729,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1587 60173 60194 "cfg_refactor.ml" 1587 60173 60221
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -37445,6 +39743,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1566 59334 59369 "cfg_refactor.ml" 1566 59334 59372
 )
 "cfg_refactor.ml" 1587 60173 60188 "cfg_refactor.ml" 1587 60173 60225
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -37471,6 +39772,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1589 60246 60255 "cfg_refactor.ml" 1589 60246 60281
+call(
+  stack
+)
 type(
   bool
 )
@@ -37504,6 +39808,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1590 60293 60316 "cfg_refactor.ml" 1590 60293 60343
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -37515,6 +39822,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1566 59334 59369 "cfg_refactor.ml" 1566 59334 59372
 )
 "cfg_refactor.ml" 1590 60293 60309 "cfg_refactor.ml" 1590 60293 60348
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -37549,6 +39859,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1593 60375 60384 "cfg_refactor.ml" 1593 60375 60412
+call(
+  stack
+)
 type(
   bool
 )
@@ -37582,6 +39895,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1594 60424 60447 "cfg_refactor.ml" 1594 60424 60476
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -37593,6 +39909,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1566 59334 59369 "cfg_refactor.ml" 1566 59334 59372
 )
 "cfg_refactor.ml" 1594 60424 60440 "cfg_refactor.ml" 1594 60424 60481
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -37656,6 +39975,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1566 59334 59369 "cfg_refactor.ml" 1566 59334 59372
 )
 "cfg_refactor.ml" 1596 60490 60508 "cfg_refactor.ml" 1596 60490 60556
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -37667,6 +39989,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1586 60134 60142 "cfg_refactor.ml" 1586 60134 60145
 )
 "cfg_refactor.ml" 1596 60490 60496 "cfg_refactor.ml" 1596 60490 60560
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -37897,6 +40222,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1607 60800 60820 "cfg_refactor.ml" 1607 60800 60821
 )
 "cfg_refactor.ml" 1608 60825 60846 "cfg_refactor.ml" 1608 60825 60873
+call(
+  stack
+)
 type(
   Utils.StrSet.t * Cfg.rescue_guard
 )
@@ -37964,6 +40292,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1599 60568 60592 "cfg_refactor.ml" 1599 60568 60595
 )
 "cfg_refactor.ml" 1610 60914 60923 "cfg_refactor.ml" 1610 60914 60937
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -37983,6 +40314,9 @@ ident(
   int_ref guard_exprs "cfg_refactor.ml" 1600 60641 60647 "cfg_refactor.ml" 1600 60641 60658
 )
 "cfg_refactor.ml" 1606 60781 60785 "cfg_refactor.ml" 1610 60914 60953
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.rescue_guard list
 )
@@ -38020,6 +40354,9 @@ ident(
   int_ref rev_guards "cfg_refactor.ml" 1605 60747 60767 "cfg_refactor.ml" 1605 60747 60777
 )
 "cfg_refactor.ml" 1613 60992 61007 "cfg_refactor.ml" 1613 60992 61026
+call(
+  stack
+)
 type(
   Cfg.rescue_guard list
 )
@@ -38071,6 +40408,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1599 60568 60592 "cfg_refactor.ml" 1599 60568 60595
 )
 "cfg_refactor.ml" 1614 61030 61047 "cfg_refactor.ml" 1615 61085 61142
+call(
+  stack
+)
 type(
   'n3 acc
 )
@@ -38100,6 +40440,9 @@ ident(
   int_ref rescue_body "cfg_refactor.ml" 1599 60568 60600 "cfg_refactor.ml" 1599 60568 60611
 )
 "cfg_refactor.ml" 1616 61146 61163 "cfg_refactor.ml" 1616 61146 61197
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -38133,6 +40476,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1617 61201 61220 "cfg_refactor.ml" 1617 61201 61247
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -38144,6 +40490,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1599 60568 60588 "cfg_refactor.ml" 1599 60568 60591
 )
 "cfg_refactor.ml" 1617 61201 61214 "cfg_refactor.ml" 1617 61201 61251
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -38191,6 +40540,9 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1616 61146 61152 "cfg_refactor.ml" 1616 61146 61160
 )
 "cfg_refactor.ml" 1619 61319 61323 "cfg_refactor.ml" 1619 61319 61346
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -38361,6 +40713,9 @@ type(
   Ast.expr
 )
 "cfg_refactor.ml" 1625 61582 61592 "cfg_refactor.ml" 1625 61582 61661
+call(
+  tail
+)
 type(
   Utils.StrSet.t * Cfg.rescue_guard
 )
@@ -38431,6 +40786,9 @@ ident(
   int_ref exn_e "cfg_refactor.ml" 1627 61663 61681 "cfg_refactor.ml" 1627 61663 61686
 )
 "cfg_refactor.ml" 1628 61717 61740 "cfg_refactor.ml" 1628 61717 61769
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr
 )
@@ -38472,6 +40830,9 @@ ident(
   int_ref bind_e "cfg_refactor.ml" 1627 61663 61700 "cfg_refactor.ml" 1627 61663 61706
 )
 "cfg_refactor.ml" 1629 61773 61807 "cfg_refactor.ml" 1629 61773 61830
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.lhs * Cfg.stmt acc
 )
@@ -38505,6 +40866,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1631 61852 61869 "cfg_refactor.ml" 1631 61852 61894
+call(
+  stack
+)
 type(
   bool
 )
@@ -38534,6 +40898,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1627 61663 61708 "cfg_refactor.ml" 1627 61663 61711
 )
 "cfg_refactor.ml" 1632 61895 61920 "cfg_refactor.ml" 1632 61895 61936
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -38542,6 +40909,9 @@ type(
   (unit, Format.formatter, unit, unit) format4
 )
 "cfg_refactor.ml" 1632 61895 61910 "cfg_refactor.ml" 1632 61895 61968
+call(
+  stack
+)
 type(
   unit
 )
@@ -38604,6 +40974,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1627 61663 61708 "cfg_refactor.ml" 1627 61663 61711
 )
 "cfg_refactor.ml" 1636 62055 62082 "cfg_refactor.ml" 1636 62055 62098
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -38612,6 +40985,9 @@ type(
   ('o3, Format.formatter, unit, 'o3) format4
 )
 "cfg_refactor.ml" 1636 62055 62072 "cfg_refactor.ml" 1636 62055 62132
+call(
+  stack
+)
 type(
   'o3
 )
@@ -38645,6 +41021,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1638 62144 62161 "cfg_refactor.ml" 1638 62144 62184
+call(
+  stack
+)
 type(
   bool
 )
@@ -38674,6 +41053,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1627 61663 61708 "cfg_refactor.ml" 1627 61663 61711
 )
 "cfg_refactor.ml" 1640 62206 62228 "cfg_refactor.ml" 1640 62206 62244
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -38682,6 +41064,9 @@ type(
   (unit, Format.formatter, unit, unit) format4
 )
 "cfg_refactor.ml" 1639 62185 62200 "cfg_refactor.ml" 1641 62290 62303
+call(
+  stack
+)
 type(
   unit
 )
@@ -38836,6 +41221,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1621 61358 61389 "cfg_refactor.ml" 1621 61358 61390
 )
 "cfg_refactor.ml" 1647 62471 62493 "cfg_refactor.ml" 1647 62471 62518
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr
 )
@@ -38865,6 +41253,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1648 62522 62539 "cfg_refactor.ml" 1648 62522 62562
+call(
+  stack
+)
 type(
   bool
 )
@@ -38912,10 +41303,16 @@ ident(
   int_ref s "cfg_refactor.ml" 1651 62608 62627 "cfg_refactor.ml" 1651 62608 62628
 )
 "cfg_refactor.ml" 1653 62678 62697 "cfg_refactor.ml" 1653 62678 62726
+call(
+  stack
+)
 type(
   string
 )
 "cfg_refactor.ml" 1652 62632 62649 "cfg_refactor.ml" 1653 62678 62726
+call(
+  tail
+)
 type(
   unit
 )
@@ -38935,6 +41332,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1650 62584 62596 "cfg_refactor.ml" 1654 62727 62748
+call(
+  stack
+)
 type(
   unit
 )
@@ -38967,10 +41367,16 @@ ident(
   int_ref e "cfg_refactor.ml" 1621 61358 61389 "cfg_refactor.ml" 1621 61358 61390
 )
 "cfg_refactor.ml" 1655 62750 62784 "cfg_refactor.ml" 1655 62750 62798
+call(
+  stack
+)
 type(
   Ast.pos
 )
 "cfg_refactor.ml" 1655 62750 62772 "cfg_refactor.ml" 1655 62750 62799
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -38979,6 +41385,9 @@ type(
   (unit, Format.formatter, unit, unit) format4
 )
 "cfg_refactor.ml" 1655 62750 62762 "cfg_refactor.ml" 1656 62800 62857
+call(
+  stack
+)
 type(
   unit
 )
@@ -39063,10 +41472,16 @@ ident(
   int_ref e "cfg_refactor.ml" 1660 62909 62915 "cfg_refactor.ml" 1660 62909 62916
 )
 "cfg_refactor.ml" 1661 62921 62956 "cfg_refactor.ml" 1661 62921 62970
+call(
+  stack
+)
 type(
   Ast.pos
 )
 "cfg_refactor.ml" 1661 62921 62944 "cfg_refactor.ml" 1661 62921 62971
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -39091,6 +41506,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1660 62909 62915 "cfg_refactor.ml" 1660 62909 62916
 )
 "cfg_refactor.ml" 1661 62921 62929 "cfg_refactor.ml" 1662 62972 63026
+call(
+  stack
+)
 type(
   unit
 )
@@ -39128,6 +41546,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1660 62909 62915 "cfg_refactor.ml" 1660 62909 62916
 )
 "cfg_refactor.ml" 1663 63028 63050 "cfg_refactor.ml" 1663 63028 63075
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr
 )
@@ -39157,6 +41578,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1664 63079 63097 "cfg_refactor.ml" 1664 63079 63120
+call(
+  stack
+)
 type(
   bool
 )
@@ -39169,7 +41593,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "cfg_refactor.ml" 1664 63079 63125 "cfg_refactor.ml" 1664 63079 63128
 type(
@@ -39197,6 +41621,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1664 63079 63129 "cfg_refactor.ml" 1664 63079 63155
+call(
+  stack
+)
 type(
   bool
 )
@@ -39237,10 +41664,16 @@ ident(
   int_ref e "cfg_refactor.ml" 1660 62909 62915 "cfg_refactor.ml" 1660 62909 62916
 )
 "cfg_refactor.ml" 1665 63156 63193 "cfg_refactor.ml" 1665 63156 63207
+call(
+  stack
+)
 type(
   Ast.pos
 )
 "cfg_refactor.ml" 1665 63156 63181 "cfg_refactor.ml" 1665 63156 63208
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -39249,6 +41682,9 @@ type(
   (unit, Format.formatter, unit, unit) format4
 )
 "cfg_refactor.ml" 1665 63156 63171 "cfg_refactor.ml" 1666 63209 63263
+call(
+  stack
+)
 type(
   unit
 )
@@ -39400,6 +41836,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1672 63477 63510 "cfg_refactor.ml" 1672 63477 63533
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -39465,6 +41904,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 1676 63597 63603 "cfg_refactor.ml" 1676 63597 63673
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.method_formal_param
 )
@@ -39512,6 +41954,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1679 63699 63722 "cfg_refactor.ml" 1679 63699 63743
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -39582,6 +42027,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1682 63790 63823 "cfg_refactor.ml" 1682 63790 63846
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -39646,6 +42094,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1669 63313 63341 "cfg_refactor.ml" 1669 63313 63344
 )
 "cfg_refactor.ml" 1686 63907 63927 "cfg_refactor.ml" 1686 63907 63936
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'p3
 )
@@ -39763,6 +42214,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 1693 64072 64103 "cfg_refactor.ml" 1693 64072 64162
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.method_formal_param
 )
@@ -39803,6 +42257,9 @@ ident(
   int_ref s "cfg_refactor.ml" 1695 64164 64190 "cfg_refactor.ml" 1695 64164 64191
 )
 "cfg_refactor.ml" 1696 64196 64212 "cfg_refactor.ml" 1696 64196 64224
+call(
+  stack
+)
 type(
   Ast.pos
 )
@@ -39832,6 +42289,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1669 63313 63341 "cfg_refactor.ml" 1669 63313 63344
 )
 "cfg_refactor.ml" 1697 64228 64266 "cfg_refactor.ml" 1697 64228 64282
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -39843,6 +42303,9 @@ ident(
   int_ref s "cfg_refactor.ml" 1695 64164 64190 "cfg_refactor.ml" 1695 64164 64191
 )
 "cfg_refactor.ml" 1697 64228 64252 "cfg_refactor.ml" 1697 64228 64284
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -39872,6 +42335,9 @@ ident(
   int_ref default_acc "cfg_refactor.ml" 1697 64228 64238 "cfg_refactor.ml" 1697 64228 64249
 )
 "cfg_refactor.ml" 1698 64288 64304 "cfg_refactor.ml" 1698 64288 64328
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -39912,6 +42378,9 @@ type(
   Utils.StrSet.t
 )
 "cfg_refactor.ml" 1699 64332 64365 "cfg_refactor.ml" 1699 64332 64386
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -39949,6 +42418,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1700 64391 64412 "cfg_refactor.ml" 1700 64391 64442
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -39960,6 +42432,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1696 64196 64206 "cfg_refactor.ml" 1696 64196 64209
 )
 "cfg_refactor.ml" 1700 64391 64406 "cfg_refactor.ml" 1700 64391 64446
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -40052,10 +42527,16 @@ type(
   unit
 )
 "cfg_refactor.ml" 1705 64573 64635 "cfg_refactor.ml" 1705 64573 64651
+call(
+  stack
+)
 type(
   int
 )
 "cfg_refactor.ml" 1705 64573 64607 "cfg_refactor.ml" 1705 64573 64652
+call(
+  stack
+)
 type(
   string
 )
@@ -40102,6 +42583,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1699 64332 64342 "cfg_refactor.ml" 1699 64332 64345
 )
 "cfg_refactor.ml" 1707 64705 64732 "cfg_refactor.ml" 1707 64705 64741
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'u3
 )
@@ -40154,6 +42638,9 @@ ident(
   int_ref formal_id "cfg_refactor.ml" 1708 64745 64763 "cfg_refactor.ml" 1708 64745 64772
 )
 "cfg_refactor.ml" 1709 64801 64825 "cfg_refactor.ml" 1709 64801 64847
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -40187,6 +42674,9 @@ ident(
   int_ref s' "cfg_refactor.ml" 1700 64391 64401 "cfg_refactor.ml" 1700 64391 64403
 )
 "cfg_refactor.ml" 1710 64851 64875 "cfg_refactor.ml" 1710 64851 64919
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -40231,6 +42721,9 @@ ident(
   int_ref f "cfg_refactor.ml" 1695 64164 64188 "cfg_refactor.ml" 1695 64164 64189
 )
 "cfg_refactor.ml" 1712 64949 64986 "cfg_refactor.ml" 1712 64949 64997
+call(
+  stack
+)
 type(
   'y3
 )
@@ -40260,6 +42753,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1696 64196 64206 "cfg_refactor.ml" 1696 64196 64209
 )
 "cfg_refactor.ml" 1712 64949 64965 "cfg_refactor.ml" 1712 64949 65011
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -40303,6 +42799,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1696 64196 64206 "cfg_refactor.ml" 1696 64196 64209
 )
 "cfg_refactor.ml" 1713 65013 65048 "cfg_refactor.ml" 1713 65013 65068
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -40314,6 +42813,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1696 64196 64206 "cfg_refactor.ml" 1696 64196 64209
 )
 "cfg_refactor.ml" 1713 65013 65029 "cfg_refactor.ml" 1713 65013 65072
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -40347,6 +42849,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1696 64196 64206 "cfg_refactor.ml" 1696 64196 64209
 )
 "cfg_refactor.ml" 1716 65109 65133 "cfg_refactor.ml" 1716 65109 65146
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -40376,6 +42881,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1709 64801 64819 "cfg_refactor.ml" 1709 64801 64822
 )
 "cfg_refactor.ml" 1717 65150 65174 "cfg_refactor.ml" 1717 65150 65193
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -40566,6 +43074,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1720 65244 65270 "cfg_refactor.ml" 1720 65244 65273
 )
 "cfg_refactor.ml" 1722 65378 65384 "cfg_refactor.ml" 1722 65378 65402
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -40591,6 +43102,9 @@ ident(
   int_ref ik "cfg_refactor.ml" 1721 65327 65362 "cfg_refactor.ml" 1721 65327 65364
 )
 "cfg_refactor.ml" 1722 65378 65421 "cfg_refactor.ml" 1722 65378 65444
+call(
+  stack
+)
 type(
   Cfg.var_kind
 )
@@ -40646,6 +43160,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1720 65244 65276 "cfg_refactor.ml" 1720 65244 65279
 )
 "cfg_refactor.ml" 1724 65473 65489 "cfg_refactor.ml" 1724 65473 65505
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -40656,6 +43173,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 1724 65473 65479 "cfg_refactor.ml" 1724 65473 65558
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.block_formal_param
 )
@@ -40692,6 +43212,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1720 65244 65270 "cfg_refactor.ml" 1720 65244 65273
 )
 "cfg_refactor.ml" 1726 65560 65586 "cfg_refactor.ml" 1726 65560 65602
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -40741,6 +43264,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1720 65244 65270 "cfg_refactor.ml" 1720 65244 65273
 )
 "cfg_refactor.ml" 1728 65644 65664 "cfg_refactor.ml" 1728 65644 65673
+call(
+  stack
+)
 type(
   Cfg.stmt acc * 'd4
 )
@@ -40877,6 +43403,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1720 65244 65276 "cfg_refactor.ml" 1720 65244 65279
 )
 "cfg_refactor.ml" 1736 65840 65861 "cfg_refactor.ml" 1736 65840 65901
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.block_formal_param list
 )
@@ -40942,6 +43471,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1720 65244 65276 "cfg_refactor.ml" 1720 65244 65279
 )
 "cfg_refactor.ml" 1738 65936 65970 "cfg_refactor.ml" 1738 65936 65986
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -40952,6 +43484,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 1738 65936 65960 "cfg_refactor.ml" 1738 65936 66018
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.block_formal_param
 )
@@ -40991,6 +43526,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1720 65244 65276 "cfg_refactor.ml" 1720 65244 65279
 )
 "cfg_refactor.ml" 1739 66019 66057 "cfg_refactor.ml" 1739 66019 66073
+call(
+  stack
+)
 type(
   Log.ctx
 )
@@ -41001,6 +43539,9 @@ type(
   format4
 )
 "cfg_refactor.ml" 1739 66019 66047 "cfg_refactor.ml" 1739 66019 66111
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.block_formal_param
 )
@@ -41082,6 +43623,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1741 66113 66152 "cfg_refactor.ml" 1741 66113 66155
 )
 "cfg_refactor.ml" 1742 66159 66161 "cfg_refactor.ml" 1742 66159 66215
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.block_formal_param list
 )
@@ -41156,6 +43700,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1744 66217 66257 "cfg_refactor.ml" 1744 66217 66260
 )
 "cfg_refactor.ml" 1745 66264 66266 "cfg_refactor.ml" 1745 66264 66321
+call(
+  tail
+)
 type(
   Cfg.stmt acc * Cfg.method_formal_param list
 )
@@ -41258,6 +43805,9 @@ ident(
   int_ref e "cfg_refactor.ml" 1750 66438 66444 "cfg_refactor.ml" 1750 66438 66445
 )
 "cfg_refactor.ml" 1750 66438 66449 "cfg_refactor.ml" 1750 66438 66468
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.expr
 )
@@ -41379,6 +43929,9 @@ ident(
   int_ref g "cfg_refactor.ml" 1754 66514 66538 "cfg_refactor.ml" 1754 66514 66539
 )
 "cfg_refactor.ml" 1756 66577 66588 "cfg_refactor.ml" 1756 66577 66642
+call(
+  stack
+)
 type(
   Cfg.stmt acc * Cfg.tuple_expr DQueue.t
 )
@@ -41401,6 +43954,9 @@ ident(
   int_ref glist "cfg_refactor.ml" 1755 66550 66568 "cfg_refactor.ml" 1755 66550 66573
 )
 "cfg_refactor.ml" 1758 66656 66680 "cfg_refactor.ml" 1758 66656 66700
+call(
+  stack
+)
 type(
   Cfg.tuple_expr list
 )
@@ -41478,6 +44034,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1755 66550 66563 "cfg_refactor.ml" 1755 66550 66566
 )
 "cfg_refactor.ml" 1763 66803 66846 "cfg_refactor.ml" 1763 66803 66862
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -41489,6 +44048,9 @@ ident(
   int_ref body "cfg_refactor.ml" 1754 66514 66540 "cfg_refactor.ml" 1754 66514 66544
 )
 "cfg_refactor.ml" 1763 66803 66827 "cfg_refactor.ml" 1763 66803 66867
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -41522,6 +44084,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1764 66871 66898 "cfg_refactor.ml" 1764 66871 66925
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -41533,6 +44098,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1747 66323 66350 "cfg_refactor.ml" 1747 66323 66353
 )
 "cfg_refactor.ml" 1764 66871 66892 "cfg_refactor.ml" 1764 66871 66929
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -41562,6 +44130,9 @@ ident(
   int_ref body_acc "cfg_refactor.ml" 1763 66803 66816 "cfg_refactor.ml" 1763 66803 66824
 )
 "cfg_refactor.ml" 1765 66933 66952 "cfg_refactor.ml" 1765 66933 66973
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -41606,6 +44177,9 @@ ident(
   int_ref whens "cfg_refactor.ml" 1754 66514 66530 "cfg_refactor.ml" 1754 66514 66535
 )
 "cfg_refactor.ml" 1766 66977 66993 "cfg_refactor.ml" 1766 66977 67021
+call(
+  stack
+)
 type(
   (Cfg.tuple_expr * Cfg.stmt) acc
 )
@@ -41661,6 +44235,9 @@ ident(
   int_ref acc "cfg_refactor.ml" 1748 66357 66363 "cfg_refactor.ml" 1748 66357 66366
 )
 "cfg_refactor.ml" 1767 67022 67035 "cfg_refactor.ml" 1767 67022 67049
+call(
+  stack
+)
 type(
   (Cfg.tuple_expr * Cfg.stmt) acc
 )
@@ -41680,6 +44257,9 @@ type(
   (Ast.expr list * Ast.expr list) list
 )
 "cfg_refactor.ml" 1753 66495 66499 "cfg_refactor.ml" 1767 67022 67070
+call(
+  stack
+)
 type(
   Cfg.stmt acc * (Cfg.tuple_expr * Cfg.stmt) acc
 )
@@ -41709,6 +44289,9 @@ ident(
   int_ref whens' "cfg_refactor.ml" 1752 66474 66485 "cfg_refactor.ml" 1752 66474 66491
 )
 "cfg_refactor.ml" 1769 67076 67109 "cfg_refactor.ml" 1769 67076 67128
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -41724,6 +44307,9 @@ type(
   Ast.expr list
 )
 "cfg_refactor.ml" 1769 67076 67090 "cfg_refactor.ml" 1769 67076 67147
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -41750,6 +44336,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1770 67151 67170 "cfg_refactor.ml" 1770 67151 67193
+call(
+  stack
+)
 type(
   bool
 )
@@ -41783,6 +44372,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1771 67194 67223 "cfg_refactor.ml" 1771 67194 67247
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -41794,6 +44386,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1747 66323 66350 "cfg_refactor.ml" 1747 66323 66353
 )
 "cfg_refactor.ml" 1771 67194 67216 "cfg_refactor.ml" 1771 67194 67252
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -41843,6 +44438,9 @@ type(
   (Cfg.tuple_expr * Cfg.stmt) DQueue.t
 )
 "cfg_refactor.ml" 1773 67258 67281 "cfg_refactor.ml" 1773 67258 67306
+call(
+  stack
+)
 type(
   (Cfg.tuple_expr * Cfg.stmt) list
 )
@@ -41861,6 +44459,9 @@ ident(
   int_ref pos "cfg_refactor.ml" 1747 66323 66350 "cfg_refactor.ml" 1747 66323 66353
 )
 "cfg_refactor.ml" 1773 67258 67271 "cfg_refactor.ml" 1773 67258 67319
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
@@ -41900,10 +44501,16 @@ ident(
   int_ref else' "cfg_refactor.ml" 1769 67076 67082 "cfg_refactor.ml" 1769 67076 67087
 )
 "cfg_refactor.ml" 1774 67323 67344 "cfg_refactor.ml" 1774 67323 67364
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
 "cfg_refactor.ml" 1774 67323 67327 "cfg_refactor.ml" 1774 67323 67364
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -41978,6 +44585,9 @@ ident(
   int_ref lst "cfg_refactor.ml" 1776 67372 67410 "cfg_refactor.ml" 1776 67372 67413
 )
 "cfg_refactor.ml" 1777 67428 67430 "cfg_refactor.ml" 1777 67428 67466
+call(
+  tail
+)
 type(
   Cfg.stmt acc
 )
@@ -42031,6 +44641,9 @@ ident(
   int_ref env "cfg_refactor.ml" 1780 67473 67491 "cfg_refactor.ml" 1780 67473 67494
 )
 "cfg_refactor.ml" 1781 67502 67515 "cfg_refactor.ml" 1781 67502 67543
+call(
+  stack
+)
 type(
   Utils.StrSet.t
 )
@@ -42086,6 +44699,9 @@ ident(
   int_ref ast "cfg_refactor.ml" 1780 67473 67495 "cfg_refactor.ml" 1780 67473 67498
 )
 "cfg_refactor.ml" 1783 67610 67622 "cfg_refactor.ml" 1783 67610 67648
+call(
+  stack
+)
 type(
   Cfg.stmt acc
 )
@@ -42108,6 +44724,9 @@ type(
   Cfg.stmt DQueue.t
 )
 "cfg_refactor.ml" 1784 67652 67662 "cfg_refactor.ml" 1784 67652 67682
+call(
+  stack
+)
 type(
   Cfg.stmt list
 )
@@ -42127,6 +44746,9 @@ type(
   unit
 )
 "cfg_refactor.ml" 1785 67688 67702 "cfg_refactor.ml" 1785 67688 67715
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -42181,10 +44803,16 @@ ident(
   int_ref hd "cfg_refactor.ml" 1786 67716 67725 "cfg_refactor.ml" 1786 67716 67727
 )
 "cfg_refactor.ml" 1786 67716 67752 "cfg_refactor.ml" 1786 67716 67763
+call(
+  stack
+)
 type(
   Cfg.pos
 )
 "cfg_refactor.ml" 1786 67716 67742 "cfg_refactor.ml" 1786 67716 67763
+call(
+  tail
+)
 type(
   Cfg.stmt
 )
@@ -42303,6 +44931,9 @@ ident(
   int_ref str "cfg_refactor.ml" 1790 67855 67866 "cfg_refactor.ml" 1790 67855 67869
 )
 "cfg_refactor.ml" 1791 67873 67887 "cfg_refactor.ml" 1791 67873 67939
+call(
+  stack
+)
 type(
   Ast.ast
 )
@@ -42335,10 +44966,16 @@ ident(
   int_ref env "cfg_refactor.ml" 1788 67765 67779 "cfg_refactor.ml" 1788 67765 67782
 )
 "cfg_refactor.ml" 1792 67943 67954 "cfg_refactor.ml" 1792 67943 67977
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
 "cfg_refactor.ml" 1792 67943 67949 "cfg_refactor.ml" 1792 67943 67977
+call(
+  tail
+)
 type(
   'a
 )
@@ -42368,6 +45005,9 @@ ident(
   int_ref k "cfg_refactor.ml" 1788 67765 67806 "cfg_refactor.ml" 1788 67765 67807
 )
 "cfg_refactor.ml" 1794 67983 67987 "cfg_refactor.ml" 1794 67983 68004
+call(
+  tail
+)
 type(
   'b
 )
@@ -42462,6 +45102,9 @@ ident(
   int_ref k "cfg_refactor.ml" 1796 68006 68041 "cfg_refactor.ml" 1796 68006 68042
 )
 "cfg_refactor.ml" 1797 68046 68048 "cfg_refactor.ml" 1797 68046 68090
+call(
+  tail
+)
 type(
   'a
 )
@@ -42557,6 +45200,9 @@ ident(
   int_ref str "cfg_refactor.ml" 1801 68153 68162 "cfg_refactor.ml" 1801 68153 68165
 )
 "cfg_refactor.ml" 1802 68170 68187 "cfg_refactor.ml" 1802 68170 68239
+call(
+  stack
+)
 type(
   Ast.ast
 )
@@ -42589,10 +45235,16 @@ ident(
   int_ref env "cfg_refactor.ml" 1799 68092 68107 "cfg_refactor.ml" 1799 68092 68110
 )
 "cfg_refactor.ml" 1803 68243 68257 "cfg_refactor.ml" 1803 68243 68280
+call(
+  stack
+)
 type(
   Cfg.stmt
 )
 "cfg_refactor.ml" 1803 68243 68252 "cfg_refactor.ml" 1803 68243 68280
+call(
+  tail
+)
 type(
   'a
 )
@@ -42605,6 +45257,9 @@ type(
   string -> 'a
 )
 "cfg_refactor.ml" 1800 68137 68139 "cfg_refactor.ml" 1804 68281 68286
+call(
+  tail
+)
 type(
   ('b, Format.formatter, unit, 'a) format4 -> 'b
 )
@@ -42678,6 +45333,9 @@ ident(
   ext_ref Utils.id
 )
 "cfg_refactor.ml" 1807 68328 68330 "cfg_refactor.ml" 1807 68328 68371
+call(
+  tail
+)
 type(
   ('a, Format.formatter, unit, Cfg.stmt) format4 -> 'a
 )

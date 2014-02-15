@@ -113,6 +113,9 @@ ident(
   int_ref l1 "automaton.ml" 6 93 109 "automaton.ml" 6 93 111
 )
 "automaton.ml" 6 93 133 "automaton.ml" 6 93 146
+call(
+  stack
+)
 type(
   'a list
 )
@@ -124,6 +127,9 @@ ident(
   int_ref l2 "automaton.ml" 6 93 112 "automaton.ml" 6 93 114
 )
 "automaton.ml" 6 93 117 "automaton.ml" 6 93 149
+call(
+  tail
+)
 type(
   'a list
 )
@@ -170,6 +176,9 @@ ident(
   int_ref l2 "automaton.ml" 7 150 161 "automaton.ml" 7 150 163
 )
 "automaton.ml" 7 150 166 "automaton.ml" 7 150 183
+call(
+  tail
+)
 type(
   'a list
 )
@@ -186,6 +195,10 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"automaton.ml" 30 695 711 "automaton.ml" 30 695 736
+call(
+  stack
 )
 "automaton.ml" 34 849 853 "automaton.ml" 34 849 861
 type(
@@ -322,6 +335,9 @@ ident(
   int_ref t "automaton.ml" 36 898 956 "automaton.ml" 36 898 957
 )
 "automaton.ml" 36 898 961 "automaton.ml" 36 898 966
+call(
+  tail
+)
 type(
   'c list
 )
@@ -344,6 +360,9 @@ ident(
   int_ref ol "automaton.ml" 35 875 891 "automaton.ml" 35 875 893
 )
 "automaton.ml" 37 970 972 "automaton.ml" 37 970 978
+call(
+  tail
+)
 type(
   'a list
 )
@@ -394,6 +413,14 @@ type(
 ident(
   ext_ref Pervasives.compare
 )
+"automaton.ml" 47 1090 1107 "automaton.ml" 47 1090 1128
+call(
+  stack
+)
+"automaton.ml" 48 1129 1146 "automaton.ml" 48 1129 1167
+call(
+  stack
+)
 "automaton.ml" 202 7006 7014 "automaton.ml" 202 7006 7021
 type(
   'a -> 'a -> int
@@ -440,6 +467,10 @@ ident(
 type(
   int
 )
+"automaton.ml" 205 7067 7086 "automaton.ml" 205 7067 7108
+call(
+  stack
+)
 "automaton.ml" 215 7335 7343 "automaton.ml" 215 7335 7350
 type(
   'b -> 'b -> int
@@ -454,6 +485,10 @@ type(
 ident(
   ext_ref Pervasives.compare
 )
+"automaton.ml" 217 7378 7398 "automaton.ml" 217 7378 7421
+call(
+  stack
+)
 "automaton.ml" 229 7640 7648 "automaton.ml" 229 7640 7655
 type(
   'c -> 'c -> int
@@ -467,6 +502,10 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"automaton.ml" 231 7683 7698 "automaton.ml" 231 7683 7727
+call(
+  stack
 )
 "automaton.ml" 242 7957 7963 "automaton.ml" 242 7957 7975
 type(
@@ -623,6 +662,9 @@ ident(
   int_ref tk "automaton.ml" 268 8743 8753 "automaton.ml" 268 8743 8755
 )
 "automaton.ml" 268 8743 8759 "automaton.ml" 268 8743 8776
+call(
+  tail
+)
 type(
   string
 )
@@ -653,6 +695,9 @@ ident(
   int_ref nt "automaton.ml" 269 8777 8791 "automaton.ml" 269 8777 8793
 )
 "automaton.ml" 269 8777 8814 "automaton.ml" 269 8777 8828
+call(
+  stack
+)
 type(
   non_terminal
 )
@@ -664,6 +709,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 267 8692 8714 "automaton.ml" 267 8692 8725
 )
 "automaton.ml" 269 8777 8797 "automaton.ml" 269 8777 8840
+call(
+  tail
+)
 type(
   string
 )
@@ -733,7 +781,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "automaton.ml" 273 8903 8924 "automaton.ml" 273 8903 8925
 type(
@@ -758,13 +806,16 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 273 8903 8933 "automaton.ml" 273 8903 8936
 type(
   string
 )
 "automaton.ml" 273 8903 8931 "automaton.ml" 273 8903 8936
+call(
+  stack
+)
 type(
   string
 )
@@ -791,7 +842,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "automaton.ml" 274 8947 8958 "automaton.ml" 274 8947 8970
 type(
@@ -841,7 +892,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 275 8984 9002 "automaton.ml" 275 8984 9003
 type(
@@ -863,7 +914,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 275 8984 9010 "automaton.ml" 275 8984 9021
 type(
@@ -898,6 +949,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 271 8842 8867 "automaton.ml" 271 8842 8878
 )
 "automaton.ml" 275 8984 9009 "automaton.ml" 275 8984 9043
+call(
+  stack
+)
 type(
   string
 )
@@ -906,21 +960,30 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 275 8984 9044 "automaton.ml" 275 8984 9047
 type(
   string
 )
 "automaton.ml" 275 8984 9009 "automaton.ml" 275 8984 9047
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 275 8984 9005 "automaton.ml" 275 8984 9048
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 275 8984 8995 "automaton.ml" 275 8984 9048
+call(
+  tail
+)
 type(
   string
 )
@@ -948,6 +1011,9 @@ type(
   string
 )
 "automaton.ml" 277 9056 9060 "automaton.ml" 277 9056 9068
+call(
+  tail
+)
 type(
   string
 )
@@ -999,7 +1065,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 285 9275 9299 "automaton.ml" 285 9275 9313
 type(
@@ -1013,6 +1079,9 @@ ident(
   int_ref tn "automaton.ml" 285 9275 9285 "automaton.ml" 285 9275 9287
 )
 "automaton.ml" 285 9275 9298 "automaton.ml" 285 9275 9317
+call(
+  stack
+)
 type(
   string
 )
@@ -1021,17 +1090,23 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 285 9275 9318 "automaton.ml" 285 9275 9321
 type(
   string
 )
 "automaton.ml" 285 9275 9298 "automaton.ml" 285 9275 9321
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 285 9275 9294 "automaton.ml" 285 9275 9321
+call(
+  tail
+)
 type(
   string
 )
@@ -1065,6 +1140,9 @@ type(
   string
 )
 "automaton.ml" 286 9325 9339 "automaton.ml" 286 9325 9356
+call(
+  stack
+)
 type(
   string
 )
@@ -1080,7 +1158,7 @@ type(
   string -> string -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "automaton.ml" 287 9360 9373 "automaton.ml" 287 9360 9375
 type(
@@ -1146,7 +1224,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "automaton.ml" 289 9436 9472 "automaton.ml" 289 9436 9473
 type(
@@ -1157,6 +1235,9 @@ type(
   int
 )
 "automaton.ml" 289 9436 9440 "automaton.ml" 289 9436 9474
+call(
+  tail
+)
 type(
   string
 )
@@ -1322,6 +1403,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 294 9666 9712 "automaton.ml" 294 9666 9723
 )
 "automaton.ml" 297 9832 9838 "automaton.ml" 297 9832 9863
+call(
+  stack
+)
 type(
   string
 )
@@ -1365,6 +1449,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 294 9666 9712 "automaton.ml" 294 9666 9723
 )
 "automaton.ml" 298 9864 9870 "automaton.ml" 298 9864 9917
+call(
+  stack
+)
 type(
   string
 )
@@ -1383,10 +1470,16 @@ ident(
   int_ref tns "automaton.ml" 294 9666 9728 "automaton.ml" 294 9666 9731
 )
 "automaton.ml" 298 9864 9918 "automaton.ml" 298 9864 9937
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 296 9786 9790 "automaton.ml" 298 9864 9937
+call(
+  tail
+)
 type(
   unit
 )
@@ -1540,6 +1633,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 300 9939 9982 "automaton.ml" 300 9939 9993
 )
 "automaton.ml" 303 10095 10101 "automaton.ml" 303 10095 10126
+call(
+  stack
+)
 type(
   string
 )
@@ -1572,10 +1668,16 @@ ident(
   int_ref str_non_ter "automaton.ml" 300 9939 9982 "automaton.ml" 300 9939 9993
 )
 "automaton.ml" 303 10095 10127 "automaton.ml" 303 10095 10158
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 302 10055 10059 "automaton.ml" 303 10095 10158
+call(
+  tail
+)
 type(
   unit
 )
@@ -1679,6 +1781,9 @@ type(
   int * int
 )
 "automaton.ml" 306 10224 10228 "automaton.ml" 306 10224 10283
+call(
+  tail
+)
 type(
   unit
 )
@@ -1786,6 +1891,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 308 10285 10322 "automaton.ml" 308 10285 10333
 )
 "automaton.ml" 310 10385 10391 "automaton.ml" 310 10385 10431
+call(
+  stack
+)
 type(
   string
 )
@@ -1818,10 +1926,16 @@ ident(
   int_ref str_non_ter "automaton.ml" 308 10285 10322 "automaton.ml" 308 10285 10333
 )
 "automaton.ml" 311 10432 10438 "automaton.ml" 311 10432 10469
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 309 10345 10349 "automaton.ml" 311 10432 10469
+call(
+  tail
+)
 type(
   unit
 )
@@ -1883,6 +1997,9 @@ ident(
   int_ref nt "automaton.ml" 335 11107 11119 "automaton.ml" 335 11107 11121
 )
 "automaton.ml" 335 11107 11133 "automaton.ml" 335 11107 11147
+call(
+  stack
+)
 type(
   Gr.non_terminal
 )
@@ -1971,7 +2088,7 @@ type(
   'a -> 'a -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "automaton.ml" 353 11735 11745 "automaton.ml" 353 11735 11747
 type(
@@ -2000,7 +2117,7 @@ type(
   'a -> 'a -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "automaton.ml" 354 11755 11770 "automaton.ml" 354 11755 11772
 type(
@@ -2111,6 +2228,10 @@ type(
 type(
   int
 )
+"automaton.ml" 360 11912 11928 "automaton.ml" 360 11912 11954
+call(
+  stack
+)
 "automaton.ml" 397 12684 12694 "automaton.ml" 397 12684 12701
 type(
   state -> state -> int
@@ -2162,8 +2283,15 @@ type(
   Gr.item_set
 )
 "automaton.ml" 397 12684 12710 "automaton.ml" 397 12684 12738
+call(
+  tail
+)
 type(
   int
+)
+"automaton.ml" 399 12747 12776 "automaton.ml" 399 12747 12800
+call(
+  stack
 )
 "automaton.ml" 452 14279 14283 "automaton.ml" 452 14279 14300
 type(
@@ -2219,6 +2347,9 @@ ident(
   int_ref tk "automaton.ml" 453 14334 14342 "automaton.ml" 453 14334 14344
 )
 "automaton.ml" 453 14334 14348 "automaton.ml" 453 14334 14365
+call(
+  tail
+)
 type(
   string
 )
@@ -2255,6 +2386,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 452 14279 14305 "automaton.ml" 452 14279 14316
 )
 "automaton.ml" 454 14366 14384 "automaton.ml" 454 14366 14415
+call(
+  tail
+)
 type(
   string
 )
@@ -2335,6 +2469,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 456 14417 14441 "automaton.ml" 456 14417 14452
 )
 "automaton.ml" 458 14482 14495 "automaton.ml" 458 14482 14528
+call(
+  tail
+)
 type(
   string
 )
@@ -2382,6 +2519,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 456 14417 14441 "automaton.ml" 456 14417 14452
 )
 "automaton.ml" 459 14529 14544 "automaton.ml" 459 14529 14579
+call(
+  stack
+)
 type(
   string
 )
@@ -2390,7 +2530,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 459 14529 14580 "automaton.ml" 459 14529 14583
 type(
@@ -2401,7 +2541,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 460 14585 14592 "automaton.ml" 460 14585 14604
 type(
@@ -2425,14 +2565,23 @@ ident(
   int_ref str_non_ter "automaton.ml" 456 14417 14441 "automaton.ml" 456 14417 14452
 )
 "automaton.ml" 460 14585 14591 "automaton.ml" 460 14585 14620
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 459 14529 14580 "automaton.ml" 460 14585 14620
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 459 14529 14544 "automaton.ml" 460 14585 14620
+call(
+  tail
+)
 type(
   string
 )
@@ -2491,7 +2640,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 465 14679 14687 "automaton.ml" 465 14679 14691
 type(
@@ -2502,7 +2651,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 465 14679 14693 "automaton.ml" 465 14679 14706
 type(
@@ -2523,6 +2672,9 @@ type(
   int
 )
 "automaton.ml" 465 14679 14692 "automaton.ml" 465 14679 14720
+call(
+  stack
+)
 type(
   string
 )
@@ -2531,7 +2683,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 465 14679 14721 "automaton.ml" 465 14679 14724
 type(
@@ -2542,7 +2694,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 466 14726 14731 "automaton.ml" 466 14726 14748
 type(
@@ -2570,6 +2722,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 463 14623 14645 "automaton.ml" 463 14623 14656
 )
 "automaton.ml" 466 14726 14730 "automaton.ml" 466 14726 14770
+call(
+  stack
+)
 type(
   string
 )
@@ -2578,29 +2733,44 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 466 14726 14771 "automaton.ml" 466 14726 14774
 type(
   string
 )
 "automaton.ml" 466 14726 14730 "automaton.ml" 466 14726 14774
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 465 14679 14721 "automaton.ml" 466 14726 14774
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 465 14679 14692 "automaton.ml" 466 14726 14774
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 465 14679 14687 "automaton.ml" 466 14726 14774
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 465 14679 14683 "automaton.ml" 466 14726 14774
+call(
+  tail
+)
 type(
   string
 )
@@ -2630,6 +2800,9 @@ ident(
   int_ref sl "automaton.ml" 463 14623 14642 "automaton.ml" 463 14623 14644
 )
 "automaton.ml" 468 14780 14782 "automaton.ml" 468 14780 14804
+call(
+  tail
+)
 type(
   string
 )
@@ -2724,6 +2897,9 @@ type(
   (int * Gr.TNS.t) list
 )
 "automaton.ml" 483 15149 15152 "automaton.ml" 483 15149 15178
+call(
+  stack
+)
 type(
   int
 )
@@ -2732,7 +2908,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 483 15149 15180 "automaton.ml" 483 15149 15191
 type(
@@ -2753,6 +2929,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 483 15149 15179 "automaton.ml" 483 15149 15205
+call(
+  stack
+)
 type(
   int
 )
@@ -2765,7 +2944,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 484 15207 15210 "automaton.ml" 484 15207 15221
 type(
@@ -2786,6 +2965,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 484 15207 15209 "automaton.ml" 484 15207 15234
+call(
+  stack
+)
 type(
   int
 )
@@ -2798,7 +2980,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 484 15207 15236 "automaton.ml" 484 15207 15247
 type(
@@ -2819,6 +3001,9 @@ type(
   int list
 )
 "automaton.ml" 484 15207 15235 "automaton.ml" 484 15207 15262
+call(
+  stack
+)
 type(
   int
 )
@@ -2827,6 +3012,9 @@ type(
   int
 )
 "automaton.ml" 482 15105 15107 "automaton.ml" 484 15207 15263
+call(
+  stack
+)
 type(
   unit
 )
@@ -2874,6 +3062,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 481 15034 15091 "automaton.ml" 481 15034 15102
 )
 "automaton.ml" 485 15265 15277 "automaton.ml" 485 15265 15330
+call(
+  stack
+)
 type(
   int * Gr.TNS.t -> unit
 )
@@ -2889,6 +3080,9 @@ type(
   (int * Gr.TNS.t) list
 )
 "automaton.ml" 485 15265 15267 "automaton.ml" 486 15331 15347
+call(
+  stack
+)
 type(
   unit
 )
@@ -2936,6 +3130,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 481 15034 15091 "automaton.ml" 481 15034 15102
 )
 "automaton.ml" 487 15349 15361 "automaton.ml" 487 15349 15411
+call(
+  stack
+)
 type(
   int * int -> unit
 )
@@ -2951,6 +3148,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 487 15349 15351 "automaton.ml" 487 15349 15423
+call(
+  stack
+)
 type(
   unit
 )
@@ -2998,6 +3198,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 481 15034 15091 "automaton.ml" 481 15034 15102
 )
 "automaton.ml" 488 15425 15437 "automaton.ml" 488 15425 15487
+call(
+  stack
+)
 type(
   int * int -> unit
 )
@@ -3013,6 +3216,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 488 15425 15427 "automaton.ml" 488 15425 15500
+call(
+  stack
+)
 type(
   unit
 )
@@ -3059,6 +3265,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 481 15034 15091 "automaton.ml" 481 15034 15102
 )
 "automaton.ml" 489 15502 15514 "automaton.ml" 489 15502 15568
+call(
+  stack
+)
 type(
   int -> unit
 )
@@ -3074,6 +3283,9 @@ type(
   int list
 )
 "automaton.ml" 489 15502 15504 "automaton.ml" 490 15569 15586
+call(
+  tail
+)
 type(
   unit
 )
@@ -3147,7 +3359,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 498 15818 15836 "automaton.ml" 498 15818 15847
 type(
@@ -3176,6 +3388,9 @@ type(
   int
 )
 "automaton.ml" 498 15818 15820 "automaton.ml" 498 15818 15870
+call(
+  stack
+)
 type(
   unit
 )
@@ -3191,7 +3406,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 499 15872 15890 "automaton.ml" 499 15872 15901
 type(
@@ -3234,10 +3449,16 @@ ident(
   int_ref str_non_ter "automaton.ml" 497 15756 15804 "automaton.ml" 497 15756 15815
 )
 "automaton.ml" 500 15916 15920 "automaton.ml" 500 15916 15956
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 499 15872 15874 "automaton.ml" 500 15916 15956
+call(
+  stack
+)
 type(
   unit
 )
@@ -3253,7 +3474,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 501 15958 15976 "automaton.ml" 501 15958 15987
 type(
@@ -3271,6 +3492,9 @@ type(
   (unit, out_channel, unit) format
 )
 "automaton.ml" 501 15958 15960 "automaton.ml" 501 15958 16001
+call(
+  stack
+)
 type(
   unit
 )
@@ -3287,7 +3511,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 502 16003 16021 "automaton.ml" 502 16003 16032
 type(
@@ -3340,6 +3564,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 497 15756 15804 "automaton.ml" 497 15756 15815
 )
 "automaton.ml" 502 16003 16005 "automaton.ml" 503 16071 16086
+call(
+  stack
+)
 type(
   unit
 )
@@ -3355,7 +3582,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 504 16088 16106 "automaton.ml" 504 16088 16117
 type(
@@ -3398,10 +3625,16 @@ ident(
   int_ref str_non_ter "automaton.ml" 497 15756 15804 "automaton.ml" 497 15756 15815
 )
 "automaton.ml" 505 16141 16145 "automaton.ml" 505 16141 16187
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 504 16088 16090 "automaton.ml" 505 16141 16187
+call(
+  tail
+)
 type(
   unit
 )
@@ -3497,6 +3730,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 508 16282 16308 "automaton.ml" 508 16282 16319
 )
 "automaton.ml" 510 16351 16366 "automaton.ml" 510 16351 16395
+call(
+  stack
+)
 type(
   string
 )
@@ -3505,7 +3741,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 510 16351 16396 "automaton.ml" 510 16351 16399
 type(
@@ -3516,7 +3752,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 511 16401 16408 "automaton.ml" 511 16401 16420
 type(
@@ -3540,14 +3776,23 @@ ident(
   int_ref str_non_ter "automaton.ml" 508 16282 16308 "automaton.ml" 508 16282 16319
 )
 "automaton.ml" 511 16401 16407 "automaton.ml" 511 16401 16436
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 510 16351 16396 "automaton.ml" 511 16401 16436
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 510 16351 16366 "automaton.ml" 511 16401 16436
+call(
+  tail
+)
 type(
   string
 )
@@ -3613,6 +3858,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 513 16438 16463 "automaton.ml" 513 16438 16474
 )
 "automaton.ml" 514 16477 16479 "automaton.ml" 514 16477 16503
+call(
+  stack
+)
 type(
   string
 )
@@ -3621,7 +3869,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 514 16477 16504 "automaton.ml" 514 16477 16510
 type(
@@ -3632,7 +3880,7 @@ type(
   string -> string -> string
 )
 ident(
-  ext_ref Pervasives.^
+  ext_ref Pervasives.( ^ )
 )
 "automaton.ml" 514 16477 16512 "automaton.ml" 514 16477 16524
 type(
@@ -3656,14 +3904,23 @@ ident(
   int_ref str_non_ter "automaton.ml" 513 16438 16463 "automaton.ml" 513 16438 16474
 )
 "automaton.ml" 514 16477 16511 "automaton.ml" 514 16477 16542
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 514 16477 16504 "automaton.ml" 514 16477 16542
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 514 16477 16479 "automaton.ml" 514 16477 16542
+call(
+  tail
+)
 type(
   string
 )
@@ -3733,7 +3990,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 518 16612 16640 "automaton.ml" 518 16612 16651
 type(
@@ -3772,10 +4029,16 @@ ident(
   int_ref str_non_ter "automaton.ml" 516 16544 16571 "automaton.ml" 516 16544 16582
 )
 "automaton.ml" 519 16660 16664 "automaton.ml" 519 16660 16688
+call(
+  stack
+)
 type(
   string
 )
 "automaton.ml" 518 16612 16624 "automaton.ml" 519 16660 16688
+call(
+  stack
+)
 type(
   unit
 )
@@ -3801,6 +4064,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 516 16544 16571 "automaton.ml" 516 16544 16582
 )
 "automaton.ml" 519 16660 16690 "automaton.ml" 519 16660 16719
+call(
+  tail
+)
 type(
   unit
 )
@@ -3867,7 +4133,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 524 16833 16850 "automaton.ml" 524 16833 16861
 type(
@@ -3885,6 +4151,9 @@ type(
   string
 )
 "automaton.ml" 524 16833 16835 "automaton.ml" 524 16833 16866
+call(
+  stack
+)
 type(
   unit
 )
@@ -3900,7 +4169,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 524 16833 16883 "automaton.ml" 524 16833 16894
 type(
@@ -3918,6 +4187,9 @@ type(
   string
 )
 "automaton.ml" 524 16833 16868 "automaton.ml" 524 16833 16899
+call(
+  stack
+)
 type(
   unit
 )
@@ -3933,7 +4205,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 525 16901 16918 "automaton.ml" 525 16901 16929
 type(
@@ -3951,6 +4223,9 @@ type(
   string
 )
 "automaton.ml" 525 16901 16903 "automaton.ml" 526 16930 17014
+call(
+  stack
+)
 type(
   unit
 )
@@ -3966,7 +4241,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 527 17016 17033 "automaton.ml" 527 17016 17044
 type(
@@ -3984,6 +4259,9 @@ type(
   string
 )
 "automaton.ml" 527 17016 17018 "automaton.ml" 527 17016 17049
+call(
+  stack
+)
 type(
   unit
 )
@@ -4027,6 +4305,9 @@ ident(
   int_ref visited_v "automaton.ml" 528 17051 17061 "automaton.ml" 528 17051 17070
 )
 "automaton.ml" 529 17073 17080 "automaton.ml" 529 17073 17105
+call(
+  stack
+)
 type(
   bool
 )
@@ -4088,6 +4369,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 523 16772 16819 "automaton.ml" 523 16772 16830
 )
 "automaton.ml" 530 17131 17138 "automaton.ml" 530 17131 17193
+call(
+  stack
+)
 type(
   unit
 )
@@ -4103,6 +4387,9 @@ type(
   unit
 )
 "automaton.ml" 531 17195 17201 "automaton.ml" 531 17195 17217
+call(
+  stack
+)
 type(
   unit
 )
@@ -4128,6 +4415,9 @@ ident(
   int_ref visited_v "automaton.ml" 528 17051 17061 "automaton.ml" 528 17051 17070
 )
 "automaton.ml" 532 17219 17226 "automaton.ml" 532 17219 17251
+call(
+  stack
+)
 type(
   State_set.t
 )
@@ -4210,6 +4500,9 @@ ident(
   int_ref visited_v "automaton.ml" 534 17273 17292 "automaton.ml" 534 17273 17301
 )
 "automaton.ml" 535 17311 17337 "automaton.ml" 535 17311 17354
+call(
+  stack
+)
 type(
   State_set.t * state list
 )
@@ -4243,6 +4536,9 @@ ident(
   int_ref v_map "automaton.ml" 535 17311 17329 "automaton.ml" 535 17311 17334
 )
 "automaton.ml" 536 17358 17362 "automaton.ml" 536 17358 17401
+call(
+  tail
+)
 type(
   State_set.t
 )
@@ -4284,6 +4580,9 @@ ident(
   ext_ref State_set.empty
 )
 "automaton.ml" 538 17407 17436 "automaton.ml" 538 17407 17456
+call(
+  stack
+)
 type(
   State_set.t * state list
 )
@@ -4317,6 +4616,9 @@ ident(
   int_ref vertex_map "automaton.ml" 538 17407 17423 "automaton.ml" 538 17407 17433
 )
 "automaton.ml" 539 17460 17462 "automaton.ml" 539 17460 17506
+call(
+  tail
+)
 type(
   State_set.t
 )
@@ -4433,7 +4735,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 543 17587 17616 "automaton.ml" 543 17587 17627
 type(
@@ -4462,6 +4764,9 @@ type(
   int
 )
 "automaton.ml" 543 17587 17600 "automaton.ml" 543 17587 17651
+call(
+  stack
+)
 type(
   unit
 )
@@ -4478,7 +4783,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 544 17655 17675 "automaton.ml" 544 17655 17686
 type(
@@ -4527,6 +4832,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 541 17508 17554 "automaton.ml" 541 17508 17565
 )
 "automaton.ml" 544 17655 17659 "automaton.ml" 544 17655 17731
+call(
+  tail
+)
 type(
   unit
 )
@@ -4556,6 +4864,9 @@ ident(
   int_ref m "automaton.ml" 541 17508 17522 "automaton.ml" 541 17508 17523
 )
 "automaton.ml" 546 17737 17739 "automaton.ml" 546 17737 17754
+call(
+  tail
+)
 type(
   unit
 )
@@ -4576,6 +4887,10 @@ type(
 )
 ident(
   ext_ref Pervasives.compare
+)
+"automaton.ml" 558 17910 17923 "automaton.ml" 558 17910 17949
+call(
+  stack
 )
 "automaton.ml" 563 18025 18031 "automaton.ml" 563 18025 18034
 type(
@@ -4671,6 +4986,9 @@ ident(
   int_ref tns2 "automaton.ml" 564 18049 18072 "automaton.ml" 564 18049 18076
 )
 "automaton.ml" 564 18049 18084 "automaton.ml" 564 18049 18103
+call(
+  stack
+)
 type(
   Gr.TNS.t
 )
@@ -4686,7 +5004,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  ext_ref Pervasives.||
+  ext_ref Pervasives.( || )
 )
 "automaton.ml" 564 18049 18109 "automaton.ml" 564 18049 18111
 type(
@@ -4779,6 +5097,9 @@ ident(
   int_ref tns "automaton.ml" 566 18145 18160 "automaton.ml" 566 18145 18163
 )
 "automaton.ml" 566 18145 18170 "automaton.ml" 566 18145 18185
+call(
+  stack
+)
 type(
   Gr.TNS.t
 )
@@ -4844,6 +5165,9 @@ ident(
   int_ref tns "automaton.ml" 567 18189 18204 "automaton.ml" 567 18189 18207
 )
 "automaton.ml" 567 18189 18213 "automaton.ml" 567 18189 18228
+call(
+  tail
+)
 type(
   bool
 )
@@ -4997,10 +5321,16 @@ ident(
   int_ref nt_lit "automaton.ml" 574 18381 18398 "automaton.ml" 574 18381 18404
 )
 "automaton.ml" 574 18381 18417 "automaton.ml" 574 18381 18435
+call(
+  stack
+)
 type(
   Gr.non_terminal
 )
 "automaton.ml" 574 18381 18407 "automaton.ml" 574 18381 18435
+call(
+  tail
+)
 type(
   int
 )
@@ -5084,6 +5414,9 @@ ident(
   int_ref rbs "automaton.ml" 578 18547 18568 "automaton.ml" 578 18547 18571
 )
 "automaton.ml" 578 18547 18574 "automaton.ml" 578 18547 18596
+call(
+  tail
+)
 type(
   RbS.t
 )
@@ -5120,6 +5453,9 @@ ident(
   int_ref array_nt_prio "automaton.ml" 573 18302 18354 "automaton.ml" 573 18302 18367
 )
 "automaton.ml" 579 18600 18616 "automaton.ml" 579 18600 18650
+call(
+  stack
+)
 type(
   Ap.lhs list
 )
@@ -5164,6 +5500,9 @@ ident(
   int_ref lhs "automaton.ml" 580 18654 18674 "automaton.ml" 580 18654 18677
 )
 "automaton.ml" 580 18654 18693 "automaton.ml" 580 18654 18700
+call(
+  stack
+)
 type(
   Gr.Map_rhs.key -> 'r -> RbS.t -> RbS.t
 )
@@ -5189,6 +5528,9 @@ ident(
   int_ref lhs "automaton.ml" 580 18654 18674 "automaton.ml" 580 18654 18677
 )
 "automaton.ml" 580 18654 18710 "automaton.ml" 580 18654 18724
+call(
+  stack
+)
 type(
   int
 )
@@ -5204,6 +5546,9 @@ ident(
   int_ref rbs "automaton.ml" 580 18654 18670 "automaton.ml" 580 18654 18673
 )
 "automaton.ml" 580 18654 18680 "automaton.ml" 580 18654 18729
+call(
+  tail
+)
 type(
   RbS.t
 )
@@ -5240,6 +5585,9 @@ ident(
   int_ref lhs_l "automaton.ml" 579 18600 18608 "automaton.ml" 579 18600 18613
 )
 "automaton.ml" 581 18733 18752 "automaton.ml" 581 18733 18790
+call(
+  stack
+)
 type(
   RbS.t
 )
@@ -5283,6 +5631,9 @@ ident(
   int_ref vrules "automaton.ml" 576 18442 18467 "automaton.ml" 576 18442 18473
 )
 "automaton.ml" 583 18814 18823 "automaton.ml" 583 18814 18839
+call(
+  stack
+)
 type(
   bool
 )
@@ -5319,6 +5670,9 @@ ident(
   int_ref vrules "automaton.ml" 576 18442 18467 "automaton.ml" 576 18442 18473
 )
 "automaton.ml" 584 18854 18873 "automaton.ml" 584 18854 18889
+call(
+  stack
+)
 type(
   RbS.t
 )
@@ -5376,6 +5730,9 @@ ident(
   int_ref vrules "automaton.ml" 584 18854 18864 "automaton.ml" 584 18854 18870
 )
 "automaton.ml" 586 18919 18936 "automaton.ml" 586 18919 18968
+call(
+  stack
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5401,6 +5758,9 @@ ident(
   int_ref tns2 "automaton.ml" 586 18919 18929 "automaton.ml" 586 18919 18933
 )
 "automaton.ml" 587 18972 18978 "automaton.ml" 587 18972 19000
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5454,6 +5814,9 @@ ident(
   ext_ref First.empty
 )
 "automaton.ml" 589 19008 19022 "automaton.ml" 589 19008 19055
+call(
+  stack
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5476,6 +5839,9 @@ ident(
   int_ref nt "automaton.ml" 576 18442 18464 "automaton.ml" 576 18442 18466
 )
 "automaton.ml" 590 19059 19073 "automaton.ml" 590 19059 19086
+call(
+  stack
+)
 type(
   int
 )
@@ -5610,7 +5976,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "automaton.ml" 596 19198 19209 "automaton.ml" 596 19198 19221
 type(
@@ -5674,6 +6040,9 @@ ident(
   int_ref tns "automaton.ml" 595 19174 19192 "automaton.ml" 595 19174 19195
 )
 "automaton.ml" 597 19246 19268 "automaton.ml" 597 19246 19285
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5696,6 +6065,9 @@ ident(
   int_ref tns "automaton.ml" 595 19174 19192 "automaton.ml" 595 19174 19195
 )
 "automaton.ml" 598 19286 19304 "automaton.ml" 598 19286 19325
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5754,6 +6126,9 @@ ident(
   int_ref tns "automaton.ml" 595 19174 19192 "automaton.ml" 595 19174 19195
 )
 "automaton.ml" 600 19357 19378 "automaton.ml" 600 19357 19397
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5794,6 +6169,9 @@ ident(
   int_ref nt "automaton.ml" 601 19398 19416 "automaton.ml" 601 19398 19418
 )
 "automaton.ml" 603 19443 19473 "automaton.ml" 603 19443 19486
+call(
+  stack
+)
 type(
   int
 )
@@ -5845,6 +6223,9 @@ ident(
   int_ref vrules "automaton.ml" 594 19135 19165 "automaton.ml" 594 19135 19171
 )
 "automaton.ml" 605 19523 19545 "automaton.ml" 605 19523 19566
+call(
+  stack
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5867,6 +6248,9 @@ ident(
   int_ref tns2 "automaton.ml" 602 19422 19436 "automaton.ml" 602 19422 19440
 )
 "automaton.ml" 607 19580 19593 "automaton.ml" 607 19580 19615
+call(
+  stack
+)
 type(
   bool
 )
@@ -5889,7 +6273,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 608 19621 19640 "automaton.ml" 608 19621 19641
 type(
@@ -5921,10 +6305,16 @@ ident(
   int_ref tns2 "automaton.ml" 602 19422 19436 "automaton.ml" 602 19422 19440
 )
 "automaton.ml" 608 19621 19643 "automaton.ml" 608 19621 19665
+call(
+  stack
+)
 type(
   Gr.TNS.t * bool
 )
 "automaton.ml" 608 19621 19633 "automaton.ml" 608 19621 19665
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5950,6 +6340,9 @@ ident(
   int_ref tns2 "automaton.ml" 602 19422 19436 "automaton.ml" 602 19422 19440
 )
 "automaton.ml" 609 19666 19681 "automaton.ml" 609 19666 19703
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -5991,6 +6384,9 @@ ident(
   ext_ref First.empty
 )
 "automaton.ml" 611 19711 19715 "automaton.ml" 611 19711 19732
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -6014,7 +6410,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.-
+  ext_ref Pervasives.( - )
 )
 "automaton.ml" 614 19741 19760 "automaton.ml" 614 19741 19761
 type(
@@ -6054,6 +6450,9 @@ type(
   Gr.lhs
 )
 "automaton.ml" 615 19765 19778 "automaton.ml" 615 19765 19804
+call(
+  stack
+)
 type(
   Gr.non_terminal
 )
@@ -6079,6 +6478,9 @@ ident(
   int_ref nt "automaton.ml" 615 19765 19773 "automaton.ml" 615 19765 19775
 )
 "automaton.ml" 616 19808 19820 "automaton.ml" 616 19808 19832
+call(
+  stack
+)
 type(
   int
 )
@@ -6123,6 +6525,9 @@ ident(
   int_ref nt "automaton.ml" 615 19765 19773 "automaton.ml" 615 19765 19775
 )
 "automaton.ml" 619 19882 19905 "automaton.ml" 619 19882 19917
+call(
+  stack
+)
 type(
   Gr.lit_nt
 )
@@ -6162,6 +6567,9 @@ ident(
   ext_ref RbS.empty
 )
 "automaton.ml" 620 19921 19954 "automaton.ml" 620 19921 19984
+call(
+  stack
+)
 type(
   Gr.TNS.t * bool
 )
@@ -6278,10 +6686,16 @@ ident(
   int_ref nt_lit "automaton.ml" 627 20044 20061 "automaton.ml" 627 20044 20067
 )
 "automaton.ml" 627 20044 20080 "automaton.ml" 627 20044 20098
+call(
+  stack
+)
 type(
   Gr.non_terminal
 )
 "automaton.ml" 627 20044 20070 "automaton.ml" 627 20044 20098
+call(
+  tail
+)
 type(
   int
 )
@@ -6347,7 +6761,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "automaton.ml" 631 20168 20179 "automaton.ml" 631 20168 20191
 type(
@@ -6411,6 +6825,9 @@ ident(
   int_ref tns "automaton.ml" 630 20144 20162 "automaton.ml" 630 20144 20165
 )
 "automaton.ml" 632 20216 20238 "automaton.ml" 632 20216 20255
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -6480,6 +6897,9 @@ ident(
   int_ref tns "automaton.ml" 630 20144 20162 "automaton.ml" 630 20144 20165
 )
 "automaton.ml" 635 20339 20360 "automaton.ml" 635 20339 20379
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -6520,6 +6940,9 @@ ident(
   int_ref nt "automaton.ml" 636 20380 20398 "automaton.ml" 636 20380 20400
 )
 "automaton.ml" 638 20425 20455 "automaton.ml" 638 20425 20468
+call(
+  stack
+)
 type(
   int
 )
@@ -6572,6 +6995,9 @@ ident(
   int_ref tns2 "automaton.ml" 637 20404 20418 "automaton.ml" 637 20404 20422
 )
 "automaton.ml" 642 20553 20566 "automaton.ml" 642 20553 20588
+call(
+  stack
+)
 type(
   bool
 )
@@ -6594,7 +7020,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 643 20594 20613 "automaton.ml" 643 20594 20614
 type(
@@ -6626,10 +7052,16 @@ ident(
   int_ref tns2 "automaton.ml" 637 20404 20418 "automaton.ml" 637 20404 20422
 )
 "automaton.ml" 643 20594 20616 "automaton.ml" 643 20594 20638
+call(
+  stack
+)
 type(
   Gr.TNS.t * bool
 )
 "automaton.ml" 643 20594 20606 "automaton.ml" 643 20594 20638
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -6655,6 +7087,9 @@ ident(
   int_ref tns2 "automaton.ml" 637 20404 20418 "automaton.ml" 637 20404 20422
 )
 "automaton.ml" 644 20639 20654 "automaton.ml" 644 20639 20676
+call(
+  tail
+)
 type(
   Gr.TNS.t * bool
 )
@@ -6703,10 +7138,16 @@ ident(
   ext_ref First.empty
 )
 "automaton.ml" 646 20684 20698 "automaton.ml" 646 20684 20717
+call(
+  stack
+)
 type(
   Gr.TNS.t * bool
 )
 "automaton.ml" 646 20684 20688 "automaton.ml" 646 20684 20717
+call(
+  tail
+)
 type(
   Gr.TNS.t
 )
@@ -6750,6 +7191,9 @@ ident(
   ext_ref RbS.empty
 )
 "automaton.ml" 649 20726 20728 "automaton.ml" 649 20726 20761
+call(
+  tail
+)
 type(
   Gr.TNS.t
 )
@@ -6924,6 +7368,9 @@ ident(
   int_ref nk "automaton.ml" 812 26047 26060 "automaton.ml" 812 26047 26062
 )
 "automaton.ml" 814 26100 26123 "automaton.ml" 814 26100 26130
+call(
+  stack
+)
 type(
   int list
 )
@@ -6982,6 +7429,9 @@ ident(
   int_ref nk "automaton.ml" 812 26047 26060 "automaton.ml" 812 26047 26062
 )
 "automaton.ml" 815 26136 26164 "automaton.ml" 815 26136 26171
+call(
+  stack
+)
 type(
   int list
 )
@@ -7079,6 +7529,9 @@ type(
   int list * (int * Gr.TNS.t) list
 )
 "automaton.ml" 817 26198 26227 "automaton.ml" 817 26198 26269
+call(
+  stack
+)
 type(
   int list * (int * Gr.TNS.t) list
 )
@@ -7115,6 +7568,9 @@ ident(
   int_ref reducible "automaton.ml" 817 26198 26215 "automaton.ml" 817 26198 26224
 )
 "automaton.ml" 818 26273 26291 "automaton.ml" 818 26273 26313
+call(
+  stack
+)
 type(
   (int * Gr.TNS.t) list
 )
@@ -7155,6 +7611,9 @@ ident(
   int_ref non_kernel "automaton.ml" 817 26198 26204 "automaton.ml" 817 26198 26214
 )
 "automaton.ml" 819 26315 26334 "automaton.ml" 819 26315 26358
+call(
+  stack
+)
 type(
   int list
 )
@@ -7423,6 +7882,9 @@ type(
   unit
 )
 "automaton.ml" 834 26958 26979 "automaton.ml" 834 26958 26994
+call(
+  stack
+)
 type(
   Gr.item_set
 )
@@ -7488,6 +7950,9 @@ type(
   Ap.lit_nt pliteral
 )
 "automaton.ml" 836 27039 27054 "automaton.ml" 836 27039 27074
+call(
+  stack
+)
 type(
   Gr.non_terminal pliteral
 )
@@ -7587,10 +8052,16 @@ ident(
   int_ref nt "automaton.ml" 838 27117 27133 "automaton.ml" 838 27117 27135
 )
 "automaton.ml" 838 27117 27169 "automaton.ml" 838 27117 27183
+call(
+  stack
+)
 type(
   Gr.non_terminal
 )
 "automaton.ml" 838 27117 27159 "automaton.ml" 838 27117 27183
+call(
+  stack
+)
 type(
   int
 )
@@ -7618,6 +8089,9 @@ type(
   unit
 )
 "automaton.ml" 840 27208 27229 "automaton.ml" 840 27208 27244
+call(
+  stack
+)
 type(
   Gr.item_set
 )
@@ -7650,10 +8124,16 @@ ident(
   int_ref nt "automaton.ml" 838 27117 27133 "automaton.ml" 838 27117 27135
 )
 "automaton.ml" 841 27248 27283 "automaton.ml" 841 27248 27297
+call(
+  stack
+)
 type(
   Gr.non_terminal
 )
 "automaton.ml" 841 27248 27273 "automaton.ml" 841 27248 27297
+call(
+  stack
+)
 type(
   int
 )
@@ -7705,6 +8185,9 @@ type(
   Ap.lit_nt pliteral
 )
 "automaton.ml" 842 27311 27326 "automaton.ml" 842 27311 27346
+call(
+  stack
+)
 type(
   Gr.non_terminal pliteral
 )
@@ -7784,7 +8267,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 846 27409 27421 "automaton.ml" 846 27409 27422
 type(
@@ -7799,7 +8282,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.=
+  ext_ref Pervasives.( = )
 )
 "automaton.ml" 846 27409 27425 "automaton.ml" 846 27409 27437
 type(
@@ -7886,7 +8369,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 849 27511 27531 "automaton.ml" 849 27511 27532
 type(
@@ -7934,7 +8417,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 850 27539 27580 "automaton.ml" 850 27539 27581
 type(
@@ -8004,7 +8487,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 852 27620 27656 "automaton.ml" 852 27620 27657
 type(
@@ -8105,6 +8588,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 857 27701 27717 "automaton.ml" 857 27701 27755
+call(
+  stack
+)
 type(
   Gr.non_terminal pliteral list
 )
@@ -8152,6 +8638,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 858 27759 27775 "automaton.ml" 858 27759 27817
+call(
+  stack
+)
 type(
   Gr.non_terminal pliteral list
 )
@@ -8203,6 +8692,9 @@ type(
   int * int
 )
 "automaton.ml" 859 27821 27843 "automaton.ml" 859 27821 27860
+call(
+  tail
+)
 type(
   Gr.non_terminal pliteral list
 )
@@ -8248,6 +8740,9 @@ type(
   int list
 )
 "automaton.ml" 860 27864 27880 "automaton.ml" 860 27864 27924
+call(
+  stack
+)
 type(
   Gr.non_terminal pliteral list
 )
@@ -8372,6 +8867,9 @@ ident(
   int_ref nt "automaton.ml" 866 28083 28099 "automaton.ml" 866 28083 28101
 )
 "automaton.ml" 866 28083 28125 "automaton.ml" 866 28083 28137
+call(
+  stack
+)
 type(
   int
 )
@@ -8425,14 +8923,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "automaton.ml" 870 28204 28223 "automaton.ml" 870 28204 28224
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 870 28204 28224 "automaton.ml" 870 28204 28235
 type(
@@ -8450,7 +8948,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 870 28204 28236 "automaton.ml" 870 28204 28237
 type(
@@ -8487,6 +8985,9 @@ type(
   (int * Gr.TNS.t) list
 )
 "automaton.ml" 872 28255 28261 "automaton.ml" 872 28255 28287
+call(
+  stack
+)
 type(
   int
 )
@@ -8495,7 +8996,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 873 28288 28297 "automaton.ml" 873 28288 28308
 type(
@@ -8516,6 +9017,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 873 28288 28296 "automaton.ml" 873 28288 28322
+call(
+  stack
+)
 type(
   int
 )
@@ -8528,7 +9032,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 874 28323 28332 "automaton.ml" 874 28323 28343
 type(
@@ -8549,6 +9053,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 874 28323 28331 "automaton.ml" 874 28323 28356
+call(
+  stack
+)
 type(
   int
 )
@@ -8640,6 +9147,9 @@ type(
   state Map_is.t
 )
 "automaton.ml" 880 28507 28526 "automaton.ml" 880 28507 28565
+call(
+  stack
+)
 type(
   state
 )
@@ -8701,6 +9211,9 @@ ident(
   int_ref nt "automaton.ml" 881 28566 28584 "automaton.ml" 881 28566 28586
 )
 "automaton.ml" 881 28566 28626 "automaton.ml" 881 28566 28638
+call(
+  stack
+)
 type(
   int
 )
@@ -8709,6 +9222,9 @@ type(
   state Map_is.t
 )
 "automaton.ml" 881 28566 28590 "automaton.ml" 881 28566 28639
+call(
+  stack
+)
 type(
   state
 )
@@ -8780,14 +9296,14 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "automaton.ml" 886 28722 28740 "automaton.ml" 886 28722 28741
 type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 886 28722 28741 "automaton.ml" 886 28722 28748
 type(
@@ -8805,7 +9321,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 886 28722 28749 "automaton.ml" 886 28722 28750
 type(
@@ -8933,6 +9449,9 @@ ident(
   int_ref nt "automaton.ml" 888 28826 28844 "automaton.ml" 888 28826 28846
 )
 "automaton.ml" 890 28882 28899 "automaton.ml" 890 28882 28924
+call(
+  stack
+)
 type(
   bool
 )
@@ -8988,6 +9507,9 @@ ident(
   int_ref array_nt_prio "automaton.ml" 826 26623 26678 "automaton.ml" 826 26623 26691
 )
 "automaton.ml" 891 28941 28960 "automaton.ml" 891 28941 29009
+call(
+  stack
+)
 type(
   Ap.lhs list
 )
@@ -9057,6 +9579,9 @@ ident(
   int_ref nt_to_add "automaton.ml" 894 29054 29073 "automaton.ml" 894 29054 29082
 )
 "automaton.ml" 895 29089 29103 "automaton.ml" 895 29089 29128
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -9104,6 +9629,9 @@ ident(
   int_ref lhs "automaton.ml" 897 29144 29173 "automaton.ml" 897 29144 29176
 )
 "automaton.ml" 898 29179 29213 "automaton.ml" 898 29179 29227
+call(
+  stack
+)
 type(
   int
 )
@@ -9141,6 +9669,9 @@ ident(
   int_ref ind_list "automaton.ml" 898 29179 29197 "automaton.ml" 898 29179 29205
 )
 "automaton.ml" 899 29232 29246 "automaton.ml" 899 29232 29282
+call(
+  tail
+)
 type(
   Int_set.t
 )
@@ -9177,6 +9708,9 @@ ident(
   int_ref lhs_l "automaton.ml" 889 28850 28866 "automaton.ml" 889 28850 28871
 )
 "automaton.ml" 901 29298 29310 "automaton.ml" 901 29298 29345
+call(
+  stack
+)
 type(
   Int_set.t
 )
@@ -9274,6 +9808,9 @@ type(
   (int * int) list
 )
 "automaton.ml" 905 29427 29435 "automaton.ml" 905 29427 29484
+call(
+  stack
+)
 type(
   Int_set.t * Ap.lit_nt list
 )
@@ -9299,6 +9836,9 @@ ident(
   int_ref nt_list "automaton.ml" 904 29396 29417 "automaton.ml" 904 29396 29424
 )
 "automaton.ml" 907 29494 29500 "automaton.ml" 907 29494 29531
+call(
+  stack
+)
 type(
   unit
 )
@@ -9386,6 +9926,9 @@ ident(
   int_ref nk "automaton.ml" 908 29533 29550 "automaton.ml" 908 29533 29552
 )
 "automaton.ml" 909 29586 29611 "automaton.ml" 909 29586 29618
+call(
+  stack
+)
 type(
   int list
 )
@@ -9444,6 +9987,9 @@ ident(
   int_ref nk "automaton.ml" 908 29533 29550 "automaton.ml" 908 29533 29552
 )
 "automaton.ml" 910 29624 29654 "automaton.ml" 910 29624 29661
+call(
+  stack
+)
 type(
   int list
 )
@@ -9541,6 +10087,9 @@ type(
   int list * (int * Gr.TNS.t) list
 )
 "automaton.ml" 913 29725 29733 "automaton.ml" 913 29725 29775
+call(
+  stack
+)
 type(
   int list * (int * Gr.TNS.t) list
 )
@@ -9603,7 +10152,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 920 29908 29926 "automaton.ml" 920 29908 29933
 type(
@@ -9733,6 +10282,9 @@ type(
   state Map_is.t
 )
 "automaton.ml" 927 30140 30152 "automaton.ml" 927 30140 30197
+call(
+  stack
+)
 type(
   state Map_is.t
 )
@@ -9773,6 +10325,9 @@ ident(
   int_ref nt "automaton.ml" 928 30198 30216 "automaton.ml" 928 30198 30218
 )
 "automaton.ml" 928 30198 30235 "automaton.ml" 928 30198 30247
+call(
+  stack
+)
 type(
   int
 )
@@ -9830,6 +10385,9 @@ ident(
   int_ref nt "automaton.ml" 928 30198 30216 "automaton.ml" 928 30198 30218
 )
 "automaton.ml" 929 30252 30306 "automaton.ml" 929 30252 30318
+call(
+  stack
+)
 type(
   int
 )
@@ -9838,6 +10396,9 @@ type(
   state Map_is.t
 )
 "automaton.ml" 929 30252 30264 "automaton.ml" 929 30252 30319
+call(
+  stack
+)
 type(
   state Map_is.t
 )
@@ -9999,6 +10560,9 @@ ident(
   int_ref lt_list "automaton.ml" 860 27864 27870 "automaton.ml" 860 27864 27877
 )
 "automaton.ml" 934 30389 30400 "automaton.ml" 934 30389 30428
+call(
+  stack
+)
 type(
   state list
 )
@@ -10086,6 +10650,9 @@ ident(
   int_ref nt "automaton.ml" 937 30511 30525 "automaton.ml" 937 30511 30527
 )
 "automaton.ml" 937 30511 30544 "automaton.ml" 937 30511 30556
+call(
+  stack
+)
 type(
   int
 )
@@ -10123,6 +10690,9 @@ ident(
   int_ref lt_list "automaton.ml" 860 27864 27870 "automaton.ml" 860 27864 27877
 )
 "automaton.ml" 939 30571 30573 "automaton.ml" 939 30571 30602
+call(
+  stack
+)
 type(
   unit
 )
@@ -10419,6 +10989,9 @@ ident(
   int_ref ist_nt_nb "automaton.ml" 948 30680 30874 "automaton.ml" 948 30680 30883
 )
 "automaton.ml" 955 31078 31106 "automaton.ml" 955 31078 31131
+call(
+  stack
+)
 type(
   int
 )
@@ -10602,6 +11175,9 @@ ident(
   int_ref array_lhs "automaton.ml" 956 31141 31147 "automaton.ml" 956 31141 31156
 )
 "automaton.ml" 967 31550 31556 "automaton.ml" 969 31663 31689
+call(
+  stack
+)
 type(
   state list
 )
@@ -10660,6 +11236,9 @@ ident(
   int_ref vl "automaton.ml" 966 31537 31545 "automaton.ml" 966 31537 31547
 )
 "automaton.ml" 971 31697 31701 "automaton.ml" 971 31697 31752
+call(
+  tail
+)
 type(
   (state Map_is.t array * state Map_is.t array) * state list
 )
@@ -10704,6 +11283,9 @@ ident(
   int_ref nt_to_add "automaton.ml" 948 30680 30893 "automaton.ml" 948 30680 30902
 )
 "automaton.ml" 973 31758 31760 "automaton.ml" 973 31758 31806
+call(
+  stack
+)
 type(
   unit
 )
@@ -10730,7 +11312,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 977 31853 31867 "automaton.ml" 977 31853 31874
 type(
@@ -10857,6 +11439,9 @@ type(
   state Map_is.t
 )
 "automaton.ml" 983 32037 32072 "automaton.ml" 983 32037 32114
+call(
+  stack
+)
 type(
   state Map_is.t
 )
@@ -10897,6 +11482,9 @@ ident(
   int_ref nt "automaton.ml" 984 32115 32129 "automaton.ml" 984 32115 32131
 )
 "automaton.ml" 984 32115 32148 "automaton.ml" 984 32115 32160
+call(
+  stack
+)
 type(
   int
 )
@@ -10954,6 +11542,9 @@ ident(
   int_ref nt "automaton.ml" 984 32115 32129 "automaton.ml" 984 32115 32131
 )
 "automaton.ml" 985 32165 32212 "automaton.ml" 985 32165 32224
+call(
+  stack
+)
 type(
   int
 )
@@ -10962,6 +11553,9 @@ type(
   state Map_is.t
 )
 "automaton.ml" 985 32165 32173 "automaton.ml" 985 32165 32225
+call(
+  stack
+)
 type(
   state Map_is.t
 )
@@ -11037,6 +11631,9 @@ type(
   state list
 )
 "automaton.ml" 989 32310 32314 "automaton.ml" 989 32310 32358
+call(
+  stack
+)
 type(
   (state Map_is.t array * state Map_is.t array) * state list
 )
@@ -11425,6 +12022,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 995 32500 32686 "automaton.ml" 995 32500 32697
 )
 "automaton.ml" 1002 32944 32948 "automaton.ml" 1003 32995 33111
+call(
+  stack
+)
 type(
   (state Map_is.t array * state Map_is.t array) * state list
 )
@@ -11605,7 +12205,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "automaton.ml" 1010 33353 33366 "automaton.ml" 1010 33353 33367
 type(
@@ -11627,7 +12227,7 @@ type(
   int ref -> int -> unit
 )
 ident(
-  ext_ref Pervasives.:=
+  ext_ref Pervasives.( := )
 )
 "automaton.ml" 1011 33369 33386 "automaton.ml" 1011 33369 33387
 type(
@@ -11818,6 +12418,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 1009 33135 33339 "automaton.ml" 1009 33135 33350
 )
 "automaton.ml" 1016 33504 33514 "automaton.ml" 1017 33570 33685
+call(
+  stack
+)
 type(
   (state Map_is.t array * state Map_is.t array) * state list
 )
@@ -11975,6 +12578,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 1009 33135 33339 "automaton.ml" 1009 33135 33350
 )
 "automaton.ml" 1019 33708 33723 "automaton.ml" 1021 33838 33909
+call(
+  stack
+)
 type(
   state list
 )
@@ -11994,6 +12600,9 @@ type(
   string
 )
 "automaton.ml" 1023 33924 33932 "automaton.ml" 1023 33924 34008
+call(
+  stack
+)
 type(
   unit
 )
@@ -12136,6 +12745,9 @@ ident(
   int_ref str_non_ter "automaton.ml" 1009 33135 33339 "automaton.ml" 1009 33135 33350
 )
 "automaton.ml" 1024 34010 34018 "automaton.ml" 1026 34133 34204
+call(
+  stack
+)
 type(
   state list
 )
@@ -12178,7 +12790,7 @@ type(
   int -> int -> bool
 )
 ident(
-  ext_ref Pervasives.>
+  ext_ref Pervasives.( > )
 )
 "automaton.ml" 1029 34239 34252 "automaton.ml" 1029 34239 34253
 type(
@@ -12244,7 +12856,7 @@ type(
   out_channel ref -> out_channel
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 1032 34374 34394 "automaton.ml" 1032 34374 34405
 type(
@@ -12273,7 +12885,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 1033 34466 34485 "automaton.ml" 1033 34466 34492
 type(
@@ -12291,7 +12903,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 1033 34466 34493 "automaton.ml" 1033 34466 34494
 type(
@@ -12306,7 +12918,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 1033 34466 34498 "automaton.ml" 1033 34466 34509
 type(
@@ -12324,7 +12936,7 @@ type(
   int -> int -> int
 )
 ident(
-  ext_ref Pervasives.+
+  ext_ref Pervasives.( + )
 )
 "automaton.ml" 1033 34466 34510 "automaton.ml" 1033 34466 34511
 type(
@@ -12346,7 +12958,7 @@ type(
   float -> float -> float
 )
 ident(
-  ext_ref Pervasives.-.
+  ext_ref Pervasives.( -. )
 )
 "automaton.ml" 1033 34466 34521 "automaton.ml" 1033 34466 34526
 type(
@@ -12360,6 +12972,9 @@ type(
   float
 )
 "automaton.ml" 1032 34374 34378 "automaton.ml" 1033 34466 34527
+call(
+  stack
+)
 type(
   unit
 )
@@ -12378,6 +12993,9 @@ ident(
   ext_ref Pervasives.stdout
 )
 "automaton.ml" 1035 34572 34576 "automaton.ml" 1035 34572 34588
+call(
+  stack
+)
 type(
   unit
 )
@@ -12409,7 +13027,7 @@ type(
   int ref -> int
 )
 ident(
-  ext_ref Pervasives.!
+  ext_ref Pervasives.( ! )
 )
 "automaton.ml" 1036 34599 34613 "automaton.ml" 1036 34599 34620
 type(
