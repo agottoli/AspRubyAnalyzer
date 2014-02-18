@@ -279,9 +279,49 @@ module Forwards(DFP : DataFlowProblem) = struct
 	
 end
 
-module Backwards(DFP : DataFlowProblem) = struct
-	
+ module Backwards(DFP : DataFlowProblem) = struct
+			
+		
 	let fixpoint stmt =
+		let in_tbl = Hashtbl.create 127 in
+		let out_tbl = Hashtbl.create 127 in
+		let q = Queue.create () in
+		StmtSet.iter
+			(fun x ->
+						Queue.push x q;
+						Hashtbl.add in_tbl x DFP.empty
+			) (exits stmt);
+			
+		while not (Queue.is_empty q) do
+			let stmt = Queue.pop q in
+			let in_list =
+				StmtSet.fold
+					(fun stmt acc ->
+								try (Hashtbl.find out_tbl stmt) :: acc
+								with Not_found ->
+										Hashtbl.add out_tbl stmt DFP.empty;
+										DFP.empty :: acc
+					) stmt.succs []
+			in
+			let in_facts = DFP.join in_list in
+			let () = Hashtbl.replace in_tbl stmt in_facts in
+			let new_facts = DFP.transfer in_facts stmt in
+			try
+				let old_facts = Hashtbl.find out_tbl stmt in
+				if DFP.eq old_facts new_facts
+				then ()
+				else begin
+					StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
+					Hashtbl.replace out_tbl stmt new_facts
+				end
+			with Not_found ->
+					StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
+					Hashtbl.replace out_tbl stmt new_facts
+		done;
+
+		in_tbl, out_tbl 
+		
+	(*		let fixpoint stmt =
 		let in_tbl = Hashtbl.create 127 in
 		let out_tbl = Hashtbl.create 127 in
 		let q = Queue.create () in
@@ -317,9 +357,11 @@ module Backwards(DFP : DataFlowProblem) = struct
 					Hashtbl.replace out_tbl stmt new_facts
 		done;
 
-		in_tbl, out_tbl
+		in_tbl, out_tbl *)
+
 	
-end
+end 
+
 
 module AndOr = struct
 	type disj = [ `Method of string | `Or of disj * disj ]
