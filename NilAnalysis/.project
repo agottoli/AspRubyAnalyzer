@@ -6,12 +6,12 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>Ocaml.ocamlMakefileBuilder</name>
+			<name>sf.eclipse.odt.core.ocamlbuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>ocaml.ocamlnatureMakefile</nature>
+		<nature>sf.eclipse.odt.core.ocamlnature</nature>
 	</natures>
 </projectDescription>

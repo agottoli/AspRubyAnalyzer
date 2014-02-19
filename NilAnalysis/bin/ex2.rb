@@ -19,6 +19,9 @@
 	#a=2;
 #end 
 
+A_v = 2
 a = 1
 b = 2
-c = a + (b < (a+b))
+#c = a + (b < (a+b))
+c = A_v.abs
+a.abs.to_s
