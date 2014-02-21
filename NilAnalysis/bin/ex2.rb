@@ -23,5 +23,9 @@ A_v = 2
 a = 1
 b = 2
 #c = a + (b < (a+b))
+x,y,z=1,2,1
+[a,b].minmax 
+a=0
 c = A_v.abs
 a.abs.to_s
+c = a + b

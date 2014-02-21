@@ -3,13 +3,13 @@ open Cfg_printer
 open Visitor
 open Utils
 open Cfg_refactor
-open Cfg_printer .CodePrinter
+open Cfg_printer.CodePrinter
 open Printf
   
 (* INIZIO CONTRACT LIVENESS *)
-  
+
 module LivenessAnalysis = struct
-  
+
   type fact = Live | Dead
     
   let fact_to_s = function Live -> "Live" | Dead -> "Dead"
@@ -54,46 +54,51 @@ module LivenessAnalysis = struct
       List.fold_left (fun acc map ->
         StrMap.fold update map acc) StrMap.empty lst
         
-  let rec update_lhs fact map lhs = match lhs with
+  let rec update_lhs fact map lhs = 
+		let map = match lhs with
     | `ID_Var(`Var_Local, var) -> update var fact map
     | `ID_Var(`Var_Constant, const) -> update const fact map
     | #identifier -> map
-    | `Tuple lst -> List.fold_left (update_lhs Dead) map lst
-    | `Star (#lhs as l) -> update_lhs Dead map l
-      
-  let update_use lhs value map =
-    let map = update_lhs Dead map lhs 
-    in
-      let map = update value Live map 
-    in map
+    | `Tuple lst -> print_string "tuplaaa\n"; List.fold_left (update_lhs fact) map lst
+    | `Star (#lhs as l) -> print_string "asdasd\n"; update_lhs fact map l
+		in map
+
       
   let rec transfer map stmt = match stmt.snode with
 
     | Assign(lhs , #literal) | Assign(lhs , `ID_True) | Assign(lhs , `ID_False) -> print_string "true false literal\n"; update_lhs Dead map lhs
     | Assign(lhs , `ID_Nil) -> print_string "null\n"; update_lhs Dead map lhs
-    | Assign(lhs, `ID_Var(`Var_Local, rvar)) ->  print_string "var\n"; update_use lhs rvar map
-    | Assign(lhs, `ID_Var(`Var_Constant, rconst)) ->  print_string "constant\n";update_use lhs rconst map
-    
-    | MethodCall(lhs_o, {mc_target=Some (`ID_Var(`Var_Local, targ)); mc_args = par} ) 
-    | MethodCall(lhs_o, {mc_target=Some (`ID_Var(`Var_Constant, targ)); mc_args = par} ) -> 
-      let map = match lhs_o with
-      | None -> update targ Live map
-      | Some lhs -> update_use lhs targ map
-    in map
+    | Assign(lhs, `ID_Var(`Var_Local, rvar)) ->  print_string "var\n"; let map = update_lhs Dead map lhs in let map = update_lhs Live map rvar in map
+    | Assign(lhs, `ID_Var(`Var_Constant, rconst)) ->  print_string "constant\n"; update_lhs Dead map lhs; update_lhs Live map rconst
+    | If(_, t, f) -> print_string "if\n"; map
+    | Expression(_) -> print_string "expression\n"; map
 
-   (* DA AGGIUNGERE UPDATE PARAMETRI E TOGLIERE QUELLO CHE NON SERVE 
+    | MethodCall(lhs_o, {mc_target = Some (#identifier as target); mc_args = par} ) -> 
+			
+				(* List.fold_left (update_lhs Live) map par;	 *)		
+				let map = match lhs_o with
+				| None -> map
+				| Some lhs -> update_lhs Dead map lhs;
+				in let map = update_lhs Live map target 
+				in map
+
+			
+		(* | MethodCall(lhs_o, {mc_target=Some (`Lit_Array as target); mc_args = par} ) -> 
+						let map = match lhs_o with
+				| None -> map
+				| Some lhs -> update_lhs Dead map lhs;
+				in let map = update_lhs Live map target 
+				in map *)
+
+
+   (* DA AGGIUNGERE UPDATE PARAMETRI E TOGLIERE QUELLO CHE NON SERVE * )
 
    | MethodCall(lhs_o, {mc_target=Some #literal; mc_args = par} ) -> 
       let map = match lhs_o with
       | None -> update "test" Live map
       | Some lhs -> update_use lhs "targ" map
-    in map *)
+    in map ( * *)
 
-    | MethodCall(lhs_o, {mc_target=Some s; mc_args = par} ) -> 
-      let map = match lhs_o with
-      | None -> map
-      | Some lhs -> update_lhs Dead map lhs 
-    in map
 
     (* | MethodCall(lhs_o, {mc_target=Some (`ID_Var(`Var_Local, targ)); mc_args = par}) ->
        print_string "aijiaji\n";
@@ -111,8 +116,7 @@ module LivenessAnalysis = struct
       map (*get_fact targ map StrMap.add targ NonNil map*) *)
     (* | Assign(lhs, MethodCall(lhs_o, {mc_target=Some (`ID_Var(`Var_Local, targ))})) -> update_use lhs targ map *)
     (* | MethodCall(Some lhs, _ ) -> print_string "tutto il resto\n"; update_lhs Dead map lhs ; *)
-      
-    | _ -> map 
+    | _ -> print_string "tutto il resto è noia\n";map 
       
 end
 
