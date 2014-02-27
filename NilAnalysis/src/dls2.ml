@@ -7,6 +7,7 @@ open Cfg_printer.CodePrinter
 open Printf
   
 (* INIZIO CONTRACT LIVENESS *)
+module C = Cfg.Abbr
 
 module LivenessAnalysis = struct
 
@@ -22,13 +23,13 @@ module LivenessAnalysis = struct
     
 				
   let meet_fact t1 t2 = match t1,t2 with	
-    | _, Live ->  print_string "confronto \n"; Live			
-    | _, Dead -> print_string "confronto \n"; Dead
+    | _, Live ->  (* print_string "confronto \n"; *) Live			
+    | _, Dead -> (* print_string "confronto \n"; *) Dead
       
   let meet_fact_IF t1 t2 = match t1,t2 with	
-    | _, Live ->  print_string "confronto \n"; Live			
-    | Live, _ -> print_string "confronto \n"; Live
-    | Dead, Dead -> print_string "confronto \n"; Dead
+    | _, Live ->  (* print_string "confronto \n"; *) Live			
+    | Live, _ -> (* print_string "confronto \n"; *) Live
+    | Dead, Dead -> (* print_string "confronto \n"; *) Dead
       
   let update s v map =
     let fact =
@@ -45,7 +46,7 @@ module LivenessAnalysis = struct
     StrMap.add s fact map	
       
   let join lst =		(*join receives a list of StrMap (String, fact) *) 
-    print_string "joinnnnnnn \n" ; 
+    (* print_string "joinnnnnnn \n" ; *)
    	if (List.length lst) > 1 then
       let map1 = (fun acc map -> StrMap.fold update_IF map acc) (List.nth lst 0) (List.nth lst 1) in
       let map2 = (fun acc map -> StrMap.fold update_IF map acc) (List.nth lst 1) (List.nth lst 0) in
@@ -59,30 +60,103 @@ module LivenessAnalysis = struct
     | `ID_Var(`Var_Local, var) -> update var fact map
     | `ID_Var(`Var_Constant, const) -> update const fact map
     | #identifier -> map
-    | `Tuple lst -> print_string "tuplaaa\n"; List.fold_left (update_lhs fact) map lst
+    | `Tuple lst -> List.fold_left (update_lhs fact) map lst
     | `Star (#lhs as l) -> print_string "asdasd\n"; update_lhs fact map l
 		in map
 
+  (* let rec update_rhs fact map rhs =
+    let map = rhs with
+    | #literal | `ID_True | `ID_False | `ID_Nil -> map
+    | `ID_Var(`Var_Local, v) | `ID_Var(`Var_Constant, v) -> update_lhs fact map v
+    | `Tuple
+  in map *)
+
+  let update_use lhs value map =
+    let map = update_lhs Dead map lhs 
+    in let map = update value Live map
+
+    in map
+
+    let rec visit_e e map = match e with
+      | #literal -> print_string "lit\n"; map
+      | #identifier as id -> print_string "id\n"; 
+        match id with
+        | `ID_Var(`Var_Local, var) -> update var Live map
+        | `ID_Var(`Var_Constant, const) -> update const Live map
+        | _ -> print_string "all rest\n"; map
+
+   let rec visit e map = match e with
+    | #expr as el -> print_string "expr\n"; visit_e (el :> expr) map 
+    | `Star el -> print_string "star\n"; visit (el :> star_expr) map
+
+
+    
       
+
   let rec transfer map stmt = match stmt.snode with
 
     | Assign(lhs , #literal) | Assign(lhs , `ID_True) | Assign(lhs , `ID_False) -> print_string "true false literal\n"; update_lhs Dead map lhs
     | Assign(lhs , `ID_Nil) -> print_string "null\n"; update_lhs Dead map lhs
-    | Assign(lhs, `ID_Var(`Var_Local, rvar)) ->  print_string "var\n"; let map = update_lhs Dead map lhs in let map = update_lhs Live map rvar in map
-    | Assign(lhs, `ID_Var(`Var_Constant, rconst)) ->  print_string "constant\n"; update_lhs Dead map lhs; update_lhs Live map rconst
-    | If(_, t, f) -> print_string "if\n"; map
+    | Assign(lhs, `ID_Var(`Var_Local, rvar)) ->  print_string "var\n"; update_use lhs rvar map
+    | Assign(lhs, `ID_Var(`Var_Constant, rconst)) ->  print_string "constant\n"; update_use lhs rconst map
+    | Assign(lhs, `Tuple s) -> print_string "tuple\n" ; update_lhs Dead map lhs (* ) List.fold_left (update_lhs Live) map s;   *)
+
     | Expression(_) -> print_string "expression\n"; map
 
-    | MethodCall(lhs_o, {mc_target = Some (#identifier as target); mc_args = par} ) -> 
-			
-				(* List.fold_left (update_lhs Live) map par;	 *)		
-				let map = match lhs_o with
+
+    | MethodCall(lhs_o, {mc_target = Some (#identifier as target); mc_args = args} ) -> 
+			 print_string "MethodCall\n";
+
+       List.iter (fun x ->  visit (x :> star_expr) map ) args;
+
+       (* let rec visit e = match e with
+        | #expr -> print_string "expr\n";
+        | `Star el -> print_string "star\n"; 
+          let el' = visit el in
+          if el == el' then e else `Star el'
+        in List.map visit (args :> star_expr list) ; *)
+
+
+      let map = match lhs_o with
 				| None -> map
 				| Some lhs -> update_lhs Dead map lhs;
 				in let map = update_lhs Live map target 
 				in map
 
-			
+
+    | While(`ID_Var(`Var_Local, rvar) , _) -> print_string "while\n"; update rvar Live map
+    | While(`ID_Var(`Var_Constant, rvar) , _) -> print_string "while\n"; update rvar Live map
+
+    | For(_, `ID_Var(`Var_Local, rvar), _) -> print_string "for preso param\n"; map
+
+		| Seq(_) -> print_string "seq\n"; map
+    | Alias(_) -> print_string "alias\n"; map
+
+    | If(`ID_Var(`Var_Local, rvar) ,_,_) -> print_string "if\n"; update rvar Live map
+    | If(`ID_Var(`Var_Constant, rvar) ,_,_) -> print_string "if\n"; update rvar Live map
+    
+
+    | Case(_) -> print_string "case\n"; map
+
+    | MethodCall(_,_)-> print_string "method call others\n"; map
+
+    | Return(_)-> print_string "return\n"; map
+
+    | Yield(_,_) -> print_string "yield\n"; map
+    | Module(_,_,_)-> print_string "module\n"; map
+    | Method (_,_,_)-> print_string "method def\n"; map
+    | Class(_,_,_)-> print_string "class\n"; map
+    | ExnBlock(_)-> print_string "exnblock\n"; map
+    | Begin(_) -> print_string "begin\n"; map
+    | End(_)-> print_string "end\n"; map
+    | Defined(_,_)-> print_string "defined\n"; map
+    | Undef(_)-> print_string "undef\n"; map
+
+    | Break(_) -> print_string "break niente \n"; map
+    (*| Break(`ID_Var(`Var_Local, rvar)) -> print_string "break\n"; update rvar Live map
+    | Break(`ID_Var(`Var_Constant, rvar)) -> print_string "break\n"; update rvar Live map
+*)
+    | Next(_) -> print_string "next\n"; map
 		(* | MethodCall(lhs_o, {mc_target=Some (`Lit_Array as target); mc_args = par} ) -> 
 						let map = match lhs_o with
 				| None -> map

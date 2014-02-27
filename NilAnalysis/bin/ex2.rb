@@ -12,20 +12,23 @@
 
 #a.to_s
 
-#a = 10
-#if 5 < 4 then
-	#b = a;
+a = 10
+b=3
+if (5 < 4) & (3 > 1) then
+	b = a;
 #else
-	#a=2;
-#end 
+#	a=2;
+end 
 
 A_v = 2
 a = 1
 b = 2
-#c = a + (b < (a+b))
-x,y,z=1,2,1
-[a,b].minmax 
-a=0
-c = A_v.abs
-a.abs.to_s
+c = a + (b < (a+b))
+#x,y,z=A_v,a,b
+#[a,b].minmax 
+#a=0
+#c = A_v.abs
+#a.abs.to_s
 c = a + b
+
+c = Math.max(a = 10, b = 5)
