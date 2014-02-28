@@ -31,4 +31,4 @@ c = a + (b < (a+b))
 #a.abs.to_s
 c = a + b
 
-c = Math.max(a = 10, b = 5)
+c = Math.max(10, 5)

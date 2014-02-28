@@ -3,7 +3,7 @@ type(
   fact -> string
 )
 ident(
-  def fact_to_s "dls2.ml" 18 293 295 "dls2.ml" 195 7110 7113
+  def fact_to_s "dls2.ml" 18 293 295 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 16 229 256 "dls2.ml" 16 229 260
 type(
@@ -30,7 +30,7 @@ type(
   'a Utils.StrMap.t
 )
 ident(
-  def top "dls2.ml" 19 318 320 "dls2.ml" 195 7110 7113
+  def top "dls2.ml" 19 318 320 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 18 293 305 "dls2.ml" 18 293 317
 type(
@@ -44,7 +44,7 @@ type(
   'b Utils.StrMap.t
 )
 ident(
-  def empty "dls2.ml" 21 370 372 "dls2.ml" 195 7110 7113
+  def empty "dls2.ml" 21 370 372 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 20 343 357 "dls2.ml" 20 343 369
 type(
@@ -58,7 +58,7 @@ type(
   'c Utils.StrMap.t -> 'c Utils.StrMap.t -> bool
 )
 ident(
-  def eq "dls2.ml" 22 432 434 "dls2.ml" 195 7110 7113
+  def eq "dls2.ml" 22 432 434 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 21 370 379 "dls2.ml" 21 370 381
 type(
@@ -103,6 +103,9 @@ ident(
   int_ref t2 "dls2.ml" 21 370 382 "dls2.ml" 21 370 384
 )
 "dls2.ml" 21 370 387 "dls2.ml" 21 370 426
+call(
+  stack
+)
 type(
   int
 )
@@ -126,7 +129,7 @@ type(
   fact Utils.StrMap.t -> string
 )
 ident(
-  def to_string "dls2.ml" 25 491 493 "dls2.ml" 195 7110 7113
+  def to_string "dls2.ml" 25 491 493 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 22 432 448 "dls2.ml" 22 432 449
 type(
@@ -157,6 +160,9 @@ ident(
   int_ref t "dls2.ml" 22 432 448 "dls2.ml" 22 432 449
 )
 "dls2.ml" 22 432 452 "dls2.ml" 22 432 480
+call(
+  tail
+)
 type(
   string
 )
@@ -165,7 +171,7 @@ type(
   'd -> fact -> fact
 )
 ident(
-  def meet_fact "dls2.ml" 29 658 660 "dls2.ml" 195 7110 7113
+  def meet_fact "dls2.ml" 29 658 660 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 25 491 507 "dls2.ml" 25 491 509
 type(
@@ -240,7 +246,7 @@ type(
   fact -> fact -> fact
 )
 ident(
-  def meet_fact_IF "dls2.ml" 34 888 890 "dls2.ml" 195 7110 7113
+  def meet_fact_IF "dls2.ml" 34 888 890 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 29 658 677 "dls2.ml" 29 658 679
 type(
@@ -331,7 +337,7 @@ type(
   Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
 )
 ident(
-  def update "dls2.ml" 41 1036 1038 "dls2.ml" 195 7110 7113
+  def update "dls2.ml" 41 1036 1038 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 34 888 901 "dls2.ml" 34 888 902
 type(
@@ -387,6 +393,9 @@ ident(
   int_ref map "dls2.ml" 34 888 905 "dls2.ml" 34 888 908
 )
 "dls2.ml" 36 926 946 "dls2.ml" 36 926 965
+call(
+  stack
+)
 type(
   fact
 )
@@ -398,6 +407,9 @@ ident(
   int_ref v "dls2.ml" 34 888 903 "dls2.ml" 34 888 904
 )
 "dls2.ml" 36 926 936 "dls2.ml" 36 926 967
+call(
+  stack
+)
 type(
   fact
 )
@@ -445,6 +457,9 @@ ident(
   int_ref map "dls2.ml" 34 888 905 "dls2.ml" 34 888 908
 )
 "dls2.ml" 39 1002 1006 "dls2.ml" 39 1002 1027
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
@@ -457,7 +472,7 @@ type(
   Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
 )
 ident(
-  def update_IF "dls2.ml" 48 1190 1192 "dls2.ml" 195 7110 7113
+  def update_IF "dls2.ml" 48 1190 1192 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 41 1036 1052 "dls2.ml" 41 1036 1053
 type(
@@ -513,6 +528,9 @@ ident(
   int_ref map "dls2.ml" 41 1036 1056 "dls2.ml" 41 1036 1059
 )
 "dls2.ml" 43 1077 1100 "dls2.ml" 43 1077 1119
+call(
+  stack
+)
 type(
   fact
 )
@@ -524,6 +542,9 @@ ident(
   int_ref v "dls2.ml" 41 1036 1054 "dls2.ml" 41 1036 1055
 )
 "dls2.ml" 43 1077 1087 "dls2.ml" 43 1077 1121
+call(
+  stack
+)
 type(
   fact
 )
@@ -571,6 +592,9 @@ ident(
   int_ref map "dls2.ml" 41 1036 1056 "dls2.ml" 41 1036 1059
 )
 "dls2.ml" 46 1156 1160 "dls2.ml" 46 1156 1181
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
@@ -583,7 +607,7 @@ type(
   fact Utils.StrMap.t list -> fact Utils.StrMap.t
 )
 ident(
-  def join "dls2.ml" 58 1774 1776 "dls2.ml" 195 7110 7113
+  def join "dls2.ml" 58 1774 1776 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 48 1190 1201 "dls2.ml" 48 1190 1204
 type(
@@ -607,6 +631,9 @@ ident(
   int_ref lst "dls2.ml" 48 1190 1201 "dls2.ml" 48 1190 1204
 )
 "dls2.ml" 50 1301 1308 "dls2.ml" 50 1301 1325
+call(
+  stack
+)
 type(
   int
 )
@@ -702,6 +729,9 @@ type(
   int
 )
 "dls2.ml" 51 1335 1399 "dls2.ml" 51 1335 1415
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -724,10 +754,16 @@ type(
   int
 )
 "dls2.ml" 51 1335 1416 "dls2.ml" 51 1335 1432
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
 "dls2.ml" 51 1335 1352 "dls2.ml" 51 1335 1432
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -808,6 +844,9 @@ type(
   int
 )
 "dls2.ml" 52 1436 1500 "dls2.ml" 52 1436 1516
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -830,10 +869,16 @@ type(
   int
 )
 "dls2.ml" 52 1436 1517 "dls2.ml" 52 1436 1533
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
 "dls2.ml" 52 1436 1453 "dls2.ml" 52 1436 1533
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -903,6 +948,9 @@ ident(
   int_ref map2 "dls2.ml" 52 1436 1446 "dls2.ml" 52 1436 1450
 )
 "dls2.ml" 53 1537 1543 "dls2.ml" 53 1537 1599
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
@@ -966,6 +1014,9 @@ ident(
   int_ref acc "dls2.ml" 55 1675 1701 "dls2.ml" 55 1675 1704
 )
 "dls2.ml" 56 1712 1720 "dls2.ml" 56 1712 1746
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
@@ -988,6 +1039,9 @@ ident(
   int_ref lst "dls2.ml" 48 1190 1201 "dls2.ml" 48 1190 1204
 )
 "dls2.ml" 55 1675 1681 "dls2.ml" 56 1712 1764
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
@@ -1000,7 +1054,7 @@ type(
   fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
 )
 ident(
-  def update_lhs "dls2.ml" 58 1774 1776 "dls2.ml" 195 7110 7113
+  def update_lhs "dls2.ml" 58 1774 1776 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 58 1774 1795 "dls2.ml" 58 1774 1799
 type(
@@ -1082,6 +1136,9 @@ ident(
   int_ref map "dls2.ml" 58 1774 1800 "dls2.ml" 58 1774 1803
 )
 "dls2.ml" 60 1838 1872 "dls2.ml" 60 1838 1891
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -1133,6 +1190,9 @@ ident(
   int_ref map "dls2.ml" 58 1774 1800 "dls2.ml" 58 1774 1803
 )
 "dls2.ml" 61 1892 1931 "dls2.ml" 61 1892 1952
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -1181,6 +1241,9 @@ ident(
   int_ref fact "dls2.ml" 58 1774 1795 "dls2.ml" 58 1774 1799
 )
 "dls2.ml" 63 1978 2013 "dls2.ml" 63 1978 2030
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
 )
@@ -1199,6 +1262,9 @@ ident(
   int_ref lst "dls2.ml" 63 1978 1991 "dls2.ml" 63 1978 1994
 )
 "dls2.ml" 63 1978 1998 "dls2.ml" 63 1978 2038
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -1229,6 +1295,9 @@ type(
   string
 )
 "dls2.ml" 64 2039 2066 "dls2.ml" 64 2039 2089
+call(
+  stack
+)
 type(
   unit
 )
@@ -1261,6 +1330,9 @@ ident(
   int_ref l "dls2.ml" 64 2039 2051 "dls2.ml" 64 2039 2062
 )
 "dls2.ml" 64 2039 2091 "dls2.ml" 64 2039 2112
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -1288,7 +1360,7 @@ type(
   Cfg.lhs -> Utils.StrMap.key -> fact Utils.StrMap.t -> fact Utils.StrMap.t
 )
 ident(
-  def update_use "dls2.ml" 80 2472 2476 "dls2.ml" 195 7110 7113
+  def update_use "dls2.ml" 95 2883 2886 "dls2.ml" 209 7666 7669
 )
 "dls2.ml" 74 2348 2365 "dls2.ml" 74 2348 2368
 type(
@@ -1341,6 +1413,9 @@ ident(
   int_ref lhs "dls2.ml" 74 2348 2365 "dls2.ml" 74 2348 2368
 )
 "dls2.ml" 75 2381 2395 "dls2.ml" 75 2381 2418
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -1374,6 +1449,9 @@ ident(
   int_ref map "dls2.ml" 75 2381 2389 "dls2.ml" 75 2381 2392
 )
 "dls2.ml" 76 2420 2437 "dls2.ml" 76 2420 2458
+call(
+  stack
+)
 type(
   fact Utils.StrMap.t
 )
@@ -1392,1306 +1470,7407 @@ type(
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 80 2472 2484 "dls2.ml" 80 2472 2491
+"dls2.ml" 95 2883 2894 "dls2.ml" 95 2883 2899
 type(
-  [< `ID_False
-   | `ID_Nil
-   | `ID_Scope of Cfg.identifier * string
-   | `ID_Self
-   | `ID_True
-   | `ID_UScope of string
-   | `ID_Var of Cfg.var_kind * Utils.StrMap.key
-   | `Lit_Array of Cfg.star_expr list
-   | `Lit_Atom of string
-   | `Lit_BigNum of Big_int.big_int
-   | `Lit_FixNum of int
-   | `Lit_Float of string * float
-   | `Lit_Hash of (Cfg.expr * Cfg.expr) list
-   | `Lit_Range of bool * Cfg.expr * Cfg.expr
-   | `Lit_Regexp of string * string
-   | `Lit_String of string ] ->
-  fact Utils.StrMap.t -> fact Utils.StrMap.t
+  Cfg.star_expr -> string
 )
 ident(
-  def visit_e "dls2.ml" 80 2472 2476 "dls2.ml" 195 7110 7113
+  def visit "dls2.ml" 95 2883 2886 "dls2.ml" 209 7666 7669
 )
-"dls2.ml" 80 2472 2492 "dls2.ml" 80 2472 2493
+"dls2.ml" 95 2883 2900 "dls2.ml" 95 2883 2901
 type(
-  [< `ID_False
-   | `ID_Nil
-   | `ID_Scope of Cfg.identifier * string
-   | `ID_Self
-   | `ID_True
-   | `ID_UScope of string
-   | `ID_Var of Cfg.var_kind * Utils.StrMap.key
-   | `Lit_Array of Cfg.star_expr list
-   | `Lit_Atom of string
-   | `Lit_BigNum of Big_int.big_int
-   | `Lit_FixNum of int
-   | `Lit_Float of string * float
-   | `Lit_Hash of (Cfg.expr * Cfg.expr) list
-   | `Lit_Range of bool * Cfg.expr * Cfg.expr
-   | `Lit_Regexp of string * string
-   | `Lit_String of string ]
-  as 'e
+  Cfg.star_expr
 )
 ident(
-  def e "dls2.ml" 80 2472 2494 "dls2.ml" 86 2755 2800
+  def e "dls2.ml" 95 2883 2904 "dls2.ml" 107 3330 3367
 )
-"dls2.ml" 80 2472 2494 "dls2.ml" 80 2472 2497
+"dls2.ml" 95 2883 2910 "dls2.ml" 95 2883 2911
 type(
-  fact Utils.StrMap.t
+  Cfg.star_expr
 )
 ident(
-  def map "dls2.ml" 80 2472 2500 "dls2.ml" 86 2755 2800
+  int_ref e "dls2.ml" 95 2883 2900 "dls2.ml" 95 2883 2901
 )
-"dls2.ml" 80 2472 2506 "dls2.ml" 80 2472 2507
+"dls2.ml" 97 2918 2930 "dls2.ml" 97 2918 2932
 type(
-  'e
+  Cfg.star_expr Cfg.expr_
 )
 ident(
-  int_ref e "dls2.ml" 80 2472 2492 "dls2.ml" 80 2472 2493
+  def el "dls2.ml" 97 2918 2936 "dls2.ml" 97 2918 2982
 )
-"dls2.ml" 81 2513 2521 "dls2.ml" 81 2513 2529
+"dls2.ml" 97 2918 2924 "dls2.ml" 97 2918 2932
 type(
-  'e
+  Cfg.star_expr
 )
-"dls2.ml" 81 2513 2533 "dls2.ml" 81 2513 2545
+"dls2.ml" 97 2918 2936 "dls2.ml" 97 2918 2948
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 81 2513 2546 "dls2.ml" 81 2513 2553
+"dls2.ml" 97 2918 2949 "dls2.ml" 97 2918 2957
 type(
   string
 )
-"dls2.ml" 81 2513 2533 "dls2.ml" 81 2513 2553
+"dls2.ml" 97 2918 2936 "dls2.ml" 97 2918 2957
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 81 2513 2555 "dls2.ml" 81 2513 2558
+"dls2.ml" 97 2918 2959 "dls2.ml" 97 2918 2964
 type(
-  fact Utils.StrMap.t
+  Cfg.star_expr -> string
 )
 ident(
-  int_ref map "dls2.ml" 80 2472 2494 "dls2.ml" 80 2472 2497
+  int_ref visit "dls2.ml" 95 2883 2894 "dls2.ml" 95 2883 2899
 )
-"dls2.ml" 81 2513 2533 "dls2.ml" 81 2513 2558
+"dls2.ml" 97 2918 2966 "dls2.ml" 97 2918 2968
 type(
-  fact Utils.StrMap.t
+  Cfg.star_expr
 )
-"dls2.ml" 82 2559 2567 "dls2.ml" 82 2559 2578
 type(
-  'e
-)
-"dls2.ml" 82 2559 2567 "dls2.ml" 82 2559 2584
-type(
-  'e
+  Cfg.star_expr Cfg.expr_
 )
 ident(
-  def id "dls2.ml" 82 2559 2588 "dls2.ml" 86 2755 2800
+  int_ref el "dls2.ml" 97 2918 2930 "dls2.ml" 97 2918 2932
 )
-"dls2.ml" 82 2559 2588 "dls2.ml" 82 2559 2600
+"dls2.ml" 97 2918 2959 "dls2.ml" 97 2918 2982
+call(
+  tail
+)
+type(
+  string
+)
+"dls2.ml" 97 2918 2936 "dls2.ml" 97 2918 2982
+type(
+  string
+)
+"dls2.ml" 98 2983 2989 "dls2.ml" 98 2983 2994
+type(
+  Cfg.star_expr
+)
+"dls2.ml" 98 2983 2989 "dls2.ml" 98 2983 2999
+type(
+  Cfg.star_expr
+)
+ident(
+  def e "dls2.ml" 98 2983 3003 "dls2.ml" 107 3330 3367
+)
+"dls2.ml" 98 2983 3003 "dls2.ml" 98 2983 3015
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 82 2559 2601 "dls2.ml" 82 2559 2607
+"dls2.ml" 98 2983 3016 "dls2.ml" 98 2983 3024
 type(
   string
 )
-"dls2.ml" 82 2559 2588 "dls2.ml" 82 2559 2607
+"dls2.ml" 98 2983 3003 "dls2.ml" 98 2983 3024
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 83 2610 2624 "dls2.ml" 83 2610 2626
+"dls2.ml" 100 3029 3042 "dls2.ml" 100 3029 3043
+type(
+  Cfg.expr
+)
+type(
+  Cfg.star_expr Cfg.expr_
+)
+ident(
+  int_ref e "dls2.ml" 98 2983 2989 "dls2.ml" 98 2983 2999
+)
+"dls2.ml" 101 3058 3066 "dls2.ml" 101 3058 3074
+type(
+  Cfg.expr
+)
+"dls2.ml" 101 3058 3078 "dls2.ml" 101 3058 3090
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 101 3058 3091 "dls2.ml" 101 3058 3098
+type(
+  string
+)
+"dls2.ml" 101 3058 3078 "dls2.ml" 101 3058 3098
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 101 3058 3100 "dls2.ml" 101 3058 3104
+type(
+  string
+)
+"dls2.ml" 101 3058 3078 "dls2.ml" 101 3058 3104
+type(
+  string
+)
+"dls2.ml" 102 3105 3113 "dls2.ml" 102 3105 3124
+type(
+  Cfg.expr
+)
+"dls2.ml" 102 3105 3113 "dls2.ml" 102 3105 3130
+type(
+  Cfg.expr
+)
+ident(
+  def id "dls2.ml" 102 3105 3134 "dls2.ml" 107 3330 3367
+)
+"dls2.ml" 102 3105 3134 "dls2.ml" 102 3105 3146
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 102 3105 3147 "dls2.ml" 102 3105 3153
+type(
+  string
+)
+"dls2.ml" 102 3105 3134 "dls2.ml" 102 3105 3153
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 104 3157 3171 "dls2.ml" 104 3157 3173
 type(
   _[> Cfg.identifier ]
 )
 ident(
-  int_ref id "dls2.ml" 82 2559 2567 "dls2.ml" 82 2559 2584
+  int_ref id "dls2.ml" 102 3105 3113 "dls2.ml" 102 3105 3130
 )
-"dls2.ml" 84 2632 2650 "dls2.ml" 84 2632 2660
+"dls2.ml" 105 3179 3197 "dls2.ml" 105 3179 3207
 type(
   Cfg.var_kind
 )
-"dls2.ml" 84 2632 2662 "dls2.ml" 84 2632 2665
+"dls2.ml" 105 3179 3209 "dls2.ml" 105 3179 3212
 type(
-  Utils.StrMap.key
+  string
 )
 ident(
-  def var "dls2.ml" 84 2632 2670 "dls2.ml" 84 2632 2689
+  def var "dls2.ml" 105 3179 3217 "dls2.ml" 105 3179 3248
 )
-"dls2.ml" 84 2632 2649 "dls2.ml" 84 2632 2666
+"dls2.ml" 105 3179 3196 "dls2.ml" 105 3179 3213
 type(
-  Cfg.var_kind * Utils.StrMap.key
+  Cfg.var_kind * string
 )
-"dls2.ml" 84 2632 2642 "dls2.ml" 84 2632 2666
+"dls2.ml" 105 3179 3189 "dls2.ml" 105 3179 3213
 type(
-  _[> Cfg.identifier ] as 'f
+  _[> Cfg.identifier ] as 'e
 )
-"dls2.ml" 84 2632 2670 "dls2.ml" 84 2632 2676
+"dls2.ml" 105 3179 3217 "dls2.ml" 105 3179 3229
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 105 3179 3230 "dls2.ml" 105 3179 3243
+type(
+  string
+)
+"dls2.ml" 105 3179 3217 "dls2.ml" 105 3179 3243
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 105 3179 3245 "dls2.ml" 105 3179 3248
+type(
+  string
+)
+ident(
+  int_ref var "dls2.ml" 105 3179 3209 "dls2.ml" 105 3179 3212
+)
+"dls2.ml" 105 3179 3217 "dls2.ml" 105 3179 3248
+type(
+  string
+)
+"dls2.ml" 106 3249 3267 "dls2.ml" 106 3249 3280
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 106 3249 3282 "dls2.ml" 106 3249 3287
+type(
+  string
+)
+ident(
+  def const "dls2.ml" 106 3249 3292 "dls2.ml" 106 3249 3329
+)
+"dls2.ml" 106 3249 3266 "dls2.ml" 106 3249 3288
+type(
+  Cfg.var_kind * string
+)
+"dls2.ml" 106 3249 3259 "dls2.ml" 106 3249 3288
+type(
+  'e
+)
+"dls2.ml" 106 3249 3292 "dls2.ml" 106 3249 3304
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 106 3249 3305 "dls2.ml" 106 3249 3322
+type(
+  string
+)
+"dls2.ml" 106 3249 3292 "dls2.ml" 106 3249 3322
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 106 3249 3324 "dls2.ml" 106 3249 3329
+type(
+  string
+)
+ident(
+  int_ref const "dls2.ml" 106 3249 3282 "dls2.ml" 106 3249 3287
+)
+"dls2.ml" 106 3249 3292 "dls2.ml" 106 3249 3329
+type(
+  string
+)
+"dls2.ml" 107 3330 3340 "dls2.ml" 107 3330 3341
+type(
+  'e
+)
+"dls2.ml" 107 3330 3346 "dls2.ml" 107 3330 3358
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 107 3330 3359 "dls2.ml" 107 3330 3361
+type(
+  string
+)
+"dls2.ml" 107 3330 3346 "dls2.ml" 107 3330 3361
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 107 3330 3363 "dls2.ml" 107 3330 3367
+type(
+  string
+)
+"dls2.ml" 107 3330 3346 "dls2.ml" 107 3330 3367
+type(
+  string
+)
+"dls2.ml" 104 3157 3165 "dls2.ml" 107 3330 3367
+type(
+  string
+)
+"dls2.ml" 102 3105 3134 "dls2.ml" 107 3330 3367
+type(
+  string
+)
+"dls2.ml" 100 3029 3035 "dls2.ml" 107 3330 3367
+type(
+  string
+)
+"dls2.ml" 98 2983 3003 "dls2.ml" 107 3330 3367
+type(
+  string
+)
+"dls2.ml" 95 2883 2904 "dls2.ml" 107 3330 3367
+type(
+  string
+)
+"dls2.ml" 109 3369 3379 "dls2.ml" 109 3369 3389
+type(
+  Cfg.star_expr list -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  def visit_list "dls2.ml" 109 3369 3371 "dls2.ml" 209 7666 7669
+)
+"dls2.ml" 109 3369 3390 "dls2.ml" 109 3369 3394
+type(
+  Cfg.star_expr list
+)
+ident(
+  def list "dls2.ml" 109 3369 3395 "dls2.ml" 111 3463 3544
+)
+"dls2.ml" 109 3369 3395 "dls2.ml" 109 3369 3398
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 109 3369 3401 "dls2.ml" 111 3463 3544
+)
+"dls2.ml" 109 3369 3407 "dls2.ml" 109 3369 3411
+type(
+  Cfg.star_expr list
+)
+ident(
+  int_ref list "dls2.ml" 109 3369 3390 "dls2.ml" 109 3369 3394
+)
+"dls2.ml" 110 3417 3423 "dls2.ml" 110 3417 3425
+type(
+  Cfg.star_expr list
+)
+"dls2.ml" 110 3417 3429 "dls2.ml" 110 3417 3441
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 110 3417 3442 "dls2.ml" 110 3417 3457
+type(
+  string
+)
+"dls2.ml" 110 3417 3429 "dls2.ml" 110 3417 3457
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 110 3417 3459 "dls2.ml" 110 3417 3462
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 109 3369 3395 "dls2.ml" 109 3369 3398
+)
+"dls2.ml" 110 3417 3429 "dls2.ml" 110 3417 3462
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 111 3463 3469 "dls2.ml" 111 3463 3473
+type(
+  Cfg.star_expr
+)
+ident(
+  def head "dls2.ml" 111 3463 3482 "dls2.ml" 111 3463 3544
+)
+"dls2.ml" 111 3463 3477 "dls2.ml" 111 3463 3478
+type(
+  Cfg.star_expr list
+)
+"dls2.ml" 111 3463 3469 "dls2.ml" 111 3463 3478
+type(
+  Cfg.star_expr list
+)
+"dls2.ml" 111 3463 3482 "dls2.ml" 111 3463 3494
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 111 3463 3495 "dls2.ml" 111 3463 3514
+type(
+  string
+)
+"dls2.ml" 111 3463 3482 "dls2.ml" 111 3463 3514
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 111 3463 3516 "dls2.ml" 111 3463 3522
 type(
   Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
 )
 ident(
   int_ref update "dls2.ml" 34 888 894 "dls2.ml" 34 888 900
 )
-"dls2.ml" 84 2632 2677 "dls2.ml" 84 2632 2680
+"dls2.ml" 111 3463 3524 "dls2.ml" 111 3463 3529
+type(
+  Cfg.star_expr -> Utils.StrMap.key
+)
+ident(
+  int_ref visit "dls2.ml" 95 2883 2894 "dls2.ml" 95 2883 2899
+)
+"dls2.ml" 111 3463 3530 "dls2.ml" 111 3463 3534
+type(
+  Cfg.star_expr
+)
+ident(
+  int_ref head "dls2.ml" 111 3463 3469 "dls2.ml" 111 3463 3473
+)
+"dls2.ml" 111 3463 3523 "dls2.ml" 111 3463 3535
+call(
+  stack
+)
 type(
   Utils.StrMap.key
 )
-ident(
-  int_ref var "dls2.ml" 84 2632 2662 "dls2.ml" 84 2632 2665
-)
-"dls2.ml" 84 2632 2681 "dls2.ml" 84 2632 2685
+"dls2.ml" 111 3463 3536 "dls2.ml" 111 3463 3540
 type(
   fact
 )
-"dls2.ml" 84 2632 2686 "dls2.ml" 84 2632 2689
+"dls2.ml" 111 3463 3541 "dls2.ml" 111 3463 3544
 type(
   fact Utils.StrMap.t
 )
 ident(
-  int_ref map "dls2.ml" 80 2472 2494 "dls2.ml" 80 2472 2497
+  int_ref map "dls2.ml" 109 3369 3395 "dls2.ml" 109 3369 3398
 )
-"dls2.ml" 84 2632 2670 "dls2.ml" 84 2632 2689
+"dls2.ml" 111 3463 3516 "dls2.ml" 111 3463 3544
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 85 2690 2708 "dls2.ml" 85 2690 2721
+"dls2.ml" 111 3463 3482 "dls2.ml" 111 3463 3544
 type(
-  Cfg.var_kind
+  fact Utils.StrMap.t
 )
-"dls2.ml" 85 2690 2723 "dls2.ml" 85 2690 2728
+"dls2.ml" 109 3369 3401 "dls2.ml" 111 3463 3544
 type(
-  Utils.StrMap.key
+  fact Utils.StrMap.t
+)
+"dls2.ml" 113 3546 3556 "dls2.ml" 113 3546 3564
+type(
+  fact Utils.StrMap.t -> Cfg.stmt -> fact Utils.StrMap.t
 )
 ident(
-  def const "dls2.ml" 85 2690 2733 "dls2.ml" 85 2690 2754
+  def transfer "dls2.ml" 113 3546 3548 "dls2.ml" 209 7666 7669
 )
-"dls2.ml" 85 2690 2707 "dls2.ml" 85 2690 2729
-type(
-  Cfg.var_kind * Utils.StrMap.key
-)
-"dls2.ml" 85 2690 2700 "dls2.ml" 85 2690 2729
-type(
-  'f
-)
-"dls2.ml" 85 2690 2733 "dls2.ml" 85 2690 2739
-type(
-  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
-)
-ident(
-  int_ref update "dls2.ml" 34 888 894 "dls2.ml" 34 888 900
-)
-"dls2.ml" 85 2690 2740 "dls2.ml" 85 2690 2745
-type(
-  Utils.StrMap.key
-)
-ident(
-  int_ref const "dls2.ml" 85 2690 2723 "dls2.ml" 85 2690 2728
-)
-"dls2.ml" 85 2690 2746 "dls2.ml" 85 2690 2750
-type(
-  fact
-)
-"dls2.ml" 85 2690 2751 "dls2.ml" 85 2690 2754
+"dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
 type(
   fact Utils.StrMap.t
 )
 ident(
-  int_ref map "dls2.ml" 80 2472 2494 "dls2.ml" 80 2472 2497
+  def map "dls2.ml" 113 3546 3569 "dls2.ml" 207 7604 7657
 )
-"dls2.ml" 85 2690 2733 "dls2.ml" 85 2690 2754
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 86 2755 2765 "dls2.ml" 86 2755 2766
-type(
-  'f
-)
-"dls2.ml" 86 2755 2770 "dls2.ml" 86 2755 2782
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dls2.ml" 86 2755 2783 "dls2.ml" 86 2755 2795
-type(
-  string
-)
-"dls2.ml" 86 2755 2770 "dls2.ml" 86 2755 2795
-type(
-  unit
-)
-"dls2.ml" 86 2755 2797 "dls2.ml" 86 2755 2800
-type(
-  fact Utils.StrMap.t
-)
-ident(
-  int_ref map "dls2.ml" 80 2472 2494 "dls2.ml" 80 2472 2497
-)
-"dls2.ml" 86 2755 2770 "dls2.ml" 86 2755 2800
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 83 2610 2618 "dls2.ml" 86 2755 2800
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 82 2559 2588 "dls2.ml" 86 2755 2800
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 80 2472 2500 "dls2.ml" 86 2755 2800
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 88 2802 2813 "dls2.ml" 88 2802 2818
-type(
-  Cfg.star_expr -> fact Utils.StrMap.t -> fact Utils.StrMap.t
-)
-ident(
-  def visit "dls2.ml" 88 2802 2805 "dls2.ml" 195 7110 7113
-)
-"dls2.ml" 88 2802 2819 "dls2.ml" 88 2802 2820
-type(
-  Cfg.star_expr
-)
-ident(
-  def e "dls2.ml" 88 2802 2821 "dls2.ml" 90 2910 2978
-)
-"dls2.ml" 88 2802 2821 "dls2.ml" 88 2802 2824
-type(
-  fact Utils.StrMap.t
-)
-ident(
-  def map "dls2.ml" 88 2802 2827 "dls2.ml" 90 2910 2978
-)
-"dls2.ml" 88 2802 2833 "dls2.ml" 88 2802 2834
-type(
-  Cfg.star_expr
-)
-ident(
-  int_ref e "dls2.ml" 88 2802 2819 "dls2.ml" 88 2802 2820
-)
-"dls2.ml" 89 2840 2846 "dls2.ml" 89 2840 2851
-type(
-  Cfg.star_expr
-)
-"dls2.ml" 89 2840 2846 "dls2.ml" 89 2840 2857
-type(
-  Cfg.star_expr
-)
-ident(
-  def el "dls2.ml" 89 2840 2861 "dls2.ml" 89 2840 2908
-)
-"dls2.ml" 89 2840 2861 "dls2.ml" 89 2840 2873
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dls2.ml" 89 2840 2874 "dls2.ml" 89 2840 2882
-type(
-  string
-)
-"dls2.ml" 89 2840 2861 "dls2.ml" 89 2840 2882
-type(
-  unit
-)
-"dls2.ml" 89 2840 2884 "dls2.ml" 89 2840 2891
-type(
-  Cfg.expr -> fact Utils.StrMap.t -> fact Utils.StrMap.t
-)
-ident(
-  int_ref visit_e "dls2.ml" 80 2472 2484 "dls2.ml" 80 2472 2491
-)
-"dls2.ml" 89 2840 2893 "dls2.ml" 89 2840 2895
-type(
-  Cfg.expr
-)
-type(
-  Cfg.star_expr Cfg.expr_
-)
-ident(
-  int_ref el "dls2.ml" 89 2840 2846 "dls2.ml" 89 2840 2857
-)
-"dls2.ml" 89 2840 2905 "dls2.ml" 89 2840 2908
-type(
-  fact Utils.StrMap.t
-)
-ident(
-  int_ref map "dls2.ml" 88 2802 2821 "dls2.ml" 88 2802 2824
-)
-"dls2.ml" 89 2840 2884 "dls2.ml" 89 2840 2908
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 89 2840 2861 "dls2.ml" 89 2840 2908
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 90 2910 2922 "dls2.ml" 90 2910 2924
-type(
-  Cfg.star_expr Cfg.expr_
-)
-ident(
-  def el "dls2.ml" 90 2910 2928 "dls2.ml" 90 2910 2978
-)
-"dls2.ml" 90 2910 2916 "dls2.ml" 90 2910 2924
-type(
-  Cfg.star_expr
-)
-"dls2.ml" 90 2910 2928 "dls2.ml" 90 2910 2940
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dls2.ml" 90 2910 2941 "dls2.ml" 90 2910 2949
-type(
-  string
-)
-"dls2.ml" 90 2910 2928 "dls2.ml" 90 2910 2949
-type(
-  unit
-)
-"dls2.ml" 90 2910 2951 "dls2.ml" 90 2910 2956
-type(
-  Cfg.star_expr -> fact Utils.StrMap.t -> fact Utils.StrMap.t
-)
-ident(
-  int_ref visit "dls2.ml" 88 2802 2813 "dls2.ml" 88 2802 2818
-)
-"dls2.ml" 90 2910 2958 "dls2.ml" 90 2910 2960
-type(
-  Cfg.star_expr
-)
-type(
-  Cfg.star_expr Cfg.expr_
-)
-ident(
-  int_ref el "dls2.ml" 90 2910 2922 "dls2.ml" 90 2910 2924
-)
-"dls2.ml" 90 2910 2975 "dls2.ml" 90 2910 2978
-type(
-  fact Utils.StrMap.t
-)
-ident(
-  int_ref map "dls2.ml" 88 2802 2821 "dls2.ml" 88 2802 2824
-)
-"dls2.ml" 90 2910 2951 "dls2.ml" 90 2910 2978
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 90 2910 2928 "dls2.ml" 90 2910 2978
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 88 2802 2827 "dls2.ml" 90 2910 2978
-type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 96 2994 3004 "dls2.ml" 96 2994 3012
-type(
-  fact Utils.StrMap.t -> Cfg.stmt -> '_g
-)
-ident(
-  def transfer "dls2.ml" 96 2994 2996 "dls2.ml" 195 7110 7113
-)
-"dls2.ml" 96 2994 3013 "dls2.ml" 96 2994 3016
-type(
-  fact Utils.StrMap.t
-)
-ident(
-  def map "dls2.ml" 96 2994 3017 "dls2.ml" 193 7048 7101
-)
-"dls2.ml" 96 2994 3017 "dls2.ml" 96 2994 3021
+"dls2.ml" 113 3546 3569 "dls2.ml" 113 3546 3573
 type(
   Cfg.stmt
 )
 ident(
-  def stmt "dls2.ml" 96 2994 3024 "dls2.ml" 193 7048 7101
+  def stmt "dls2.ml" 113 3546 3576 "dls2.ml" 207 7604 7657
 )
-"dls2.ml" 96 2994 3030 "dls2.ml" 96 2994 3034
+"dls2.ml" 113 3546 3582 "dls2.ml" 113 3546 3586
 type(
   Cfg.stmt
 )
 ident(
-  int_ref stmt "dls2.ml" 96 2994 3017 "dls2.ml" 96 2994 3021
+  int_ref stmt "dls2.ml" 113 3546 3569 "dls2.ml" 113 3546 3573
 )
-"dls2.ml" 96 2994 3030 "dls2.ml" 96 2994 3040
+"dls2.ml" 113 3546 3582 "dls2.ml" 113 3546 3592
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 98 3047 3060 "dls2.ml" 98 3047 3063
+"dls2.ml" 115 3599 3612 "dls2.ml" 115 3599 3615
 type(
   Cfg.lhs
 )
 ident(
-  def lhs "dls2.ml" 98 3047 3130 "dls2.ml" 98 3047 3190
+  def lhs "dls2.ml" 115 3599 3682 "dls2.ml" 115 3599 3742
 )
-"dls2.ml" 98 3047 3066 "dls2.ml" 98 3047 3074
+"dls2.ml" 115 3599 3618 "dls2.ml" 115 3599 3626
 type(
   Cfg.tuple_expr
 )
-"dls2.ml" 98 3047 3053 "dls2.ml" 98 3047 3075
+"dls2.ml" 115 3599 3605 "dls2.ml" 115 3599 3627
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 98 3047 3085 "dls2.ml" 98 3047 3088
+"dls2.ml" 115 3599 3637 "dls2.ml" 115 3599 3640
 type(
   Cfg.lhs
 )
 ident(
-  def lhs "dls2.ml" 98 3047 3130 "dls2.ml" 98 3047 3190
+  def lhs "dls2.ml" 115 3599 3682 "dls2.ml" 115 3599 3742
 )
-"dls2.ml" 98 3047 3091 "dls2.ml" 98 3047 3099
+"dls2.ml" 115 3599 3643 "dls2.ml" 115 3599 3651
 type(
   Cfg.tuple_expr
 )
-"dls2.ml" 98 3047 3078 "dls2.ml" 98 3047 3100
+"dls2.ml" 115 3599 3630 "dls2.ml" 115 3599 3652
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 98 3047 3053 "dls2.ml" 98 3047 3100
+"dls2.ml" 115 3599 3605 "dls2.ml" 115 3599 3652
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 98 3047 3110 "dls2.ml" 98 3047 3113
+"dls2.ml" 115 3599 3662 "dls2.ml" 115 3599 3665
 type(
   Cfg.lhs
 )
 ident(
-  def lhs "dls2.ml" 98 3047 3130 "dls2.ml" 98 3047 3190
+  def lhs "dls2.ml" 115 3599 3682 "dls2.ml" 115 3599 3742
 )
-"dls2.ml" 98 3047 3116 "dls2.ml" 98 3047 3125
+"dls2.ml" 115 3599 3668 "dls2.ml" 115 3599 3677
 type(
   Cfg.tuple_expr
 )
-"dls2.ml" 98 3047 3103 "dls2.ml" 98 3047 3126
+"dls2.ml" 115 3599 3655 "dls2.ml" 115 3599 3678
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 98 3047 3053 "dls2.ml" 98 3047 3126
+"dls2.ml" 115 3599 3605 "dls2.ml" 115 3599 3678
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 98 3047 3130 "dls2.ml" 98 3047 3142
+"dls2.ml" 115 3599 3682 "dls2.ml" 115 3599 3694
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 98 3047 3143 "dls2.ml" 98 3047 3165
+"dls2.ml" 115 3599 3695 "dls2.ml" 115 3599 3717
 type(
   string
 )
-"dls2.ml" 98 3047 3130 "dls2.ml" 98 3047 3165
+"dls2.ml" 115 3599 3682 "dls2.ml" 115 3599 3717
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 98 3047 3167 "dls2.ml" 98 3047 3177
+"dls2.ml" 115 3599 3719 "dls2.ml" 115 3599 3729
 type(
   fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
 )
 ident(
   int_ref update_lhs "dls2.ml" 58 1774 1784 "dls2.ml" 58 1774 1794
 )
-"dls2.ml" 98 3047 3178 "dls2.ml" 98 3047 3182
+"dls2.ml" 115 3599 3730 "dls2.ml" 115 3599 3734
 type(
   fact
 )
-"dls2.ml" 98 3047 3183 "dls2.ml" 98 3047 3186
+"dls2.ml" 115 3599 3735 "dls2.ml" 115 3599 3738
 type(
   fact Utils.StrMap.t
 )
 ident(
-  int_ref map "dls2.ml" 96 2994 3013 "dls2.ml" 96 2994 3016
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
 )
-"dls2.ml" 98 3047 3187 "dls2.ml" 98 3047 3190
+"dls2.ml" 115 3599 3739 "dls2.ml" 115 3599 3742
 type(
   Cfg.lhs
 )
 ident(
-  int_ref lhs "dls2.ml" 98 3047 3060 "dls2.ml" 98 3047 3063
+  int_ref lhs "dls2.ml" 115 3599 3612 "dls2.ml" 115 3599 3615
 )
-"dls2.ml" 98 3047 3167 "dls2.ml" 98 3047 3190
+"dls2.ml" 115 3599 3719 "dls2.ml" 115 3599 3742
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 98 3047 3130 "dls2.ml" 98 3047 3190
+"dls2.ml" 115 3599 3682 "dls2.ml" 115 3599 3742
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 99 3191 3204 "dls2.ml" 99 3191 3207
+"dls2.ml" 116 3743 3756 "dls2.ml" 116 3743 3759
 type(
   Cfg.lhs
 )
 ident(
-  def lhs "dls2.ml" 99 3191 3222 "dls2.ml" 99 3191 3268
+  def lhs "dls2.ml" 116 3743 3774 "dls2.ml" 116 3743 3820
 )
-"dls2.ml" 99 3191 3210 "dls2.ml" 99 3191 3217
+"dls2.ml" 116 3743 3762 "dls2.ml" 116 3743 3769
 type(
   Cfg.tuple_expr
 )
-"dls2.ml" 99 3191 3197 "dls2.ml" 99 3191 3218
+"dls2.ml" 116 3743 3749 "dls2.ml" 116 3743 3770
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 99 3191 3222 "dls2.ml" 99 3191 3234
+"dls2.ml" 116 3743 3774 "dls2.ml" 116 3743 3786
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 99 3191 3235 "dls2.ml" 99 3191 3243
+"dls2.ml" 116 3743 3787 "dls2.ml" 116 3743 3795
 type(
   string
 )
-"dls2.ml" 99 3191 3222 "dls2.ml" 99 3191 3243
+"dls2.ml" 116 3743 3774 "dls2.ml" 116 3743 3795
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 99 3191 3245 "dls2.ml" 99 3191 3255
+"dls2.ml" 116 3743 3797 "dls2.ml" 116 3743 3807
 type(
   fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
 )
 ident(
   int_ref update_lhs "dls2.ml" 58 1774 1784 "dls2.ml" 58 1774 1794
 )
-"dls2.ml" 99 3191 3256 "dls2.ml" 99 3191 3260
+"dls2.ml" 116 3743 3808 "dls2.ml" 116 3743 3812
 type(
   fact
 )
-"dls2.ml" 99 3191 3261 "dls2.ml" 99 3191 3264
+"dls2.ml" 116 3743 3813 "dls2.ml" 116 3743 3816
 type(
   fact Utils.StrMap.t
 )
 ident(
-  int_ref map "dls2.ml" 96 2994 3013 "dls2.ml" 96 2994 3016
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
 )
-"dls2.ml" 99 3191 3265 "dls2.ml" 99 3191 3268
+"dls2.ml" 116 3743 3817 "dls2.ml" 116 3743 3820
 type(
   Cfg.lhs
 )
 ident(
-  int_ref lhs "dls2.ml" 99 3191 3204 "dls2.ml" 99 3191 3207
+  int_ref lhs "dls2.ml" 116 3743 3756 "dls2.ml" 116 3743 3759
 )
-"dls2.ml" 99 3191 3245 "dls2.ml" 99 3191 3268
+"dls2.ml" 116 3743 3797 "dls2.ml" 116 3743 3820
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 99 3191 3222 "dls2.ml" 99 3191 3268
+"dls2.ml" 116 3743 3774 "dls2.ml" 116 3743 3820
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 100 3269 3282 "dls2.ml" 100 3269 3285
+"dls2.ml" 117 3821 3834 "dls2.ml" 117 3821 3837
 type(
   Cfg.lhs
 )
 ident(
-  def lhs "dls2.ml" 100 3269 3318 "dls2.ml" 100 3269 3363
+  def lhs "dls2.ml" 117 3821 3870 "dls2.ml" 117 3821 3915
 )
-"dls2.ml" 100 3269 3295 "dls2.ml" 100 3269 3305
+"dls2.ml" 117 3821 3847 "dls2.ml" 117 3821 3857
 type(
   Cfg.var_kind
 )
-"dls2.ml" 100 3269 3307 "dls2.ml" 100 3269 3311
+"dls2.ml" 117 3821 3859 "dls2.ml" 117 3821 3863
 type(
   Utils.StrMap.key
 )
 ident(
-  def rvar "dls2.ml" 100 3269 3318 "dls2.ml" 100 3269 3363
+  def rvar "dls2.ml" 117 3821 3870 "dls2.ml" 117 3821 3915
 )
-"dls2.ml" 100 3269 3294 "dls2.ml" 100 3269 3312
+"dls2.ml" 117 3821 3846 "dls2.ml" 117 3821 3864
 type(
   Cfg.var_kind * Utils.StrMap.key
 )
-"dls2.ml" 100 3269 3287 "dls2.ml" 100 3269 3312
+"dls2.ml" 117 3821 3839 "dls2.ml" 117 3821 3864
 type(
   Cfg.tuple_expr
 )
-"dls2.ml" 100 3269 3275 "dls2.ml" 100 3269 3313
+"dls2.ml" 117 3821 3827 "dls2.ml" 117 3821 3865
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 100 3269 3318 "dls2.ml" 100 3269 3330
+"dls2.ml" 117 3821 3870 "dls2.ml" 117 3821 3882
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 100 3269 3331 "dls2.ml" 100 3269 3338
+"dls2.ml" 117 3821 3883 "dls2.ml" 117 3821 3890
 type(
   string
 )
-"dls2.ml" 100 3269 3318 "dls2.ml" 100 3269 3338
+"dls2.ml" 117 3821 3870 "dls2.ml" 117 3821 3890
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 100 3269 3340 "dls2.ml" 100 3269 3350
+"dls2.ml" 117 3821 3892 "dls2.ml" 117 3821 3902
 type(
   Cfg.lhs -> Utils.StrMap.key -> fact Utils.StrMap.t -> fact Utils.StrMap.t
 )
 ident(
   int_ref update_use "dls2.ml" 74 2348 2354 "dls2.ml" 74 2348 2364
 )
-"dls2.ml" 100 3269 3351 "dls2.ml" 100 3269 3354
+"dls2.ml" 117 3821 3903 "dls2.ml" 117 3821 3906
 type(
   Cfg.lhs
 )
 ident(
-  int_ref lhs "dls2.ml" 100 3269 3282 "dls2.ml" 100 3269 3285
+  int_ref lhs "dls2.ml" 117 3821 3834 "dls2.ml" 117 3821 3837
 )
-"dls2.ml" 100 3269 3355 "dls2.ml" 100 3269 3359
+"dls2.ml" 117 3821 3907 "dls2.ml" 117 3821 3911
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref rvar "dls2.ml" 100 3269 3307 "dls2.ml" 100 3269 3311
+  int_ref rvar "dls2.ml" 117 3821 3859 "dls2.ml" 117 3821 3863
 )
-"dls2.ml" 100 3269 3360 "dls2.ml" 100 3269 3363
+"dls2.ml" 117 3821 3912 "dls2.ml" 117 3821 3915
 type(
   fact Utils.StrMap.t
 )
 ident(
-  int_ref map "dls2.ml" 96 2994 3013 "dls2.ml" 96 2994 3016
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
 )
-"dls2.ml" 100 3269 3340 "dls2.ml" 100 3269 3363
+"dls2.ml" 117 3821 3892 "dls2.ml" 117 3821 3915
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 100 3269 3318 "dls2.ml" 100 3269 3363
+"dls2.ml" 117 3821 3870 "dls2.ml" 117 3821 3915
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 101 3364 3377 "dls2.ml" 101 3364 3380
+"dls2.ml" 118 3916 3929 "dls2.ml" 118 3916 3932
 type(
   Cfg.lhs
 )
 ident(
-  def lhs "dls2.ml" 101 3364 3418 "dls2.ml" 101 3364 3470
+  def lhs "dls2.ml" 118 3916 3970 "dls2.ml" 118 3916 4022
 )
-"dls2.ml" 101 3364 3390 "dls2.ml" 101 3364 3403
+"dls2.ml" 118 3916 3942 "dls2.ml" 118 3916 3955
 type(
   Cfg.var_kind
 )
-"dls2.ml" 101 3364 3405 "dls2.ml" 101 3364 3411
+"dls2.ml" 118 3916 3957 "dls2.ml" 118 3916 3963
 type(
   Utils.StrMap.key
 )
 ident(
-  def rconst "dls2.ml" 101 3364 3418 "dls2.ml" 101 3364 3470
+  def rconst "dls2.ml" 118 3916 3970 "dls2.ml" 118 3916 4022
 )
-"dls2.ml" 101 3364 3389 "dls2.ml" 101 3364 3412
+"dls2.ml" 118 3916 3941 "dls2.ml" 118 3916 3964
 type(
   Cfg.var_kind * Utils.StrMap.key
 )
-"dls2.ml" 101 3364 3382 "dls2.ml" 101 3364 3412
+"dls2.ml" 118 3916 3934 "dls2.ml" 118 3916 3964
 type(
   Cfg.tuple_expr
 )
-"dls2.ml" 101 3364 3370 "dls2.ml" 101 3364 3413
+"dls2.ml" 118 3916 3922 "dls2.ml" 118 3916 3965
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 101 3364 3418 "dls2.ml" 101 3364 3430
+"dls2.ml" 118 3916 3970 "dls2.ml" 118 3916 3982
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 101 3364 3431 "dls2.ml" 101 3364 3443
+"dls2.ml" 118 3916 3983 "dls2.ml" 118 3916 3995
 type(
   string
 )
-"dls2.ml" 101 3364 3418 "dls2.ml" 101 3364 3443
+"dls2.ml" 118 3916 3970 "dls2.ml" 118 3916 3995
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 101 3364 3445 "dls2.ml" 101 3364 3455
+"dls2.ml" 118 3916 3997 "dls2.ml" 118 3916 4007
 type(
   Cfg.lhs -> Utils.StrMap.key -> fact Utils.StrMap.t -> fact Utils.StrMap.t
 )
 ident(
   int_ref update_use "dls2.ml" 74 2348 2354 "dls2.ml" 74 2348 2364
 )
-"dls2.ml" 101 3364 3456 "dls2.ml" 101 3364 3459
+"dls2.ml" 118 3916 4008 "dls2.ml" 118 3916 4011
 type(
   Cfg.lhs
 )
 ident(
-  int_ref lhs "dls2.ml" 101 3364 3377 "dls2.ml" 101 3364 3380
+  int_ref lhs "dls2.ml" 118 3916 3929 "dls2.ml" 118 3916 3932
 )
-"dls2.ml" 101 3364 3460 "dls2.ml" 101 3364 3466
+"dls2.ml" 118 3916 4012 "dls2.ml" 118 3916 4018
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref rconst "dls2.ml" 101 3364 3405 "dls2.ml" 101 3364 3411
+  int_ref rconst "dls2.ml" 118 3916 3957 "dls2.ml" 118 3916 3963
 )
-"dls2.ml" 101 3364 3467 "dls2.ml" 101 3364 3470
+"dls2.ml" 118 3916 4019 "dls2.ml" 118 3916 4022
 type(
   fact Utils.StrMap.t
 )
 ident(
-  int_ref map "dls2.ml" 96 2994 3013 "dls2.ml" 96 2994 3016
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
 )
-"dls2.ml" 101 3364 3445 "dls2.ml" 101 3364 3470
+"dls2.ml" 118 3916 3997 "dls2.ml" 118 3916 4022
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 101 3364 3418 "dls2.ml" 101 3364 3470
+"dls2.ml" 118 3916 3970 "dls2.ml" 118 3916 4022
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 102 3471 3484 "dls2.ml" 102 3471 3487
+"dls2.ml" 119 4023 4036 "dls2.ml" 119 4023 4039
 type(
   Cfg.lhs
 )
 ident(
-  def lhs "dls2.ml" 102 3471 3502 "dls2.ml" 102 3471 3550
+  def lhs "dls2.ml" 119 4023 4054 "dls2.ml" 119 4023 4102
 )
-"dls2.ml" 102 3471 3496 "dls2.ml" 102 3471 3497
+"dls2.ml" 119 4023 4048 "dls2.ml" 119 4023 4049
 type(
   Cfg.tuple_expr list
 )
 ident(
-  def s "dls2.ml" 102 3471 3502 "dls2.ml" 102 3471 3550
+  def s "dls2.ml" 119 4023 4054 "dls2.ml" 119 4023 4102
 )
-"dls2.ml" 102 3471 3489 "dls2.ml" 102 3471 3497
+"dls2.ml" 119 4023 4041 "dls2.ml" 119 4023 4049
 type(
   Cfg.tuple_expr
 )
-"dls2.ml" 102 3471 3477 "dls2.ml" 102 3471 3498
+"dls2.ml" 119 4023 4029 "dls2.ml" 119 4023 4050
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 102 3471 3502 "dls2.ml" 102 3471 3514
+"dls2.ml" 119 4023 4054 "dls2.ml" 119 4023 4066
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 102 3471 3515 "dls2.ml" 102 3471 3524
+"dls2.ml" 119 4023 4067 "dls2.ml" 119 4023 4076
 type(
   string
 )
-"dls2.ml" 102 3471 3502 "dls2.ml" 102 3471 3524
+"dls2.ml" 119 4023 4054 "dls2.ml" 119 4023 4076
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 102 3471 3527 "dls2.ml" 102 3471 3537
+"dls2.ml" 119 4023 4079 "dls2.ml" 119 4023 4089
 type(
   fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
 )
 ident(
   int_ref update_lhs "dls2.ml" 58 1774 1784 "dls2.ml" 58 1774 1794
 )
-"dls2.ml" 102 3471 3538 "dls2.ml" 102 3471 3542
+"dls2.ml" 119 4023 4090 "dls2.ml" 119 4023 4094
 type(
   fact
 )
-"dls2.ml" 102 3471 3543 "dls2.ml" 102 3471 3546
+"dls2.ml" 119 4023 4095 "dls2.ml" 119 4023 4098
 type(
   fact Utils.StrMap.t
 )
 ident(
-  int_ref map "dls2.ml" 96 2994 3013 "dls2.ml" 96 2994 3016
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
 )
-"dls2.ml" 102 3471 3547 "dls2.ml" 102 3471 3550
+"dls2.ml" 119 4023 4099 "dls2.ml" 119 4023 4102
 type(
   Cfg.lhs
 )
 ident(
-  int_ref lhs "dls2.ml" 102 3471 3484 "dls2.ml" 102 3471 3487
+  int_ref lhs "dls2.ml" 119 4023 4036 "dls2.ml" 119 4023 4039
 )
-"dls2.ml" 102 3471 3527 "dls2.ml" 102 3471 3550
+"dls2.ml" 119 4023 4079 "dls2.ml" 119 4023 4102
+call(
+  tail
+)
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 102 3471 3502 "dls2.ml" 102 3471 3550
+"dls2.ml" 119 4023 4054 "dls2.ml" 119 4023 4102
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 104 3602 3618 "dls2.ml" 104 3602 3621
+"dls2.ml" 121 4154 4170 "dls2.ml" 121 4154 4173
 type(
   Cfg.expr
 )
-"dls2.ml" 104 3602 3608 "dls2.ml" 104 3602 3621
+"dls2.ml" 121 4154 4160 "dls2.ml" 121 4154 4173
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 104 3602 3625 "dls2.ml" 104 3602 3637
+"dls2.ml" 121 4154 4177 "dls2.ml" 121 4154 4189
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 104 3602 3638 "dls2.ml" 104 3602 3652
+"dls2.ml" 121 4154 4190 "dls2.ml" 121 4154 4204
 type(
   string
 )
-"dls2.ml" 104 3602 3625 "dls2.ml" 104 3602 3652
+"dls2.ml" 121 4154 4177 "dls2.ml" 121 4154 4204
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 104 3602 3654 "dls2.ml" 104 3602 3657
+"dls2.ml" 121 4154 4206 "dls2.ml" 121 4154 4209
 type(
   fact Utils.StrMap.t
 )
 ident(
-  int_ref map "dls2.ml" 96 2994 3013 "dls2.ml" 96 2994 3016
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
 )
-"dls2.ml" 104 3602 3625 "dls2.ml" 104 3602 3657
+"dls2.ml" 121 4154 4177 "dls2.ml" 121 4154 4209
 type(
   fact Utils.StrMap.t
 )
-"dls2.ml" 107 3660 3677 "dls2.ml" 107 3660 3682
+"dls2.ml" 123 4211 4228 "dls2.ml" 123 4211 4233
 type(
   Cfg.lhs option
 )
 ident(
-  def lhs_o "dls2.ml" 108 3749 3753 "dls2.ml" 124 4250 4260
+  def lhs_o "dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
 )
-"dls2.ml" 107 3660 3703 "dls2.ml" 107 3660 3714
+"dls2.ml" 123 4211 4262 "dls2.ml" 123 4211 4272
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 123 4211 4274 "dls2.ml" 123 4211 4277
+type(
+  Utils.StrMap.key
+)
+ident(
+  def var "dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
+)
+"dls2.ml" 123 4211 4261 "dls2.ml" 123 4211 4278
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 123 4211 4254 "dls2.ml" 123 4211 4278
 type(
   Cfg.expr
 )
-"dls2.ml" 107 3660 3702 "dls2.ml" 107 3660 3725
+"dls2.ml" 123 4211 4253 "dls2.ml" 123 4211 4289
 type(
   Cfg.expr
 )
 ident(
-  def target "dls2.ml" 108 3749 3753 "dls2.ml" 124 4250 4260
+  def target "dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
 )
-"dls2.ml" 107 3660 3697 "dls2.ml" 107 3660 3725
+"dls2.ml" 123 4211 4248 "dls2.ml" 123 4211 4289
 type(
   Cfg.expr option
 )
-"dls2.ml" 107 3660 3737 "dls2.ml" 107 3660 3741
+"dls2.ml" 123 4211 4301 "dls2.ml" 123 4211 4305
 type(
   Cfg.star_expr list
 )
 ident(
-  def args "dls2.ml" 108 3749 3753 "dls2.ml" 124 4250 4260
+  def args "dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
 )
-"dls2.ml" 107 3660 3684 "dls2.ml" 107 3660 3742
+"dls2.ml" 123 4211 4235 "dls2.ml" 123 4211 4306
 type(
   Cfg.method_call
 )
-"dls2.ml" 107 3660 3666 "dls2.ml" 107 3660 3744
+"dls2.ml" 123 4211 4217 "dls2.ml" 123 4211 4308
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 108 3749 3753 "dls2.ml" 108 3749 3765
+"dls2.ml" 124 4310 4327 "dls2.ml" 124 4310 4332
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
+)
+"dls2.ml" 124 4310 4361 "dls2.ml" 124 4310 4374
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 124 4310 4376 "dls2.ml" 124 4310 4379
+type(
+  Utils.StrMap.key
+)
+ident(
+  def var "dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
+)
+"dls2.ml" 124 4310 4360 "dls2.ml" 124 4310 4380
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 124 4310 4353 "dls2.ml" 124 4310 4380
+type(
+  Cfg.expr
+)
+"dls2.ml" 124 4310 4352 "dls2.ml" 124 4310 4391
+type(
+  Cfg.expr
+)
+ident(
+  def target "dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
+)
+"dls2.ml" 124 4310 4347 "dls2.ml" 124 4310 4391
+type(
+  Cfg.expr option
+)
+"dls2.ml" 124 4310 4403 "dls2.ml" 124 4310 4407
+type(
+  Cfg.star_expr list
+)
+ident(
+  def args "dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
+)
+"dls2.ml" 124 4310 4334 "dls2.ml" 124 4310 4408
+type(
+  Cfg.method_call
+)
+"dls2.ml" 124 4310 4316 "dls2.ml" 124 4310 4410
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 123 4211 4217 "dls2.ml" 124 4310 4410
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 125 4414 4418 "dls2.ml" 125 4414 4430
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 108 3749 3766 "dls2.ml" 108 3749 3780
+"dls2.ml" 125 4414 4431 "dls2.ml" 125 4414 4445
 type(
   string
 )
-"dls2.ml" 108 3749 3753 "dls2.ml" 108 3749 3780
+"dls2.ml" 125 4414 4418 "dls2.ml" 125 4414 4445
+call(
+  stack
+)
 type(
   unit
 )
-"dls2.ml" 110 3783 3790 "dls2.ml" 110 3783 3799
-type(
-  ((_[< `ID_False
-      | `ID_Nil
-      | `ID_Scope of _[< Cfg.identifier ] * string
-      | `ID_Self
-      | `ID_True
-      | `ID_UScope of string
-      | `ID_Var of _[< Cfg.var_kind ] * string
-      | `Lit_Array of Cfg.star_expr list
-      | `Lit_Atom of string
-      | `Lit_BigNum of Big_int.big_int
-      | `Lit_FixNum of int
-      | `Lit_Float of string * float
-      | `Lit_Hash of
-          (_[< Cfg.star_expr Cfg.expr_ ] * _[< Cfg.star_expr Cfg.expr_ ])
-          list
-      | `Lit_Range of
-          bool * _[< Cfg.star_expr Cfg.expr_ ] *
-          _[< Cfg.star_expr Cfg.expr_ ]
-      | `Lit_Regexp of string * string
-      | `Lit_String of string
-      | `Star of _[< Cfg.star_expr Cfg.expr_ ] ]
-    as 'h) ->
-   unit) ->
-  'h list -> unit
-)
-ident(
-  ext_ref List.iter
-)
-"dls2.ml" 110 3783 3805 "dls2.ml" 110 3783 3806
-type(
-  'h
-)
-ident(
-  def x "dls2.ml" 110 3783 3811 "dls2.ml" 110 3783 3837
-)
-"dls2.ml" 110 3783 3811 "dls2.ml" 110 3783 3816
-type(
-  Cfg.star_expr -> fact Utils.StrMap.t -> fact Utils.StrMap.t
-)
-ident(
-  int_ref visit "dls2.ml" 88 2802 2813 "dls2.ml" 88 2802 2818
-)
-"dls2.ml" 110 3783 3818 "dls2.ml" 110 3783 3819
-type(
-  Cfg.star_expr
-)
-type(
-  'h
-)
-ident(
-  int_ref x "dls2.ml" 110 3783 3805 "dls2.ml" 110 3783 3806
-)
-"dls2.ml" 110 3783 3834 "dls2.ml" 110 3783 3837
+"dls2.ml" 127 4448 4457 "dls2.ml" 127 4448 4460
 type(
   fact Utils.StrMap.t
 )
-ident(
-  int_ref map "dls2.ml" 96 2994 3013 "dls2.ml" 96 2994 3016
-)
-"dls2.ml" 110 3783 3811 "dls2.ml" 110 3783 3837
+"dls2.ml" 127 4448 4464 "dls2.ml" 127 4448 4474
 type(
-  fact Utils.StrMap.t
-)
-"dls2.ml" 127 4263 4283 "dls2.ml" 127 4263 4293
-type(
-  Cfg.var_kind
-)
-"dls2.ml" 127 4263 4295 "dls2.ml" 127 4263 4299
-type(
-  string
+  Cfg.star_expr list -> fact Utils.StrMap.t -> fact Utils.StrMap.t
 )
 ident(
-  def rvar "dls2.ml" 127 4263 4309 "dls2.ml" 127 4263 4353
+  int_ref visit_list "dls2.ml" 109 3369 3379 "dls2.ml" 109 3369 3389
 )
-"dls2.ml" 127 4263 4282 "dls2.ml" 127 4263 4300
-type(
-  Cfg.var_kind * string
-)
-"dls2.ml" 127 4263 4275 "dls2.ml" 127 4263 4300
-type(
-  Cfg.expr
-)
-"dls2.ml" 127 4263 4303 "dls2.ml" 127 4263 4304
-type(
-  Cfg.stmt
-)
-"dls2.ml" 127 4263 4269 "dls2.ml" 127 4263 4305
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 128 4354 4374 "dls2.ml" 128 4354 4387
-type(
-  Cfg.var_kind
-)
-"dls2.ml" 128 4354 4389 "dls2.ml" 128 4354 4393
-type(
-  string
-)
-ident(
-  def rvar "dls2.ml" 128 4354 4403 "dls2.ml" 128 4354 4447
-)
-"dls2.ml" 128 4354 4373 "dls2.ml" 128 4354 4394
-type(
-  Cfg.var_kind * string
-)
-"dls2.ml" 128 4354 4366 "dls2.ml" 128 4354 4394
-type(
-  Cfg.expr
-)
-"dls2.ml" 128 4354 4397 "dls2.ml" 128 4354 4398
-type(
-  Cfg.stmt
-)
-"dls2.ml" 128 4354 4360 "dls2.ml" 128 4354 4399
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 130 4449 4459 "dls2.ml" 130 4449 4460
-type(
-  Cfg.block_formal_param list
-)
-"dls2.ml" 130 4449 4470 "dls2.ml" 130 4449 4480
-type(
-  Cfg.var_kind
-)
-"dls2.ml" 130 4449 4482 "dls2.ml" 130 4449 4486
-type(
-  string
-)
-ident(
-  def rvar "dls2.ml" 130 4449 4495 "dls2.ml" 130 4449 4532
-)
-"dls2.ml" 130 4449 4469 "dls2.ml" 130 4449 4487
-type(
-  Cfg.var_kind * string
-)
-"dls2.ml" 130 4449 4462 "dls2.ml" 130 4449 4487
-type(
-  Cfg.expr
-)
-"dls2.ml" 130 4449 4489 "dls2.ml" 130 4449 4490
-type(
-  Cfg.stmt
-)
-"dls2.ml" 130 4449 4455 "dls2.ml" 130 4449 4491
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 132 4534 4541 "dls2.ml" 132 4534 4544
-type(
-  Cfg.stmt list
-)
-"dls2.ml" 132 4534 4538 "dls2.ml" 132 4534 4544
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 133 4574 4585 "dls2.ml" 133 4574 4588
-type(
-  Cfg.alias_kind
-)
-"dls2.ml" 133 4574 4580 "dls2.ml" 133 4574 4588
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 135 4621 4638 "dls2.ml" 135 4621 4648
-type(
-  Cfg.var_kind
-)
-"dls2.ml" 135 4621 4650 "dls2.ml" 135 4621 4654
-type(
-  string
-)
-ident(
-  def rvar "dls2.ml" 135 4621 4665 "dls2.ml" 135 4621 4706
-)
-"dls2.ml" 135 4621 4637 "dls2.ml" 135 4621 4655
-type(
-  Cfg.var_kind * string
-)
-"dls2.ml" 135 4621 4630 "dls2.ml" 135 4621 4655
-type(
-  Cfg.expr
-)
-"dls2.ml" 135 4621 4657 "dls2.ml" 135 4621 4658
-type(
-  Cfg.stmt
-)
-"dls2.ml" 135 4621 4659 "dls2.ml" 135 4621 4660
-type(
-  Cfg.stmt
-)
-"dls2.ml" 135 4621 4627 "dls2.ml" 135 4621 4661
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 136 4707 4724 "dls2.ml" 136 4707 4737
-type(
-  Cfg.var_kind
-)
-"dls2.ml" 136 4707 4739 "dls2.ml" 136 4707 4743
-type(
-  string
-)
-ident(
-  def rvar "dls2.ml" 136 4707 4754 "dls2.ml" 136 4707 4795
-)
-"dls2.ml" 136 4707 4723 "dls2.ml" 136 4707 4744
-type(
-  Cfg.var_kind * string
-)
-"dls2.ml" 136 4707 4716 "dls2.ml" 136 4707 4744
-type(
-  Cfg.expr
-)
-"dls2.ml" 136 4707 4746 "dls2.ml" 136 4707 4747
-type(
-  Cfg.stmt
-)
-"dls2.ml" 136 4707 4748 "dls2.ml" 136 4707 4749
-type(
-  Cfg.stmt
-)
-"dls2.ml" 136 4707 4713 "dls2.ml" 136 4707 4750
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 139 4802 4812 "dls2.ml" 139 4802 4815
-type(
-  Cfg.case_block
-)
-"dls2.ml" 139 4802 4808 "dls2.ml" 139 4802 4815
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 141 4847 4864 "dls2.ml" 141 4847 4865
-type(
-  Cfg.lhs option
-)
-"dls2.ml" 141 4847 4866 "dls2.ml" 141 4847 4867
-type(
-  Cfg.method_call
-)
-"dls2.ml" 141 4847 4853 "dls2.ml" 141 4847 4868
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 143 4913 4925 "dls2.ml" 143 4913 4928
-type(
-  Cfg.tuple_expr option
-)
-"dls2.ml" 143 4913 4919 "dls2.ml" 143 4913 4928
-type(
-  Cfg.stmt_node
-)
-"dls2.ml" 145 4961 4973 "dls2.ml" 145 4961 4974
-type(
-  Cfg.lhs option
-)
-"dls2.ml" 145 4961 4975 "dls2.ml" 145 4961 4976
+"dls2.ml" 127 4448 4475 "dls2.ml" 127 4448 4479
 type(
   Cfg.star_expr list
 )
-"dls2.ml" 145 4961 4967 "dls2.ml" 145 4961 4977
-type(
-  Cfg.stmt_node
+ident(
+  int_ref args "dls2.ml" 123 4211 4301 "dls2.ml" 123 4211 4305
 )
-"dls2.ml" 146 5009 5022 "dls2.ml" 146 5009 5023
+"dls2.ml" 127 4448 4480 "dls2.ml" 127 4448 4483
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 127 4448 4464 "dls2.ml" 127 4448 4483
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 132 4665 4675 "dls2.ml" 132 4665 4678
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 132 4665 4687 "dls2.ml" 132 4665 4692
 type(
   Cfg.lhs option
 )
-"dls2.ml" 146 5009 5024 "dls2.ml" 146 5009 5025
-type(
-  Cfg.identifier
+ident(
+  int_ref lhs_o "dls2.ml" 123 4211 4228 "dls2.ml" 123 4211 4233
 )
-"dls2.ml" 146 5009 5026 "dls2.ml" 146 5009 5027
+"dls2.ml" 133 4698 4704 "dls2.ml" 133 4698 4708
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 133 4698 4712 "dls2.ml" 133 4698 4715
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 127 4448 4457 "dls2.ml" 127 4448 4460
+)
+"dls2.ml" 134 4716 4727 "dls2.ml" 134 4716 4730
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 134 4716 4734 "dls2.ml" 134 4716 4758
+)
+"dls2.ml" 134 4716 4722 "dls2.ml" 134 4716 4730
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 134 4716 4734 "dls2.ml" 134 4716 4744
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 58 1774 1784 "dls2.ml" 58 1774 1794
+)
+"dls2.ml" 134 4716 4745 "dls2.ml" 134 4716 4749
+type(
+  fact
+)
+"dls2.ml" 134 4716 4750 "dls2.ml" 134 4716 4753
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 127 4448 4457 "dls2.ml" 127 4448 4460
+)
+"dls2.ml" 134 4716 4754 "dls2.ml" 134 4716 4757
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "dls2.ml" 134 4716 4727 "dls2.ml" 134 4716 4730
+)
+"dls2.ml" 134 4716 4734 "dls2.ml" 134 4716 4758
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 132 4665 4681 "dls2.ml" 134 4716 4758
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 135 4759 4770 "dls2.ml" 135 4759 4773
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 135 4759 4776 "dls2.ml" 135 4759 4786
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 58 1774 1784 "dls2.ml" 58 1774 1794
+)
+"dls2.ml" 135 4759 4787 "dls2.ml" 135 4759 4791
+type(
+  fact
+)
+"dls2.ml" 135 4759 4792 "dls2.ml" 135 4759 4795
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 132 4665 4675 "dls2.ml" 132 4665 4678
+)
+"dls2.ml" 135 4759 4796 "dls2.ml" 135 4759 4802
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref target "dls2.ml" 123 4211 4253 "dls2.ml" 123 4211 4289
+)
+"dls2.ml" 135 4759 4776 "dls2.ml" 135 4759 4802
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 136 4804 4811 "dls2.ml" 136 4804 4814
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 135 4759 4770 "dls2.ml" 135 4759 4773
+)
+"dls2.ml" 135 4759 4766 "dls2.ml" 136 4804 4814
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 132 4665 4671 "dls2.ml" 136 4804 4814
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 127 4448 4453 "dls2.ml" 136 4804 4814
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 125 4414 4418 "dls2.ml" 136 4804 4814
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 139 4817 4837 "dls2.ml" 139 4817 4847
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 139 4817 4849 "dls2.ml" 139 4817 4853
+type(
+  Utils.StrMap.key
+)
+ident(
+  def rvar "dls2.ml" 140 4861 4910 "dls2.ml" 140 4861 4954
+)
+"dls2.ml" 139 4817 4836 "dls2.ml" 139 4817 4854
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 139 4817 4829 "dls2.ml" 139 4817 4854
+type(
+  Cfg.expr
+)
+"dls2.ml" 139 4817 4857 "dls2.ml" 139 4817 4858
 type(
   Cfg.stmt
 )
-"dls2.ml" 146 5009 5015 "dls2.ml" 146 5009 5028
+"dls2.ml" 139 4817 4823 "dls2.ml" 139 4817 4859
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 147 5060 5074 "dls2.ml" 147 5060 5075
+"dls2.ml" 140 4861 4881 "dls2.ml" 140 4861 4894
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 140 4861 4896 "dls2.ml" 140 4861 4900
+type(
+  Utils.StrMap.key
+)
+ident(
+  def rvar "dls2.ml" 140 4861 4910 "dls2.ml" 140 4861 4954
+)
+"dls2.ml" 140 4861 4880 "dls2.ml" 140 4861 4901
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 140 4861 4873 "dls2.ml" 140 4861 4901
+type(
+  Cfg.expr
+)
+"dls2.ml" 140 4861 4904 "dls2.ml" 140 4861 4905
+type(
+  Cfg.stmt
+)
+"dls2.ml" 140 4861 4867 "dls2.ml" 140 4861 4906
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 139 4817 4823 "dls2.ml" 140 4861 4906
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 140 4861 4910 "dls2.ml" 140 4861 4922
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 140 4861 4923 "dls2.ml" 140 4861 4932
+type(
+  string
+)
+"dls2.ml" 140 4861 4910 "dls2.ml" 140 4861 4932
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 140 4861 4934 "dls2.ml" 140 4861 4940
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update "dls2.ml" 34 888 894 "dls2.ml" 34 888 900
+)
+"dls2.ml" 140 4861 4941 "dls2.ml" 140 4861 4945
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref rvar "dls2.ml" 139 4817 4849 "dls2.ml" 139 4817 4853
+)
+"dls2.ml" 140 4861 4946 "dls2.ml" 140 4861 4950
+type(
+  fact
+)
+"dls2.ml" 140 4861 4951 "dls2.ml" 140 4861 4954
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 140 4861 4934 "dls2.ml" 140 4861 4954
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 140 4861 4910 "dls2.ml" 140 4861 4954
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 142 4956 4966 "dls2.ml" 142 4956 4967
+type(
+  Cfg.block_formal_param list
+)
+ident(
+  def p "dls2.ml" 143 5002 5048 "dls2.ml" 144 5083 5088
+)
+"dls2.ml" 142 4956 4977 "dls2.ml" 142 4956 4990
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 142 4956 4992 "dls2.ml" 142 4956 4996
+type(
+  Utils.StrMap.key
+)
+ident(
+  def rvar "dls2.ml" 143 5002 5048 "dls2.ml" 144 5083 5088
+)
+"dls2.ml" 142 4956 4976 "dls2.ml" 142 4956 4997
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 142 4956 4969 "dls2.ml" 142 4956 4997
+type(
+  Cfg.expr
+)
+"dls2.ml" 142 4956 4999 "dls2.ml" 142 4956 5000
+type(
+  Cfg.stmt
+)
+"dls2.ml" 142 4956 4962 "dls2.ml" 142 4956 5001
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 143 5002 5012 "dls2.ml" 143 5002 5013
+type(
+  Cfg.block_formal_param list
+)
+ident(
+  def p "dls2.ml" 143 5002 5048 "dls2.ml" 144 5083 5088
+)
+"dls2.ml" 143 5002 5023 "dls2.ml" 143 5002 5033
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 143 5002 5035 "dls2.ml" 143 5002 5039
+type(
+  Utils.StrMap.key
+)
+ident(
+  def rvar "dls2.ml" 143 5002 5048 "dls2.ml" 144 5083 5088
+)
+"dls2.ml" 143 5002 5022 "dls2.ml" 143 5002 5040
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 143 5002 5015 "dls2.ml" 143 5002 5040
+type(
+  Cfg.expr
+)
+"dls2.ml" 143 5002 5042 "dls2.ml" 143 5002 5043
+type(
+  Cfg.stmt
+)
+"dls2.ml" 143 5002 5008 "dls2.ml" 143 5002 5044
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 142 4956 4962 "dls2.ml" 143 5002 5044
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 143 5002 5048 "dls2.ml" 143 5002 5060
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 143 5002 5061 "dls2.ml" 143 5002 5080
+type(
+  string
+)
+"dls2.ml" 143 5002 5048 "dls2.ml" 143 5002 5080
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 144 5083 5085 "dls2.ml" 144 5083 5088
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 143 5002 5048 "dls2.ml" 144 5083 5088
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 146 5090 5097 "dls2.ml" 146 5090 5100
+type(
+  Cfg.stmt list
+)
+"dls2.ml" 146 5090 5094 "dls2.ml" 146 5090 5100
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 146 5090 5104 "dls2.ml" 146 5090 5116
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 146 5090 5117 "dls2.ml" 146 5090 5124
+type(
+  string
+)
+"dls2.ml" 146 5090 5104 "dls2.ml" 146 5090 5124
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 146 5090 5126 "dls2.ml" 146 5090 5129
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 146 5090 5104 "dls2.ml" 146 5090 5129
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 147 5130 5141 "dls2.ml" 147 5130 5144
+type(
+  Cfg.alias_kind
+)
+"dls2.ml" 147 5130 5136 "dls2.ml" 147 5130 5144
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 147 5130 5148 "dls2.ml" 147 5130 5160
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 147 5130 5161 "dls2.ml" 147 5130 5170
+type(
+  string
+)
+"dls2.ml" 147 5130 5148 "dls2.ml" 147 5130 5170
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 147 5130 5172 "dls2.ml" 147 5130 5175
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 147 5130 5148 "dls2.ml" 147 5130 5175
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 149 5177 5194 "dls2.ml" 149 5177 5204
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 149 5177 5206 "dls2.ml" 149 5177 5210
+type(
+  Utils.StrMap.key
+)
+ident(
+  def rvar "dls2.ml" 149 5177 5221 "dls2.ml" 149 5177 5262
+)
+"dls2.ml" 149 5177 5193 "dls2.ml" 149 5177 5211
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 149 5177 5186 "dls2.ml" 149 5177 5211
+type(
+  Cfg.expr
+)
+"dls2.ml" 149 5177 5213 "dls2.ml" 149 5177 5214
+type(
+  Cfg.stmt
+)
+"dls2.ml" 149 5177 5215 "dls2.ml" 149 5177 5216
+type(
+  Cfg.stmt
+)
+"dls2.ml" 149 5177 5183 "dls2.ml" 149 5177 5217
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 149 5177 5221 "dls2.ml" 149 5177 5233
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 149 5177 5234 "dls2.ml" 149 5177 5240
+type(
+  string
+)
+"dls2.ml" 149 5177 5221 "dls2.ml" 149 5177 5240
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 149 5177 5242 "dls2.ml" 149 5177 5248
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update "dls2.ml" 34 888 894 "dls2.ml" 34 888 900
+)
+"dls2.ml" 149 5177 5249 "dls2.ml" 149 5177 5253
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref rvar "dls2.ml" 149 5177 5206 "dls2.ml" 149 5177 5210
+)
+"dls2.ml" 149 5177 5254 "dls2.ml" 149 5177 5258
+type(
+  fact
+)
+"dls2.ml" 149 5177 5259 "dls2.ml" 149 5177 5262
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 149 5177 5242 "dls2.ml" 149 5177 5262
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 149 5177 5221 "dls2.ml" 149 5177 5262
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 150 5263 5280 "dls2.ml" 150 5263 5293
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 150 5263 5295 "dls2.ml" 150 5263 5299
+type(
+  Utils.StrMap.key
+)
+ident(
+  def rvar "dls2.ml" 150 5263 5310 "dls2.ml" 150 5263 5351
+)
+"dls2.ml" 150 5263 5279 "dls2.ml" 150 5263 5300
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 150 5263 5272 "dls2.ml" 150 5263 5300
+type(
+  Cfg.expr
+)
+"dls2.ml" 150 5263 5302 "dls2.ml" 150 5263 5303
+type(
+  Cfg.stmt
+)
+"dls2.ml" 150 5263 5304 "dls2.ml" 150 5263 5305
+type(
+  Cfg.stmt
+)
+"dls2.ml" 150 5263 5269 "dls2.ml" 150 5263 5306
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 150 5263 5310 "dls2.ml" 150 5263 5322
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 150 5263 5323 "dls2.ml" 150 5263 5329
+type(
+  string
+)
+"dls2.ml" 150 5263 5310 "dls2.ml" 150 5263 5329
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 150 5263 5331 "dls2.ml" 150 5263 5337
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update "dls2.ml" 34 888 894 "dls2.ml" 34 888 900
+)
+"dls2.ml" 150 5263 5338 "dls2.ml" 150 5263 5342
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref rvar "dls2.ml" 150 5263 5295 "dls2.ml" 150 5263 5299
+)
+"dls2.ml" 150 5263 5343 "dls2.ml" 150 5263 5347
+type(
+  fact
+)
+"dls2.ml" 150 5263 5348 "dls2.ml" 150 5263 5351
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 150 5263 5331 "dls2.ml" 150 5263 5351
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 150 5263 5310 "dls2.ml" 150 5263 5351
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 153 5358 5368 "dls2.ml" 153 5358 5371
+type(
+  Cfg.case_block
+)
+"dls2.ml" 153 5358 5364 "dls2.ml" 153 5358 5371
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 153 5358 5375 "dls2.ml" 153 5358 5387
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 153 5358 5388 "dls2.ml" 153 5358 5396
+type(
+  string
+)
+"dls2.ml" 153 5358 5375 "dls2.ml" 153 5358 5396
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 153 5358 5398 "dls2.ml" 153 5358 5401
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 153 5358 5375 "dls2.ml" 153 5358 5401
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 155 5403 5420 "dls2.ml" 155 5403 5421
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 155 5403 5422 "dls2.ml" 155 5403 5423
+type(
+  Cfg.method_call
+)
+"dls2.ml" 155 5403 5409 "dls2.ml" 155 5403 5424
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 155 5403 5427 "dls2.ml" 155 5403 5439
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 155 5403 5440 "dls2.ml" 155 5403 5462
+type(
+  string
+)
+"dls2.ml" 155 5403 5427 "dls2.ml" 155 5403 5462
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 155 5403 5464 "dls2.ml" 155 5403 5467
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 155 5403 5427 "dls2.ml" 155 5403 5467
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 157 5469 5481 "dls2.ml" 157 5469 5484
+type(
+  Cfg.tuple_expr option
+)
+"dls2.ml" 157 5469 5475 "dls2.ml" 157 5469 5484
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 157 5469 5487 "dls2.ml" 157 5469 5499
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 157 5469 5500 "dls2.ml" 157 5469 5510
+type(
+  string
+)
+"dls2.ml" 157 5469 5487 "dls2.ml" 157 5469 5510
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 157 5469 5512 "dls2.ml" 157 5469 5515
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 157 5469 5487 "dls2.ml" 157 5469 5515
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 159 5517 5529 "dls2.ml" 159 5517 5530
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 159 5517 5531 "dls2.ml" 159 5517 5532
+type(
+  Cfg.star_expr list
+)
+"dls2.ml" 159 5517 5523 "dls2.ml" 159 5517 5533
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 159 5517 5537 "dls2.ml" 159 5517 5549
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 159 5517 5550 "dls2.ml" 159 5517 5559
+type(
+  string
+)
+"dls2.ml" 159 5517 5537 "dls2.ml" 159 5517 5559
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 159 5517 5561 "dls2.ml" 159 5517 5564
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 159 5517 5537 "dls2.ml" 159 5517 5564
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 160 5565 5578 "dls2.ml" 160 5565 5579
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 160 5565 5580 "dls2.ml" 160 5565 5581
+type(
+  Cfg.identifier
+)
+"dls2.ml" 160 5565 5582 "dls2.ml" 160 5565 5583
+type(
+  Cfg.stmt
+)
+"dls2.ml" 160 5565 5571 "dls2.ml" 160 5565 5584
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 160 5565 5587 "dls2.ml" 160 5565 5599
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 160 5565 5600 "dls2.ml" 160 5565 5610
+type(
+  string
+)
+"dls2.ml" 160 5565 5587 "dls2.ml" 160 5565 5610
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 160 5565 5612 "dls2.ml" 160 5565 5615
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 160 5565 5587 "dls2.ml" 160 5565 5615
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 161 5616 5630 "dls2.ml" 161 5616 5631
 type(
   Cfg.def_name
 )
-"dls2.ml" 147 5060 5076 "dls2.ml" 147 5060 5077
+"dls2.ml" 161 5616 5632 "dls2.ml" 161 5616 5633
 type(
   Cfg.method_formal_param list
 )
-"dls2.ml" 147 5060 5078 "dls2.ml" 147 5060 5079
+"dls2.ml" 161 5616 5634 "dls2.ml" 161 5616 5635
 type(
   Cfg.stmt
 )
-"dls2.ml" 147 5060 5066 "dls2.ml" 147 5060 5080
+"dls2.ml" 161 5616 5622 "dls2.ml" 161 5616 5636
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 148 5116 5128 "dls2.ml" 148 5116 5129
+"dls2.ml" 161 5616 5639 "dls2.ml" 161 5616 5651
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 161 5616 5652 "dls2.ml" 161 5616 5666
+type(
+  string
+)
+"dls2.ml" 161 5616 5639 "dls2.ml" 161 5616 5666
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 161 5616 5668 "dls2.ml" 161 5616 5671
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 161 5616 5639 "dls2.ml" 161 5616 5671
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 162 5672 5684 "dls2.ml" 162 5672 5685
 type(
   Cfg.lhs option
 )
-"dls2.ml" 148 5116 5130 "dls2.ml" 148 5116 5131
+"dls2.ml" 162 5672 5686 "dls2.ml" 162 5672 5687
 type(
   Cfg.class_kind
 )
-"dls2.ml" 148 5116 5132 "dls2.ml" 148 5116 5133
+"dls2.ml" 162 5672 5688 "dls2.ml" 162 5672 5689
 type(
   Cfg.stmt
 )
-"dls2.ml" 148 5116 5122 "dls2.ml" 148 5116 5134
+"dls2.ml" 162 5672 5678 "dls2.ml" 162 5672 5690
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 149 5165 5179 "dls2.ml" 149 5165 5182
+"dls2.ml" 162 5672 5693 "dls2.ml" 162 5672 5705
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 162 5672 5706 "dls2.ml" 162 5672 5715
+type(
+  string
+)
+"dls2.ml" 162 5672 5693 "dls2.ml" 162 5672 5715
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 162 5672 5717 "dls2.ml" 162 5672 5720
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 162 5672 5693 "dls2.ml" 162 5672 5720
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 163 5721 5735 "dls2.ml" 163 5721 5738
 type(
   Cfg.exn_block
 )
-"dls2.ml" 149 5165 5171 "dls2.ml" 149 5165 5182
+"dls2.ml" 163 5721 5727 "dls2.ml" 163 5721 5738
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 150 5216 5227 "dls2.ml" 150 5216 5230
+"dls2.ml" 163 5721 5741 "dls2.ml" 163 5721 5753
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 163 5721 5754 "dls2.ml" 163 5721 5766
+type(
+  string
+)
+"dls2.ml" 163 5721 5741 "dls2.ml" 163 5721 5766
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 163 5721 5768 "dls2.ml" 163 5721 5771
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 163 5721 5741 "dls2.ml" 163 5721 5771
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 164 5772 5783 "dls2.ml" 164 5772 5786
 type(
   Cfg.stmt
 )
-"dls2.ml" 150 5216 5222 "dls2.ml" 150 5216 5230
+"dls2.ml" 164 5772 5778 "dls2.ml" 164 5772 5786
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 151 5262 5271 "dls2.ml" 151 5262 5274
+"dls2.ml" 164 5772 5790 "dls2.ml" 164 5772 5802
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 164 5772 5803 "dls2.ml" 164 5772 5812
+type(
+  string
+)
+"dls2.ml" 164 5772 5790 "dls2.ml" 164 5772 5812
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 164 5772 5814 "dls2.ml" 164 5772 5817
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 164 5772 5790 "dls2.ml" 164 5772 5817
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 165 5818 5827 "dls2.ml" 165 5818 5830
 type(
   Cfg.stmt
 )
-"dls2.ml" 151 5262 5268 "dls2.ml" 151 5262 5274
+"dls2.ml" 165 5818 5824 "dls2.ml" 165 5818 5830
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 152 5303 5317 "dls2.ml" 152 5303 5318
+"dls2.ml" 165 5818 5833 "dls2.ml" 165 5818 5845
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 165 5818 5846 "dls2.ml" 165 5818 5853
+type(
+  string
+)
+"dls2.ml" 165 5818 5833 "dls2.ml" 165 5818 5853
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 165 5818 5855 "dls2.ml" 165 5818 5858
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 165 5818 5833 "dls2.ml" 165 5818 5858
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 166 5859 5873 "dls2.ml" 166 5859 5874
 type(
   Cfg.identifier
 )
-"dls2.ml" 152 5303 5319 "dls2.ml" 152 5303 5320
+"dls2.ml" 166 5859 5875 "dls2.ml" 166 5859 5876
 type(
   Cfg.stmt
 )
-"dls2.ml" 152 5303 5309 "dls2.ml" 152 5303 5321
+"dls2.ml" 166 5859 5865 "dls2.ml" 166 5859 5877
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 153 5354 5365 "dls2.ml" 153 5354 5368
+"dls2.ml" 166 5859 5880 "dls2.ml" 166 5859 5892
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 166 5859 5893 "dls2.ml" 166 5859 5904
+type(
+  string
+)
+"dls2.ml" 166 5859 5880 "dls2.ml" 166 5859 5904
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 166 5859 5906 "dls2.ml" 166 5859 5909
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 166 5859 5880 "dls2.ml" 166 5859 5909
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 167 5910 5921 "dls2.ml" 167 5910 5924
 type(
   Cfg.msg_id list
 )
-"dls2.ml" 153 5354 5360 "dls2.ml" 153 5354 5368
+"dls2.ml" 167 5910 5916 "dls2.ml" 167 5910 5924
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 155 5400 5411 "dls2.ml" 155 5400 5414
+"dls2.ml" 167 5910 5927 "dls2.ml" 167 5910 5939
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 167 5910 5940 "dls2.ml" 167 5910 5949
+type(
+  string
+)
+"dls2.ml" 167 5910 5927 "dls2.ml" 167 5910 5949
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 167 5910 5951 "dls2.ml" 167 5910 5954
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 167 5910 5927 "dls2.ml" 167 5910 5954
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 169 5956 5967 "dls2.ml" 169 5956 5970
 type(
   Cfg.tuple_expr option
 )
-"dls2.ml" 155 5400 5406 "dls2.ml" 155 5400 5414
+"dls2.ml" 169 5956 5962 "dls2.ml" 169 5956 5970
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 159 5636 5646 "dls2.ml" 159 5636 5649
+"dls2.ml" 169 5956 5974 "dls2.ml" 169 5956 5986
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 169 5956 5987 "dls2.ml" 169 5956 6004
+type(
+  string
+)
+"dls2.ml" 169 5956 5974 "dls2.ml" 169 5956 6004
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 169 5956 6006 "dls2.ml" 169 5956 6009
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 169 5956 5974 "dls2.ml" 169 5956 6009
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 173 6192 6202 "dls2.ml" 173 6192 6205
 type(
   Cfg.tuple_expr option
 )
-"dls2.ml" 159 5636 5642 "dls2.ml" 159 5636 5649
+"dls2.ml" 173 6192 6198 "dls2.ml" 173 6192 6205
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 193 7048 7054 "dls2.ml" 193 7048 7055
+"dls2.ml" 173 6192 6209 "dls2.ml" 173 6192 6221
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 173 6192 6222 "dls2.ml" 173 6192 6230
+type(
+  string
+)
+"dls2.ml" 173 6192 6209 "dls2.ml" 173 6192 6230
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 173 6192 6232 "dls2.ml" 173 6192 6235
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 173 6192 6209 "dls2.ml" 173 6192 6235
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 207 7604 7610 "dls2.ml" 207 7604 7611
 type(
   Cfg.stmt_node
+)
+"dls2.ml" 207 7604 7615 "dls2.ml" 207 7604 7627
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 207 7604 7628 "dls2.ml" 207 7604 7653
+type(
+  string
+)
+"dls2.ml" 207 7604 7615 "dls2.ml" 207 7604 7653
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 207 7604 7654 "dls2.ml" 207 7604 7657
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 113 3546 3565 "dls2.ml" 113 3546 3568
+)
+"dls2.ml" 207 7604 7615 "dls2.ml" 207 7604 7657
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 113 3546 3576 "dls2.ml" 207 7604 7657
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 216 7766 7772 "dls2.ml" 216 7766 7781
+type(
+  fact -> string
+)
+ident(
+  def fact_to_s "dls2.ml" 218 7842 7844 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 216 7766 7793 "dls2.ml" 216 7766 7801
+type(
+  fact
+)
+"dls2.ml" 216 7766 7805 "dls2.ml" 216 7766 7815
+type(
+  string
+)
+"dls2.ml" 216 7766 7818 "dls2.ml" 216 7766 7824
+type(
+  fact
+)
+"dls2.ml" 216 7766 7828 "dls2.ml" 216 7766 7836
+type(
+  string
+)
+"dls2.ml" 216 7766 7784 "dls2.ml" 216 7766 7836
+type(
+  fact -> string
+)
+"dls2.ml" 218 7842 7848 "dls2.ml" 218 7842 7860
+type(
+  fact -> fact -> fact
+)
+ident(
+  def meet_fact_IF "dls2.ml" 223 7973 7975 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 218 7842 7861 "dls2.ml" 218 7842 7863
+type(
+  fact
+)
+ident(
+  def t1 "dls2.ml" 218 7842 7864 "dls2.ml" 221 7935 7965
+)
+"dls2.ml" 218 7842 7864 "dls2.ml" 218 7842 7866
+type(
+  fact
+)
+ident(
+  def t2 "dls2.ml" 218 7842 7869 "dls2.ml" 221 7935 7965
+)
+"dls2.ml" 218 7842 7875 "dls2.ml" 218 7842 7877
+type(
+  fact
+)
+ident(
+  int_ref t1 "dls2.ml" 218 7842 7861 "dls2.ml" 218 7842 7863
+)
+"dls2.ml" 218 7842 7878 "dls2.ml" 218 7842 7880
+type(
+  fact
+)
+ident(
+  int_ref t2 "dls2.ml" 218 7842 7864 "dls2.ml" 218 7842 7866
+)
+"dls2.ml" 218 7842 7875 "dls2.ml" 218 7842 7880
+type(
+  fact * fact
+)
+"dls2.ml" 219 7886 7892 "dls2.ml" 219 7886 7900
+type(
+  fact
+)
+"dls2.ml" 219 7886 7902 "dls2.ml" 219 7886 7903
+type(
+  fact
+)
+"dls2.ml" 219 7886 7892 "dls2.ml" 219 7886 7903
+type(
+  fact * fact
+)
+"dls2.ml" 220 7905 7911 "dls2.ml" 220 7905 7912
+type(
+  fact
+)
+"dls2.ml" 220 7905 7914 "dls2.ml" 220 7905 7922
+type(
+  fact
+)
+"dls2.ml" 220 7905 7911 "dls2.ml" 220 7905 7922
+type(
+  fact * fact
+)
+"dls2.ml" 219 7886 7892 "dls2.ml" 220 7905 7922
+type(
+  fact * fact
+)
+"dls2.ml" 220 7905 7926 "dls2.ml" 220 7905 7934
+type(
+  fact
+)
+"dls2.ml" 221 7935 7941 "dls2.ml" 221 7935 7947
+type(
+  fact
+)
+"dls2.ml" 221 7935 7949 "dls2.ml" 221 7935 7955
+type(
+  fact
+)
+"dls2.ml" 221 7935 7941 "dls2.ml" 221 7935 7955
+type(
+  fact * fact
+)
+"dls2.ml" 221 7935 7959 "dls2.ml" 221 7935 7965
+type(
+  fact
+)
+"dls2.ml" 218 7842 7869 "dls2.ml" 221 7935 7965
+type(
+  fact
+)
+"dls2.ml" 223 7973 7979 "dls2.ml" 223 7973 7988
+type(
+  'a -> fact -> fact
+)
+ident(
+  def meet_fact "dls2.ml" 227 8078 8080 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 223 7973 7989 "dls2.ml" 223 7973 7991
+type(
+  'a
+)
+ident(
+  def t1 "dls2.ml" 223 7973 7992 "dls2.ml" 225 8041 8070
+)
+"dls2.ml" 223 7973 7992 "dls2.ml" 223 7973 7994
+type(
+  fact
+)
+ident(
+  def t2 "dls2.ml" 223 7973 7997 "dls2.ml" 225 8041 8070
+)
+"dls2.ml" 223 7973 8003 "dls2.ml" 223 7973 8005
+type(
+  'a
+)
+ident(
+  int_ref t1 "dls2.ml" 223 7973 7989 "dls2.ml" 223 7973 7991
+)
+"dls2.ml" 223 7973 8006 "dls2.ml" 223 7973 8008
+type(
+  fact
+)
+ident(
+  int_ref t2 "dls2.ml" 223 7973 7992 "dls2.ml" 223 7973 7994
+)
+"dls2.ml" 223 7973 8003 "dls2.ml" 223 7973 8008
+type(
+  'a * fact
+)
+"dls2.ml" 224 8015 8021 "dls2.ml" 224 8015 8022
+type(
+  'a
+)
+"dls2.ml" 224 8015 8024 "dls2.ml" 224 8015 8030
+type(
+  fact
+)
+"dls2.ml" 224 8015 8021 "dls2.ml" 224 8015 8030
+type(
+  'a * fact
+)
+"dls2.ml" 224 8015 8034 "dls2.ml" 224 8015 8040
+type(
+  fact
+)
+"dls2.ml" 225 8041 8047 "dls2.ml" 225 8041 8048
+type(
+  'a
+)
+"dls2.ml" 225 8041 8050 "dls2.ml" 225 8041 8058
+type(
+  fact
+)
+"dls2.ml" 225 8041 8047 "dls2.ml" 225 8041 8058
+type(
+  'a * fact
+)
+"dls2.ml" 225 8041 8062 "dls2.ml" 225 8041 8070
+type(
+  fact
+)
+"dls2.ml" 223 7973 7997 "dls2.ml" 225 8041 8070
+type(
+  fact
+)
+"dls2.ml" 227 8078 8084 "dls2.ml" 227 8078 8090
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  def update "dls2.ml" 234 8292 8294 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 227 8078 8091 "dls2.ml" 227 8078 8092
+type(
+  Utils.StrMap.key
+)
+ident(
+  def s "dls2.ml" 227 8078 8093 "dls2.ml" 232 8191 8216
+)
+"dls2.ml" 227 8078 8093 "dls2.ml" 227 8078 8094
+type(
+  fact
+)
+ident(
+  def v "dls2.ml" 227 8078 8095 "dls2.ml" 232 8191 8216
+)
+"dls2.ml" 227 8078 8095 "dls2.ml" 227 8078 8098
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 228 8101 8105 "dls2.ml" 232 8191 8216
+)
+"dls2.ml" 228 8101 8109 "dls2.ml" 228 8101 8113
+type(
+  fact
+)
+"dls2.ml" 229 8116 8126 "dls2.ml" 229 8116 8135
+type(
+  fact -> fact -> fact
+)
+ident(
+  int_ref meet_fact "dls2.ml" 223 7973 7979 "dls2.ml" 223 7973 7988
+)
+"dls2.ml" 229 8116 8137 "dls2.ml" 229 8116 8148
+type(
+  Utils.StrMap.key -> fact Utils.StrMap.t -> fact
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"dls2.ml" 229 8116 8149 "dls2.ml" 229 8116 8150
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "dls2.ml" 227 8078 8091 "dls2.ml" 227 8078 8092
+)
+"dls2.ml" 229 8116 8151 "dls2.ml" 229 8116 8154
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 227 8078 8095 "dls2.ml" 227 8078 8098
+)
+"dls2.ml" 229 8116 8136 "dls2.ml" 229 8116 8155
+call(
+  stack
+)
+type(
+  fact
+)
+"dls2.ml" 229 8116 8156 "dls2.ml" 229 8116 8157
+type(
+  fact
+)
+ident(
+  int_ref v "dls2.ml" 227 8078 8093 "dls2.ml" 227 8078 8094
+)
+"dls2.ml" 229 8116 8126 "dls2.ml" 229 8116 8157
+call(
+  stack
+)
+type(
+  fact
+)
+"dls2.ml" 230 8158 8169 "dls2.ml" 230 8158 8178
+type(
+  exn
+)
+"dls2.ml" 230 8158 8182 "dls2.ml" 230 8158 8183
+type(
+  fact
+)
+ident(
+  int_ref v "dls2.ml" 227 8078 8093 "dls2.ml" 227 8078 8094
+)
+"dls2.ml" 229 8116 8122 "dls2.ml" 230 8158 8183
+type(
+  fact
+)
+"dls2.ml" 232 8191 8195 "dls2.ml" 232 8191 8205
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"dls2.ml" 232 8191 8206 "dls2.ml" 232 8191 8207
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "dls2.ml" 227 8078 8091 "dls2.ml" 227 8078 8092
+)
+"dls2.ml" 232 8191 8208 "dls2.ml" 232 8191 8212
+type(
+  fact
+)
+ident(
+  int_ref fact "dls2.ml" 228 8101 8109 "dls2.ml" 228 8101 8113
+)
+"dls2.ml" 232 8191 8213 "dls2.ml" 232 8191 8216
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 227 8078 8095 "dls2.ml" 227 8078 8098
+)
+"dls2.ml" 232 8191 8195 "dls2.ml" 232 8191 8216
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 228 8101 8105 "dls2.ml" 232 8191 8216
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 234 8292 8298 "dls2.ml" 234 8292 8306
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  def updateIF "dls2.ml" 241 8451 8453 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 234 8292 8307 "dls2.ml" 234 8292 8308
+type(
+  Utils.StrMap.key
+)
+ident(
+  def s "dls2.ml" 234 8292 8309 "dls2.ml" 239 8418 8443
+)
+"dls2.ml" 234 8292 8309 "dls2.ml" 234 8292 8310
+type(
+  fact
+)
+ident(
+  def v "dls2.ml" 234 8292 8311 "dls2.ml" 239 8418 8443
+)
+"dls2.ml" 234 8292 8311 "dls2.ml" 234 8292 8314
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 235 8317 8321 "dls2.ml" 239 8418 8443
+)
+"dls2.ml" 235 8317 8325 "dls2.ml" 235 8317 8329
+type(
+  fact
+)
+"dls2.ml" 236 8332 8342 "dls2.ml" 236 8332 8354
+type(
+  fact -> fact -> fact
+)
+ident(
+  int_ref meet_fact_IF "dls2.ml" 218 7842 7848 "dls2.ml" 218 7842 7860
+)
+"dls2.ml" 236 8332 8356 "dls2.ml" 236 8332 8367
+type(
+  Utils.StrMap.key -> fact Utils.StrMap.t -> fact
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"dls2.ml" 236 8332 8368 "dls2.ml" 236 8332 8369
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "dls2.ml" 234 8292 8307 "dls2.ml" 234 8292 8308
+)
+"dls2.ml" 236 8332 8370 "dls2.ml" 236 8332 8373
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 234 8292 8311 "dls2.ml" 234 8292 8314
+)
+"dls2.ml" 236 8332 8355 "dls2.ml" 236 8332 8374
+call(
+  stack
+)
+type(
+  fact
+)
+"dls2.ml" 236 8332 8375 "dls2.ml" 236 8332 8376
+type(
+  fact
+)
+ident(
+  int_ref v "dls2.ml" 234 8292 8309 "dls2.ml" 234 8292 8310
+)
+"dls2.ml" 236 8332 8342 "dls2.ml" 236 8332 8376
+call(
+  stack
+)
+type(
+  fact
+)
+"dls2.ml" 237 8377 8388 "dls2.ml" 237 8377 8397
+type(
+  exn
+)
+"dls2.ml" 237 8377 8401 "dls2.ml" 237 8377 8409
+type(
+  fact
+)
+"dls2.ml" 236 8332 8338 "dls2.ml" 237 8377 8409
+type(
+  fact
+)
+"dls2.ml" 239 8418 8422 "dls2.ml" 239 8418 8432
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"dls2.ml" 239 8418 8433 "dls2.ml" 239 8418 8434
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "dls2.ml" 234 8292 8307 "dls2.ml" 234 8292 8308
+)
+"dls2.ml" 239 8418 8435 "dls2.ml" 239 8418 8439
+type(
+  fact
+)
+ident(
+  int_ref fact "dls2.ml" 235 8317 8325 "dls2.ml" 235 8317 8329
+)
+"dls2.ml" 239 8418 8440 "dls2.ml" 239 8418 8443
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 234 8292 8311 "dls2.ml" 234 8292 8314
+)
+"dls2.ml" 239 8418 8422 "dls2.ml" 239 8418 8443
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 235 8317 8321 "dls2.ml" 239 8418 8443
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 241 8451 8457 "dls2.ml" 241 8451 8461
+type(
+  fact Utils.StrMap.t list -> fact Utils.StrMap.t
+)
+ident(
+  def join "dls2.ml" 250 8992 8994 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 241 8451 8462 "dls2.ml" 241 8451 8465
+type(
+  fact Utils.StrMap.t list
+)
+ident(
+  def lst "dls2.ml" 242 8522 8526 "dls2.ml" 248 8930 8982
+)
+"dls2.ml" 242 8522 8530 "dls2.ml" 242 8522 8541
+type(
+  fact Utils.StrMap.t list -> int
+)
+ident(
+  ext_ref List.length
+)
+"dls2.ml" 242 8522 8542 "dls2.ml" 242 8522 8545
+type(
+  fact Utils.StrMap.t list
+)
+ident(
+  int_ref lst "dls2.ml" 241 8451 8462 "dls2.ml" 241 8451 8465
+)
+"dls2.ml" 242 8522 8529 "dls2.ml" 242 8522 8546
+call(
+  stack
+)
+type(
+  int
+)
+"dls2.ml" 242 8522 8547 "dls2.ml" 242 8522 8548
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"dls2.ml" 242 8522 8549 "dls2.ml" 242 8522 8550
+type(
+  int
+)
+"dls2.ml" 242 8522 8529 "dls2.ml" 242 8522 8550
+type(
+  bool
+)
+"dls2.ml" 243 8556 8566 "dls2.ml" 243 8556 8570
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map1 "dls2.ml" 244 8656 8662 "dls2.ml" 245 8756 8817
+)
+"dls2.ml" 243 8556 8578 "dls2.ml" 243 8556 8581
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def acc "dls2.ml" 243 8556 8582 "dls2.ml" 243 8556 8617
+)
+"dls2.ml" 243 8556 8582 "dls2.ml" 243 8556 8585
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 243 8556 8589 "dls2.ml" 243 8556 8617
+)
+"dls2.ml" 243 8556 8589 "dls2.ml" 243 8556 8600
+type(
+  (Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t) ->
+  fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.fold
+)
+"dls2.ml" 243 8556 8601 "dls2.ml" 243 8556 8609
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref updateIF "dls2.ml" 234 8292 8298 "dls2.ml" 234 8292 8306
+)
+"dls2.ml" 243 8556 8610 "dls2.ml" 243 8556 8613
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 243 8556 8582 "dls2.ml" 243 8556 8585
+)
+"dls2.ml" 243 8556 8614 "dls2.ml" 243 8556 8617
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref acc "dls2.ml" 243 8556 8578 "dls2.ml" 243 8556 8581
+)
+"dls2.ml" 243 8556 8589 "dls2.ml" 243 8556 8617
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 243 8556 8573 "dls2.ml" 243 8556 8618
+type(
+  fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+"dls2.ml" 243 8556 8620 "dls2.ml" 243 8556 8628
+type(
+  fact Utils.StrMap.t list -> int -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref List.nth
+)
+"dls2.ml" 243 8556 8629 "dls2.ml" 243 8556 8632
+type(
+  fact Utils.StrMap.t list
+)
+ident(
+  int_ref lst "dls2.ml" 241 8451 8462 "dls2.ml" 241 8451 8465
+)
+"dls2.ml" 243 8556 8633 "dls2.ml" 243 8556 8634
+type(
+  int
+)
+"dls2.ml" 243 8556 8619 "dls2.ml" 243 8556 8635
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 243 8556 8637 "dls2.ml" 243 8556 8645
+type(
+  fact Utils.StrMap.t list -> int -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref List.nth
+)
+"dls2.ml" 243 8556 8646 "dls2.ml" 243 8556 8649
+type(
+  fact Utils.StrMap.t list
+)
+ident(
+  int_ref lst "dls2.ml" 241 8451 8462 "dls2.ml" 241 8451 8465
+)
+"dls2.ml" 243 8556 8650 "dls2.ml" 243 8556 8651
+type(
+  int
+)
+"dls2.ml" 243 8556 8636 "dls2.ml" 243 8556 8652
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 243 8556 8573 "dls2.ml" 243 8556 8652
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 244 8656 8666 "dls2.ml" 244 8656 8670
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map2 "dls2.ml" 245 8756 8762 "dls2.ml" 245 8756 8817
+)
+"dls2.ml" 244 8656 8678 "dls2.ml" 244 8656 8681
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def acc "dls2.ml" 244 8656 8682 "dls2.ml" 244 8656 8717
+)
+"dls2.ml" 244 8656 8682 "dls2.ml" 244 8656 8685
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 244 8656 8689 "dls2.ml" 244 8656 8717
+)
+"dls2.ml" 244 8656 8689 "dls2.ml" 244 8656 8700
+type(
+  (Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t) ->
+  fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.fold
+)
+"dls2.ml" 244 8656 8701 "dls2.ml" 244 8656 8709
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref updateIF "dls2.ml" 234 8292 8298 "dls2.ml" 234 8292 8306
+)
+"dls2.ml" 244 8656 8710 "dls2.ml" 244 8656 8713
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 244 8656 8682 "dls2.ml" 244 8656 8685
+)
+"dls2.ml" 244 8656 8714 "dls2.ml" 244 8656 8717
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref acc "dls2.ml" 244 8656 8678 "dls2.ml" 244 8656 8681
+)
+"dls2.ml" 244 8656 8689 "dls2.ml" 244 8656 8717
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 244 8656 8673 "dls2.ml" 244 8656 8718
+type(
+  fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+"dls2.ml" 244 8656 8720 "dls2.ml" 244 8656 8728
+type(
+  fact Utils.StrMap.t list -> int -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref List.nth
+)
+"dls2.ml" 244 8656 8729 "dls2.ml" 244 8656 8732
+type(
+  fact Utils.StrMap.t list
+)
+ident(
+  int_ref lst "dls2.ml" 241 8451 8462 "dls2.ml" 241 8451 8465
+)
+"dls2.ml" 244 8656 8733 "dls2.ml" 244 8656 8734
+type(
+  int
+)
+"dls2.ml" 244 8656 8719 "dls2.ml" 244 8656 8735
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 244 8656 8737 "dls2.ml" 244 8656 8745
+type(
+  fact Utils.StrMap.t list -> int -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref List.nth
+)
+"dls2.ml" 244 8656 8746 "dls2.ml" 244 8656 8749
+type(
+  fact Utils.StrMap.t list
+)
+ident(
+  int_ref lst "dls2.ml" 241 8451 8462 "dls2.ml" 241 8451 8465
+)
+"dls2.ml" 244 8656 8750 "dls2.ml" 244 8656 8751
+type(
+  int
+)
+"dls2.ml" 244 8656 8736 "dls2.ml" 244 8656 8752
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 244 8656 8673 "dls2.ml" 244 8656 8752
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 245 8756 8767 "dls2.ml" 245 8756 8770
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def acc "dls2.ml" 245 8756 8771 "dls2.ml" 245 8756 8806
+)
+"dls2.ml" 245 8756 8771 "dls2.ml" 245 8756 8774
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 245 8756 8778 "dls2.ml" 245 8756 8806
+)
+"dls2.ml" 245 8756 8778 "dls2.ml" 245 8756 8789
+type(
+  (Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t) ->
+  fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.fold
+)
+"dls2.ml" 245 8756 8790 "dls2.ml" 245 8756 8798
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref updateIF "dls2.ml" 234 8292 8298 "dls2.ml" 234 8292 8306
+)
+"dls2.ml" 245 8756 8799 "dls2.ml" 245 8756 8802
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 245 8756 8771 "dls2.ml" 245 8756 8774
+)
+"dls2.ml" 245 8756 8803 "dls2.ml" 245 8756 8806
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref acc "dls2.ml" 245 8756 8767 "dls2.ml" 245 8756 8770
+)
+"dls2.ml" 245 8756 8778 "dls2.ml" 245 8756 8806
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 245 8756 8762 "dls2.ml" 245 8756 8807
+type(
+  fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+"dls2.ml" 245 8756 8808 "dls2.ml" 245 8756 8812
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map1 "dls2.ml" 243 8556 8566 "dls2.ml" 243 8556 8570
+)
+"dls2.ml" 245 8756 8813 "dls2.ml" 245 8756 8817
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map2 "dls2.ml" 244 8656 8666 "dls2.ml" 244 8656 8670
+)
+"dls2.ml" 245 8756 8762 "dls2.ml" 245 8756 8817
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 244 8656 8662 "dls2.ml" 245 8756 8817
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 243 8556 8562 "dls2.ml" 245 8756 8817
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 247 8893 8899 "dls2.ml" 247 8893 8913
+type(
+  (fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t) ->
+  fact Utils.StrMap.t -> fact Utils.StrMap.t list -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"dls2.ml" 247 8893 8919 "dls2.ml" 247 8893 8922
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def acc "dls2.ml" 247 8893 8923 "dls2.ml" 248 8930 8964
+)
+"dls2.ml" 247 8893 8923 "dls2.ml" 247 8893 8926
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 248 8930 8938 "dls2.ml" 248 8930 8964
+)
+"dls2.ml" 248 8930 8938 "dls2.ml" 248 8930 8949
+type(
+  (Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t) ->
+  fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.fold
+)
+"dls2.ml" 248 8930 8950 "dls2.ml" 248 8930 8956
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update "dls2.ml" 227 8078 8084 "dls2.ml" 227 8078 8090
+)
+"dls2.ml" 248 8930 8957 "dls2.ml" 248 8930 8960
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 247 8893 8923 "dls2.ml" 247 8893 8926
+)
+"dls2.ml" 248 8930 8961 "dls2.ml" 248 8930 8964
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref acc "dls2.ml" 247 8893 8919 "dls2.ml" 247 8893 8922
+)
+"dls2.ml" 248 8930 8938 "dls2.ml" 248 8930 8964
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 247 8893 8914 "dls2.ml" 248 8930 8965
+type(
+  fact Utils.StrMap.t -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+"dls2.ml" 248 8930 8966 "dls2.ml" 248 8930 8978
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.empty
+)
+"dls2.ml" 248 8930 8979 "dls2.ml" 248 8930 8982
+type(
+  fact Utils.StrMap.t list
+)
+ident(
+  int_ref lst "dls2.ml" 241 8451 8462 "dls2.ml" 241 8451 8465
+)
+"dls2.ml" 247 8893 8899 "dls2.ml" 248 8930 8982
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 242 8522 8526 "dls2.ml" 248 8930 8982
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 251 9017 9023 "dls2.ml" 251 9017 9028
+type(
+  'b Utils.StrMap.t
+)
+ident(
+  def empty "dls2.ml" 252 9044 9046 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 251 9017 9031 "dls2.ml" 251 9017 9043
+type(
+  'b Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.empty
+)
+"dls2.ml" 252 9044 9050 "dls2.ml" 252 9044 9052
+type(
+  'c Utils.StrMap.t -> 'c Utils.StrMap.t -> bool
+)
+ident(
+  def eq "dls2.ml" 253 9106 9108 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 252 9044 9053 "dls2.ml" 252 9044 9055
+type(
+  'c Utils.StrMap.t
+)
+ident(
+  def t1 "dls2.ml" 252 9044 9056 "dls2.ml" 252 9044 9104
+)
+"dls2.ml" 252 9044 9056 "dls2.ml" 252 9044 9058
+type(
+  'c Utils.StrMap.t
+)
+ident(
+  def t2 "dls2.ml" 252 9044 9061 "dls2.ml" 252 9044 9104
+)
+"dls2.ml" 252 9044 9061 "dls2.ml" 252 9044 9075
+type(
+  ('c -> 'c -> int) -> 'c Utils.StrMap.t -> 'c Utils.StrMap.t -> int
+)
+ident(
+  ext_ref Utils.StrMap.compare
+)
+"dls2.ml" 252 9044 9076 "dls2.ml" 252 9044 9094
+type(
+  'c -> 'c -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"dls2.ml" 252 9044 9095 "dls2.ml" 252 9044 9097
+type(
+  'c Utils.StrMap.t
+)
+ident(
+  int_ref t1 "dls2.ml" 252 9044 9053 "dls2.ml" 252 9044 9055
+)
+"dls2.ml" 252 9044 9098 "dls2.ml" 252 9044 9100
+type(
+  'c Utils.StrMap.t
+)
+ident(
+  int_ref t2 "dls2.ml" 252 9044 9056 "dls2.ml" 252 9044 9058
+)
+"dls2.ml" 252 9044 9061 "dls2.ml" 252 9044 9100
+call(
+  stack
+)
+type(
+  int
+)
+"dls2.ml" 252 9044 9101 "dls2.ml" 252 9044 9102
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"dls2.ml" 252 9044 9103 "dls2.ml" 252 9044 9104
+type(
+  int
+)
+"dls2.ml" 252 9044 9061 "dls2.ml" 252 9044 9104
+type(
+  bool
+)
+"dls2.ml" 253 9106 9112 "dls2.ml" 253 9106 9121
+type(
+  fact Utils.StrMap.t -> string
+)
+ident(
+  def to_string "dls2.ml" 255 9160 9162 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 253 9106 9122 "dls2.ml" 253 9106 9123
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def t "dls2.ml" 253 9106 9126 "dls2.ml" 253 9106 9154
+)
+"dls2.ml" 253 9106 9126 "dls2.ml" 253 9106 9142
+type(
+  (fact -> string) -> fact Utils.StrMap.t -> string
+)
+ident(
+  ext_ref Utils.strmap_to_string
+)
+"dls2.ml" 253 9106 9143 "dls2.ml" 253 9106 9152
+type(
+  fact -> string
+)
+ident(
+  int_ref fact_to_s "dls2.ml" 216 7766 7772 "dls2.ml" 216 7766 7781
+)
+"dls2.ml" 253 9106 9153 "dls2.ml" 253 9106 9154
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref t "dls2.ml" 253 9106 9122 "dls2.ml" 253 9106 9123
+)
+"dls2.ml" 253 9106 9126 "dls2.ml" 253 9106 9154
+call(
+  tail
+)
+type(
+  string
+)
+"dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  def update_lhs "dls2.ml" 255 9160 9162 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 255 9160 9181 "dls2.ml" 255 9160 9185
+type(
+  fact
+)
+ident(
+  def fact "dls2.ml" 255 9160 9186 "dls2.ml" 260 9416 9466
+)
+"dls2.ml" 255 9160 9186 "dls2.ml" 255 9160 9189
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 255 9160 9190 "dls2.ml" 260 9416 9466
+)
+"dls2.ml" 255 9160 9190 "dls2.ml" 255 9160 9193
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 255 9160 9196 "dls2.ml" 260 9416 9466
+)
+"dls2.ml" 255 9160 9202 "dls2.ml" 255 9160 9205
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "dls2.ml" 255 9160 9190 "dls2.ml" 255 9160 9193
+)
+"dls2.ml" 256 9211 9225 "dls2.ml" 256 9211 9235
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 256 9211 9237 "dls2.ml" 256 9211 9240
+type(
+  Utils.StrMap.key
+)
+ident(
+  def var "dls2.ml" 256 9211 9245 "dls2.ml" 256 9211 9264
+)
+"dls2.ml" 256 9211 9224 "dls2.ml" 256 9211 9241
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 256 9211 9217 "dls2.ml" 256 9211 9241
+type(
+  Cfg.lhs
+)
+"dls2.ml" 256 9211 9245 "dls2.ml" 256 9211 9251
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update "dls2.ml" 227 8078 8084 "dls2.ml" 227 8078 8090
+)
+"dls2.ml" 256 9211 9252 "dls2.ml" 256 9211 9255
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref var "dls2.ml" 256 9211 9237 "dls2.ml" 256 9211 9240
+)
+"dls2.ml" 256 9211 9256 "dls2.ml" 256 9211 9260
+type(
+  fact
+)
+ident(
+  int_ref fact "dls2.ml" 255 9160 9181 "dls2.ml" 255 9160 9185
+)
+"dls2.ml" 256 9211 9261 "dls2.ml" 256 9211 9264
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 255 9160 9186 "dls2.ml" 255 9160 9189
+)
+"dls2.ml" 256 9211 9245 "dls2.ml" 256 9211 9264
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 257 9265 9279 "dls2.ml" 257 9265 9292
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 257 9265 9294 "dls2.ml" 257 9265 9299
+type(
+  Utils.StrMap.key
+)
+ident(
+  def const "dls2.ml" 257 9265 9304 "dls2.ml" 257 9265 9325
+)
+"dls2.ml" 257 9265 9278 "dls2.ml" 257 9265 9300
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 257 9265 9271 "dls2.ml" 257 9265 9300
+type(
+  Cfg.lhs
+)
+"dls2.ml" 257 9265 9304 "dls2.ml" 257 9265 9310
+type(
+  Utils.StrMap.key -> fact -> fact Utils.StrMap.t -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update "dls2.ml" 227 8078 8084 "dls2.ml" 227 8078 8090
+)
+"dls2.ml" 257 9265 9311 "dls2.ml" 257 9265 9316
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref const "dls2.ml" 257 9265 9294 "dls2.ml" 257 9265 9299
+)
+"dls2.ml" 257 9265 9317 "dls2.ml" 257 9265 9321
+type(
+  fact
+)
+ident(
+  int_ref fact "dls2.ml" 255 9160 9181 "dls2.ml" 255 9160 9185
+)
+"dls2.ml" 257 9265 9322 "dls2.ml" 257 9265 9325
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 255 9160 9186 "dls2.ml" 255 9160 9189
+)
+"dls2.ml" 257 9265 9304 "dls2.ml" 257 9265 9325
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 258 9326 9332 "dls2.ml" 258 9326 9343
+type(
+  Cfg.lhs
+)
+"dls2.ml" 258 9326 9347 "dls2.ml" 258 9326 9350
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 255 9160 9186 "dls2.ml" 255 9160 9189
+)
+"dls2.ml" 259 9351 9364 "dls2.ml" 259 9351 9367
+type(
+  Cfg.lhs list
+)
+ident(
+  def lst "dls2.ml" 259 9351 9371 "dls2.ml" 259 9351 9415
+)
+"dls2.ml" 259 9351 9357 "dls2.ml" 259 9351 9367
+type(
+  Cfg.lhs
+)
+"dls2.ml" 259 9351 9371 "dls2.ml" 259 9351 9385
+type(
+  (fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t) ->
+  fact Utils.StrMap.t -> Cfg.lhs list -> fact Utils.StrMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"dls2.ml" 259 9351 9387 "dls2.ml" 259 9351 9397
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+)
+"dls2.ml" 259 9351 9398 "dls2.ml" 259 9351 9406
+type(
+  fact
+)
+"dls2.ml" 259 9351 9386 "dls2.ml" 259 9351 9407
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+"dls2.ml" 259 9351 9408 "dls2.ml" 259 9351 9411
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 255 9160 9186 "dls2.ml" 255 9160 9189
+)
+"dls2.ml" 259 9351 9412 "dls2.ml" 259 9351 9415
+type(
+  Cfg.lhs list
+)
+ident(
+  int_ref lst "dls2.ml" 259 9351 9364 "dls2.ml" 259 9351 9367
+)
+"dls2.ml" 259 9351 9371 "dls2.ml" 259 9351 9415
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 260 9416 9429 "dls2.ml" 260 9416 9433
+type(
+  Cfg.identifier
+)
+"dls2.ml" 260 9416 9428 "dls2.ml" 260 9416 9439
+type(
+  Cfg.identifier
+)
+ident(
+  def l "dls2.ml" 260 9416 9443 "dls2.ml" 260 9416 9466
+)
+"dls2.ml" 260 9416 9422 "dls2.ml" 260 9416 9439
+type(
+  Cfg.lhs
+)
+"dls2.ml" 260 9416 9443 "dls2.ml" 260 9416 9453
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+)
+"dls2.ml" 260 9416 9454 "dls2.ml" 260 9416 9460
+type(
+  fact
+)
+"dls2.ml" 260 9416 9461 "dls2.ml" 260 9416 9464
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 255 9160 9186 "dls2.ml" 255 9160 9189
+)
+"dls2.ml" 260 9416 9465 "dls2.ml" 260 9416 9466
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref l "dls2.ml" 260 9416 9428 "dls2.ml" 260 9416 9439
+)
+"dls2.ml" 260 9416 9443 "dls2.ml" 260 9416 9466
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 255 9160 9196 "dls2.ml" 260 9416 9466
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 262 9474 9480 "dls2.ml" 262 9474 9488
+type(
+  fact Utils.StrMap.t -> Cfg.stmt -> fact Utils.StrMap.t
+)
+ident(
+  def transfer "dls2.ml" 279 10323 10337 "dls2.ml" 280 10351 10354
+)
+"dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  def map "dls2.ml" 262 9474 9493 "dls2.ml" 279 10323 10337
+)
+"dls2.ml" 262 9474 9493 "dls2.ml" 262 9474 9497
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "dls2.ml" 262 9474 9500 "dls2.ml" 279 10323 10337
+)
+"dls2.ml" 262 9474 9506 "dls2.ml" 262 9474 9510
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "dls2.ml" 262 9474 9493 "dls2.ml" 262 9474 9497
+)
+"dls2.ml" 262 9474 9506 "dls2.ml" 262 9474 9516
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 263 9522 9535 "dls2.ml" 263 9522 9538
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 263 9522 9605 "dls2.ml" 263 9522 9630
+)
+"dls2.ml" 263 9522 9541 "dls2.ml" 263 9522 9549
+type(
+  Cfg.tuple_expr
+)
+"dls2.ml" 263 9522 9528 "dls2.ml" 263 9522 9550
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 263 9522 9560 "dls2.ml" 263 9522 9563
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 263 9522 9605 "dls2.ml" 263 9522 9630
+)
+"dls2.ml" 263 9522 9566 "dls2.ml" 263 9522 9574
+type(
+  Cfg.tuple_expr
+)
+"dls2.ml" 263 9522 9553 "dls2.ml" 263 9522 9575
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 263 9522 9528 "dls2.ml" 263 9522 9575
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 263 9522 9585 "dls2.ml" 263 9522 9588
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 263 9522 9605 "dls2.ml" 263 9522 9630
+)
+"dls2.ml" 263 9522 9591 "dls2.ml" 263 9522 9600
+type(
+  Cfg.tuple_expr
+)
+"dls2.ml" 263 9522 9578 "dls2.ml" 263 9522 9601
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 263 9522 9528 "dls2.ml" 263 9522 9601
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 263 9522 9605 "dls2.ml" 263 9522 9615
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+)
+"dls2.ml" 263 9522 9616 "dls2.ml" 263 9522 9622
+type(
+  fact
+)
+"dls2.ml" 263 9522 9623 "dls2.ml" 263 9522 9626
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 263 9522 9627 "dls2.ml" 263 9522 9630
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "dls2.ml" 263 9522 9535 "dls2.ml" 263 9522 9538
+)
+"dls2.ml" 263 9522 9605 "dls2.ml" 263 9522 9630
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 264 9631 9644 "dls2.ml" 264 9631 9647
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 264 9631 9662 "dls2.ml" 264 9631 9689
+)
+"dls2.ml" 264 9631 9650 "dls2.ml" 264 9631 9657
+type(
+  Cfg.tuple_expr
+)
+"dls2.ml" 264 9631 9637 "dls2.ml" 264 9631 9658
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 264 9631 9662 "dls2.ml" 264 9631 9672
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+)
+"dls2.ml" 264 9631 9673 "dls2.ml" 264 9631 9681
+type(
+  fact
+)
+"dls2.ml" 264 9631 9682 "dls2.ml" 264 9631 9685
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 264 9631 9686 "dls2.ml" 264 9631 9689
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "dls2.ml" 264 9631 9644 "dls2.ml" 264 9631 9647
+)
+"dls2.ml" 264 9631 9662 "dls2.ml" 264 9631 9689
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 265 9690 9703 "dls2.ml" 265 9690 9706
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 265 9690 9738 "dls2.ml" 265 9690 9779
+)
+"dls2.ml" 265 9690 9716 "dls2.ml" 265 9690 9726
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 265 9690 9728 "dls2.ml" 265 9690 9732
+type(
+  Utils.StrMap.key
+)
+ident(
+  def rvar "dls2.ml" 265 9690 9738 "dls2.ml" 265 9690 9779
+)
+"dls2.ml" 265 9690 9715 "dls2.ml" 265 9690 9733
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 265 9690 9708 "dls2.ml" 265 9690 9733
+type(
+  Cfg.tuple_expr
+)
+"dls2.ml" 265 9690 9696 "dls2.ml" 265 9690 9734
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 265 9690 9738 "dls2.ml" 265 9690 9748
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+)
+"dls2.ml" 265 9690 9750 "dls2.ml" 265 9690 9761
+type(
+  Utils.StrMap.key -> fact Utils.StrMap.t -> fact
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"dls2.ml" 265 9690 9762 "dls2.ml" 265 9690 9766
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref rvar "dls2.ml" 265 9690 9728 "dls2.ml" 265 9690 9732
+)
+"dls2.ml" 265 9690 9767 "dls2.ml" 265 9690 9770
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 265 9690 9749 "dls2.ml" 265 9690 9771
+call(
+  stack
+)
+type(
+  fact
+)
+"dls2.ml" 265 9690 9772 "dls2.ml" 265 9690 9775
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 265 9690 9776 "dls2.ml" 265 9690 9779
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "dls2.ml" 265 9690 9703 "dls2.ml" 265 9690 9706
+)
+"dls2.ml" 265 9690 9738 "dls2.ml" 265 9690 9779
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 266 9780 9793 "dls2.ml" 266 9780 9796
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 266 9780 9833 "dls2.ml" 266 9780 9876
+)
+"dls2.ml" 266 9780 9806 "dls2.ml" 266 9780 9819
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 266 9780 9821 "dls2.ml" 266 9780 9827
+type(
+  Utils.StrMap.key
+)
+ident(
+  def rconst "dls2.ml" 266 9780 9833 "dls2.ml" 266 9780 9876
+)
+"dls2.ml" 266 9780 9805 "dls2.ml" 266 9780 9828
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 266 9780 9798 "dls2.ml" 266 9780 9828
+type(
+  Cfg.tuple_expr
+)
+"dls2.ml" 266 9780 9786 "dls2.ml" 266 9780 9829
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 266 9780 9833 "dls2.ml" 266 9780 9843
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+)
+"dls2.ml" 266 9780 9845 "dls2.ml" 266 9780 9856
+type(
+  Utils.StrMap.key -> fact Utils.StrMap.t -> fact
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"dls2.ml" 266 9780 9857 "dls2.ml" 266 9780 9863
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref rconst "dls2.ml" 266 9780 9821 "dls2.ml" 266 9780 9827
+)
+"dls2.ml" 266 9780 9864 "dls2.ml" 266 9780 9867
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 266 9780 9844 "dls2.ml" 266 9780 9868
+call(
+  stack
+)
+type(
+  fact
+)
+"dls2.ml" 266 9780 9869 "dls2.ml" 266 9780 9872
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 266 9780 9873 "dls2.ml" 266 9780 9876
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "dls2.ml" 266 9780 9793 "dls2.ml" 266 9780 9796
+)
+"dls2.ml" 266 9780 9833 "dls2.ml" 266 9780 9876
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 267 9877 9894 "dls2.ml" 267 9877 9899
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "dls2.ml" 268 9950 9956 "dls2.ml" 272 10085 10094
+)
+"dls2.ml" 267 9877 9926 "dls2.ml" 267 9877 9936
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 267 9877 9938 "dls2.ml" 267 9877 9942
+type(
+  string
+)
+ident(
+  def targ "dls2.ml" 268 9950 9956 "dls2.ml" 272 10085 10094
+)
+"dls2.ml" 267 9877 9925 "dls2.ml" 267 9877 9943
+type(
+  Cfg.var_kind * string
+)
+"dls2.ml" 267 9877 9917 "dls2.ml" 267 9877 9944
+type(
+  Cfg.expr
+)
+"dls2.ml" 267 9877 9912 "dls2.ml" 267 9877 9944
+type(
+  Cfg.expr option
+)
+"dls2.ml" 267 9877 9901 "dls2.ml" 267 9877 9945
+type(
+  Cfg.method_call
+)
+"dls2.ml" 267 9877 9883 "dls2.ml" 267 9877 9946
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 268 9950 9960 "dls2.ml" 268 9950 9963
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 268 9950 9972 "dls2.ml" 268 9950 9977
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o "dls2.ml" 267 9877 9894 "dls2.ml" 267 9877 9899
+)
+"dls2.ml" 269 9983 9993 "dls2.ml" 269 9983 9997
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 269 9983 10001 "dls2.ml" 269 9983 10004
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 270 10005 10020 "dls2.ml" 270 10005 10023
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 270 10005 10027 "dls2.ml" 270 10005 10054
+)
+"dls2.ml" 270 10005 10015 "dls2.ml" 270 10005 10023
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 270 10005 10027 "dls2.ml" 270 10005 10037
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+)
+"dls2.ml" 270 10005 10038 "dls2.ml" 270 10005 10046
+type(
+  fact
+)
+"dls2.ml" 270 10005 10047 "dls2.ml" 270 10005 10050
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 270 10005 10051 "dls2.ml" 270 10005 10054
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "dls2.ml" 270 10005 10020 "dls2.ml" 270 10005 10023
+)
+"dls2.ml" 270 10005 10027 "dls2.ml" 270 10005 10054
+call(
+  stack
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 268 9950 9966 "dls2.ml" 270 10005 10054
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 272 10085 10091 "dls2.ml" 272 10085 10094
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 268 9950 9960 "dls2.ml" 268 9950 9963
+)
+"dls2.ml" 268 9950 9956 "dls2.ml" 272 10085 10094
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 273 10144 10161 "dls2.ml" 273 10144 10164
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 277 10263 10288 "dls2.ml" 277 10263 10315
+)
+"dls2.ml" 273 10144 10156 "dls2.ml" 273 10144 10164
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 273 10144 10166 "dls2.ml" 273 10144 10167
+type(
+  Cfg.class_kind
+)
+"dls2.ml" 273 10144 10170 "dls2.ml" 273 10144 10171
+type(
+  Cfg.stmt
+)
+"dls2.ml" 273 10144 10150 "dls2.ml" 273 10144 10173
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 274 10175 10193 "dls2.ml" 274 10175 10196
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 277 10263 10288 "dls2.ml" 277 10263 10315
+)
+"dls2.ml" 274 10175 10188 "dls2.ml" 274 10175 10196
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 274 10175 10198 "dls2.ml" 274 10175 10199
+type(
+  Cfg.identifier
+)
+"dls2.ml" 274 10175 10202 "dls2.ml" 274 10175 10203
+type(
+  Cfg.stmt
+)
+"dls2.ml" 274 10175 10181 "dls2.ml" 274 10175 10205
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 273 10144 10150 "dls2.ml" 274 10175 10205
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 275 10206 10228 "dls2.ml" 275 10206 10231
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 277 10263 10288 "dls2.ml" 277 10263 10315
+)
+"dls2.ml" 275 10206 10223 "dls2.ml" 275 10206 10231
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 275 10206 10233 "dls2.ml" 275 10206 10234
+type(
+  Cfg.method_call
+)
+"dls2.ml" 275 10206 10212 "dls2.ml" 275 10206 10236
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 273 10144 10150 "dls2.ml" 275 10206 10236
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 276 10237 10254 "dls2.ml" 276 10237 10257
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 277 10263 10288 "dls2.ml" 277 10263 10315
+)
+"dls2.ml" 276 10237 10249 "dls2.ml" 276 10237 10257
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 276 10237 10259 "dls2.ml" 276 10237 10260
+type(
+  Cfg.star_expr list
+)
+"dls2.ml" 276 10237 10243 "dls2.ml" 276 10237 10262
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 273 10144 10150 "dls2.ml" 276 10237 10262
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 277 10263 10276 "dls2.ml" 277 10263 10279
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "dls2.ml" 277 10263 10288 "dls2.ml" 277 10263 10315
+)
+"dls2.ml" 277 10263 10281 "dls2.ml" 277 10263 10282
+type(
+  Cfg.tuple_expr
+)
+"dls2.ml" 277 10263 10269 "dls2.ml" 277 10263 10284
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 273 10144 10150 "dls2.ml" 277 10263 10284
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 277 10263 10288 "dls2.ml" 277 10263 10298
+type(
+  fact -> fact Utils.StrMap.t -> Cfg.lhs -> fact Utils.StrMap.t
+)
+ident(
+  int_ref update_lhs "dls2.ml" 255 9160 9170 "dls2.ml" 255 9160 9180
+)
+"dls2.ml" 277 10263 10299 "dls2.ml" 277 10263 10307
+type(
+  fact
+)
+"dls2.ml" 277 10263 10308 "dls2.ml" 277 10263 10311
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 277 10263 10312 "dls2.ml" 277 10263 10315
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "dls2.ml" 273 10144 10161 "dls2.ml" 273 10144 10164
+)
+"dls2.ml" 277 10263 10288 "dls2.ml" 277 10263 10315
+call(
+  tail
+)
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 279 10323 10329 "dls2.ml" 279 10323 10330
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 279 10323 10334 "dls2.ml" 279 10323 10337
+type(
+  fact Utils.StrMap.t
+)
+ident(
+  int_ref map "dls2.ml" 262 9474 9489 "dls2.ml" 262 9474 9492
+)
+"dls2.ml" 262 9474 9500 "dls2.ml" 279 10323 10337
+type(
+  fact Utils.StrMap.t
+)
+"dls2.ml" 284 10386 10404 "dls2.ml" 284 10386 10440
+call(
+  stack
+)
+"dls2.ml" 286 10444 10450 "dls2.ml" 286 10444 10459
+type(
+  Cfg.stmt -> Lexing.position -> unit
+)
+ident(
+  def print_pos "dls2.ml" 295 10810 10812 --
+)
+"dls2.ml" 286 10444 10460 "dls2.ml" 286 10444 10464
+type(
+  Cfg.stmt
+)
+ident(
+  def node "dls2.ml" 286 10444 10465 "dls2.ml" 290 10638 10654
+)
+"dls2.ml" 286 10444 10465 "dls2.ml" 286 10444 10468
+type(
+  Lexing.position
+)
+ident(
+  def pos "dls2.ml" 287 10471 10475 "dls2.ml" 290 10638 10654
+)
+"dls2.ml" 287 10471 10475 "dls2.ml" 287 10471 10487
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 287 10471 10488 "dls2.ml" 287 10471 10529
+type(
+  string
+)
+"dls2.ml" 287 10471 10475 "dls2.ml" 287 10471 10529
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 287 10471 10531 "dls2.ml" 287 10471 10541
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dls2.ml" 287 10471 10542 "dls2.ml" 287 10471 10548
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dls2.ml" 287 10471 10549 "dls2.ml" 287 10471 10553
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref node "dls2.ml" 286 10444 10460 "dls2.ml" 286 10444 10464
+)
+"dls2.ml" 287 10471 10531 "dls2.ml" 287 10471 10553
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 288 10556 10560 "dls2.ml" 288 10556 10573
+type(
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"dls2.ml" 288 10556 10574 "dls2.ml" 288 10556 10588
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"dls2.ml" 289 10589 10595 "dls2.ml" 289 10589 10598
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "dls2.ml" 286 10444 10465 "dls2.ml" 286 10444 10468
+)
+"dls2.ml" 289 10589 10595 "dls2.ml" 289 10589 10615
+type(
+  string
+)
+"dls2.ml" 289 10589 10616 "dls2.ml" 289 10589 10619
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "dls2.ml" 286 10444 10465 "dls2.ml" 286 10444 10468
+)
+"dls2.ml" 289 10589 10616 "dls2.ml" 289 10589 10635
+type(
+  int
+)
+"dls2.ml" 288 10556 10560 "dls2.ml" 289 10589 10635
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 290 10638 10642 "dls2.ml" 290 10638 10651
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.flush_all
+)
+"dls2.ml" 290 10638 10652 "dls2.ml" 290 10638 10654
+type(
+  unit
+)
+"dls2.ml" 290 10638 10642 "dls2.ml" 290 10638 10654
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 288 10556 10560 "dls2.ml" 290 10638 10654
+type(
+  unit
+)
+"dls2.ml" 287 10471 10531 "dls2.ml" 290 10638 10654
+type(
+  unit
+)
+"dls2.ml" 287 10471 10475 "dls2.ml" 290 10638 10654
+type(
+  unit
+)
+"dls2.ml" 295 10810 10816 "dls2.ml" 295 10810 10824
+type(
+  Cfg.expr -> Cfg.stmt -> Cfg.stmt Visitor.visitAction
+)
+ident(
+  def refactor "dls2.ml" 300 10985 10987 --
+)
+"dls2.ml" 295 10810 10825 "dls2.ml" 295 10810 10829
+type(
+  Cfg.expr
+)
+ident(
+  def targ "dls2.ml" 295 10810 10830 "dls2.ml" 298 10956 10977
+)
+"dls2.ml" 295 10810 10830 "dls2.ml" 295 10810 10834
+type(
+  Cfg.stmt
+)
+ident(
+  def node "dls2.ml" 296 10837 10841 "dls2.ml" 298 10956 10977
+)
+"dls2.ml" 296 10837 10845 "dls2.ml" 296 10837 10850
+type(
+  Cfg.stmt
+)
+"dls2.ml" 296 10837 10853 "dls2.ml" 296 10837 10861
+type(
+  ?env:Utils.StrSet.t ->
+  ?filename:string ->
+  ?lineno:int ->
+  ((Format.formatter -> Cfg.expr -> unit) ->
+   Cfg.expr -> (Format.formatter -> Cfg.stmt -> unit) -> Cfg.stmt -> Cfg.stmt,
+   Format.formatter, unit, Cfg.stmt)
+  format4 ->
+  (Format.formatter -> Cfg.expr -> unit) ->
+  Cfg.expr -> (Format.formatter -> Cfg.stmt -> unit) -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg_refactor.freparse
+)
+"dls2.ml" 296 10837 10867 "dls2.ml" 296 10837 10871
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref node "dls2.ml" 295 10810 10830 "dls2.ml" 295 10810 10834
+)
+"dls2.ml" 296 10837 10867 "dls2.ml" 296 10837 10886
+type(
+  Utils.StrSet.t
+)
+"dls2.ml" 297 10887 10893 "dls2.ml" 297 10887 10921
+type(
+  ((Format.formatter -> Cfg.expr -> unit) ->
+   Cfg.expr -> (Format.formatter -> Cfg.stmt -> unit) -> Cfg.stmt -> Cfg.stmt,
+   Format.formatter, unit, Cfg.stmt)
+  format4
+)
+"dls2.ml" 297 10887 10922 "dls2.ml" 297 10887 10933
+type(
+  Format.formatter -> Cfg.expr -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.format_expr
+)
+"dls2.ml" 297 10887 10934 "dls2.ml" 297 10887 10938
+type(
+  Cfg.expr
+)
+ident(
+  int_ref targ "dls2.ml" 295 10810 10825 "dls2.ml" 295 10810 10829
+)
+"dls2.ml" 297 10887 10939 "dls2.ml" 297 10887 10950
+type(
+  Format.formatter -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.format_stmt
+)
+"dls2.ml" 297 10887 10951 "dls2.ml" 297 10887 10955
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref node "dls2.ml" 295 10810 10830 "dls2.ml" 295 10810 10834
+)
+"dls2.ml" 296 10837 10853 "dls2.ml" 297 10887 10955
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dls2.ml" 298 10956 10972 "dls2.ml" 298 10956 10977
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref nodee "dls2.ml" 296 10837 10845 "dls2.ml" 296 10837 10850
+)
+"dls2.ml" 298 10956 10963 "dls2.ml" 298 10956 10977
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"dls2.ml" 296 10837 10841 "dls2.ml" 298 10956 10977
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"dls2.ml" 300 10985 10991 "dls2.ml" 300 10985 11004
+type(
+  Cfg.stmt -> unit
+)
+ident(
+  def print_warning "dls2.ml" 304 11077 11079 --
+)
+"dls2.ml" 300 10985 11005 "dls2.ml" 300 10985 11009
+type(
+  Cfg.stmt
+)
+ident(
+  def node "dls2.ml" 301 11012 11016 "dls2.ml" 301 11012 11040
+)
+"dls2.ml" 301 11012 11016 "dls2.ml" 301 11012 11025
+type(
+  Cfg.stmt -> Cfg.pos -> unit
+)
+ident(
+  int_ref print_pos "dls2.ml" 286 10444 10450 "dls2.ml" 286 10444 10459
+)
+"dls2.ml" 301 11012 11026 "dls2.ml" 301 11012 11030
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref node "dls2.ml" 300 10985 11005 "dls2.ml" 300 10985 11009
+)
+"dls2.ml" 301 11012 11031 "dls2.ml" 301 11012 11035
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref node "dls2.ml" 300 10985 11005 "dls2.ml" 300 10985 11009
+)
+"dls2.ml" 301 11012 11031 "dls2.ml" 301 11012 11039
+type(
+  Cfg.pos
+)
+"dls2.ml" 301 11012 11016 "dls2.ml" 301 11012 11040
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 304 11077 11100 "dls2.ml" 304 11077 11103
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 304 11077 11112 "dls2.ml" 304 11077 11115
+type(
+  < print_hash : (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t)
+                 Hashtbl.t * (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t ->
+                 unit;
+    visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.StmtSet.elt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+)
+"dls2.ml" 306 11176 11192 "dls2.ml" 306 11176 11195
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+ident(
+  int_ref ifs "dls2.ml" 304 11077 11100 "dls2.ml" 304 11077 11103
+)
+"dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  def node "dls2.ml" 308 11203 11232 "dls2.ml" 343 13171 13205
+)
+"dls2.ml" 308 11203 11238 "dls2.ml" 308 11203 11242
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 308 11203 11238 "dls2.ml" 308 11203 11248
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 309 11255 11270 "dls2.ml" 309 11255 11275
+type(
+  Cfg.def_name
+)
+ident(
+  def mname "dls2.ml" 310 11293 11301 "dls2.ml" 316 11589 11653
+)
+"dls2.ml" 309 11255 11277 "dls2.ml" 309 11255 11281
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  def args "dls2.ml" 310 11293 11301 "dls2.ml" 316 11589 11653
+)
+"dls2.ml" 309 11255 11283 "dls2.ml" 309 11255 11287
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  def body "dls2.ml" 310 11293 11301 "dls2.ml" 316 11589 11653
+)
+"dls2.ml" 309 11255 11263 "dls2.ml" 309 11255 11288
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 310 11293 11301 "dls2.ml" 310 11293 11313
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 310 11293 11314 "dls2.ml" 310 11293 11337
+type(
+  string
+)
+"dls2.ml" 310 11293 11301 "dls2.ml" 310 11293 11337
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 311 11339 11351 "dls2.ml" 311 11339 11354
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 311 11339 11356 "dls2.ml" 311 11339 11360
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 311 11339 11351 "dls2.ml" 311 11339 11360
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 311 11339 11363 "dls2.ml" 311 11339 11380
+type(
+  Cfg.StmtSet.elt ->
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+ident(
+  ext_ref Liveness.fixpoint
+)
+"dls2.ml" 311 11339 11381 "dls2.ml" 311 11339 11385
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref body "dls2.ml" 309 11255 11283 "dls2.ml" 309 11255 11287
+)
+"dls2.ml" 311 11339 11363 "dls2.ml" 311 11339 11385
+call(
+  stack
+)
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 312 11389 11397 "dls2.ml" 312 11389 11398
+type(
+  < print_hash : (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t)
+                 Hashtbl.t * (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t ->
+                 unit;
+    visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.StmtSet.elt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+  as 'a
+)
+"dls2.ml" 312 11389 11397 "dls2.ml" 312 11389 11409
+call(
+  stack
+)
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t -> unit
+)
+"dls2.ml" 312 11389 11411 "dls2.ml" 312 11389 11414
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  int_ref in' "dls2.ml" 311 11339 11351 "dls2.ml" 311 11339 11354
+)
+"dls2.ml" 312 11389 11416 "dls2.ml" 312 11389 11420
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+ident(
+  int_ref out' "dls2.ml" 311 11339 11356 "dls2.ml" 311 11339 11360
+)
+"dls2.ml" 312 11389 11410 "dls2.ml" 312 11389 11421
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 312 11389 11397 "dls2.ml" 312 11389 11421
+type(
+  unit
+)
+"dls2.ml" 313 11423 11431 "dls2.ml" 313 11423 11443
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 313 11423 11444 "dls2.ml" 313 11423 11494
+type(
+  string
+)
+"dls2.ml" 313 11423 11431 "dls2.ml" 313 11423 11494
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 314 11496 11508 "dls2.ml" 314 11496 11510
+type(
+  'a
+)
+"dls2.ml" 314 11496 11523 "dls2.ml" 314 11496 11526
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+ident(
+  int_ref in' "dls2.ml" 311 11339 11351 "dls2.ml" 311 11339 11354
+)
+"dls2.ml" 314 11496 11513 "dls2.ml" 314 11496 11528
+type(
+  'a
+)
+"dls2.ml" 315 11532 11544 "dls2.ml" 315 11532 11549
+type(
+  Cfg.stmt
+)
+"dls2.ml" 315 11532 11552 "dls2.ml" 315 11532 11562
+type(
+  Cfg.cfg_visitor -> Cfg.StmtSet.elt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"dls2.ml" 315 11532 11564 "dls2.ml" 315 11532 11566
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'a
+)
+ident(
+  int_ref me "dls2.ml" 314 11496 11508 "dls2.ml" 314 11496 11510
+)
+"dls2.ml" 315 11532 11581 "dls2.ml" 315 11532 11585
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref body "dls2.ml" 309 11255 11283 "dls2.ml" 309 11255 11287
+)
+"dls2.ml" 315 11532 11552 "dls2.ml" 315 11532 11585
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dls2.ml" 316 11589 11607 "dls2.ml" 316 11589 11618
+type(
+  Cfg.StmtSet.elt -> Cfg.stmt_node -> Cfg.StmtSet.elt
+)
+ident(
+  ext_ref Cfg.update_stmt
+)
+"dls2.ml" 316 11589 11619 "dls2.ml" 316 11589 11623
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 316 11589 11632 "dls2.ml" 316 11589 11637
+type(
+  Cfg.def_name
+)
+ident(
+  int_ref mname "dls2.ml" 309 11255 11270 "dls2.ml" 309 11255 11275
+)
+"dls2.ml" 316 11589 11639 "dls2.ml" 316 11589 11643
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref args "dls2.ml" 309 11255 11277 "dls2.ml" 309 11255 11281
+)
+"dls2.ml" 316 11589 11645 "dls2.ml" 316 11589 11650
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "dls2.ml" 315 11532 11544 "dls2.ml" 315 11532 11549
+)
+"dls2.ml" 316 11589 11624 "dls2.ml" 316 11589 11652
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 316 11589 11606 "dls2.ml" 316 11589 11653
+call(
+  stack
+)
+type(
+  Cfg.StmtSet.elt
+)
+"dls2.ml" 316 11589 11597 "dls2.ml" 316 11589 11653
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 315 11532 11540 "dls2.ml" 316 11589 11653
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 314 11496 11504 "dls2.ml" 316 11589 11653
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 313 11423 11431 "dls2.ml" 316 11589 11653
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 312 11389 11397 "dls2.ml" 316 11589 11653
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 311 11339 11347 "dls2.ml" 316 11589 11653
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 310 11293 11301 "dls2.ml" 316 11589 11653
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 318 11665 11685 "dls2.ml" 318 11665 11686
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 318 11665 11706 "dls2.ml" 318 11665 11714
+type(
+  Cfg.expr
+)
+"dls2.ml" 318 11665 11701 "dls2.ml" 318 11665 11714
+type(
+  Cfg.expr option
+)
+"dls2.ml" 318 11665 11715 "dls2.ml" 318 11665 11719
+type(
+  Cfg.expr option
+)
+"dls2.ml" 318 11665 11700 "dls2.ml" 318 11665 11720
+type(
+  Cfg.expr option
+)
+"dls2.ml" 318 11665 11689 "dls2.ml" 318 11665 11721
+type(
+  Cfg.method_call
+)
+"dls2.ml" 318 11665 11673 "dls2.ml" 318 11665 11722
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 318 11665 11726 "dls2.ml" 318 11665 11738
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 320 11748 11768 "dls2.ml" 320 11748 11769
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 320 11748 11797 "dls2.ml" 320 11748 11807
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 320 11748 11809 "dls2.ml" 320 11748 11812
+type(
+  Utils.StrMap.key
+)
+ident(
+  def var "dls2.ml" 320 11748 11829 "dls2.ml" 328 12388 12399
+)
+"dls2.ml" 320 11748 11796 "dls2.ml" 320 11748 11813
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 320 11748 11789 "dls2.ml" 320 11748 11813
+type(
+  Cfg.expr
+)
+"dls2.ml" 320 11748 11788 "dls2.ml" 320 11748 11822
+type(
+  Cfg.expr
+)
+ident(
+  def targ "dls2.ml" 320 11748 11829 "dls2.ml" 328 12388 12399
+)
+"dls2.ml" 320 11748 11783 "dls2.ml" 320 11748 11822
+type(
+  Cfg.expr option
+)
+"dls2.ml" 320 11748 11772 "dls2.ml" 320 11748 11823
+type(
+  Cfg.method_call
+)
+"dls2.ml" 320 11748 11756 "dls2.ml" 320 11748 11824
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 320 11748 11829 "dls2.ml" 320 11748 11841
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 320 11748 11842 "dls2.ml" 320 11748 11858
+type(
+  string
+)
+"dls2.ml" 320 11748 11829 "dls2.ml" 320 11748 11858
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 320 11748 11861 "dls2.ml" 320 11748 11873
+type(
+  Utils.StrMap.key -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 320 11748 11874 "dls2.ml" 320 11748 11877
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref var "dls2.ml" 320 11748 11809 "dls2.ml" 320 11748 11812
+)
+"dls2.ml" 320 11748 11861 "dls2.ml" 320 11748 11877
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 320 11748 11880 "dls2.ml" 320 11748 11892
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 320 11748 11893 "dls2.ml" 320 11748 11897
+type(
+  string
+)
+"dls2.ml" 320 11748 11880 "dls2.ml" 320 11748 11897
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 320 11748 11899 "dls2.ml" 320 11748 11909
+type(
+  out_channel -> Cfg.StmtSet.elt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dls2.ml" 320 11748 11910 "dls2.ml" 320 11748 11916
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dls2.ml" 320 11748 11917 "dls2.ml" 320 11748 11921
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 320 11748 11899 "dls2.ml" 320 11748 11921
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 320 11748 11923 "dls2.ml" 320 11748 11935
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 320 11748 11936 "dls2.ml" 320 11748 11940
+type(
+  string
+)
+"dls2.ml" 320 11748 11923 "dls2.ml" 320 11748 11940
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 321 11944 11966 "dls2.ml" 321 11944 11969
+type(
+  LivenessAnalysis.t
+)
+ident(
+  def map "dls2.ml" 322 12000 12010 "dls2.ml" 326 12255 12268
+)
+"dls2.ml" 321 11944 11972 "dls2.ml" 321 11944 11984
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t ->
+  Cfg.StmtSet.elt -> LivenessAnalysis.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"dls2.ml" 321 11944 11985 "dls2.ml" 321 11944 11990
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 321 11944 11991 "dls2.ml" 321 11944 11995
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 321 11944 11972 "dls2.ml" 321 11944 11995
+call(
+  stack
+)
+type(
+  LivenessAnalysis.t
+)
+"dls2.ml" 322 12000 12026 "dls2.ml" 322 12000 12037
+type(
+  Utils.StrMap.key ->
+  LivenessAnalysis.fact Utils.StrMap.t -> LivenessAnalysis.fact
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"dls2.ml" 322 12000 12038 "dls2.ml" 322 12000 12041
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref var "dls2.ml" 320 11748 11809 "dls2.ml" 320 11748 11812
+)
+"dls2.ml" 322 12000 12042 "dls2.ml" 322 12000 12045
+type(
+  LivenessAnalysis.t
+)
+ident(
+  int_ref map "dls2.ml" 321 11944 11966 "dls2.ml" 321 11944 11969
+)
+"dls2.ml" 322 12000 12026 "dls2.ml" 322 12000 12045
+call(
+  stack
+)
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 323 12051 12065 "dls2.ml" 323 12051 12086
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 323 12051 12090 "dls2.ml" 323 12051 12103
+type(
+  Cfg.StmtSet.elt -> unit
+)
+ident(
+  int_ref print_warning "dls2.ml" 300 10985 10991 "dls2.ml" 300 10985 11004
+)
+"dls2.ml" 323 12051 12104 "dls2.ml" 323 12051 12108
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 323 12051 12090 "dls2.ml" 323 12051 12108
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 323 12051 12110 "dls2.ml" 323 12051 12118
+type(
+  Cfg.expr -> Cfg.StmtSet.elt -> Cfg.StmtSet.elt Visitor.visitAction
+)
+ident(
+  int_ref refactor "dls2.ml" 295 10810 10816 "dls2.ml" 295 10810 10824
+)
+"dls2.ml" 323 12051 12119 "dls2.ml" 323 12051 12123
+type(
+  Cfg.expr
+)
+ident(
+  int_ref targ "dls2.ml" 320 11748 11788 "dls2.ml" 320 11748 11822
+)
+"dls2.ml" 323 12051 12124 "dls2.ml" 323 12051 12128
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 323 12051 12110 "dls2.ml" 323 12051 12128
+call(
+  stack
+)
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 323 12051 12090 "dls2.ml" 323 12051 12128
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 324 12129 12143 "dls2.ml" 324 12129 12164
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 324 12129 12168 "dls2.ml" 324 12129 12180
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 322 12000 12020 "dls2.ml" 324 12129 12180
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 325 12181 12202 "dls2.ml" 325 12181 12211
+type(
+  exn
+)
+"dls2.ml" 325 12181 12216 "dls2.ml" 325 12181 12229
+type(
+  Cfg.StmtSet.elt -> unit
+)
+ident(
+  int_ref print_warning "dls2.ml" 300 10985 10991 "dls2.ml" 300 10985 11004
+)
+"dls2.ml" 325 12181 12230 "dls2.ml" 325 12181 12234
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 325 12181 12216 "dls2.ml" 325 12181 12234
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 325 12181 12236 "dls2.ml" 325 12181 12244
+type(
+  Cfg.expr -> Cfg.StmtSet.elt -> Cfg.StmtSet.elt Visitor.visitAction
+)
+ident(
+  int_ref refactor "dls2.ml" 295 10810 10816 "dls2.ml" 295 10810 10824
+)
+"dls2.ml" 325 12181 12245 "dls2.ml" 325 12181 12249
+type(
+  Cfg.expr
+)
+ident(
+  int_ref targ "dls2.ml" 320 11748 11788 "dls2.ml" 320 11748 11822
+)
+"dls2.ml" 325 12181 12250 "dls2.ml" 325 12181 12254
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 325 12181 12236 "dls2.ml" 325 12181 12254
+call(
+  stack
+)
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 325 12181 12216 "dls2.ml" 325 12181 12254
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 322 12000 12010 "dls2.ml" 326 12255 12268
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 321 11944 11962 "dls2.ml" 326 12255 12268
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 327 12269 12288 "dls2.ml" 327 12269 12297
+type(
+  exn
+)
+"dls2.ml" 327 12269 12301 "dls2.ml" 327 12269 12313
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 327 12269 12314 "dls2.ml" 327 12269 12349
+type(
+  string
+)
+"dls2.ml" 327 12269 12301 "dls2.ml" 327 12269 12349
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 327 12269 12351 "dls2.ml" 327 12269 12361
+type(
+  out_channel -> Cfg.StmtSet.elt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dls2.ml" 327 12269 12362 "dls2.ml" 327 12269 12368
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dls2.ml" 327 12269 12369 "dls2.ml" 327 12269 12373
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 327 12269 12351 "dls2.ml" 327 12269 12373
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 327 12269 12375 "dls2.ml" 327 12269 12387
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 327 12269 12351 "dls2.ml" 327 12269 12387
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 327 12269 12301 "dls2.ml" 327 12269 12387
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 321 11944 11952 "dls2.ml" 328 12388 12399
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 320 11748 11923 "dls2.ml" 328 12388 12399
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 320 11748 11899 "dls2.ml" 328 12388 12399
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 320 11748 11880 "dls2.ml" 328 12388 12399
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 320 11748 11861 "dls2.ml" 328 12388 12399
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 320 11748 11829 "dls2.ml" 328 12388 12399
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 330 12409 12429 "dls2.ml" 330 12409 12430
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 330 12409 12458 "dls2.ml" 330 12409 12471
+type(
+  Cfg.var_kind
+)
+"dls2.ml" 330 12409 12473 "dls2.ml" 330 12409 12478
+type(
+  Utils.StrMap.key
+)
+ident(
+  def const "dls2.ml" 331 12494 12502 "dls2.ml" 338 12940 12951
+)
+"dls2.ml" 330 12409 12457 "dls2.ml" 330 12409 12479
+type(
+  Cfg.var_kind * Utils.StrMap.key
+)
+"dls2.ml" 330 12409 12450 "dls2.ml" 330 12409 12479
+type(
+  Cfg.expr
+)
+"dls2.ml" 330 12409 12449 "dls2.ml" 330 12409 12488
+type(
+  Cfg.expr
+)
+ident(
+  def targ "dls2.ml" 331 12494 12502 "dls2.ml" 338 12940 12951
+)
+"dls2.ml" 330 12409 12444 "dls2.ml" 330 12409 12488
+type(
+  Cfg.expr option
+)
+"dls2.ml" 330 12409 12433 "dls2.ml" 330 12409 12489
+type(
+  Cfg.method_call
+)
+"dls2.ml" 330 12409 12417 "dls2.ml" 330 12409 12490
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 331 12494 12516 "dls2.ml" 331 12494 12519
+type(
+  LivenessAnalysis.t
+)
+ident(
+  def map "dls2.ml" 332 12550 12560 "dls2.ml" 336 12807 12820
+)
+"dls2.ml" 331 12494 12522 "dls2.ml" 331 12494 12534
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t ->
+  Cfg.StmtSet.elt -> LivenessAnalysis.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"dls2.ml" 331 12494 12535 "dls2.ml" 331 12494 12540
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 331 12494 12541 "dls2.ml" 331 12494 12545
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 331 12494 12522 "dls2.ml" 331 12494 12545
+call(
+  stack
+)
+type(
+  LivenessAnalysis.t
+)
+"dls2.ml" 332 12550 12576 "dls2.ml" 332 12550 12587
+type(
+  Utils.StrMap.key ->
+  LivenessAnalysis.fact Utils.StrMap.t -> LivenessAnalysis.fact
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"dls2.ml" 332 12550 12588 "dls2.ml" 332 12550 12593
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref const "dls2.ml" 330 12409 12473 "dls2.ml" 330 12409 12478
+)
+"dls2.ml" 332 12550 12594 "dls2.ml" 332 12550 12597
+type(
+  LivenessAnalysis.t
+)
+ident(
+  int_ref map "dls2.ml" 331 12494 12516 "dls2.ml" 331 12494 12519
+)
+"dls2.ml" 332 12550 12576 "dls2.ml" 332 12550 12597
+call(
+  stack
+)
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 333 12603 12617 "dls2.ml" 333 12603 12638
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 333 12603 12642 "dls2.ml" 333 12603 12655
+type(
+  Cfg.StmtSet.elt -> unit
+)
+ident(
+  int_ref print_warning "dls2.ml" 300 10985 10991 "dls2.ml" 300 10985 11004
+)
+"dls2.ml" 333 12603 12656 "dls2.ml" 333 12603 12660
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 333 12603 12642 "dls2.ml" 333 12603 12660
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 333 12603 12662 "dls2.ml" 333 12603 12670
+type(
+  Cfg.expr -> Cfg.StmtSet.elt -> Cfg.StmtSet.elt Visitor.visitAction
+)
+ident(
+  int_ref refactor "dls2.ml" 295 10810 10816 "dls2.ml" 295 10810 10824
+)
+"dls2.ml" 333 12603 12671 "dls2.ml" 333 12603 12675
+type(
+  Cfg.expr
+)
+ident(
+  int_ref targ "dls2.ml" 330 12409 12449 "dls2.ml" 330 12409 12488
+)
+"dls2.ml" 333 12603 12676 "dls2.ml" 333 12603 12680
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 333 12603 12662 "dls2.ml" 333 12603 12680
+call(
+  stack
+)
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 333 12603 12642 "dls2.ml" 333 12603 12680
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 334 12681 12695 "dls2.ml" 334 12681 12716
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 334 12681 12720 "dls2.ml" 334 12681 12732
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 332 12550 12570 "dls2.ml" 334 12681 12732
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 335 12733 12754 "dls2.ml" 335 12733 12763
+type(
+  exn
+)
+"dls2.ml" 335 12733 12768 "dls2.ml" 335 12733 12781
+type(
+  Cfg.StmtSet.elt -> unit
+)
+ident(
+  int_ref print_warning "dls2.ml" 300 10985 10991 "dls2.ml" 300 10985 11004
+)
+"dls2.ml" 335 12733 12782 "dls2.ml" 335 12733 12786
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 335 12733 12768 "dls2.ml" 335 12733 12786
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 335 12733 12788 "dls2.ml" 335 12733 12796
+type(
+  Cfg.expr -> Cfg.StmtSet.elt -> Cfg.StmtSet.elt Visitor.visitAction
+)
+ident(
+  int_ref refactor "dls2.ml" 295 10810 10816 "dls2.ml" 295 10810 10824
+)
+"dls2.ml" 335 12733 12797 "dls2.ml" 335 12733 12801
+type(
+  Cfg.expr
+)
+ident(
+  int_ref targ "dls2.ml" 330 12409 12449 "dls2.ml" 330 12409 12488
+)
+"dls2.ml" 335 12733 12802 "dls2.ml" 335 12733 12806
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 335 12733 12788 "dls2.ml" 335 12733 12806
+call(
+  stack
+)
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 335 12733 12768 "dls2.ml" 335 12733 12806
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 332 12550 12560 "dls2.ml" 336 12807 12820
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 331 12494 12512 "dls2.ml" 336 12807 12820
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 337 12821 12840 "dls2.ml" 337 12821 12849
+type(
+  exn
+)
+"dls2.ml" 337 12821 12853 "dls2.ml" 337 12821 12865
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 337 12821 12866 "dls2.ml" 337 12821 12901
+type(
+  string
+)
+"dls2.ml" 337 12821 12853 "dls2.ml" 337 12821 12901
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 337 12821 12903 "dls2.ml" 337 12821 12913
+type(
+  out_channel -> Cfg.StmtSet.elt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dls2.ml" 337 12821 12914 "dls2.ml" 337 12821 12920
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dls2.ml" 337 12821 12921 "dls2.ml" 337 12821 12925
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 337 12821 12903 "dls2.ml" 337 12821 12925
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 337 12821 12927 "dls2.ml" 337 12821 12939
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 337 12821 12903 "dls2.ml" 337 12821 12939
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 337 12821 12853 "dls2.ml" 337 12821 12939
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 331 12494 12502 "dls2.ml" 338 12940 12951
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 340 12961 12980 "dls2.ml" 340 12961 12981
+type(
+  Cfg.lhs option
+)
+"dls2.ml" 340 12961 12999 "dls2.ml" 340 12961 13006
+type(
+  Cfg.expr
+)
+"dls2.ml" 340 12961 12994 "dls2.ml" 340 12961 13006
+type(
+  Cfg.expr option
+)
+"dls2.ml" 340 12961 12983 "dls2.ml" 340 12961 13007
+type(
+  Cfg.method_call
+)
+"dls2.ml" 340 12961 12969 "dls2.ml" 340 12961 13008
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 340 12961 13012 "dls2.ml" 340 12961 13024
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 343 13171 13179 "dls2.ml" 343 13171 13180
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 343 13171 13184 "dls2.ml" 343 13171 13189
+type(
+  'a
+)
+"dls2.ml" 343 13171 13184 "dls2.ml" 343 13171 13200
+type(
+  Cfg.StmtSet.elt Visitor.visit_method
+)
+"dls2.ml" 343 13171 13201 "dls2.ml" 343 13171 13205
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref node "dls2.ml" 308 11203 11225 "dls2.ml" 308 11203 11229
+)
+"dls2.ml" 343 13171 13184 "dls2.ml" 343 13171 13205
+call(
+  tail
+)
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 308 11203 11232 "dls2.ml" 343 13171 13205
+type(
+  Cfg.StmtSet.elt Visitor.visitAction
+)
+"dls2.ml" 345 13215 13238 "dls2.ml" 345 13215 13241
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  def ifs "dls2.ml" 346 13251 13257 "dls2.ml" 363 13903 13927
+)
+"dls2.ml" 345 13215 13243 "dls2.ml" 345 13215 13246
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+ident(
+  def ofs "dls2.ml" 346 13251 13257 "dls2.ml" 363 13903 13927
+)
+"dls2.ml" 345 13215 13237 "dls2.ml" 345 13215 13247
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 346 13251 13257 "dls2.ml" 346 13251 13269
+type(
+  (Cfg.StmtSet.elt -> LivenessAnalysis.fact Utils.StrMap.t -> unit) ->
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"dls2.ml" 346 13251 13275 "dls2.ml" 346 13251 13276
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  def k "dls2.ml" 346 13251 13277 "dls2.ml" 362 13874 13902
+)
+"dls2.ml" 346 13251 13277 "dls2.ml" 346 13251 13278
+type(
+  LivenessAnalysis.fact Utils.StrMap.t
+)
+ident(
+  def v "dls2.ml" 348 13325 13333 "dls2.ml" 362 13874 13902
+)
+"dls2.ml" 348 13325 13333 "dls2.ml" 348 13325 13345
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 348 13325 13346 "dls2.ml" 348 13325 13350
+type(
+  string
+)
+"dls2.ml" 348 13325 13333 "dls2.ml" 348 13325 13350
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 349 13352 13360 "dls2.ml" 349 13352 13370
+type(
+  out_channel -> Cfg.StmtSet.elt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dls2.ml" 349 13352 13371 "dls2.ml" 349 13352 13377
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dls2.ml" 349 13352 13378 "dls2.ml" 349 13352 13379
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref k "dls2.ml" 346 13251 13275 "dls2.ml" 346 13251 13276
+)
+"dls2.ml" 349 13352 13360 "dls2.ml" 349 13352 13379
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 350 13381 13389 "dls2.ml" 350 13381 13401
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 350 13381 13401 "dls2.ml" 350 13381 13410
+type(
+  string
+)
+"dls2.ml" 350 13381 13389 "dls2.ml" 350 13381 13410
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 351 13412 13424 "dls2.ml" 351 13412 13439
+type(
+  LivenessAnalysis.fact Utils.StrMap.t -> bool
+)
+ident(
+  ext_ref Utils.StrMap.is_empty
+)
+"dls2.ml" 351 13412 13440 "dls2.ml" 351 13412 13441
+type(
+  LivenessAnalysis.fact Utils.StrMap.t
+)
+ident(
+  int_ref v "dls2.ml" 346 13251 13277 "dls2.ml" 346 13251 13278
+)
+"dls2.ml" 351 13412 13424 "dls2.ml" 351 13412 13441
+call(
+  stack
+)
+type(
+  bool
+)
+"dls2.ml" 351 13412 13442 "dls2.ml" 351 13412 13444
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"dls2.ml" 351 13412 13445 "dls2.ml" 351 13412 13450
+type(
+  bool
+)
+"dls2.ml" 351 13412 13423 "dls2.ml" 351 13412 13451
+type(
+  bool
+)
+"dls2.ml" 352 13457 13467 "dls2.ml" 352 13457 13478
+type(
+  (Utils.StrMap.key -> LivenessAnalysis.fact -> unit) ->
+  LivenessAnalysis.fact Utils.StrMap.t -> unit
+)
+ident(
+  ext_ref Utils.StrMap.iter
+)
+"dls2.ml" 353 13481 13508 "dls2.ml" 353 13481 13509
+type(
+  Utils.StrMap.key
+)
+ident(
+  def k "dls2.ml" 353 13481 13510 "dls2.ml" 359 13758 13833
+)
+"dls2.ml" 353 13481 13510 "dls2.ml" 353 13481 13511
+type(
+  LivenessAnalysis.fact
+)
+ident(
+  def w "dls2.ml" 354 13516 13541 "dls2.ml" 359 13758 13833
+)
+"dls2.ml" 354 13516 13541 "dls2.ml" 354 13516 13553
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 354 13516 13554 "dls2.ml" 354 13516 13557
+type(
+  string
+)
+"dls2.ml" 354 13516 13541 "dls2.ml" 354 13516 13557
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 355 13559 13584 "dls2.ml" 355 13559 13596
+type(
+  Utils.StrMap.key -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 355 13559 13597 "dls2.ml" 355 13559 13598
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref k "dls2.ml" 353 13481 13508 "dls2.ml" 353 13481 13509
+)
+"dls2.ml" 355 13559 13584 "dls2.ml" 355 13559 13598
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 356 13600 13625 "dls2.ml" 356 13600 13637
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 356 13600 13638 "dls2.ml" 356 13600 13642
+type(
+  string
+)
+"dls2.ml" 356 13600 13625 "dls2.ml" 356 13600 13642
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 357 13644 13675 "dls2.ml" 357 13644 13676
+type(
+  LivenessAnalysis.fact
+)
+ident(
+  int_ref w "dls2.ml" 353 13481 13510 "dls2.ml" 353 13481 13511
+)
+"dls2.ml" 358 13682 13711 "dls2.ml" 358 13682 13732
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 358 13682 13736 "dls2.ml" 358 13682 13748
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 358 13682 13749 "dls2.ml" 358 13682 13757
+type(
+  string
+)
+"dls2.ml" 358 13682 13736 "dls2.ml" 358 13682 13757
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 359 13758 13787 "dls2.ml" 359 13758 13808
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 359 13758 13812 "dls2.ml" 359 13758 13824
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 359 13758 13825 "dls2.ml" 359 13758 13833
+type(
+  string
+)
+"dls2.ml" 359 13758 13812 "dls2.ml" 359 13758 13833
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 357 13644 13669 "dls2.ml" 359 13758 13833
+type(
+  unit
+)
+"dls2.ml" 356 13600 13625 "dls2.ml" 359 13758 13833
+type(
+  unit
+)
+"dls2.ml" 355 13559 13584 "dls2.ml" 359 13758 13833
+type(
+  unit
+)
+"dls2.ml" 354 13516 13541 "dls2.ml" 359 13758 13833
+type(
+  unit
+)
+"dls2.ml" 352 13457 13479 "dls2.ml" 360 13834 13857
+type(
+  Utils.StrMap.key -> LivenessAnalysis.fact -> unit
+)
+"dls2.ml" 360 13834 13858 "dls2.ml" 360 13834 13859
+type(
+  LivenessAnalysis.fact Utils.StrMap.t
+)
+ident(
+  int_ref v "dls2.ml" 346 13251 13277 "dls2.ml" 346 13251 13278
+)
+"dls2.ml" 352 13457 13467 "dls2.ml" 360 13834 13859
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 362 13874 13884 "dls2.ml" 362 13874 13896
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 362 13874 13897 "dls2.ml" 362 13874 13901
+type(
+  string
+)
+"dls2.ml" 362 13874 13884 "dls2.ml" 362 13874 13901
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 351 13412 13420 "dls2.ml" 362 13874 13902
+type(
+  unit
+)
+"dls2.ml" 350 13381 13389 "dls2.ml" 362 13874 13902
+type(
+  unit
+)
+"dls2.ml" 349 13352 13360 "dls2.ml" 362 13874 13902
+type(
+  unit
+)
+"dls2.ml" 348 13325 13333 "dls2.ml" 362 13874 13902
+type(
+  unit
+)
+"dls2.ml" 346 13251 13270 "dls2.ml" 363 13903 13923
+type(
+  Cfg.StmtSet.elt -> LivenessAnalysis.fact Utils.StrMap.t -> unit
+)
+"dls2.ml" 363 13903 13924 "dls2.ml" 363 13903 13927
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  int_ref ifs "dls2.ml" 345 13215 13238 "dls2.ml" 345 13215 13241
+)
+"dls2.ml" 346 13251 13257 "dls2.ml" 363 13903 13927
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 367 13946 13952 "dls2.ml" 367 13946 13962
+type(
+  (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
+)
+ident(
+  def print_hash "dls2.ml" 393 14774 14774 --
+)
+"dls2.ml" 367 13946 13963 "dls2.ml" 367 13946 13966
+type(
+  (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  def _fs "dls2.ml" 371 14111 14115 "dls2.ml" 390 14747 14769
+)
+"dls2.ml" 371 14111 14115 "dls2.ml" 371 14111 14127
+type(
+  (Cfg.stmt -> LivenessAnalysis.fact Utils.StrMap.t -> unit) ->
+  (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"dls2.ml" 371 14111 14133 "dls2.ml" 371 14111 14134
+type(
+  Cfg.stmt
+)
+ident(
+  def k "dls2.ml" 371 14111 14135 "dls2.ml" 388 14715 14739
+)
+"dls2.ml" 371 14111 14135 "dls2.ml" 371 14111 14136
+type(
+  LivenessAnalysis.fact Utils.StrMap.t
+)
+ident(
+  def v "dls2.ml" 373 14181 14187 "dls2.ml" 388 14715 14739
+)
+"dls2.ml" 373 14181 14187 "dls2.ml" 373 14181 14197
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dls2.ml" 373 14181 14198 "dls2.ml" 373 14181 14204
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dls2.ml" 373 14181 14205 "dls2.ml" 373 14181 14206
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref k "dls2.ml" 371 14111 14133 "dls2.ml" 371 14111 14134
+)
+"dls2.ml" 373 14181 14187 "dls2.ml" 373 14181 14206
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 374 14208 14214 "dls2.ml" 374 14208 14226
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 374 14208 14226 "dls2.ml" 374 14208 14235
+type(
+  string
+)
+"dls2.ml" 374 14208 14214 "dls2.ml" 374 14208 14235
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 375 14237 14247 "dls2.ml" 375 14237 14262
+type(
+  LivenessAnalysis.fact Utils.StrMap.t -> bool
+)
+ident(
+  ext_ref Utils.StrMap.is_empty
+)
+"dls2.ml" 375 14237 14263 "dls2.ml" 375 14237 14264
+type(
+  LivenessAnalysis.fact Utils.StrMap.t
+)
+ident(
+  int_ref v "dls2.ml" 371 14111 14135 "dls2.ml" 371 14111 14136
+)
+"dls2.ml" 375 14237 14247 "dls2.ml" 375 14237 14264
+call(
+  stack
+)
+type(
+  bool
+)
+"dls2.ml" 375 14237 14265 "dls2.ml" 375 14237 14267
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"dls2.ml" 375 14237 14268 "dls2.ml" 375 14237 14273
+type(
+  bool
+)
+"dls2.ml" 375 14237 14246 "dls2.ml" 375 14237 14274
+type(
+  bool
+)
+"dls2.ml" 376 14280 14288 "dls2.ml" 376 14280 14299
+type(
+  (Utils.StrMap.key -> LivenessAnalysis.fact -> unit) ->
+  LivenessAnalysis.fact Utils.StrMap.t -> unit
+)
+ident(
+  ext_ref Utils.StrMap.iter
+)
+"dls2.ml" 377 14302 14327 "dls2.ml" 377 14302 14328
+type(
+  Utils.StrMap.key
+)
+ident(
+  def k "dls2.ml" 377 14302 14329 "dls2.ml" 383 14569 14644
+)
+"dls2.ml" 377 14302 14329 "dls2.ml" 377 14302 14330
+type(
+  LivenessAnalysis.fact
+)
+ident(
+  def w "dls2.ml" 378 14335 14358 "dls2.ml" 383 14569 14644
+)
+"dls2.ml" 378 14335 14358 "dls2.ml" 378 14335 14370
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 378 14335 14371 "dls2.ml" 378 14335 14374
+type(
+  string
+)
+"dls2.ml" 378 14335 14358 "dls2.ml" 378 14335 14374
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 379 14376 14399 "dls2.ml" 379 14376 14411
+type(
+  Utils.StrMap.key -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 379 14376 14412 "dls2.ml" 379 14376 14413
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref k "dls2.ml" 377 14302 14327 "dls2.ml" 377 14302 14328
+)
+"dls2.ml" 379 14376 14399 "dls2.ml" 379 14376 14413
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 380 14415 14438 "dls2.ml" 380 14415 14450
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 380 14415 14451 "dls2.ml" 380 14415 14455
+type(
+  string
+)
+"dls2.ml" 380 14415 14438 "dls2.ml" 380 14415 14455
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 381 14457 14486 "dls2.ml" 381 14457 14487
+type(
+  LivenessAnalysis.fact
+)
+ident(
+  int_ref w "dls2.ml" 377 14302 14329 "dls2.ml" 377 14302 14330
+)
+"dls2.ml" 382 14493 14520 "dls2.ml" 382 14493 14541
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 382 14493 14545 "dls2.ml" 382 14493 14557
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 382 14493 14558 "dls2.ml" 382 14493 14568
+type(
+  string
+)
+"dls2.ml" 382 14493 14545 "dls2.ml" 382 14493 14568
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 383 14569 14596 "dls2.ml" 383 14569 14617
+type(
+  LivenessAnalysis.fact
+)
+"dls2.ml" 383 14569 14621 "dls2.ml" 383 14569 14633
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 383 14569 14634 "dls2.ml" 383 14569 14644
+type(
+  string
+)
+"dls2.ml" 383 14569 14621 "dls2.ml" 383 14569 14644
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 381 14457 14480 "dls2.ml" 383 14569 14644
+type(
+  unit
+)
+"dls2.ml" 380 14415 14438 "dls2.ml" 383 14569 14644
+type(
+  unit
+)
+"dls2.ml" 379 14376 14399 "dls2.ml" 383 14569 14644
+type(
+  unit
+)
+"dls2.ml" 378 14335 14358 "dls2.ml" 383 14569 14644
+type(
+  unit
+)
+"dls2.ml" 376 14280 14300 "dls2.ml" 384 14645 14666
+type(
+  Utils.StrMap.key -> LivenessAnalysis.fact -> unit
+)
+"dls2.ml" 384 14645 14667 "dls2.ml" 384 14645 14668
+type(
+  LivenessAnalysis.fact Utils.StrMap.t
+)
+ident(
+  int_ref v "dls2.ml" 371 14111 14135 "dls2.ml" 371 14111 14136
+)
+"dls2.ml" 376 14280 14288 "dls2.ml" 384 14645 14668
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 386 14681 14689 "dls2.ml" 386 14681 14701
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 386 14681 14702 "dls2.ml" 386 14681 14706
+type(
+  string
+)
+"dls2.ml" 386 14681 14689 "dls2.ml" 386 14681 14706
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 375 14237 14243 "dls2.ml" 386 14681 14706
+type(
+  unit
+)
+"dls2.ml" 388 14715 14721 "dls2.ml" 388 14715 14733
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 388 14715 14734 "dls2.ml" 388 14715 14738
+type(
+  string
+)
+"dls2.ml" 388 14715 14721 "dls2.ml" 388 14715 14739
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 375 14237 14243 "dls2.ml" 388 14715 14739
+type(
+  unit
+)
+"dls2.ml" 374 14208 14214 "dls2.ml" 388 14715 14739
+type(
+  unit
+)
+"dls2.ml" 373 14181 14187 "dls2.ml" 388 14715 14739
+type(
+  unit
+)
+"dls2.ml" 371 14111 14128 "dls2.ml" 390 14747 14765
+type(
+  Cfg.stmt -> LivenessAnalysis.fact Utils.StrMap.t -> unit
+)
+"dls2.ml" 390 14747 14766 "dls2.ml" 390 14747 14769
+type(
+  (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  int_ref _fs "dls2.ml" 367 13946 13963 "dls2.ml" 367 13946 13966
+)
+"dls2.ml" 371 14111 14115 "dls2.ml" 390 14747 14769
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 393 14774 14778 "dls2.ml" 393 14774 14782
+type(
+  string -> unit
+)
+ident(
+  def main "dls2.ml" 424 15954 15954 --
+)
+"dls2.ml" 393 14774 14783 "dls2.ml" 393 14774 14788
+type(
+  string
+)
+ident(
+  def fname "dls2.ml" 394 14791 14793 "dls2.ml" 422 15902 15948
+)
+"dls2.ml" 394 14791 14797 "dls2.ml" 394 14791 14803
+type(
+  File_loader.t
+)
+"dls2.ml" 394 14791 14806 "dls2.ml" 394 14791 14824
+type(
+  File_loader.c_handler -> string list -> File_loader.t
+)
+ident(
+  ext_ref File_loader.create
+)
+"dls2.ml" 394 14791 14825 "dls2.ml" 394 14791 14845
+type(
+  File_loader.c_handler
+)
+"dls2.ml" 394 14791 14846 "dls2.ml" 394 14791 14848
+type(
+  string list
+)
+"dls2.ml" 394 14791 14806 "dls2.ml" 394 14791 14848
+call(
+  stack
+)
+type(
+  File_loader.t
+)
+"dls2.ml" 395 14852 14858 "dls2.ml" 395 14852 14859
+type(
+  Cfg.stmt
+)
+"dls2.ml" 395 14852 14862 "dls2.ml" 395 14852 14883
+type(
+  File_loader.t ->
+  ?mod_ast_f:(Ast.expr list -> Ast.expr list) ->
+  ?no_ext:bool -> string -> Cfg.stmt
+)
+ident(
+  ext_ref File_loader.load_file
+)
+"dls2.ml" 395 14852 14884 "dls2.ml" 395 14852 14890
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "dls2.ml" 394 14791 14797 "dls2.ml" 394 14791 14803
+)
+"dls2.ml" 395 14852 14891 "dls2.ml" 395 14852 14896
+type(
+  string
+)
+ident(
+  int_ref fname "dls2.ml" 393 14774 14783 "dls2.ml" 393 14774 14788
+)
+"dls2.ml" 395 14852 14862 "dls2.ml" 395 14852 14896
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dls2.ml" 396 14900 14906 "dls2.ml" 396 14900 14908
+type(
+  unit
+)
+"dls2.ml" 396 14900 14911 "dls2.ml" 396 14900 14922
+type(
+  Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg.compute_cfg
+)
+"dls2.ml" 396 14900 14923 "dls2.ml" 396 14900 14924
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "dls2.ml" 395 14852 14858 "dls2.ml" 395 14852 14859
+)
+"dls2.ml" 396 14900 14911 "dls2.ml" 396 14900 14924
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 397 14928 14934 "dls2.ml" 397 14928 14936
+type(
+  unit
+)
+"dls2.ml" 397 14928 14939 "dls2.ml" 397 14928 14957
+type(
+  ?env:Utils.StrSet.t -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg.compute_cfg_locals
+)
+"dls2.ml" 397 14928 14958 "dls2.ml" 397 14928 14959
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "dls2.ml" 395 14852 14858 "dls2.ml" 395 14852 14859
+)
+"dls2.ml" 397 14928 14939 "dls2.ml" 397 14928 14959
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 398 14963 14965 "dls2.ml" 398 14963 14977
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 398 14963 14978 "dls2.ml" 398 14963 15004
+type(
+  string
+)
+"dls2.ml" 398 14963 14965 "dls2.ml" 398 14963 15004
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 399 15007 15009 "dls2.ml" 399 15007 15019
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dls2.ml" 399 15007 15020 "dls2.ml" 399 15007 15026
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dls2.ml" 399 15007 15027 "dls2.ml" 399 15007 15028
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "dls2.ml" 395 14852 14858 "dls2.ml" 395 14852 14859
+)
+"dls2.ml" 399 15007 15009 "dls2.ml" 399 15007 15028
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 402 15046 15048 "dls2.ml" 402 15046 15057
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"dls2.ml" 402 15046 15058 "dls2.ml" 402 15046 15059
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "dls2.ml" 395 14852 14858 "dls2.ml" 395 14852 14859
+)
+"dls2.ml" 402 15046 15058 "dls2.ml" 402 15046 15063
+type(
+  Cfg.pos
+)
+"dls2.ml" 402 15046 15058 "dls2.ml" 402 15046 15079
+type(
+  int
+)
+"dls2.ml" 402 15046 15048 "dls2.ml" 402 15046 15079
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 405 15091 15093 "dls2.ml" 405 15091 15105
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 405 15091 15106 "dls2.ml" 405 15091 15159
+type(
+  string
+)
+"dls2.ml" 405 15091 15093 "dls2.ml" 405 15091 15159
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 406 15161 15167 "dls2.ml" 406 15161 15170
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 406 15161 15172 "dls2.ml" 406 15161 15175
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 406 15161 15167 "dls2.ml" 406 15161 15175
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 406 15161 15178 "dls2.ml" 406 15161 15195
+type(
+  Cfg.StmtSet.elt ->
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+ident(
+  ext_ref Liveness.fixpoint
+)
+"dls2.ml" 406 15161 15196 "dls2.ml" 406 15161 15197
+type(
+  Cfg.StmtSet.elt
+)
+ident(
+  int_ref s "dls2.ml" 395 14852 14858 "dls2.ml" 395 14852 14859
+)
+"dls2.ml" 406 15161 15178 "dls2.ml" 406 15161 15197
+call(
+  stack
+)
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t *
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+"dls2.ml" 407 15201 15203 "dls2.ml" 407 15201 15215
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 407 15201 15216 "dls2.ml" 407 15201 15263
+type(
+  string
+)
+"dls2.ml" 407 15201 15203 "dls2.ml" 407 15201 15263
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 408 15266 15268 "dls2.ml" 408 15266 15280
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 408 15266 15281 "dls2.ml" 408 15266 15298
+type(
+  string
+)
+"dls2.ml" 408 15266 15268 "dls2.ml" 408 15266 15298
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 409 15301 15303 "dls2.ml" 409 15301 15313
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
+)
+ident(
+  int_ref print_hash "dls2.ml" 367 13946 13952 "dls2.ml" 367 13946 13962
+)
+"dls2.ml" 409 15301 15314 "dls2.ml" 409 15301 15317
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  int_ref ifs "dls2.ml" 406 15161 15167 "dls2.ml" 406 15161 15170
+)
+"dls2.ml" 409 15301 15303 "dls2.ml" 409 15301 15317
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 410 15320 15322 "dls2.ml" 410 15320 15334
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 410 15320 15335 "dls2.ml" 410 15320 15382
+type(
+  string
+)
+"dls2.ml" 410 15320 15322 "dls2.ml" 410 15320 15382
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 411 15385 15387 "dls2.ml" 411 15385 15399
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 411 15385 15400 "dls2.ml" 411 15385 15417
+type(
+  string
+)
+"dls2.ml" 411 15385 15387 "dls2.ml" 411 15385 15417
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 412 15420 15422 "dls2.ml" 412 15420 15432
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
+)
+ident(
+  int_ref print_hash "dls2.ml" 367 13946 13952 "dls2.ml" 367 13946 13962
+)
+"dls2.ml" 412 15420 15433 "dls2.ml" 412 15420 15436
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  int_ref ofs "dls2.ml" 406 15161 15172 "dls2.ml" 406 15161 15175
+)
+"dls2.ml" 412 15420 15422 "dls2.ml" 412 15420 15436
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 413 15439 15441 "dls2.ml" 413 15439 15453
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 413 15439 15454 "dls2.ml" 413 15439 15502
+type(
+  string
+)
+"dls2.ml" 413 15439 15441 "dls2.ml" 413 15439 15502
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 414 15506 15512 "dls2.ml" 414 15506 15514
+type(
+  Cfg.cfg_visitor
+)
+"dls2.ml" 414 15506 15519 "dls2.ml" 414 15506 15537
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t -> analizeLivenes
+)
+"dls2.ml" 414 15506 15538 "dls2.ml" 414 15506 15541
+type(
+  (Cfg.StmtSet.elt, LivenessAnalysis.t) Hashtbl.t
+)
+ident(
+  int_ref ifs "dls2.ml" 406 15161 15167 "dls2.ml" 406 15161 15170
+)
+"dls2.ml" 414 15506 15519 "dls2.ml" 414 15506 15541
+call(
+  stack
+)
+type(
+  Cfg.cfg_visitor
+)
+type(
+  analizeLivenes
+)
+"dls2.ml" 415 15562 15568 "dls2.ml" 415 15562 15569
+type(
+  Cfg.stmt
+)
+"dls2.ml" 415 15562 15572 "dls2.ml" 415 15562 15582
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"dls2.ml" 415 15562 15583 "dls2.ml" 415 15562 15587
+type(
+  Cfg.cfg_visitor
+)
+ident(
+  int_ref sn "dls2.ml" 414 15506 15512 "dls2.ml" 414 15506 15514
+)
+"dls2.ml" 415 15562 15588 "dls2.ml" 415 15562 15589
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "dls2.ml" 395 14852 14858 "dls2.ml" 395 14852 14859
+)
+"dls2.ml" 415 15562 15572 "dls2.ml" 415 15562 15589
+call(
+  stack
+)
+type(
+  Cfg.stmt
+)
+"dls2.ml" 421 15832 15834 "dls2.ml" 421 15832 15847
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"dls2.ml" 421 15832 15847 "dls2.ml" 421 15832 15900
+type(
+  (unit, out_channel, unit) format
+)
+"dls2.ml" 421 15832 15834 "dls2.ml" 421 15832 15900
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 422 15902 15904 "dls2.ml" 422 15902 15917
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"dls2.ml" 422 15902 15918 "dls2.ml" 422 15902 15948
+type(
+  string
+)
+"dls2.ml" 422 15902 15904 "dls2.ml" 422 15902 15948
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 421 15832 15834 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 415 15562 15564 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 414 15506 15508 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 413 15439 15441 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 412 15420 15422 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 411 15385 15387 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 410 15320 15322 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 409 15301 15303 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 408 15266 15268 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 407 15201 15203 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 406 15161 15163 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 405 15091 15093 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 402 15046 15048 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 399 15007 15009 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 398 14963 14965 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 397 14928 14930 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 396 14900 14902 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 395 14852 14854 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 394 14791 14793 "dls2.ml" 422 15902 15948
+type(
+  unit
+)
+"dls2.ml" 425 15963 15969 "dls2.ml" 425 15963 15981
+type(
+  string array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"dls2.ml" 425 15963 15982 "dls2.ml" 425 15963 15990
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"dls2.ml" 425 15963 15968 "dls2.ml" 425 15963 15991
+type(
+  int
+)
+"dls2.ml" 425 15963 15992 "dls2.ml" 425 15963 15994
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"dls2.ml" 425 15963 15995 "dls2.ml" 425 15963 15996
+type(
+  int
+)
+"dls2.ml" 425 15963 15968 "dls2.ml" 425 15963 15996
+type(
+  bool
+)
+"dls2.ml" 427 16011 16015 "dls2.ml" 427 16011 16029
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"dls2.ml" 427 16011 16030 "dls2.ml" 427 16011 16063
+type(
+  (unit, out_channel, unit) format
+)
+"dls2.ml" 427 16011 16015 "dls2.ml" 427 16011 16063
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 428 16065 16069 "dls2.ml" 428 16065 16073
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"dls2.ml" 428 16065 16074 "dls2.ml" 428 16065 16075
+type(
+  int
+)
+"dls2.ml" 428 16065 16069 "dls2.ml" 428 16065 16075
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 426 15998 16005 "dls2.ml" 429 16076 16081
+type(
+  unit
+)
+"dls2.ml" 425 15963 15965 "dls2.ml" 429 16076 16081
+type(
+  unit
+)
+"dls2.ml" 430 16083 16089 "dls2.ml" 430 16083 16094
+type(
+  string
+)
+ident(
+  def fname "dls2.ml" 431 16113 16115 "dls2.ml" 432 16127 16131
+)
+"dls2.ml" 430 16083 16097 "dls2.ml" 430 16083 16105
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"dls2.ml" 430 16083 16107 "dls2.ml" 430 16083 16108
+type(
+  int
+)
+"dls2.ml" 430 16083 16097 "dls2.ml" 430 16083 16109
+type(
+  string
+)
+"dls2.ml" 431 16113 16115 "dls2.ml" 431 16113 16119
+type(
+  string -> unit
+)
+ident(
+  int_ref main "dls2.ml" 393 14774 14778 "dls2.ml" 393 14774 14782
+)
+"dls2.ml" 431 16113 16120 "dls2.ml" 431 16113 16125
+type(
+  string
+)
+ident(
+  int_ref fname "dls2.ml" 430 16083 16089 "dls2.ml" 430 16083 16094
+)
+"dls2.ml" 431 16113 16115 "dls2.ml" 431 16113 16125
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 432 16127 16129 "dls2.ml" 432 16127 16131
+type(
+  unit
+)
+"dls2.ml" 431 16113 16115 "dls2.ml" 432 16127 16131
+type(
+  unit
+)
+"dls2.ml" 430 16083 16085 "dls2.ml" 432 16127 16131
+type(
+  unit
+)
+"dls2.ml" 425 15963 15965 "dls2.ml" 432 16127 16131
+type(
+  unit
+)
+"dls2.ml" 438 16179 16183 "dls2.ml" 438 16179 16193
+type(
+  (Cfg.stmt, NilAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
+)
+ident(
+  def print_hash "dls2.ml" 461 16934 16954 --
+)
+"dls2.ml" 438 16179 16194 "dls2.ml" 438 16179 16197
+type(
+  (Cfg.stmt, NilAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  def _fs "dls2.ml" 442 16336 16338 "dls2.ml" 461 16934 16954
+)
+"dls2.ml" 442 16336 16338 "dls2.ml" 442 16336 16350
+type(
+  (Cfg.stmt -> NilAnalysis.fact Utils.StrMap.t -> unit) ->
+  (Cfg.stmt, NilAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"dls2.ml" 442 16336 16356 "dls2.ml" 442 16336 16357
+type(
+  Cfg.stmt
+)
+ident(
+  def k "dls2.ml" 442 16336 16358 "dls2.ml" 459 16906 16928
+)
+"dls2.ml" 442 16336 16358 "dls2.ml" 442 16336 16359
+type(
+  NilAnalysis.fact Utils.StrMap.t
+)
+ident(
+  def v "dls2.ml" 444 16402 16406 "dls2.ml" 459 16906 16928
+)
+"dls2.ml" 444 16402 16406 "dls2.ml" 444 16402 16416
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dls2.ml" 444 16402 16417 "dls2.ml" 444 16402 16423
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dls2.ml" 444 16402 16424 "dls2.ml" 444 16402 16425
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref k "dls2.ml" 442 16336 16356 "dls2.ml" 442 16336 16357
+)
+"dls2.ml" 444 16402 16406 "dls2.ml" 444 16402 16425
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 445 16427 16431 "dls2.ml" 445 16427 16443
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 445 16427 16443 "dls2.ml" 445 16427 16452
+type(
+  string
+)
+"dls2.ml" 445 16427 16431 "dls2.ml" 445 16427 16452
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 446 16454 16462 "dls2.ml" 446 16454 16477
+type(
+  NilAnalysis.fact Utils.StrMap.t -> bool
+)
+ident(
+  ext_ref Utils.StrMap.is_empty
+)
+"dls2.ml" 446 16454 16478 "dls2.ml" 446 16454 16479
+type(
+  NilAnalysis.fact Utils.StrMap.t
+)
+ident(
+  int_ref v "dls2.ml" 442 16336 16358 "dls2.ml" 442 16336 16359
+)
+"dls2.ml" 446 16454 16462 "dls2.ml" 446 16454 16479
+call(
+  stack
+)
+type(
+  bool
+)
+"dls2.ml" 446 16454 16480 "dls2.ml" 446 16454 16482
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"dls2.ml" 446 16454 16483 "dls2.ml" 446 16454 16488
+type(
+  bool
+)
+"dls2.ml" 446 16454 16461 "dls2.ml" 446 16454 16489
+type(
+  bool
+)
+"dls2.ml" 447 16495 16501 "dls2.ml" 447 16495 16512
+type(
+  (Utils.StrMap.key -> NilAnalysis.fact -> unit) ->
+  NilAnalysis.fact Utils.StrMap.t -> unit
+)
+ident(
+  ext_ref Utils.StrMap.iter
+)
+"dls2.ml" 448 16515 16538 "dls2.ml" 448 16515 16539
+type(
+  Utils.StrMap.key
+)
+ident(
+  def k "dls2.ml" 448 16515 16540 "dls2.ml" 454 16772 16843
+)
+"dls2.ml" 448 16515 16540 "dls2.ml" 448 16515 16541
+type(
+  NilAnalysis.fact
+)
+ident(
+  def w "dls2.ml" 449 16546 16567 "dls2.ml" 454 16772 16843
+)
+"dls2.ml" 449 16546 16567 "dls2.ml" 449 16546 16579
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 449 16546 16580 "dls2.ml" 449 16546 16583
+type(
+  string
+)
+"dls2.ml" 449 16546 16567 "dls2.ml" 449 16546 16583
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 450 16585 16606 "dls2.ml" 450 16585 16618
+type(
+  Utils.StrMap.key -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 450 16585 16619 "dls2.ml" 450 16585 16620
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref k "dls2.ml" 448 16515 16538 "dls2.ml" 448 16515 16539
+)
+"dls2.ml" 450 16585 16606 "dls2.ml" 450 16585 16620
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 451 16622 16643 "dls2.ml" 451 16622 16655
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 451 16622 16656 "dls2.ml" 451 16622 16660
+type(
+  string
+)
+"dls2.ml" 451 16622 16643 "dls2.ml" 451 16622 16660
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 452 16662 16689 "dls2.ml" 452 16662 16690
+type(
+  NilAnalysis.fact
+)
+ident(
+  int_ref w "dls2.ml" 448 16515 16540 "dls2.ml" 448 16515 16541
+)
+"dls2.ml" 453 16696 16721 "dls2.ml" 453 16696 16741
+type(
+  NilAnalysis.fact
+)
+"dls2.ml" 453 16696 16745 "dls2.ml" 453 16696 16757
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 453 16696 16758 "dls2.ml" 453 16696 16771
+type(
+  string
+)
+"dls2.ml" 453 16696 16745 "dls2.ml" 453 16696 16771
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 454 16772 16797 "dls2.ml" 454 16772 16815
+type(
+  NilAnalysis.fact
+)
+"dls2.ml" 454 16772 16819 "dls2.ml" 454 16772 16831
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 454 16772 16832 "dls2.ml" 454 16772 16843
+type(
+  string
+)
+"dls2.ml" 454 16772 16819 "dls2.ml" 454 16772 16843
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 452 16662 16683 "dls2.ml" 454 16772 16843
+type(
+  unit
+)
+"dls2.ml" 451 16622 16643 "dls2.ml" 454 16772 16843
+type(
+  unit
+)
+"dls2.ml" 450 16585 16606 "dls2.ml" 454 16772 16843
+type(
+  unit
+)
+"dls2.ml" 449 16546 16567 "dls2.ml" 454 16772 16843
+type(
+  unit
+)
+"dls2.ml" 447 16495 16513 "dls2.ml" 455 16844 16863
+type(
+  Utils.StrMap.key -> NilAnalysis.fact -> unit
+)
+"dls2.ml" 455 16844 16864 "dls2.ml" 455 16844 16865
+type(
+  NilAnalysis.fact Utils.StrMap.t
+)
+ident(
+  int_ref v "dls2.ml" 442 16336 16358 "dls2.ml" 442 16336 16359
+)
+"dls2.ml" 447 16495 16501 "dls2.ml" 455 16844 16865
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 457 16876 16882 "dls2.ml" 457 16876 16894
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 457 16876 16895 "dls2.ml" 457 16876 16899
+type(
+  string
+)
+"dls2.ml" 457 16876 16882 "dls2.ml" 457 16876 16899
+call(
+  stack
+)
+type(
+  unit
+)
+"dls2.ml" 446 16454 16458 "dls2.ml" 457 16876 16899
+type(
+  unit
+)
+"dls2.ml" 459 16906 16910 "dls2.ml" 459 16906 16922
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"dls2.ml" 459 16906 16923 "dls2.ml" 459 16906 16927
+type(
+  string
+)
+"dls2.ml" 459 16906 16910 "dls2.ml" 459 16906 16928
+call(
+  tail
+)
+type(
+  unit
+)
+"dls2.ml" 446 16454 16458 "dls2.ml" 459 16906 16928
+type(
+  unit
+)
+"dls2.ml" 445 16427 16431 "dls2.ml" 459 16906 16928
+type(
+  unit
+)
+"dls2.ml" 444 16402 16406 "dls2.ml" 459 16906 16928
+type(
+  unit
+)
+"dls2.ml" 442 16336 16351 "dls2.ml" 461 16934 16950
+type(
+  Cfg.stmt -> NilAnalysis.fact Utils.StrMap.t -> unit
+)
+"dls2.ml" 461 16934 16951 "dls2.ml" 461 16934 16954
+type(
+  (Cfg.stmt, NilAnalysis.fact Utils.StrMap.t) Hashtbl.t
+)
+ident(
+  int_ref _fs "dls2.ml" 438 16179 16194 "dls2.ml" 438 16179 16197
+)
+"dls2.ml" 442 16336 16338 "dls2.ml" 461 16934 16954
+call(
+  tail
+)
+type(
+  unit
 )
