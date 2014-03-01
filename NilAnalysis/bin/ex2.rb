@@ -24,7 +24,7 @@ A_v = 2
 a = 1
 b = 2
 c = a + (b < (a+b))
-#x,y,z=A_v,a,b
+#x,y,z=A_v,a,b	da fare
 #[a,b].minmax 
 #a=0
 #c = A_v.abs

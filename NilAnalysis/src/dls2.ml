@@ -32,11 +32,13 @@ module LivenessAnalysis = struct
     | Dead, Dead -> (* print_string "confronto \n"; *) Dead
       
   let update s v map =
+    if s <> "\n" then
     let fact =
       try meet_fact (StrMap.find s map) v
       with Not_found -> v
     in 
     StrMap.add s fact map	
+  else map
       
   let update_IF s v map =
     let fact =
@@ -54,6 +56,14 @@ module LivenessAnalysis = struct
     else
       List.fold_left (fun acc map ->
         StrMap.fold update map acc) StrMap.empty lst
+
+  let rec get_for_strings l =
+    List.fold_left ( fun acc el ->
+      match el with
+        | `Formal_block_id(_,s) -> s :: acc
+        | `Formal_star(s) -> s :: acc
+        | `Formal_tuple(m) -> get_for_strings m
+    ) [] l
         
   let rec update_lhs fact map lhs = 
 		let map = match lhs with
@@ -64,51 +74,42 @@ module LivenessAnalysis = struct
     | `Star (#lhs as l) -> print_string "asdasd\n"; update_lhs fact map l
 		in map
 
-  (* let rec update_rhs fact map rhs =
-    let map = rhs with
-    | #literal | `ID_True | `ID_False | `ID_Nil -> map
-    | `ID_Var(`Var_Local, v) | `ID_Var(`Var_Constant, v) -> update_lhs fact map v
-    | `Tuple
-  in map *)
-
   let update_use lhs value map =
     let map = update_lhs Dead map lhs 
     in let map = update value Live map
-
-    in map
-
-    (* let rec visit_e e map = match e with
-      | #literal -> print_string "lit\n"
-      | #identifier as id -> print_string "id\n" ;
-        match id with
-        | `ID_Var(`Var_Local, var) -> print_string "var local\n"; var
-        | `ID_Var(`Var_Constant, const) -> print_string "var constant \n"; const
-        | _ -> print_string "all rest\n" 
-
-        | _ -> print_string "all rest\n"; ""
-
-
-      *)
-
+  in map
 
 
    let rec visit e = match e with
-
     | `Star el -> print_string "star\n"; visit (el :> star_expr)
     | #expr as e -> print_string "expr\n";  
 
       match (e :> expr) with
       | #literal -> print_string "lit\n"; "\n"
       | #identifier as id -> print_string "id\n" ;
-
         match id with
         | `ID_Var(`Var_Local, var) -> print_string "var local\n"; var
         | `ID_Var(`Var_Constant, const) -> print_string "var constant \n"; const
-        | _ ->  print_string ""; "\n"
+        | `Tuple lst -> print_string "tuple\n" ;"\n"
+        | _ ->  print_string "qualcos'altro\n"; "\n"
+
 
   let rec visit_list list map = match list with
     | [] -> print_string "lista vuota\n"; map
     | head :: _ -> print_string "lista non vuota\n"; update (visit head) Live map
+
+  let rec visit_for_param list map = match list with
+    | [] -> print_string "lista vuota\n"; map
+    | head :: tail -> print_string "lista non vuota\n"; 
+      let map = visit_for_param tail map in
+        let map = update head Dead map
+      in map
+
+  let rec visit_tuple_expr lst map = 
+    match lst with
+    | #expr as e -> update (visit (e :> star_expr)) Live map
+    | _ -> map
+
 
   let rec transfer map stmt = match stmt.snode with
 
@@ -116,46 +117,57 @@ module LivenessAnalysis = struct
     | Assign(lhs , `ID_Nil) -> print_string "null\n"; update_lhs Dead map lhs
     | Assign(lhs, `ID_Var(`Var_Local, rvar)) ->  print_string "var\n"; update_use lhs rvar map
     | Assign(lhs, `ID_Var(`Var_Constant, rconst)) ->  print_string "constant\n"; update_use lhs rconst map
-    | Assign(lhs, `Tuple s) -> print_string "tuple\n" ; update_lhs Dead map lhs (* ) List.fold_left (update_lhs Live) map s;   *)
-
-    | Expression(_) -> print_string "expression\n"; map
+    | Assign(lhs, `Tuple s) -> print_string "tuple\n" ; update_lhs Dead map lhs
 
     | MethodCall(lhs_o, {mc_target = Some (`ID_Var(`Var_Local, var) as target); mc_args = args} ) 
     | MethodCall(lhs_o, {mc_target = Some (`ID_Var(`Var_Constant, var) as target); mc_args = args} )-> 
 			 print_string "MethodCall\n";
 
      let map =  visit_list args map in
-     (*   List.iter (fun x ->  update (visit (x :> star_expr) map) Live map) args; *)
-     (* ) List.fold_left (fun acc x -> (visit (x :> star_expr) map) :: acc ) [] args ; *)
-
-
       let map = match lhs_o with
 				| None -> map
 				| Some lhs -> update_lhs Dead map lhs;
 				in let map = update_lhs Live map target 
-				in map
+			in map
 
+    | MethodCall(lhs_o, {mc_args = args} ) ->
+      
+      let map =  visit_list args map in
+        let map = match lhs_o with
+        | None -> map
+        | Some lhs -> update_lhs Dead map lhs;
+      in map
+
+    | Expression(_) -> print_string "expression\n"; map
 
     | While(`ID_Var(`Var_Local, rvar) , _) 
     | While(`ID_Var(`Var_Constant, rvar) , _) -> print_string "while\n"; update rvar Live map
 
-    | For(p, `ID_Var(`Var_Constant, rvar), _)
-    | For(p, `ID_Var(`Var_Local, rvar), _) -> print_string "for preso param\n"; 
-  map
-
-		| Seq(_) -> print_string "seq\n"; map
+    | For(p, e, _) -> print_string "for preso param\n"; 
+    let map =
+      let list = get_for_strings p in
+        print_string (String.concat " " list); print_string "\n";
+        visit_for_param list map
+      in let l = ((e:> star_expr)::[]) in
+      let map = visit_list l map
+    in map
+    
     | Alias(_) -> print_string "alias\n"; map
 
     | If(`ID_Var(`Var_Local, rvar) ,_,_) -> print_string "if\n"; update rvar Live map
     | If(`ID_Var(`Var_Constant, rvar) ,_,_) -> print_string "if\n"; update rvar Live map
     
 
-    | Case(_) -> print_string "case\n"; map
-
-    | MethodCall(_,_)-> print_string "method call others\n"; map
+    | Case(all) ->        print_string "case\n";
+      let l = ((all.case_guard:> star_expr)::[]) in
+        let map = visit_list l map in map
+          (* let whens = all.case_whens in
+        (* st will contain all the stmt in all the when's clauses *)
+            let st = List.fold_left ( fun acc (s, _) -> (s :> star_expr)::acc ) [] whens in
+          let map = visit_list st map *)
 
     | Return(_)-> print_string "return\n"; map
-
+    | Seq(_) -> print_string "seq\n"; map
     | Yield(_,_) -> print_string "yield\n"; map
     | Module(_,_,_)-> print_string "module\n"; map
     | Method (_,_,_)-> print_string "method def\n"; map
@@ -205,7 +217,7 @@ module LivenessAnalysis = struct
     (* | Assign(lhs, MethodCall(lhs_o, {mc_target=Some (`ID_Var(`Var_Local, targ))})) -> update_use lhs targ map *)
     (* | MethodCall(Some lhs, _ ) -> print_string "tutto il resto\n"; update_lhs Dead map lhs ; *)
     | _ -> print_string "tutto il resto è noia\n";map 
-      
+
 end
 
 (* FINE CONTRACT LIVENESS *)
