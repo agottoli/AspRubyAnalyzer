@@ -16,15 +16,21 @@ a = 10
 b=3
 if (5 < 4) & (3 > 1) then
 	b = a;
-#else
-#	a=2;
+	if b = 3 then
+		if b = 3 then
+			if b = 3 then
+					puts "ciao"	
+			end
+		end
+	end
 end 
+
 
 A_v = 2
 a = 1
 b = 2
 c = a + (b < (a+b))
-#x,y,z=A_v,a,b	da fare
+x,y,z=A_v,a,b	#da fare
 #[a,b].minmax 
 #a=0
 #c = A_v.abs

@@ -93,15 +93,6 @@ module Forwards(DFP : DataFlowProblem) = struct
 				
 			| If(_, t, f) -> 
 				
-				print_string "-------------------------------------------\n";
-				(**) print_string "If: \n"; (**)
-				(**) print_stmt stdout stmt; (**)
-				print_string "TRUE:  -> ---------------------------------\n";
-				print_stmt stdout t;
-				print_string "FALSE:  -> ---------------------------------\n";
-				print_stmt stdout f;
-				print_string "-------------------------------------------\n";
-				print_string "-------------------------------------------\n";
 				(* we add the t and f branches with what we know before them (before the if) to in_tbl *)
 				Hashtbl.replace in_tbl t !ifacts;
 				Hashtbl.replace in_tbl f !ifacts;
@@ -280,9 +271,35 @@ module Forwards(DFP : DataFlowProblem) = struct
 end
 
  module Backwards(DFP : DataFlowProblem) = struct
-			
+
+ 	let print_hash ifs = 
+  	Hashtbl.iter (fun k v -> 
+    (*print_string "Statement: \n";*)
+    print_string "\n";
+    print_stmt stdout k;
+    print_string(" ->  ");
+    if ((StrMap.is_empty v) == false) then
+    	StrMap.iter (
+      	fun k w -> 
+        	print_string "(";
+          print_string k;
+          print_string ", ";
+          print_string (DFP.to_string w)
+        ) v 
+    else
+    	print_string "\n";
+  ) ifs
 		
-	let fixpoint stmt =
+	let print_map v =  StrMap.iter (
+    	fun k w -> 
+      	print_string "(";
+        print_string k;
+        print_string ", ";
+        print_string (DFP.to_string w)
+      ) v 
+	
+		
+	let rec fixpoint stmt =
 		let in_tbl = Hashtbl.create 127 in
 		let out_tbl = Hashtbl.create 127 in
 		let q = Queue.create () in
@@ -301,64 +318,42 @@ end
 								with Not_found ->
 										Hashtbl.add out_tbl stmt DFP.empty;
 										DFP.empty :: acc
-					) stmt.succs []
-			in
+					) stmt.succs [] in
 			let in_facts = DFP.join in_list in
 			let () = Hashtbl.replace in_tbl stmt in_facts in
+			match stmt.snode with
+
+			| Case(all) ->  print_string "yes\n";
+				let whens = all.case_whens in
+				let stm = List.fold_left ( fun acc (_, s) -> s::acc ) [] whens in
+				let rev = List.rev stm in						
+					List.iter( fun x -> 
+				
+					let a,b = fixpoint x in 
+					begin
+						Hashtbl.iter (fun k v ->  Hashtbl.replace in_tbl k v) a;
+						Hashtbl.iter (fun k v ->  Hashtbl.replace out_tbl k v) b;
+					end
+				) rev;
+			  
+
+			| _ ->
 			let new_facts = DFP.transfer in_facts stmt in
-			try
-				let old_facts = Hashtbl.find out_tbl stmt in
-				if DFP.eq old_facts new_facts
-				then ()
-				else begin
-					StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
-					Hashtbl.replace out_tbl stmt new_facts
-				end
-			with Not_found ->
-					StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
-					Hashtbl.replace out_tbl stmt new_facts
+				try
+					let old_facts = Hashtbl.find out_tbl stmt in
+					if DFP.eq old_facts new_facts
+					then ()
+					else begin
+						StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
+						Hashtbl.replace out_tbl stmt new_facts
+					end
+				with Not_found ->
+						StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
+						Hashtbl.replace out_tbl stmt new_facts
 		done;
 
 		in_tbl, out_tbl 
 		
-	(*		let fixpoint stmt =
-		let in_tbl = Hashtbl.create 127 in
-		let out_tbl = Hashtbl.create 127 in
-		let q = Queue.create () in
-		StmtSet.iter
-			(fun x ->
-						Queue.push x q;
-						Hashtbl.add in_tbl x DFP.empty
-			) (exits stmt);
-		while not (Queue.is_empty q) do
-			let stmt = Queue.pop q in
-			let in_list =
-				StmtSet.fold
-					(fun stmt acc ->
-								try (Hashtbl.find out_tbl stmt) :: acc
-								with Not_found ->
-										Hashtbl.add out_tbl stmt DFP.empty;
-										DFP.empty :: acc
-					) stmt.succs []
-			in
-			let in_facts = DFP.join in_list in
-			let () = Hashtbl.replace in_tbl stmt in_facts in
-			let new_facts = DFP.transfer in_facts stmt in
-			try
-				let old_facts = Hashtbl.find out_tbl stmt in
-				if DFP.eq old_facts new_facts
-				then ()
-				else begin
-					StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
-					Hashtbl.replace out_tbl stmt new_facts
-				end
-			with Not_found ->
-					StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
-					Hashtbl.replace out_tbl stmt new_facts
-		done;
-
-		in_tbl, out_tbl *)
-
 	
 end 
 

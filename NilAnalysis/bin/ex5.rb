@@ -1,10 +1,11 @@
 a=4
-b=1
+b=2
+c = 2
 d = 4
-case a 
-	when c = 10 then a=1; b=nil
-	when d then a=2; c=2
-	#else a=3
+case b 
+	when c then b.to_s; b=3
+	when d then a.to_s
+	else a=3
 end
 #a.to_s		#NonNil (definito in tutti i casi)
 #b.to_s		#MaybeNil

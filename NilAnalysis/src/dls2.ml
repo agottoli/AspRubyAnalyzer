@@ -79,23 +79,6 @@ module LivenessAnalysis = struct
     in let map = update value Live map
   in map
 
-(* let rec visit_tuple vtor tup =
-  visit vtor#visit_tuple tup begin function
-      | #expr as e -> (visit_expr vtor e :> tuple_expr)
-      | `Tuple lst ->
-          let lst' = map_preserve List.map (visit_tuple vtor) lst in
-          if lst == lst' then tup
-          else `Tuple lst'
-      | `Star (#expr as e) ->
-          let e' = visit_expr vtor e in
-          if e == e' then tup else (`Star e' :> tuple_expr)
-      | `Star (`Tuple lst) ->
-          let lst' = map_preserve List.map (visit_tuple vtor) lst in
-          if lst == lst' then tup
-          else `Star(`Tuple lst')
-    end
-  *)
-
  let rec aux e = match (e: expr) with
     | #literal -> print_string "lit\n"; "\n"
     | #identifier as id -> print_string "id\n" ;
@@ -148,6 +131,66 @@ module LivenessAnalysis = struct
         let map = update head Dead map
       in map
 
+  let rec multiple_join map list = match list with
+  | [] -> map
+  | head :: tail -> 
+    let map = join map::head in 
+      let map = multiple_join map tail 
+    in map
+
+let rec exists_fp visited stmt exits =
+  if StmtSet.is_empty stmt.succs
+  then StmtSet.add stmt exits
+  else
+    let todo = StmtSet.diff stmt.succs visited in
+    let visited' = StmtSet.union visited todo in
+    StmtSet.fold
+      (fun stmt exits ->
+            exists_fp
+              visited'
+              stmt
+              exits
+      ) todo exits
+
+let exits stmt = exists_fp StmtSet.empty stmt StmtSet.empty
+
+  let tmp_fix stmt t =
+    let in_tbl = Hashtbl.create 127 in
+    let out_tbl = Hashtbl.create 127 in
+    let q = Queue.create () in
+    StmtSet.iter
+      (fun x ->
+            Queue.push x q;
+            Hashtbl.add in_tbl x empty
+      ) (exits stmt);
+      
+    while not (Queue.is_empty q) do
+      let stmt = Queue.pop q in
+      let in_list =
+        StmtSet.fold
+          (fun stmt acc ->
+                try (Hashtbl.find out_tbl stmt) :: acc
+                with Not_found ->
+                    Hashtbl.add out_tbl stmt empty;
+                    empty :: acc
+          ) stmt.succs [] in
+      let in_facts = join in_list in
+      let () = Hashtbl.replace in_tbl stmt in_facts in
+      let new_facts = t in_facts stmt in
+        try
+          let old_facts = Hashtbl.find out_tbl stmt in
+          if eq old_facts new_facts
+          then ()
+          else begin
+            StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
+            Hashtbl.replace out_tbl stmt new_facts
+          end
+        with Not_found ->
+            StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
+            Hashtbl.replace out_tbl stmt new_facts
+    done;
+
+    out_tbl 
 
   let rec transfer map stmt = match stmt.snode with
 
@@ -155,7 +198,10 @@ module LivenessAnalysis = struct
     | Assign(lhs , `ID_Nil) -> print_string "null\n"; update_lhs Dead map lhs
     | Assign(lhs, `ID_Var(`Var_Local, rvar)) ->  print_string "var\n"; update_use lhs rvar map
     | Assign(lhs, `ID_Var(`Var_Constant, rconst)) ->  print_string "constant\n"; update_use lhs rconst map
-    | Assign(lhs, `Tuple s) -> print_string "tuple\n" ; update_lhs Dead map lhs
+    | Assign(lhs, `Tuple s) -> print_string "tuple\n" ; 
+      let map = update_lhs Dead map lhs in
+        let map = vst_list_tuple s map 
+      in map
 
     | MethodCall(lhs_o, {mc_target = Some (`ID_Var(`Var_Local, var) as target); mc_args = args} ) 
     | MethodCall(lhs_o, {mc_target = Some (`ID_Var(`Var_Constant, var) as target); mc_args = args} )-> 
@@ -192,28 +238,31 @@ module LivenessAnalysis = struct
     | If(`ID_Var(`Var_Constant, rvar) ,_,_) -> print_string "if\n"; update rvar Live map
     
 
-    | Case(all) ->        print_string "case\n";
-      let l = ((all.case_guard:> star_expr)::[]) in
-        let map = visit_list l map in
+    | Case(all) -> print_string "case\n"; print_string ("vediamo-> "^(to_string map)); print_string "\n";
+
           let whens = all.case_whens in
         (* st will contain all the stmt in all the when's clauses *)
           let cond = List.fold_left ( fun acc (s, _) -> (s :> tuple_expr)::acc ) [] whens in
-          let map = vst_list_tuple cond map 
+          let stm = List.fold_left ( fun acc (_, s) -> s::acc ) [] whens in
+          let map = List.fold_left (fun acc x -> Hashtbl.find (tmp_fix x (transfer)) x ) map stm in
+          let map = vst_list_tuple cond map in
+          let l = ((all.case_guard:> star_expr)::[]) in
+          let map = visit_list l map
 
         in map
 
-    | Yield(lhs_o ,args) ->       print_string "yield\n";
+    | Yield(lhs_o ,args) -> print_string "yield\n";
       let map =  visit_list args map in
         let map = match lhs_o with
         | None -> map
         | Some lhs -> update_lhs Dead map lhs;
       in map
 
-    (* | Return(s)-> print_string "return\n"; 
+   | Return(s)-> print_string "return\n"; 
       let map = match s with
       | None -> map
-      | Some el -> match_tuple_expr el map
-    in map *)
+      | Some el -> vst_list_tuple (el::[]) map
+    in map
 
 
 
