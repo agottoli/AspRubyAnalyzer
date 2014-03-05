@@ -243,8 +243,8 @@ let exits stmt = exists_fp StmtSet.empty stmt StmtSet.empty
           let whens = all.case_whens in
         (* st will contain all the stmt in all the when's clauses *)
           let cond = List.fold_left ( fun acc (s, _) -> (s :> tuple_expr)::acc ) [] whens in
-          let stm = List.fold_left ( fun acc (_, s) -> s::acc ) [] whens in
-          let map = List.fold_left (fun acc x -> Hashtbl.find (tmp_fix x (transfer)) x ) map stm in
+          (* let stm = List.fold_left ( fun acc (_, s) -> s::acc ) [] whens in
+          let map = List.fold_left (fun acc x -> Hashtbl.find (tmp_fix x (transfer)) x ) map stm in *)
           let map = vst_list_tuple cond map in
           let l = ((all.case_guard:> star_expr)::[]) in
           let map = visit_list l map

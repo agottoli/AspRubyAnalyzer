@@ -311,6 +311,10 @@ end
 			
 		while not (Queue.is_empty q) do
 			let stmt = Queue.pop q in
+			print_string "preds: ("; StmtSet.iter (print_stmt stdout ) stmt.preds ; print_string ")!!!\n";
+			print_string "now: ("; print_stmt stdout stmt; print_string ") \n \n";
+			print_string "succ: ("; StmtSet.iter (print_stmt stdout ) stmt.succs ; print_string ")!!!\n";
+
 			let in_list =
 				StmtSet.fold
 					(fun stmt acc ->
@@ -335,7 +339,8 @@ end
 						Hashtbl.iter (fun k v ->  Hashtbl.replace out_tbl k v) b;
 					end
 				) rev;
-			  
+					let new_facts = DFP.transfer in_facts stmt in
+			  			Hashtbl.replace out_tbl stmt new_facts;
 
 			| _ ->
 			let new_facts = DFP.transfer in_facts stmt in
