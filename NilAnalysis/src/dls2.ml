@@ -264,6 +264,10 @@ let exits stmt = exists_fp StmtSet.empty stmt StmtSet.empty
       | Some el -> vst_list_tuple (el::[]) map
     in map
 
+    | Expression(e) -> print_string "expression\n"; 
+      let map = update (vst_expr (e :> star_expr)) Live map
+        in map
+
 
 
     (*    ELIMINABILI 
@@ -380,6 +384,56 @@ module Liveness = Dataflow.Backwards(LivenessAnalysis)
   (* Printf.printf "[WARNING]: MaybeNil dereference in %s at line %d \n" *)
   (* pos.Lexing.pos_fname pos.Lexing.pos_lnum; *)
   (* flush_all () *)
+    let print_map v =  StrMap.iter (
+      fun k w -> 
+        print_string "(";
+        print_string k;
+        print_string ", ";
+        print_string (LivenessAnalysis.to_string w)
+      ) v 
+
+    let rec get_for_strings l =
+    List.fold_left ( fun acc el ->
+      match el with
+        | `Formal_block_id(_,s) -> s :: acc
+        | `Formal_star(s) -> s :: acc
+        | `Formal_tuple(m) -> get_for_strings m
+    ) [] l
+
+  let print_row_table k map =
+    (* print_int stdout k; *)
+    print_stmt stdout k;
+    Printf.printf " %d - %d\n" k.pos.Lexing.pos_lnum k.sid;
+    print_string "\n"
+      (* print_string "-\n"*)
+
+    let rec print_var_table stmt out_tbl =
+      match stmt.snode with
+      | Seq(list) ->
+          List.iter( fun x -> 
+                      print_var_table x out_tbl ) list
+      | While(g, b) ->
+          print_string "while \n"; 
+          print_var_table b out_tbl; 
+          print_string "end\n"
+
+      | For(p,_,b) ->
+          print_string "for "; 
+          print_string (String.concat " " (get_for_strings p)); print_string "\n";
+          print_var_table b out_tbl; 
+          print_string "end\n"
+
+      | _ -> print_row_table stmt (Hashtbl.find out_tbl stmt)
+
+      (* let list_tbl = 
+        Hashtbl.fold (fun k v acc -> k :: acc) out_tbl [] in
+
+        let sorted = List.sort (fun x y -> Pervasives.compare x.pos y.pos ) list_tbl in
+        List.iter (fun x -> match x.snode with
+                            | Seq(_) -> print_string ""
+                            | _ -> print_row_table x (Hashtbl.find out_tbl x)
+        ) sorted *)
+
       
   let refactor targ node =
     let nodee = freparse ~env:node.lexical_locals
@@ -389,6 +443,8 @@ module Liveness = Dataflow.Backwards(LivenessAnalysis)
   let print_warning node =
     print_pos node node.pos;
   (* print_stmt stdout node *)
+
+
     
   class analizeLivenes ifs = object(s)		(* safeNil visitor *)
     inherit default_visitor as super
@@ -396,6 +452,7 @@ module Liveness = Dataflow.Backwards(LivenessAnalysis)
       
     method visit_stmt node = match node.snode with 
       | Method(mname, args, body) -> 
+
         print_string "Method definition: \n";
         let in', out' = Liveness.fixpoint body in
         s#print_hash (in', out');
@@ -500,8 +557,9 @@ let main fname =
   print_string "ofs content: \n"; 
   print_hash ofs; 
   print_string "--------------------------------------------\n";  
-  let sn = ( new analizeLivenes ifs :> cfg_visitor ) in
-  let _ = visit_stmt (sn) s in
+  print_var_table s ofs;
+  (* let sn = ( new analizeLivenes ifs :> cfg_visitor ) in
+  let _ = visit_stmt (sn) s in *)
   (* print_string "Transformed code: \n"; *)
   (* CodePrinter.print_stmt stdout ss *)
   (* print_string "--------------------------------------------\n"; *)
@@ -509,6 +567,7 @@ let main fname =
   (* ErrorPrinter.print_stmt stdout ss *)
   Printf.printf("\n---------------------------------------------\n");
   print_endline "Nilness analysis complete.\n"
+
     
 let _ = 
   if (Array.length Sys.argv) != 2 

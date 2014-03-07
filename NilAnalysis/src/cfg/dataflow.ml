@@ -299,9 +299,9 @@ end
       ) v 
 	
 		
-	let rec fixpoint stmt =
-		let in_tbl = Hashtbl.create 127 in
-		let out_tbl = Hashtbl.create 127 in
+	(* let rec fixpoint in_tbl out_tbl stmt =
+		(* let in_tbl = Hashtbl.create 127 in
+		let out_tbl = Hashtbl.create 127 in *)
 		let q = Queue.create () in
 		StmtSet.iter
 			(fun x ->
@@ -311,10 +311,9 @@ end
 			
 		while not (Queue.is_empty q) do
 			let stmt = Queue.pop q in
-			print_string "preds: ("; StmtSet.iter (print_stmt stdout ) stmt.preds ; print_string ")!!!\n";
+			(*  print_string "preds: ("; StmtSet.iter (print_stmt stdout ) stmt.preds ; print_string ")!!!\n"; *)
 			print_string "now: ("; print_stmt stdout stmt; print_string ") \n \n";
-			print_string "succ: ("; StmtSet.iter (print_stmt stdout ) stmt.succs ; print_string ")!!!\n";
-
+			(* print_string "succ: ("; StmtSet.iter (print_stmt stdout ) stmt.succs ; print_string ")!!!\n"; *)
 			let in_list =
 				StmtSet.fold
 					(fun stmt acc ->
@@ -324,7 +323,7 @@ end
 										DFP.empty :: acc
 					) stmt.succs [] in
 			let in_facts = DFP.join in_list in
-			let () = Hashtbl.replace in_tbl stmt in_facts in
+			Hashtbl.replace in_tbl stmt in_facts ;
 			match stmt.snode with
 
 			| Case(all) ->  print_string "yes\n";
@@ -333,7 +332,7 @@ end
 				let rev = List.rev stm in						
 					List.iter( fun x -> 
 				
-					let a,b = fixpoint x in 
+					let a,b = fixpoint in_tbl out_tbl x in 
 					begin
 						Hashtbl.iter (fun k v ->  Hashtbl.replace in_tbl k v) a;
 						Hashtbl.iter (fun k v ->  Hashtbl.replace out_tbl k v) b;
@@ -342,6 +341,32 @@ end
 					let new_facts = DFP.transfer in_facts stmt in
 			  			Hashtbl.replace out_tbl stmt new_facts;
 
+
+
+				(* let ifacts = ref in_facts  in
+				let ofacts = ref DFP.empty in
+let in_t, out_t = fixpoint b in
+				while(not (DFP.eq !ifacts !ofacts)) do
+					ofacts := !ifacts;
+					let in_t, out_t = fixpoint b in *)
+
+					(* strmap_union (DFP.meet_fact_IF) !ifacts (Hashtbl.find out_t b); *)
+(*
+					ifacts := DFP.join (!ifacts :: ((Hashtbl.find out_t b) ::[]));	(* returns a StrMap *)
+					ifacts := DFP.join (!ifacts :: ((DFP.transfer !ifacts stmt) ::[]));
+				
+				print_string (DFP.to_string !ifacts)
+			*)		
+				(* print_string "While: \n"; *)
+				(* print_stmt stdout stmt; *)
+				(* b_facts contains what we know before analyzing the while *)
+
+					(* we now have ifacts containing what is true before the while stmt and b_facts containing what is true after having *)
+					(* analyzed the body of the while until nothing change; we now have to join them into a single one following *)
+					(* the while semantics *)
+  					
+  				(* returns a StrMap *)
+
 			| _ ->
 			let new_facts = DFP.transfer in_facts stmt in
 				try
@@ -349,6 +374,7 @@ end
 					if DFP.eq old_facts new_facts
 					then ()
 					else begin
+
 						StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
 						Hashtbl.replace out_tbl stmt new_facts
 					end
@@ -357,7 +383,165 @@ end
 						Hashtbl.replace out_tbl stmt new_facts
 		done;
 
-		in_tbl, out_tbl 
+		in_tbl, out_tbl  *)
+
+(* --------------------------------------------------------------------------
+
+	NEW FIXPOINT 
+	
+	-------------------------------------------------------------------------- *)
+let do_while f p =
+  let rec loop() =
+    f();
+    if p() then loop()
+  in
+  loop()
+
+let rec super_fixpoint stmt in_tbl out_tbl =
+		(* prendo i fatti che mi riguardano, ci sono perche' li ha aggiunti mio padre *)
+		(* ifacts contains what is true before analyzing stmt *)
+		let ifacts = ref (Hashtbl.find in_tbl stmt) in	(* ifacts è var che punta a...StrMap! *)
+		
+		match stmt.snode with
+			| Seq(list) -> 
+				print_string "Sequence: \n"; 
+				print_stmt stdout stmt; 
+				let newfacts = ref !ifacts in
+				let rev_list = List.rev list in
+  				List.iter (fun x -> 
+  					Hashtbl.replace in_tbl x !ifacts;
+  					newfacts := super_fixpoint x in_tbl out_tbl;
+  					Hashtbl.replace out_tbl x !newfacts;
+						(* the calculated facts for the current stmt become the input facts for the next stmt *)
+  					ifacts := !newfacts
+  				) rev_list;
+				(* at the end of the sequence we return what is true at that moment, after the last element *)
+				!newfacts
+				
+			| If(_, t, f) -> 
+				
+				(* we add the t and f branches with what we know before them (before the if) to in_tbl *)
+				Hashtbl.replace in_tbl t !ifacts;
+				Hashtbl.replace in_tbl f !ifacts;
+				let t_facts = super_fixpoint t in_tbl out_tbl in
+				let f_facts = super_fixpoint f in_tbl out_tbl in
+  				Hashtbl.replace out_tbl t t_facts;
+  				Hashtbl.replace out_tbl f f_facts;
+					(* we have computed t_facts and f_facts independently based on what we know before the if stmt, now we have *)
+					(* two StrMap and we have to join them into a single one following the if semantics *)
+  				DFP.transfer (DFP.join (t_facts :: (f_facts ::[]))) stmt(* returns a StrMap *)
+					
+			| While(_, b) ->
+				(* print_string "While: \n"; *)
+				(* print_stmt stdout stmt; *)
+				(* b_facts contains what we know before analyzing the while *)
+				let b_facts = ref !ifacts in
+				let old_facts = ref DFP.empty in
+
+				do_while (fun () -> Hashtbl.replace in_tbl b !b_facts;
+				    				old_facts := !b_facts;
+				    				b_facts := super_fixpoint b in_tbl out_tbl;
+									b_facts := DFP.join (!ifacts :: (!b_facts ::[]));
+									b_facts := DFP.transfer !b_facts stmt )
+						(fun () -> not (DFP.eq !old_facts !b_facts) );
+  				(* while (not (DFP.eq !old_facts !b_facts)) do
+    				Hashtbl.replace in_tbl b !b_facts;
+    				old_facts := !b_facts;
+    				b_facts := super_fixpoint b in_tbl out_tbl;
+					b_facts := DFP.join (!ifacts :: (!b_facts ::[]));
+					b_facts := DFP.transfer !b_facts stmt
+  				done; *)
+  				Hashtbl.replace out_tbl b !b_facts;
+					(* we now have ifacts containing what is true before the while stmt and b_facts containing what is true after having *)
+					(* analyzed the body of the while until nothing change; we now have to join them into a single one following *)
+					(* the while semantics *)
+  				DFP.join (!ifacts :: (!b_facts ::[]))	(* returns a StrMap *)
+					
+			| For (_, _, b) ->
+				(* print_string "For: \n"; *)
+				(* print_stmt stdout stmt; *)
+				(* for each for parameter we add to ifacts the mapping (variable, MaybeNil) *)
+				(* list contains all the variables that appears after the for keyword, in string form! *)
+				(* let list = get_for_strings p in *)
+				(* print_string "for parameters: \n"; *)
+				(* List.iter (fun e -> print_string e; print_string " ";) list; print_string "\n"; *)
+				(* List.iter (fun x -> 
+					let l = C.local x in
+					let r = C.inil in
+					let s = mkstmt (Assign((l:> lhs), (r:> tuple_expr))) Lexing.dummy_pos in
+					(* print_string "generated stmt: \n"; *)
+					(* print_stmt stdout s; print_string " "; *)
+					ifacts := DFP.transfer !ifacts s
+				) list; *)
+				(* what we know before the for stmt is what we know before it in the sequence + the mapping (var, MaybeNil) *)
+				(* for each of its var parameters (local variables) *)
+				let b_facts = ref !ifacts in
+				let old_facts = ref DFP.empty in
+
+				do_while (fun () -> Hashtbl.replace in_tbl b !b_facts;
+				    				old_facts := !b_facts;
+				    				b_facts := super_fixpoint b in_tbl out_tbl;
+									b_facts := DFP.join (!ifacts :: (!b_facts ::[]));
+									b_facts := DFP.transfer !b_facts stmt )
+						(fun () -> not (DFP.eq !old_facts !b_facts) );
+
+  				Hashtbl.replace out_tbl b !b_facts;
+  				DFP.join (!ifacts :: (!b_facts ::[]))	(* returns a StrMap *)
+					
+		  | Case (b) ->
+
+				(* we get all of the stmt that appears in the when's clauses *)
+				let whens = b.case_whens in
+				(* st will contain all the stmt in all the when's clauses *)
+				let st = List.fold_left ( fun acc (_, s) -> s::acc ) [] whens in
+				(* List.iter (fun x -> print_stmt stdout x; print_string " ";) st; print_string "\n"; *)
+				let default = b.case_else in
+					let st = match default with
+						| None -> st
+						| Some s -> s::st
+					in
+						(* finalfacts will contain a StrMap for each when's stmt containing what we know after having analyzed it *)
+						let st_rev = List.rev st in
+						let finalfacts = 
+							(* x is each stmt in each branch of the case *)
+							List.fold_left ( fun acc x ->
+								(* before each stmt in each branch what we know is what we know before the case stmt *)
+  							Hashtbl.replace in_tbl x !ifacts;
+  							let newfacts = super_fixpoint x in_tbl out_tbl in
+  							Hashtbl.replace out_tbl x newfacts;
+  							newfacts :: acc
+						) [] st_rev
+						in
+							(* we apply the join operator between all the elements of finalfacts *)
+							let tmp_fact = List.fold_left ( fun acc x ->
+								DFP.join (acc :: (x :: []))
+							) (List.hd finalfacts) (List.tl finalfacts) in
+							DFP.transfer tmp_fact stmt;
+
+							
+		  (* |Assign (_) ->  
+				(**) print_string "Assignment: \n"; (**)
+				(**) print_stmt stdout stmt; (**)
+				DFP.transfer !ifacts stmt	(* we compute newfacts on stmt based on what we know *)
+				
+			|MethodCall(_, _) ->
+				(**) print_string "Method call: \n"; (**)
+				(**) print_stmt stdout stmt; (**)
+				DFP.transfer !ifacts stmt *)
+				
+			| _ ->  
+				(**) print_string "Other: \n"; (**)
+				(**) print_stmt stdout stmt; (**)
+				DFP.transfer !ifacts stmt 
+
+	let fixpoint stmt =
+		let in_tbl = Hashtbl.create 127 in
+		let out_tbl = Hashtbl.create 127 in
+			Hashtbl.replace in_tbl stmt DFP.empty;
+			let newfacts = super_fixpoint stmt in_tbl out_tbl in
+				(*newfacts is what we know after stmt, the entire program! *)
+				Hashtbl.replace out_tbl stmt newfacts;
+		in_tbl, out_tbl
 		
 	
 end 

@@ -4258,7 +4258,7 @@ type(
   (Cfg.stmt, DFP.t Utils.StrMap.t) Hashtbl.t -> unit
 )
 ident(
-  def print_hash "dataflow.ml" 293 9965 9966 "dataflow.ml" 363 12010 12013
+  def print_hash "dataflow.ml" 293 9965 9966 "dataflow.ml" 547 19549 19552
 )
 "dataflow.ml" 275 9538 9555 "dataflow.ml" 275 9538 9558
 type(
@@ -4589,7 +4589,7 @@ type(
   DFP.t Utils.StrMap.t -> unit
 )
 ident(
-  def print_map "dataflow.ml" 302 10147 10148 "dataflow.ml" 363 12010 12013
+  def print_map "dataflow.ml" 393 13184 13184 "dataflow.ml" 547 19549 19552
 )
 "dataflow.ml" 293 9965 9980 "dataflow.ml" 293 9965 9981
 type(
@@ -4741,774 +4741,2113 @@ call(
 type(
   unit
 )
-"dataflow.ml" 302 10147 10156 "dataflow.ml" 302 10147 10164
+"dataflow.ml" 393 13184 13188 "dataflow.ml" 393 13184 13196
 type(
-  Cfg.StmtSet.elt ->
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (unit -> 'a) -> (unit -> bool) -> unit
 )
 ident(
-  def fixpoint "dataflow.ml" 302 10147 10148 "dataflow.ml" 363 12010 12013
+  def do_while "dataflow.ml" 400 13269 13269 "dataflow.ml" 547 19549 19552
 )
-"dataflow.ml" 302 10147 10165 "dataflow.ml" 302 10147 10169
+"dataflow.ml" 393 13184 13197 "dataflow.ml" 393 13184 13198
 type(
-  Cfg.StmtSet.elt
+  unit -> 'a
 )
 ident(
-  def stmt "dataflow.ml" 303 10172 10174 "dataflow.ml" 360 11986 12003
+  def f "dataflow.ml" 393 13184 13199 "dataflow.ml" 398 13259 13267
 )
-"dataflow.ml" 303 10172 10178 "dataflow.ml" 303 10172 10184
+"dataflow.ml" 393 13184 13199 "dataflow.ml" 393 13184 13200
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-"dataflow.ml" 303 10172 10187 "dataflow.ml" 303 10172 10201
-type(
-  int -> (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  unit -> bool
 )
 ident(
-  ext_ref Hashtbl.create
+  def p "dataflow.ml" 394 13203 13205 "dataflow.ml" 398 13259 13267
 )
-"dataflow.ml" 303 10172 10202 "dataflow.ml" 303 10172 10205
+"dataflow.ml" 394 13203 13213 "dataflow.ml" 394 13203 13217
 type(
-  int
+  unit -> unit
 )
-"dataflow.ml" 303 10172 10187 "dataflow.ml" 303 10172 10205
-call(
-  stack
-)
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-"dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-"dataflow.ml" 304 10209 10225 "dataflow.ml" 304 10209 10239
-type(
-  int -> (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-ident(
-  ext_ref Hashtbl.create
-)
-"dataflow.ml" 304 10209 10240 "dataflow.ml" 304 10209 10243
-type(
-  int
-)
-"dataflow.ml" 304 10209 10225 "dataflow.ml" 304 10209 10243
-call(
-  stack
-)
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-"dataflow.ml" 305 10247 10253 "dataflow.ml" 305 10247 10254
-type(
-  Cfg.StmtSet.elt Queue.t
-)
-"dataflow.ml" 305 10247 10257 "dataflow.ml" 305 10247 10269
-type(
-  unit -> Cfg.StmtSet.elt Queue.t
-)
-ident(
-  ext_ref Queue.create
-)
-"dataflow.ml" 305 10247 10270 "dataflow.ml" 305 10247 10272
+"dataflow.ml" 394 13203 13217 "dataflow.ml" 394 13203 13219
 type(
   unit
 )
-"dataflow.ml" 305 10247 10257 "dataflow.ml" 305 10247 10272
-call(
-  stack
-)
+"dataflow.ml" 395 13222 13226 "dataflow.ml" 395 13222 13227
 type(
-  Cfg.StmtSet.elt Queue.t
-)
-"dataflow.ml" 306 10276 10278 "dataflow.ml" 306 10276 10290
-type(
-  (Cfg.StmtSet.elt -> unit) -> Cfg.StmtSet.t -> unit
+  unit -> 'a
 )
 ident(
-  ext_ref Cfg.StmtSet.iter
+  int_ref f "dataflow.ml" 393 13184 13197 "dataflow.ml" 393 13184 13198
 )
-"dataflow.ml" 307 10291 10299 "dataflow.ml" 307 10291 10300
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def x "dataflow.ml" 308 10304 10310 "dataflow.ml" 309 10326 10362
-)
-"dataflow.ml" 308 10304 10310 "dataflow.ml" 308 10304 10320
-type(
-  Cfg.StmtSet.elt -> Cfg.StmtSet.elt Queue.t -> unit
-)
-ident(
-  ext_ref Queue.push
-)
-"dataflow.ml" 308 10304 10321 "dataflow.ml" 308 10304 10322
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref x "dataflow.ml" 307 10291 10299 "dataflow.ml" 307 10291 10300
-)
-"dataflow.ml" 308 10304 10323 "dataflow.ml" 308 10304 10324
-type(
-  Cfg.StmtSet.elt Queue.t
-)
-ident(
-  int_ref q "dataflow.ml" 305 10247 10253 "dataflow.ml" 305 10247 10254
-)
-"dataflow.ml" 308 10304 10310 "dataflow.ml" 308 10304 10324
-call(
-  stack
-)
+"dataflow.ml" 395 13222 13227 "dataflow.ml" 395 13222 13229
 type(
   unit
 )
-"dataflow.ml" 309 10326 10332 "dataflow.ml" 309 10326 10343
+"dataflow.ml" 395 13222 13226 "dataflow.ml" 395 13222 13229
+call(
+  stack
+)
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t -> unit
+  'a
+)
+"dataflow.ml" 396 13231 13238 "dataflow.ml" 396 13231 13239
+type(
+  unit -> bool
 )
 ident(
-  ext_ref Hashtbl.add
+  int_ref p "dataflow.ml" 393 13184 13199 "dataflow.ml" 393 13184 13200
 )
-"dataflow.ml" 309 10326 10344 "dataflow.ml" 309 10326 10350
+"dataflow.ml" 396 13231 13239 "dataflow.ml" 396 13231 13241
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  unit
+)
+"dataflow.ml" 396 13231 13238 "dataflow.ml" 396 13231 13241
+call(
+  stack
+)
+type(
+  bool
+)
+"dataflow.ml" 396 13231 13247 "dataflow.ml" 396 13231 13251
+type(
+  unit -> unit
 )
 ident(
-  int_ref in_tbl "dataflow.ml" 303 10172 10178 "dataflow.ml" 303 10172 10184
+  int_ref loop "dataflow.ml" 394 13203 13213 "dataflow.ml" 394 13203 13217
 )
-"dataflow.ml" 309 10326 10351 "dataflow.ml" 309 10326 10352
+"dataflow.ml" 396 13231 13251 "dataflow.ml" 396 13231 13253
 type(
-  Cfg.StmtSet.elt
+  unit
 )
-ident(
-  int_ref x "dataflow.ml" 307 10291 10299 "dataflow.ml" 307 10291 10300
-)
-"dataflow.ml" 309 10326 10353 "dataflow.ml" 309 10326 10362
-type(
-  DFP.t
-)
-ident(
-  ext_ref DFP.empty
-)
-"dataflow.ml" 309 10326 10332 "dataflow.ml" 309 10326 10362
+"dataflow.ml" 396 13231 13247 "dataflow.ml" 396 13231 13253
 call(
   tail
 )
 type(
   unit
 )
-"dataflow.ml" 308 10304 10310 "dataflow.ml" 309 10326 10362
+"dataflow.ml" 396 13231 13235 "dataflow.ml" 396 13231 13253
 type(
   unit
 )
-"dataflow.ml" 307 10291 10294 "dataflow.ml" 310 10363 10367
+"dataflow.ml" 395 13222 13226 "dataflow.ml" 396 13231 13253
 type(
-  Cfg.StmtSet.elt -> unit
+  unit
 )
-"dataflow.ml" 310 10363 10369 "dataflow.ml" 310 10363 10374
+"dataflow.ml" 398 13259 13261 "dataflow.ml" 398 13259 13265
 type(
-  Cfg.StmtSet.elt -> Cfg.StmtSet.t
+  unit -> unit
 )
 ident(
-  int_ref exits "dataflow.ml" 25 443 447 "dataflow.ml" 25 443 452
+  int_ref loop "dataflow.ml" 394 13203 13213 "dataflow.ml" 394 13203 13217
 )
-"dataflow.ml" 310 10363 10375 "dataflow.ml" 310 10363 10379
+"dataflow.ml" 398 13259 13265 "dataflow.ml" 398 13259 13267
 type(
-  Cfg.StmtSet.elt
+  unit
 )
-ident(
-  int_ref stmt "dataflow.ml" 302 10147 10165 "dataflow.ml" 302 10147 10169
-)
-"dataflow.ml" 310 10363 10368 "dataflow.ml" 310 10363 10380
+"dataflow.ml" 398 13259 13261 "dataflow.ml" 398 13259 13267
 call(
-  stack
-)
-type(
-  Cfg.StmtSet.t
-)
-"dataflow.ml" 306 10276 10278 "dataflow.ml" 310 10363 10380
-call(
-  stack
+  tail
 )
 type(
   unit
 )
-"dataflow.ml" 312 10386 10394 "dataflow.ml" 312 10386 10397
-type(
-  bool -> bool
-)
-ident(
-  ext_ref Pervasives.not
-)
-"dataflow.ml" 312 10386 10399 "dataflow.ml" 312 10386 10413
-type(
-  Cfg.StmtSet.elt Queue.t -> bool
-)
-ident(
-  ext_ref Queue.is_empty
-)
-"dataflow.ml" 312 10386 10414 "dataflow.ml" 312 10386 10415
-type(
-  Cfg.StmtSet.elt Queue.t
-)
-ident(
-  int_ref q "dataflow.ml" 305 10247 10253 "dataflow.ml" 305 10247 10254
-)
-"dataflow.ml" 312 10386 10398 "dataflow.ml" 312 10386 10416
-call(
-  stack
-)
-type(
-  bool
-)
-"dataflow.ml" 312 10386 10394 "dataflow.ml" 312 10386 10416
-type(
-  bool
-)
-"dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def stmt "dataflow.ml" 314 10449 10452 "dataflow.ml" 357 11932 11976
-)
-"dataflow.ml" 313 10420 10434 "dataflow.ml" 313 10420 10443
-type(
-  Cfg.StmtSet.elt Queue.t -> Cfg.StmtSet.elt
-)
-ident(
-  ext_ref Queue.pop
-)
-"dataflow.ml" 313 10420 10444 "dataflow.ml" 313 10420 10445
-type(
-  Cfg.StmtSet.elt Queue.t
-)
-ident(
-  int_ref q "dataflow.ml" 305 10247 10253 "dataflow.ml" 305 10247 10254
-)
-"dataflow.ml" 313 10420 10434 "dataflow.ml" 313 10420 10445
-call(
-  stack
-)
-type(
-  Cfg.StmtSet.elt
-)
-"dataflow.ml" 314 10449 10452 "dataflow.ml" 314 10449 10464
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dataflow.ml" 314 10449 10465 "dataflow.ml" 314 10449 10475
-type(
-  string
-)
-"dataflow.ml" 314 10449 10452 "dataflow.ml" 314 10449 10475
-call(
-  stack
-)
+"dataflow.ml" 394 13203 13205 "dataflow.ml" 398 13259 13267
 type(
   unit
 )
-"dataflow.ml" 314 10449 10477 "dataflow.ml" 314 10449 10489
+"dataflow.ml" 400 13269 13277 "dataflow.ml" 400 13269 13291
 type(
-  (Cfg.StmtSet.elt -> unit) -> Cfg.StmtSet.t -> unit
+  Cfg.stmt ->
+  (Cfg.stmt, DFP.t) Hashtbl.t -> (Cfg.stmt, DFP.t) Hashtbl.t -> DFP.t
 )
 ident(
-  ext_ref Cfg.StmtSet.iter
+  def super_fixpoint "dataflow.ml" 400 13269 13269 "dataflow.ml" 547 19549 19552
 )
-"dataflow.ml" 314 10449 10491 "dataflow.ml" 314 10449 10501
+"dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
 type(
-  out_channel -> Cfg.StmtSet.elt -> unit
+  Cfg.stmt
 )
 ident(
-  ext_ref Cfg_printer.CodePrinter.print_stmt
+  def stmt "dataflow.ml" 400 13269 13297 "dataflow.ml" 535 19191 19220
 )
-"dataflow.ml" 314 10449 10502 "dataflow.ml" 314 10449 10508
+"dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
 type(
-  out_channel
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  ext_ref Pervasives.stdout
+  def in_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 535 19191 19220
 )
-"dataflow.ml" 314 10449 10490 "dataflow.ml" 314 10449 10510
-call(
-  stack
-)
+"dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
 type(
-  Cfg.StmtSet.elt -> unit
-)
-"dataflow.ml" 314 10449 10511 "dataflow.ml" 314 10449 10515
-type(
-  Cfg.StmtSet.elt
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  def out_tbl "dataflow.ml" 403 13456 13458 "dataflow.ml" 535 19191 19220
 )
-"dataflow.ml" 314 10449 10511 "dataflow.ml" 314 10449 10521
+"dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
 type(
-  Cfg.StmtSet.t
+  DFP.t ref
 )
-"dataflow.ml" 314 10449 10477 "dataflow.ml" 314 10449 10521
-call(
-  stack
-)
+"dataflow.ml" 403 13456 13471 "dataflow.ml" 403 13456 13474
 type(
-  unit
-)
-"dataflow.ml" 314 10449 10524 "dataflow.ml" 314 10449 10536
-type(
-  string -> unit
+  DFP.t -> DFP.t ref
 )
 ident(
-  ext_ref Pervasives.print_string
+  ext_ref Pervasives.ref
 )
-"dataflow.ml" 314 10449 10537 "dataflow.ml" 314 10449 10545
+"dataflow.ml" 403 13456 13476 "dataflow.ml" 403 13456 13488
 type(
-  string
-)
-"dataflow.ml" 314 10449 10524 "dataflow.ml" 314 10449 10545
-call(
-  stack
-)
-type(
-  unit
-)
-"dataflow.ml" 315 10547 10550 "dataflow.ml" 315 10547 10562
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dataflow.ml" 315 10547 10563 "dataflow.ml" 315 10547 10571
-type(
-  string
-)
-"dataflow.ml" 315 10547 10550 "dataflow.ml" 315 10547 10571
-call(
-  stack
-)
-type(
-  unit
-)
-"dataflow.ml" 315 10547 10573 "dataflow.ml" 315 10547 10583
-type(
-  out_channel -> Cfg.StmtSet.elt -> unit
-)
-ident(
-  ext_ref Cfg_printer.CodePrinter.print_stmt
-)
-"dataflow.ml" 315 10547 10584 "dataflow.ml" 315 10547 10590
-type(
-  out_channel
-)
-ident(
-  ext_ref Pervasives.stdout
-)
-"dataflow.ml" 315 10547 10591 "dataflow.ml" 315 10547 10595
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
-)
-"dataflow.ml" 315 10547 10573 "dataflow.ml" 315 10547 10595
-call(
-  stack
-)
-type(
-  unit
-)
-"dataflow.ml" 315 10547 10597 "dataflow.ml" 315 10547 10609
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dataflow.ml" 315 10547 10610 "dataflow.ml" 315 10547 10619
-type(
-  string
-)
-"dataflow.ml" 315 10547 10597 "dataflow.ml" 315 10547 10619
-call(
-  stack
-)
-type(
-  unit
-)
-"dataflow.ml" 316 10621 10624 "dataflow.ml" 316 10621 10636
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dataflow.ml" 316 10621 10637 "dataflow.ml" 316 10621 10646
-type(
-  string
-)
-"dataflow.ml" 316 10621 10624 "dataflow.ml" 316 10621 10646
-call(
-  stack
-)
-type(
-  unit
-)
-"dataflow.ml" 316 10621 10648 "dataflow.ml" 316 10621 10660
-type(
-  (Cfg.StmtSet.elt -> unit) -> Cfg.StmtSet.t -> unit
-)
-ident(
-  ext_ref Cfg.StmtSet.iter
-)
-"dataflow.ml" 316 10621 10662 "dataflow.ml" 316 10621 10672
-type(
-  out_channel -> Cfg.StmtSet.elt -> unit
-)
-ident(
-  ext_ref Cfg_printer.CodePrinter.print_stmt
-)
-"dataflow.ml" 316 10621 10673 "dataflow.ml" 316 10621 10679
-type(
-  out_channel
-)
-ident(
-  ext_ref Pervasives.stdout
-)
-"dataflow.ml" 316 10621 10661 "dataflow.ml" 316 10621 10681
-call(
-  stack
-)
-type(
-  Cfg.StmtSet.elt -> unit
-)
-"dataflow.ml" 316 10621 10682 "dataflow.ml" 316 10621 10686
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
-)
-"dataflow.ml" 316 10621 10682 "dataflow.ml" 316 10621 10692
-type(
-  Cfg.StmtSet.t
-)
-"dataflow.ml" 316 10621 10648 "dataflow.ml" 316 10621 10692
-call(
-  stack
-)
-type(
-  unit
-)
-"dataflow.ml" 316 10621 10695 "dataflow.ml" 316 10621 10707
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dataflow.ml" 316 10621 10708 "dataflow.ml" 316 10621 10716
-type(
-  string
-)
-"dataflow.ml" 316 10621 10695 "dataflow.ml" 316 10621 10716
-call(
-  stack
-)
-type(
-  unit
-)
-"dataflow.ml" 318 10719 10726 "dataflow.ml" 318 10719 10733
-type(
-  DFP.t list
-)
-ident(
-  def in_list "dataflow.ml" 326 10945 10948 "dataflow.ml" 357 11932 11976
-)
-"dataflow.ml" 319 10736 10740 "dataflow.ml" 319 10736 10752
-type(
-  (Cfg.StmtSet.elt -> DFP.t list -> DFP.t list) ->
-  Cfg.StmtSet.t -> DFP.t list -> DFP.t list
-)
-ident(
-  ext_ref Cfg.StmtSet.fold
-)
-"dataflow.ml" 320 10753 10763 "dataflow.ml" 320 10753 10767
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def stmt "dataflow.ml" 320 10753 10768 "dataflow.ml" 324 10894 10920
-)
-"dataflow.ml" 320 10753 10768 "dataflow.ml" 320 10753 10771
-type(
-  DFP.t list
-)
-ident(
-  def acc "dataflow.ml" 321 10775 10783 "dataflow.ml" 324 10894 10920
-)
-"dataflow.ml" 321 10775 10788 "dataflow.ml" 321 10775 10800
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t
 )
 ident(
   ext_ref Hashtbl.find
 )
-"dataflow.ml" 321 10775 10801 "dataflow.ml" 321 10775 10808
+"dataflow.ml" 403 13456 13489 "dataflow.ml" 403 13456 13495
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref out_tbl "dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
 )
-"dataflow.ml" 321 10775 10809 "dataflow.ml" 321 10775 10813
+"dataflow.ml" 403 13456 13496 "dataflow.ml" 403 13456 13500
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref stmt "dataflow.ml" 320 10753 10763 "dataflow.ml" 320 10753 10767
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
 )
-"dataflow.ml" 321 10775 10787 "dataflow.ml" 321 10775 10814
+"dataflow.ml" 403 13456 13475 "dataflow.ml" 403 13456 13501
 call(
   stack
 )
 type(
   DFP.t
 )
-"dataflow.ml" 321 10775 10818 "dataflow.ml" 321 10775 10821
+"dataflow.ml" 403 13456 13471 "dataflow.ml" 403 13456 13501
 type(
-  DFP.t list
+  DFP.t ref
+)
+"dataflow.ml" 405 13549 13557 "dataflow.ml" 405 13549 13561
+type(
+  Cfg.stmt
 )
 ident(
-  int_ref acc "dataflow.ml" 320 10753 10768 "dataflow.ml" 320 10753 10771
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
 )
-"dataflow.ml" 321 10775 10787 "dataflow.ml" 321 10775 10821
+"dataflow.ml" 405 13549 13557 "dataflow.ml" 405 13549 13567
 type(
-  DFP.t list
+  Cfg.stmt_node
 )
-"dataflow.ml" 322 10822 10835 "dataflow.ml" 322 10822 10844
+"dataflow.ml" 406 13573 13581 "dataflow.ml" 406 13573 13587
 type(
-  exn
-)
-"dataflow.ml" 323 10848 10858 "dataflow.ml" 323 10848 10869
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t -> unit
+  Cfg.stmt list
 )
 ident(
-  ext_ref Hashtbl.add
+  def list "dataflow.ml" 407 13592 13596 "dataflow.ml" 419 14128 14141
 )
-"dataflow.ml" 323 10848 10870 "dataflow.ml" 323 10848 10877
+"dataflow.ml" 406 13573 13578 "dataflow.ml" 406 13573 13587
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  Cfg.stmt_node
+)
+"dataflow.ml" 407 13592 13596 "dataflow.ml" 407 13592 13608
+type(
+  string -> unit
 )
 ident(
-  int_ref out_tbl "dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
+  ext_ref Pervasives.print_string
 )
-"dataflow.ml" 323 10848 10878 "dataflow.ml" 323 10848 10882
+"dataflow.ml" 407 13592 13609 "dataflow.ml" 407 13592 13623
 type(
-  Cfg.StmtSet.elt
+  string
 )
-ident(
-  int_ref stmt "dataflow.ml" 320 10753 10763 "dataflow.ml" 320 10753 10767
-)
-"dataflow.ml" 323 10848 10883 "dataflow.ml" 323 10848 10892
-type(
-  DFP.t
-)
-ident(
-  ext_ref DFP.empty
-)
-"dataflow.ml" 323 10848 10858 "dataflow.ml" 323 10848 10892
+"dataflow.ml" 407 13592 13596 "dataflow.ml" 407 13592 13623
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 324 10894 10904 "dataflow.ml" 324 10894 10913
+"dataflow.ml" 408 13626 13630 "dataflow.ml" 408 13626 13640
 type(
-  DFP.t
+  out_channel -> Cfg.stmt -> unit
 )
 ident(
-  ext_ref DFP.empty
+  ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dataflow.ml" 324 10894 10917 "dataflow.ml" 324 10894 10920
+"dataflow.ml" 408 13626 13641 "dataflow.ml" 408 13626 13647
 type(
-  DFP.t list
+  out_channel
 )
 ident(
-  int_ref acc "dataflow.ml" 320 10753 10768 "dataflow.ml" 320 10753 10771
+  ext_ref Pervasives.stdout
 )
-"dataflow.ml" 324 10894 10904 "dataflow.ml" 324 10894 10920
+"dataflow.ml" 408 13626 13648 "dataflow.ml" 408 13626 13652
 type(
-  DFP.t list
-)
-"dataflow.ml" 323 10848 10858 "dataflow.ml" 324 10894 10920
-type(
-  DFP.t list
-)
-"dataflow.ml" 321 10775 10783 "dataflow.ml" 324 10894 10920
-type(
-  DFP.t list
-)
-"dataflow.ml" 320 10753 10758 "dataflow.ml" 325 10921 10927
-type(
-  Cfg.StmtSet.elt -> DFP.t list -> DFP.t list
-)
-"dataflow.ml" 325 10921 10928 "dataflow.ml" 325 10921 10932
-type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
 )
-"dataflow.ml" 325 10921 10928 "dataflow.ml" 325 10921 10938
-type(
-  Cfg.StmtSet.t
-)
-"dataflow.ml" 325 10921 10939 "dataflow.ml" 325 10921 10941
-type(
-  DFP.t list
-)
-"dataflow.ml" 319 10736 10740 "dataflow.ml" 325 10921 10941
+"dataflow.ml" 408 13626 13630 "dataflow.ml" 408 13626 13652
 call(
   stack
 )
 type(
-  DFP.t list
+  unit
 )
-"dataflow.ml" 326 10945 10952 "dataflow.ml" 326 10945 10960
+"dataflow.ml" 409 13655 13663 "dataflow.ml" 409 13655 13671
+type(
+  DFP.t ref
+)
+"dataflow.ml" 409 13655 13674 "dataflow.ml" 409 13655 13677
+type(
+  DFP.t -> DFP.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"dataflow.ml" 409 13655 13678 "dataflow.ml" 409 13655 13679
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 409 13655 13679 "dataflow.ml" 409 13655 13685
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 409 13655 13678 "dataflow.ml" 409 13655 13685
+type(
+  DFP.t
+)
+"dataflow.ml" 409 13655 13674 "dataflow.ml" 409 13655 13685
+type(
+  DFP.t ref
+)
+"dataflow.ml" 410 13689 13697 "dataflow.ml" 410 13689 13705
+type(
+  Cfg.stmt list
+)
+"dataflow.ml" 410 13689 13708 "dataflow.ml" 410 13689 13716
+type(
+  Cfg.stmt list -> Cfg.stmt list
+)
+ident(
+  ext_ref List.rev
+)
+"dataflow.ml" 410 13689 13717 "dataflow.ml" 410 13689 13721
+type(
+  Cfg.stmt list
+)
+ident(
+  int_ref list "dataflow.ml" 406 13573 13581 "dataflow.ml" 406 13573 13587
+)
+"dataflow.ml" 410 13689 13708 "dataflow.ml" 410 13689 13721
+call(
+  stack
+)
+type(
+  Cfg.stmt list
+)
+"dataflow.ml" 411 13725 13731 "dataflow.ml" 411 13725 13740
+type(
+  (Cfg.stmt -> unit) -> Cfg.stmt list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"dataflow.ml" 411 13725 13746 "dataflow.ml" 411 13725 13747
+type(
+  Cfg.stmt
+)
+ident(
+  def x "dataflow.ml" 412 13752 13759 "dataflow.ml" 416 13984 14010
+)
+"dataflow.ml" 412 13752 13759 "dataflow.ml" 412 13752 13774
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 412 13752 13775 "dataflow.ml" 412 13752 13781
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 412 13752 13782 "dataflow.ml" 412 13752 13783
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref x "dataflow.ml" 411 13725 13746 "dataflow.ml" 411 13725 13747
+)
+"dataflow.ml" 412 13752 13784 "dataflow.ml" 412 13752 13785
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 412 13752 13785 "dataflow.ml" 412 13752 13791
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 412 13752 13784 "dataflow.ml" 412 13752 13791
+type(
+  DFP.t
+)
+"dataflow.ml" 412 13752 13759 "dataflow.ml" 412 13752 13791
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 413 13793 13800 "dataflow.ml" 413 13793 13808
+type(
+  DFP.t ref
+)
+ident(
+  int_ref newfacts "dataflow.ml" 409 13655 13663 "dataflow.ml" 409 13655 13671
+)
+"dataflow.ml" 413 13793 13809 "dataflow.ml" 413 13793 13811
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 413 13793 13812 "dataflow.ml" 413 13793 13826
+type(
+  Cfg.stmt ->
+  (Cfg.stmt, DFP.t) Hashtbl.t -> (Cfg.stmt, DFP.t) Hashtbl.t -> DFP.t
+)
+ident(
+  int_ref super_fixpoint "dataflow.ml" 400 13269 13277 "dataflow.ml" 400 13269 13291
+)
+"dataflow.ml" 413 13793 13827 "dataflow.ml" 413 13793 13828
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref x "dataflow.ml" 411 13725 13746 "dataflow.ml" 411 13725 13747
+)
+"dataflow.ml" 413 13793 13829 "dataflow.ml" 413 13793 13835
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 413 13793 13836 "dataflow.ml" 413 13793 13843
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 413 13793 13812 "dataflow.ml" 413 13793 13843
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 413 13793 13800 "dataflow.ml" 413 13793 13843
+type(
+  unit
+)
+"dataflow.ml" 414 13845 13852 "dataflow.ml" 414 13845 13867
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 414 13845 13868 "dataflow.ml" 414 13845 13875
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 414 13845 13876 "dataflow.ml" 414 13845 13877
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref x "dataflow.ml" 411 13725 13746 "dataflow.ml" 411 13725 13747
+)
+"dataflow.ml" 414 13845 13878 "dataflow.ml" 414 13845 13879
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 414 13845 13879 "dataflow.ml" 414 13845 13887
+type(
+  DFP.t ref
+)
+ident(
+  int_ref newfacts "dataflow.ml" 409 13655 13663 "dataflow.ml" 409 13655 13671
+)
+"dataflow.ml" 414 13845 13878 "dataflow.ml" 414 13845 13887
+type(
+  DFP.t
+)
+"dataflow.ml" 414 13845 13852 "dataflow.ml" 414 13845 13887
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 416 13984 13991 "dataflow.ml" 416 13984 13997
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 416 13984 13998 "dataflow.ml" 416 13984 14000
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 416 13984 14001 "dataflow.ml" 416 13984 14002
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 416 13984 14002 "dataflow.ml" 416 13984 14010
+type(
+  DFP.t ref
+)
+ident(
+  int_ref newfacts "dataflow.ml" 409 13655 13663 "dataflow.ml" 409 13655 13671
+)
+"dataflow.ml" 416 13984 14001 "dataflow.ml" 416 13984 14010
+type(
+  DFP.t
+)
+"dataflow.ml" 416 13984 13991 "dataflow.ml" 416 13984 14010
+type(
+  unit
+)
+"dataflow.ml" 414 13845 13852 "dataflow.ml" 416 13984 14010
+type(
+  unit
+)
+"dataflow.ml" 413 13793 13800 "dataflow.ml" 416 13984 14010
+type(
+  unit
+)
+"dataflow.ml" 412 13752 13759 "dataflow.ml" 416 13984 14010
+type(
+  unit
+)
+"dataflow.ml" 411 13725 13741 "dataflow.ml" 417 14011 14018
+type(
+  Cfg.stmt -> unit
+)
+"dataflow.ml" 417 14011 14019 "dataflow.ml" 417 14011 14027
+type(
+  Cfg.stmt list
+)
+ident(
+  int_ref rev_list "dataflow.ml" 410 13689 13697 "dataflow.ml" 410 13689 13705
+)
+"dataflow.ml" 411 13725 13731 "dataflow.ml" 417 14011 14027
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 419 14128 14132 "dataflow.ml" 419 14128 14133
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 419 14128 14133 "dataflow.ml" 419 14128 14141
+type(
+  DFP.t ref
+)
+ident(
+  int_ref newfacts "dataflow.ml" 409 13655 13663 "dataflow.ml" 409 13655 13671
+)
+"dataflow.ml" 419 14128 14132 "dataflow.ml" 419 14128 14141
+type(
+  DFP.t
+)
+"dataflow.ml" 411 13725 13731 "dataflow.ml" 419 14128 14141
+type(
+  DFP.t
+)
+"dataflow.ml" 410 13689 13693 "dataflow.ml" 419 14128 14141
+type(
+  DFP.t
+)
+"dataflow.ml" 409 13655 13659 "dataflow.ml" 419 14128 14141
+type(
+  DFP.t
+)
+"dataflow.ml" 408 13626 13630 "dataflow.ml" 419 14128 14141
+type(
+  DFP.t
+)
+"dataflow.ml" 407 13592 13596 "dataflow.ml" 419 14128 14141
+type(
+  DFP.t
+)
+"dataflow.ml" 421 14147 14155 "dataflow.ml" 421 14147 14156
+type(
+  Cfg.expr
+)
+"dataflow.ml" 421 14147 14158 "dataflow.ml" 421 14147 14159
+type(
+  Cfg.stmt
+)
+ident(
+  def t "dataflow.ml" 424 14267 14271 "dataflow.ml" 432 14739 14801
+)
+"dataflow.ml" 421 14147 14161 "dataflow.ml" 421 14147 14162
+type(
+  Cfg.stmt
+)
+ident(
+  def f "dataflow.ml" 424 14267 14271 "dataflow.ml" 432 14739 14801
+)
+"dataflow.ml" 421 14147 14152 "dataflow.ml" 421 14147 14163
+type(
+  Cfg.stmt_node
+)
+"dataflow.ml" 424 14267 14271 "dataflow.ml" 424 14267 14286
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 424 14267 14287 "dataflow.ml" 424 14267 14293
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 424 14267 14294 "dataflow.ml" 424 14267 14295
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref t "dataflow.ml" 421 14147 14158 "dataflow.ml" 421 14147 14159
+)
+"dataflow.ml" 424 14267 14296 "dataflow.ml" 424 14267 14297
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 424 14267 14297 "dataflow.ml" 424 14267 14303
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 424 14267 14296 "dataflow.ml" 424 14267 14303
+type(
+  DFP.t
+)
+"dataflow.ml" 424 14267 14271 "dataflow.ml" 424 14267 14303
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 425 14305 14309 "dataflow.ml" 425 14305 14324
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 425 14305 14325 "dataflow.ml" 425 14305 14331
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 425 14305 14332 "dataflow.ml" 425 14305 14333
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref f "dataflow.ml" 421 14147 14161 "dataflow.ml" 421 14147 14162
+)
+"dataflow.ml" 425 14305 14334 "dataflow.ml" 425 14305 14335
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 425 14305 14335 "dataflow.ml" 425 14305 14341
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 425 14305 14334 "dataflow.ml" 425 14305 14341
+type(
+  DFP.t
+)
+"dataflow.ml" 425 14305 14309 "dataflow.ml" 425 14305 14341
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 426 14343 14351 "dataflow.ml" 426 14343 14358
+type(
+  DFP.t
+)
+"dataflow.ml" 426 14343 14361 "dataflow.ml" 426 14343 14375
+type(
+  Cfg.stmt ->
+  (Cfg.stmt, DFP.t) Hashtbl.t -> (Cfg.stmt, DFP.t) Hashtbl.t -> DFP.t
+)
+ident(
+  int_ref super_fixpoint "dataflow.ml" 400 13269 13277 "dataflow.ml" 400 13269 13291
+)
+"dataflow.ml" 426 14343 14376 "dataflow.ml" 426 14343 14377
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref t "dataflow.ml" 421 14147 14158 "dataflow.ml" 421 14147 14159
+)
+"dataflow.ml" 426 14343 14378 "dataflow.ml" 426 14343 14384
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 426 14343 14385 "dataflow.ml" 426 14343 14392
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 426 14343 14361 "dataflow.ml" 426 14343 14392
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 427 14396 14404 "dataflow.ml" 427 14396 14411
+type(
+  DFP.t
+)
+"dataflow.ml" 427 14396 14414 "dataflow.ml" 427 14396 14428
+type(
+  Cfg.stmt ->
+  (Cfg.stmt, DFP.t) Hashtbl.t -> (Cfg.stmt, DFP.t) Hashtbl.t -> DFP.t
+)
+ident(
+  int_ref super_fixpoint "dataflow.ml" 400 13269 13277 "dataflow.ml" 400 13269 13291
+)
+"dataflow.ml" 427 14396 14429 "dataflow.ml" 427 14396 14430
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref f "dataflow.ml" 421 14147 14161 "dataflow.ml" 421 14147 14162
+)
+"dataflow.ml" 427 14396 14431 "dataflow.ml" 427 14396 14437
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 427 14396 14438 "dataflow.ml" 427 14396 14445
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 427 14396 14414 "dataflow.ml" 427 14396 14445
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 428 14449 14455 "dataflow.ml" 428 14449 14470
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 428 14449 14471 "dataflow.ml" 428 14449 14478
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 428 14449 14479 "dataflow.ml" 428 14449 14480
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref t "dataflow.ml" 421 14147 14158 "dataflow.ml" 421 14147 14159
+)
+"dataflow.ml" 428 14449 14481 "dataflow.ml" 428 14449 14488
 type(
   DFP.t
 )
 ident(
-  def in_facts "dataflow.ml" 327 10983 10986 "dataflow.ml" 357 11932 11976
+  int_ref t_facts "dataflow.ml" 426 14343 14351 "dataflow.ml" 426 14343 14358
 )
-"dataflow.ml" 326 10945 10963 "dataflow.ml" 326 10945 10971
+"dataflow.ml" 428 14449 14455 "dataflow.ml" 428 14449 14488
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 429 14490 14496 "dataflow.ml" 429 14490 14511
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 429 14490 14512 "dataflow.ml" 429 14490 14519
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 429 14490 14520 "dataflow.ml" 429 14490 14521
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref f "dataflow.ml" 421 14147 14161 "dataflow.ml" 421 14147 14162
+)
+"dataflow.ml" 429 14490 14522 "dataflow.ml" 429 14490 14529
+type(
+  DFP.t
+)
+ident(
+  int_ref f_facts "dataflow.ml" 427 14396 14404 "dataflow.ml" 427 14396 14411
+)
+"dataflow.ml" 429 14490 14496 "dataflow.ml" 429 14490 14529
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 432 14739 14745 "dataflow.ml" 432 14739 14757
+type(
+  DFP.t -> Cfg.stmt -> DFP.t
+)
+ident(
+  ext_ref DFP.transfer
+)
+"dataflow.ml" 432 14739 14759 "dataflow.ml" 432 14739 14767
 type(
   DFP.t list -> DFP.t
 )
 ident(
   ext_ref DFP.join
 )
-"dataflow.ml" 326 10945 10972 "dataflow.ml" 326 10945 10979
+"dataflow.ml" 432 14739 14769 "dataflow.ml" 432 14739 14776
+type(
+  DFP.t
+)
+ident(
+  int_ref t_facts "dataflow.ml" 426 14343 14351 "dataflow.ml" 426 14343 14358
+)
+"dataflow.ml" 432 14739 14781 "dataflow.ml" 432 14739 14788
+type(
+  DFP.t
+)
+ident(
+  int_ref f_facts "dataflow.ml" 427 14396 14404 "dataflow.ml" 427 14396 14411
+)
+"dataflow.ml" 432 14739 14791 "dataflow.ml" 432 14739 14793
 type(
   DFP.t list
 )
-ident(
-  int_ref in_list "dataflow.ml" 318 10719 10726 "dataflow.ml" 318 10719 10733
+"dataflow.ml" 432 14739 14780 "dataflow.ml" 432 14739 14794
+type(
+  DFP.t list
 )
-"dataflow.ml" 326 10945 10963 "dataflow.ml" 326 10945 10979
+"dataflow.ml" 432 14739 14768 "dataflow.ml" 432 14739 14795
+type(
+  DFP.t list
+)
+"dataflow.ml" 432 14739 14758 "dataflow.ml" 432 14739 14796
 call(
   stack
 )
 type(
   DFP.t
 )
-"dataflow.ml" 327 10983 10990 "dataflow.ml" 327 10983 10992
+"dataflow.ml" 432 14739 14797 "dataflow.ml" 432 14739 14801
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
+)
+"dataflow.ml" 432 14739 14745 "dataflow.ml" 432 14739 14801
+call(
+  tail
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 429 14490 14496 "dataflow.ml" 432 14739 14801
+type(
+  DFP.t
+)
+"dataflow.ml" 428 14449 14455 "dataflow.ml" 432 14739 14801
+type(
+  DFP.t
+)
+"dataflow.ml" 427 14396 14400 "dataflow.ml" 432 14739 14801
+type(
+  DFP.t
+)
+"dataflow.ml" 426 14343 14347 "dataflow.ml" 432 14739 14801
+type(
+  DFP.t
+)
+"dataflow.ml" 425 14305 14309 "dataflow.ml" 432 14739 14801
+type(
+  DFP.t
+)
+"dataflow.ml" 424 14267 14271 "dataflow.ml" 432 14739 14801
+type(
+  DFP.t
+)
+"dataflow.ml" 434 14830 14841 "dataflow.ml" 434 14830 14842
+type(
+  Cfg.expr
+)
+"dataflow.ml" 434 14830 14844 "dataflow.ml" 434 14830 14845
+type(
+  Cfg.stmt
+)
+ident(
+  def b "dataflow.ml" 438 14987 14991 "dataflow.ml" 458 15976 16019
+)
+"dataflow.ml" 434 14830 14835 "dataflow.ml" 434 14830 14846
+type(
+  Cfg.stmt_node
+)
+"dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+type(
+  DFP.t ref
+)
+"dataflow.ml" 438 14987 15005 "dataflow.ml" 438 14987 15008
+type(
+  DFP.t -> DFP.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"dataflow.ml" 438 14987 15009 "dataflow.ml" 438 14987 15010
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 438 14987 15010 "dataflow.ml" 438 14987 15016
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 438 14987 15009 "dataflow.ml" 438 14987 15016
+type(
+  DFP.t
+)
+"dataflow.ml" 438 14987 15005 "dataflow.ml" 438 14987 15016
+type(
+  DFP.t ref
+)
+"dataflow.ml" 439 15020 15028 "dataflow.ml" 439 15020 15037
+type(
+  DFP.t ref
+)
+"dataflow.ml" 439 15020 15040 "dataflow.ml" 439 15020 15043
+type(
+  DFP.t -> DFP.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"dataflow.ml" 439 15020 15044 "dataflow.ml" 439 15020 15053
+type(
+  DFP.t
+)
+ident(
+  ext_ref DFP.empty
+)
+"dataflow.ml" 439 15020 15040 "dataflow.ml" 439 15020 15053
+type(
+  DFP.t ref
+)
+"dataflow.ml" 441 15058 15062 "dataflow.ml" 441 15058 15070
+type(
+  (unit -> unit) -> (unit -> bool) -> unit
+)
+ident(
+  int_ref do_while "dataflow.ml" 393 13184 13188 "dataflow.ml" 393 13184 13196
+)
+"dataflow.ml" 441 15058 15076 "dataflow.ml" 441 15058 15078
 type(
   unit
 )
-"dataflow.ml" 327 10983 10995 "dataflow.ml" 327 10983 11010
+"dataflow.ml" 441 15058 15082 "dataflow.ml" 441 15058 15097
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t -> unit
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
 )
 ident(
   ext_ref Hashtbl.replace
 )
-"dataflow.ml" 327 10983 11011 "dataflow.ml" 327 10983 11017
+"dataflow.ml" 441 15058 15098 "dataflow.ml" 441 15058 15104
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref in_tbl "dataflow.ml" 303 10172 10178 "dataflow.ml" 303 10172 10184
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
 )
-"dataflow.ml" 327 10983 11018 "dataflow.ml" 327 10983 11022
+"dataflow.ml" 441 15058 15105 "dataflow.ml" 441 15058 15106
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  int_ref b "dataflow.ml" 434 14830 14844 "dataflow.ml" 434 14830 14845
 )
-"dataflow.ml" 327 10983 11023 "dataflow.ml" 327 10983 11031
+"dataflow.ml" 441 15058 15107 "dataflow.ml" 441 15058 15108
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 441 15058 15108 "dataflow.ml" 441 15058 15115
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 441 15058 15107 "dataflow.ml" 441 15058 15115
+type(
+  DFP.t
+)
+"dataflow.ml" 441 15058 15082 "dataflow.ml" 441 15058 15115
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 442 15117 15129 "dataflow.ml" 442 15117 15138
+type(
+  DFP.t ref
+)
+ident(
+  int_ref old_facts "dataflow.ml" 439 15020 15028 "dataflow.ml" 439 15020 15037
+)
+"dataflow.ml" 442 15117 15139 "dataflow.ml" 442 15117 15141
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 442 15117 15142 "dataflow.ml" 442 15117 15143
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 442 15117 15143 "dataflow.ml" 442 15117 15150
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 442 15117 15142 "dataflow.ml" 442 15117 15150
+type(
+  DFP.t
+)
+"dataflow.ml" 442 15117 15129 "dataflow.ml" 442 15117 15150
+type(
+  unit
+)
+"dataflow.ml" 443 15152 15164 "dataflow.ml" 443 15152 15171
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 443 15152 15172 "dataflow.ml" 443 15152 15174
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 443 15152 15175 "dataflow.ml" 443 15152 15189
+type(
+  Cfg.stmt ->
+  (Cfg.stmt, DFP.t) Hashtbl.t -> (Cfg.stmt, DFP.t) Hashtbl.t -> DFP.t
+)
+ident(
+  int_ref super_fixpoint "dataflow.ml" 400 13269 13277 "dataflow.ml" 400 13269 13291
+)
+"dataflow.ml" 443 15152 15190 "dataflow.ml" 443 15152 15191
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref b "dataflow.ml" 434 14830 14844 "dataflow.ml" 434 14830 14845
+)
+"dataflow.ml" 443 15152 15192 "dataflow.ml" 443 15152 15198
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 443 15152 15199 "dataflow.ml" 443 15152 15206
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 443 15152 15175 "dataflow.ml" 443 15152 15206
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 443 15152 15164 "dataflow.ml" 443 15152 15206
+type(
+  unit
+)
+"dataflow.ml" 444 15208 15217 "dataflow.ml" 444 15208 15224
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 444 15208 15225 "dataflow.ml" 444 15208 15227
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 444 15208 15228 "dataflow.ml" 444 15208 15236
+type(
+  DFP.t list -> DFP.t
+)
+ident(
+  ext_ref DFP.join
+)
+"dataflow.ml" 444 15208 15238 "dataflow.ml" 444 15208 15239
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 444 15208 15239 "dataflow.ml" 444 15208 15245
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 444 15208 15238 "dataflow.ml" 444 15208 15245
+type(
+  DFP.t
+)
+"dataflow.ml" 444 15208 15250 "dataflow.ml" 444 15208 15251
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 444 15208 15251 "dataflow.ml" 444 15208 15258
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 444 15208 15250 "dataflow.ml" 444 15208 15258
+type(
+  DFP.t
+)
+"dataflow.ml" 444 15208 15261 "dataflow.ml" 444 15208 15263
+type(
+  DFP.t list
+)
+"dataflow.ml" 444 15208 15249 "dataflow.ml" 444 15208 15264
+type(
+  DFP.t list
+)
+"dataflow.ml" 444 15208 15237 "dataflow.ml" 444 15208 15265
+type(
+  DFP.t list
+)
+"dataflow.ml" 444 15208 15228 "dataflow.ml" 444 15208 15265
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 444 15208 15217 "dataflow.ml" 444 15208 15265
+type(
+  unit
+)
+"dataflow.ml" 445 15267 15276 "dataflow.ml" 445 15267 15283
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 445 15267 15284 "dataflow.ml" 445 15267 15286
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 445 15267 15287 "dataflow.ml" 445 15267 15299
+type(
+  DFP.t -> Cfg.stmt -> DFP.t
+)
+ident(
+  ext_ref DFP.transfer
+)
+"dataflow.ml" 445 15267 15300 "dataflow.ml" 445 15267 15301
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 445 15267 15301 "dataflow.ml" 445 15267 15308
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 445 15267 15300 "dataflow.ml" 445 15267 15308
+type(
+  DFP.t
+)
+"dataflow.ml" 445 15267 15309 "dataflow.ml" 445 15267 15313
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
+)
+"dataflow.ml" 445 15267 15287 "dataflow.ml" 445 15267 15313
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 445 15267 15276 "dataflow.ml" 445 15267 15313
+type(
+  unit
+)
+"dataflow.ml" 444 15208 15217 "dataflow.ml" 445 15267 15313
+type(
+  unit
+)
+"dataflow.ml" 443 15152 15164 "dataflow.ml" 445 15267 15313
+type(
+  unit
+)
+"dataflow.ml" 442 15117 15129 "dataflow.ml" 445 15267 15313
+type(
+  unit
+)
+"dataflow.ml" 441 15058 15082 "dataflow.ml" 445 15267 15313
+type(
+  unit
+)
+"dataflow.ml" 441 15058 15071 "dataflow.ml" 445 15267 15315
+type(
+  unit -> unit
+)
+"dataflow.ml" 446 15316 15327 "dataflow.ml" 446 15316 15329
+type(
+  unit
+)
+"dataflow.ml" 446 15316 15333 "dataflow.ml" 446 15316 15336
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"dataflow.ml" 446 15316 15338 "dataflow.ml" 446 15316 15344
+type(
+  DFP.t -> DFP.t -> bool
+)
+ident(
+  ext_ref DFP.eq
+)
+"dataflow.ml" 446 15316 15345 "dataflow.ml" 446 15316 15346
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 446 15316 15346 "dataflow.ml" 446 15316 15355
+type(
+  DFP.t ref
+)
+ident(
+  int_ref old_facts "dataflow.ml" 439 15020 15028 "dataflow.ml" 439 15020 15037
+)
+"dataflow.ml" 446 15316 15345 "dataflow.ml" 446 15316 15355
+type(
+  DFP.t
+)
+"dataflow.ml" 446 15316 15356 "dataflow.ml" 446 15316 15357
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 446 15316 15357 "dataflow.ml" 446 15316 15364
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 446 15316 15356 "dataflow.ml" 446 15316 15364
+type(
+  DFP.t
+)
+"dataflow.ml" 446 15316 15337 "dataflow.ml" 446 15316 15365
+call(
+  stack
+)
+type(
+  bool
+)
+"dataflow.ml" 446 15316 15333 "dataflow.ml" 446 15316 15365
+type(
+  bool
+)
+"dataflow.ml" 446 15316 15322 "dataflow.ml" 446 15316 15367
+type(
+  unit -> bool
+)
+"dataflow.ml" 441 15058 15062 "dataflow.ml" 446 15316 15367
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 454 15661 15667 "dataflow.ml" 454 15661 15682
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 454 15661 15683 "dataflow.ml" 454 15661 15690
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 454 15661 15691 "dataflow.ml" 454 15661 15692
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref b "dataflow.ml" 434 14830 14844 "dataflow.ml" 434 14830 14845
+)
+"dataflow.ml" 454 15661 15693 "dataflow.ml" 454 15661 15694
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 454 15661 15694 "dataflow.ml" 454 15661 15701
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 454 15661 15693 "dataflow.ml" 454 15661 15701
+type(
+  DFP.t
+)
+"dataflow.ml" 454 15661 15667 "dataflow.ml" 454 15661 15701
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 458 15976 15982 "dataflow.ml" 458 15976 15990
+type(
+  DFP.t list -> DFP.t
+)
+ident(
+  ext_ref DFP.join
+)
+"dataflow.ml" 458 15976 15992 "dataflow.ml" 458 15976 15993
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 458 15976 15993 "dataflow.ml" 458 15976 15999
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 458 15976 15992 "dataflow.ml" 458 15976 15999
+type(
+  DFP.t
+)
+"dataflow.ml" 458 15976 16004 "dataflow.ml" 458 15976 16005
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 458 15976 16005 "dataflow.ml" 458 15976 16012
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 438 14987 14995 "dataflow.ml" 438 14987 15002
+)
+"dataflow.ml" 458 15976 16004 "dataflow.ml" 458 15976 16012
+type(
+  DFP.t
+)
+"dataflow.ml" 458 15976 16015 "dataflow.ml" 458 15976 16017
+type(
+  DFP.t list
+)
+"dataflow.ml" 458 15976 16003 "dataflow.ml" 458 15976 16018
+type(
+  DFP.t list
+)
+"dataflow.ml" 458 15976 15991 "dataflow.ml" 458 15976 16019
+type(
+  DFP.t list
+)
+"dataflow.ml" 458 15976 15982 "dataflow.ml" 458 15976 16019
+call(
+  tail
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 454 15661 15667 "dataflow.ml" 458 15976 16019
+type(
+  DFP.t
+)
+"dataflow.ml" 441 15058 15062 "dataflow.ml" 458 15976 16019
+type(
+  DFP.t
+)
+"dataflow.ml" 439 15020 15024 "dataflow.ml" 458 15976 16019
+type(
+  DFP.t
+)
+"dataflow.ml" 438 14987 14991 "dataflow.ml" 458 15976 16019
+type(
+  DFP.t
+)
+"dataflow.ml" 460 16049 16059 "dataflow.ml" 460 16049 16060
+type(
+  Cfg.block_formal_param list
+)
+"dataflow.ml" 460 16049 16062 "dataflow.ml" 460 16049 16063
+type(
+  Cfg.expr
+)
+"dataflow.ml" 460 16049 16065 "dataflow.ml" 460 16049 16066
+type(
+  Cfg.stmt
+)
+ident(
+  def b "dataflow.ml" 478 16971 16975 "dataflow.ml" 489 17396 17439
+)
+"dataflow.ml" 460 16049 16054 "dataflow.ml" 460 16049 16067
+type(
+  Cfg.stmt_node
+)
+"dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+type(
+  DFP.t ref
+)
+"dataflow.ml" 478 16971 16989 "dataflow.ml" 478 16971 16992
+type(
+  DFP.t -> DFP.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"dataflow.ml" 478 16971 16993 "dataflow.ml" 478 16971 16994
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 478 16971 16994 "dataflow.ml" 478 16971 17000
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 478 16971 16993 "dataflow.ml" 478 16971 17000
+type(
+  DFP.t
+)
+"dataflow.ml" 478 16971 16989 "dataflow.ml" 478 16971 17000
+type(
+  DFP.t ref
+)
+"dataflow.ml" 479 17004 17012 "dataflow.ml" 479 17004 17021
+type(
+  DFP.t ref
+)
+"dataflow.ml" 479 17004 17024 "dataflow.ml" 479 17004 17027
+type(
+  DFP.t -> DFP.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"dataflow.ml" 479 17004 17028 "dataflow.ml" 479 17004 17037
 type(
   DFP.t
 )
 ident(
-  int_ref in_facts "dataflow.ml" 326 10945 10952 "dataflow.ml" 326 10945 10960
+  ext_ref DFP.empty
 )
-"dataflow.ml" 327 10983 10995 "dataflow.ml" 327 10983 11031
+"dataflow.ml" 479 17004 17024 "dataflow.ml" 479 17004 17037
+type(
+  DFP.t ref
+)
+"dataflow.ml" 481 17042 17046 "dataflow.ml" 481 17042 17054
+type(
+  (unit -> unit) -> (unit -> bool) -> unit
+)
+ident(
+  int_ref do_while "dataflow.ml" 393 13184 13188 "dataflow.ml" 393 13184 13196
+)
+"dataflow.ml" 481 17042 17060 "dataflow.ml" 481 17042 17062
+type(
+  unit
+)
+"dataflow.ml" 481 17042 17066 "dataflow.ml" 481 17042 17081
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 481 17042 17082 "dataflow.ml" 481 17042 17088
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 481 17042 17089 "dataflow.ml" 481 17042 17090
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref b "dataflow.ml" 460 16049 16065 "dataflow.ml" 460 16049 16066
+)
+"dataflow.ml" 481 17042 17091 "dataflow.ml" 481 17042 17092
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 481 17042 17092 "dataflow.ml" 481 17042 17099
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 481 17042 17091 "dataflow.ml" 481 17042 17099
+type(
+  DFP.t
+)
+"dataflow.ml" 481 17042 17066 "dataflow.ml" 481 17042 17099
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 328 11035 11044 "dataflow.ml" 328 11035 11048
+"dataflow.ml" 482 17101 17113 "dataflow.ml" 482 17101 17122
 type(
-  Cfg.StmtSet.elt
+  DFP.t ref
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  int_ref old_facts "dataflow.ml" 479 17004 17012 "dataflow.ml" 479 17004 17021
 )
-"dataflow.ml" 328 11035 11044 "dataflow.ml" 328 11035 11054
+"dataflow.ml" 482 17101 17123 "dataflow.ml" 482 17101 17125
 type(
-  Cfg.stmt_node
-)
-"dataflow.ml" 330 11061 11070 "dataflow.ml" 330 11061 11075
-type(
-  Cfg.case_block
+  DFP.t ref -> DFP.t -> unit
 )
 ident(
-  def all "dataflow.ml" 330 11061 11080 "dataflow.ml" 343 11512 11559
+  ext_ref Pervasives.( := )
 )
-"dataflow.ml" 330 11061 11066 "dataflow.ml" 330 11061 11075
+"dataflow.ml" 482 17101 17126 "dataflow.ml" 482 17101 17127
 type(
-  Cfg.stmt_node
-)
-"dataflow.ml" 330 11061 11080 "dataflow.ml" 330 11061 11092
-type(
-  string -> unit
+  DFP.t ref -> DFP.t
 )
 ident(
-  ext_ref Pervasives.print_string
+  ext_ref Pervasives.( ! )
 )
-"dataflow.ml" 330 11061 11093 "dataflow.ml" 330 11061 11100
+"dataflow.ml" 482 17101 17127 "dataflow.ml" 482 17101 17134
 type(
-  string
+  DFP.t ref
 )
-"dataflow.ml" 330 11061 11080 "dataflow.ml" 330 11061 11100
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 482 17101 17126 "dataflow.ml" 482 17101 17134
+type(
+  DFP.t
+)
+"dataflow.ml" 482 17101 17113 "dataflow.ml" 482 17101 17134
+type(
+  unit
+)
+"dataflow.ml" 483 17136 17148 "dataflow.ml" 483 17136 17155
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 483 17136 17156 "dataflow.ml" 483 17136 17158
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 483 17136 17159 "dataflow.ml" 483 17136 17173
+type(
+  Cfg.stmt ->
+  (Cfg.stmt, DFP.t) Hashtbl.t -> (Cfg.stmt, DFP.t) Hashtbl.t -> DFP.t
+)
+ident(
+  int_ref super_fixpoint "dataflow.ml" 400 13269 13277 "dataflow.ml" 400 13269 13291
+)
+"dataflow.ml" 483 17136 17174 "dataflow.ml" 483 17136 17175
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref b "dataflow.ml" 460 16049 16065 "dataflow.ml" 460 16049 16066
+)
+"dataflow.ml" 483 17136 17176 "dataflow.ml" 483 17136 17182
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 483 17136 17183 "dataflow.ml" 483 17136 17190
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 483 17136 17159 "dataflow.ml" 483 17136 17190
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 483 17136 17148 "dataflow.ml" 483 17136 17190
+type(
+  unit
+)
+"dataflow.ml" 484 17192 17201 "dataflow.ml" 484 17192 17208
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 484 17192 17209 "dataflow.ml" 484 17192 17211
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 484 17192 17212 "dataflow.ml" 484 17192 17220
+type(
+  DFP.t list -> DFP.t
+)
+ident(
+  ext_ref DFP.join
+)
+"dataflow.ml" 484 17192 17222 "dataflow.ml" 484 17192 17223
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 484 17192 17223 "dataflow.ml" 484 17192 17229
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 484 17192 17222 "dataflow.ml" 484 17192 17229
+type(
+  DFP.t
+)
+"dataflow.ml" 484 17192 17234 "dataflow.ml" 484 17192 17235
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 484 17192 17235 "dataflow.ml" 484 17192 17242
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 484 17192 17234 "dataflow.ml" 484 17192 17242
+type(
+  DFP.t
+)
+"dataflow.ml" 484 17192 17245 "dataflow.ml" 484 17192 17247
+type(
+  DFP.t list
+)
+"dataflow.ml" 484 17192 17233 "dataflow.ml" 484 17192 17248
+type(
+  DFP.t list
+)
+"dataflow.ml" 484 17192 17221 "dataflow.ml" 484 17192 17249
+type(
+  DFP.t list
+)
+"dataflow.ml" 484 17192 17212 "dataflow.ml" 484 17192 17249
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 484 17192 17201 "dataflow.ml" 484 17192 17249
+type(
+  unit
+)
+"dataflow.ml" 485 17251 17260 "dataflow.ml" 485 17251 17267
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 485 17251 17268 "dataflow.ml" 485 17251 17270
+type(
+  DFP.t ref -> DFP.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"dataflow.ml" 485 17251 17271 "dataflow.ml" 485 17251 17283
+type(
+  DFP.t -> Cfg.stmt -> DFP.t
+)
+ident(
+  ext_ref DFP.transfer
+)
+"dataflow.ml" 485 17251 17284 "dataflow.ml" 485 17251 17285
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 485 17251 17285 "dataflow.ml" 485 17251 17292
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 485 17251 17284 "dataflow.ml" 485 17251 17292
+type(
+  DFP.t
+)
+"dataflow.ml" 485 17251 17293 "dataflow.ml" 485 17251 17297
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
+)
+"dataflow.ml" 485 17251 17271 "dataflow.ml" 485 17251 17297
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 485 17251 17260 "dataflow.ml" 485 17251 17297
+type(
+  unit
+)
+"dataflow.ml" 484 17192 17201 "dataflow.ml" 485 17251 17297
+type(
+  unit
+)
+"dataflow.ml" 483 17136 17148 "dataflow.ml" 485 17251 17297
+type(
+  unit
+)
+"dataflow.ml" 482 17101 17113 "dataflow.ml" 485 17251 17297
+type(
+  unit
+)
+"dataflow.ml" 481 17042 17066 "dataflow.ml" 485 17251 17297
+type(
+  unit
+)
+"dataflow.ml" 481 17042 17055 "dataflow.ml" 485 17251 17299
+type(
+  unit -> unit
+)
+"dataflow.ml" 486 17300 17311 "dataflow.ml" 486 17300 17313
+type(
+  unit
+)
+"dataflow.ml" 486 17300 17317 "dataflow.ml" 486 17300 17320
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"dataflow.ml" 486 17300 17322 "dataflow.ml" 486 17300 17328
+type(
+  DFP.t -> DFP.t -> bool
+)
+ident(
+  ext_ref DFP.eq
+)
+"dataflow.ml" 486 17300 17329 "dataflow.ml" 486 17300 17330
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 486 17300 17330 "dataflow.ml" 486 17300 17339
+type(
+  DFP.t ref
+)
+ident(
+  int_ref old_facts "dataflow.ml" 479 17004 17012 "dataflow.ml" 479 17004 17021
+)
+"dataflow.ml" 486 17300 17329 "dataflow.ml" 486 17300 17339
+type(
+  DFP.t
+)
+"dataflow.ml" 486 17300 17340 "dataflow.ml" 486 17300 17341
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 486 17300 17341 "dataflow.ml" 486 17300 17348
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 486 17300 17340 "dataflow.ml" 486 17300 17348
+type(
+  DFP.t
+)
+"dataflow.ml" 486 17300 17321 "dataflow.ml" 486 17300 17349
+call(
+  stack
+)
+type(
+  bool
+)
+"dataflow.ml" 486 17300 17317 "dataflow.ml" 486 17300 17349
+type(
+  bool
+)
+"dataflow.ml" 486 17300 17306 "dataflow.ml" 486 17300 17351
+type(
+  unit -> bool
+)
+"dataflow.ml" 481 17042 17046 "dataflow.ml" 486 17300 17351
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 331 11102 11110 "dataflow.ml" 331 11102 11115
+"dataflow.ml" 488 17354 17360 "dataflow.ml" 488 17354 17375
 type(
-  (Cfg.tuple_expr * Cfg.stmt) list
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
 )
-"dataflow.ml" 331 11102 11118 "dataflow.ml" 331 11102 11121
+ident(
+  ext_ref Hashtbl.replace
+)
+"dataflow.ml" 488 17354 17376 "dataflow.ml" 488 17354 17383
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 488 17354 17384 "dataflow.ml" 488 17354 17385
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref b "dataflow.ml" 460 16049 16065 "dataflow.ml" 460 16049 16066
+)
+"dataflow.ml" 488 17354 17386 "dataflow.ml" 488 17354 17387
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 488 17354 17387 "dataflow.ml" 488 17354 17394
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 488 17354 17386 "dataflow.ml" 488 17354 17394
+type(
+  DFP.t
+)
+"dataflow.ml" 488 17354 17360 "dataflow.ml" 488 17354 17394
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 489 17396 17402 "dataflow.ml" 489 17396 17410
+type(
+  DFP.t list -> DFP.t
+)
+ident(
+  ext_ref DFP.join
+)
+"dataflow.ml" 489 17396 17412 "dataflow.ml" 489 17396 17413
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 489 17396 17413 "dataflow.ml" 489 17396 17419
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 489 17396 17412 "dataflow.ml" 489 17396 17419
+type(
+  DFP.t
+)
+"dataflow.ml" 489 17396 17424 "dataflow.ml" 489 17396 17425
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 489 17396 17425 "dataflow.ml" 489 17396 17432
+type(
+  DFP.t ref
+)
+ident(
+  int_ref b_facts "dataflow.ml" 478 16971 16979 "dataflow.ml" 478 16971 16986
+)
+"dataflow.ml" 489 17396 17424 "dataflow.ml" 489 17396 17432
+type(
+  DFP.t
+)
+"dataflow.ml" 489 17396 17435 "dataflow.ml" 489 17396 17437
+type(
+  DFP.t list
+)
+"dataflow.ml" 489 17396 17423 "dataflow.ml" 489 17396 17438
+type(
+  DFP.t list
+)
+"dataflow.ml" 489 17396 17411 "dataflow.ml" 489 17396 17439
+type(
+  DFP.t list
+)
+"dataflow.ml" 489 17396 17402 "dataflow.ml" 489 17396 17439
+call(
+  tail
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 488 17354 17360 "dataflow.ml" 489 17396 17439
+type(
+  DFP.t
+)
+"dataflow.ml" 481 17042 17046 "dataflow.ml" 489 17396 17439
+type(
+  DFP.t
+)
+"dataflow.ml" 479 17004 17008 "dataflow.ml" 489 17396 17439
+type(
+  DFP.t
+)
+"dataflow.ml" 478 16971 16975 "dataflow.ml" 489 17396 17439
+type(
+  DFP.t
+)
+"dataflow.ml" 491 17469 17480 "dataflow.ml" 491 17469 17483
 type(
   Cfg.case_block
 )
 ident(
-  int_ref all "dataflow.ml" 330 11061 11070 "dataflow.ml" 330 11061 11075
+  def b "dataflow.ml" 494 17556 17560 "dataflow.ml" 519 18713 18747
 )
-"dataflow.ml" 331 11102 11118 "dataflow.ml" 331 11102 11132
+"dataflow.ml" 491 17469 17475 "dataflow.ml" 491 17469 17483
+type(
+  Cfg.stmt_node
+)
+"dataflow.ml" 494 17556 17564 "dataflow.ml" 494 17556 17569
 type(
   (Cfg.tuple_expr * Cfg.stmt) list
 )
-"dataflow.ml" 332 11136 11144 "dataflow.ml" 332 11136 11147
+"dataflow.ml" 494 17556 17572 "dataflow.ml" 494 17556 17573
+type(
+  Cfg.case_block
+)
+ident(
+  int_ref b "dataflow.ml" 491 17469 17480 "dataflow.ml" 491 17469 17483
+)
+"dataflow.ml" 494 17556 17572 "dataflow.ml" 494 17556 17584
+type(
+  (Cfg.tuple_expr * Cfg.stmt) list
+)
+"dataflow.ml" 496 17653 17661 "dataflow.ml" 496 17653 17663
 type(
   Cfg.stmt list
 )
-"dataflow.ml" 332 11136 11150 "dataflow.ml" 332 11136 11164
+"dataflow.ml" 496 17653 17666 "dataflow.ml" 496 17653 17680
 type(
   (Cfg.stmt list -> Cfg.tuple_expr * Cfg.stmt -> Cfg.stmt list) ->
   Cfg.stmt list -> (Cfg.tuple_expr * Cfg.stmt) list -> Cfg.stmt list
@@ -5516,871 +6855,883 @@ type(
 ident(
   ext_ref List.fold_left
 )
-"dataflow.ml" 332 11136 11171 "dataflow.ml" 332 11136 11174
+"dataflow.ml" 496 17653 17687 "dataflow.ml" 496 17653 17690
 type(
   Cfg.stmt list
 )
 ident(
-  def acc "dataflow.ml" 332 11136 11175 "dataflow.ml" 332 11136 11191
+  def acc "dataflow.ml" 496 17653 17691 "dataflow.ml" 496 17653 17707
 )
-"dataflow.ml" 332 11136 11176 "dataflow.ml" 332 11136 11177
+"dataflow.ml" 496 17653 17692 "dataflow.ml" 496 17653 17693
 type(
   Cfg.tuple_expr
 )
-"dataflow.ml" 332 11136 11179 "dataflow.ml" 332 11136 11180
+"dataflow.ml" 496 17653 17695 "dataflow.ml" 496 17653 17696
 type(
   Cfg.stmt
 )
 ident(
-  def s "dataflow.ml" 332 11136 11185 "dataflow.ml" 332 11136 11191
+  def s "dataflow.ml" 496 17653 17701 "dataflow.ml" 496 17653 17707
 )
-"dataflow.ml" 332 11136 11175 "dataflow.ml" 332 11136 11181
+"dataflow.ml" 496 17653 17691 "dataflow.ml" 496 17653 17697
 type(
   Cfg.tuple_expr * Cfg.stmt
 )
-"dataflow.ml" 332 11136 11185 "dataflow.ml" 332 11136 11186
+"dataflow.ml" 496 17653 17701 "dataflow.ml" 496 17653 17702
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dataflow.ml" 332 11136 11179 "dataflow.ml" 332 11136 11180
+  int_ref s "dataflow.ml" 496 17653 17695 "dataflow.ml" 496 17653 17696
 )
-"dataflow.ml" 332 11136 11188 "dataflow.ml" 332 11136 11191
+"dataflow.ml" 496 17653 17704 "dataflow.ml" 496 17653 17707
 type(
   Cfg.stmt list
 )
 ident(
-  int_ref acc "dataflow.ml" 332 11136 11171 "dataflow.ml" 332 11136 11174
+  int_ref acc "dataflow.ml" 496 17653 17687 "dataflow.ml" 496 17653 17690
 )
-"dataflow.ml" 332 11136 11185 "dataflow.ml" 332 11136 11191
+"dataflow.ml" 496 17653 17701 "dataflow.ml" 496 17653 17707
 type(
   Cfg.stmt list
 )
-"dataflow.ml" 332 11136 11165 "dataflow.ml" 332 11136 11193
+"dataflow.ml" 496 17653 17681 "dataflow.ml" 496 17653 17709
 type(
   Cfg.stmt list -> Cfg.tuple_expr * Cfg.stmt -> Cfg.stmt list
 )
-"dataflow.ml" 332 11136 11194 "dataflow.ml" 332 11136 11196
+"dataflow.ml" 496 17653 17710 "dataflow.ml" 496 17653 17712
 type(
   Cfg.stmt list
 )
-"dataflow.ml" 332 11136 11197 "dataflow.ml" 332 11136 11202
+"dataflow.ml" 496 17653 17713 "dataflow.ml" 496 17653 17718
 type(
   (Cfg.tuple_expr * Cfg.stmt) list
 )
 ident(
-  int_ref whens "dataflow.ml" 331 11102 11110 "dataflow.ml" 331 11102 11115
+  int_ref whens "dataflow.ml" 494 17556 17564 "dataflow.ml" 494 17556 17569
 )
-"dataflow.ml" 332 11136 11150 "dataflow.ml" 332 11136 11202
+"dataflow.ml" 496 17653 17666 "dataflow.ml" 496 17653 17718
 call(
   stack
 )
 type(
   Cfg.stmt list
 )
-"dataflow.ml" 333 11206 11214 "dataflow.ml" 333 11206 11217
+"dataflow.ml" 498 17815 17823 "dataflow.ml" 498 17815 17830
+type(
+  Cfg.stmt option
+)
+"dataflow.ml" 498 17815 17833 "dataflow.ml" 498 17815 17834
+type(
+  Cfg.case_block
+)
+ident(
+  int_ref b "dataflow.ml" 491 17469 17480 "dataflow.ml" 491 17469 17483
+)
+"dataflow.ml" 498 17815 17833 "dataflow.ml" 498 17815 17844
+type(
+  Cfg.stmt option
+)
+"dataflow.ml" 499 17848 17857 "dataflow.ml" 499 17848 17859
 type(
   Cfg.stmt list
 )
-"dataflow.ml" 333 11206 11220 "dataflow.ml" 333 11206 11228
+"dataflow.ml" 499 17848 17868 "dataflow.ml" 499 17848 17875
+type(
+  Cfg.stmt option
+)
+ident(
+  int_ref default "dataflow.ml" 498 17815 17823 "dataflow.ml" 498 17815 17830
+)
+"dataflow.ml" 500 17881 17889 "dataflow.ml" 500 17881 17893
+type(
+  Cfg.stmt option
+)
+"dataflow.ml" 500 17881 17897 "dataflow.ml" 500 17881 17899
+type(
+  Cfg.stmt list
+)
+ident(
+  int_ref st "dataflow.ml" 496 17653 17661 "dataflow.ml" 496 17653 17663
+)
+"dataflow.ml" 501 17900 17913 "dataflow.ml" 501 17900 17914
+type(
+  Cfg.stmt
+)
+ident(
+  def s "dataflow.ml" 501 17900 17918 "dataflow.ml" 501 17900 17923
+)
+"dataflow.ml" 501 17900 17908 "dataflow.ml" 501 17900 17914
+type(
+  Cfg.stmt option
+)
+"dataflow.ml" 501 17900 17918 "dataflow.ml" 501 17900 17919
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "dataflow.ml" 501 17900 17913 "dataflow.ml" 501 17900 17914
+)
+"dataflow.ml" 501 17900 17921 "dataflow.ml" 501 17900 17923
+type(
+  Cfg.stmt list
+)
+ident(
+  int_ref st "dataflow.ml" 496 17653 17661 "dataflow.ml" 496 17653 17663
+)
+"dataflow.ml" 501 17900 17918 "dataflow.ml" 501 17900 17923
+type(
+  Cfg.stmt list
+)
+"dataflow.ml" 499 17848 17862 "dataflow.ml" 501 17900 17923
+type(
+  Cfg.stmt list
+)
+"dataflow.ml" 504 18047 18057 "dataflow.ml" 504 18047 18063
+type(
+  Cfg.stmt list
+)
+"dataflow.ml" 504 18047 18066 "dataflow.ml" 504 18047 18074
 type(
   Cfg.stmt list -> Cfg.stmt list
 )
 ident(
   ext_ref List.rev
 )
-"dataflow.ml" 333 11206 11229 "dataflow.ml" 333 11206 11232
+"dataflow.ml" 504 18047 18075 "dataflow.ml" 504 18047 18077
 type(
   Cfg.stmt list
 )
 ident(
-  int_ref stm "dataflow.ml" 332 11136 11144 "dataflow.ml" 332 11136 11147
+  int_ref st "dataflow.ml" 499 17848 17857 "dataflow.ml" 499 17848 17859
 )
-"dataflow.ml" 333 11206 11220 "dataflow.ml" 333 11206 11232
+"dataflow.ml" 504 18047 18066 "dataflow.ml" 504 18047 18077
 call(
   stack
 )
 type(
   Cfg.stmt list
 )
-"dataflow.ml" 334 11242 11247 "dataflow.ml" 334 11242 11256
+"dataflow.ml" 505 18081 18091 "dataflow.ml" 505 18081 18101
 type(
-  (Cfg.StmtSet.elt -> unit) -> Cfg.StmtSet.elt list -> unit
+  DFP.t list
+)
+"dataflow.ml" 507 18160 18167 "dataflow.ml" 507 18160 18181
+type(
+  (DFP.t list -> Cfg.stmt -> DFP.t list) ->
+  DFP.t list -> Cfg.stmt list -> DFP.t list
 )
 ident(
-  ext_ref List.iter
+  ext_ref List.fold_left
 )
-"dataflow.ml" 334 11242 11262 "dataflow.ml" 334 11242 11263
+"dataflow.ml" 507 18160 18188 "dataflow.ml" 507 18160 18191
 type(
-  Cfg.StmtSet.elt
+  DFP.t list
 )
 ident(
-  def x "dataflow.ml" 336 11273 11278 "dataflow.ml" 340 11441 11449
+  def acc "dataflow.ml" 507 18160 18192 "dataflow.ml" 512 18440 18464
 )
-"dataflow.ml" 336 11273 11282 "dataflow.ml" 336 11273 11283
+"dataflow.ml" 507 18160 18192 "dataflow.ml" 507 18160 18193
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-"dataflow.ml" 336 11273 11284 "dataflow.ml" 336 11273 11285
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-"dataflow.ml" 336 11273 11282 "dataflow.ml" 336 11273 11285
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-"dataflow.ml" 336 11273 11288 "dataflow.ml" 336 11273 11296
-type(
-  Cfg.StmtSet.elt ->
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  Cfg.stmt
 )
 ident(
-  int_ref fixpoint "dataflow.ml" 302 10147 10156 "dataflow.ml" 302 10147 10164
+  def x "dataflow.ml" 509 18293 18302 "dataflow.ml" 512 18440 18464
 )
-"dataflow.ml" 336 11273 11297 "dataflow.ml" 336 11273 11298
+"dataflow.ml" 509 18293 18302 "dataflow.ml" 509 18293 18317
 type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref x "dataflow.ml" 334 11242 11262 "dataflow.ml" 334 11242 11263
-)
-"dataflow.ml" 336 11273 11288 "dataflow.ml" 336 11273 11298
-call(
-  stack
-)
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-"dataflow.ml" 338 11314 11320 "dataflow.ml" 338 11314 11332
-type(
-  (Cfg.StmtSet.elt -> DFP.t -> unit) ->
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> unit
-)
-ident(
-  ext_ref Hashtbl.iter
-)
-"dataflow.ml" 338 11314 11338 "dataflow.ml" 338 11314 11339
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def k "dataflow.ml" 338 11314 11340 "dataflow.ml" 338 11314 11372
-)
-"dataflow.ml" 338 11314 11340 "dataflow.ml" 338 11314 11341
-type(
-  DFP.t
-)
-ident(
-  def v "dataflow.ml" 338 11314 11346 "dataflow.ml" 338 11314 11372
-)
-"dataflow.ml" 338 11314 11346 "dataflow.ml" 338 11314 11361
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t -> unit
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
 )
 ident(
   ext_ref Hashtbl.replace
 )
-"dataflow.ml" 338 11314 11362 "dataflow.ml" 338 11314 11368
+"dataflow.ml" 509 18293 18318 "dataflow.ml" 509 18293 18324
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref in_tbl "dataflow.ml" 303 10172 10178 "dataflow.ml" 303 10172 10184
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
 )
-"dataflow.ml" 338 11314 11369 "dataflow.ml" 338 11314 11370
+"dataflow.ml" 509 18293 18325 "dataflow.ml" 509 18293 18326
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref k "dataflow.ml" 338 11314 11338 "dataflow.ml" 338 11314 11339
+  int_ref x "dataflow.ml" 507 18160 18192 "dataflow.ml" 507 18160 18193
 )
-"dataflow.ml" 338 11314 11371 "dataflow.ml" 338 11314 11372
+"dataflow.ml" 509 18293 18327 "dataflow.ml" 509 18293 18328
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 509 18293 18328 "dataflow.ml" 509 18293 18334
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 509 18293 18327 "dataflow.ml" 509 18293 18334
 type(
   DFP.t
 )
-ident(
-  int_ref v "dataflow.ml" 338 11314 11340 "dataflow.ml" 338 11314 11341
-)
-"dataflow.ml" 338 11314 11346 "dataflow.ml" 338 11314 11372
-call(
-  tail
-)
-type(
-  unit
-)
-"dataflow.ml" 338 11314 11333 "dataflow.ml" 338 11314 11373
-type(
-  Cfg.StmtSet.elt -> DFP.t -> unit
-)
-"dataflow.ml" 338 11314 11374 "dataflow.ml" 338 11314 11375
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-ident(
-  int_ref a "dataflow.ml" 336 11273 11282 "dataflow.ml" 336 11273 11283
-)
-"dataflow.ml" 338 11314 11320 "dataflow.ml" 338 11314 11375
+"dataflow.ml" 509 18293 18302 "dataflow.ml" 509 18293 18334
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 339 11377 11383 "dataflow.ml" 339 11377 11395
-type(
-  (Cfg.StmtSet.elt -> DFP.t -> unit) ->
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> unit
-)
-ident(
-  ext_ref Hashtbl.iter
-)
-"dataflow.ml" 339 11377 11401 "dataflow.ml" 339 11377 11402
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def k "dataflow.ml" 339 11377 11403 "dataflow.ml" 339 11377 11436
-)
-"dataflow.ml" 339 11377 11403 "dataflow.ml" 339 11377 11404
+"dataflow.ml" 510 18336 18349 "dataflow.ml" 510 18336 18357
 type(
   DFP.t
 )
-ident(
-  def v "dataflow.ml" 339 11377 11409 "dataflow.ml" 339 11377 11436
-)
-"dataflow.ml" 339 11377 11409 "dataflow.ml" 339 11377 11424
+"dataflow.ml" 510 18336 18360 "dataflow.ml" 510 18336 18374
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t -> unit
+  Cfg.stmt ->
+  (Cfg.stmt, DFP.t) Hashtbl.t -> (Cfg.stmt, DFP.t) Hashtbl.t -> DFP.t
+)
+ident(
+  int_ref super_fixpoint "dataflow.ml" 400 13269 13277 "dataflow.ml" 400 13269 13291
+)
+"dataflow.ml" 510 18336 18375 "dataflow.ml" 510 18336 18376
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref x "dataflow.ml" 507 18160 18192 "dataflow.ml" 507 18160 18193
+)
+"dataflow.ml" 510 18336 18377 "dataflow.ml" 510 18336 18383
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref in_tbl "dataflow.ml" 400 13269 13297 "dataflow.ml" 400 13269 13303
+)
+"dataflow.ml" 510 18336 18384 "dataflow.ml" 510 18336 18391
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
+)
+"dataflow.ml" 510 18336 18360 "dataflow.ml" 510 18336 18391
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 511 18395 18404 "dataflow.ml" 511 18395 18419
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
 )
 ident(
   ext_ref Hashtbl.replace
 )
-"dataflow.ml" 339 11377 11425 "dataflow.ml" 339 11377 11432
+"dataflow.ml" 511 18395 18420 "dataflow.ml" 511 18395 18427
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref out_tbl "dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
+  int_ref out_tbl "dataflow.ml" 400 13269 13304 "dataflow.ml" 400 13269 13311
 )
-"dataflow.ml" 339 11377 11433 "dataflow.ml" 339 11377 11434
+"dataflow.ml" 511 18395 18428 "dataflow.ml" 511 18395 18429
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref k "dataflow.ml" 339 11377 11401 "dataflow.ml" 339 11377 11402
+  int_ref x "dataflow.ml" 507 18160 18192 "dataflow.ml" 507 18160 18193
 )
-"dataflow.ml" 339 11377 11435 "dataflow.ml" 339 11377 11436
+"dataflow.ml" 511 18395 18430 "dataflow.ml" 511 18395 18438
 type(
   DFP.t
 )
 ident(
-  int_ref v "dataflow.ml" 339 11377 11403 "dataflow.ml" 339 11377 11404
+  int_ref newfacts "dataflow.ml" 510 18336 18349 "dataflow.ml" 510 18336 18357
 )
-"dataflow.ml" 339 11377 11409 "dataflow.ml" 339 11377 11436
-call(
-  tail
-)
-type(
-  unit
-)
-"dataflow.ml" 339 11377 11396 "dataflow.ml" 339 11377 11437
-type(
-  Cfg.StmtSet.elt -> DFP.t -> unit
-)
-"dataflow.ml" 339 11377 11438 "dataflow.ml" 339 11377 11439
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-ident(
-  int_ref b "dataflow.ml" 336 11273 11284 "dataflow.ml" 336 11273 11285
-)
-"dataflow.ml" 339 11377 11383 "dataflow.ml" 339 11377 11440
-call(
-  tail
-)
-type(
-  unit
-)
-"dataflow.ml" 337 11303 11308 "dataflow.ml" 340 11441 11449
-type(
-  unit
-)
-"dataflow.ml" 336 11273 11278 "dataflow.ml" 340 11441 11449
-type(
-  unit
-)
-"dataflow.ml" 334 11242 11256 "dataflow.ml" 341 11450 11455
-type(
-  Cfg.StmtSet.elt -> unit
-)
-"dataflow.ml" 341 11450 11456 "dataflow.ml" 341 11450 11459
-type(
-  Cfg.StmtSet.elt list
-)
-ident(
-  int_ref rev "dataflow.ml" 333 11206 11214 "dataflow.ml" 333 11206 11217
-)
-"dataflow.ml" 334 11242 11247 "dataflow.ml" 341 11450 11459
+"dataflow.ml" 511 18395 18404 "dataflow.ml" 511 18395 18438
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 342 11461 11470 "dataflow.ml" 342 11461 11479
+"dataflow.ml" 512 18440 18449 "dataflow.ml" 512 18440 18457
 type(
   DFP.t
 )
-"dataflow.ml" 342 11461 11482 "dataflow.ml" 342 11461 11494
+ident(
+  int_ref newfacts "dataflow.ml" 510 18336 18349 "dataflow.ml" 510 18336 18357
+)
+"dataflow.ml" 512 18440 18461 "dataflow.ml" 512 18440 18464
 type(
-  DFP.t -> Cfg.StmtSet.elt -> DFP.t
+  DFP.t list
+)
+ident(
+  int_ref acc "dataflow.ml" 507 18160 18188 "dataflow.ml" 507 18160 18191
+)
+"dataflow.ml" 512 18440 18449 "dataflow.ml" 512 18440 18464
+type(
+  DFP.t list
+)
+"dataflow.ml" 511 18395 18404 "dataflow.ml" 512 18440 18464
+type(
+  DFP.t list
+)
+"dataflow.ml" 510 18336 18345 "dataflow.ml" 512 18440 18464
+type(
+  DFP.t list
+)
+"dataflow.ml" 509 18293 18302 "dataflow.ml" 512 18440 18464
+type(
+  DFP.t list
+)
+"dataflow.ml" 507 18160 18182 "dataflow.ml" 513 18465 18472
+type(
+  DFP.t list -> Cfg.stmt -> DFP.t list
+)
+"dataflow.ml" 513 18465 18473 "dataflow.ml" 513 18465 18475
+type(
+  DFP.t list
+)
+"dataflow.ml" 513 18465 18476 "dataflow.ml" 513 18465 18482
+type(
+  Cfg.stmt list
+)
+ident(
+  int_ref st_rev "dataflow.ml" 504 18047 18057 "dataflow.ml" 504 18047 18063
+)
+"dataflow.ml" 507 18160 18167 "dataflow.ml" 513 18465 18482
+call(
+  stack
+)
+type(
+  DFP.t list
+)
+"dataflow.ml" 516 18571 18582 "dataflow.ml" 516 18571 18590
+type(
+  DFP.t
+)
+"dataflow.ml" 516 18571 18593 "dataflow.ml" 516 18571 18607
+type(
+  (DFP.t -> DFP.t -> DFP.t) -> DFP.t -> DFP.t list -> DFP.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"dataflow.ml" 516 18571 18614 "dataflow.ml" 516 18571 18617
+type(
+  DFP.t
+)
+ident(
+  def acc "dataflow.ml" 516 18571 18618 "dataflow.ml" 517 18623 18658
+)
+"dataflow.ml" 516 18571 18618 "dataflow.ml" 516 18571 18619
+type(
+  DFP.t
+)
+ident(
+  def x "dataflow.ml" 517 18623 18631 "dataflow.ml" 517 18623 18658
+)
+"dataflow.ml" 517 18623 18631 "dataflow.ml" 517 18623 18639
+type(
+  DFP.t list -> DFP.t
+)
+ident(
+  ext_ref DFP.join
+)
+"dataflow.ml" 517 18623 18641 "dataflow.ml" 517 18623 18644
+type(
+  DFP.t
+)
+ident(
+  int_ref acc "dataflow.ml" 516 18571 18614 "dataflow.ml" 516 18571 18617
+)
+"dataflow.ml" 517 18623 18649 "dataflow.ml" 517 18623 18650
+type(
+  DFP.t
+)
+ident(
+  int_ref x "dataflow.ml" 516 18571 18618 "dataflow.ml" 516 18571 18619
+)
+"dataflow.ml" 517 18623 18654 "dataflow.ml" 517 18623 18656
+type(
+  DFP.t list
+)
+"dataflow.ml" 517 18623 18648 "dataflow.ml" 517 18623 18657
+type(
+  DFP.t list
+)
+"dataflow.ml" 517 18623 18640 "dataflow.ml" 517 18623 18658
+type(
+  DFP.t list
+)
+"dataflow.ml" 517 18623 18631 "dataflow.ml" 517 18623 18658
+call(
+  tail
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 516 18571 18608 "dataflow.ml" 518 18659 18667
+type(
+  DFP.t -> DFP.t -> DFP.t
+)
+"dataflow.ml" 518 18659 18669 "dataflow.ml" 518 18659 18676
+type(
+  DFP.t list -> DFP.t
+)
+ident(
+  ext_ref List.hd
+)
+"dataflow.ml" 518 18659 18677 "dataflow.ml" 518 18659 18687
+type(
+  DFP.t list
+)
+ident(
+  int_ref finalfacts "dataflow.ml" 505 18081 18091 "dataflow.ml" 505 18081 18101
+)
+"dataflow.ml" 518 18659 18668 "dataflow.ml" 518 18659 18688
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 518 18659 18690 "dataflow.ml" 518 18659 18697
+type(
+  DFP.t list -> DFP.t list
+)
+ident(
+  ext_ref List.tl
+)
+"dataflow.ml" 518 18659 18698 "dataflow.ml" 518 18659 18708
+type(
+  DFP.t list
+)
+ident(
+  int_ref finalfacts "dataflow.ml" 505 18081 18091 "dataflow.ml" 505 18081 18101
+)
+"dataflow.ml" 518 18659 18689 "dataflow.ml" 518 18659 18709
+call(
+  stack
+)
+type(
+  DFP.t list
+)
+"dataflow.ml" 516 18571 18593 "dataflow.ml" 518 18659 18709
+call(
+  stack
+)
+type(
+  DFP.t
+)
+"dataflow.ml" 519 18713 18720 "dataflow.ml" 519 18713 18732
+type(
+  DFP.t -> Cfg.stmt -> DFP.t
 )
 ident(
   ext_ref DFP.transfer
 )
-"dataflow.ml" 342 11461 11495 "dataflow.ml" 342 11461 11503
+"dataflow.ml" 519 18713 18733 "dataflow.ml" 519 18713 18741
 type(
   DFP.t
 )
 ident(
-  int_ref in_facts "dataflow.ml" 326 10945 10952 "dataflow.ml" 326 10945 10960
+  int_ref tmp_fact "dataflow.ml" 516 18571 18582 "dataflow.ml" 516 18571 18590
 )
-"dataflow.ml" 342 11461 11504 "dataflow.ml" 342 11461 11508
+"dataflow.ml" 519 18713 18742 "dataflow.ml" 519 18713 18746
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
 )
-"dataflow.ml" 342 11461 11482 "dataflow.ml" 342 11461 11508
+"dataflow.ml" 519 18713 18720 "dataflow.ml" 519 18713 18747
 call(
-  stack
+  tail
 )
 type(
   DFP.t
 )
-"dataflow.ml" 343 11512 11520 "dataflow.ml" 343 11512 11535
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t -> unit
-)
-ident(
-  ext_ref Hashtbl.replace
-)
-"dataflow.ml" 343 11512 11536 "dataflow.ml" 343 11512 11543
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-ident(
-  int_ref out_tbl "dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
-)
-"dataflow.ml" 343 11512 11544 "dataflow.ml" 343 11512 11548
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
-)
-"dataflow.ml" 343 11512 11549 "dataflow.ml" 343 11512 11558
+"dataflow.ml" 516 18571 18578 "dataflow.ml" 519 18713 18747
 type(
   DFP.t
 )
-ident(
-  int_ref new_facts "dataflow.ml" 342 11461 11470 "dataflow.ml" 342 11461 11479
-)
-"dataflow.ml" 343 11512 11520 "dataflow.ml" 343 11512 11559
-call(
-  stack
-)
+"dataflow.ml" 505 18081 18087 "dataflow.ml" 519 18713 18747
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 342 11461 11466 "dataflow.ml" 343 11512 11559
+"dataflow.ml" 504 18047 18053 "dataflow.ml" 519 18713 18747
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 334 11242 11247 "dataflow.ml" 343 11512 11559
+"dataflow.ml" 499 17848 17853 "dataflow.ml" 519 18713 18747
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 333 11206 11210 "dataflow.ml" 343 11512 11559
+"dataflow.ml" 498 17815 17819 "dataflow.ml" 519 18713 18747
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 332 11136 11140 "dataflow.ml" 343 11512 11559
+"dataflow.ml" 496 17653 17657 "dataflow.ml" 519 18713 18747
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 331 11102 11106 "dataflow.ml" 343 11512 11559
+"dataflow.ml" 494 17556 17560 "dataflow.ml" 519 18713 18747
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 330 11061 11080 "dataflow.ml" 343 11512 11559
-type(
-  unit
-)
-"dataflow.ml" 345 11561 11566 "dataflow.ml" 345 11561 11567
+"dataflow.ml" 532 19101 19106 "dataflow.ml" 532 19101 19107
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 346 11571 11578 "dataflow.ml" 346 11571 11587
+"dataflow.ml" 533 19113 19122 "dataflow.ml" 533 19113 19134
 type(
-  DFP.t
+  string -> unit
 )
-"dataflow.ml" 346 11571 11590 "dataflow.ml" 346 11571 11602
+ident(
+  ext_ref Pervasives.print_string
+)
+"dataflow.ml" 533 19113 19135 "dataflow.ml" 533 19113 19146
 type(
-  DFP.t -> Cfg.StmtSet.elt -> DFP.t
+  string
+)
+"dataflow.ml" 533 19113 19122 "dataflow.ml" 533 19113 19146
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 534 19153 19162 "dataflow.ml" 534 19153 19172
+type(
+  out_channel -> Cfg.stmt -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.print_stmt
+)
+"dataflow.ml" 534 19153 19173 "dataflow.ml" 534 19153 19179
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"dataflow.ml" 534 19153 19180 "dataflow.ml" 534 19153 19184
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
+)
+"dataflow.ml" 534 19153 19162 "dataflow.ml" 534 19153 19184
+call(
+  stack
+)
+type(
+  unit
+)
+"dataflow.ml" 535 19191 19195 "dataflow.ml" 535 19191 19207
+type(
+  DFP.t -> Cfg.stmt -> DFP.t
 )
 ident(
   ext_ref DFP.transfer
 )
-"dataflow.ml" 346 11571 11603 "dataflow.ml" 346 11571 11611
+"dataflow.ml" 535 19191 19208 "dataflow.ml" 535 19191 19209
+type(
+  DFP.t ref -> DFP.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"dataflow.ml" 535 19191 19209 "dataflow.ml" 535 19191 19215
+type(
+  DFP.t ref
+)
+ident(
+  int_ref ifacts "dataflow.ml" 403 13456 13462 "dataflow.ml" 403 13456 13468
+)
+"dataflow.ml" 535 19191 19208 "dataflow.ml" 535 19191 19215
 type(
   DFP.t
 )
-ident(
-  int_ref in_facts "dataflow.ml" 326 10945 10952 "dataflow.ml" 326 10945 10960
-)
-"dataflow.ml" 346 11571 11612 "dataflow.ml" 346 11571 11616
+"dataflow.ml" 535 19191 19216 "dataflow.ml" 535 19191 19220
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  int_ref stmt "dataflow.ml" 400 13269 13292 "dataflow.ml" 400 13269 13296
 )
-"dataflow.ml" 346 11571 11590 "dataflow.ml" 346 11571 11616
-call(
-  stack
-)
-type(
-  DFP.t
-)
-"dataflow.ml" 348 11628 11637 "dataflow.ml" 348 11628 11646
-type(
-  DFP.t
-)
-ident(
-  def old_facts "dataflow.ml" 349 11678 11683 "dataflow.ml" 354 11844 11852
-)
-"dataflow.ml" 348 11628 11649 "dataflow.ml" 348 11628 11661
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t
-)
-ident(
-  ext_ref Hashtbl.find
-)
-"dataflow.ml" 348 11628 11662 "dataflow.ml" 348 11628 11669
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
-)
-ident(
-  int_ref out_tbl "dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
-)
-"dataflow.ml" 348 11628 11670 "dataflow.ml" 348 11628 11674
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
-)
-"dataflow.ml" 348 11628 11649 "dataflow.ml" 348 11628 11674
-call(
-  stack
-)
-type(
-  DFP.t
-)
-"dataflow.ml" 349 11678 11686 "dataflow.ml" 349 11678 11692
-type(
-  DFP.t -> DFP.t -> bool
-)
-ident(
-  ext_ref DFP.eq
-)
-"dataflow.ml" 349 11678 11693 "dataflow.ml" 349 11678 11702
-type(
-  DFP.t
-)
-ident(
-  int_ref old_facts "dataflow.ml" 348 11628 11637 "dataflow.ml" 348 11628 11646
-)
-"dataflow.ml" 349 11678 11703 "dataflow.ml" 349 11678 11712
-type(
-  DFP.t
-)
-ident(
-  int_ref new_facts "dataflow.ml" 346 11571 11578 "dataflow.ml" 346 11571 11587
-)
-"dataflow.ml" 349 11678 11686 "dataflow.ml" 349 11678 11712
-call(
-  stack
-)
-type(
-  bool
-)
-"dataflow.ml" 350 11713 11723 "dataflow.ml" 350 11713 11725
-type(
-  unit
-)
-"dataflow.ml" 352 11742 11748 "dataflow.ml" 352 11742 11760
-type(
-  (Cfg.StmtSet.elt -> unit) -> Cfg.StmtSet.t -> unit
-)
-ident(
-  ext_ref Cfg.StmtSet.iter
-)
-"dataflow.ml" 352 11742 11766 "dataflow.ml" 352 11742 11767
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def x "dataflow.ml" 352 11742 11771 "dataflow.ml" 352 11742 11785
-)
-"dataflow.ml" 352 11742 11771 "dataflow.ml" 352 11742 11781
-type(
-  Cfg.StmtSet.elt -> Cfg.StmtSet.elt Queue.t -> unit
-)
-ident(
-  ext_ref Queue.push
-)
-"dataflow.ml" 352 11742 11782 "dataflow.ml" 352 11742 11783
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref x "dataflow.ml" 352 11742 11766 "dataflow.ml" 352 11742 11767
-)
-"dataflow.ml" 352 11742 11784 "dataflow.ml" 352 11742 11785
-type(
-  Cfg.StmtSet.elt Queue.t
-)
-ident(
-  int_ref q "dataflow.ml" 305 10247 10253 "dataflow.ml" 305 10247 10254
-)
-"dataflow.ml" 352 11742 11771 "dataflow.ml" 352 11742 11785
+"dataflow.ml" 535 19191 19195 "dataflow.ml" 535 19191 19220
 call(
   tail
 )
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 352 11742 11761 "dataflow.ml" 352 11742 11786
+"dataflow.ml" 534 19153 19162 "dataflow.ml" 535 19191 19220
 type(
-  Cfg.StmtSet.elt -> unit
+  DFP.t
 )
-"dataflow.ml" 352 11742 11787 "dataflow.ml" 352 11742 11791
+"dataflow.ml" 533 19113 19122 "dataflow.ml" 535 19191 19220
 type(
-  Cfg.StmtSet.elt
+  DFP.t
+)
+"dataflow.ml" 405 13549 13551 "dataflow.ml" 535 19191 19220
+type(
+  DFP.t
+)
+"dataflow.ml" 403 13456 13458 "dataflow.ml" 535 19191 19220
+type(
+  DFP.t
+)
+"dataflow.ml" 537 19223 19228 "dataflow.ml" 537 19223 19236
+type(
+  Cfg.stmt -> (Cfg.stmt, DFP.t) Hashtbl.t * (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  def fixpoint "dataflow.ml" 544 19526 19543 "dataflow.ml" 547 19549 19552
 )
-"dataflow.ml" 352 11742 11787 "dataflow.ml" 352 11742 11797
+"dataflow.ml" 537 19223 19237 "dataflow.ml" 537 19223 19241
 type(
-  Cfg.StmtSet.t
+  Cfg.stmt
 )
-"dataflow.ml" 352 11742 11748 "dataflow.ml" 352 11742 11797
+ident(
+  def stmt "dataflow.ml" 538 19244 19246 "dataflow.ml" 544 19526 19543
+)
+"dataflow.ml" 538 19244 19250 "dataflow.ml" 538 19244 19256
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+"dataflow.ml" 538 19244 19259 "dataflow.ml" 538 19244 19273
+type(
+  int -> (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"dataflow.ml" 538 19244 19274 "dataflow.ml" 538 19244 19277
+type(
+  int
+)
+"dataflow.ml" 538 19244 19259 "dataflow.ml" 538 19244 19277
 call(
   stack
 )
 type(
-  unit
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
-"dataflow.ml" 353 11799 11805 "dataflow.ml" 353 11799 11820
+"dataflow.ml" 539 19281 19287 "dataflow.ml" 539 19281 19294
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t -> unit
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+"dataflow.ml" 539 19281 19297 "dataflow.ml" 539 19281 19311
+type(
+  int -> (Cfg.stmt, DFP.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"dataflow.ml" 539 19281 19312 "dataflow.ml" 539 19281 19315
+type(
+  int
+)
+"dataflow.ml" 539 19281 19297 "dataflow.ml" 539 19281 19315
+call(
+  stack
+)
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t
+)
+"dataflow.ml" 540 19319 19322 "dataflow.ml" 540 19319 19337
+type(
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
 )
 ident(
   ext_ref Hashtbl.replace
 )
-"dataflow.ml" 353 11799 11821 "dataflow.ml" 353 11799 11828
+"dataflow.ml" 540 19319 19338 "dataflow.ml" 540 19319 19344
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref out_tbl "dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
+  int_ref in_tbl "dataflow.ml" 538 19244 19250 "dataflow.ml" 538 19244 19256
 )
-"dataflow.ml" 353 11799 11829 "dataflow.ml" 353 11799 11833
+"dataflow.ml" 540 19319 19345 "dataflow.ml" 540 19319 19349
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  int_ref stmt "dataflow.ml" 537 19223 19237 "dataflow.ml" 537 19223 19241
 )
-"dataflow.ml" 353 11799 11834 "dataflow.ml" 353 11799 11843
+"dataflow.ml" 540 19319 19350 "dataflow.ml" 540 19319 19359
 type(
   DFP.t
 )
 ident(
-  int_ref new_facts "dataflow.ml" 346 11571 11578 "dataflow.ml" 346 11571 11587
+  ext_ref DFP.empty
 )
-"dataflow.ml" 353 11799 11805 "dataflow.ml" 353 11799 11843
+"dataflow.ml" 540 19319 19322 "dataflow.ml" 540 19319 19359
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 351 11726 11736 "dataflow.ml" 354 11844 11852
+"dataflow.ml" 541 19361 19368 "dataflow.ml" 541 19361 19376
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 349 11678 11683 "dataflow.ml" 354 11844 11852
+"dataflow.ml" 541 19361 19379 "dataflow.ml" 541 19361 19393
 type(
-  unit
-)
-"dataflow.ml" 348 11628 11633 "dataflow.ml" 354 11844 11852
-type(
-  unit
-)
-"dataflow.ml" 355 11853 11862 "dataflow.ml" 355 11853 11871
-type(
-  exn
-)
-"dataflow.ml" 356 11875 11881 "dataflow.ml" 356 11875 11893
-type(
-  (Cfg.StmtSet.elt -> unit) -> Cfg.StmtSet.t -> unit
+  Cfg.stmt ->
+  (Cfg.stmt, DFP.t) Hashtbl.t -> (Cfg.stmt, DFP.t) Hashtbl.t -> DFP.t
 )
 ident(
-  ext_ref Cfg.StmtSet.iter
+  int_ref super_fixpoint "dataflow.ml" 400 13269 13277 "dataflow.ml" 400 13269 13291
 )
-"dataflow.ml" 356 11875 11899 "dataflow.ml" 356 11875 11900
+"dataflow.ml" 541 19361 19394 "dataflow.ml" 541 19361 19398
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  def x "dataflow.ml" 356 11875 11904 "dataflow.ml" 356 11875 11918
+  int_ref stmt "dataflow.ml" 537 19223 19237 "dataflow.ml" 537 19223 19241
 )
-"dataflow.ml" 356 11875 11904 "dataflow.ml" 356 11875 11914
+"dataflow.ml" 541 19361 19399 "dataflow.ml" 541 19361 19405
 type(
-  Cfg.StmtSet.elt -> Cfg.StmtSet.elt Queue.t -> unit
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  ext_ref Queue.push
+  int_ref in_tbl "dataflow.ml" 538 19244 19250 "dataflow.ml" 538 19244 19256
 )
-"dataflow.ml" 356 11875 11915 "dataflow.ml" 356 11875 11916
+"dataflow.ml" 541 19361 19406 "dataflow.ml" 541 19361 19413
 type(
-  Cfg.StmtSet.elt
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref x "dataflow.ml" 356 11875 11899 "dataflow.ml" 356 11875 11900
+  int_ref out_tbl "dataflow.ml" 539 19281 19287 "dataflow.ml" 539 19281 19294
 )
-"dataflow.ml" 356 11875 11917 "dataflow.ml" 356 11875 11918
-type(
-  Cfg.StmtSet.elt Queue.t
-)
-ident(
-  int_ref q "dataflow.ml" 305 10247 10253 "dataflow.ml" 305 10247 10254
-)
-"dataflow.ml" 356 11875 11904 "dataflow.ml" 356 11875 11918
-call(
-  tail
-)
-type(
-  unit
-)
-"dataflow.ml" 356 11875 11894 "dataflow.ml" 356 11875 11919
-type(
-  Cfg.StmtSet.elt -> unit
-)
-"dataflow.ml" 356 11875 11920 "dataflow.ml" 356 11875 11924
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
-)
-"dataflow.ml" 356 11875 11920 "dataflow.ml" 356 11875 11930
-type(
-  Cfg.StmtSet.t
-)
-"dataflow.ml" 356 11875 11881 "dataflow.ml" 356 11875 11930
+"dataflow.ml" 541 19361 19379 "dataflow.ml" 541 19361 19413
 call(
   stack
 )
 type(
-  unit
+  DFP.t
 )
-"dataflow.ml" 357 11932 11938 "dataflow.ml" 357 11932 11953
+"dataflow.ml" 543 19483 19487 "dataflow.ml" 543 19483 19502
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t -> Cfg.StmtSet.elt -> DFP.t -> unit
+  (Cfg.stmt, DFP.t) Hashtbl.t -> Cfg.stmt -> DFP.t -> unit
 )
 ident(
   ext_ref Hashtbl.replace
 )
-"dataflow.ml" 357 11932 11954 "dataflow.ml" 357 11932 11961
+"dataflow.ml" 543 19483 19503 "dataflow.ml" 543 19483 19510
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref out_tbl "dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
+  int_ref out_tbl "dataflow.ml" 539 19281 19287 "dataflow.ml" 539 19281 19294
 )
-"dataflow.ml" 357 11932 11962 "dataflow.ml" 357 11932 11966
+"dataflow.ml" 543 19483 19511 "dataflow.ml" 543 19483 19515
 type(
-  Cfg.StmtSet.elt
+  Cfg.stmt
 )
 ident(
-  int_ref stmt "dataflow.ml" 313 10420 10427 "dataflow.ml" 313 10420 10431
+  int_ref stmt "dataflow.ml" 537 19223 19237 "dataflow.ml" 537 19223 19241
 )
-"dataflow.ml" 357 11932 11967 "dataflow.ml" 357 11932 11976
+"dataflow.ml" 543 19483 19516 "dataflow.ml" 543 19483 19524
 type(
   DFP.t
 )
 ident(
-  int_ref new_facts "dataflow.ml" 346 11571 11578 "dataflow.ml" 346 11571 11587
+  int_ref newfacts "dataflow.ml" 541 19361 19368 "dataflow.ml" 541 19361 19376
 )
-"dataflow.ml" 357 11932 11938 "dataflow.ml" 357 11932 11976
+"dataflow.ml" 543 19483 19487 "dataflow.ml" 543 19483 19524
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 356 11875 11881 "dataflow.ml" 357 11932 11976
+"dataflow.ml" 544 19526 19528 "dataflow.ml" 544 19526 19534
 type(
-  unit
-)
-"dataflow.ml" 347 11620 11624 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 346 11571 11574 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 328 11035 11038 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 327 10983 10986 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 326 10945 10948 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 318 10719 10722 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 316 10621 10695 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 316 10621 10648 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 316 10621 10624 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 315 10547 10597 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 315 10547 10573 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 315 10547 10550 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 314 10449 10524 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 314 10449 10477 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 314 10449 10452 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 313 10420 10423 "dataflow.ml" 357 11932 11976
-type(
-  unit
-)
-"dataflow.ml" 312 10386 10388 "dataflow.ml" 358 11977 11983
-type(
-  unit
-)
-"dataflow.ml" 360 11986 11988 "dataflow.ml" 360 11986 11994
-type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref in_tbl "dataflow.ml" 303 10172 10178 "dataflow.ml" 303 10172 10184
+  int_ref in_tbl "dataflow.ml" 538 19244 19250 "dataflow.ml" 538 19244 19256
 )
-"dataflow.ml" 360 11986 11996 "dataflow.ml" 360 11986 12003
+"dataflow.ml" 544 19526 19536 "dataflow.ml" 544 19526 19543
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t
 )
 ident(
-  int_ref out_tbl "dataflow.ml" 304 10209 10215 "dataflow.ml" 304 10209 10222
+  int_ref out_tbl "dataflow.ml" 539 19281 19287 "dataflow.ml" 539 19281 19294
 )
-"dataflow.ml" 360 11986 11988 "dataflow.ml" 360 11986 12003
+"dataflow.ml" 544 19526 19528 "dataflow.ml" 544 19526 19543
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t * (Cfg.stmt, DFP.t) Hashtbl.t
 )
-"dataflow.ml" 312 10386 10388 "dataflow.ml" 360 11986 12003
+"dataflow.ml" 543 19483 19487 "dataflow.ml" 544 19526 19543
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t * (Cfg.stmt, DFP.t) Hashtbl.t
 )
-"dataflow.ml" 306 10276 10278 "dataflow.ml" 360 11986 12003
+"dataflow.ml" 541 19361 19364 "dataflow.ml" 544 19526 19543
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t * (Cfg.stmt, DFP.t) Hashtbl.t
 )
-"dataflow.ml" 305 10247 10249 "dataflow.ml" 360 11986 12003
+"dataflow.ml" 540 19319 19322 "dataflow.ml" 544 19526 19543
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t * (Cfg.stmt, DFP.t) Hashtbl.t
 )
-"dataflow.ml" 304 10209 10211 "dataflow.ml" 360 11986 12003
+"dataflow.ml" 539 19281 19283 "dataflow.ml" 544 19526 19543
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t * (Cfg.stmt, DFP.t) Hashtbl.t
 )
-"dataflow.ml" 303 10172 10174 "dataflow.ml" 360 11986 12003
+"dataflow.ml" 538 19244 19246 "dataflow.ml" 544 19526 19543
 type(
-  (Cfg.StmtSet.elt, DFP.t) Hashtbl.t * (Cfg.StmtSet.elt, DFP.t) Hashtbl.t
+  (Cfg.stmt, DFP.t) Hashtbl.t * (Cfg.stmt, DFP.t) Hashtbl.t
 )
-"dataflow.ml" 384 12314 12319 "dataflow.ml" 384 12314 12324
+"dataflow.ml" 568 19853 19858 "dataflow.ml" 568 19853 19863
 type(
   'a Utils.StrMap.t
 )
 ident(
-  def empty "dataflow.ml" 385 12340 12341 "dataflow.ml" 454 14029 14032
+  def empty "dataflow.ml" 569 19879 19880 "dataflow.ml" 638 21568 21571
 )
-"dataflow.ml" 384 12314 12327 "dataflow.ml" 384 12314 12339
+"dataflow.ml" 568 19853 19866 "dataflow.ml" 568 19853 19878
 type(
   'a Utils.StrMap.t
 )
 ident(
   ext_ref Utils.StrMap.empty
 )
-"dataflow.ml" 385 12340 12345 "dataflow.ml" 385 12340 12347
+"dataflow.ml" 569 19879 19884 "dataflow.ml" 569 19879 19886
 type(
   Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t Utils.StrMap.t -> bool
 )
 ident(
-  def eq "dataflow.ml" 387 12400 12401 "dataflow.ml" 454 14029 14032
+  def eq "dataflow.ml" 571 19939 19940 "dataflow.ml" 638 21568 21571
 )
-"dataflow.ml" 385 12340 12348 "dataflow.ml" 385 12340 12350
+"dataflow.ml" 569 19879 19887 "dataflow.ml" 569 19879 19889
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def t1 "dataflow.ml" 385 12340 12351 "dataflow.ml" 385 12340 12397
+  def t1 "dataflow.ml" 569 19879 19890 "dataflow.ml" 569 19879 19936
 )
-"dataflow.ml" 385 12340 12351 "dataflow.ml" 385 12340 12353
+"dataflow.ml" 569 19879 19890 "dataflow.ml" 569 19879 19892
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def t2 "dataflow.ml" 385 12340 12356 "dataflow.ml" 385 12340 12397
+  def t2 "dataflow.ml" 569 19879 19895 "dataflow.ml" 569 19879 19936
 )
-"dataflow.ml" 385 12340 12357 "dataflow.ml" 385 12340 12371
+"dataflow.ml" 569 19879 19896 "dataflow.ml" 569 19879 19910
 type(
   (Utils.StrSet.t -> Utils.StrSet.t -> int) ->
   Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t Utils.StrMap.t -> int
@@ -6388,64 +7739,64 @@ type(
 ident(
   ext_ref Utils.StrMap.compare
 )
-"dataflow.ml" 385 12340 12372 "dataflow.ml" 385 12340 12386
+"dataflow.ml" 569 19879 19911 "dataflow.ml" 569 19879 19925
 type(
   Utils.StrSet.t -> Utils.StrSet.t -> int
 )
 ident(
   ext_ref Utils.StrSet.compare
 )
-"dataflow.ml" 385 12340 12387 "dataflow.ml" 385 12340 12389
+"dataflow.ml" 569 19879 19926 "dataflow.ml" 569 19879 19928
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t1 "dataflow.ml" 385 12340 12348 "dataflow.ml" 385 12340 12350
+  int_ref t1 "dataflow.ml" 569 19879 19887 "dataflow.ml" 569 19879 19889
 )
-"dataflow.ml" 385 12340 12390 "dataflow.ml" 385 12340 12392
+"dataflow.ml" 569 19879 19929 "dataflow.ml" 569 19879 19931
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t2 "dataflow.ml" 385 12340 12351 "dataflow.ml" 385 12340 12353
+  int_ref t2 "dataflow.ml" 569 19879 19890 "dataflow.ml" 569 19879 19892
 )
-"dataflow.ml" 385 12340 12356 "dataflow.ml" 385 12340 12393
+"dataflow.ml" 569 19879 19895 "dataflow.ml" 569 19879 19932
 call(
   stack
 )
 type(
   int
 )
-"dataflow.ml" 385 12340 12394 "dataflow.ml" 385 12340 12395
+"dataflow.ml" 569 19879 19933 "dataflow.ml" 569 19879 19934
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"dataflow.ml" 385 12340 12396 "dataflow.ml" 385 12340 12397
+"dataflow.ml" 569 19879 19935 "dataflow.ml" 569 19879 19936
 type(
   int
 )
-"dataflow.ml" 385 12340 12356 "dataflow.ml" 385 12340 12397
+"dataflow.ml" 569 19879 19895 "dataflow.ml" 569 19879 19936
 type(
   bool
 )
-"dataflow.ml" 387 12400 12405 "dataflow.ml" 387 12400 12414
+"dataflow.ml" 571 19939 19944 "dataflow.ml" 571 19939 19953
 type(
   Utils.StrSet.t Utils.StrMap.t -> string
 )
 ident(
-  def to_string "dataflow.ml" 396 12584 12585 "dataflow.ml" 454 14029 14032
+  def to_string "dataflow.ml" 580 20123 20124 "dataflow.ml" 638 21568 21571
 )
-"dataflow.ml" 387 12400 12415 "dataflow.ml" 387 12400 12416
+"dataflow.ml" 571 19939 19954 "dataflow.ml" 571 19939 19955
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def t "dataflow.ml" 388 12419 12421 "dataflow.ml" 394 12572 12581
+  def t "dataflow.ml" 572 19958 19960 "dataflow.ml" 578 20111 20120
 )
-"dataflow.ml" 388 12419 12421 "dataflow.ml" 388 12419 12432
+"dataflow.ml" 572 19958 19960 "dataflow.ml" 572 19958 19971
 type(
   (Utils.StrMap.key -> Utils.StrSet.t -> string -> string) ->
   Utils.StrSet.t Utils.StrMap.t -> string -> string
@@ -6453,28 +7804,28 @@ type(
 ident(
   ext_ref Utils.StrMap.fold
 )
-"dataflow.ml" 389 12433 12441 "dataflow.ml" 389 12433 12445
+"dataflow.ml" 573 19972 19980 "dataflow.ml" 573 19972 19984
 type(
   Utils.StrMap.key
 )
 ident(
-  def targ "dataflow.ml" 389 12433 12446 "dataflow.ml" 393 12555 12571
+  def targ "dataflow.ml" 573 19972 19985 "dataflow.ml" 577 20094 20110
 )
-"dataflow.ml" 389 12433 12446 "dataflow.ml" 389 12433 12449
+"dataflow.ml" 573 19972 19985 "dataflow.ml" 573 19972 19988
 type(
   Utils.StrSet.t
 )
 ident(
-  def set "dataflow.ml" 389 12433 12450 "dataflow.ml" 393 12555 12571
+  def set "dataflow.ml" 573 19972 19989 "dataflow.ml" 577 20094 20110
 )
-"dataflow.ml" 389 12433 12450 "dataflow.ml" 389 12433 12453
+"dataflow.ml" 573 19972 19989 "dataflow.ml" 573 19972 19992
 type(
   string
 )
 ident(
-  def acc "dataflow.ml" 390 12457 12463 "dataflow.ml" 393 12555 12571
+  def acc "dataflow.ml" 574 19996 20002 "dataflow.ml" 577 20094 20110
 )
-"dataflow.ml" 390 12457 12463 "dataflow.ml" 390 12457 12474
+"dataflow.ml" 574 19996 20002 "dataflow.ml" 574 19996 20013
 type(
   (Utils.StrSet.elt -> string -> string) ->
   Utils.StrSet.t -> string -> string
@@ -6482,21 +7833,21 @@ type(
 ident(
   ext_ref Utils.StrSet.fold
 )
-"dataflow.ml" 391 12475 12487 "dataflow.ml" 391 12475 12490
+"dataflow.ml" 575 20014 20026 "dataflow.ml" 575 20014 20029
 type(
   Utils.StrSet.elt
 )
 ident(
-  def msg "dataflow.ml" 391 12475 12491 "dataflow.ml" 392 12498 12554
+  def msg "dataflow.ml" 575 20014 20030 "dataflow.ml" 576 20037 20093
 )
-"dataflow.ml" 391 12475 12491 "dataflow.ml" 391 12475 12494
+"dataflow.ml" 575 20014 20030 "dataflow.ml" 575 20014 20033
 type(
   string
 )
 ident(
-  def acc "dataflow.ml" 392 12498 12508 "dataflow.ml" 392 12498 12554
+  def acc "dataflow.ml" 576 20037 20047 "dataflow.ml" 576 20037 20093
 )
-"dataflow.ml" 392 12498 12509 "dataflow.ml" 392 12498 12523
+"dataflow.ml" 576 20037 20048 "dataflow.ml" 576 20037 20062
 type(
   (Utils.StrMap.key -> Utils.StrSet.elt -> string, unit, string) format ->
   Utils.StrMap.key -> Utils.StrSet.elt -> string
@@ -6504,114 +7855,114 @@ type(
 ident(
   ext_ref Printf.sprintf
 )
-"dataflow.ml" 392 12498 12524 "dataflow.ml" 392 12498 12538
+"dataflow.ml" 576 20037 20063 "dataflow.ml" 576 20037 20077
 type(
   (Utils.StrMap.key -> Utils.StrSet.elt -> string, unit, string) format
 )
-"dataflow.ml" 392 12498 12539 "dataflow.ml" 392 12498 12543
+"dataflow.ml" 576 20037 20078 "dataflow.ml" 576 20037 20082
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref targ "dataflow.ml" 389 12433 12441 "dataflow.ml" 389 12433 12445
+  int_ref targ "dataflow.ml" 573 19972 19980 "dataflow.ml" 573 19972 19984
 )
-"dataflow.ml" 392 12498 12544 "dataflow.ml" 392 12498 12547
+"dataflow.ml" 576 20037 20083 "dataflow.ml" 576 20037 20086
 type(
   Utils.StrSet.elt
 )
 ident(
-  int_ref msg "dataflow.ml" 391 12475 12487 "dataflow.ml" 391 12475 12490
+  int_ref msg "dataflow.ml" 575 20014 20026 "dataflow.ml" 575 20014 20029
 )
-"dataflow.ml" 392 12498 12508 "dataflow.ml" 392 12498 12548
+"dataflow.ml" 576 20037 20047 "dataflow.ml" 576 20037 20087
 call(
   stack
 )
 type(
   string
 )
-"dataflow.ml" 392 12498 12549 "dataflow.ml" 392 12498 12550
+"dataflow.ml" 576 20037 20088 "dataflow.ml" 576 20037 20089
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"dataflow.ml" 392 12498 12551 "dataflow.ml" 392 12498 12554
+"dataflow.ml" 576 20037 20090 "dataflow.ml" 576 20037 20093
 type(
   string
 )
 ident(
-  int_ref acc "dataflow.ml" 391 12475 12491 "dataflow.ml" 391 12475 12494
+  int_ref acc "dataflow.ml" 575 20014 20030 "dataflow.ml" 575 20014 20033
 )
-"dataflow.ml" 392 12498 12508 "dataflow.ml" 392 12498 12554
+"dataflow.ml" 576 20037 20047 "dataflow.ml" 576 20037 20093
 call(
   tail
 )
 type(
   string
 )
-"dataflow.ml" 391 12475 12482 "dataflow.ml" 393 12555 12563
+"dataflow.ml" 575 20014 20021 "dataflow.ml" 577 20094 20102
 type(
   Utils.StrSet.elt -> string -> string
 )
-"dataflow.ml" 393 12555 12564 "dataflow.ml" 393 12555 12567
+"dataflow.ml" 577 20094 20103 "dataflow.ml" 577 20094 20106
 type(
   Utils.StrSet.t
 )
 ident(
-  int_ref set "dataflow.ml" 389 12433 12446 "dataflow.ml" 389 12433 12449
+  int_ref set "dataflow.ml" 573 19972 19985 "dataflow.ml" 573 19972 19988
 )
-"dataflow.ml" 393 12555 12568 "dataflow.ml" 393 12555 12571
+"dataflow.ml" 577 20094 20107 "dataflow.ml" 577 20094 20110
 type(
   string
 )
 ident(
-  int_ref acc "dataflow.ml" 389 12433 12450 "dataflow.ml" 389 12433 12453
+  int_ref acc "dataflow.ml" 573 19972 19989 "dataflow.ml" 573 19972 19992
 )
-"dataflow.ml" 390 12457 12463 "dataflow.ml" 393 12555 12571
+"dataflow.ml" 574 19996 20002 "dataflow.ml" 577 20094 20110
 call(
   tail
 )
 type(
   string
 )
-"dataflow.ml" 389 12433 12436 "dataflow.ml" 394 12572 12576
+"dataflow.ml" 573 19972 19975 "dataflow.ml" 578 20111 20115
 type(
   Utils.StrMap.key -> Utils.StrSet.t -> string -> string
 )
-"dataflow.ml" 394 12572 12577 "dataflow.ml" 394 12572 12578
+"dataflow.ml" 578 20111 20116 "dataflow.ml" 578 20111 20117
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 387 12400 12415 "dataflow.ml" 387 12400 12416
+  int_ref t "dataflow.ml" 571 19939 19954 "dataflow.ml" 571 19939 19955
 )
-"dataflow.ml" 394 12572 12579 "dataflow.ml" 394 12572 12581
+"dataflow.ml" 578 20111 20118 "dataflow.ml" 578 20111 20120
 type(
   string
 )
-"dataflow.ml" 388 12419 12421 "dataflow.ml" 394 12572 12581
+"dataflow.ml" 572 19958 19960 "dataflow.ml" 578 20111 20120
 call(
   tail
 )
 type(
   string
 )
-"dataflow.ml" 396 12584 12589 "dataflow.ml" 396 12584 12593
+"dataflow.ml" 580 20123 20128 "dataflow.ml" 580 20123 20132
 type(
   Utils.StrSet.t Utils.StrMap.t list -> Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def join "dataflow.ml" 410 12872 12873 "dataflow.ml" 454 14029 14032
+  def join "dataflow.ml" 594 20411 20412 "dataflow.ml" 638 21568 21571
 )
-"dataflow.ml" 396 12584 12594 "dataflow.ml" 396 12584 12595
+"dataflow.ml" 580 20123 20133 "dataflow.ml" 580 20123 20134
 type(
   Utils.StrSet.t Utils.StrMap.t list
 )
 ident(
-  def l "dataflow.ml" 397 12599 12601 "dataflow.ml" 407 12855 12867
+  def l "dataflow.ml" 581 20138 20140 "dataflow.ml" 591 20394 20406
 )
-"dataflow.ml" 397 12599 12601 "dataflow.ml" 397 12599 12615
+"dataflow.ml" 581 20138 20140 "dataflow.ml" 581 20138 20154
 type(
   (Utils.StrSet.t Utils.StrMap.t ->
    Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t Utils.StrMap.t) ->
@@ -6621,21 +7972,21 @@ type(
 ident(
   ext_ref List.fold_left
 )
-"dataflow.ml" 398 12616 12624 "dataflow.ml" 398 12616 12627
+"dataflow.ml" 582 20155 20163 "dataflow.ml" 582 20155 20166
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def acc "dataflow.ml" 398 12616 12628 "dataflow.ml" 406 12838 12854
+  def acc "dataflow.ml" 582 20155 20167 "dataflow.ml" 590 20377 20393
 )
-"dataflow.ml" 398 12616 12628 "dataflow.ml" 398 12616 12631
+"dataflow.ml" 582 20155 20167 "dataflow.ml" 582 20155 20170
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def env "dataflow.ml" 399 12635 12641 "dataflow.ml" 406 12838 12854
+  def env "dataflow.ml" 583 20174 20180 "dataflow.ml" 590 20377 20393
 )
-"dataflow.ml" 399 12635 12641 "dataflow.ml" 399 12635 12652
+"dataflow.ml" 583 20174 20180 "dataflow.ml" 583 20174 20191
 type(
   (Utils.StrMap.key ->
    Utils.StrSet.t ->
@@ -6646,63 +7997,63 @@ type(
 ident(
   ext_ref Utils.StrMap.fold
 )
-"dataflow.ml" 400 12653 12665 "dataflow.ml" 400 12653 12666
+"dataflow.ml" 584 20192 20204 "dataflow.ml" 584 20192 20205
 type(
   Utils.StrMap.key
 )
 ident(
-  def k "dataflow.ml" 400 12653 12667 "dataflow.ml" 405 12807 12837
+  def k "dataflow.ml" 584 20192 20206 "dataflow.ml" 589 20346 20376
 )
-"dataflow.ml" 400 12653 12667 "dataflow.ml" 400 12653 12668
+"dataflow.ml" 584 20192 20206 "dataflow.ml" 584 20192 20207
 type(
   Utils.StrSet.t
 )
 ident(
-  def v "dataflow.ml" 400 12653 12669 "dataflow.ml" 405 12807 12837
+  def v "dataflow.ml" 584 20192 20208 "dataflow.ml" 589 20346 20376
 )
-"dataflow.ml" 400 12653 12669 "dataflow.ml" 400 12653 12672
+"dataflow.ml" 584 20192 20208 "dataflow.ml" 584 20192 20211
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def acc "dataflow.ml" 401 12676 12686 "dataflow.ml" 405 12807 12837
+  def acc "dataflow.ml" 585 20215 20225 "dataflow.ml" 589 20346 20376
 )
-"dataflow.ml" 402 12690 12705 "dataflow.ml" 402 12690 12707
+"dataflow.ml" 586 20229 20244 "dataflow.ml" 586 20229 20246
 type(
   Utils.StrSet.t
 )
 ident(
-  def v' "dataflow.ml" 403 12731 12742 "dataflow.ml" 403 12731 12778
+  def v' "dataflow.ml" 587 20270 20281 "dataflow.ml" 587 20270 20317
 )
-"dataflow.ml" 402 12690 12710 "dataflow.ml" 402 12690 12721
+"dataflow.ml" 586 20229 20249 "dataflow.ml" 586 20229 20260
 type(
   Utils.StrMap.key -> Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t
 )
 ident(
   ext_ref Utils.StrMap.find
 )
-"dataflow.ml" 402 12690 12722 "dataflow.ml" 402 12690 12723
+"dataflow.ml" 586 20229 20261 "dataflow.ml" 586 20229 20262
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref k "dataflow.ml" 400 12653 12665 "dataflow.ml" 400 12653 12666
+  int_ref k "dataflow.ml" 584 20192 20204 "dataflow.ml" 584 20192 20205
 )
-"dataflow.ml" 402 12690 12724 "dataflow.ml" 402 12690 12727
+"dataflow.ml" 586 20229 20263 "dataflow.ml" 586 20229 20266
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref acc "dataflow.ml" 400 12653 12669 "dataflow.ml" 400 12653 12672
+  int_ref acc "dataflow.ml" 584 20192 20208 "dataflow.ml" 584 20192 20211
 )
-"dataflow.ml" 402 12690 12710 "dataflow.ml" 402 12690 12727
+"dataflow.ml" 586 20229 20249 "dataflow.ml" 586 20229 20266
 call(
   stack
 )
 type(
   Utils.StrSet.t
 )
-"dataflow.ml" 403 12731 12742 "dataflow.ml" 403 12731 12752
+"dataflow.ml" 587 20270 20281 "dataflow.ml" 587 20270 20291
 type(
   Utils.StrMap.key ->
   Utils.StrSet.t ->
@@ -6711,64 +8062,64 @@ type(
 ident(
   ext_ref Utils.StrMap.add
 )
-"dataflow.ml" 403 12731 12753 "dataflow.ml" 403 12731 12754
+"dataflow.ml" 587 20270 20292 "dataflow.ml" 587 20270 20293
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref k "dataflow.ml" 400 12653 12665 "dataflow.ml" 400 12653 12666
+  int_ref k "dataflow.ml" 584 20192 20204 "dataflow.ml" 584 20192 20205
 )
-"dataflow.ml" 403 12731 12756 "dataflow.ml" 403 12731 12768
+"dataflow.ml" 587 20270 20295 "dataflow.ml" 587 20270 20307
 type(
   Utils.StrSet.t -> Utils.StrSet.t -> Utils.StrSet.t
 )
 ident(
   ext_ref Utils.StrSet.union
 )
-"dataflow.ml" 403 12731 12769 "dataflow.ml" 403 12731 12770
+"dataflow.ml" 587 20270 20308 "dataflow.ml" 587 20270 20309
 type(
   Utils.StrSet.t
 )
 ident(
-  int_ref v "dataflow.ml" 400 12653 12667 "dataflow.ml" 400 12653 12668
+  int_ref v "dataflow.ml" 584 20192 20206 "dataflow.ml" 584 20192 20207
 )
-"dataflow.ml" 403 12731 12771 "dataflow.ml" 403 12731 12773
+"dataflow.ml" 587 20270 20310 "dataflow.ml" 587 20270 20312
 type(
   Utils.StrSet.t
 )
 ident(
-  int_ref v' "dataflow.ml" 402 12690 12705 "dataflow.ml" 402 12690 12707
+  int_ref v' "dataflow.ml" 586 20229 20244 "dataflow.ml" 586 20229 20246
 )
-"dataflow.ml" 403 12731 12755 "dataflow.ml" 403 12731 12774
+"dataflow.ml" 587 20270 20294 "dataflow.ml" 587 20270 20313
 call(
   stack
 )
 type(
   Utils.StrSet.t
 )
-"dataflow.ml" 403 12731 12775 "dataflow.ml" 403 12731 12778
+"dataflow.ml" 587 20270 20314 "dataflow.ml" 587 20270 20317
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref acc "dataflow.ml" 400 12653 12669 "dataflow.ml" 400 12653 12672
+  int_ref acc "dataflow.ml" 584 20192 20208 "dataflow.ml" 584 20192 20211
 )
-"dataflow.ml" 403 12731 12742 "dataflow.ml" 403 12731 12778
+"dataflow.ml" 587 20270 20281 "dataflow.ml" 587 20270 20317
 call(
   stack
 )
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 402 12690 12701 "dataflow.ml" 403 12731 12778
+"dataflow.ml" 586 20229 20240 "dataflow.ml" 587 20270 20317
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 404 12779 12794 "dataflow.ml" 404 12779 12803
+"dataflow.ml" 588 20318 20333 "dataflow.ml" 588 20318 20342
 type(
   exn
 )
-"dataflow.ml" 405 12807 12819 "dataflow.ml" 405 12807 12829
+"dataflow.ml" 589 20346 20358 "dataflow.ml" 589 20346 20368
 type(
   Utils.StrMap.key ->
   Utils.StrSet.t ->
@@ -6777,121 +8128,121 @@ type(
 ident(
   ext_ref Utils.StrMap.add
 )
-"dataflow.ml" 405 12807 12830 "dataflow.ml" 405 12807 12831
+"dataflow.ml" 589 20346 20369 "dataflow.ml" 589 20346 20370
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref k "dataflow.ml" 400 12653 12665 "dataflow.ml" 400 12653 12666
+  int_ref k "dataflow.ml" 584 20192 20204 "dataflow.ml" 584 20192 20205
 )
-"dataflow.ml" 405 12807 12832 "dataflow.ml" 405 12807 12833
+"dataflow.ml" 589 20346 20371 "dataflow.ml" 589 20346 20372
 type(
   Utils.StrSet.t
 )
 ident(
-  int_ref v "dataflow.ml" 400 12653 12667 "dataflow.ml" 400 12653 12668
+  int_ref v "dataflow.ml" 584 20192 20206 "dataflow.ml" 584 20192 20207
 )
-"dataflow.ml" 405 12807 12834 "dataflow.ml" 405 12807 12837
+"dataflow.ml" 589 20346 20373 "dataflow.ml" 589 20346 20376
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref acc "dataflow.ml" 400 12653 12669 "dataflow.ml" 400 12653 12672
+  int_ref acc "dataflow.ml" 584 20192 20208 "dataflow.ml" 584 20192 20211
 )
-"dataflow.ml" 405 12807 12819 "dataflow.ml" 405 12807 12837
+"dataflow.ml" 589 20346 20358 "dataflow.ml" 589 20346 20376
 call(
   tail
 )
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 401 12676 12686 "dataflow.ml" 405 12807 12837
+"dataflow.ml" 585 20215 20225 "dataflow.ml" 589 20346 20376
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 400 12653 12660 "dataflow.ml" 406 12838 12846
+"dataflow.ml" 584 20192 20199 "dataflow.ml" 590 20377 20385
 type(
   Utils.StrMap.key ->
   Utils.StrSet.t ->
   Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 406 12838 12847 "dataflow.ml" 406 12838 12850
+"dataflow.ml" 590 20377 20386 "dataflow.ml" 590 20377 20389
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref env "dataflow.ml" 398 12616 12628 "dataflow.ml" 398 12616 12631
+  int_ref env "dataflow.ml" 582 20155 20167 "dataflow.ml" 582 20155 20170
 )
-"dataflow.ml" 406 12838 12851 "dataflow.ml" 406 12838 12854
+"dataflow.ml" 590 20377 20390 "dataflow.ml" 590 20377 20393
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref acc "dataflow.ml" 398 12616 12624 "dataflow.ml" 398 12616 12627
+  int_ref acc "dataflow.ml" 582 20155 20163 "dataflow.ml" 582 20155 20166
 )
-"dataflow.ml" 399 12635 12641 "dataflow.ml" 406 12838 12854
+"dataflow.ml" 583 20174 20180 "dataflow.ml" 590 20377 20393
 call(
   tail
 )
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 398 12616 12619 "dataflow.ml" 407 12855 12859
+"dataflow.ml" 582 20155 20158 "dataflow.ml" 591 20394 20398
 type(
   Utils.StrSet.t Utils.StrMap.t ->
   Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 407 12855 12860 "dataflow.ml" 407 12855 12865
+"dataflow.ml" 591 20394 20399 "dataflow.ml" 591 20394 20404
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref empty "dataflow.ml" 384 12314 12319 "dataflow.ml" 384 12314 12324
+  int_ref empty "dataflow.ml" 568 19853 19858 "dataflow.ml" 568 19853 19863
 )
-"dataflow.ml" 407 12855 12866 "dataflow.ml" 407 12855 12867
+"dataflow.ml" 591 20394 20405 "dataflow.ml" 591 20394 20406
 type(
   Utils.StrSet.t Utils.StrMap.t list
 )
 ident(
-  int_ref l "dataflow.ml" 396 12584 12594 "dataflow.ml" 396 12584 12595
+  int_ref l "dataflow.ml" 580 20123 20133 "dataflow.ml" 580 20123 20134
 )
-"dataflow.ml" 397 12599 12601 "dataflow.ml" 407 12855 12867
+"dataflow.ml" 581 20138 20140 "dataflow.ml" 591 20394 20406
 call(
   tail
 )
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 410 12872 12877 "dataflow.ml" 410 12872 12883
+"dataflow.ml" 594 20411 20416 "dataflow.ml" 594 20411 20422
 type(
   Utils.StrSet.t Utils.StrMap.t ->
   Utils.StrSet.elt -> Utils.StrMap.key -> Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def update "dataflow.ml" 414 13022 13023 "dataflow.ml" 454 14029 14032
+  def update "dataflow.ml" 598 20561 20562 "dataflow.ml" 638 21568 21571
 )
-"dataflow.ml" 410 12872 12884 "dataflow.ml" 410 12872 12885
+"dataflow.ml" 594 20411 20423 "dataflow.ml" 594 20411 20424
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def t "dataflow.ml" 410 12872 12886 "dataflow.ml" 412 12959 13019
+  def t "dataflow.ml" 594 20411 20425 "dataflow.ml" 596 20498 20558
 )
-"dataflow.ml" 410 12872 12886 "dataflow.ml" 410 12872 12889
+"dataflow.ml" 594 20411 20425 "dataflow.ml" 594 20411 20428
 type(
   Utils.StrSet.elt
 )
 ident(
-  def msg "dataflow.ml" 410 12872 12890 "dataflow.ml" 412 12959 13019
+  def msg "dataflow.ml" 594 20411 20429 "dataflow.ml" 596 20498 20558
 )
-"dataflow.ml" 410 12872 12890 "dataflow.ml" 410 12872 12894
+"dataflow.ml" 594 20411 20429 "dataflow.ml" 594 20411 20433
 type(
   Utils.StrMap.key
 )
 ident(
-  def targ "dataflow.ml" 411 12897 12899 "dataflow.ml" 412 12959 13019
+  def targ "dataflow.ml" 595 20436 20438 "dataflow.ml" 596 20498 20558
 )
-"dataflow.ml" 411 12897 12903 "dataflow.ml" 411 12897 12913
+"dataflow.ml" 595 20436 20442 "dataflow.ml" 595 20436 20452
 type(
   Utils.StrMap.key ->
   Utils.StrSet.t ->
@@ -6900,81 +8251,81 @@ type(
 ident(
   ext_ref Utils.StrMap.add
 )
-"dataflow.ml" 411 12897 12914 "dataflow.ml" 411 12897 12918
+"dataflow.ml" 595 20436 20453 "dataflow.ml" 595 20436 20457
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref targ "dataflow.ml" 410 12872 12890 "dataflow.ml" 410 12872 12894
+  int_ref targ "dataflow.ml" 594 20411 20429 "dataflow.ml" 594 20411 20433
 )
-"dataflow.ml" 411 12897 12920 "dataflow.ml" 411 12897 12930
+"dataflow.ml" 595 20436 20459 "dataflow.ml" 595 20436 20469
 type(
   Utils.StrSet.elt -> Utils.StrSet.t -> Utils.StrSet.t
 )
 ident(
   ext_ref Utils.StrSet.add
 )
-"dataflow.ml" 411 12897 12931 "dataflow.ml" 411 12897 12934
+"dataflow.ml" 595 20436 20470 "dataflow.ml" 595 20436 20473
 type(
   Utils.StrSet.elt
 )
 ident(
-  int_ref msg "dataflow.ml" 410 12872 12886 "dataflow.ml" 410 12872 12889
+  int_ref msg "dataflow.ml" 594 20411 20425 "dataflow.ml" 594 20411 20428
 )
-"dataflow.ml" 411 12897 12936 "dataflow.ml" 411 12897 12947
+"dataflow.ml" 595 20436 20475 "dataflow.ml" 595 20436 20486
 type(
   Utils.StrMap.key -> Utils.StrSet.t Utils.StrMap.t -> Utils.StrSet.t
 )
 ident(
   ext_ref Utils.StrMap.find
 )
-"dataflow.ml" 411 12897 12948 "dataflow.ml" 411 12897 12952
+"dataflow.ml" 595 20436 20487 "dataflow.ml" 595 20436 20491
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref targ "dataflow.ml" 410 12872 12890 "dataflow.ml" 410 12872 12894
+  int_ref targ "dataflow.ml" 594 20411 20429 "dataflow.ml" 594 20411 20433
 )
-"dataflow.ml" 411 12897 12953 "dataflow.ml" 411 12897 12954
+"dataflow.ml" 595 20436 20492 "dataflow.ml" 595 20436 20493
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 410 12872 12884 "dataflow.ml" 410 12872 12885
+  int_ref t "dataflow.ml" 594 20411 20423 "dataflow.ml" 594 20411 20424
 )
-"dataflow.ml" 411 12897 12935 "dataflow.ml" 411 12897 12955
+"dataflow.ml" 595 20436 20474 "dataflow.ml" 595 20436 20494
 call(
   stack
 )
 type(
   Utils.StrSet.t
 )
-"dataflow.ml" 411 12897 12919 "dataflow.ml" 411 12897 12956
+"dataflow.ml" 595 20436 20458 "dataflow.ml" 595 20436 20495
 call(
   stack
 )
 type(
   Utils.StrSet.t
 )
-"dataflow.ml" 411 12897 12957 "dataflow.ml" 411 12897 12958
+"dataflow.ml" 595 20436 20496 "dataflow.ml" 595 20436 20497
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 410 12872 12884 "dataflow.ml" 410 12872 12885
+  int_ref t "dataflow.ml" 594 20411 20423 "dataflow.ml" 594 20411 20424
 )
-"dataflow.ml" 411 12897 12903 "dataflow.ml" 411 12897 12958
+"dataflow.ml" 595 20436 20442 "dataflow.ml" 595 20436 20497
 call(
   stack
 )
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 412 12959 12966 "dataflow.ml" 412 12959 12975
+"dataflow.ml" 596 20498 20505 "dataflow.ml" 596 20498 20514
 type(
   exn
 )
-"dataflow.ml" 412 12959 12979 "dataflow.ml" 412 12959 12989
+"dataflow.ml" 596 20498 20518 "dataflow.ml" 596 20498 20528
 type(
   Utils.StrMap.key ->
   Utils.StrSet.t ->
@@ -6983,417 +8334,417 @@ type(
 ident(
   ext_ref Utils.StrMap.add
 )
-"dataflow.ml" 412 12959 12990 "dataflow.ml" 412 12959 12994
+"dataflow.ml" 596 20498 20529 "dataflow.ml" 596 20498 20533
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref targ "dataflow.ml" 410 12872 12890 "dataflow.ml" 410 12872 12894
+  int_ref targ "dataflow.ml" 594 20411 20429 "dataflow.ml" 594 20411 20433
 )
-"dataflow.ml" 412 12959 12996 "dataflow.ml" 412 12959 13012
+"dataflow.ml" 596 20498 20535 "dataflow.ml" 596 20498 20551
 type(
   Utils.StrSet.elt -> Utils.StrSet.t
 )
 ident(
   ext_ref Utils.StrSet.singleton
 )
-"dataflow.ml" 412 12959 13013 "dataflow.ml" 412 12959 13016
+"dataflow.ml" 596 20498 20552 "dataflow.ml" 596 20498 20555
 type(
   Utils.StrSet.elt
 )
 ident(
-  int_ref msg "dataflow.ml" 410 12872 12886 "dataflow.ml" 410 12872 12889
+  int_ref msg "dataflow.ml" 594 20411 20425 "dataflow.ml" 594 20411 20428
 )
-"dataflow.ml" 412 12959 12995 "dataflow.ml" 412 12959 13017
+"dataflow.ml" 596 20498 20534 "dataflow.ml" 596 20498 20556
 call(
   stack
 )
 type(
   Utils.StrSet.t
 )
-"dataflow.ml" 412 12959 13018 "dataflow.ml" 412 12959 13019
+"dataflow.ml" 596 20498 20557 "dataflow.ml" 596 20498 20558
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 410 12872 12884 "dataflow.ml" 410 12872 12885
+  int_ref t "dataflow.ml" 594 20411 20423 "dataflow.ml" 594 20411 20424
 )
-"dataflow.ml" 412 12959 12979 "dataflow.ml" 412 12959 13019
+"dataflow.ml" 596 20498 20518 "dataflow.ml" 596 20498 20558
 call(
   tail
 )
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 411 12897 12899 "dataflow.ml" 412 12959 13019
+"dataflow.ml" 595 20436 20438 "dataflow.ml" 596 20498 20558
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 414 13022 13027 "dataflow.ml" 414 13022 13035
+"dataflow.ml" 598 20561 20566 "dataflow.ml" 598 20561 20574
 type(
   Utils.StrSet.t Utils.StrMap.t -> Cfg.stmt -> Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def transfer "dataflow.ml" 452 14012 14026 "dataflow.ml" 454 14029 14032
+  def transfer "dataflow.ml" 636 21551 21565 "dataflow.ml" 638 21568 21571
 )
-"dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+"dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  def t "dataflow.ml" 414 13022 13038 "dataflow.ml" 452 14012 14026
+  def t "dataflow.ml" 598 20561 20577 "dataflow.ml" 636 21551 21565
 )
-"dataflow.ml" 414 13022 13038 "dataflow.ml" 414 13022 13039
+"dataflow.ml" 598 20561 20577 "dataflow.ml" 598 20561 20578
 type(
   Cfg.stmt
 )
 ident(
-  def s "dataflow.ml" 414 13022 13042 "dataflow.ml" 452 14012 14026
+  def s "dataflow.ml" 598 20561 20581 "dataflow.ml" 636 21551 21565
 )
-"dataflow.ml" 414 13022 13048 "dataflow.ml" 414 13022 13049
+"dataflow.ml" 598 20561 20587 "dataflow.ml" 598 20561 20588
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dataflow.ml" 414 13022 13038 "dataflow.ml" 414 13022 13039
+  int_ref s "dataflow.ml" 598 20561 20577 "dataflow.ml" 598 20561 20578
 )
-"dataflow.ml" 414 13022 13048 "dataflow.ml" 414 13022 13055
+"dataflow.ml" 598 20561 20587 "dataflow.ml" 598 20561 20594
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 415 13061 13076 "dataflow.ml" 415 13061 13077
+"dataflow.ml" 599 20600 20615 "dataflow.ml" 599 20600 20616
 type(
   Cfg.lhs option
 )
-"dataflow.ml" 415 13061 13093 "dataflow.ml" 415 13061 13097
+"dataflow.ml" 599 20600 20632 "dataflow.ml" 599 20600 20636
 type(
   Cfg.expr option
 )
-"dataflow.ml" 415 13061 13079 "dataflow.ml" 415 13061 13099
+"dataflow.ml" 599 20600 20618 "dataflow.ml" 599 20600 20638
 type(
   Cfg.method_call
 )
-"dataflow.ml" 415 13061 13065 "dataflow.ml" 415 13061 13100
+"dataflow.ml" 599 20600 20604 "dataflow.ml" 599 20600 20639
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 415 13061 13120 "dataflow.ml" 415 13061 13121
+"dataflow.ml" 599 20600 20659 "dataflow.ml" 599 20600 20660
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 416 13122 13137 "dataflow.ml" 416 13122 13138
+"dataflow.ml" 600 20661 20676 "dataflow.ml" 600 20661 20677
 type(
   Cfg.lhs option
 )
-"dataflow.ml" 416 13122 13159 "dataflow.ml" 416 13122 13167
+"dataflow.ml" 600 20661 20698 "dataflow.ml" 600 20661 20706
 type(
   Cfg.expr
 )
-"dataflow.ml" 416 13122 13154 "dataflow.ml" 416 13122 13167
+"dataflow.ml" 600 20661 20693 "dataflow.ml" 600 20661 20706
 type(
   Cfg.expr option
 )
-"dataflow.ml" 416 13122 13140 "dataflow.ml" 416 13122 13169
+"dataflow.ml" 600 20661 20679 "dataflow.ml" 600 20661 20708
 type(
   Cfg.method_call
 )
-"dataflow.ml" 416 13122 13126 "dataflow.ml" 416 13122 13170
+"dataflow.ml" 600 20661 20665 "dataflow.ml" 600 20661 20709
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 416 13122 13190 "dataflow.ml" 416 13122 13191
+"dataflow.ml" 600 20661 20729 "dataflow.ml" 600 20661 20730
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 417 13192 13207 "dataflow.ml" 417 13192 13208
+"dataflow.ml" 601 20731 20746 "dataflow.ml" 601 20731 20747
 type(
   Cfg.lhs option
 )
-"dataflow.ml" 417 13192 13231 "dataflow.ml" 417 13192 13242
+"dataflow.ml" 601 20731 20770 "dataflow.ml" 601 20731 20781
 type(
   Cfg.expr
 )
-"dataflow.ml" 417 13192 13230 "dataflow.ml" 417 13192 13251
+"dataflow.ml" 601 20731 20769 "dataflow.ml" 601 20731 20790
 type(
   Cfg.expr
 )
 ident(
-  def targ "dataflow.ml" 418 13265 13269 "dataflow.ml" 420 13389 13418
+  def targ "dataflow.ml" 602 20804 20808 "dataflow.ml" 604 20928 20957
 )
-"dataflow.ml" 417 13192 13225 "dataflow.ml" 417 13192 13251
+"dataflow.ml" 601 20731 20764 "dataflow.ml" 601 20731 20790
 type(
   Cfg.expr option
 )
-"dataflow.ml" 417 13192 13211 "dataflow.ml" 417 13192 13253
+"dataflow.ml" 601 20731 20750 "dataflow.ml" 601 20731 20792
 type(
   Cfg.method_call
 )
-"dataflow.ml" 417 13192 13210 "dataflow.ml" 417 13192 13260
+"dataflow.ml" 601 20731 20749 "dataflow.ml" 601 20731 20799
 type(
   Cfg.method_call
 )
 ident(
-  def mc "dataflow.ml" 418 13265 13269 "dataflow.ml" 420 13389 13418
+  def mc "dataflow.ml" 602 20804 20808 "dataflow.ml" 604 20928 20957
 )
-"dataflow.ml" 417 13192 13196 "dataflow.ml" 417 13192 13261
+"dataflow.ml" 601 20731 20735 "dataflow.ml" 601 20731 20800
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 418 13265 13273 "dataflow.ml" 418 13265 13280
+"dataflow.ml" 602 20804 20812 "dataflow.ml" 602 20804 20819
 type(
   string
 )
-"dataflow.ml" 418 13265 13283 "dataflow.ml" 418 13265 13299
+"dataflow.ml" 602 20804 20822 "dataflow.ml" 602 20804 20838
 type(
   (Format.formatter -> Cfg.msg_id -> unit) -> Cfg.msg_id -> string
 )
 ident(
   ext_ref Utils.format_to_string
 )
-"dataflow.ml" 418 13265 13300 "dataflow.ml" 418 13265 13313
+"dataflow.ml" 602 20804 20839 "dataflow.ml" 602 20804 20852
 type(
   Format.formatter -> Cfg.msg_id -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.format_msg_id
 )
-"dataflow.ml" 418 13265 13314 "dataflow.ml" 418 13265 13316
+"dataflow.ml" 602 20804 20853 "dataflow.ml" 602 20804 20855
 type(
   Cfg.method_call
 )
 ident(
-  int_ref mc "dataflow.ml" 417 13192 13210 "dataflow.ml" 417 13192 13260
+  int_ref mc "dataflow.ml" 601 20731 20749 "dataflow.ml" 601 20731 20799
 )
-"dataflow.ml" 418 13265 13314 "dataflow.ml" 418 13265 13323
+"dataflow.ml" 602 20804 20853 "dataflow.ml" 602 20804 20862
 type(
   Cfg.msg_id
 )
-"dataflow.ml" 418 13265 13283 "dataflow.ml" 418 13265 13323
+"dataflow.ml" 602 20804 20822 "dataflow.ml" 602 20804 20862
 call(
   stack
 )
 type(
   string
 )
-"dataflow.ml" 419 13327 13335 "dataflow.ml" 419 13327 13343
+"dataflow.ml" 603 20866 20874 "dataflow.ml" 603 20866 20882
 type(
   string
 )
-"dataflow.ml" 419 13327 13346 "dataflow.ml" 419 13327 13362
+"dataflow.ml" 603 20866 20885 "dataflow.ml" 603 20866 20901
 type(
   (Format.formatter -> Cfg.identifier -> unit) -> Cfg.identifier -> string
 )
 ident(
   ext_ref Utils.format_to_string
 )
-"dataflow.ml" 419 13327 13363 "dataflow.ml" 419 13327 13380
+"dataflow.ml" 603 20866 20902 "dataflow.ml" 603 20866 20919
 type(
   Format.formatter -> Cfg.identifier -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.format_identifier
 )
-"dataflow.ml" 419 13327 13381 "dataflow.ml" 419 13327 13385
+"dataflow.ml" 603 20866 20920 "dataflow.ml" 603 20866 20924
 type(
   Cfg.identifier
 )
 ident(
-  int_ref targ "dataflow.ml" 417 13192 13230 "dataflow.ml" 417 13192 13251
+  int_ref targ "dataflow.ml" 601 20731 20769 "dataflow.ml" 601 20731 20790
 )
-"dataflow.ml" 419 13327 13346 "dataflow.ml" 419 13327 13385
+"dataflow.ml" 603 20866 20885 "dataflow.ml" 603 20866 20924
 call(
   stack
 )
 type(
   string
 )
-"dataflow.ml" 420 13389 13393 "dataflow.ml" 420 13389 13399
+"dataflow.ml" 604 20928 20932 "dataflow.ml" 604 20928 20938
 type(
   Utils.StrSet.t Utils.StrMap.t ->
   Utils.StrSet.elt -> Utils.StrMap.key -> Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref update "dataflow.ml" 410 12872 12877 "dataflow.ml" 410 12872 12883
+  int_ref update "dataflow.ml" 594 20411 20416 "dataflow.ml" 594 20411 20422
 )
-"dataflow.ml" 420 13389 13400 "dataflow.ml" 420 13389 13401
+"dataflow.ml" 604 20928 20939 "dataflow.ml" 604 20928 20940
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 420 13389 13402 "dataflow.ml" 420 13389 13409
+"dataflow.ml" 604 20928 20941 "dataflow.ml" 604 20928 20948
 type(
   Utils.StrSet.elt
 )
 ident(
-  int_ref msg_str "dataflow.ml" 418 13265 13273 "dataflow.ml" 418 13265 13280
+  int_ref msg_str "dataflow.ml" 602 20804 20812 "dataflow.ml" 602 20804 20819
 )
-"dataflow.ml" 420 13389 13410 "dataflow.ml" 420 13389 13418
+"dataflow.ml" 604 20928 20949 "dataflow.ml" 604 20928 20957
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref targ_str "dataflow.ml" 419 13327 13335 "dataflow.ml" 419 13327 13343
+  int_ref targ_str "dataflow.ml" 603 20866 20874 "dataflow.ml" 603 20866 20882
 )
-"dataflow.ml" 420 13389 13393 "dataflow.ml" 420 13389 13418
+"dataflow.ml" 604 20928 20932 "dataflow.ml" 604 20928 20957
 call(
   tail
 )
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 419 13327 13331 "dataflow.ml" 420 13389 13418
+"dataflow.ml" 603 20866 20870 "dataflow.ml" 604 20928 20957
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 418 13265 13269 "dataflow.ml" 420 13389 13418
+"dataflow.ml" 602 20804 20808 "dataflow.ml" 604 20928 20957
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 422 13422 13432 "dataflow.ml" 422 13422 13443
+"dataflow.ml" 606 20961 20971 "dataflow.ml" 606 20961 20982
 type(
   Cfg.tuple_expr option
 )
 ident(
-  def tuple_opt "dataflow.ml" 422 13422 13447 "dataflow.ml" 422 13422 13448
+  def tuple_opt "dataflow.ml" 606 20961 20986 "dataflow.ml" 606 20961 20987
 )
-"dataflow.ml" 422 13422 13426 "dataflow.ml" 422 13422 13443
+"dataflow.ml" 606 20961 20965 "dataflow.ml" 606 20961 20982
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 422 13422 13447 "dataflow.ml" 422 13422 13448
+"dataflow.ml" 606 20961 20986 "dataflow.ml" 606 20961 20987
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 423 13449 13459 "dataflow.ml" 423 13449 13463
+"dataflow.ml" 607 20988 20998 "dataflow.ml" 607 20988 21002
 type(
   Cfg.lhs option
 )
 ident(
-  def lhso "dataflow.ml" 423 13449 13474 "dataflow.ml" 423 13449 13475
+  def lhso "dataflow.ml" 607 20988 21013 "dataflow.ml" 607 20988 21014
 )
-"dataflow.ml" 423 13449 13465 "dataflow.ml" 423 13449 13469
+"dataflow.ml" 607 20988 21004 "dataflow.ml" 607 20988 21008
 type(
   Cfg.star_expr list
 )
 ident(
-  def args "dataflow.ml" 423 13449 13474 "dataflow.ml" 423 13449 13475
+  def args "dataflow.ml" 607 20988 21013 "dataflow.ml" 607 20988 21014
 )
-"dataflow.ml" 423 13449 13453 "dataflow.ml" 423 13449 13470
+"dataflow.ml" 607 20988 20992 "dataflow.ml" 607 20988 21009
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 423 13449 13474 "dataflow.ml" 423 13449 13475
+"dataflow.ml" 607 20988 21013 "dataflow.ml" 607 20988 21014
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 425 13479 13491 "dataflow.ml" 425 13479 13502
+"dataflow.ml" 609 21018 21030 "dataflow.ml" 609 21018 21041
 type(
   Cfg.lhs
 )
-"dataflow.ml" 425 13479 13490 "dataflow.ml" 425 13479 13510
+"dataflow.ml" 609 21018 21029 "dataflow.ml" 609 21018 21049
 type(
   Cfg.lhs
 )
 ident(
-  def lhs "dataflow.ml" 426 13532 13536 "dataflow.ml" 426 13532 13555
+  def lhs "dataflow.ml" 610 21071 21075 "dataflow.ml" 610 21071 21094
 )
-"dataflow.ml" 425 13479 13513 "dataflow.ml" 425 13479 13519
+"dataflow.ml" 609 21018 21052 "dataflow.ml" 609 21018 21058
 type(
   Cfg.tuple_expr
 )
-"dataflow.ml" 425 13479 13512 "dataflow.ml" 425 13479 13527
+"dataflow.ml" 609 21018 21051 "dataflow.ml" 609 21018 21066
 type(
   Cfg.tuple_expr
 )
 ident(
-  def rhs "dataflow.ml" 426 13532 13536 "dataflow.ml" 426 13532 13555
+  def rhs "dataflow.ml" 610 21071 21075 "dataflow.ml" 610 21071 21094
 )
-"dataflow.ml" 425 13479 13483 "dataflow.ml" 425 13479 13528
+"dataflow.ml" 609 21018 21022 "dataflow.ml" 609 21018 21067
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 426 13532 13536 "dataflow.ml" 426 13532 13542
+"dataflow.ml" 610 21071 21075 "dataflow.ml" 610 21071 21081
 type(
   _[> Cfg.identifier ] * _[> Cfg.star_expr Cfg.expr_ ] -> unit
 )
 ident(
   ext_ref Pervasives.ignore
 )
-"dataflow.ml" 426 13532 13543 "dataflow.ml" 426 13532 13546
+"dataflow.ml" 610 21071 21082 "dataflow.ml" 610 21071 21085
 type(
   _[> Cfg.identifier ] as 'b
 )
 ident(
-  int_ref lhs "dataflow.ml" 425 13479 13490 "dataflow.ml" 425 13479 13510
+  int_ref lhs "dataflow.ml" 609 21018 21029 "dataflow.ml" 609 21018 21049
 )
-"dataflow.ml" 426 13532 13548 "dataflow.ml" 426 13532 13551
+"dataflow.ml" 610 21071 21087 "dataflow.ml" 610 21071 21090
 type(
   _[> Cfg.star_expr Cfg.expr_ ] as 'c
 )
 ident(
-  int_ref rhs "dataflow.ml" 425 13479 13512 "dataflow.ml" 425 13479 13527
+  int_ref rhs "dataflow.ml" 609 21018 21051 "dataflow.ml" 609 21018 21066
 )
-"dataflow.ml" 426 13532 13542 "dataflow.ml" 426 13532 13552
+"dataflow.ml" 610 21071 21081 "dataflow.ml" 610 21071 21091
 type(
   'b * 'c
 )
-"dataflow.ml" 426 13532 13536 "dataflow.ml" 426 13532 13552
+"dataflow.ml" 610 21071 21075 "dataflow.ml" 610 21071 21091
 type(
   unit
 )
-"dataflow.ml" 426 13532 13554 "dataflow.ml" 426 13532 13555
+"dataflow.ml" 610 21071 21093 "dataflow.ml" 610 21071 21094
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 426 13532 13536 "dataflow.ml" 426 13532 13555
+"dataflow.ml" 610 21071 21075 "dataflow.ml" 610 21071 21094
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 428 13559 13576 "dataflow.ml" 428 13559 13577
+"dataflow.ml" 612 21098 21115 "dataflow.ml" 612 21098 21116
 type(
   Cfg.identifier
 )
-"dataflow.ml" 428 13559 13570 "dataflow.ml" 428 13559 13577
+"dataflow.ml" 612 21098 21109 "dataflow.ml" 612 21098 21116
 type(
   Cfg.lhs
 )
-"dataflow.ml" 428 13559 13579 "dataflow.ml" 428 13559 13580
+"dataflow.ml" 612 21098 21118 "dataflow.ml" 612 21098 21119
 type(
   Cfg.tuple_expr
 )
-"dataflow.ml" 428 13559 13563 "dataflow.ml" 428 13559 13582
+"dataflow.ml" 612 21098 21102 "dataflow.ml" 612 21098 21121
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 428 13559 13605 "dataflow.ml" 428 13559 13606
+"dataflow.ml" 612 21098 21144 "dataflow.ml" 612 21098 21145
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 429 13607 13618 "dataflow.ml" 429 13607 13619
+"dataflow.ml" 613 21146 21157 "dataflow.ml" 613 21146 21158
 type(
   Cfg.lhs
 )
-"dataflow.ml" 429 13607 13627 "dataflow.ml" 429 13607 13628
+"dataflow.ml" 613 21146 21166 "dataflow.ml" 613 21146 21167
 type(
   [ `ID_False
   | `ID_Nil
@@ -7413,180 +8764,180 @@ type(
   | `Lit_String of string
   | `Tuple of Cfg.tuple_expr list ]
 )
-"dataflow.ml" 429 13607 13621 "dataflow.ml" 429 13607 13628
+"dataflow.ml" 613 21146 21160 "dataflow.ml" 613 21146 21167
 type(
   Cfg.tuple_expr
 )
-"dataflow.ml" 429 13607 13611 "dataflow.ml" 429 13607 13629
+"dataflow.ml" 613 21146 21150 "dataflow.ml" 613 21146 21168
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 429 13607 13652 "dataflow.ml" 429 13607 13653
+"dataflow.ml" 613 21146 21191 "dataflow.ml" 613 21146 21192
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 430 13654 13672 "dataflow.ml" 430 13654 13673
+"dataflow.ml" 614 21193 21211 "dataflow.ml" 614 21193 21212
 type(
   Cfg.lhs list
 )
-"dataflow.ml" 430 13654 13665 "dataflow.ml" 430 13654 13673
+"dataflow.ml" 614 21193 21204 "dataflow.ml" 614 21193 21212
 type(
   Cfg.lhs
 )
-"dataflow.ml" 430 13654 13675 "dataflow.ml" 430 13654 13676
+"dataflow.ml" 614 21193 21214 "dataflow.ml" 614 21193 21215
 type(
   Cfg.tuple_expr
 )
-"dataflow.ml" 430 13654 13658 "dataflow.ml" 430 13654 13677
+"dataflow.ml" 614 21193 21197 "dataflow.ml" 614 21193 21216
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 430 13654 13700 "dataflow.ml" 430 13654 13701
+"dataflow.ml" 614 21193 21239 "dataflow.ml" 614 21193 21240
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 431 13702 13713 "dataflow.ml" 431 13702 13714
+"dataflow.ml" 615 21241 21252 "dataflow.ml" 615 21241 21253
 type(
   Cfg.lhs
 )
-"dataflow.ml" 431 13702 13723 "dataflow.ml" 431 13702 13724
+"dataflow.ml" 615 21241 21262 "dataflow.ml" 615 21241 21263
 type(
   Cfg.tuple_expr list
 )
-"dataflow.ml" 431 13702 13716 "dataflow.ml" 431 13702 13724
+"dataflow.ml" 615 21241 21255 "dataflow.ml" 615 21241 21263
 type(
   Cfg.tuple_expr
 )
-"dataflow.ml" 431 13702 13706 "dataflow.ml" 431 13702 13725
+"dataflow.ml" 615 21241 21245 "dataflow.ml" 615 21241 21264
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 431 13702 13748 "dataflow.ml" 431 13702 13749
+"dataflow.ml" 615 21241 21287 "dataflow.ml" 615 21241 21288
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 433 13753 13763 "dataflow.ml" 433 13753 13764
+"dataflow.ml" 617 21292 21302 "dataflow.ml" 617 21292 21303
 type(
   Cfg.msg_id list
 )
-"dataflow.ml" 433 13753 13757 "dataflow.ml" 433 13753 13764
+"dataflow.ml" 617 21292 21296 "dataflow.ml" 617 21292 21303
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 433 13753 13768 "dataflow.ml" 433 13753 13777
+"dataflow.ml" 617 21292 21307 "dataflow.ml" 617 21292 21316
 type(
   ?ctx:Log.ctx -> (unit, Format.formatter, unit, unit) format4 -> unit
 )
 ident(
   ext_ref Log.fixme
 )
-"dataflow.ml" 433 13753 13778 "dataflow.ml" 433 13753 13803
+"dataflow.ml" 617 21292 21317 "dataflow.ml" 617 21292 21342
 type(
   (unit, Format.formatter, unit, unit) format4
 )
-"dataflow.ml" 433 13753 13768 "dataflow.ml" 433 13753 13803
+"dataflow.ml" 617 21292 21307 "dataflow.ml" 617 21292 21342
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 433 13753 13805 "dataflow.ml" 433 13753 13806
+"dataflow.ml" 617 21292 21344 "dataflow.ml" 617 21292 21345
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 433 13753 13768 "dataflow.ml" 433 13753 13806
+"dataflow.ml" 617 21292 21307 "dataflow.ml" 617 21292 21345
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 435 13810 13820 "dataflow.ml" 435 13810 13821
+"dataflow.ml" 619 21349 21359 "dataflow.ml" 619 21349 21360
 type(
   Cfg.tuple_expr option
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 435 13810 13821
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 619 21349 21360
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 436 13822 13826 "dataflow.ml" 436 13822 13830
+"dataflow.ml" 620 21361 21365 "dataflow.ml" 620 21361 21369
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 436 13822 13830
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 620 21361 21369
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 437 13831 13835 "dataflow.ml" 437 13831 13840
+"dataflow.ml" 621 21370 21374 "dataflow.ml" 621 21370 21379
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 437 13831 13840
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 621 21370 21379
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 438 13841 13850 "dataflow.ml" 438 13841 13851
+"dataflow.ml" 622 21380 21389 "dataflow.ml" 622 21380 21390
 type(
   Cfg.tuple_expr option
 )
-"dataflow.ml" 438 13841 13845 "dataflow.ml" 438 13841 13851
+"dataflow.ml" 622 21380 21384 "dataflow.ml" 622 21380 21390
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 438 13841 13851
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 622 21380 21390
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 439 13852 13864 "dataflow.ml" 439 13852 13865
+"dataflow.ml" 623 21391 21403 "dataflow.ml" 623 21391 21404
 type(
   Cfg.stmt
 )
 type(
   Cfg.identifier
 )
-"dataflow.ml" 439 13852 13856 "dataflow.ml" 439 13852 13865
+"dataflow.ml" 623 21391 21395 "dataflow.ml" 623 21391 21404
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 439 13852 13865
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 623 21391 21404
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 440 13866 13874 "dataflow.ml" 440 13866 13875
+"dataflow.ml" 624 21405 21413 "dataflow.ml" 624 21405 21414
 type(
   Cfg.stmt list
 )
-"dataflow.ml" 440 13866 13870 "dataflow.ml" 440 13866 13875
+"dataflow.ml" 624 21405 21409 "dataflow.ml" 624 21405 21414
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 440 13866 13875
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 624 21405 21414
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 441 13876 13886 "dataflow.ml" 441 13876 13887
+"dataflow.ml" 625 21415 21425 "dataflow.ml" 625 21415 21426
 type(
   Cfg.alias_kind
 )
-"dataflow.ml" 441 13876 13880 "dataflow.ml" 441 13876 13887
+"dataflow.ml" 625 21415 21419 "dataflow.ml" 625 21415 21426
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 441 13876 13887
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 625 21415 21426
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 442 13888 13895 "dataflow.ml" 442 13888 13896
+"dataflow.ml" 626 21427 21434 "dataflow.ml" 626 21427 21435
 type(
   Cfg.stmt
 )
@@ -7596,42 +8947,42 @@ type(
 type(
   Cfg.expr
 )
-"dataflow.ml" 442 13888 13892 "dataflow.ml" 442 13888 13896
+"dataflow.ml" 626 21427 21431 "dataflow.ml" 626 21427 21435
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 442 13888 13896
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 626 21427 21435
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 443 13897 13906 "dataflow.ml" 443 13897 13907
+"dataflow.ml" 627 21436 21445 "dataflow.ml" 627 21436 21446
 type(
   Cfg.case_block
 )
-"dataflow.ml" 443 13897 13901 "dataflow.ml" 443 13897 13907
+"dataflow.ml" 627 21436 21440 "dataflow.ml" 627 21436 21446
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 443 13897 13907
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 627 21436 21446
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 444 13908 13918 "dataflow.ml" 444 13908 13919
+"dataflow.ml" 628 21447 21457 "dataflow.ml" 628 21447 21458
 type(
   Cfg.stmt
 )
 type(
   Cfg.expr
 )
-"dataflow.ml" 444 13908 13912 "dataflow.ml" 444 13908 13919
+"dataflow.ml" 628 21447 21451 "dataflow.ml" 628 21447 21458
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 444 13908 13919
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 628 21447 21458
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 445 13920 13928 "dataflow.ml" 445 13920 13929
+"dataflow.ml" 629 21459 21467 "dataflow.ml" 629 21459 21468
 type(
   Cfg.stmt
 )
@@ -7641,27 +8992,27 @@ type(
 type(
   Cfg.block_formal_param list
 )
-"dataflow.ml" 445 13920 13924 "dataflow.ml" 445 13920 13929
+"dataflow.ml" 629 21459 21463 "dataflow.ml" 629 21459 21468
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 445 13920 13929
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 629 21459 21468
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 446 13930 13945 "dataflow.ml" 446 13930 13946
+"dataflow.ml" 630 21469 21484 "dataflow.ml" 630 21469 21485
 type(
   Cfg.expr
 )
-"dataflow.ml" 446 13930 13934 "dataflow.ml" 446 13930 13946
+"dataflow.ml" 630 21469 21473 "dataflow.ml" 630 21469 21485
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 446 13930 13946
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 630 21469 21485
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 447 13947 13958 "dataflow.ml" 447 13947 13959
+"dataflow.ml" 631 21486 21497 "dataflow.ml" 631 21486 21498
 type(
   Cfg.stmt
 )
@@ -7671,15 +9022,15 @@ type(
 type(
   Cfg.lhs option
 )
-"dataflow.ml" 447 13947 13951 "dataflow.ml" 447 13947 13959
+"dataflow.ml" 631 21486 21490 "dataflow.ml" 631 21486 21498
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 447 13947 13959
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 631 21486 21498
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 448 13960 13971 "dataflow.ml" 448 13960 13972
+"dataflow.ml" 632 21499 21510 "dataflow.ml" 632 21499 21511
 type(
   Cfg.stmt
 )
@@ -7689,15 +9040,15 @@ type(
 type(
   Cfg.def_name
 )
-"dataflow.ml" 448 13960 13964 "dataflow.ml" 448 13960 13972
+"dataflow.ml" 632 21499 21503 "dataflow.ml" 632 21499 21511
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 448 13960 13972
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 632 21499 21511
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 449 13973 13983 "dataflow.ml" 449 13973 13984
+"dataflow.ml" 633 21512 21522 "dataflow.ml" 633 21512 21523
 type(
   Cfg.stmt
 )
@@ -7707,297 +9058,297 @@ type(
 type(
   Cfg.lhs option
 )
-"dataflow.ml" 449 13973 13977 "dataflow.ml" 449 13973 13984
+"dataflow.ml" 633 21512 21516 "dataflow.ml" 633 21512 21523
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 449 13973 13984
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 633 21512 21523
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 450 13985 13998 "dataflow.ml" 450 13985 13999
+"dataflow.ml" 634 21524 21537 "dataflow.ml" 634 21524 21538
 type(
   Cfg.exn_block
 )
-"dataflow.ml" 450 13985 13989 "dataflow.ml" 450 13985 13999
+"dataflow.ml" 634 21524 21528 "dataflow.ml" 634 21524 21538
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 450 13985 13999
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 634 21524 21538
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 451 14000 14010 "dataflow.ml" 451 14000 14011
+"dataflow.ml" 635 21539 21549 "dataflow.ml" 635 21539 21550
 type(
   Cfg.stmt
 )
-"dataflow.ml" 451 14000 14004 "dataflow.ml" 451 14000 14011
+"dataflow.ml" 635 21539 21543 "dataflow.ml" 635 21539 21550
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 451 14000 14011
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 635 21539 21550
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 452 14012 14020 "dataflow.ml" 452 14012 14021
+"dataflow.ml" 636 21551 21559 "dataflow.ml" 636 21551 21560
 type(
   Cfg.stmt
 )
-"dataflow.ml" 452 14012 14016 "dataflow.ml" 452 14012 14021
+"dataflow.ml" 636 21551 21555 "dataflow.ml" 636 21551 21560
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 435 13810 13814 "dataflow.ml" 452 14012 14021
+"dataflow.ml" 619 21349 21353 "dataflow.ml" 636 21551 21560
 type(
   Cfg.stmt_node
 )
-"dataflow.ml" 452 14012 14025 "dataflow.ml" 452 14012 14026
+"dataflow.ml" 636 21551 21564 "dataflow.ml" 636 21551 21565
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
 ident(
-  int_ref t "dataflow.ml" 414 13022 13036 "dataflow.ml" 414 13022 13037
+  int_ref t "dataflow.ml" 598 20561 20575 "dataflow.ml" 598 20561 20576
 )
-"dataflow.ml" 414 13022 13042 "dataflow.ml" 452 14012 14026
+"dataflow.ml" 598 20561 20581 "dataflow.ml" 636 21551 21565
 type(
   Utils.StrSet.t Utils.StrMap.t
 )
-"dataflow.ml" 456 14034 14055 "dataflow.ml" 456 14034 14075
+"dataflow.ml" 640 21573 21594 "dataflow.ml" 640 21573 21614
 call(
   stack
 )
-"dataflow.ml" 462 14124 14129 "dataflow.ml" 462 14124 14134
+"dataflow.ml" 646 21663 21668 "dataflow.ml" 646 21663 21673
 type(
   int
 )
 ident(
-  def empty "dataflow.ml" 463 14139 14140 "dataflow.ml" 472 14358 14361
+  def empty "dataflow.ml" 647 21678 21679 "dataflow.ml" 656 21897 21900
 )
-"dataflow.ml" 462 14124 14137 "dataflow.ml" 462 14124 14138
+"dataflow.ml" 646 21663 21676 "dataflow.ml" 646 21663 21677
 type(
   int
 )
-"dataflow.ml" 463 14139 14144 "dataflow.ml" 463 14139 14146
+"dataflow.ml" 647 21678 21683 "dataflow.ml" 647 21678 21685
 type(
   'a -> 'a -> bool
 )
 ident(
-  def eq "dataflow.ml" 465 14165 14166 "dataflow.ml" 472 14358 14361
+  def eq "dataflow.ml" 649 21704 21705 "dataflow.ml" 656 21897 21900
 )
-"dataflow.ml" 463 14139 14147 "dataflow.ml" 463 14139 14149
+"dataflow.ml" 647 21678 21686 "dataflow.ml" 647 21678 21688
 type(
   'a
 )
 ident(
-  def t1 "dataflow.ml" 463 14139 14150 "dataflow.ml" 463 14139 14162
+  def t1 "dataflow.ml" 647 21678 21689 "dataflow.ml" 647 21678 21701
 )
-"dataflow.ml" 463 14139 14150 "dataflow.ml" 463 14139 14152
+"dataflow.ml" 647 21678 21689 "dataflow.ml" 647 21678 21691
 type(
   'a
 )
 ident(
-  def t2 "dataflow.ml" 463 14139 14155 "dataflow.ml" 463 14139 14162
+  def t2 "dataflow.ml" 647 21678 21694 "dataflow.ml" 647 21678 21701
 )
-"dataflow.ml" 463 14139 14155 "dataflow.ml" 463 14139 14157
+"dataflow.ml" 647 21678 21694 "dataflow.ml" 647 21678 21696
 type(
   'a
 )
 ident(
-  int_ref t1 "dataflow.ml" 463 14139 14147 "dataflow.ml" 463 14139 14149
+  int_ref t1 "dataflow.ml" 647 21678 21686 "dataflow.ml" 647 21678 21688
 )
-"dataflow.ml" 463 14139 14158 "dataflow.ml" 463 14139 14159
+"dataflow.ml" 647 21678 21697 "dataflow.ml" 647 21678 21698
 type(
   'a -> 'a -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"dataflow.ml" 463 14139 14160 "dataflow.ml" 463 14139 14162
+"dataflow.ml" 647 21678 21699 "dataflow.ml" 647 21678 21701
 type(
   'a
 )
 ident(
-  int_ref t2 "dataflow.ml" 463 14139 14150 "dataflow.ml" 463 14139 14152
+  int_ref t2 "dataflow.ml" 647 21678 21689 "dataflow.ml" 647 21678 21691
 )
-"dataflow.ml" 463 14139 14155 "dataflow.ml" 463 14139 14162
+"dataflow.ml" 647 21678 21694 "dataflow.ml" 647 21678 21701
 type(
   bool
 )
-"dataflow.ml" 465 14165 14170 "dataflow.ml" 465 14165 14179
+"dataflow.ml" 649 21704 21709 "dataflow.ml" 649 21704 21718
 type(
   int -> string
 )
 ident(
-  def to_string "dataflow.ml" 467 14202 14203 "dataflow.ml" 472 14358 14361
+  def to_string "dataflow.ml" 651 21741 21742 "dataflow.ml" 656 21897 21900
 )
-"dataflow.ml" 465 14165 14180 "dataflow.ml" 465 14165 14181
+"dataflow.ml" 649 21704 21719 "dataflow.ml" 649 21704 21720
 type(
   int
 )
 ident(
-  def t "dataflow.ml" 465 14165 14184 "dataflow.ml" 465 14165 14199
+  def t "dataflow.ml" 649 21704 21723 "dataflow.ml" 649 21704 21738
 )
-"dataflow.ml" 465 14165 14184 "dataflow.ml" 465 14165 14197
+"dataflow.ml" 649 21704 21723 "dataflow.ml" 649 21704 21736
 type(
   int -> string
 )
 ident(
   ext_ref Pervasives.string_of_int
 )
-"dataflow.ml" 465 14165 14198 "dataflow.ml" 465 14165 14199
+"dataflow.ml" 649 21704 21737 "dataflow.ml" 649 21704 21738
 type(
   int
 )
 ident(
-  int_ref t "dataflow.ml" 465 14165 14180 "dataflow.ml" 465 14165 14181
+  int_ref t "dataflow.ml" 649 21704 21719 "dataflow.ml" 649 21704 21720
 )
-"dataflow.ml" 465 14165 14184 "dataflow.ml" 465 14165 14199
+"dataflow.ml" 649 21704 21723 "dataflow.ml" 649 21704 21738
 call(
   tail
 )
 type(
   string
 )
-"dataflow.ml" 467 14202 14207 "dataflow.ml" 467 14202 14215
+"dataflow.ml" 651 21741 21746 "dataflow.ml" 651 21741 21754
 type(
   int -> Cfg.stmt -> int
 )
 ident(
-  def transfer "dataflow.ml" 471 14317 14318 "dataflow.ml" 472 14358 14361
+  def transfer "dataflow.ml" 655 21856 21857 "dataflow.ml" 656 21897 21900
 )
-"dataflow.ml" 467 14202 14216 "dataflow.ml" 467 14202 14217
+"dataflow.ml" 651 21741 21755 "dataflow.ml" 651 21741 21756
 type(
   int
 )
 ident(
-  def t "dataflow.ml" 467 14202 14218 "dataflow.ml" 469 14308 14314
+  def t "dataflow.ml" 651 21741 21757 "dataflow.ml" 653 21847 21853
 )
-"dataflow.ml" 467 14202 14218 "dataflow.ml" 467 14202 14222
+"dataflow.ml" 651 21741 21757 "dataflow.ml" 651 21741 21761
 type(
   Cfg.stmt
 )
 ident(
-  def stmt "dataflow.ml" 468 14225 14227 "dataflow.ml" 469 14308 14314
+  def stmt "dataflow.ml" 652 21764 21766 "dataflow.ml" 653 21847 21853
 )
-"dataflow.ml" 468 14225 14227 "dataflow.ml" 468 14225 14233
+"dataflow.ml" 652 21764 21766 "dataflow.ml" 652 21764 21772
 type(
   (string -> unit, out_channel, unit) format -> string -> unit
 )
 ident(
   ext_ref Printf.printf
 )
-"dataflow.ml" 468 14225 14234 "dataflow.ml" 468 14225 14246
+"dataflow.ml" 652 21764 21773 "dataflow.ml" 652 21764 21785
 type(
   (string -> unit, out_channel, unit) format
 )
-"dataflow.ml" 468 14225 14248 "dataflow.ml" 468 14225 14264
+"dataflow.ml" 652 21764 21787 "dataflow.ml" 652 21764 21803
 type(
   (Format.formatter -> Cfg.stmt -> unit) -> Cfg.stmt -> string
 )
 ident(
   ext_ref Utils.format_to_string
 )
-"dataflow.ml" 468 14225 14265 "dataflow.ml" 468 14225 14300
+"dataflow.ml" 652 21764 21804 "dataflow.ml" 652 21764 21839
 type(
   Format.formatter -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.format_stmt
 )
-"dataflow.ml" 468 14225 14301 "dataflow.ml" 468 14225 14305
+"dataflow.ml" 652 21764 21840 "dataflow.ml" 652 21764 21844
 type(
   Cfg.stmt
 )
 ident(
-  int_ref stmt "dataflow.ml" 467 14202 14218 "dataflow.ml" 467 14202 14222
+  int_ref stmt "dataflow.ml" 651 21741 21757 "dataflow.ml" 651 21741 21761
 )
-"dataflow.ml" 468 14225 14247 "dataflow.ml" 468 14225 14306
+"dataflow.ml" 652 21764 21786 "dataflow.ml" 652 21764 21845
 call(
   stack
 )
 type(
   string
 )
-"dataflow.ml" 468 14225 14227 "dataflow.ml" 468 14225 14306
+"dataflow.ml" 652 21764 21766 "dataflow.ml" 652 21764 21845
 call(
   stack
 )
 type(
   unit
 )
-"dataflow.ml" 469 14308 14310 "dataflow.ml" 469 14308 14311
+"dataflow.ml" 653 21847 21849 "dataflow.ml" 653 21847 21850
 type(
   int
 )
 ident(
-  int_ref t "dataflow.ml" 467 14202 14216 "dataflow.ml" 467 14202 14217
+  int_ref t "dataflow.ml" 651 21741 21755 "dataflow.ml" 651 21741 21756
 )
-"dataflow.ml" 469 14308 14312 "dataflow.ml" 469 14308 14313
+"dataflow.ml" 653 21847 21851 "dataflow.ml" 653 21847 21852
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"dataflow.ml" 469 14308 14313 "dataflow.ml" 469 14308 14314
+"dataflow.ml" 653 21847 21852 "dataflow.ml" 653 21847 21853
 type(
   int
 )
-"dataflow.ml" 469 14308 14310 "dataflow.ml" 469 14308 14314
+"dataflow.ml" 653 21847 21849 "dataflow.ml" 653 21847 21853
 type(
   int
 )
-"dataflow.ml" 468 14225 14227 "dataflow.ml" 469 14308 14314
+"dataflow.ml" 652 21764 21766 "dataflow.ml" 653 21847 21853
 type(
   int
 )
-"dataflow.ml" 471 14317 14322 "dataflow.ml" 471 14317 14326
+"dataflow.ml" 655 21856 21861 "dataflow.ml" 655 21856 21865
 type(
   int list -> int
 )
 ident(
-  def join "dataflow.ml" 471 14317 14357 "dataflow.ml" 472 14358 14361
+  def join "dataflow.ml" 655 21856 21896 "dataflow.ml" 656 21897 21900
 )
-"dataflow.ml" 471 14317 14327 "dataflow.ml" 471 14317 14330
+"dataflow.ml" 655 21856 21866 "dataflow.ml" 655 21856 21869
 type(
   int list
 )
 ident(
-  def ins "dataflow.ml" 471 14317 14333 "dataflow.ml" 471 14317 14357
+  def ins "dataflow.ml" 655 21856 21872 "dataflow.ml" 655 21856 21896
 )
-"dataflow.ml" 471 14317 14333 "dataflow.ml" 471 14317 14347
+"dataflow.ml" 655 21856 21872 "dataflow.ml" 655 21856 21886
 type(
   (int -> int -> int) -> int -> int list -> int
 )
 ident(
   ext_ref List.fold_left
 )
-"dataflow.ml" 471 14317 14348 "dataflow.ml" 471 14317 14351
+"dataflow.ml" 655 21856 21887 "dataflow.ml" 655 21856 21890
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"dataflow.ml" 471 14317 14352 "dataflow.ml" 471 14317 14353
+"dataflow.ml" 655 21856 21891 "dataflow.ml" 655 21856 21892
 type(
   int
 )
-"dataflow.ml" 471 14317 14354 "dataflow.ml" 471 14317 14357
+"dataflow.ml" 655 21856 21893 "dataflow.ml" 655 21856 21896
 type(
   int list
 )
 ident(
-  int_ref ins "dataflow.ml" 471 14317 14327 "dataflow.ml" 471 14317 14330
+  int_ref ins "dataflow.ml" 655 21856 21866 "dataflow.ml" 655 21856 21869
 )
-"dataflow.ml" 471 14317 14333 "dataflow.ml" 471 14317 14357
+"dataflow.ml" 655 21856 21872 "dataflow.ml" 655 21856 21896
 call(
   tail
 )
 type(
   int
 )
-"dataflow.ml" 474 14363 14387 "dataflow.ml" 474 14363 14409
+"dataflow.ml" 658 21902 21926 "dataflow.ml" 658 21902 21948
 call(
   stack
 )

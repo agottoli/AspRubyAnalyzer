@@ -1,5 +1,4 @@
 a=1
-__tmp_1 = 12
 guardia = 12
 while guardia < 10 do
 	a.to_s		#MaybeNil (NonNil all'inizio, MaybeNil alla seconda iterazione)
