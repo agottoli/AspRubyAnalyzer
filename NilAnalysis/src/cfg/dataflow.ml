@@ -172,13 +172,14 @@ module Forwards(DFP : DataFlowProblem) = struct
 					let st = match default with
 						| None -> st
 						| Some s -> s::st
-					in
+					in				
+					
 						(* finalfacts will contain a StrMap for each when's stmt containing what we know after having analyzed it *)
 						let finalfacts = 
 							(* x is each stmt in each branch of the case *)
 							List.fold_left ( fun acc x ->
 								(* before each stmt in each branch what we know is what we know before the case stmt *)
-  							Hashtbl.replace in_tbl x !ifacts;
+  							Hashtbl.replace in_tbl x !ifacts;												
   							let newfacts = super_fixpoint x in_tbl out_tbl in
   							Hashtbl.replace out_tbl x newfacts;
   							newfacts :: acc

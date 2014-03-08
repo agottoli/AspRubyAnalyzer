@@ -3,7 +3,7 @@ b=2
 c = 2
 d = 4
 case b 
-	when c then b=3
+	when c then b=3; a = a + 1
 	when d then a.to_s
 	else a=3; b = 9; c=10
 end

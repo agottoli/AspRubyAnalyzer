@@ -444,14 +444,28 @@ let justif input =
         let whens = b.case_whens in
         (* st will contain all the stmt in all the when's clauses *)
         List.iter(fun (e,s) -> 
-                  cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$when "^(string_of_tuple_expr e)^" then$|$$|\n";
-                  cell:= !cell^(print_row_table s (Hashtbl.find out_tbl s));
+                  cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$when "^(string_of_tuple_expr e)^" then$|$";
+                  (* se si vuole la tabella anche del when usare la riga sotto *)
+                  cell := !cell^(print_row_nostmt (Hashtbl.find out_tbl s));
+                  (* altrimenti usare quest'altra *)
+                  (* cell := !cell^"$|\n"; *)
+                  
+                  (* ricorsiva per gli statement dentro al when *)
+									cell := !cell^(print_var_table s out_tbl);
         ) whens;
 
-        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$else$|$";
         cell:= (fun x -> match x with
                 | None -> !cell
-                | Some s -> !cell^(print_row_table s (Hashtbl.find out_tbl s))) b.case_else; 
+                | Some s -> 
+									cell := !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$else$|$"; 
+                  (* se si vuole la tabella anche del'else usare la riga sotto *)
+                  cell := !cell^(print_row_nostmt (Hashtbl.find out_tbl s));
+                  (* altrimenti usare quest'altra *)
+                  (* cell := !cell^"$|\n"; *)
+
+                  (* ricorsiva per gli statement dentro all'else *)
+									!cell^(print_var_table s out_tbl)
+									) b.case_else; 
 
         cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$end$|$$|\n";
         !cell
