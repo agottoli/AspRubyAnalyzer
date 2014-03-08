@@ -37,6 +37,7 @@ module type CfgPrinter = sig
   val format_target_and_msg : Format.formatter -> expr option * msg_id -> unit
 
   val string_of_expr : expr -> string
+  val string_of_tuple_expr : tuple_expr -> string
   val string_of_cfg : stmt -> string
   val print_stmt : out_channel -> stmt -> unit
 	val print_snode : stmt -> string
