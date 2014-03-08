@@ -368,7 +368,7 @@ module Code_F(PP : CfgPrinter) = struct
 	  PP.format_formals (formals :> any_formal list)
 	    PP.format_stmt body
 
-  let format_cfg ppf cfg = fprintf ppf "@[<v 0>%a@]\n" PP.format_stmt cfg
+  let format_cfg ppf cfg = fprintf ppf "@[<v 0>%a@]" PP.format_stmt cfg
 
   let string_of_expr e = format_to_string PP.format_expr e
 

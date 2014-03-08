@@ -5,6 +5,7 @@ open Utils
 open Cfg_refactor
 open Cfg_printer.CodePrinter
 open Printf
+open Str
   
 (* INIZIO CONTRACT LIVENESS *)
 module C = Cfg.Abbr
@@ -138,60 +139,7 @@ module LivenessAnalysis = struct
       let map = multiple_join map tail 
     in map
 
-let rec exists_fp visited stmt exits =
-  if StmtSet.is_empty stmt.succs
-  then StmtSet.add stmt exits
-  else
-    let todo = StmtSet.diff stmt.succs visited in
-    let visited' = StmtSet.union visited todo in
-    StmtSet.fold
-      (fun stmt exits ->
-            exists_fp
-              visited'
-              stmt
-              exits
-      ) todo exits
-
-let exits stmt = exists_fp StmtSet.empty stmt StmtSet.empty
-
-  let tmp_fix stmt t =
-    let in_tbl = Hashtbl.create 127 in
-    let out_tbl = Hashtbl.create 127 in
-    let q = Queue.create () in
-    StmtSet.iter
-      (fun x ->
-            Queue.push x q;
-            Hashtbl.add in_tbl x empty
-      ) (exits stmt);
-      
-    while not (Queue.is_empty q) do
-      let stmt = Queue.pop q in
-      let in_list =
-        StmtSet.fold
-          (fun stmt acc ->
-                try (Hashtbl.find out_tbl stmt) :: acc
-                with Not_found ->
-                    Hashtbl.add out_tbl stmt empty;
-                    empty :: acc
-          ) stmt.succs [] in
-      let in_facts = join in_list in
-      let () = Hashtbl.replace in_tbl stmt in_facts in
-      let new_facts = t in_facts stmt in
-        try
-          let old_facts = Hashtbl.find out_tbl stmt in
-          if eq old_facts new_facts
-          then ()
-          else begin
-            StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
-            Hashtbl.replace out_tbl stmt new_facts
-          end
-        with Not_found ->
-            StmtSet.iter (fun x -> Queue.push x q) stmt.preds;
-            Hashtbl.replace out_tbl stmt new_facts
-    done;
-
-    out_tbl 
-
+  
   let rec transfer map stmt = match stmt.snode with
 
     | Assign(lhs , #literal) | Assign(lhs , `ID_True) | Assign(lhs , `ID_False) -> print_string "true false literal\n"; update_lhs Dead map lhs
@@ -206,20 +154,18 @@ let exits stmt = exists_fp StmtSet.empty stmt StmtSet.empty
     | MethodCall(lhs_o, {mc_target = Some (`ID_Var(`Var_Local, var) as target); mc_args = args} ) 
     | MethodCall(lhs_o, {mc_target = Some (`ID_Var(`Var_Constant, var) as target); mc_args = args} )-> 
 			 print_string "MethodCall\n";
-
-     let map =  visit_list args map in
       let map = match lhs_o with
 				| None -> map
 				| Some lhs -> update_lhs Dead map lhs;
-				in let map = update_lhs Live map target 
+        in let map =  visit_list args map in
+        let map = update_lhs Live map target
 			in map
 
     | MethodCall(lhs_o, {mc_args = args} ) ->
-      
-      let map =  visit_list args map in
-        let map = match lhs_o with
+      let map = match lhs_o with
         | None -> map
         | Some lhs -> update_lhs Dead map lhs;
+        in let map =  visit_list args map
       in map
 
     | While(`ID_Var(`Var_Local, rvar) , _) 
@@ -375,6 +321,39 @@ end
 (* INIZIO MODULO LIVENESS *)
 
 module Liveness = Dataflow.Backwards(LivenessAnalysis)
+
+    (* INIZIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO *)
+let justif input =
+  let lines = split (regexp_string "\n") input in
+  let fields_l = List.map (split (regexp_string "$")) lines in
+  let fields_l = List.map Array.of_list fields_l in
+  let n = (* number of columns *)
+    List.fold_left
+      (fun n fields -> max n (Array.length fields))
+      0 fields_l
+  in
+  let pads = Array.make n 0 in
+  List.iter (
+    (* calculate the max padding for each column *)
+    Array.iteri
+      (fun i word -> pads.(i) <- max pads.(i) (String.length word))
+  ) fields_l;
+
+  let print f =
+    List.iter (fun fields ->
+      Array.iteri (fun i word ->
+        f word (pads.(i) - (String.length word))
+      ) fields;
+      print_newline()
+    ) fields_l;
+  in
+
+  (* left column-aligned output *)
+  print (fun word pad ->
+    let spaces = String.make pad ' ' in
+    Printf.printf "%s%s " word spaces);
+
+    (* FINEEEEEEEEEEEEEEEEEEEEEEEE *)
   
 		let print_pos node pos =
     print_string "[WARNING]: Dead var: \n in method call "; print_stmt stdout node; 
@@ -384,13 +363,7 @@ module Liveness = Dataflow.Backwards(LivenessAnalysis)
   (* Printf.printf "[WARNING]: MaybeNil dereference in %s at line %d \n" *)
   (* pos.Lexing.pos_fname pos.Lexing.pos_lnum; *)
   (* flush_all () *)
-    let print_map v =  StrMap.iter (
-      fun k w -> 
-        print_string "(";
-        print_string k;
-        print_string ", ";
-        print_string (LivenessAnalysis.to_string w)
-      ) v 
+
 
     let rec get_for_strings l =
     List.fold_left ( fun acc el ->
@@ -402,10 +375,42 @@ module Liveness = Dataflow.Backwards(LivenessAnalysis)
 
   let print_row_table k map =
     (* print_int stdout k; *)
-    print_stmt stdout k;
-    Printf.printf " %d - %d\n" k.pos.Lexing.pos_lnum k.sid;
+     print_stmt stdout k;
+     print_string "\t\t----\t\t";
+     match (StrMap.is_empty map) with
+      | true -> print_string "\n"
+      | false -> StrMap.iter (
+                     fun k w -> 
+                       print_string "(";
+                       print_string k;
+                       print_string ", ";
+                       match w with
+                         | LivenessAnalysis.Dead -> print_string "Dead) "
+                         | LivenessAnalysis.Live -> print_string "Live) "
+                    ) map;
+
+     (* print_string "\n-------------------------------------------------\n"*)
+    (* Printf.printf " %d - %d\n" k.pos.Lexing.pos_lnum k.sid;
+    print_string "\n" *)
     print_string "\n"
-      (* print_string "-\n"*)
+
+  let print_row_nostmt map =
+    (* print_int stdout k; *)
+     print_string "\t\t----\t\t";
+     match (StrMap.is_empty map) with
+      | true -> print_string "\n"
+      | false -> StrMap.iter (
+                     fun k w -> 
+                       print_string "(";
+                       print_string k;
+                       print_string ", ";
+                       match w with
+                         | LivenessAnalysis.Dead -> print_string "Dead) "
+                         | LivenessAnalysis.Live -> print_string "Live) "
+                    ) map;
+
+    print_string "\n"
+
 
     let rec print_var_table stmt out_tbl =
       match stmt.snode with
@@ -413,17 +418,37 @@ module Liveness = Dataflow.Backwards(LivenessAnalysis)
           List.iter( fun x -> 
                       print_var_table x out_tbl ) list
       | While(g, b) ->
-          print_string "while \n"; 
-          print_var_table b out_tbl; 
+          print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
+          print_string "while "; print_string (string_of_expr g); 
+          print_row_nostmt (Hashtbl.find out_tbl stmt);
+          print_var_table b out_tbl;
+          print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
           print_string "end\n"
 
-      | For(p,_,b) ->
+      | For(p,g,b) ->
+          print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
           print_string "for "; 
-          print_string (String.concat " " (get_for_strings p)); print_string "\n";
+          print_string (String.concat " " (get_for_strings p)); 
+          print_string " in ";  print_string (string_of_expr g);
+          print_row_nostmt (Hashtbl.find out_tbl stmt);
           print_var_table b out_tbl; 
+          print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
           print_string "end\n"
 
-      | _ -> print_row_table stmt (Hashtbl.find out_tbl stmt)
+      | If(g, t, f) ->
+          print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
+          print_string "if "; print_string (string_of_expr g);
+          print_row_nostmt (Hashtbl.find out_tbl stmt);
+          print_var_table t out_tbl; 
+          print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
+          print_string "else \n"; 
+          print_var_table f out_tbl; 
+          print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
+          print_string "end\n"
+
+
+      | _ ->  print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
+              print_row_table stmt (Hashtbl.find out_tbl stmt)
 
       (* let list_tbl = 
         Hashtbl.fold (fun k v acc -> k :: acc) out_tbl [] in
@@ -536,6 +561,7 @@ module Liveness = Dataflow.Backwards(LivenessAnalysis)
                  ) _fs
 ;;
 
+
 let main fname =
   let loader = File_loader.create File_loader.EmptyCfg [] in
   let s = File_loader.load_file loader fname in
@@ -556,8 +582,12 @@ let main fname =
   print_string "-------------------------------------------\n"; 
   print_string "ofs content: \n"; 
   print_hash ofs; 
-  print_string "--------------------------------------------\n";  
+  print_string "--------------------------------------------\n\n";  
+  print_string "Live Out Variables Table: \n \n";
   print_var_table s ofs;
+  print_string "\n\n";
+  print_string "Live In Variables Table: \n \n";
+  print_var_table s ifs;
   (* let sn = ( new analizeLivenes ifs :> cfg_visitor ) in
   let _ = visit_stmt (sn) s in *)
   (* print_string "Transformed code: \n"; *)
