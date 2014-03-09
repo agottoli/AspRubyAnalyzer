@@ -354,7 +354,7 @@ let justif input =
     Printf.printf "%s%s " word spaces)
 
     (* FINEEEEEEEEEEEEEEEEEEEEEEEE *)
-  
+
 		let print_pos node pos =
     print_string "[WARNING]: Dead var: \n in method call "; print_stmt stdout node; 
     Printf.printf " at %s:%d \n"
@@ -373,10 +373,16 @@ let justif input =
         | `Formal_tuple(m) -> get_for_strings m
     ) [] l
 
-  let print_row_table k map =
+    let rec get_indent_string level = 
+          match level with
+            | 0 -> ""
+            | _ -> "   "^(get_indent_string (level-1))
+
+
+  let print_row_table k map level =
     (* print_int stdout k; *)
      let cell = ref "" in
-     cell:= !cell^(string_of_cfg k);
+     cell:= !cell^(get_indent_string level)^(string_of_cfg k);
      cell:=!cell^"$|$";
      match (StrMap.is_empty map) with
       | true -> cell:= !cell^"\n"; !cell
@@ -403,75 +409,84 @@ let justif input =
                     ) map; cell := !cell^"$|\n";
       !cell
 
-    let rec print_var_table stmt out_tbl =
+
+      
+
+
+    let rec print_var_table stmt out_tbl level =
       match stmt.snode with
       | Seq(list) ->
           let cell = ref "" in
           List.iter( fun x -> 
-                      cell:= !cell^(print_var_table x out_tbl )) list;
+                      cell:= !cell^(print_var_table x out_tbl level)) list;
           !cell
       | While(g, b) ->
           let cell = ref "" in
-          cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$while "^(string_of_expr g)^"$|$";
+          cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"while "^(string_of_expr g)^"$|$";
           cell:= !cell^(print_row_nostmt (Hashtbl.find out_tbl stmt));
-          cell:= !cell^(print_var_table b out_tbl);
-          cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$end$|$$|\n";
+          cell:= !cell^(print_var_table b out_tbl (level+1));
+          cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"end$|$$|\n";
           !cell
 
       | If(g, t, f) ->
 
         let cell = ref "" in
-        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$if "^(string_of_expr g)^" then $|$";
+        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"if "^(string_of_expr g)^" then $|$";
         cell:= !cell^(print_row_nostmt (Hashtbl.find out_tbl stmt));
-        cell:= !cell^(print_var_table t out_tbl);
-        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$else$|$$|\n";
-        cell:= !cell^(print_var_table f out_tbl);
-        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$end$|$$|\n";
+        cell:= !cell^(print_var_table t out_tbl (level+1));
+        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"else$|$$|\n";
+        cell:= !cell^(print_var_table f out_tbl (level+1));
+        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"end$|$$|\n";
         !cell
 
       | For(p,g,b) ->
         let cell = ref "" in
-        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$for "^(String.concat " " (get_for_strings p))^" in "^(string_of_expr g)^" do$|$";
+        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"for "^(String.concat " " (get_for_strings p))^" in "^(string_of_expr g)^" do$|$";
         cell:= !cell^(print_row_nostmt (Hashtbl.find out_tbl stmt));
-        cell:= !cell^(print_var_table b out_tbl);
-        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$end$|$$|\n";
+        cell:= !cell^(print_var_table b out_tbl (level+1));
+        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"end$|$$|\n";
         !cell
 
       | Case (b) ->
         let cell = ref "" in
-        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$case "^(string_of_expr b.case_guard)^"$|$";
+        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"case "^(string_of_expr b.case_guard)^"$|$";
         cell:= !cell^(print_row_nostmt (Hashtbl.find out_tbl stmt));
         let whens = b.case_whens in
         (* st will contain all the stmt in all the when's clauses *)
         List.iter(fun (e,s) -> 
-                  cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$when "^(string_of_tuple_expr e)^" then$|$";
+                  (* cell := (fun num ->
+                      match num with
+                        | 0 -> !cell^""
+                        | _ -> !cell^"  "^ ) 1; *)
+
+                  cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"when "^(string_of_tuple_expr e)^" then$|$";
                   (* se si vuole la tabella anche del when usare la riga sotto *)
                   cell := !cell^(print_row_nostmt (Hashtbl.find out_tbl s));
                   (* altrimenti usare quest'altra *)
                   (* cell := !cell^"$|\n"; *)
                   
                   (* ricorsiva per gli statement dentro al when *)
-									cell := !cell^(print_var_table s out_tbl);
+									cell := !cell^(print_var_table s out_tbl (level+1));
         ) whens;
 
         cell:= (fun x -> match x with
                 | None -> !cell
                 | Some s -> 
-									cell := !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$else$|$"; 
+									cell := !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"else$|$"; 
                   (* se si vuole la tabella anche del'else usare la riga sotto *)
                   cell := !cell^(print_row_nostmt (Hashtbl.find out_tbl s));
                   (* altrimenti usare quest'altra *)
                   (* cell := !cell^"$|\n"; *)
 
                   (* ricorsiva per gli statement dentro all'else *)
-									!cell^(print_var_table s out_tbl)
+									!cell^(print_var_table s out_tbl (level+1))
 									) b.case_else; 
 
-        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$end$|$$|\n";
+        cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"end$|$$|\n";
         !cell
 
       | _ ->  let cell = ref "" in
-          cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(print_row_table stmt (Hashtbl.find out_tbl stmt));
+          cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(print_row_table stmt (Hashtbl.find out_tbl stmt) (level));
           !cell
                 
 (* print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
@@ -611,7 +626,7 @@ let main fname =
   print_hash ofs; 
   print_string "--------------------------------------------\n\n";  
   print_string "Live Out Variables Table: \n \n";
-  justif (print_var_table s ofs);
+  justif (print_var_table s ofs 0);
 
   (* let sn = ( new analizeLivenes ifs :> cfg_visitor ) in
   let _ = visit_stmt (sn) s in *)
