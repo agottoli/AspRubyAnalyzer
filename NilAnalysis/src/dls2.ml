@@ -33,14 +33,14 @@ module LivenessAnalysis = struct
     | Dead, Dead -> (* print_string "confronto \n"; *) Dead
       
   let update s v map =
-    if s <> "\n" then
+    (* if s <> "\n" then *)
     let fact =
       try meet_fact (StrMap.find s map) v
       with Not_found -> v
     in 
     StrMap.add s fact map	
-  else map
-      
+    (* else map *)
+       
   let update_IF s v map =
     let fact =
       try meet_fact_IF (StrMap.find s map) v
@@ -56,163 +56,176 @@ module LivenessAnalysis = struct
       (fun acc map -> StrMap.fold update_IF map acc) map1 map2		(* now map1 and map2 are defined on the same set of variables *)
     else
       List.fold_left (fun acc map ->
-        StrMap.fold update map acc) StrMap.empty lst
+        StrMap.fold update map acc) StrMap.empty lst   
 
-  let rec get_for_strings l =
-    List.fold_left ( fun acc el ->
-      match el with
-        | `Formal_block_id(_,s) -> s :: acc
-        | `Formal_star(s) -> s :: acc
-        | `Formal_tuple(m) -> get_for_strings m
-    ) [] l
-        
   let rec update_lhs fact map lhs = 
-		let map = match lhs with
+    let map = match lhs with
     | `ID_Var(`Var_Local, var) -> update var fact map
     | `ID_Var(`Var_Constant, const) -> update const fact map
     | #identifier -> map
     | `Tuple lst -> List.fold_left (update_lhs fact) map lst
     | `Star (#lhs as l) -> print_string "asdasd\n"; update_lhs fact map l
-		in map
+    in map
 
   let update_use lhs value map =
     let map = update_lhs Dead map lhs 
     in let map = update value Live map
   in map
 
- let rec aux e = match (e: expr) with
-    | #literal -> print_string "lit\n"; "\n"
-    | #identifier as id -> print_string "id\n" ;
-      match id with
-      | `ID_Var(`Var_Local, var) -> print_string "var local\n"; var
-      | `ID_Var(`Var_Constant, const) -> print_string "var constant \n"; const
-      | `Tuple lst -> print_string "tuple\n" ; aux lst
-      | _ ->  print_string "qualcos'altro\n"; "\n"
 
- let rec vst_expr e = match e with
-  | `Star el -> print_string "star\n"; vst_expr (el :> star_expr)
-  | #expr as e -> print_string "expr\n";  
+  (* VISITE *)
 
-    match (e: expr) with
-    | #literal -> print_string "lit\n"; "\n"
-    | #identifier as id -> print_string "id\n" ;
-      match id with
-      | `ID_Var(`Var_Local, var) -> print_string "var local\n"; var
-      | `ID_Var(`Var_Constant, const) -> print_string "var constant \n"; const
-      | `Tuple lst -> print_string "tuple\n" ;"\n"
-      | _ ->  print_string "qualcos'altro\n"; "\n"
+  let rec visit_literal lit fact map =
+    print_string "ALE visit_literal:\n";
+    match lit with 
+      | `Lit_Array star_lst -> print_string "ALE star_list:\n"; 
+                              (* qua ci vanno le robe del for tipo [[a,b][c,4]] *)
+                              (* let map = List.fold_left (fun acc x -> visit_star_expr x fact acc) map star_lst in map *)
+                              visit_star_expr_list star_lst fact map
+      | `Lit_Hash pair_lst ->  print_string "ALE pair_list:\n"; 
+                              let map = List.fold_left (fun acc (e1, e2) -> 
+                                                  let acc = visit_expr e1 fact acc in
+                                                  visit_expr e2 fact acc
+                                              ) map pair_lst in map
+      | `Lit_Range(b, e1, e2) -> print_string "ALE lit_range:\n";
+                                  let map = (visit_expr e1 fact map) in
+                                  let map = (visit_expr e2 fact map) in
+                                  map 
+       |  _ -> print_string "ALE altro!!!"; map 
 
-  let rec match_tuple_expr map value = match value with
-    | #expr as e-> print_string "expr tuple\n"; update (vst_expr (e:> star_expr)) Live map
-    | `Star (#expr as e) -> print_string "star tuple\n"; update (aux e) Live map
+  and visit_id id fact map = 
+    print_string "ALE visit_id:\n";
+    match id with
+      | `ID_Var(`Var_Local, var) -> print_string "ALE var local.\n"; update var fact map
+      | `ID_Var(`Var_Constant, const) -> print_string "ALE var constant.\n"; update const fact map
+      | `Tuple lst -> print_string "ALE tuple:\n"; List.fold_left (fun acc x -> visit_expr x fact acc) map lst
+      | _ ->  print_string "ALE qualcos'altro!!!\n"; map 
 
-    | `Tuple lst | `Star(`Tuple lst) -> print_string "star tuple tuple\n";
-      let map = List.fold_left (match_tuple_expr ) map lst in map
+  and visit_expr (e: expr) fact map =
+    print_string "ALE visit_expr:\n";
+    match e with
+      | #literal as l -> (visit_literal l fact map)
+      | #identifier as id -> (visit_id id fact map)
 
-
-  let rec vst_list_tuple list map = match list with
-    | [] -> print_string "lista vuota\n"; map
-    | head :: tail -> print_string "lista non vuota\n"; 
-    let map = match_tuple_expr map head in
-    let map = vst_list_tuple tail map 
-        
-      in map
-
-  let rec visit_list list map = match list with
-    | [] -> print_string "lista vuota\n"; map
-    | head :: tail -> print_string "lista non vuota\n"; 
-    let map = visit_list tail map in
-        let map = update (vst_expr head) Live map
-      in map
-
-  let rec visit_for_param list map = match list with
-    | [] -> print_string "lista vuota\n"; map
-    | head :: tail -> print_string "lista non vuota\n"; 
-      let map = visit_for_param tail map in
-        let map = update head Dead map
-      in map
-
-  let rec multiple_join map list = match list with
-  | [] -> map
-  | head :: tail -> 
-    let map = join map::head in 
-      let map = multiple_join map tail 
+  and visit_lhs lhs fact map = 
+    let map = match lhs with
+    (* identifier *)
+    | #identifier as id -> (visit_id id fact map)
+    (* lhs tuple *)
+    | `Tuple lhs_lst -> List.fold_left (update_lhs fact) map lhs_lst
+    (* identifier star *)
+    | `Star (#identifier as id) -> visit_id id fact map
     in map
 
-  
+  and visit_lhs_option lhs_o fact map =
+    match lhs_o with
+     | None -> map
+     | Some lhs -> visit_lhs lhs fact map;
+
+  and visit_expr_option expr_o fact map =
+    match expr_o with 
+      | None -> map
+      | Some (`ID_Var(_,_) as var) -> visit_id var fact map
+      | _ -> map
+
+
+  and visit_star_expr star fact map = 
+    print_string "ALE visit_star_expr:\n";
+    match star with
+      | #expr as e -> visit_expr e fact map
+      | `Star e -> let map = (visit_expr e fact map) in map
+
+
+  and visit_tuple_expr tup fact map =
+    match tup with 
+      | #expr as e -> (visit_expr e fact map)
+      | `Star (#expr as e) -> (visit_expr e fact map)
+      | `Tuple lst (* -> List.fold_left (fun acc x -> visit_tuple_expr x fact acc) map lst *)
+      | `Star (`Tuple lst) -> List.fold_left (fun acc x -> visit_tuple_expr x fact acc) map lst
+
+  and visit_tuple_expr_option tup_o fact map =
+    match tup_o with
+      | None -> map
+      | Some el -> visit_tuple_expr el fact map
+
+  and visit_star_expr_list list fact map = 
+    match list with
+      | [] -> print_string "lista vuota\n"; map
+      | head :: tail -> print_string "lista non vuota\n"; 
+                        let map = visit_star_expr_list tail fact map in
+                        let map = visit_star_expr head fact map in 
+                        map
+
+  let rec visit_method_param p fact map =
+    match p with
+        | `Formal_block_id(_,s) -> update s fact map
+        | `Formal_star(s) -> update s fact map
+        | `Formal_tuple(m) -> List.fold_left (fun acc x -> (visit_method_param x fact acc)) map m
+
+
+
+
+  (* TRANSFER *)
+
   let rec transfer map stmt = match stmt.snode with
+  
+    | Assign(lhs , #literal) | Assign(lhs , `ID_True) | Assign(lhs , `ID_False) -> print_string "ALE assign true, false o literal\n"; 
+                                                                                    visit_lhs lhs Dead map
+    | Assign(lhs , `ID_Nil) -> print_string "ALE assign null\n" ;
+                                visit_lhs lhs Dead map 
+ (*   | Assign(lhs, (`ID_Var(`Var_Local, rvar) as var)) ->  print_string "var\n";
+                                                  let map = visit_lhs lhs Dead map in let map = visit_id var Live map in map (* update_use lhs rvar map *)
+    | Assign(lhs, `ID_Var(`Var_Constant, rconst)) ->  print_string "constant\n"; update_use lhs rconst map *)
+    | Assign(lhs, (`ID_Var(_, _) as var)) -> print_string "ALE assign id_var\n" ;
+                let map = visit_lhs lhs Dead map in 
+                visit_expr var Live map
 
-    | Assign(lhs , #literal) | Assign(lhs , `ID_True) | Assign(lhs , `ID_False) -> print_string "true false literal\n"; update_lhs Dead map lhs
-    | Assign(lhs , `ID_Nil) -> print_string "null\n"; update_lhs Dead map lhs
-    | Assign(lhs, `ID_Var(`Var_Local, rvar)) ->  print_string "var\n"; update_use lhs rvar map
-    | Assign(lhs, `ID_Var(`Var_Constant, rconst)) ->  print_string "constant\n"; update_use lhs rconst map
-    | Assign(lhs, `Tuple s) -> print_string "tuple\n" ; 
-      let map = update_lhs Dead map lhs in
-        let map = vst_list_tuple s map 
-      in map
+    | Assign(lhs, (`Tuple(_) as tup)) -> print_string "ALE assign tuple\n" ; 
+                let map = visit_lhs lhs Dead map in
+                visit_tuple_expr tup Live map 
+                                            
 
-    | MethodCall(lhs_o, {mc_target = Some (`ID_Var(`Var_Local, var) as target); mc_args = args} ) 
-    | MethodCall(lhs_o, {mc_target = Some (`ID_Var(`Var_Constant, var) as target); mc_args = args} )-> 
-			 print_string "MethodCall\n";
-      let map = match lhs_o with
-				| None -> map
-				| Some lhs -> update_lhs Dead map lhs;
-        in let map =  visit_list args map in
-        let map = update_lhs Live map target
-			in map
+                      (* {mc_target = Some (`ID_Var(_,_) as target); mc_args = args} *)
+    | MethodCall(lhs_o, {mc_target = target; mc_args = args} ) -> print_string "MethodCall id_var\n";
+                let map = List.fold_left (fun acc x -> visit_star_expr x Live acc) map args in
+                let map = visit_lhs_option lhs_o Dead map
+                in let map =  visit_star_expr_list args Live map
+                in let map = visit_expr_option target Live map
+          		  in map
 
-    | MethodCall(lhs_o, {mc_args = args} ) ->
-      let map = match lhs_o with
-        | None -> map
-        | Some lhs -> update_lhs Dead map lhs;
-        in let map =  visit_list args map
-      in map
-
-    | While(`ID_Var(`Var_Local, rvar) , _) 
-    | While(`ID_Var(`Var_Constant, rvar) , _) -> print_string "while\n"; update rvar Live map
-
-    | For(p, e, _) -> print_string "for preso param\n"; 
-    let map =
-      let list = get_for_strings p in
-        print_string (String.concat " " list); print_string "\n";
-        visit_for_param list map
-      in let l = ((e:> star_expr)::[]) in
-      let map = visit_list l map
-    in map
     
-    | If(`ID_Var(`Var_Local, rvar) ,_,_) -> print_string "if\n"; update rvar Live map
-    | If(`ID_Var(`Var_Constant, rvar) ,_,_) -> print_string "if\n"; update rvar Live map
+    | While((`ID_Var(_, _) as var) , _) -> print_string "while\n";
+        visit_expr var Live map
+
+
+    | For(p, e, _) -> print_string "for preso param\n";      
+        let map = List.fold_left(fun acc x -> visit_method_param x Dead acc) map p in 
+        let map = visit_expr e Live map in 
+        map
+    
+    | If((`ID_Var(_, _) as var) ,_,_) -> print_string "if\n"; 
+        visit_expr var Live map 
     
 
     | Case(all) -> print_string "case\n"; print_string ("vediamo-> "^(to_string map)); print_string "\n";
 
           let whens = all.case_whens in
         (* st will contain all the stmt in all the when's clauses *)
-          let cond = List.fold_left ( fun acc (s, _) -> (s :> tuple_expr)::acc ) [] whens in
-          (* let stm = List.fold_left ( fun acc (_, s) -> s::acc ) [] whens in
-          let map = List.fold_left (fun acc x -> Hashtbl.find (tmp_fix x (transfer)) x ) map stm in *)
-          let map = vst_list_tuple cond map in
-          let l = ((all.case_guard:> star_expr)::[]) in
-          let map = visit_list l map
+          let cond_list = List.fold_left ( fun acc (s, _) -> s::acc) [] whens in
+          let map = List.fold_left (fun acc x -> visit_tuple_expr x Live acc) map cond_list in
 
-        in map
+          let map = visit_expr all.case_guard Live map in map
 
     | Yield(lhs_o ,args) -> print_string "yield\n";
-      let map =  visit_list args map in
-        let map = match lhs_o with
-        | None -> map
-        | Some lhs -> update_lhs Dead map lhs;
+      let map =  visit_star_expr_list args Live map in
+      let map = visit_lhs_option lhs_o Dead map
       in map
 
-   | Return(s)-> print_string "return\n"; 
-      let map = match s with
-      | None -> map
-      | Some el -> vst_list_tuple (el::[]) map
-    in map
+   | Return(s)-> print_string "return\n";
+        visit_tuple_expr_option s Live map
 
     | Expression(e) -> print_string "expression\n"; 
-      let map = update (vst_expr (e :> star_expr)) Live map
-        in map
+        visit_expr e Live map
 
 
 
@@ -246,8 +259,30 @@ module LivenessAnalysis = struct
     | _ -> map 
 
 end
-
 (* FINE CONTRACT LIVENESS *)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 module NilAnalysis = struct
   type fact = MaybeNil | NonNil
@@ -318,6 +353,43 @@ module NilAnalysis = struct
     | _ -> map             
 end
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 (* INIZIO MODULO LIVENESS *)
 
 module Liveness = Dataflow.Backwards(LivenessAnalysis)
@@ -385,7 +457,7 @@ let justif input =
      cell:= !cell^(get_indent_string level)^(string_of_cfg k);
      cell:=!cell^"$|$";
      match (StrMap.is_empty map) with
-      | true -> cell:= !cell^"\n"; !cell
+      | true -> cell:= !cell^"$|\n"; !cell
       | false -> StrMap.iter (
                      fun k w -> 
                       cell:= !cell^"("^k^", ";
@@ -397,17 +469,16 @@ let justif input =
 
   let print_row_nostmt map =
     (* print_int stdout k; *)
-     let cell = ref "" in
      match (StrMap.is_empty map) with
-      | true -> cell:= !cell^"\n"; !cell
-      | false -> StrMap.iter (
+      | true -> "$|\n"
+      | false -> let cell = ref "" in 
+                    StrMap.iter (
                      fun k w -> 
                       cell:= !cell^"("^k^", ";
                       match w with
                         | LivenessAnalysis.Dead -> cell := !cell^"Dead) "
                         | LivenessAnalysis.Live -> cell := !cell^"Live) "
-                    ) map; cell := !cell^"$|\n";
-      !cell
+                    ) map; !cell^"$|\n"
 
 
       
@@ -461,7 +532,9 @@ let justif input =
 
                   cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"when "^(string_of_tuple_expr e)^" then$|$";
                   (* se si vuole la tabella anche del when usare la riga sotto *)
-                  cell := !cell^(print_row_nostmt (Hashtbl.find out_tbl s));
+                  let m_new = (Hashtbl.find out_tbl s) in 
+                  let m_new = (StrMap.add (string_of_tuple_expr e) LivenessAnalysis.Live m_new) in
+                  cell := !cell^(print_row_nostmt m_new);
                   (* altrimenti usare quest'altra *)
                   (* cell := !cell^"$|\n"; *)
                   
@@ -512,7 +585,7 @@ let justif input =
   (* print_stmt stdout node *)
 
 
-    
+    (* ELIMINARE *)
   class analizeLivenes ifs = object(s)		(* safeNil visitor *)
     inherit default_visitor as super
     val facts = ifs
@@ -603,7 +676,7 @@ let justif input =
                  ) _fs
 ;;
 
-
+(* PARTI DA QUI *)
 let main fname =
   let loader = File_loader.create File_loader.EmptyCfg [] in
   let s = File_loader.load_file loader fname in
@@ -624,6 +697,9 @@ let main fname =
   print_string "-------------------------------------------\n"; 
   print_string "ofs content: \n"; 
   print_hash ofs; 
+  print_string "--------------------------------------------\n\n";  
+  print_string "Live In Variables Table: \n \n";
+  justif (print_var_table s ifs 0);
   print_string "--------------------------------------------\n\n";  
   print_string "Live Out Variables Table: \n \n";
   justif (print_var_table s ofs 0);

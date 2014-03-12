@@ -1,11 +1,12 @@
-a=10
-b = 5
-c= 7
-d = 15
-for i,j in b..d do
-	puts i+j
-	a=1
-	b=2
+a = 1
+b = 2
+c = 3
+d = 4
+for i,j in [[a,b],[c,d],[c,d]] do
+	#puts (i+j)
+	Math.max(i,j)
+	c=1
+	d=2
 end
 
 #for i,j in a do

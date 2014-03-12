@@ -78,8 +78,8 @@ module Forwards(DFP : DataFlowProblem) = struct
 		
 		match stmt.snode with
 			| Seq(list) -> 
-				 print_string "Sequence: \n"; 
-				 print_stmt stdout stmt; 
+				 (*  print_string "Sequence: \n"; 
+				 print_stmt stdout stmt; *)
 				let newfacts = ref !ifacts in
   				List.iter (fun x -> 
   					Hashtbl.replace in_tbl x !ifacts;
@@ -191,18 +191,18 @@ module Forwards(DFP : DataFlowProblem) = struct
 							) (List.hd finalfacts) (List.tl finalfacts)
 							
 		  |Assign (_) ->  
-				(**) print_string "Assignment: \n"; (**)
-				(**) print_stmt stdout stmt; (**)
+				(** ) print_string "Assignment: \n"; ( **)
+				(** ) print_stmt stdout stmt; ( **)
 				DFP.transfer !ifacts stmt	(* we compute newfacts on stmt based on what we know *)
 				
 			|MethodCall(_, _) ->
-				(**) print_string "Method call: \n"; (**)
-				(**) print_stmt stdout stmt; (**)
+				(** ) print_string "Method call: \n"; ( **)
+				(** ) print_stmt stdout stmt; ( **)
 				DFP.transfer !ifacts stmt 
 				
 			| _ ->  
-				(**) print_string "Other: \n"; (**)
-				(**) print_stmt stdout stmt; (**)
+				(** ) print_string "Other: \n"; ( **)
+				(** ) print_stmt stdout stmt; ( **)
 				DFP.transfer !ifacts stmt 
 
 	let fixpoint stmt =
@@ -405,8 +405,8 @@ let rec super_fixpoint stmt in_tbl out_tbl =
 		
 		match stmt.snode with
 			| Seq(list) -> 
-				print_string "Sequence: \n"; 
-				print_stmt stdout stmt; 
+				(** ) print_string "Sequence: \n"; ( **)
+				(** ) print_stmt stdout stmt; ( **) 
 				let newfacts = ref !ifacts in
 				let rev_list = List.rev list in
   				List.iter (fun x -> 
@@ -531,8 +531,8 @@ let rec super_fixpoint stmt in_tbl out_tbl =
 				DFP.transfer !ifacts stmt *)
 				
 			| _ ->  
-				(**) print_string "Other: \n"; (**)
-				(**) print_stmt stdout stmt; (**)
+				(** ) print_string "Other: \n"; ( **)
+				(** ) print_stmt stdout stmt; ( **)
 				DFP.transfer !ifacts stmt 
 
 	let fixpoint stmt =
