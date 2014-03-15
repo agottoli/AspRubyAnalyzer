@@ -91,7 +91,7 @@ module LivenessAnalysis = struct
                                   let map = (update_expr e1 fact map) in
                                   let map = (update_expr e2 fact map) in
                                   map 
-       |  _ -> print_string "ALE altro!!!"; map 
+       |  _ -> print_string "ALE altro!!!\n"; map (* per esempio una stringa o cmq qualcosa che non analizzo *)
 
   and update_identifier id fact map = 
     print_string "ALE update_identifier:\n";
@@ -168,8 +168,9 @@ module LivenessAnalysis = struct
 
   (* TRANSFER *)
 
-  let rec transfer map stmt = match stmt.snode with
-  
+  let rec transfer map stmt = 
+    print_string "\nnuova chiamata a transfer:\n";
+    match stmt.snode with
     
     | Assign(lhs , #literal) 
     | Assign(lhs , `ID_True) 
@@ -469,7 +470,7 @@ let justif input =
       | false -> StrMap.iter (
                      fun k w -> 
                       match w with
-                        | LivenessAnalysis.Dead -> cell := !cell(* ^k^"morto, " *)
+                        | LivenessAnalysis.Dead -> cell := !cell(* ^k^"_morto, " *)
                         | LivenessAnalysis.Live -> cell := !cell^k^", "
                     ) map; cell := !cell^"$|\n";
       !cell
@@ -482,7 +483,7 @@ let justif input =
                     StrMap.iter (
                      fun k w -> 
                       match w with
-                        | LivenessAnalysis.Dead -> cell := !cell(* ^k^"morto, " *)
+                        | LivenessAnalysis.Dead -> cell := !cell(* ^k^"_morto, " *)
                         | LivenessAnalysis.Live -> cell := !cell^k^", "
                     ) map; !cell^"$|\n"
 
@@ -682,6 +683,44 @@ let justif input =
                  ) _fs
 ;;
 
+let rec exists_fp visited stmt exits =
+  if StmtSet.is_empty stmt.succs
+  then StmtSet.add stmt exits
+  else
+    let todo = StmtSet.diff stmt.succs visited in
+    let visited' = StmtSet.union visited todo in
+    StmtSet.fold
+      (fun stmt exits ->
+            print_stmt stdout stmt; print_string "\n ----------- \n";
+            exists_fp
+              visited'
+              stmt
+              exits
+      ) todo exits
+
+let exits stmt = exists_fp StmtSet.empty stmt StmtSet.empty
+
+
+let rec acc_stmt todo visited =
+  StmtSet.fold (fun stmt acc ->
+      match StmtSet.exists (fun x -> (string_of_cfg x) = (string_of_cfg stmt)) acc with
+      | true -> visited
+      | false -> acc_stmt stmt.succs (StmtSet.add stmt acc)
+  ) todo visited
+
+(*let rec acc_stmt stmt set_acc =
+  match StmtSet.is_empty stmt.succs with
+  | true -> StmtSet.add stmt set_acc
+  | false -> Stmtset.fold (fun x acc -> acc_stmt x (StmtSet.add stmt set_acc)*)
+
+let find_def stmt =
+  
+  StmtSet.fold (fun x acc -> 
+                        match x.snode with
+                        | Method(_,_, s) -> print_stmt stdout s; s::acc
+                        | _ -> acc
+                ) (acc_stmt (StmtSet.add stmt StmtSet.empty) StmtSet.empty) []
+
 (* PARTI DA QUI *)
 let main fname =
   let loader = File_loader.create File_loader.EmptyCfg [] in
@@ -696,6 +735,18 @@ let main fname =
   (**)
   
   print_string "\n---------------------------------------------\n\n";
+
+  print_string "\n STAMPA STRANAANANANANANNANANNANA \n \n";
+  let list_def = find_def s in
+    List.iter (fun x -> let o, i = Liveness.fixpoint x in
+                    print_string "Live In Variables Table of Method Definition: \n \n";
+                    justif (print_var_table x i 0); 
+                    print_string "--------------------------------------------\n\n";  
+                    print_string "Live Out Variables Table of Method Definition: \n \n";
+                    justif (print_var_table x o 0);
+                    print_string "--------------------------------------------\n\n";  
+  ) list_def;
+
   let ofs, ifs = Liveness.fixpoint s in
   print_string "-------------------------------------------\n"; 
   print_string "ifs content: \n"; 
