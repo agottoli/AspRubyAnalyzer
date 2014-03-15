@@ -565,6 +565,8 @@ let justif input =
         cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"end$|$$|\n";
         !cell
 
+      | Method (_) -> ""
+
       | _ ->  let cell = ref "" in
           cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(print_row_table stmt (Hashtbl.find out_tbl stmt) (level));
           !cell
@@ -683,35 +685,14 @@ let justif input =
                  ) _fs
 ;;
 
-let rec exists_fp visited stmt exits =
-  if StmtSet.is_empty stmt.succs
-  then StmtSet.add stmt exits
-  else
-    let todo = StmtSet.diff stmt.succs visited in
-    let visited' = StmtSet.union visited todo in
-    StmtSet.fold
-      (fun stmt exits ->
-            print_stmt stdout stmt; print_string "\n ----------- \n";
-            exists_fp
-              visited'
-              stmt
-              exits
-      ) todo exits
-
-let exits stmt = exists_fp StmtSet.empty stmt StmtSet.empty
-
-
 let rec acc_stmt todo visited =
   StmtSet.fold (fun stmt acc ->
-      match StmtSet.exists (fun x -> (string_of_cfg x) = (string_of_cfg stmt)) acc with
+      match StmtSet.exists (fun x -> 
+            (string_of_cfg x) = (string_of_cfg stmt)
+          ) acc with
       | true -> visited
       | false -> acc_stmt stmt.succs (StmtSet.add stmt acc)
   ) todo visited
-
-(*let rec acc_stmt stmt set_acc =
-  match StmtSet.is_empty stmt.succs with
-  | true -> StmtSet.add stmt set_acc
-  | false -> Stmtset.fold (fun x acc -> acc_stmt x (StmtSet.add stmt set_acc)*)
 
 let find_def stmt =
   
@@ -769,7 +750,7 @@ let main fname =
   (* print_string "Output code: \n"; *)
   (* ErrorPrinter.print_stmt stdout ss *)
   Printf.printf("\n---------------------------------------------\n");
-  print_endline "Nilness analysis complete.\n"
+  print_endline "Liveness analysis complete.\n"
 
     
 let _ = 

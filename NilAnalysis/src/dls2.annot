@@ -8651,21 +8651,21 @@ type(
   Cfg.stmt
 )
 ident(
-  def stmt "dls2.ml" 494 15116 15149 "dls2.ml" 570 19148 19163
+  def stmt "dls2.ml" 494 15116 15149 "dls2.ml" 572 19174 19189
 )
 "dls2.ml" 494 15116 15149 "dls2.ml" 494 15116 15156
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  def out_tbl "dls2.ml" 494 15116 15157 "dls2.ml" 570 19148 19163
+  def out_tbl "dls2.ml" 494 15116 15157 "dls2.ml" 572 19174 19189
 )
 "dls2.ml" 494 15116 15157 "dls2.ml" 494 15116 15162
 type(
   int
 )
 ident(
-  def level "dls2.ml" 495 15165 15171 "dls2.ml" 570 19148 19163
+  def level "dls2.ml" 495 15165 15171 "dls2.ml" 572 19174 19189
 )
 "dls2.ml" 495 15165 15177 "dls2.ml" 495 15165 15181
 type(
@@ -12711,141 +12711,159 @@ type(
 type(
   string
 )
-"dls2.ml" 568 18977 18985 "dls2.ml" 568 18977 18986
+"dls2.ml" 568 18977 18992 "dls2.ml" 568 18977 18995
+type(
+  Cfg.stmt
+)
+type(
+  Cfg.method_formal_param list
+)
+type(
+  Cfg.def_name
+)
+"dls2.ml" 568 18977 18985 "dls2.ml" 568 18977 18995
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 568 18977 18995 "dls2.ml" 568 18977 18999
+"dls2.ml" 568 18977 18999 "dls2.ml" 568 18977 19001
+type(
+  string
+)
+"dls2.ml" 570 19003 19011 "dls2.ml" 570 19003 19012
+type(
+  Cfg.stmt_node
+)
+"dls2.ml" 570 19003 19021 "dls2.ml" 570 19003 19025
 type(
   string ref
 )
-"dls2.ml" 568 18977 19002 "dls2.ml" 568 18977 19005
+"dls2.ml" 570 19003 19028 "dls2.ml" 570 19003 19031
 type(
   string -> string ref
 )
 ident(
   ext_ref Pervasives.ref
 )
-"dls2.ml" 568 18977 19006 "dls2.ml" 568 18977 19008
+"dls2.ml" 570 19003 19032 "dls2.ml" 570 19003 19034
 type(
   string
 )
-"dls2.ml" 568 18977 19002 "dls2.ml" 568 18977 19008
+"dls2.ml" 570 19003 19028 "dls2.ml" 570 19003 19034
 type(
   string ref
 )
-"dls2.ml" 569 19012 19022 "dls2.ml" 569 19012 19026
+"dls2.ml" 571 19038 19048 "dls2.ml" 571 19038 19052
 type(
   string ref
 )
 ident(
-  int_ref cell "dls2.ml" 568 18977 18995 "dls2.ml" 568 18977 18999
+  int_ref cell "dls2.ml" 570 19003 19021 "dls2.ml" 570 19003 19025
 )
-"dls2.ml" 569 19012 19026 "dls2.ml" 569 19012 19028
+"dls2.ml" 571 19038 19052 "dls2.ml" 571 19038 19054
 type(
   string ref -> string -> unit
 )
 ident(
   ext_ref Pervasives.( := )
 )
-"dls2.ml" 569 19012 19029 "dls2.ml" 569 19012 19030
+"dls2.ml" 571 19038 19055 "dls2.ml" 571 19038 19056
 type(
   string ref -> string
 )
 ident(
   ext_ref Pervasives.( ! )
 )
-"dls2.ml" 569 19012 19030 "dls2.ml" 569 19012 19034
+"dls2.ml" 571 19038 19056 "dls2.ml" 571 19038 19060
 type(
   string ref
 )
 ident(
-  int_ref cell "dls2.ml" 568 18977 18995 "dls2.ml" 568 18977 18999
+  int_ref cell "dls2.ml" 570 19003 19021 "dls2.ml" 570 19003 19025
 )
-"dls2.ml" 569 19012 19029 "dls2.ml" 569 19012 19034
+"dls2.ml" 571 19038 19055 "dls2.ml" 571 19038 19060
 type(
   string
 )
-"dls2.ml" 569 19012 19034 "dls2.ml" 569 19012 19035
+"dls2.ml" 571 19038 19060 "dls2.ml" 571 19038 19061
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"dls2.ml" 569 19012 19035 "dls2.ml" 569 19012 19038
+"dls2.ml" 571 19038 19061 "dls2.ml" 571 19038 19064
 type(
   string
 )
-"dls2.ml" 569 19012 19038 "dls2.ml" 569 19012 19039
+"dls2.ml" 571 19038 19064 "dls2.ml" 571 19038 19065
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"dls2.ml" 569 19012 19040 "dls2.ml" 569 19012 19053
+"dls2.ml" 571 19038 19066 "dls2.ml" 571 19038 19079
 type(
   int -> string
 )
 ident(
   ext_ref Pervasives.string_of_int
 )
-"dls2.ml" 569 19012 19054 "dls2.ml" 569 19012 19058
+"dls2.ml" 571 19038 19080 "dls2.ml" 571 19038 19084
 type(
   Cfg.stmt
 )
 ident(
   int_ref stmt "dls2.ml" 494 15116 15144 "dls2.ml" 494 15116 15148
 )
-"dls2.ml" 569 19012 19054 "dls2.ml" 569 19012 19062
+"dls2.ml" 571 19038 19080 "dls2.ml" 571 19038 19088
 type(
   Cfg.pos
 )
-"dls2.ml" 569 19012 19053 "dls2.ml" 569 19012 19079
+"dls2.ml" 571 19038 19079 "dls2.ml" 571 19038 19105
 type(
   int
 )
-"dls2.ml" 569 19012 19039 "dls2.ml" 569 19012 19080
+"dls2.ml" 571 19038 19065 "dls2.ml" 571 19038 19106
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 569 19012 19080 "dls2.ml" 569 19012 19081
+"dls2.ml" 571 19038 19106 "dls2.ml" 571 19038 19107
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"dls2.ml" 569 19012 19081 "dls2.ml" 569 19012 19087
+"dls2.ml" 571 19038 19107 "dls2.ml" 571 19038 19113
 type(
   string
 )
-"dls2.ml" 569 19012 19087 "dls2.ml" 569 19012 19088
+"dls2.ml" 571 19038 19113 "dls2.ml" 571 19038 19114
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"dls2.ml" 569 19012 19089 "dls2.ml" 569 19012 19104
+"dls2.ml" 571 19038 19115 "dls2.ml" 571 19038 19130
 type(
   Cfg.stmt -> LivenessAnalysis.fact Utils.StrMap.t -> int -> string
 )
 ident(
   int_ref print_row_table "dls2.ml" 463 14071 14077 "dls2.ml" 463 14071 14092
 )
-"dls2.ml" 569 19012 19105 "dls2.ml" 569 19012 19109
+"dls2.ml" 571 19038 19131 "dls2.ml" 571 19038 19135
 type(
   Cfg.stmt
 )
 ident(
   int_ref stmt "dls2.ml" 494 15116 15144 "dls2.ml" 494 15116 15148
 )
-"dls2.ml" 569 19012 19111 "dls2.ml" 569 19012 19123
+"dls2.ml" 571 19038 19137 "dls2.ml" 571 19038 19149
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t ->
   Cfg.stmt -> LivenessAnalysis.fact Utils.StrMap.t
@@ -12853,129 +12871,129 @@ type(
 ident(
   ext_ref Hashtbl.find
 )
-"dls2.ml" 569 19012 19124 "dls2.ml" 569 19012 19131
+"dls2.ml" 571 19038 19150 "dls2.ml" 571 19038 19157
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
   int_ref out_tbl "dls2.ml" 494 15116 15149 "dls2.ml" 494 15116 15156
 )
-"dls2.ml" 569 19012 19132 "dls2.ml" 569 19012 19136
+"dls2.ml" 571 19038 19158 "dls2.ml" 571 19038 19162
 type(
   Cfg.stmt
 )
 ident(
   int_ref stmt "dls2.ml" 494 15116 15144 "dls2.ml" 494 15116 15148
 )
-"dls2.ml" 569 19012 19110 "dls2.ml" 569 19012 19137
+"dls2.ml" 571 19038 19136 "dls2.ml" 571 19038 19163
 call(
   stack
 )
 type(
   LivenessAnalysis.fact Utils.StrMap.t
 )
-"dls2.ml" 569 19012 19138 "dls2.ml" 569 19012 19145
+"dls2.ml" 571 19038 19164 "dls2.ml" 571 19038 19171
 type(
   int
 )
 ident(
   int_ref level "dls2.ml" 494 15116 15157 "dls2.ml" 494 15116 15162
 )
-"dls2.ml" 569 19012 19088 "dls2.ml" 569 19012 19146
+"dls2.ml" 571 19038 19114 "dls2.ml" 571 19038 19172
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 569 19012 19081 "dls2.ml" 569 19012 19146
+"dls2.ml" 571 19038 19107 "dls2.ml" 571 19038 19172
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 569 19012 19039 "dls2.ml" 569 19012 19146
+"dls2.ml" 571 19038 19065 "dls2.ml" 571 19038 19172
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 569 19012 19035 "dls2.ml" 569 19012 19146
+"dls2.ml" 571 19038 19061 "dls2.ml" 571 19038 19172
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 569 19012 19029 "dls2.ml" 569 19012 19146
+"dls2.ml" 571 19038 19055 "dls2.ml" 571 19038 19172
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 569 19012 19022 "dls2.ml" 569 19012 19146
+"dls2.ml" 571 19038 19048 "dls2.ml" 571 19038 19172
 type(
   unit
 )
-"dls2.ml" 570 19148 19158 "dls2.ml" 570 19148 19159
+"dls2.ml" 572 19174 19184 "dls2.ml" 572 19174 19185
 type(
   string ref -> string
 )
 ident(
   ext_ref Pervasives.( ! )
 )
-"dls2.ml" 570 19148 19159 "dls2.ml" 570 19148 19163
+"dls2.ml" 572 19174 19185 "dls2.ml" 572 19174 19189
 type(
   string ref
 )
 ident(
-  int_ref cell "dls2.ml" 568 18977 18995 "dls2.ml" 568 18977 18999
+  int_ref cell "dls2.ml" 570 19003 19021 "dls2.ml" 570 19003 19025
 )
-"dls2.ml" 570 19148 19158 "dls2.ml" 570 19148 19163
+"dls2.ml" 572 19174 19184 "dls2.ml" 572 19174 19189
 type(
   string
 )
-"dls2.ml" 569 19012 19022 "dls2.ml" 570 19148 19163
+"dls2.ml" 571 19038 19048 "dls2.ml" 572 19174 19189
 type(
   string
 )
-"dls2.ml" 568 18977 18991 "dls2.ml" 570 19148 19163
+"dls2.ml" 570 19003 19017 "dls2.ml" 572 19174 19189
 type(
   string
 )
-"dls2.ml" 495 15165 15171 "dls2.ml" 570 19148 19163
+"dls2.ml" 495 15165 15171 "dls2.ml" 572 19174 19189
 type(
   string
 )
-"dls2.ml" 585 19702 19708 "dls2.ml" 585 19702 19716
+"dls2.ml" 587 19728 19734 "dls2.ml" 587 19728 19742
 type(
   Cfg.expr -> Cfg.stmt -> Cfg.stmt Visitor.visitAction
 )
 ident(
-  def refactor "dls2.ml" 590 19877 19879 --
+  def refactor "dls2.ml" 592 19903 19905 --
 )
-"dls2.ml" 585 19702 19717 "dls2.ml" 585 19702 19721
+"dls2.ml" 587 19728 19743 "dls2.ml" 587 19728 19747
 type(
   Cfg.expr
 )
 ident(
-  def targ "dls2.ml" 585 19702 19722 "dls2.ml" 588 19848 19869
+  def targ "dls2.ml" 587 19728 19748 "dls2.ml" 590 19874 19895
 )
-"dls2.ml" 585 19702 19722 "dls2.ml" 585 19702 19726
+"dls2.ml" 587 19728 19748 "dls2.ml" 587 19728 19752
 type(
   Cfg.stmt
 )
 ident(
-  def node "dls2.ml" 586 19729 19733 "dls2.ml" 588 19848 19869
+  def node "dls2.ml" 588 19755 19759 "dls2.ml" 590 19874 19895
 )
-"dls2.ml" 586 19729 19737 "dls2.ml" 586 19729 19742
+"dls2.ml" 588 19755 19763 "dls2.ml" 588 19755 19768
 type(
   Cfg.stmt
 )
-"dls2.ml" 586 19729 19745 "dls2.ml" 586 19729 19753
+"dls2.ml" 588 19755 19771 "dls2.ml" 588 19755 19779
 type(
   ?env:Utils.StrSet.t ->
   ?filename:string ->
@@ -12990,125 +13008,125 @@ type(
 ident(
   ext_ref Cfg_refactor.freparse
 )
-"dls2.ml" 586 19729 19759 "dls2.ml" 586 19729 19763
+"dls2.ml" 588 19755 19785 "dls2.ml" 588 19755 19789
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 585 19702 19722 "dls2.ml" 585 19702 19726
+  int_ref node "dls2.ml" 587 19728 19748 "dls2.ml" 587 19728 19752
 )
-"dls2.ml" 586 19729 19759 "dls2.ml" 586 19729 19778
+"dls2.ml" 588 19755 19785 "dls2.ml" 588 19755 19804
 type(
   Utils.StrSet.t
 )
-"dls2.ml" 587 19779 19785 "dls2.ml" 587 19779 19813
+"dls2.ml" 589 19805 19811 "dls2.ml" 589 19805 19839
 type(
   ((Format.formatter -> Cfg.expr -> unit) ->
    Cfg.expr -> (Format.formatter -> Cfg.stmt -> unit) -> Cfg.stmt -> Cfg.stmt,
    Format.formatter, unit, Cfg.stmt)
   format4
 )
-"dls2.ml" 587 19779 19814 "dls2.ml" 587 19779 19825
+"dls2.ml" 589 19805 19840 "dls2.ml" 589 19805 19851
 type(
   Format.formatter -> Cfg.expr -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.format_expr
 )
-"dls2.ml" 587 19779 19826 "dls2.ml" 587 19779 19830
+"dls2.ml" 589 19805 19852 "dls2.ml" 589 19805 19856
 type(
   Cfg.expr
 )
 ident(
-  int_ref targ "dls2.ml" 585 19702 19717 "dls2.ml" 585 19702 19721
+  int_ref targ "dls2.ml" 587 19728 19743 "dls2.ml" 587 19728 19747
 )
-"dls2.ml" 587 19779 19831 "dls2.ml" 587 19779 19842
+"dls2.ml" 589 19805 19857 "dls2.ml" 589 19805 19868
 type(
   Format.formatter -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.format_stmt
 )
-"dls2.ml" 587 19779 19843 "dls2.ml" 587 19779 19847
+"dls2.ml" 589 19805 19869 "dls2.ml" 589 19805 19873
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 585 19702 19722 "dls2.ml" 585 19702 19726
+  int_ref node "dls2.ml" 587 19728 19748 "dls2.ml" 587 19728 19752
 )
-"dls2.ml" 586 19729 19745 "dls2.ml" 587 19779 19847
+"dls2.ml" 588 19755 19771 "dls2.ml" 589 19805 19873
 call(
   stack
 )
 type(
   Cfg.stmt
 )
-"dls2.ml" 588 19848 19864 "dls2.ml" 588 19848 19869
+"dls2.ml" 590 19874 19890 "dls2.ml" 590 19874 19895
 type(
   Cfg.stmt
 )
 ident(
-  int_ref nodee "dls2.ml" 586 19729 19737 "dls2.ml" 586 19729 19742
+  int_ref nodee "dls2.ml" 588 19755 19763 "dls2.ml" 588 19755 19768
 )
-"dls2.ml" 588 19848 19855 "dls2.ml" 588 19848 19869
+"dls2.ml" 590 19874 19881 "dls2.ml" 590 19874 19895
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 586 19729 19733 "dls2.ml" 588 19848 19869
+"dls2.ml" 588 19755 19759 "dls2.ml" 590 19874 19895
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 590 19877 19883 "dls2.ml" 590 19877 19896
+"dls2.ml" 592 19903 19909 "dls2.ml" 592 19903 19922
 type(
   Cfg.stmt -> unit
 )
 ident(
-  def print_warning "dls2.ml" 596 19986 19988 --
+  def print_warning "dls2.ml" 598 20012 20014 --
 )
-"dls2.ml" 590 19877 19897 "dls2.ml" 590 19877 19901
+"dls2.ml" 592 19903 19923 "dls2.ml" 592 19903 19927
 type(
   Cfg.stmt
 )
 ident(
-  def node "dls2.ml" 591 19904 19908 "dls2.ml" 591 19904 19932
+  def node "dls2.ml" 593 19930 19934 "dls2.ml" 593 19930 19958
 )
-"dls2.ml" 591 19904 19908 "dls2.ml" 591 19904 19917
+"dls2.ml" 593 19930 19934 "dls2.ml" 593 19930 19943
 type(
   Cfg.stmt -> Cfg.pos -> unit
 )
 ident(
   int_ref print_pos "dls2.ml" 439 13336 13342 "dls2.ml" 439 13336 13351
 )
-"dls2.ml" 591 19904 19918 "dls2.ml" 591 19904 19922
+"dls2.ml" 593 19930 19944 "dls2.ml" 593 19930 19948
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 590 19877 19897 "dls2.ml" 590 19877 19901
+  int_ref node "dls2.ml" 592 19903 19923 "dls2.ml" 592 19903 19927
 )
-"dls2.ml" 591 19904 19923 "dls2.ml" 591 19904 19927
+"dls2.ml" 593 19930 19949 "dls2.ml" 593 19930 19953
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 590 19877 19897 "dls2.ml" 590 19877 19901
+  int_ref node "dls2.ml" 592 19903 19923 "dls2.ml" 592 19903 19927
 )
-"dls2.ml" 591 19904 19923 "dls2.ml" 591 19904 19931
+"dls2.ml" 593 19930 19949 "dls2.ml" 593 19930 19957
 type(
   Cfg.pos
 )
-"dls2.ml" 591 19904 19908 "dls2.ml" 591 19904 19932
+"dls2.ml" 593 19930 19934 "dls2.ml" 593 19930 19958
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 596 19986 20009 "dls2.ml" 596 19986 20012
+"dls2.ml" 598 20012 20035 "dls2.ml" 598 20012 20038
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 596 19986 20021 "dls2.ml" 596 19986 20024
+"dls2.ml" 598 20012 20047 "dls2.ml" 598 20012 20050
 type(
   < print_hash : (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t *
                  (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t -> unit;
@@ -13126,88 +13144,88 @@ type(
     visit_stmt : Cfg.stmt Visitor.visit_method;
     visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
 )
-"dls2.ml" 598 20085 20101 "dls2.ml" 598 20085 20104
+"dls2.ml" 600 20111 20127 "dls2.ml" 600 20111 20130
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
 ident(
-  int_ref ifs "dls2.ml" 596 19986 20009 "dls2.ml" 596 19986 20012
+  int_ref ifs "dls2.ml" 598 20012 20035 "dls2.ml" 598 20012 20038
 )
-"dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+"dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 type(
   Cfg.stmt
 )
 ident(
-  def node "dls2.ml" 600 20112 20141 "dls2.ml" 636 22081 22115
+  def node "dls2.ml" 602 20138 20167 "dls2.ml" 638 22107 22141
 )
-"dls2.ml" 600 20112 20147 "dls2.ml" 600 20112 20151
+"dls2.ml" 602 20138 20173 "dls2.ml" 602 20138 20177
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 600 20112 20147 "dls2.ml" 600 20112 20157
+"dls2.ml" 602 20138 20173 "dls2.ml" 602 20138 20183
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 601 20164 20179 "dls2.ml" 601 20164 20184
+"dls2.ml" 603 20190 20205 "dls2.ml" 603 20190 20210
 type(
   Cfg.def_name
 )
 ident(
-  def mname "dls2.ml" 603 20203 20211 "dls2.ml" 609 20499 20563
+  def mname "dls2.ml" 605 20229 20237 "dls2.ml" 611 20525 20589
 )
-"dls2.ml" 601 20164 20186 "dls2.ml" 601 20164 20190
+"dls2.ml" 603 20190 20212 "dls2.ml" 603 20190 20216
 type(
   Cfg.method_formal_param list
 )
 ident(
-  def args "dls2.ml" 603 20203 20211 "dls2.ml" 609 20499 20563
+  def args "dls2.ml" 605 20229 20237 "dls2.ml" 611 20525 20589
 )
-"dls2.ml" 601 20164 20192 "dls2.ml" 601 20164 20196
+"dls2.ml" 603 20190 20218 "dls2.ml" 603 20190 20222
 type(
   Cfg.stmt
 )
 ident(
-  def body "dls2.ml" 603 20203 20211 "dls2.ml" 609 20499 20563
+  def body "dls2.ml" 605 20229 20237 "dls2.ml" 611 20525 20589
 )
-"dls2.ml" 601 20164 20172 "dls2.ml" 601 20164 20197
+"dls2.ml" 603 20190 20198 "dls2.ml" 603 20190 20223
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 603 20203 20211 "dls2.ml" 603 20203 20223
+"dls2.ml" 605 20229 20237 "dls2.ml" 605 20229 20249
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 603 20203 20224 "dls2.ml" 603 20203 20247
+"dls2.ml" 605 20229 20250 "dls2.ml" 605 20229 20273
 type(
   string
 )
-"dls2.ml" 603 20203 20211 "dls2.ml" 603 20203 20247
+"dls2.ml" 605 20229 20237 "dls2.ml" 605 20229 20273
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 604 20249 20261 "dls2.ml" 604 20249 20264
+"dls2.ml" 606 20275 20287 "dls2.ml" 606 20275 20290
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 604 20249 20266 "dls2.ml" 604 20249 20270
+"dls2.ml" 606 20275 20292 "dls2.ml" 606 20275 20296
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 604 20249 20261 "dls2.ml" 604 20249 20270
+"dls2.ml" 606 20275 20287 "dls2.ml" 606 20275 20296
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 604 20249 20273 "dls2.ml" 604 20249 20290
+"dls2.ml" 606 20275 20299 "dls2.ml" 606 20275 20316
 type(
   Cfg.stmt ->
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
@@ -13216,14 +13234,14 @@ type(
 ident(
   ext_ref Liveness.fixpoint
 )
-"dls2.ml" 604 20249 20291 "dls2.ml" 604 20249 20295
+"dls2.ml" 606 20275 20317 "dls2.ml" 606 20275 20321
 type(
   Cfg.stmt
 )
 ident(
-  int_ref body "dls2.ml" 601 20164 20192 "dls2.ml" 601 20164 20196
+  int_ref body "dls2.ml" 603 20190 20218 "dls2.ml" 603 20190 20222
 )
-"dls2.ml" 604 20249 20273 "dls2.ml" 604 20249 20295
+"dls2.ml" 606 20275 20299 "dls2.ml" 606 20275 20321
 call(
   stack
 )
@@ -13231,7 +13249,7 @@ type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 605 20299 20307 "dls2.ml" 605 20299 20308
+"dls2.ml" 607 20325 20333 "dls2.ml" 607 20325 20334
 type(
   < print_hash : (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t *
                  (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t -> unit;
@@ -13250,7 +13268,7 @@ type(
     visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
   as 'a
 )
-"dls2.ml" 605 20299 20307 "dls2.ml" 605 20299 20319
+"dls2.ml" 607 20325 20333 "dls2.ml" 607 20325 20345
 call(
   stack
 )
@@ -13258,74 +13276,74 @@ type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t -> unit
 )
-"dls2.ml" 605 20299 20321 "dls2.ml" 605 20299 20324
+"dls2.ml" 607 20325 20347 "dls2.ml" 607 20325 20350
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref in' "dls2.ml" 604 20249 20261 "dls2.ml" 604 20249 20264
+  int_ref in' "dls2.ml" 606 20275 20287 "dls2.ml" 606 20275 20290
 )
-"dls2.ml" 605 20299 20326 "dls2.ml" 605 20299 20330
+"dls2.ml" 607 20325 20352 "dls2.ml" 607 20325 20356
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
 ident(
-  int_ref out' "dls2.ml" 604 20249 20266 "dls2.ml" 604 20249 20270
+  int_ref out' "dls2.ml" 606 20275 20292 "dls2.ml" 606 20275 20296
 )
-"dls2.ml" 605 20299 20320 "dls2.ml" 605 20299 20331
+"dls2.ml" 607 20325 20346 "dls2.ml" 607 20325 20357
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 605 20299 20307 "dls2.ml" 605 20299 20331
+"dls2.ml" 607 20325 20333 "dls2.ml" 607 20325 20357
 type(
   unit
 )
-"dls2.ml" 606 20333 20341 "dls2.ml" 606 20333 20353
+"dls2.ml" 608 20359 20367 "dls2.ml" 608 20359 20379
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 606 20333 20354 "dls2.ml" 606 20333 20404
+"dls2.ml" 608 20359 20380 "dls2.ml" 608 20359 20430
 type(
   string
 )
-"dls2.ml" 606 20333 20341 "dls2.ml" 606 20333 20404
+"dls2.ml" 608 20359 20367 "dls2.ml" 608 20359 20430
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 607 20406 20418 "dls2.ml" 607 20406 20420
+"dls2.ml" 609 20432 20444 "dls2.ml" 609 20432 20446
 type(
   'a
 )
-"dls2.ml" 607 20406 20433 "dls2.ml" 607 20406 20436
+"dls2.ml" 609 20432 20459 "dls2.ml" 609 20432 20462
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
 ident(
-  int_ref in' "dls2.ml" 604 20249 20261 "dls2.ml" 604 20249 20264
+  int_ref in' "dls2.ml" 606 20275 20287 "dls2.ml" 606 20275 20290
 )
-"dls2.ml" 607 20406 20423 "dls2.ml" 607 20406 20438
+"dls2.ml" 609 20432 20449 "dls2.ml" 609 20432 20464
 type(
   'a
 )
-"dls2.ml" 608 20442 20454 "dls2.ml" 608 20442 20459
+"dls2.ml" 610 20468 20480 "dls2.ml" 610 20468 20485
 type(
   Cfg.stmt
 )
-"dls2.ml" 608 20442 20462 "dls2.ml" 608 20442 20472
+"dls2.ml" 610 20468 20488 "dls2.ml" 610 20468 20498
 type(
   Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
 )
 ident(
   ext_ref Cfg.visit_stmt
 )
-"dls2.ml" 608 20442 20474 "dls2.ml" 608 20442 20476
+"dls2.ml" 610 20468 20500 "dls2.ml" 610 20468 20502
 type(
   Cfg.cfg_visitor
 )
@@ -13333,306 +13351,306 @@ type(
   'a
 )
 ident(
-  int_ref me "dls2.ml" 607 20406 20418 "dls2.ml" 607 20406 20420
+  int_ref me "dls2.ml" 609 20432 20444 "dls2.ml" 609 20432 20446
 )
-"dls2.ml" 608 20442 20491 "dls2.ml" 608 20442 20495
+"dls2.ml" 610 20468 20517 "dls2.ml" 610 20468 20521
 type(
   Cfg.stmt
 )
 ident(
-  int_ref body "dls2.ml" 601 20164 20192 "dls2.ml" 601 20164 20196
+  int_ref body "dls2.ml" 603 20190 20218 "dls2.ml" 603 20190 20222
 )
-"dls2.ml" 608 20442 20462 "dls2.ml" 608 20442 20495
+"dls2.ml" 610 20468 20488 "dls2.ml" 610 20468 20521
 call(
   stack
 )
 type(
   Cfg.stmt
 )
-"dls2.ml" 609 20499 20517 "dls2.ml" 609 20499 20528
+"dls2.ml" 611 20525 20543 "dls2.ml" 611 20525 20554
 type(
   Cfg.stmt -> Cfg.stmt_node -> Cfg.stmt
 )
 ident(
   ext_ref Cfg.update_stmt
 )
-"dls2.ml" 609 20499 20529 "dls2.ml" 609 20499 20533
+"dls2.ml" 611 20525 20555 "dls2.ml" 611 20525 20559
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 609 20499 20542 "dls2.ml" 609 20499 20547
+"dls2.ml" 611 20525 20568 "dls2.ml" 611 20525 20573
 type(
   Cfg.def_name
 )
 ident(
-  int_ref mname "dls2.ml" 601 20164 20179 "dls2.ml" 601 20164 20184
+  int_ref mname "dls2.ml" 603 20190 20205 "dls2.ml" 603 20190 20210
 )
-"dls2.ml" 609 20499 20549 "dls2.ml" 609 20499 20553
+"dls2.ml" 611 20525 20575 "dls2.ml" 611 20525 20579
 type(
   Cfg.method_formal_param list
 )
 ident(
-  int_ref args "dls2.ml" 601 20164 20186 "dls2.ml" 601 20164 20190
+  int_ref args "dls2.ml" 603 20190 20212 "dls2.ml" 603 20190 20216
 )
-"dls2.ml" 609 20499 20555 "dls2.ml" 609 20499 20560
+"dls2.ml" 611 20525 20581 "dls2.ml" 611 20525 20586
 type(
   Cfg.stmt
 )
 ident(
-  int_ref body' "dls2.ml" 608 20442 20454 "dls2.ml" 608 20442 20459
+  int_ref body' "dls2.ml" 610 20468 20480 "dls2.ml" 610 20468 20485
 )
-"dls2.ml" 609 20499 20534 "dls2.ml" 609 20499 20562
+"dls2.ml" 611 20525 20560 "dls2.ml" 611 20525 20588
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 609 20499 20516 "dls2.ml" 609 20499 20563
+"dls2.ml" 611 20525 20542 "dls2.ml" 611 20525 20589
 call(
   stack
 )
 type(
   Cfg.stmt
 )
-"dls2.ml" 609 20499 20507 "dls2.ml" 609 20499 20563
+"dls2.ml" 611 20525 20533 "dls2.ml" 611 20525 20589
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 608 20442 20450 "dls2.ml" 609 20499 20563
+"dls2.ml" 610 20468 20476 "dls2.ml" 611 20525 20589
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 607 20406 20414 "dls2.ml" 609 20499 20563
+"dls2.ml" 609 20432 20440 "dls2.ml" 611 20525 20589
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 606 20333 20341 "dls2.ml" 609 20499 20563
+"dls2.ml" 608 20359 20367 "dls2.ml" 611 20525 20589
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 605 20299 20307 "dls2.ml" 609 20499 20563
+"dls2.ml" 607 20325 20333 "dls2.ml" 611 20525 20589
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 604 20249 20257 "dls2.ml" 609 20499 20563
+"dls2.ml" 606 20275 20283 "dls2.ml" 611 20525 20589
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 603 20203 20211 "dls2.ml" 609 20499 20563
+"dls2.ml" 605 20229 20237 "dls2.ml" 611 20525 20589
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 611 20575 20595 "dls2.ml" 611 20575 20596
+"dls2.ml" 613 20601 20621 "dls2.ml" 613 20601 20622
 type(
   Cfg.lhs option
 )
-"dls2.ml" 611 20575 20616 "dls2.ml" 611 20575 20624
+"dls2.ml" 613 20601 20642 "dls2.ml" 613 20601 20650
 type(
   Cfg.expr
 )
-"dls2.ml" 611 20575 20611 "dls2.ml" 611 20575 20624
+"dls2.ml" 613 20601 20637 "dls2.ml" 613 20601 20650
 type(
   Cfg.expr option
 )
-"dls2.ml" 611 20575 20625 "dls2.ml" 611 20575 20629
+"dls2.ml" 613 20601 20651 "dls2.ml" 613 20601 20655
 type(
   Cfg.expr option
 )
-"dls2.ml" 611 20575 20610 "dls2.ml" 611 20575 20630
+"dls2.ml" 613 20601 20636 "dls2.ml" 613 20601 20656
 type(
   Cfg.expr option
 )
-"dls2.ml" 611 20575 20599 "dls2.ml" 611 20575 20631
+"dls2.ml" 613 20601 20625 "dls2.ml" 613 20601 20657
 type(
   Cfg.method_call
 )
-"dls2.ml" 611 20575 20583 "dls2.ml" 611 20575 20632
+"dls2.ml" 613 20601 20609 "dls2.ml" 613 20601 20658
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 611 20575 20636 "dls2.ml" 611 20575 20648
+"dls2.ml" 613 20601 20662 "dls2.ml" 613 20601 20674
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 613 20658 20678 "dls2.ml" 613 20658 20679
+"dls2.ml" 615 20684 20704 "dls2.ml" 615 20684 20705
 type(
   Cfg.lhs option
 )
-"dls2.ml" 613 20658 20707 "dls2.ml" 613 20658 20717
+"dls2.ml" 615 20684 20733 "dls2.ml" 615 20684 20743
 type(
   Cfg.var_kind
 )
-"dls2.ml" 613 20658 20719 "dls2.ml" 613 20658 20722
+"dls2.ml" 615 20684 20745 "dls2.ml" 615 20684 20748
 type(
   Utils.StrMap.key
 )
 ident(
-  def var "dls2.ml" 613 20658 20739 "dls2.ml" 621 21298 21309
+  def var "dls2.ml" 615 20684 20765 "dls2.ml" 623 21324 21335
 )
-"dls2.ml" 613 20658 20706 "dls2.ml" 613 20658 20723
+"dls2.ml" 615 20684 20732 "dls2.ml" 615 20684 20749
 type(
   Cfg.var_kind * Utils.StrMap.key
 )
-"dls2.ml" 613 20658 20699 "dls2.ml" 613 20658 20723
+"dls2.ml" 615 20684 20725 "dls2.ml" 615 20684 20749
 type(
   Cfg.expr
 )
-"dls2.ml" 613 20658 20698 "dls2.ml" 613 20658 20732
+"dls2.ml" 615 20684 20724 "dls2.ml" 615 20684 20758
 type(
   Cfg.expr
 )
 ident(
-  def targ "dls2.ml" 613 20658 20739 "dls2.ml" 621 21298 21309
+  def targ "dls2.ml" 615 20684 20765 "dls2.ml" 623 21324 21335
 )
-"dls2.ml" 613 20658 20693 "dls2.ml" 613 20658 20732
+"dls2.ml" 615 20684 20719 "dls2.ml" 615 20684 20758
 type(
   Cfg.expr option
 )
-"dls2.ml" 613 20658 20682 "dls2.ml" 613 20658 20733
+"dls2.ml" 615 20684 20708 "dls2.ml" 615 20684 20759
 type(
   Cfg.method_call
 )
-"dls2.ml" 613 20658 20666 "dls2.ml" 613 20658 20734
+"dls2.ml" 615 20684 20692 "dls2.ml" 615 20684 20760
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 613 20658 20739 "dls2.ml" 613 20658 20751
+"dls2.ml" 615 20684 20765 "dls2.ml" 615 20684 20777
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 613 20658 20752 "dls2.ml" 613 20658 20768
+"dls2.ml" 615 20684 20778 "dls2.ml" 615 20684 20794
 type(
   string
 )
-"dls2.ml" 613 20658 20739 "dls2.ml" 613 20658 20768
+"dls2.ml" 615 20684 20765 "dls2.ml" 615 20684 20794
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 613 20658 20771 "dls2.ml" 613 20658 20783
+"dls2.ml" 615 20684 20797 "dls2.ml" 615 20684 20809
 type(
   Utils.StrMap.key -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 613 20658 20784 "dls2.ml" 613 20658 20787
+"dls2.ml" 615 20684 20810 "dls2.ml" 615 20684 20813
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref var "dls2.ml" 613 20658 20719 "dls2.ml" 613 20658 20722
+  int_ref var "dls2.ml" 615 20684 20745 "dls2.ml" 615 20684 20748
 )
-"dls2.ml" 613 20658 20771 "dls2.ml" 613 20658 20787
+"dls2.ml" 615 20684 20797 "dls2.ml" 615 20684 20813
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 613 20658 20790 "dls2.ml" 613 20658 20802
+"dls2.ml" 615 20684 20816 "dls2.ml" 615 20684 20828
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 613 20658 20803 "dls2.ml" 613 20658 20807
+"dls2.ml" 615 20684 20829 "dls2.ml" 615 20684 20833
 type(
   string
 )
-"dls2.ml" 613 20658 20790 "dls2.ml" 613 20658 20807
+"dls2.ml" 615 20684 20816 "dls2.ml" 615 20684 20833
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 613 20658 20809 "dls2.ml" 613 20658 20819
+"dls2.ml" 615 20684 20835 "dls2.ml" 615 20684 20845
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dls2.ml" 613 20658 20820 "dls2.ml" 613 20658 20826
+"dls2.ml" 615 20684 20846 "dls2.ml" 615 20684 20852
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stdout
 )
-"dls2.ml" 613 20658 20827 "dls2.ml" 613 20658 20831
+"dls2.ml" 615 20684 20853 "dls2.ml" 615 20684 20857
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 613 20658 20809 "dls2.ml" 613 20658 20831
+"dls2.ml" 615 20684 20835 "dls2.ml" 615 20684 20857
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 613 20658 20833 "dls2.ml" 613 20658 20845
+"dls2.ml" 615 20684 20859 "dls2.ml" 615 20684 20871
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 613 20658 20846 "dls2.ml" 613 20658 20850
+"dls2.ml" 615 20684 20872 "dls2.ml" 615 20684 20876
 type(
   string
 )
-"dls2.ml" 613 20658 20833 "dls2.ml" 613 20658 20850
+"dls2.ml" 615 20684 20859 "dls2.ml" 615 20684 20876
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 614 20854 20876 "dls2.ml" 614 20854 20879
+"dls2.ml" 616 20880 20902 "dls2.ml" 616 20880 20905
 type(
   LivenessAnalysis.t
 )
 ident(
-  def map "dls2.ml" 615 20910 20920 "dls2.ml" 619 21165 21178
+  def map "dls2.ml" 617 20936 20946 "dls2.ml" 621 21191 21204
 )
-"dls2.ml" 614 20854 20882 "dls2.ml" 614 20854 20894
+"dls2.ml" 616 20880 20908 "dls2.ml" 616 20880 20920
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t -> Cfg.stmt -> LivenessAnalysis.t
 )
 ident(
   ext_ref Hashtbl.find
 )
-"dls2.ml" 614 20854 20895 "dls2.ml" 614 20854 20900
+"dls2.ml" 616 20880 20921 "dls2.ml" 616 20880 20926
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 614 20854 20901 "dls2.ml" 614 20854 20905
+"dls2.ml" 616 20880 20927 "dls2.ml" 616 20880 20931
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 614 20854 20882 "dls2.ml" 614 20854 20905
+"dls2.ml" 616 20880 20908 "dls2.ml" 616 20880 20931
 call(
   stack
 )
 type(
   LivenessAnalysis.t
 )
-"dls2.ml" 615 20910 20936 "dls2.ml" 615 20910 20947
+"dls2.ml" 617 20936 20962 "dls2.ml" 617 20936 20973
 type(
   Utils.StrMap.key ->
   LivenessAnalysis.fact Utils.StrMap.t -> LivenessAnalysis.fact
@@ -13640,322 +13658,322 @@ type(
 ident(
   ext_ref Utils.StrMap.find
 )
-"dls2.ml" 615 20910 20948 "dls2.ml" 615 20910 20951
+"dls2.ml" 617 20936 20974 "dls2.ml" 617 20936 20977
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref var "dls2.ml" 613 20658 20719 "dls2.ml" 613 20658 20722
+  int_ref var "dls2.ml" 615 20684 20745 "dls2.ml" 615 20684 20748
 )
-"dls2.ml" 615 20910 20952 "dls2.ml" 615 20910 20955
+"dls2.ml" 617 20936 20978 "dls2.ml" 617 20936 20981
 type(
   LivenessAnalysis.t
 )
 ident(
-  int_ref map "dls2.ml" 614 20854 20876 "dls2.ml" 614 20854 20879
+  int_ref map "dls2.ml" 616 20880 20902 "dls2.ml" 616 20880 20905
 )
-"dls2.ml" 615 20910 20936 "dls2.ml" 615 20910 20955
+"dls2.ml" 617 20936 20962 "dls2.ml" 617 20936 20981
 call(
   stack
 )
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 616 20961 20975 "dls2.ml" 616 20961 20996
+"dls2.ml" 618 20987 21001 "dls2.ml" 618 20987 21022
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 616 20961 21000 "dls2.ml" 616 20961 21013
+"dls2.ml" 618 20987 21026 "dls2.ml" 618 20987 21039
 type(
   Cfg.stmt -> unit
 )
 ident(
-  int_ref print_warning "dls2.ml" 590 19877 19883 "dls2.ml" 590 19877 19896
+  int_ref print_warning "dls2.ml" 592 19903 19909 "dls2.ml" 592 19903 19922
 )
-"dls2.ml" 616 20961 21014 "dls2.ml" 616 20961 21018
+"dls2.ml" 618 20987 21040 "dls2.ml" 618 20987 21044
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 616 20961 21000 "dls2.ml" 616 20961 21018
+"dls2.ml" 618 20987 21026 "dls2.ml" 618 20987 21044
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 616 20961 21020 "dls2.ml" 616 20961 21028
+"dls2.ml" 618 20987 21046 "dls2.ml" 618 20987 21054
 type(
   Cfg.expr -> Cfg.stmt -> Cfg.stmt Visitor.visitAction
 )
 ident(
-  int_ref refactor "dls2.ml" 585 19702 19708 "dls2.ml" 585 19702 19716
+  int_ref refactor "dls2.ml" 587 19728 19734 "dls2.ml" 587 19728 19742
 )
-"dls2.ml" 616 20961 21029 "dls2.ml" 616 20961 21033
+"dls2.ml" 618 20987 21055 "dls2.ml" 618 20987 21059
 type(
   Cfg.expr
 )
 ident(
-  int_ref targ "dls2.ml" 613 20658 20698 "dls2.ml" 613 20658 20732
+  int_ref targ "dls2.ml" 615 20684 20724 "dls2.ml" 615 20684 20758
 )
-"dls2.ml" 616 20961 21034 "dls2.ml" 616 20961 21038
+"dls2.ml" 618 20987 21060 "dls2.ml" 618 20987 21064
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 616 20961 21020 "dls2.ml" 616 20961 21038
+"dls2.ml" 618 20987 21046 "dls2.ml" 618 20987 21064
 call(
   stack
 )
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 616 20961 21000 "dls2.ml" 616 20961 21038
+"dls2.ml" 618 20987 21026 "dls2.ml" 618 20987 21064
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 617 21039 21053 "dls2.ml" 617 21039 21074
+"dls2.ml" 619 21065 21079 "dls2.ml" 619 21065 21100
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 617 21039 21078 "dls2.ml" 617 21039 21090
+"dls2.ml" 619 21065 21104 "dls2.ml" 619 21065 21116
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 615 20910 20930 "dls2.ml" 617 21039 21090
+"dls2.ml" 617 20936 20956 "dls2.ml" 619 21065 21116
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 618 21091 21112 "dls2.ml" 618 21091 21121
+"dls2.ml" 620 21117 21138 "dls2.ml" 620 21117 21147
 type(
   exn
 )
-"dls2.ml" 618 21091 21126 "dls2.ml" 618 21091 21139
+"dls2.ml" 620 21117 21152 "dls2.ml" 620 21117 21165
 type(
   Cfg.stmt -> unit
 )
 ident(
-  int_ref print_warning "dls2.ml" 590 19877 19883 "dls2.ml" 590 19877 19896
+  int_ref print_warning "dls2.ml" 592 19903 19909 "dls2.ml" 592 19903 19922
 )
-"dls2.ml" 618 21091 21140 "dls2.ml" 618 21091 21144
+"dls2.ml" 620 21117 21166 "dls2.ml" 620 21117 21170
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 618 21091 21126 "dls2.ml" 618 21091 21144
+"dls2.ml" 620 21117 21152 "dls2.ml" 620 21117 21170
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 618 21091 21146 "dls2.ml" 618 21091 21154
+"dls2.ml" 620 21117 21172 "dls2.ml" 620 21117 21180
 type(
   Cfg.expr -> Cfg.stmt -> Cfg.stmt Visitor.visitAction
 )
 ident(
-  int_ref refactor "dls2.ml" 585 19702 19708 "dls2.ml" 585 19702 19716
+  int_ref refactor "dls2.ml" 587 19728 19734 "dls2.ml" 587 19728 19742
 )
-"dls2.ml" 618 21091 21155 "dls2.ml" 618 21091 21159
+"dls2.ml" 620 21117 21181 "dls2.ml" 620 21117 21185
 type(
   Cfg.expr
 )
 ident(
-  int_ref targ "dls2.ml" 613 20658 20698 "dls2.ml" 613 20658 20732
+  int_ref targ "dls2.ml" 615 20684 20724 "dls2.ml" 615 20684 20758
 )
-"dls2.ml" 618 21091 21160 "dls2.ml" 618 21091 21164
+"dls2.ml" 620 21117 21186 "dls2.ml" 620 21117 21190
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 618 21091 21146 "dls2.ml" 618 21091 21164
+"dls2.ml" 620 21117 21172 "dls2.ml" 620 21117 21190
 call(
   stack
 )
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 618 21091 21126 "dls2.ml" 618 21091 21164
+"dls2.ml" 620 21117 21152 "dls2.ml" 620 21117 21190
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 615 20910 20920 "dls2.ml" 619 21165 21178
+"dls2.ml" 617 20936 20946 "dls2.ml" 621 21191 21204
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 614 20854 20872 "dls2.ml" 619 21165 21178
+"dls2.ml" 616 20880 20898 "dls2.ml" 621 21191 21204
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 620 21179 21198 "dls2.ml" 620 21179 21207
+"dls2.ml" 622 21205 21224 "dls2.ml" 622 21205 21233
 type(
   exn
 )
-"dls2.ml" 620 21179 21211 "dls2.ml" 620 21179 21223
+"dls2.ml" 622 21205 21237 "dls2.ml" 622 21205 21249
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 620 21179 21224 "dls2.ml" 620 21179 21259
+"dls2.ml" 622 21205 21250 "dls2.ml" 622 21205 21285
 type(
   string
 )
-"dls2.ml" 620 21179 21211 "dls2.ml" 620 21179 21259
+"dls2.ml" 622 21205 21237 "dls2.ml" 622 21205 21285
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 620 21179 21261 "dls2.ml" 620 21179 21271
+"dls2.ml" 622 21205 21287 "dls2.ml" 622 21205 21297
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dls2.ml" 620 21179 21272 "dls2.ml" 620 21179 21278
+"dls2.ml" 622 21205 21298 "dls2.ml" 622 21205 21304
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stdout
 )
-"dls2.ml" 620 21179 21279 "dls2.ml" 620 21179 21283
+"dls2.ml" 622 21205 21305 "dls2.ml" 622 21205 21309
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 620 21179 21261 "dls2.ml" 620 21179 21283
+"dls2.ml" 622 21205 21287 "dls2.ml" 622 21205 21309
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 620 21179 21285 "dls2.ml" 620 21179 21297
+"dls2.ml" 622 21205 21311 "dls2.ml" 622 21205 21323
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 620 21179 21261 "dls2.ml" 620 21179 21297
+"dls2.ml" 622 21205 21287 "dls2.ml" 622 21205 21323
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 620 21179 21211 "dls2.ml" 620 21179 21297
+"dls2.ml" 622 21205 21237 "dls2.ml" 622 21205 21323
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 614 20854 20862 "dls2.ml" 621 21298 21309
+"dls2.ml" 616 20880 20888 "dls2.ml" 623 21324 21335
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 613 20658 20833 "dls2.ml" 621 21298 21309
+"dls2.ml" 615 20684 20859 "dls2.ml" 623 21324 21335
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 613 20658 20809 "dls2.ml" 621 21298 21309
+"dls2.ml" 615 20684 20835 "dls2.ml" 623 21324 21335
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 613 20658 20790 "dls2.ml" 621 21298 21309
+"dls2.ml" 615 20684 20816 "dls2.ml" 623 21324 21335
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 613 20658 20771 "dls2.ml" 621 21298 21309
+"dls2.ml" 615 20684 20797 "dls2.ml" 623 21324 21335
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 613 20658 20739 "dls2.ml" 621 21298 21309
+"dls2.ml" 615 20684 20765 "dls2.ml" 623 21324 21335
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 623 21319 21339 "dls2.ml" 623 21319 21340
+"dls2.ml" 625 21345 21365 "dls2.ml" 625 21345 21366
 type(
   Cfg.lhs option
 )
-"dls2.ml" 623 21319 21368 "dls2.ml" 623 21319 21381
+"dls2.ml" 625 21345 21394 "dls2.ml" 625 21345 21407
 type(
   Cfg.var_kind
 )
-"dls2.ml" 623 21319 21383 "dls2.ml" 623 21319 21388
+"dls2.ml" 625 21345 21409 "dls2.ml" 625 21345 21414
 type(
   Utils.StrMap.key
 )
 ident(
-  def const "dls2.ml" 624 21404 21412 "dls2.ml" 631 21850 21861
+  def const "dls2.ml" 626 21430 21438 "dls2.ml" 633 21876 21887
 )
-"dls2.ml" 623 21319 21367 "dls2.ml" 623 21319 21389
+"dls2.ml" 625 21345 21393 "dls2.ml" 625 21345 21415
 type(
   Cfg.var_kind * Utils.StrMap.key
 )
-"dls2.ml" 623 21319 21360 "dls2.ml" 623 21319 21389
+"dls2.ml" 625 21345 21386 "dls2.ml" 625 21345 21415
 type(
   Cfg.expr
 )
-"dls2.ml" 623 21319 21359 "dls2.ml" 623 21319 21398
+"dls2.ml" 625 21345 21385 "dls2.ml" 625 21345 21424
 type(
   Cfg.expr
 )
 ident(
-  def targ "dls2.ml" 624 21404 21412 "dls2.ml" 631 21850 21861
+  def targ "dls2.ml" 626 21430 21438 "dls2.ml" 633 21876 21887
 )
-"dls2.ml" 623 21319 21354 "dls2.ml" 623 21319 21398
+"dls2.ml" 625 21345 21380 "dls2.ml" 625 21345 21424
 type(
   Cfg.expr option
 )
-"dls2.ml" 623 21319 21343 "dls2.ml" 623 21319 21399
+"dls2.ml" 625 21345 21369 "dls2.ml" 625 21345 21425
 type(
   Cfg.method_call
 )
-"dls2.ml" 623 21319 21327 "dls2.ml" 623 21319 21400
+"dls2.ml" 625 21345 21353 "dls2.ml" 625 21345 21426
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 624 21404 21426 "dls2.ml" 624 21404 21429
+"dls2.ml" 626 21430 21452 "dls2.ml" 626 21430 21455
 type(
   LivenessAnalysis.t
 )
 ident(
-  def map "dls2.ml" 625 21460 21470 "dls2.ml" 629 21717 21730
+  def map "dls2.ml" 627 21486 21496 "dls2.ml" 631 21743 21756
 )
-"dls2.ml" 624 21404 21432 "dls2.ml" 624 21404 21444
+"dls2.ml" 626 21430 21458 "dls2.ml" 626 21430 21470
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t -> Cfg.stmt -> LivenessAnalysis.t
 )
 ident(
   ext_ref Hashtbl.find
 )
-"dls2.ml" 624 21404 21445 "dls2.ml" 624 21404 21450
+"dls2.ml" 626 21430 21471 "dls2.ml" 626 21430 21476
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 624 21404 21451 "dls2.ml" 624 21404 21455
+"dls2.ml" 626 21430 21477 "dls2.ml" 626 21430 21481
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 624 21404 21432 "dls2.ml" 624 21404 21455
+"dls2.ml" 626 21430 21458 "dls2.ml" 626 21430 21481
 call(
   stack
 )
 type(
   LivenessAnalysis.t
 )
-"dls2.ml" 625 21460 21486 "dls2.ml" 625 21460 21497
+"dls2.ml" 627 21486 21512 "dls2.ml" 627 21486 21523
 type(
   Utils.StrMap.key ->
   LivenessAnalysis.fact Utils.StrMap.t -> LivenessAnalysis.fact
@@ -13963,301 +13981,301 @@ type(
 ident(
   ext_ref Utils.StrMap.find
 )
-"dls2.ml" 625 21460 21498 "dls2.ml" 625 21460 21503
+"dls2.ml" 627 21486 21524 "dls2.ml" 627 21486 21529
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref const "dls2.ml" 623 21319 21383 "dls2.ml" 623 21319 21388
+  int_ref const "dls2.ml" 625 21345 21409 "dls2.ml" 625 21345 21414
 )
-"dls2.ml" 625 21460 21504 "dls2.ml" 625 21460 21507
+"dls2.ml" 627 21486 21530 "dls2.ml" 627 21486 21533
 type(
   LivenessAnalysis.t
 )
 ident(
-  int_ref map "dls2.ml" 624 21404 21426 "dls2.ml" 624 21404 21429
+  int_ref map "dls2.ml" 626 21430 21452 "dls2.ml" 626 21430 21455
 )
-"dls2.ml" 625 21460 21486 "dls2.ml" 625 21460 21507
+"dls2.ml" 627 21486 21512 "dls2.ml" 627 21486 21533
 call(
   stack
 )
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 626 21513 21527 "dls2.ml" 626 21513 21548
+"dls2.ml" 628 21539 21553 "dls2.ml" 628 21539 21574
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 626 21513 21552 "dls2.ml" 626 21513 21565
+"dls2.ml" 628 21539 21578 "dls2.ml" 628 21539 21591
 type(
   Cfg.stmt -> unit
 )
 ident(
-  int_ref print_warning "dls2.ml" 590 19877 19883 "dls2.ml" 590 19877 19896
+  int_ref print_warning "dls2.ml" 592 19903 19909 "dls2.ml" 592 19903 19922
 )
-"dls2.ml" 626 21513 21566 "dls2.ml" 626 21513 21570
+"dls2.ml" 628 21539 21592 "dls2.ml" 628 21539 21596
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 626 21513 21552 "dls2.ml" 626 21513 21570
+"dls2.ml" 628 21539 21578 "dls2.ml" 628 21539 21596
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 626 21513 21572 "dls2.ml" 626 21513 21580
+"dls2.ml" 628 21539 21598 "dls2.ml" 628 21539 21606
 type(
   Cfg.expr -> Cfg.stmt -> Cfg.stmt Visitor.visitAction
 )
 ident(
-  int_ref refactor "dls2.ml" 585 19702 19708 "dls2.ml" 585 19702 19716
+  int_ref refactor "dls2.ml" 587 19728 19734 "dls2.ml" 587 19728 19742
 )
-"dls2.ml" 626 21513 21581 "dls2.ml" 626 21513 21585
+"dls2.ml" 628 21539 21607 "dls2.ml" 628 21539 21611
 type(
   Cfg.expr
 )
 ident(
-  int_ref targ "dls2.ml" 623 21319 21359 "dls2.ml" 623 21319 21398
+  int_ref targ "dls2.ml" 625 21345 21385 "dls2.ml" 625 21345 21424
 )
-"dls2.ml" 626 21513 21586 "dls2.ml" 626 21513 21590
+"dls2.ml" 628 21539 21612 "dls2.ml" 628 21539 21616
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 626 21513 21572 "dls2.ml" 626 21513 21590
+"dls2.ml" 628 21539 21598 "dls2.ml" 628 21539 21616
 call(
   stack
 )
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 626 21513 21552 "dls2.ml" 626 21513 21590
+"dls2.ml" 628 21539 21578 "dls2.ml" 628 21539 21616
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 627 21591 21605 "dls2.ml" 627 21591 21626
+"dls2.ml" 629 21617 21631 "dls2.ml" 629 21617 21652
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 627 21591 21630 "dls2.ml" 627 21591 21642
+"dls2.ml" 629 21617 21656 "dls2.ml" 629 21617 21668
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 625 21460 21480 "dls2.ml" 627 21591 21642
+"dls2.ml" 627 21486 21506 "dls2.ml" 629 21617 21668
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 628 21643 21664 "dls2.ml" 628 21643 21673
+"dls2.ml" 630 21669 21690 "dls2.ml" 630 21669 21699
 type(
   exn
 )
-"dls2.ml" 628 21643 21678 "dls2.ml" 628 21643 21691
+"dls2.ml" 630 21669 21704 "dls2.ml" 630 21669 21717
 type(
   Cfg.stmt -> unit
 )
 ident(
-  int_ref print_warning "dls2.ml" 590 19877 19883 "dls2.ml" 590 19877 19896
+  int_ref print_warning "dls2.ml" 592 19903 19909 "dls2.ml" 592 19903 19922
 )
-"dls2.ml" 628 21643 21692 "dls2.ml" 628 21643 21696
+"dls2.ml" 630 21669 21718 "dls2.ml" 630 21669 21722
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 628 21643 21678 "dls2.ml" 628 21643 21696
+"dls2.ml" 630 21669 21704 "dls2.ml" 630 21669 21722
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 628 21643 21698 "dls2.ml" 628 21643 21706
+"dls2.ml" 630 21669 21724 "dls2.ml" 630 21669 21732
 type(
   Cfg.expr -> Cfg.stmt -> Cfg.stmt Visitor.visitAction
 )
 ident(
-  int_ref refactor "dls2.ml" 585 19702 19708 "dls2.ml" 585 19702 19716
+  int_ref refactor "dls2.ml" 587 19728 19734 "dls2.ml" 587 19728 19742
 )
-"dls2.ml" 628 21643 21707 "dls2.ml" 628 21643 21711
+"dls2.ml" 630 21669 21733 "dls2.ml" 630 21669 21737
 type(
   Cfg.expr
 )
 ident(
-  int_ref targ "dls2.ml" 623 21319 21359 "dls2.ml" 623 21319 21398
+  int_ref targ "dls2.ml" 625 21345 21385 "dls2.ml" 625 21345 21424
 )
-"dls2.ml" 628 21643 21712 "dls2.ml" 628 21643 21716
+"dls2.ml" 630 21669 21738 "dls2.ml" 630 21669 21742
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 628 21643 21698 "dls2.ml" 628 21643 21716
+"dls2.ml" 630 21669 21724 "dls2.ml" 630 21669 21742
 call(
   stack
 )
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 628 21643 21678 "dls2.ml" 628 21643 21716
+"dls2.ml" 630 21669 21704 "dls2.ml" 630 21669 21742
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 625 21460 21470 "dls2.ml" 629 21717 21730
+"dls2.ml" 627 21486 21496 "dls2.ml" 631 21743 21756
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 624 21404 21422 "dls2.ml" 629 21717 21730
+"dls2.ml" 626 21430 21448 "dls2.ml" 631 21743 21756
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 630 21731 21750 "dls2.ml" 630 21731 21759
+"dls2.ml" 632 21757 21776 "dls2.ml" 632 21757 21785
 type(
   exn
 )
-"dls2.ml" 630 21731 21763 "dls2.ml" 630 21731 21775
+"dls2.ml" 632 21757 21789 "dls2.ml" 632 21757 21801
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 630 21731 21776 "dls2.ml" 630 21731 21811
+"dls2.ml" 632 21757 21802 "dls2.ml" 632 21757 21837
 type(
   string
 )
-"dls2.ml" 630 21731 21763 "dls2.ml" 630 21731 21811
+"dls2.ml" 632 21757 21789 "dls2.ml" 632 21757 21837
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 630 21731 21813 "dls2.ml" 630 21731 21823
+"dls2.ml" 632 21757 21839 "dls2.ml" 632 21757 21849
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dls2.ml" 630 21731 21824 "dls2.ml" 630 21731 21830
+"dls2.ml" 632 21757 21850 "dls2.ml" 632 21757 21856
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stdout
 )
-"dls2.ml" 630 21731 21831 "dls2.ml" 630 21731 21835
+"dls2.ml" 632 21757 21857 "dls2.ml" 632 21757 21861
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 630 21731 21813 "dls2.ml" 630 21731 21835
+"dls2.ml" 632 21757 21839 "dls2.ml" 632 21757 21861
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 630 21731 21837 "dls2.ml" 630 21731 21849
+"dls2.ml" 632 21757 21863 "dls2.ml" 632 21757 21875
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 630 21731 21813 "dls2.ml" 630 21731 21849
+"dls2.ml" 632 21757 21839 "dls2.ml" 632 21757 21875
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 630 21731 21763 "dls2.ml" 630 21731 21849
+"dls2.ml" 632 21757 21789 "dls2.ml" 632 21757 21875
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 624 21404 21412 "dls2.ml" 631 21850 21861
+"dls2.ml" 626 21430 21438 "dls2.ml" 633 21876 21887
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 633 21871 21890 "dls2.ml" 633 21871 21891
+"dls2.ml" 635 21897 21916 "dls2.ml" 635 21897 21917
 type(
   Cfg.lhs option
 )
-"dls2.ml" 633 21871 21909 "dls2.ml" 633 21871 21916
+"dls2.ml" 635 21897 21935 "dls2.ml" 635 21897 21942
 type(
   Cfg.expr
 )
-"dls2.ml" 633 21871 21904 "dls2.ml" 633 21871 21916
+"dls2.ml" 635 21897 21930 "dls2.ml" 635 21897 21942
 type(
   Cfg.expr option
 )
-"dls2.ml" 633 21871 21893 "dls2.ml" 633 21871 21917
+"dls2.ml" 635 21897 21919 "dls2.ml" 635 21897 21943
 type(
   Cfg.method_call
 )
-"dls2.ml" 633 21871 21879 "dls2.ml" 633 21871 21918
+"dls2.ml" 635 21897 21905 "dls2.ml" 635 21897 21944
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 633 21871 21922 "dls2.ml" 633 21871 21934
+"dls2.ml" 635 21897 21948 "dls2.ml" 635 21897 21960
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 636 22081 22089 "dls2.ml" 636 22081 22090
+"dls2.ml" 638 22107 22115 "dls2.ml" 638 22107 22116
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 636 22081 22094 "dls2.ml" 636 22081 22099
+"dls2.ml" 638 22107 22120 "dls2.ml" 638 22107 22125
 type(
   'a
 )
-"dls2.ml" 636 22081 22094 "dls2.ml" 636 22081 22110
+"dls2.ml" 638 22107 22120 "dls2.ml" 638 22107 22136
 type(
   Cfg.stmt Visitor.visit_method
 )
-"dls2.ml" 636 22081 22111 "dls2.ml" 636 22081 22115
+"dls2.ml" 638 22107 22137 "dls2.ml" 638 22107 22141
 type(
   Cfg.stmt
 )
 ident(
-  int_ref node "dls2.ml" 600 20112 20134 "dls2.ml" 600 20112 20138
+  int_ref node "dls2.ml" 602 20138 20160 "dls2.ml" 602 20138 20164
 )
-"dls2.ml" 636 22081 22094 "dls2.ml" 636 22081 22115
+"dls2.ml" 638 22107 22120 "dls2.ml" 638 22107 22141
 call(
   tail
 )
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 600 20112 20141 "dls2.ml" 636 22081 22115
+"dls2.ml" 602 20138 20167 "dls2.ml" 638 22107 22141
 type(
   Cfg.stmt Visitor.visitAction
 )
-"dls2.ml" 638 22125 22148 "dls2.ml" 638 22125 22151
+"dls2.ml" 640 22151 22174 "dls2.ml" 640 22151 22177
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  def ifs "dls2.ml" 639 22161 22167 "dls2.ml" 656 22813 22837
+  def ifs "dls2.ml" 641 22187 22193 "dls2.ml" 658 22839 22863
 )
-"dls2.ml" 638 22125 22153 "dls2.ml" 638 22125 22156
+"dls2.ml" 640 22151 22179 "dls2.ml" 640 22151 22182
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
 ident(
-  def ofs "dls2.ml" 639 22161 22167 "dls2.ml" 656 22813 22837
+  def ofs "dls2.ml" 641 22187 22193 "dls2.ml" 658 22839 22863
 )
-"dls2.ml" 638 22125 22147 "dls2.ml" 638 22125 22157
+"dls2.ml" 640 22151 22173 "dls2.ml" 640 22151 22183
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 639 22161 22167 "dls2.ml" 639 22161 22179
+"dls2.ml" 641 22187 22193 "dls2.ml" 641 22187 22205
 type(
   (Cfg.stmt -> LivenessAnalysis.fact Utils.StrMap.t -> unit) ->
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
@@ -14265,121 +14283,121 @@ type(
 ident(
   ext_ref Hashtbl.iter
 )
-"dls2.ml" 639 22161 22185 "dls2.ml" 639 22161 22186
+"dls2.ml" 641 22187 22211 "dls2.ml" 641 22187 22212
 type(
   Cfg.stmt
 )
 ident(
-  def k "dls2.ml" 639 22161 22187 "dls2.ml" 655 22784 22812
+  def k "dls2.ml" 641 22187 22213 "dls2.ml" 657 22810 22838
 )
-"dls2.ml" 639 22161 22187 "dls2.ml" 639 22161 22188
+"dls2.ml" 641 22187 22213 "dls2.ml" 641 22187 22214
 type(
   LivenessAnalysis.fact Utils.StrMap.t
 )
 ident(
-  def v "dls2.ml" 641 22235 22243 "dls2.ml" 655 22784 22812
+  def v "dls2.ml" 643 22261 22269 "dls2.ml" 657 22810 22838
 )
-"dls2.ml" 641 22235 22243 "dls2.ml" 641 22235 22255
+"dls2.ml" 643 22261 22269 "dls2.ml" 643 22261 22281
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 641 22235 22256 "dls2.ml" 641 22235 22260
+"dls2.ml" 643 22261 22282 "dls2.ml" 643 22261 22286
 type(
   string
 )
-"dls2.ml" 641 22235 22243 "dls2.ml" 641 22235 22260
+"dls2.ml" 643 22261 22269 "dls2.ml" 643 22261 22286
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 642 22262 22270 "dls2.ml" 642 22262 22280
+"dls2.ml" 644 22288 22296 "dls2.ml" 644 22288 22306
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dls2.ml" 642 22262 22281 "dls2.ml" 642 22262 22287
+"dls2.ml" 644 22288 22307 "dls2.ml" 644 22288 22313
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stdout
 )
-"dls2.ml" 642 22262 22288 "dls2.ml" 642 22262 22289
+"dls2.ml" 644 22288 22314 "dls2.ml" 644 22288 22315
 type(
   Cfg.stmt
 )
 ident(
-  int_ref k "dls2.ml" 639 22161 22185 "dls2.ml" 639 22161 22186
+  int_ref k "dls2.ml" 641 22187 22211 "dls2.ml" 641 22187 22212
 )
-"dls2.ml" 642 22262 22270 "dls2.ml" 642 22262 22289
+"dls2.ml" 644 22288 22296 "dls2.ml" 644 22288 22315
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 643 22291 22299 "dls2.ml" 643 22291 22311
+"dls2.ml" 645 22317 22325 "dls2.ml" 645 22317 22337
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 643 22291 22311 "dls2.ml" 643 22291 22320
+"dls2.ml" 645 22317 22337 "dls2.ml" 645 22317 22346
 type(
   string
 )
-"dls2.ml" 643 22291 22299 "dls2.ml" 643 22291 22320
+"dls2.ml" 645 22317 22325 "dls2.ml" 645 22317 22346
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 644 22322 22334 "dls2.ml" 644 22322 22349
+"dls2.ml" 646 22348 22360 "dls2.ml" 646 22348 22375
 type(
   LivenessAnalysis.fact Utils.StrMap.t -> bool
 )
 ident(
   ext_ref Utils.StrMap.is_empty
 )
-"dls2.ml" 644 22322 22350 "dls2.ml" 644 22322 22351
+"dls2.ml" 646 22348 22376 "dls2.ml" 646 22348 22377
 type(
   LivenessAnalysis.fact Utils.StrMap.t
 )
 ident(
-  int_ref v "dls2.ml" 639 22161 22187 "dls2.ml" 639 22161 22188
+  int_ref v "dls2.ml" 641 22187 22213 "dls2.ml" 641 22187 22214
 )
-"dls2.ml" 644 22322 22334 "dls2.ml" 644 22322 22351
+"dls2.ml" 646 22348 22360 "dls2.ml" 646 22348 22377
 call(
   stack
 )
 type(
   bool
 )
-"dls2.ml" 644 22322 22352 "dls2.ml" 644 22322 22354
+"dls2.ml" 646 22348 22378 "dls2.ml" 646 22348 22380
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( == )
 )
-"dls2.ml" 644 22322 22355 "dls2.ml" 644 22322 22360
+"dls2.ml" 646 22348 22381 "dls2.ml" 646 22348 22386
 type(
   bool
 )
-"dls2.ml" 644 22322 22333 "dls2.ml" 644 22322 22361
+"dls2.ml" 646 22348 22359 "dls2.ml" 646 22348 22387
 type(
   bool
 )
-"dls2.ml" 645 22367 22377 "dls2.ml" 645 22367 22388
+"dls2.ml" 647 22393 22403 "dls2.ml" 647 22393 22414
 type(
   (Utils.StrMap.key -> LivenessAnalysis.fact -> unit) ->
   LivenessAnalysis.fact Utils.StrMap.t -> unit
@@ -14387,229 +14405,229 @@ type(
 ident(
   ext_ref Utils.StrMap.iter
 )
-"dls2.ml" 646 22391 22418 "dls2.ml" 646 22391 22419
+"dls2.ml" 648 22417 22444 "dls2.ml" 648 22417 22445
 type(
   Utils.StrMap.key
 )
 ident(
-  def k "dls2.ml" 646 22391 22420 "dls2.ml" 652 22668 22743
+  def k "dls2.ml" 648 22417 22446 "dls2.ml" 654 22694 22769
 )
-"dls2.ml" 646 22391 22420 "dls2.ml" 646 22391 22421
+"dls2.ml" 648 22417 22446 "dls2.ml" 648 22417 22447
 type(
   LivenessAnalysis.fact
 )
 ident(
-  def w "dls2.ml" 647 22426 22451 "dls2.ml" 652 22668 22743
+  def w "dls2.ml" 649 22452 22477 "dls2.ml" 654 22694 22769
 )
-"dls2.ml" 647 22426 22451 "dls2.ml" 647 22426 22463
+"dls2.ml" 649 22452 22477 "dls2.ml" 649 22452 22489
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 647 22426 22464 "dls2.ml" 647 22426 22467
+"dls2.ml" 649 22452 22490 "dls2.ml" 649 22452 22493
 type(
   string
 )
-"dls2.ml" 647 22426 22451 "dls2.ml" 647 22426 22467
+"dls2.ml" 649 22452 22477 "dls2.ml" 649 22452 22493
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 648 22469 22494 "dls2.ml" 648 22469 22506
+"dls2.ml" 650 22495 22520 "dls2.ml" 650 22495 22532
 type(
   Utils.StrMap.key -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 648 22469 22507 "dls2.ml" 648 22469 22508
+"dls2.ml" 650 22495 22533 "dls2.ml" 650 22495 22534
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref k "dls2.ml" 646 22391 22418 "dls2.ml" 646 22391 22419
+  int_ref k "dls2.ml" 648 22417 22444 "dls2.ml" 648 22417 22445
 )
-"dls2.ml" 648 22469 22494 "dls2.ml" 648 22469 22508
+"dls2.ml" 650 22495 22520 "dls2.ml" 650 22495 22534
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 649 22510 22535 "dls2.ml" 649 22510 22547
+"dls2.ml" 651 22536 22561 "dls2.ml" 651 22536 22573
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 649 22510 22548 "dls2.ml" 649 22510 22552
+"dls2.ml" 651 22536 22574 "dls2.ml" 651 22536 22578
 type(
   string
 )
-"dls2.ml" 649 22510 22535 "dls2.ml" 649 22510 22552
+"dls2.ml" 651 22536 22561 "dls2.ml" 651 22536 22578
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 650 22554 22585 "dls2.ml" 650 22554 22586
+"dls2.ml" 652 22580 22611 "dls2.ml" 652 22580 22612
 type(
   LivenessAnalysis.fact
 )
 ident(
-  int_ref w "dls2.ml" 646 22391 22420 "dls2.ml" 646 22391 22421
+  int_ref w "dls2.ml" 648 22417 22446 "dls2.ml" 648 22417 22447
 )
-"dls2.ml" 651 22592 22621 "dls2.ml" 651 22592 22642
+"dls2.ml" 653 22618 22647 "dls2.ml" 653 22618 22668
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 651 22592 22646 "dls2.ml" 651 22592 22658
+"dls2.ml" 653 22618 22672 "dls2.ml" 653 22618 22684
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 651 22592 22659 "dls2.ml" 651 22592 22667
+"dls2.ml" 653 22618 22685 "dls2.ml" 653 22618 22693
 type(
   string
 )
-"dls2.ml" 651 22592 22646 "dls2.ml" 651 22592 22667
+"dls2.ml" 653 22618 22672 "dls2.ml" 653 22618 22693
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 652 22668 22697 "dls2.ml" 652 22668 22718
+"dls2.ml" 654 22694 22723 "dls2.ml" 654 22694 22744
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 652 22668 22722 "dls2.ml" 652 22668 22734
+"dls2.ml" 654 22694 22748 "dls2.ml" 654 22694 22760
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 652 22668 22735 "dls2.ml" 652 22668 22743
+"dls2.ml" 654 22694 22761 "dls2.ml" 654 22694 22769
 type(
   string
 )
-"dls2.ml" 652 22668 22722 "dls2.ml" 652 22668 22743
+"dls2.ml" 654 22694 22748 "dls2.ml" 654 22694 22769
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 650 22554 22579 "dls2.ml" 652 22668 22743
+"dls2.ml" 652 22580 22605 "dls2.ml" 654 22694 22769
 type(
   unit
 )
-"dls2.ml" 649 22510 22535 "dls2.ml" 652 22668 22743
+"dls2.ml" 651 22536 22561 "dls2.ml" 654 22694 22769
 type(
   unit
 )
-"dls2.ml" 648 22469 22494 "dls2.ml" 652 22668 22743
+"dls2.ml" 650 22495 22520 "dls2.ml" 654 22694 22769
 type(
   unit
 )
-"dls2.ml" 647 22426 22451 "dls2.ml" 652 22668 22743
+"dls2.ml" 649 22452 22477 "dls2.ml" 654 22694 22769
 type(
   unit
 )
-"dls2.ml" 645 22367 22389 "dls2.ml" 653 22744 22767
+"dls2.ml" 647 22393 22415 "dls2.ml" 655 22770 22793
 type(
   Utils.StrMap.key -> LivenessAnalysis.fact -> unit
 )
-"dls2.ml" 653 22744 22768 "dls2.ml" 653 22744 22769
+"dls2.ml" 655 22770 22794 "dls2.ml" 655 22770 22795
 type(
   LivenessAnalysis.fact Utils.StrMap.t
 )
 ident(
-  int_ref v "dls2.ml" 639 22161 22187 "dls2.ml" 639 22161 22188
+  int_ref v "dls2.ml" 641 22187 22213 "dls2.ml" 641 22187 22214
 )
-"dls2.ml" 645 22367 22377 "dls2.ml" 653 22744 22769
+"dls2.ml" 647 22393 22403 "dls2.ml" 655 22770 22795
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 655 22784 22794 "dls2.ml" 655 22784 22806
+"dls2.ml" 657 22810 22820 "dls2.ml" 657 22810 22832
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 655 22784 22807 "dls2.ml" 655 22784 22811
+"dls2.ml" 657 22810 22833 "dls2.ml" 657 22810 22837
 type(
   string
 )
-"dls2.ml" 655 22784 22794 "dls2.ml" 655 22784 22811
+"dls2.ml" 657 22810 22820 "dls2.ml" 657 22810 22837
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 644 22322 22330 "dls2.ml" 655 22784 22812
+"dls2.ml" 646 22348 22356 "dls2.ml" 657 22810 22838
 type(
   unit
 )
-"dls2.ml" 643 22291 22299 "dls2.ml" 655 22784 22812
+"dls2.ml" 645 22317 22325 "dls2.ml" 657 22810 22838
 type(
   unit
 )
-"dls2.ml" 642 22262 22270 "dls2.ml" 655 22784 22812
+"dls2.ml" 644 22288 22296 "dls2.ml" 657 22810 22838
 type(
   unit
 )
-"dls2.ml" 641 22235 22243 "dls2.ml" 655 22784 22812
+"dls2.ml" 643 22261 22269 "dls2.ml" 657 22810 22838
 type(
   unit
 )
-"dls2.ml" 639 22161 22180 "dls2.ml" 656 22813 22833
+"dls2.ml" 641 22187 22206 "dls2.ml" 658 22839 22859
 type(
   Cfg.stmt -> LivenessAnalysis.fact Utils.StrMap.t -> unit
 )
-"dls2.ml" 656 22813 22834 "dls2.ml" 656 22813 22837
+"dls2.ml" 658 22839 22860 "dls2.ml" 658 22839 22863
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref ifs "dls2.ml" 638 22125 22148 "dls2.ml" 638 22125 22151
+  int_ref ifs "dls2.ml" 640 22151 22174 "dls2.ml" 640 22151 22177
 )
-"dls2.ml" 639 22161 22167 "dls2.ml" 656 22813 22837
+"dls2.ml" 641 22187 22193 "dls2.ml" 658 22839 22863
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 660 22856 22862 "dls2.ml" 660 22856 22872
+"dls2.ml" 662 22882 22888 "dls2.ml" 662 22882 22898
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
 )
 ident(
-  def print_hash "dls2.ml" 686 23684 23684 --
+  def print_hash "dls2.ml" 688 23710 23710 --
 )
-"dls2.ml" 660 22856 22873 "dls2.ml" 660 22856 22876
+"dls2.ml" 662 22882 22899 "dls2.ml" 662 22882 22902
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  def _fs "dls2.ml" 664 23021 23025 "dls2.ml" 683 23657 23679
+  def _fs "dls2.ml" 666 23047 23051 "dls2.ml" 685 23683 23705
 )
-"dls2.ml" 664 23021 23025 "dls2.ml" 664 23021 23037
+"dls2.ml" 666 23047 23051 "dls2.ml" 666 23047 23063
 type(
   (Cfg.stmt -> LivenessAnalysis.fact Utils.StrMap.t -> unit) ->
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
@@ -14617,103 +14635,103 @@ type(
 ident(
   ext_ref Hashtbl.iter
 )
-"dls2.ml" 664 23021 23043 "dls2.ml" 664 23021 23044
+"dls2.ml" 666 23047 23069 "dls2.ml" 666 23047 23070
 type(
   Cfg.stmt
 )
 ident(
-  def k "dls2.ml" 664 23021 23045 "dls2.ml" 681 23625 23649
+  def k "dls2.ml" 666 23047 23071 "dls2.ml" 683 23651 23675
 )
-"dls2.ml" 664 23021 23045 "dls2.ml" 664 23021 23046
+"dls2.ml" 666 23047 23071 "dls2.ml" 666 23047 23072
 type(
   LivenessAnalysis.fact Utils.StrMap.t
 )
 ident(
-  def v "dls2.ml" 666 23091 23097 "dls2.ml" 681 23625 23649
+  def v "dls2.ml" 668 23117 23123 "dls2.ml" 683 23651 23675
 )
-"dls2.ml" 666 23091 23097 "dls2.ml" 666 23091 23107
+"dls2.ml" 668 23117 23123 "dls2.ml" 668 23117 23133
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dls2.ml" 666 23091 23108 "dls2.ml" 666 23091 23114
+"dls2.ml" 668 23117 23134 "dls2.ml" 668 23117 23140
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stdout
 )
-"dls2.ml" 666 23091 23115 "dls2.ml" 666 23091 23116
+"dls2.ml" 668 23117 23141 "dls2.ml" 668 23117 23142
 type(
   Cfg.stmt
 )
 ident(
-  int_ref k "dls2.ml" 664 23021 23043 "dls2.ml" 664 23021 23044
+  int_ref k "dls2.ml" 666 23047 23069 "dls2.ml" 666 23047 23070
 )
-"dls2.ml" 666 23091 23097 "dls2.ml" 666 23091 23116
+"dls2.ml" 668 23117 23123 "dls2.ml" 668 23117 23142
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 667 23118 23124 "dls2.ml" 667 23118 23136
+"dls2.ml" 669 23144 23150 "dls2.ml" 669 23144 23162
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 667 23118 23136 "dls2.ml" 667 23118 23145
+"dls2.ml" 669 23144 23162 "dls2.ml" 669 23144 23171
 type(
   string
 )
-"dls2.ml" 667 23118 23124 "dls2.ml" 667 23118 23145
+"dls2.ml" 669 23144 23150 "dls2.ml" 669 23144 23171
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 668 23147 23157 "dls2.ml" 668 23147 23172
+"dls2.ml" 670 23173 23183 "dls2.ml" 670 23173 23198
 type(
   LivenessAnalysis.fact Utils.StrMap.t -> bool
 )
 ident(
   ext_ref Utils.StrMap.is_empty
 )
-"dls2.ml" 668 23147 23173 "dls2.ml" 668 23147 23174
+"dls2.ml" 670 23173 23199 "dls2.ml" 670 23173 23200
 type(
   LivenessAnalysis.fact Utils.StrMap.t
 )
 ident(
-  int_ref v "dls2.ml" 664 23021 23045 "dls2.ml" 664 23021 23046
+  int_ref v "dls2.ml" 666 23047 23071 "dls2.ml" 666 23047 23072
 )
-"dls2.ml" 668 23147 23157 "dls2.ml" 668 23147 23174
+"dls2.ml" 670 23173 23183 "dls2.ml" 670 23173 23200
 call(
   stack
 )
 type(
   bool
 )
-"dls2.ml" 668 23147 23175 "dls2.ml" 668 23147 23177
+"dls2.ml" 670 23173 23201 "dls2.ml" 670 23173 23203
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( == )
 )
-"dls2.ml" 668 23147 23178 "dls2.ml" 668 23147 23183
+"dls2.ml" 670 23173 23204 "dls2.ml" 670 23173 23209
 type(
   bool
 )
-"dls2.ml" 668 23147 23156 "dls2.ml" 668 23147 23184
+"dls2.ml" 670 23173 23182 "dls2.ml" 670 23173 23210
 type(
   bool
 )
-"dls2.ml" 669 23190 23198 "dls2.ml" 669 23190 23209
+"dls2.ml" 671 23216 23224 "dls2.ml" 671 23216 23235
 type(
   (Utils.StrMap.key -> LivenessAnalysis.fact -> unit) ->
   LivenessAnalysis.fact Utils.StrMap.t -> unit
@@ -14721,382 +14739,254 @@ type(
 ident(
   ext_ref Utils.StrMap.iter
 )
-"dls2.ml" 670 23212 23237 "dls2.ml" 670 23212 23238
+"dls2.ml" 672 23238 23263 "dls2.ml" 672 23238 23264
 type(
   Utils.StrMap.key
 )
 ident(
-  def k "dls2.ml" 670 23212 23239 "dls2.ml" 676 23479 23554
+  def k "dls2.ml" 672 23238 23265 "dls2.ml" 678 23505 23580
 )
-"dls2.ml" 670 23212 23239 "dls2.ml" 670 23212 23240
+"dls2.ml" 672 23238 23265 "dls2.ml" 672 23238 23266
 type(
   LivenessAnalysis.fact
 )
 ident(
-  def w "dls2.ml" 671 23245 23268 "dls2.ml" 676 23479 23554
+  def w "dls2.ml" 673 23271 23294 "dls2.ml" 678 23505 23580
 )
-"dls2.ml" 671 23245 23268 "dls2.ml" 671 23245 23280
+"dls2.ml" 673 23271 23294 "dls2.ml" 673 23271 23306
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 671 23245 23281 "dls2.ml" 671 23245 23284
+"dls2.ml" 673 23271 23307 "dls2.ml" 673 23271 23310
 type(
   string
 )
-"dls2.ml" 671 23245 23268 "dls2.ml" 671 23245 23284
+"dls2.ml" 673 23271 23294 "dls2.ml" 673 23271 23310
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 672 23286 23309 "dls2.ml" 672 23286 23321
+"dls2.ml" 674 23312 23335 "dls2.ml" 674 23312 23347
 type(
   Utils.StrMap.key -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 672 23286 23322 "dls2.ml" 672 23286 23323
+"dls2.ml" 674 23312 23348 "dls2.ml" 674 23312 23349
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref k "dls2.ml" 670 23212 23237 "dls2.ml" 670 23212 23238
+  int_ref k "dls2.ml" 672 23238 23263 "dls2.ml" 672 23238 23264
 )
-"dls2.ml" 672 23286 23309 "dls2.ml" 672 23286 23323
+"dls2.ml" 674 23312 23335 "dls2.ml" 674 23312 23349
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 673 23325 23348 "dls2.ml" 673 23325 23360
+"dls2.ml" 675 23351 23374 "dls2.ml" 675 23351 23386
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 673 23325 23361 "dls2.ml" 673 23325 23365
+"dls2.ml" 675 23351 23387 "dls2.ml" 675 23351 23391
 type(
   string
 )
-"dls2.ml" 673 23325 23348 "dls2.ml" 673 23325 23365
+"dls2.ml" 675 23351 23374 "dls2.ml" 675 23351 23391
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 674 23367 23396 "dls2.ml" 674 23367 23397
+"dls2.ml" 676 23393 23422 "dls2.ml" 676 23393 23423
 type(
   LivenessAnalysis.fact
 )
 ident(
-  int_ref w "dls2.ml" 670 23212 23239 "dls2.ml" 670 23212 23240
+  int_ref w "dls2.ml" 672 23238 23265 "dls2.ml" 672 23238 23266
 )
-"dls2.ml" 675 23403 23430 "dls2.ml" 675 23403 23451
+"dls2.ml" 677 23429 23456 "dls2.ml" 677 23429 23477
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 675 23403 23455 "dls2.ml" 675 23403 23467
+"dls2.ml" 677 23429 23481 "dls2.ml" 677 23429 23493
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 675 23403 23468 "dls2.ml" 675 23403 23478
+"dls2.ml" 677 23429 23494 "dls2.ml" 677 23429 23504
 type(
   string
 )
-"dls2.ml" 675 23403 23455 "dls2.ml" 675 23403 23478
+"dls2.ml" 677 23429 23481 "dls2.ml" 677 23429 23504
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 676 23479 23506 "dls2.ml" 676 23479 23527
+"dls2.ml" 678 23505 23532 "dls2.ml" 678 23505 23553
 type(
   LivenessAnalysis.fact
 )
-"dls2.ml" 676 23479 23531 "dls2.ml" 676 23479 23543
+"dls2.ml" 678 23505 23557 "dls2.ml" 678 23505 23569
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 676 23479 23544 "dls2.ml" 676 23479 23554
+"dls2.ml" 678 23505 23570 "dls2.ml" 678 23505 23580
 type(
   string
 )
-"dls2.ml" 676 23479 23531 "dls2.ml" 676 23479 23554
+"dls2.ml" 678 23505 23557 "dls2.ml" 678 23505 23580
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 674 23367 23390 "dls2.ml" 676 23479 23554
+"dls2.ml" 676 23393 23416 "dls2.ml" 678 23505 23580
 type(
   unit
 )
-"dls2.ml" 673 23325 23348 "dls2.ml" 676 23479 23554
+"dls2.ml" 675 23351 23374 "dls2.ml" 678 23505 23580
 type(
   unit
 )
-"dls2.ml" 672 23286 23309 "dls2.ml" 676 23479 23554
+"dls2.ml" 674 23312 23335 "dls2.ml" 678 23505 23580
 type(
   unit
 )
-"dls2.ml" 671 23245 23268 "dls2.ml" 676 23479 23554
+"dls2.ml" 673 23271 23294 "dls2.ml" 678 23505 23580
 type(
   unit
 )
-"dls2.ml" 669 23190 23210 "dls2.ml" 677 23555 23576
+"dls2.ml" 671 23216 23236 "dls2.ml" 679 23581 23602
 type(
   Utils.StrMap.key -> LivenessAnalysis.fact -> unit
 )
-"dls2.ml" 677 23555 23577 "dls2.ml" 677 23555 23578
+"dls2.ml" 679 23581 23603 "dls2.ml" 679 23581 23604
 type(
   LivenessAnalysis.fact Utils.StrMap.t
 )
 ident(
-  int_ref v "dls2.ml" 664 23021 23045 "dls2.ml" 664 23021 23046
+  int_ref v "dls2.ml" 666 23047 23071 "dls2.ml" 666 23047 23072
 )
-"dls2.ml" 669 23190 23198 "dls2.ml" 677 23555 23578
+"dls2.ml" 671 23216 23224 "dls2.ml" 679 23581 23604
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 679 23591 23599 "dls2.ml" 679 23591 23611
+"dls2.ml" 681 23617 23625 "dls2.ml" 681 23617 23637
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 679 23591 23612 "dls2.ml" 679 23591 23616
+"dls2.ml" 681 23617 23638 "dls2.ml" 681 23617 23642
 type(
   string
 )
-"dls2.ml" 679 23591 23599 "dls2.ml" 679 23591 23616
+"dls2.ml" 681 23617 23625 "dls2.ml" 681 23617 23642
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 668 23147 23153 "dls2.ml" 679 23591 23616
+"dls2.ml" 670 23173 23179 "dls2.ml" 681 23617 23642
 type(
   unit
 )
-"dls2.ml" 681 23625 23631 "dls2.ml" 681 23625 23643
+"dls2.ml" 683 23651 23657 "dls2.ml" 683 23651 23669
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 681 23625 23644 "dls2.ml" 681 23625 23648
+"dls2.ml" 683 23651 23670 "dls2.ml" 683 23651 23674
 type(
   string
 )
-"dls2.ml" 681 23625 23631 "dls2.ml" 681 23625 23649
+"dls2.ml" 683 23651 23657 "dls2.ml" 683 23651 23675
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 668 23147 23153 "dls2.ml" 681 23625 23649
+"dls2.ml" 670 23173 23179 "dls2.ml" 683 23651 23675
 type(
   unit
 )
-"dls2.ml" 667 23118 23124 "dls2.ml" 681 23625 23649
+"dls2.ml" 669 23144 23150 "dls2.ml" 683 23651 23675
 type(
   unit
 )
-"dls2.ml" 666 23091 23097 "dls2.ml" 681 23625 23649
+"dls2.ml" 668 23117 23123 "dls2.ml" 683 23651 23675
 type(
   unit
 )
-"dls2.ml" 664 23021 23038 "dls2.ml" 683 23657 23675
+"dls2.ml" 666 23047 23064 "dls2.ml" 685 23683 23701
 type(
   Cfg.stmt -> LivenessAnalysis.fact Utils.StrMap.t -> unit
 )
-"dls2.ml" 683 23657 23676 "dls2.ml" 683 23657 23679
+"dls2.ml" 685 23683 23702 "dls2.ml" 685 23683 23705
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref _fs "dls2.ml" 660 22856 22873 "dls2.ml" 660 22856 22876
+  int_ref _fs "dls2.ml" 662 22882 22899 "dls2.ml" 662 22882 22902
 )
-"dls2.ml" 664 23021 23025 "dls2.ml" 683 23657 23679
+"dls2.ml" 666 23047 23051 "dls2.ml" 685 23683 23705
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 686 23684 23692 "dls2.ml" 686 23684 23701
-type(
-  Cfg.StmtSet.t -> Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t
-)
-ident(
-  def exists_fp "dls2.ml" 686 23684 23684 --
-)
-"dls2.ml" 686 23684 23702 "dls2.ml" 686 23684 23709
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  def visited "dls2.ml" 686 23684 23710 "dls2.ml" 699 24088 24106
-)
-"dls2.ml" 686 23684 23710 "dls2.ml" 686 23684 23714
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def stmt "dls2.ml" 686 23684 23715 "dls2.ml" 699 24088 24106
-)
-"dls2.ml" 686 23684 23715 "dls2.ml" 686 23684 23720
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  def exits "dls2.ml" 687 23723 23725 "dls2.ml" 699 24088 24106
-)
-"dls2.ml" 687 23723 23728 "dls2.ml" 687 23723 23744
-type(
-  Cfg.StmtSet.t -> bool
-)
-ident(
-  ext_ref Cfg.StmtSet.is_empty
-)
-"dls2.ml" 687 23723 23745 "dls2.ml" 687 23723 23749
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dls2.ml" 686 23684 23710 "dls2.ml" 686 23684 23714
-)
-"dls2.ml" 687 23723 23745 "dls2.ml" 687 23723 23755
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 687 23723 23728 "dls2.ml" 687 23723 23755
-call(
-  stack
-)
-type(
-  bool
-)
-"dls2.ml" 688 23756 23763 "dls2.ml" 688 23756 23774
-type(
-  Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t
-)
-ident(
-  ext_ref Cfg.StmtSet.add
-)
-"dls2.ml" 688 23756 23775 "dls2.ml" 688 23756 23779
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dls2.ml" 686 23684 23710 "dls2.ml" 686 23684 23714
-)
-"dls2.ml" 688 23756 23780 "dls2.ml" 688 23756 23785
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  int_ref exits "dls2.ml" 686 23684 23715 "dls2.ml" 686 23684 23720
-)
-"dls2.ml" 688 23756 23763 "dls2.ml" 688 23756 23785
-call(
-  tail
-)
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 690 23793 23801 "dls2.ml" 690 23793 23805
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 690 23793 23808 "dls2.ml" 690 23793 23820
+"dls2.ml" 688 23710 23718 "dls2.ml" 688 23710 23726
 type(
   Cfg.StmtSet.t -> Cfg.StmtSet.t -> Cfg.StmtSet.t
 )
 ident(
-  ext_ref Cfg.StmtSet.diff
+  def acc_stmt "dls2.ml" 688 23710 23710 --
 )
-"dls2.ml" 690 23793 23821 "dls2.ml" 690 23793 23825
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dls2.ml" 686 23684 23710 "dls2.ml" 686 23684 23714
-)
-"dls2.ml" 690 23793 23821 "dls2.ml" 690 23793 23831
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 690 23793 23832 "dls2.ml" 690 23793 23839
+"dls2.ml" 688 23710 23727 "dls2.ml" 688 23710 23731
 type(
   Cfg.StmtSet.t
 )
 ident(
-  int_ref visited "dls2.ml" 686 23684 23702 "dls2.ml" 686 23684 23709
+  def todo "dls2.ml" 688 23710 23732 "dls2.ml" 695 23970 23986
 )
-"dls2.ml" 690 23793 23808 "dls2.ml" 690 23793 23839
-call(
-  stack
-)
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 691 23843 23851 "dls2.ml" 691 23843 23859
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 691 23843 23862 "dls2.ml" 691 23843 23875
-type(
-  Cfg.StmtSet.t -> Cfg.StmtSet.t -> Cfg.StmtSet.t
-)
-ident(
-  ext_ref Cfg.StmtSet.union
-)
-"dls2.ml" 691 23843 23876 "dls2.ml" 691 23843 23883
+"dls2.ml" 688 23710 23732 "dls2.ml" 688 23710 23739
 type(
   Cfg.StmtSet.t
 )
 ident(
-  int_ref visited "dls2.ml" 686 23684 23702 "dls2.ml" 686 23684 23709
+  def visited "dls2.ml" 689 23742 23744 "dls2.ml" 695 23970 23986
 )
-"dls2.ml" 691 23843 23884 "dls2.ml" 691 23843 23888
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  int_ref todo "dls2.ml" 690 23793 23801 "dls2.ml" 690 23793 23805
-)
-"dls2.ml" 691 23843 23862 "dls2.ml" 691 23843 23888
-call(
-  stack
-)
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 692 23892 23896 "dls2.ml" 692 23892 23908
+"dls2.ml" 689 23742 23744 "dls2.ml" 689 23742 23756
 type(
   (Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t) ->
   Cfg.StmtSet.t -> Cfg.StmtSet.t -> Cfg.StmtSet.t
@@ -15104,435 +14994,217 @@ type(
 ident(
   ext_ref Cfg.StmtSet.fold
 )
-"dls2.ml" 693 23909 23920 "dls2.ml" 693 23909 23924
+"dls2.ml" 689 23742 23762 "dls2.ml" 689 23742 23766
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  def stmt "dls2.ml" 693 23909 23925 "dls2.ml" 698 24068 24087
+  def stmt "dls2.ml" 689 23742 23767 "dls2.ml" 694 23910 23969
 )
-"dls2.ml" 693 23909 23925 "dls2.ml" 693 23909 23930
+"dls2.ml" 689 23742 23767 "dls2.ml" 689 23742 23770
 type(
   Cfg.StmtSet.t
 )
 ident(
-  def exits "dls2.ml" 694 23934 23946 "dls2.ml" 698 24068 24087
+  def acc "dls2.ml" 690 23774 23780 "dls2.ml" 694 23910 23969
 )
-"dls2.ml" 694 23934 23946 "dls2.ml" 694 23934 23956
-type(
-  out_channel -> Cfg.StmtSet.elt -> unit
-)
-ident(
-  ext_ref Cfg_printer.CodePrinter.print_stmt
-)
-"dls2.ml" 694 23934 23957 "dls2.ml" 694 23934 23963
-type(
-  out_channel
-)
-ident(
-  ext_ref Pervasives.stdout
-)
-"dls2.ml" 694 23934 23964 "dls2.ml" 694 23934 23968
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dls2.ml" 693 23909 23920 "dls2.ml" 693 23909 23924
-)
-"dls2.ml" 694 23934 23946 "dls2.ml" 694 23934 23968
-call(
-  stack
-)
-type(
-  unit
-)
-"dls2.ml" 694 23934 23970 "dls2.ml" 694 23934 23982
-type(
-  string -> unit
-)
-ident(
-  ext_ref Pervasives.print_string
-)
-"dls2.ml" 694 23934 23983 "dls2.ml" 694 23934 24002
-type(
-  string
-)
-"dls2.ml" 694 23934 23970 "dls2.ml" 694 23934 24002
-call(
-  stack
-)
-type(
-  unit
-)
-"dls2.ml" 695 24004 24016 "dls2.ml" 695 24004 24025
-type(
-  Cfg.StmtSet.t -> Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t
-)
-ident(
-  int_ref exists_fp "dls2.ml" 686 23684 23692 "dls2.ml" 686 23684 23701
-)
-"dls2.ml" 696 24026 24040 "dls2.ml" 696 24026 24048
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  int_ref visited' "dls2.ml" 691 23843 23851 "dls2.ml" 691 23843 23859
-)
-"dls2.ml" 697 24049 24063 "dls2.ml" 697 24049 24067
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dls2.ml" 693 23909 23920 "dls2.ml" 693 23909 23924
-)
-"dls2.ml" 698 24068 24082 "dls2.ml" 698 24068 24087
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  int_ref exits "dls2.ml" 693 23909 23925 "dls2.ml" 693 23909 23930
-)
-"dls2.ml" 695 24004 24016 "dls2.ml" 698 24068 24087
-call(
-  tail
-)
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 694 23934 23970 "dls2.ml" 698 24068 24087
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 694 23934 23946 "dls2.ml" 698 24068 24087
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 693 23909 23915 "dls2.ml" 699 24088 24095
-type(
-  Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t
-)
-"dls2.ml" 699 24088 24096 "dls2.ml" 699 24088 24100
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  int_ref todo "dls2.ml" 690 23793 23801 "dls2.ml" 690 23793 23805
-)
-"dls2.ml" 699 24088 24101 "dls2.ml" 699 24088 24106
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  int_ref exits "dls2.ml" 686 23684 23715 "dls2.ml" 686 23684 23720
-)
-"dls2.ml" 692 23892 23896 "dls2.ml" 699 24088 24106
-call(
-  tail
-)
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 691 23843 23847 "dls2.ml" 699 24088 24106
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 690 23793 23797 "dls2.ml" 699 24088 24106
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 687 23723 23725 "dls2.ml" 699 24088 24106
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 701 24108 24112 "dls2.ml" 701 24108 24117
-type(
-  Cfg.StmtSet.elt -> Cfg.StmtSet.t
-)
-ident(
-  def exits "dls2.ml" 704 24170 24170 --
-)
-"dls2.ml" 701 24108 24118 "dls2.ml" 701 24108 24122
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def stmt "dls2.ml" 701 24108 24125 "dls2.ml" 701 24108 24167
-)
-"dls2.ml" 701 24108 24125 "dls2.ml" 701 24108 24134
-type(
-  Cfg.StmtSet.t -> Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t
-)
-ident(
-  int_ref exists_fp "dls2.ml" 686 23684 23692 "dls2.ml" 686 23684 23701
-)
-"dls2.ml" 701 24108 24135 "dls2.ml" 701 24108 24148
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  ext_ref Cfg.StmtSet.empty
-)
-"dls2.ml" 701 24108 24149 "dls2.ml" 701 24108 24153
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  int_ref stmt "dls2.ml" 701 24108 24118 "dls2.ml" 701 24108 24122
-)
-"dls2.ml" 701 24108 24154 "dls2.ml" 701 24108 24167
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  ext_ref Cfg.StmtSet.empty
-)
-"dls2.ml" 701 24108 24125 "dls2.ml" 701 24108 24167
-call(
-  tail
-)
-type(
-  Cfg.StmtSet.t
-)
-"dls2.ml" 704 24170 24178 "dls2.ml" 704 24170 24186
-type(
-  Cfg.StmtSet.t -> Cfg.StmtSet.t -> Cfg.StmtSet.t
-)
-ident(
-  def acc_stmt "dls2.ml" 704 24170 24170 --
-)
-"dls2.ml" 704 24170 24187 "dls2.ml" 704 24170 24191
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  def todo "dls2.ml" 704 24170 24192 "dls2.ml" 709 24406 24422
-)
-"dls2.ml" 704 24170 24192 "dls2.ml" 704 24170 24199
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  def visited "dls2.ml" 705 24202 24204 "dls2.ml" 709 24406 24422
-)
-"dls2.ml" 705 24202 24204 "dls2.ml" 705 24202 24216
-type(
-  (Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t) ->
-  Cfg.StmtSet.t -> Cfg.StmtSet.t -> Cfg.StmtSet.t
-)
-ident(
-  ext_ref Cfg.StmtSet.fold
-)
-"dls2.ml" 705 24202 24222 "dls2.ml" 705 24202 24226
-type(
-  Cfg.StmtSet.elt
-)
-ident(
-  def stmt "dls2.ml" 705 24202 24227 "dls2.ml" 708 24346 24405
-)
-"dls2.ml" 705 24202 24227 "dls2.ml" 705 24202 24230
-type(
-  Cfg.StmtSet.t
-)
-ident(
-  def acc "dls2.ml" 706 24234 24240 "dls2.ml" 708 24346 24405
-)
-"dls2.ml" 706 24234 24246 "dls2.ml" 706 24234 24260
+"dls2.ml" 690 23774 23786 "dls2.ml" 690 23774 23800
 type(
   (Cfg.StmtSet.elt -> bool) -> Cfg.StmtSet.t -> bool
 )
 ident(
   ext_ref Cfg.StmtSet.exists
 )
-"dls2.ml" 706 24234 24266 "dls2.ml" 706 24234 24267
+"dls2.ml" 690 23774 23806 "dls2.ml" 690 23774 23807
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  def x "dls2.ml" 706 24234 24271 "dls2.ml" 706 24234 24311
+  def x "dls2.ml" 691 23812 23824 "dls2.ml" 691 23812 23864
 )
-"dls2.ml" 706 24234 24272 "dls2.ml" 706 24234 24285
+"dls2.ml" 691 23812 23825 "dls2.ml" 691 23812 23838
 type(
   Cfg.StmtSet.elt -> string
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.string_of_cfg
 )
-"dls2.ml" 706 24234 24286 "dls2.ml" 706 24234 24287
+"dls2.ml" 691 23812 23839 "dls2.ml" 691 23812 23840
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  int_ref x "dls2.ml" 706 24234 24266 "dls2.ml" 706 24234 24267
+  int_ref x "dls2.ml" 690 23774 23806 "dls2.ml" 690 23774 23807
 )
-"dls2.ml" 706 24234 24271 "dls2.ml" 706 24234 24288
+"dls2.ml" 691 23812 23824 "dls2.ml" 691 23812 23841
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 706 24234 24289 "dls2.ml" 706 24234 24290
+"dls2.ml" 691 23812 23842 "dls2.ml" 691 23812 23843
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"dls2.ml" 706 24234 24292 "dls2.ml" 706 24234 24305
+"dls2.ml" 691 23812 23845 "dls2.ml" 691 23812 23858
 type(
   Cfg.StmtSet.elt -> string
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.string_of_cfg
 )
-"dls2.ml" 706 24234 24306 "dls2.ml" 706 24234 24310
+"dls2.ml" 691 23812 23859 "dls2.ml" 691 23812 23863
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  int_ref stmt "dls2.ml" 705 24202 24222 "dls2.ml" 705 24202 24226
+  int_ref stmt "dls2.ml" 689 23742 23762 "dls2.ml" 689 23742 23766
 )
-"dls2.ml" 706 24234 24291 "dls2.ml" 706 24234 24311
+"dls2.ml" 691 23812 23844 "dls2.ml" 691 23812 23864
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 706 24234 24271 "dls2.ml" 706 24234 24311
+"dls2.ml" 691 23812 23824 "dls2.ml" 691 23812 23864
 type(
   bool
 )
-"dls2.ml" 706 24234 24261 "dls2.ml" 706 24234 24312
+"dls2.ml" 690 23774 23801 "dls2.ml" 692 23865 23876
 type(
   Cfg.StmtSet.elt -> bool
 )
-"dls2.ml" 706 24234 24313 "dls2.ml" 706 24234 24316
+"dls2.ml" 692 23865 23877 "dls2.ml" 692 23865 23880
 type(
   Cfg.StmtSet.t
 )
 ident(
-  int_ref acc "dls2.ml" 705 24202 24227 "dls2.ml" 705 24202 24230
+  int_ref acc "dls2.ml" 689 23742 23767 "dls2.ml" 689 23742 23770
 )
-"dls2.ml" 706 24234 24246 "dls2.ml" 706 24234 24316
+"dls2.ml" 690 23774 23786 "dls2.ml" 692 23865 23880
 call(
   stack
 )
 type(
   bool
 )
-"dls2.ml" 707 24322 24330 "dls2.ml" 707 24322 24334
+"dls2.ml" 693 23886 23894 "dls2.ml" 693 23886 23898
 type(
   bool
 )
-"dls2.ml" 707 24322 24338 "dls2.ml" 707 24322 24345
+"dls2.ml" 693 23886 23902 "dls2.ml" 693 23886 23909
 type(
   Cfg.StmtSet.t
 )
 ident(
-  int_ref visited "dls2.ml" 704 24170 24192 "dls2.ml" 704 24170 24199
+  int_ref visited "dls2.ml" 688 23710 23732 "dls2.ml" 688 23710 23739
 )
-"dls2.ml" 708 24346 24354 "dls2.ml" 708 24346 24359
+"dls2.ml" 694 23910 23918 "dls2.ml" 694 23910 23923
 type(
   bool
 )
-"dls2.ml" 708 24346 24363 "dls2.ml" 708 24346 24371
+"dls2.ml" 694 23910 23927 "dls2.ml" 694 23910 23935
 type(
   Cfg.StmtSet.t -> Cfg.StmtSet.t -> Cfg.StmtSet.t
 )
 ident(
-  int_ref acc_stmt "dls2.ml" 704 24170 24178 "dls2.ml" 704 24170 24186
+  int_ref acc_stmt "dls2.ml" 688 23710 23718 "dls2.ml" 688 23710 23726
 )
-"dls2.ml" 708 24346 24372 "dls2.ml" 708 24346 24376
+"dls2.ml" 694 23910 23936 "dls2.ml" 694 23910 23940
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  int_ref stmt "dls2.ml" 705 24202 24222 "dls2.ml" 705 24202 24226
+  int_ref stmt "dls2.ml" 689 23742 23762 "dls2.ml" 689 23742 23766
 )
-"dls2.ml" 708 24346 24372 "dls2.ml" 708 24346 24382
+"dls2.ml" 694 23910 23936 "dls2.ml" 694 23910 23946
 type(
   Cfg.StmtSet.t
 )
-"dls2.ml" 708 24346 24384 "dls2.ml" 708 24346 24395
+"dls2.ml" 694 23910 23948 "dls2.ml" 694 23910 23959
 type(
   Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t
 )
 ident(
   ext_ref Cfg.StmtSet.add
 )
-"dls2.ml" 708 24346 24396 "dls2.ml" 708 24346 24400
+"dls2.ml" 694 23910 23960 "dls2.ml" 694 23910 23964
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  int_ref stmt "dls2.ml" 705 24202 24222 "dls2.ml" 705 24202 24226
+  int_ref stmt "dls2.ml" 689 23742 23762 "dls2.ml" 689 23742 23766
 )
-"dls2.ml" 708 24346 24401 "dls2.ml" 708 24346 24404
+"dls2.ml" 694 23910 23965 "dls2.ml" 694 23910 23968
 type(
   Cfg.StmtSet.t
 )
 ident(
-  int_ref acc "dls2.ml" 705 24202 24227 "dls2.ml" 705 24202 24230
+  int_ref acc "dls2.ml" 689 23742 23767 "dls2.ml" 689 23742 23770
 )
-"dls2.ml" 708 24346 24383 "dls2.ml" 708 24346 24405
+"dls2.ml" 694 23910 23947 "dls2.ml" 694 23910 23969
 call(
   stack
 )
 type(
   Cfg.StmtSet.t
 )
-"dls2.ml" 708 24346 24363 "dls2.ml" 708 24346 24405
+"dls2.ml" 694 23910 23927 "dls2.ml" 694 23910 23969
 call(
   tail
 )
 type(
   Cfg.StmtSet.t
 )
-"dls2.ml" 706 24234 24240 "dls2.ml" 708 24346 24405
+"dls2.ml" 690 23774 23780 "dls2.ml" 694 23910 23969
 type(
   Cfg.StmtSet.t
 )
-"dls2.ml" 705 24202 24217 "dls2.ml" 709 24406 24409
+"dls2.ml" 689 23742 23757 "dls2.ml" 695 23970 23973
 type(
   Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t
 )
-"dls2.ml" 709 24406 24410 "dls2.ml" 709 24406 24414
+"dls2.ml" 695 23970 23974 "dls2.ml" 695 23970 23978
 type(
   Cfg.StmtSet.t
 )
 ident(
-  int_ref todo "dls2.ml" 704 24170 24187 "dls2.ml" 704 24170 24191
+  int_ref todo "dls2.ml" 688 23710 23727 "dls2.ml" 688 23710 23731
 )
-"dls2.ml" 709 24406 24415 "dls2.ml" 709 24406 24422
+"dls2.ml" 695 23970 23979 "dls2.ml" 695 23970 23986
 type(
   Cfg.StmtSet.t
 )
 ident(
-  int_ref visited "dls2.ml" 704 24170 24192 "dls2.ml" 704 24170 24199
+  int_ref visited "dls2.ml" 688 23710 23732 "dls2.ml" 688 23710 23739
 )
-"dls2.ml" 705 24202 24204 "dls2.ml" 709 24406 24422
+"dls2.ml" 689 23742 23744 "dls2.ml" 695 23970 23986
 call(
   tail
 )
 type(
   Cfg.StmtSet.t
 )
-"dls2.ml" 716 24617 24621 "dls2.ml" 716 24617 24629
+"dls2.ml" 697 23988 23992 "dls2.ml" 697 23988 24000
 type(
   Cfg.StmtSet.elt -> Cfg.stmt list
 )
 ident(
-  def find_def "dls2.ml" 725 24919 24919 --
+  def find_def "dls2.ml" 706 24290 24290 --
 )
-"dls2.ml" 716 24617 24630 "dls2.ml" 716 24617 24634
+"dls2.ml" 697 23988 24001 "dls2.ml" 697 23988 24005
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  def stmt "dls2.ml" 718 24640 24642 "dls2.ml" 722 24820 24898
+  def stmt "dls2.ml" 699 24011 24013 "dls2.ml" 703 24191 24269
 )
-"dls2.ml" 718 24640 24642 "dls2.ml" 718 24640 24654
+"dls2.ml" 699 24011 24013 "dls2.ml" 699 24011 24025
 type(
   (Cfg.StmtSet.elt -> Cfg.stmt list -> Cfg.stmt list) ->
   Cfg.StmtSet.t -> Cfg.stmt list -> Cfg.stmt list
@@ -15540,224 +15212,224 @@ type(
 ident(
   ext_ref Cfg.StmtSet.fold
 )
-"dls2.ml" 718 24640 24660 "dls2.ml" 718 24640 24661
+"dls2.ml" 699 24011 24031 "dls2.ml" 699 24011 24032
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  def x "dls2.ml" 718 24640 24662 "dls2.ml" 721 24785 24819
+  def x "dls2.ml" 699 24011 24033 "dls2.ml" 702 24156 24190
 )
-"dls2.ml" 718 24640 24662 "dls2.ml" 718 24640 24665
+"dls2.ml" 699 24011 24033 "dls2.ml" 699 24011 24036
 type(
   Cfg.stmt list
 )
 ident(
-  def acc "dls2.ml" 719 24670 24694 "dls2.ml" 721 24785 24819
+  def acc "dls2.ml" 700 24041 24065 "dls2.ml" 702 24156 24190
 )
-"dls2.ml" 719 24670 24700 "dls2.ml" 719 24670 24701
+"dls2.ml" 700 24041 24071 "dls2.ml" 700 24041 24072
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  int_ref x "dls2.ml" 718 24640 24660 "dls2.ml" 718 24640 24661
+  int_ref x "dls2.ml" 699 24011 24031 "dls2.ml" 699 24011 24032
 )
-"dls2.ml" 719 24670 24700 "dls2.ml" 719 24670 24707
+"dls2.ml" 700 24041 24071 "dls2.ml" 700 24041 24078
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 720 24713 24746 "dls2.ml" 720 24713 24747
+"dls2.ml" 701 24084 24117 "dls2.ml" 701 24084 24118
 type(
   Cfg.def_name
 )
-"dls2.ml" 720 24713 24748 "dls2.ml" 720 24713 24749
+"dls2.ml" 701 24084 24119 "dls2.ml" 701 24084 24120
 type(
   Cfg.method_formal_param list
 )
-"dls2.ml" 720 24713 24751 "dls2.ml" 720 24713 24752
+"dls2.ml" 701 24084 24122 "dls2.ml" 701 24084 24123
 type(
   Cfg.stmt
 )
 ident(
-  def s "dls2.ml" 720 24713 24757 "dls2.ml" 720 24713 24784
+  def s "dls2.ml" 701 24084 24128 "dls2.ml" 701 24084 24155
 )
-"dls2.ml" 720 24713 24739 "dls2.ml" 720 24713 24753
+"dls2.ml" 701 24084 24110 "dls2.ml" 701 24084 24124
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 720 24713 24757 "dls2.ml" 720 24713 24767
+"dls2.ml" 701 24084 24128 "dls2.ml" 701 24084 24138
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dls2.ml" 720 24713 24768 "dls2.ml" 720 24713 24774
+"dls2.ml" 701 24084 24139 "dls2.ml" 701 24084 24145
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stdout
 )
-"dls2.ml" 720 24713 24775 "dls2.ml" 720 24713 24776
+"dls2.ml" 701 24084 24146 "dls2.ml" 701 24084 24147
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 720 24713 24751 "dls2.ml" 720 24713 24752
+  int_ref s "dls2.ml" 701 24084 24122 "dls2.ml" 701 24084 24123
 )
-"dls2.ml" 720 24713 24757 "dls2.ml" 720 24713 24776
+"dls2.ml" 701 24084 24128 "dls2.ml" 701 24084 24147
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 720 24713 24778 "dls2.ml" 720 24713 24779
+"dls2.ml" 701 24084 24149 "dls2.ml" 701 24084 24150
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 720 24713 24751 "dls2.ml" 720 24713 24752
+  int_ref s "dls2.ml" 701 24084 24122 "dls2.ml" 701 24084 24123
 )
-"dls2.ml" 720 24713 24781 "dls2.ml" 720 24713 24784
+"dls2.ml" 701 24084 24152 "dls2.ml" 701 24084 24155
 type(
   Cfg.stmt list
 )
 ident(
-  int_ref acc "dls2.ml" 718 24640 24662 "dls2.ml" 718 24640 24665
+  int_ref acc "dls2.ml" 699 24011 24033 "dls2.ml" 699 24011 24036
 )
-"dls2.ml" 720 24713 24778 "dls2.ml" 720 24713 24784
+"dls2.ml" 701 24084 24149 "dls2.ml" 701 24084 24155
 type(
   Cfg.stmt list
 )
-"dls2.ml" 720 24713 24757 "dls2.ml" 720 24713 24784
+"dls2.ml" 701 24084 24128 "dls2.ml" 701 24084 24155
 type(
   Cfg.stmt list
 )
-"dls2.ml" 721 24785 24811 "dls2.ml" 721 24785 24812
+"dls2.ml" 702 24156 24182 "dls2.ml" 702 24156 24183
 type(
   Cfg.stmt_node
 )
-"dls2.ml" 721 24785 24816 "dls2.ml" 721 24785 24819
+"dls2.ml" 702 24156 24187 "dls2.ml" 702 24156 24190
 type(
   Cfg.stmt list
 )
 ident(
-  int_ref acc "dls2.ml" 718 24640 24662 "dls2.ml" 718 24640 24665
+  int_ref acc "dls2.ml" 699 24011 24033 "dls2.ml" 699 24011 24036
 )
-"dls2.ml" 719 24670 24694 "dls2.ml" 721 24785 24819
+"dls2.ml" 700 24041 24065 "dls2.ml" 702 24156 24190
 type(
   Cfg.stmt list
 )
-"dls2.ml" 718 24640 24655 "dls2.ml" 722 24820 24837
+"dls2.ml" 699 24011 24026 "dls2.ml" 703 24191 24208
 type(
   Cfg.StmtSet.elt -> Cfg.stmt list -> Cfg.stmt list
 )
-"dls2.ml" 722 24820 24839 "dls2.ml" 722 24820 24847
+"dls2.ml" 703 24191 24210 "dls2.ml" 703 24191 24218
 type(
   Cfg.StmtSet.t -> Cfg.StmtSet.t -> Cfg.StmtSet.t
 )
 ident(
-  int_ref acc_stmt "dls2.ml" 704 24170 24178 "dls2.ml" 704 24170 24186
+  int_ref acc_stmt "dls2.ml" 688 23710 23718 "dls2.ml" 688 23710 23726
 )
-"dls2.ml" 722 24820 24849 "dls2.ml" 722 24820 24860
+"dls2.ml" 703 24191 24220 "dls2.ml" 703 24191 24231
 type(
   Cfg.StmtSet.elt -> Cfg.StmtSet.t -> Cfg.StmtSet.t
 )
 ident(
   ext_ref Cfg.StmtSet.add
 )
-"dls2.ml" 722 24820 24861 "dls2.ml" 722 24820 24865
+"dls2.ml" 703 24191 24232 "dls2.ml" 703 24191 24236
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  int_ref stmt "dls2.ml" 716 24617 24630 "dls2.ml" 716 24617 24634
+  int_ref stmt "dls2.ml" 697 23988 24001 "dls2.ml" 697 23988 24005
 )
-"dls2.ml" 722 24820 24866 "dls2.ml" 722 24820 24879
+"dls2.ml" 703 24191 24237 "dls2.ml" 703 24191 24250
 type(
   Cfg.StmtSet.t
 )
 ident(
   ext_ref Cfg.StmtSet.empty
 )
-"dls2.ml" 722 24820 24848 "dls2.ml" 722 24820 24880
+"dls2.ml" 703 24191 24219 "dls2.ml" 703 24191 24251
 call(
   stack
 )
 type(
   Cfg.StmtSet.t
 )
-"dls2.ml" 722 24820 24881 "dls2.ml" 722 24820 24894
+"dls2.ml" 703 24191 24252 "dls2.ml" 703 24191 24265
 type(
   Cfg.StmtSet.t
 )
 ident(
   ext_ref Cfg.StmtSet.empty
 )
-"dls2.ml" 722 24820 24838 "dls2.ml" 722 24820 24895
+"dls2.ml" 703 24191 24209 "dls2.ml" 703 24191 24266
 call(
   stack
 )
 type(
   Cfg.StmtSet.t
 )
-"dls2.ml" 722 24820 24896 "dls2.ml" 722 24820 24898
+"dls2.ml" 703 24191 24267 "dls2.ml" 703 24191 24269
 type(
   Cfg.stmt list
 )
-"dls2.ml" 718 24640 24642 "dls2.ml" 722 24820 24898
+"dls2.ml" 699 24011 24013 "dls2.ml" 703 24191 24269
 call(
   tail
 )
 type(
   Cfg.stmt list
 )
-"dls2.ml" 725 24919 24923 "dls2.ml" 725 24919 24927
+"dls2.ml" 706 24290 24294 "dls2.ml" 706 24290 24298
 type(
   string -> unit
 )
 ident(
-  def main "dls2.ml" 775 26970 26970 --
+  def main "dls2.ml" 756 26342 26342 --
 )
-"dls2.ml" 725 24919 24928 "dls2.ml" 725 24919 24933
+"dls2.ml" 706 24290 24299 "dls2.ml" 706 24290 24304
 type(
   string
 )
 ident(
-  def fname "dls2.ml" 726 24936 24938 "dls2.ml" 772 26917 26963
+  def fname "dls2.ml" 707 24307 24309 "dls2.ml" 753 26288 26335
 )
-"dls2.ml" 726 24936 24942 "dls2.ml" 726 24936 24948
+"dls2.ml" 707 24307 24313 "dls2.ml" 707 24307 24319
 type(
   File_loader.t
 )
-"dls2.ml" 726 24936 24951 "dls2.ml" 726 24936 24969
+"dls2.ml" 707 24307 24322 "dls2.ml" 707 24307 24340
 type(
   File_loader.c_handler -> string list -> File_loader.t
 )
 ident(
   ext_ref File_loader.create
 )
-"dls2.ml" 726 24936 24970 "dls2.ml" 726 24936 24990
+"dls2.ml" 707 24307 24341 "dls2.ml" 707 24307 24361
 type(
   File_loader.c_handler
 )
-"dls2.ml" 726 24936 24991 "dls2.ml" 726 24936 24993
+"dls2.ml" 707 24307 24362 "dls2.ml" 707 24307 24364
 type(
   string list
 )
-"dls2.ml" 726 24936 24951 "dls2.ml" 726 24936 24993
+"dls2.ml" 707 24307 24322 "dls2.ml" 707 24307 24364
 call(
   stack
 )
 type(
   File_loader.t
 )
-"dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+"dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 type(
   Cfg.stmt
 )
-"dls2.ml" 727 24997 25007 "dls2.ml" 727 24997 25028
+"dls2.ml" 708 24368 24378 "dls2.ml" 708 24368 24399
 type(
   File_loader.t ->
   ?mod_ast_f:(Ast.expr list -> Ast.expr list) ->
@@ -15766,241 +15438,241 @@ type(
 ident(
   ext_ref File_loader.load_file
 )
-"dls2.ml" 727 24997 25029 "dls2.ml" 727 24997 25035
+"dls2.ml" 708 24368 24400 "dls2.ml" 708 24368 24406
 type(
   File_loader.t
 )
 ident(
-  int_ref loader "dls2.ml" 726 24936 24942 "dls2.ml" 726 24936 24948
+  int_ref loader "dls2.ml" 707 24307 24313 "dls2.ml" 707 24307 24319
 )
-"dls2.ml" 727 24997 25036 "dls2.ml" 727 24997 25041
+"dls2.ml" 708 24368 24407 "dls2.ml" 708 24368 24412
 type(
   string
 )
 ident(
-  int_ref fname "dls2.ml" 725 24919 24928 "dls2.ml" 725 24919 24933
+  int_ref fname "dls2.ml" 706 24290 24299 "dls2.ml" 706 24290 24304
 )
-"dls2.ml" 727 24997 25007 "dls2.ml" 727 24997 25041
+"dls2.ml" 708 24368 24378 "dls2.ml" 708 24368 24412
 call(
   stack
 )
 type(
   Cfg.stmt
 )
-"dls2.ml" 728 25045 25051 "dls2.ml" 728 25045 25053
+"dls2.ml" 709 24416 24422 "dls2.ml" 709 24416 24424
 type(
   unit
 )
-"dls2.ml" 728 25045 25056 "dls2.ml" 728 25045 25067
+"dls2.ml" 709 24416 24427 "dls2.ml" 709 24416 24438
 type(
   Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg.compute_cfg
 )
-"dls2.ml" 728 25045 25068 "dls2.ml" 728 25045 25069
+"dls2.ml" 709 24416 24439 "dls2.ml" 709 24416 24440
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+  int_ref s "dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 )
-"dls2.ml" 728 25045 25056 "dls2.ml" 728 25045 25069
+"dls2.ml" 709 24416 24427 "dls2.ml" 709 24416 24440
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 729 25073 25079 "dls2.ml" 729 25073 25081
+"dls2.ml" 710 24444 24450 "dls2.ml" 710 24444 24452
 type(
   unit
 )
-"dls2.ml" 729 25073 25084 "dls2.ml" 729 25073 25102
+"dls2.ml" 710 24444 24455 "dls2.ml" 710 24444 24473
 type(
   ?env:Utils.StrSet.t -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg.compute_cfg_locals
 )
-"dls2.ml" 729 25073 25103 "dls2.ml" 729 25073 25104
+"dls2.ml" 710 24444 24474 "dls2.ml" 710 24444 24475
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+  int_ref s "dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 )
-"dls2.ml" 729 25073 25084 "dls2.ml" 729 25073 25104
+"dls2.ml" 710 24444 24455 "dls2.ml" 710 24444 24475
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 730 25108 25110 "dls2.ml" 730 25108 25122
+"dls2.ml" 711 24479 24481 "dls2.ml" 711 24479 24493
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 730 25108 25123 "dls2.ml" 730 25108 25149
+"dls2.ml" 711 24479 24494 "dls2.ml" 711 24479 24520
 type(
   string
 )
-"dls2.ml" 730 25108 25110 "dls2.ml" 730 25108 25149
+"dls2.ml" 711 24479 24481 "dls2.ml" 711 24479 24520
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 731 25152 25154 "dls2.ml" 731 25152 25164
+"dls2.ml" 712 24523 24525 "dls2.ml" 712 24523 24535
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dls2.ml" 731 25152 25165 "dls2.ml" 731 25152 25171
+"dls2.ml" 712 24523 24536 "dls2.ml" 712 24523 24542
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stdout
 )
-"dls2.ml" 731 25152 25172 "dls2.ml" 731 25152 25173
+"dls2.ml" 712 24523 24543 "dls2.ml" 712 24523 24544
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+  int_ref s "dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 )
-"dls2.ml" 731 25152 25154 "dls2.ml" 731 25152 25173
+"dls2.ml" 712 24523 24525 "dls2.ml" 712 24523 24544
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 734 25191 25193 "dls2.ml" 734 25191 25202
+"dls2.ml" 715 24562 24564 "dls2.ml" 715 24562 24573
 type(
   int -> unit
 )
 ident(
   ext_ref Pervasives.print_int
 )
-"dls2.ml" 734 25191 25203 "dls2.ml" 734 25191 25204
+"dls2.ml" 715 24562 24574 "dls2.ml" 715 24562 24575
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+  int_ref s "dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 )
-"dls2.ml" 734 25191 25203 "dls2.ml" 734 25191 25208
+"dls2.ml" 715 24562 24574 "dls2.ml" 715 24562 24579
 type(
   Cfg.pos
 )
-"dls2.ml" 734 25191 25203 "dls2.ml" 734 25191 25224
+"dls2.ml" 715 24562 24574 "dls2.ml" 715 24562 24595
 type(
   int
 )
-"dls2.ml" 734 25191 25193 "dls2.ml" 734 25191 25224
+"dls2.ml" 715 24562 24564 "dls2.ml" 715 24562 24595
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 737 25236 25238 "dls2.ml" 737 25236 25250
+"dls2.ml" 718 24607 24609 "dls2.ml" 718 24607 24621
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 737 25236 25251 "dls2.ml" 737 25236 25304
+"dls2.ml" 718 24607 24622 "dls2.ml" 718 24607 24675
 type(
   string
 )
-"dls2.ml" 737 25236 25238 "dls2.ml" 737 25236 25304
+"dls2.ml" 718 24607 24609 "dls2.ml" 718 24607 24675
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 739 25307 25309 "dls2.ml" 739 25307 25321
+"dls2.ml" 720 24678 24680 "dls2.ml" 720 24678 24692
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 739 25307 25322 "dls2.ml" 739 25307 25365
+"dls2.ml" 720 24678 24693 "dls2.ml" 720 24678 24736
 type(
   string
 )
-"dls2.ml" 739 25307 25309 "dls2.ml" 739 25307 25365
+"dls2.ml" 720 24678 24680 "dls2.ml" 720 24678 24736
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 740 25367 25373 "dls2.ml" 740 25367 25381
+"dls2.ml" 721 24738 24744 "dls2.ml" 721 24738 24752
 type(
   Cfg.stmt list
 )
-"dls2.ml" 740 25367 25384 "dls2.ml" 740 25367 25392
+"dls2.ml" 721 24738 24755 "dls2.ml" 721 24738 24763
 type(
   Cfg.StmtSet.elt -> Cfg.stmt list
 )
 ident(
-  int_ref find_def "dls2.ml" 716 24617 24621 "dls2.ml" 716 24617 24629
+  int_ref find_def "dls2.ml" 697 23988 23992 "dls2.ml" 697 23988 24000
 )
-"dls2.ml" 740 25367 25393 "dls2.ml" 740 25367 25394
+"dls2.ml" 721 24738 24764 "dls2.ml" 721 24738 24765
 type(
   Cfg.StmtSet.elt
 )
 ident(
-  int_ref s "dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+  int_ref s "dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 )
-"dls2.ml" 740 25367 25384 "dls2.ml" 740 25367 25394
+"dls2.ml" 721 24738 24755 "dls2.ml" 721 24738 24765
 call(
   stack
 )
 type(
   Cfg.stmt list
 )
-"dls2.ml" 741 25398 25402 "dls2.ml" 741 25398 25411
+"dls2.ml" 722 24769 24773 "dls2.ml" 722 24769 24782
 type(
   (Cfg.stmt -> unit) -> Cfg.stmt list -> unit
 )
 ident(
   ext_ref List.iter
 )
-"dls2.ml" 741 25398 25417 "dls2.ml" 741 25398 25418
+"dls2.ml" 722 24769 24788 "dls2.ml" 722 24769 24789
 type(
   Cfg.stmt
 )
 ident(
-  def x "dls2.ml" 741 25398 25422 "dls2.ml" 747 25825 25909
+  def x "dls2.ml" 722 24769 24793 "dls2.ml" 728 25196 25280
 )
-"dls2.ml" 741 25398 25426 "dls2.ml" 741 25398 25427
+"dls2.ml" 722 24769 24797 "dls2.ml" 722 24769 24798
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 741 25398 25429 "dls2.ml" 741 25398 25430
+"dls2.ml" 722 24769 24800 "dls2.ml" 722 24769 24801
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 741 25398 25426 "dls2.ml" 741 25398 25430
+"dls2.ml" 722 24769 24797 "dls2.ml" 722 24769 24801
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 741 25398 25433 "dls2.ml" 741 25398 25450
+"dls2.ml" 722 24769 24804 "dls2.ml" 722 24769 24821
 type(
   Cfg.stmt ->
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
@@ -16009,14 +15681,14 @@ type(
 ident(
   ext_ref Liveness.fixpoint
 )
-"dls2.ml" 741 25398 25451 "dls2.ml" 741 25398 25452
+"dls2.ml" 722 24769 24822 "dls2.ml" 722 24769 24823
 type(
   Cfg.stmt
 )
 ident(
-  int_ref x "dls2.ml" 741 25398 25417 "dls2.ml" 741 25398 25418
+  int_ref x "dls2.ml" 722 24769 24788 "dls2.ml" 722 24769 24789
 )
-"dls2.ml" 741 25398 25433 "dls2.ml" 741 25398 25452
+"dls2.ml" 722 24769 24804 "dls2.ml" 722 24769 24823
 call(
   stack
 )
@@ -16024,32 +15696,32 @@ type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 742 25456 25476 "dls2.ml" 742 25456 25488
+"dls2.ml" 723 24827 24847 "dls2.ml" 723 24827 24859
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 742 25456 25489 "dls2.ml" 742 25456 25542
+"dls2.ml" 723 24827 24860 "dls2.ml" 723 24827 24913
 type(
   string
 )
-"dls2.ml" 742 25456 25476 "dls2.ml" 742 25456 25542
+"dls2.ml" 723 24827 24847 "dls2.ml" 723 24827 24913
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 743 25544 25564 "dls2.ml" 743 25544 25570
+"dls2.ml" 724 24915 24935 "dls2.ml" 724 24915 24941
 type(
   string -> unit
 )
 ident(
   int_ref justif "dls2.ml" 407 12463 12467 "dls2.ml" 407 12463 12473
 )
-"dls2.ml" 743 25544 25572 "dls2.ml" 743 25544 25587
+"dls2.ml" 724 24915 24943 "dls2.ml" 724 24915 24958
 type(
   Cfg.stmt ->
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> int -> string
@@ -16057,82 +15729,82 @@ type(
 ident(
   int_ref print_var_table "dls2.ml" 494 15116 15128 "dls2.ml" 494 15116 15143
 )
-"dls2.ml" 743 25544 25588 "dls2.ml" 743 25544 25589
+"dls2.ml" 724 24915 24959 "dls2.ml" 724 24915 24960
 type(
   Cfg.stmt
 )
 ident(
-  int_ref x "dls2.ml" 741 25398 25417 "dls2.ml" 741 25398 25418
+  int_ref x "dls2.ml" 722 24769 24788 "dls2.ml" 722 24769 24789
 )
-"dls2.ml" 743 25544 25590 "dls2.ml" 743 25544 25591
+"dls2.ml" 724 24915 24961 "dls2.ml" 724 24915 24962
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref i "dls2.ml" 741 25398 25429 "dls2.ml" 741 25398 25430
+  int_ref i "dls2.ml" 722 24769 24800 "dls2.ml" 722 24769 24801
 )
-"dls2.ml" 743 25544 25592 "dls2.ml" 743 25544 25593
+"dls2.ml" 724 24915 24963 "dls2.ml" 724 24915 24964
 type(
   int
 )
-"dls2.ml" 743 25544 25571 "dls2.ml" 743 25544 25594
+"dls2.ml" 724 24915 24942 "dls2.ml" 724 24915 24965
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 743 25544 25564 "dls2.ml" 743 25544 25594
+"dls2.ml" 724 24915 24935 "dls2.ml" 724 24915 24965
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 744 25597 25617 "dls2.ml" 744 25597 25629
+"dls2.ml" 725 24968 24988 "dls2.ml" 725 24968 25000
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 744 25597 25630 "dls2.ml" 744 25597 25680
+"dls2.ml" 725 24968 25001 "dls2.ml" 725 24968 25051
 type(
   string
 )
-"dls2.ml" 744 25597 25617 "dls2.ml" 744 25597 25680
+"dls2.ml" 725 24968 24988 "dls2.ml" 725 24968 25051
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 745 25684 25704 "dls2.ml" 745 25684 25716
+"dls2.ml" 726 25055 25075 "dls2.ml" 726 25055 25087
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 745 25684 25717 "dls2.ml" 745 25684 25771
+"dls2.ml" 726 25055 25088 "dls2.ml" 726 25055 25142
 type(
   string
 )
-"dls2.ml" 745 25684 25704 "dls2.ml" 745 25684 25771
+"dls2.ml" 726 25055 25075 "dls2.ml" 726 25055 25142
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 746 25773 25793 "dls2.ml" 746 25773 25799
+"dls2.ml" 727 25144 25164 "dls2.ml" 727 25144 25170
 type(
   string -> unit
 )
 ident(
   int_ref justif "dls2.ml" 407 12463 12467 "dls2.ml" 407 12463 12473
 )
-"dls2.ml" 746 25773 25801 "dls2.ml" 746 25773 25816
+"dls2.ml" 727 25144 25172 "dls2.ml" 727 25144 25187
 type(
   Cfg.stmt ->
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> int -> string
@@ -16140,112 +15812,112 @@ type(
 ident(
   int_ref print_var_table "dls2.ml" 494 15116 15128 "dls2.ml" 494 15116 15143
 )
-"dls2.ml" 746 25773 25817 "dls2.ml" 746 25773 25818
+"dls2.ml" 727 25144 25188 "dls2.ml" 727 25144 25189
 type(
   Cfg.stmt
 )
 ident(
-  int_ref x "dls2.ml" 741 25398 25417 "dls2.ml" 741 25398 25418
+  int_ref x "dls2.ml" 722 24769 24788 "dls2.ml" 722 24769 24789
 )
-"dls2.ml" 746 25773 25819 "dls2.ml" 746 25773 25820
+"dls2.ml" 727 25144 25190 "dls2.ml" 727 25144 25191
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref o "dls2.ml" 741 25398 25426 "dls2.ml" 741 25398 25427
+  int_ref o "dls2.ml" 722 24769 24797 "dls2.ml" 722 24769 24798
 )
-"dls2.ml" 746 25773 25821 "dls2.ml" 746 25773 25822
+"dls2.ml" 727 25144 25192 "dls2.ml" 727 25144 25193
 type(
   int
 )
-"dls2.ml" 746 25773 25800 "dls2.ml" 746 25773 25823
+"dls2.ml" 727 25144 25171 "dls2.ml" 727 25144 25194
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 746 25773 25793 "dls2.ml" 746 25773 25823
+"dls2.ml" 727 25144 25164 "dls2.ml" 727 25144 25194
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 747 25825 25845 "dls2.ml" 747 25825 25857
+"dls2.ml" 728 25196 25216 "dls2.ml" 728 25196 25228
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 747 25825 25858 "dls2.ml" 747 25825 25908
+"dls2.ml" 728 25196 25229 "dls2.ml" 728 25196 25279
 type(
   string
 )
-"dls2.ml" 747 25825 25845 "dls2.ml" 747 25825 25909
+"dls2.ml" 728 25196 25216 "dls2.ml" 728 25196 25280
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 746 25773 25793 "dls2.ml" 747 25825 25909
+"dls2.ml" 727 25144 25164 "dls2.ml" 728 25196 25280
 type(
   unit
 )
-"dls2.ml" 745 25684 25704 "dls2.ml" 747 25825 25909
+"dls2.ml" 726 25055 25075 "dls2.ml" 728 25196 25280
 type(
   unit
 )
-"dls2.ml" 744 25597 25617 "dls2.ml" 747 25825 25909
+"dls2.ml" 725 24968 24988 "dls2.ml" 728 25196 25280
 type(
   unit
 )
-"dls2.ml" 743 25544 25564 "dls2.ml" 747 25825 25909
+"dls2.ml" 724 24915 24935 "dls2.ml" 728 25196 25280
 type(
   unit
 )
-"dls2.ml" 742 25456 25476 "dls2.ml" 747 25825 25909
+"dls2.ml" 723 24827 24847 "dls2.ml" 728 25196 25280
 type(
   unit
 )
-"dls2.ml" 741 25398 25422 "dls2.ml" 747 25825 25909
+"dls2.ml" 722 24769 24793 "dls2.ml" 728 25196 25280
 type(
   unit
 )
-"dls2.ml" 741 25398 25412 "dls2.ml" 748 25912 25915
+"dls2.ml" 722 24769 24783 "dls2.ml" 729 25283 25286
 type(
   Cfg.stmt -> unit
 )
-"dls2.ml" 748 25912 25916 "dls2.ml" 748 25912 25924
+"dls2.ml" 729 25283 25287 "dls2.ml" 729 25283 25295
 type(
   Cfg.stmt list
 )
 ident(
-  int_ref list_def "dls2.ml" 740 25367 25373 "dls2.ml" 740 25367 25381
+  int_ref list_def "dls2.ml" 721 24738 24744 "dls2.ml" 721 24738 24752
 )
-"dls2.ml" 741 25398 25402 "dls2.ml" 748 25912 25924
+"dls2.ml" 722 24769 24773 "dls2.ml" 729 25283 25295
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 750 25927 25933 "dls2.ml" 750 25927 25936
+"dls2.ml" 731 25298 25304 "dls2.ml" 731 25298 25307
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 750 25927 25938 "dls2.ml" 750 25927 25941
+"dls2.ml" 731 25298 25309 "dls2.ml" 731 25298 25312
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 750 25927 25933 "dls2.ml" 750 25927 25941
+"dls2.ml" 731 25298 25304 "dls2.ml" 731 25298 25312
 type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 750 25927 25944 "dls2.ml" 750 25927 25961
+"dls2.ml" 731 25298 25315 "dls2.ml" 731 25298 25332
 type(
   Cfg.stmt ->
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
@@ -16254,14 +15926,14 @@ type(
 ident(
   ext_ref Liveness.fixpoint
 )
-"dls2.ml" 750 25927 25962 "dls2.ml" 750 25927 25963
+"dls2.ml" 731 25298 25333 "dls2.ml" 731 25298 25334
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+  int_ref s "dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 )
-"dls2.ml" 750 25927 25944 "dls2.ml" 750 25927 25963
+"dls2.ml" 731 25298 25315 "dls2.ml" 731 25298 25334
 call(
   stack
 )
@@ -16269,164 +15941,164 @@ type(
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t *
   (Cfg.stmt, LivenessAnalysis.t) Hashtbl.t
 )
-"dls2.ml" 751 25967 25969 "dls2.ml" 751 25967 25981
+"dls2.ml" 732 25338 25340 "dls2.ml" 732 25338 25352
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 751 25967 25982 "dls2.ml" 751 25967 26029
+"dls2.ml" 732 25338 25353 "dls2.ml" 732 25338 25400
 type(
   string
 )
-"dls2.ml" 751 25967 25969 "dls2.ml" 751 25967 26029
+"dls2.ml" 732 25338 25340 "dls2.ml" 732 25338 25400
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 752 26032 26034 "dls2.ml" 752 26032 26046
+"dls2.ml" 733 25403 25405 "dls2.ml" 733 25403 25417
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 752 26032 26047 "dls2.ml" 752 26032 26064
+"dls2.ml" 733 25403 25418 "dls2.ml" 733 25403 25435
 type(
   string
 )
-"dls2.ml" 752 26032 26034 "dls2.ml" 752 26032 26064
+"dls2.ml" 733 25403 25405 "dls2.ml" 733 25403 25435
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 753 26067 26069 "dls2.ml" 753 26067 26079
+"dls2.ml" 734 25438 25440 "dls2.ml" 734 25438 25450
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
 )
 ident(
-  int_ref print_hash "dls2.ml" 660 22856 22862 "dls2.ml" 660 22856 22872
+  int_ref print_hash "dls2.ml" 662 22882 22888 "dls2.ml" 662 22882 22898
 )
-"dls2.ml" 753 26067 26080 "dls2.ml" 753 26067 26083
+"dls2.ml" 734 25438 25451 "dls2.ml" 734 25438 25454
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref ifs "dls2.ml" 750 25927 25938 "dls2.ml" 750 25927 25941
+  int_ref ifs "dls2.ml" 731 25298 25309 "dls2.ml" 731 25298 25312
 )
-"dls2.ml" 753 26067 26069 "dls2.ml" 753 26067 26083
+"dls2.ml" 734 25438 25440 "dls2.ml" 734 25438 25454
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 754 26086 26088 "dls2.ml" 754 26086 26100
+"dls2.ml" 735 25457 25459 "dls2.ml" 735 25457 25471
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 754 26086 26101 "dls2.ml" 754 26086 26148
+"dls2.ml" 735 25457 25472 "dls2.ml" 735 25457 25519
 type(
   string
 )
-"dls2.ml" 754 26086 26088 "dls2.ml" 754 26086 26148
+"dls2.ml" 735 25457 25459 "dls2.ml" 735 25457 25519
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 755 26151 26153 "dls2.ml" 755 26151 26165
+"dls2.ml" 736 25522 25524 "dls2.ml" 736 25522 25536
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 755 26151 26166 "dls2.ml" 755 26151 26183
+"dls2.ml" 736 25522 25537 "dls2.ml" 736 25522 25554
 type(
   string
 )
-"dls2.ml" 755 26151 26153 "dls2.ml" 755 26151 26183
+"dls2.ml" 736 25522 25524 "dls2.ml" 736 25522 25554
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 756 26186 26188 "dls2.ml" 756 26186 26198
+"dls2.ml" 737 25557 25559 "dls2.ml" 737 25557 25569
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
 )
 ident(
-  int_ref print_hash "dls2.ml" 660 22856 22862 "dls2.ml" 660 22856 22872
+  int_ref print_hash "dls2.ml" 662 22882 22888 "dls2.ml" 662 22882 22898
 )
-"dls2.ml" 756 26186 26199 "dls2.ml" 756 26186 26202
+"dls2.ml" 737 25557 25570 "dls2.ml" 737 25557 25573
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref ofs "dls2.ml" 750 25927 25933 "dls2.ml" 750 25927 25936
+  int_ref ofs "dls2.ml" 731 25298 25304 "dls2.ml" 731 25298 25307
 )
-"dls2.ml" 756 26186 26188 "dls2.ml" 756 26186 26202
+"dls2.ml" 737 25557 25559 "dls2.ml" 737 25557 25573
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 757 26205 26207 "dls2.ml" 757 26205 26219
+"dls2.ml" 738 25576 25578 "dls2.ml" 738 25576 25590
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 757 26205 26220 "dls2.ml" 757 26205 26270
+"dls2.ml" 738 25576 25591 "dls2.ml" 738 25576 25641
 type(
   string
 )
-"dls2.ml" 757 26205 26207 "dls2.ml" 757 26205 26270
+"dls2.ml" 738 25576 25578 "dls2.ml" 738 25576 25641
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 758 26274 26276 "dls2.ml" 758 26274 26288
+"dls2.ml" 739 25645 25647 "dls2.ml" 739 25645 25659
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 758 26274 26289 "dls2.ml" 758 26274 26321
+"dls2.ml" 739 25645 25660 "dls2.ml" 739 25645 25692
 type(
   string
 )
-"dls2.ml" 758 26274 26276 "dls2.ml" 758 26274 26321
+"dls2.ml" 739 25645 25647 "dls2.ml" 739 25645 25692
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 759 26323 26325 "dls2.ml" 759 26323 26331
+"dls2.ml" 740 25694 25696 "dls2.ml" 740 25694 25702
 type(
   string -> unit
 )
 ident(
   int_ref justif "dls2.ml" 407 12463 12467 "dls2.ml" 407 12463 12473
 )
-"dls2.ml" 759 26323 26333 "dls2.ml" 759 26323 26348
+"dls2.ml" 740 25694 25704 "dls2.ml" 740 25694 25719
 type(
   Cfg.stmt ->
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> int -> string
@@ -16434,82 +16106,82 @@ type(
 ident(
   int_ref print_var_table "dls2.ml" 494 15116 15128 "dls2.ml" 494 15116 15143
 )
-"dls2.ml" 759 26323 26349 "dls2.ml" 759 26323 26350
+"dls2.ml" 740 25694 25720 "dls2.ml" 740 25694 25721
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+  int_ref s "dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 )
-"dls2.ml" 759 26323 26351 "dls2.ml" 759 26323 26354
+"dls2.ml" 740 25694 25722 "dls2.ml" 740 25694 25725
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref ifs "dls2.ml" 750 25927 25938 "dls2.ml" 750 25927 25941
+  int_ref ifs "dls2.ml" 731 25298 25309 "dls2.ml" 731 25298 25312
 )
-"dls2.ml" 759 26323 26355 "dls2.ml" 759 26323 26356
+"dls2.ml" 740 25694 25726 "dls2.ml" 740 25694 25727
 type(
   int
 )
-"dls2.ml" 759 26323 26332 "dls2.ml" 759 26323 26357
+"dls2.ml" 740 25694 25703 "dls2.ml" 740 25694 25728
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 759 26323 26325 "dls2.ml" 759 26323 26357
+"dls2.ml" 740 25694 25696 "dls2.ml" 740 25694 25728
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 760 26359 26361 "dls2.ml" 760 26359 26373
+"dls2.ml" 741 25730 25732 "dls2.ml" 741 25730 25744
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 760 26359 26374 "dls2.ml" 760 26359 26424
+"dls2.ml" 741 25730 25745 "dls2.ml" 741 25730 25795
 type(
   string
 )
-"dls2.ml" 760 26359 26361 "dls2.ml" 760 26359 26424
+"dls2.ml" 741 25730 25732 "dls2.ml" 741 25730 25795
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 761 26428 26430 "dls2.ml" 761 26428 26442
+"dls2.ml" 742 25799 25801 "dls2.ml" 742 25799 25813
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 761 26428 26443 "dls2.ml" 761 26428 26476
+"dls2.ml" 742 25799 25814 "dls2.ml" 742 25799 25847
 type(
   string
 )
-"dls2.ml" 761 26428 26430 "dls2.ml" 761 26428 26476
+"dls2.ml" 742 25799 25801 "dls2.ml" 742 25799 25847
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 762 26478 26480 "dls2.ml" 762 26478 26486
+"dls2.ml" 743 25849 25851 "dls2.ml" 743 25849 25857
 type(
   string -> unit
 )
 ident(
   int_ref justif "dls2.ml" 407 12463 12467 "dls2.ml" 407 12463 12473
 )
-"dls2.ml" 762 26478 26488 "dls2.ml" 762 26478 26503
+"dls2.ml" 743 25849 25859 "dls2.ml" 743 25849 25874
 type(
   Cfg.stmt ->
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t -> int -> string
@@ -16517,325 +16189,325 @@ type(
 ident(
   int_ref print_var_table "dls2.ml" 494 15116 15128 "dls2.ml" 494 15116 15143
 )
-"dls2.ml" 762 26478 26504 "dls2.ml" 762 26478 26505
+"dls2.ml" 743 25849 25875 "dls2.ml" 743 25849 25876
 type(
   Cfg.stmt
 )
 ident(
-  int_ref s "dls2.ml" 727 24997 25003 "dls2.ml" 727 24997 25004
+  int_ref s "dls2.ml" 708 24368 24374 "dls2.ml" 708 24368 24375
 )
-"dls2.ml" 762 26478 26506 "dls2.ml" 762 26478 26509
+"dls2.ml" 743 25849 25877 "dls2.ml" 743 25849 25880
 type(
   (Cfg.stmt, LivenessAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref ofs "dls2.ml" 750 25927 25933 "dls2.ml" 750 25927 25936
+  int_ref ofs "dls2.ml" 731 25298 25304 "dls2.ml" 731 25298 25307
 )
-"dls2.ml" 762 26478 26510 "dls2.ml" 762 26478 26511
+"dls2.ml" 743 25849 25881 "dls2.ml" 743 25849 25882
 type(
   int
 )
-"dls2.ml" 762 26478 26487 "dls2.ml" 762 26478 26512
+"dls2.ml" 743 25849 25858 "dls2.ml" 743 25849 25883
 call(
   stack
 )
 type(
   string
 )
-"dls2.ml" 762 26478 26480 "dls2.ml" 762 26478 26512
+"dls2.ml" 743 25849 25851 "dls2.ml" 743 25849 25883
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 771 26847 26849 "dls2.ml" 771 26847 26862
+"dls2.ml" 752 26218 26220 "dls2.ml" 752 26218 26233
 type(
   (unit, out_channel, unit) format -> unit
 )
 ident(
   ext_ref Printf.printf
 )
-"dls2.ml" 771 26847 26862 "dls2.ml" 771 26847 26915
+"dls2.ml" 752 26218 26233 "dls2.ml" 752 26218 26286
 type(
   (unit, out_channel, unit) format
 )
-"dls2.ml" 771 26847 26849 "dls2.ml" 771 26847 26915
+"dls2.ml" 752 26218 26220 "dls2.ml" 752 26218 26286
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 772 26917 26919 "dls2.ml" 772 26917 26932
+"dls2.ml" 753 26288 26290 "dls2.ml" 753 26288 26303
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_endline
 )
-"dls2.ml" 772 26917 26933 "dls2.ml" 772 26917 26963
+"dls2.ml" 753 26288 26304 "dls2.ml" 753 26288 26335
 type(
   string
 )
-"dls2.ml" 772 26917 26919 "dls2.ml" 772 26917 26963
+"dls2.ml" 753 26288 26290 "dls2.ml" 753 26288 26335
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 771 26847 26849 "dls2.ml" 772 26917 26963
+"dls2.ml" 752 26218 26220 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 762 26478 26480 "dls2.ml" 772 26917 26963
+"dls2.ml" 743 25849 25851 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 761 26428 26430 "dls2.ml" 772 26917 26963
+"dls2.ml" 742 25799 25801 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 760 26359 26361 "dls2.ml" 772 26917 26963
+"dls2.ml" 741 25730 25732 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 759 26323 26325 "dls2.ml" 772 26917 26963
+"dls2.ml" 740 25694 25696 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 758 26274 26276 "dls2.ml" 772 26917 26963
+"dls2.ml" 739 25645 25647 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 757 26205 26207 "dls2.ml" 772 26917 26963
+"dls2.ml" 738 25576 25578 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 756 26186 26188 "dls2.ml" 772 26917 26963
+"dls2.ml" 737 25557 25559 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 755 26151 26153 "dls2.ml" 772 26917 26963
+"dls2.ml" 736 25522 25524 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 754 26086 26088 "dls2.ml" 772 26917 26963
+"dls2.ml" 735 25457 25459 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 753 26067 26069 "dls2.ml" 772 26917 26963
+"dls2.ml" 734 25438 25440 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 752 26032 26034 "dls2.ml" 772 26917 26963
+"dls2.ml" 733 25403 25405 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 751 25967 25969 "dls2.ml" 772 26917 26963
+"dls2.ml" 732 25338 25340 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 750 25927 25929 "dls2.ml" 772 26917 26963
+"dls2.ml" 731 25298 25300 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 741 25398 25402 "dls2.ml" 772 26917 26963
+"dls2.ml" 722 24769 24773 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 740 25367 25369 "dls2.ml" 772 26917 26963
+"dls2.ml" 721 24738 24740 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 739 25307 25309 "dls2.ml" 772 26917 26963
+"dls2.ml" 720 24678 24680 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 737 25236 25238 "dls2.ml" 772 26917 26963
+"dls2.ml" 718 24607 24609 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 734 25191 25193 "dls2.ml" 772 26917 26963
+"dls2.ml" 715 24562 24564 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 731 25152 25154 "dls2.ml" 772 26917 26963
+"dls2.ml" 712 24523 24525 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 730 25108 25110 "dls2.ml" 772 26917 26963
+"dls2.ml" 711 24479 24481 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 729 25073 25075 "dls2.ml" 772 26917 26963
+"dls2.ml" 710 24444 24446 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 728 25045 25047 "dls2.ml" 772 26917 26963
+"dls2.ml" 709 24416 24418 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 727 24997 24999 "dls2.ml" 772 26917 26963
+"dls2.ml" 708 24368 24370 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 726 24936 24938 "dls2.ml" 772 26917 26963
+"dls2.ml" 707 24307 24309 "dls2.ml" 753 26288 26335
 type(
   unit
 )
-"dls2.ml" 776 26979 26985 "dls2.ml" 776 26979 26997
+"dls2.ml" 757 26351 26357 "dls2.ml" 757 26351 26369
 type(
   string array -> int
 )
 ident(
   ext_ref Array.length
 )
-"dls2.ml" 776 26979 26998 "dls2.ml" 776 26979 27006
+"dls2.ml" 757 26351 26370 "dls2.ml" 757 26351 26378
 type(
   string array
 )
 ident(
   ext_ref Sys.argv
 )
-"dls2.ml" 776 26979 26984 "dls2.ml" 776 26979 27007
+"dls2.ml" 757 26351 26356 "dls2.ml" 757 26351 26379
 type(
   int
 )
-"dls2.ml" 776 26979 27008 "dls2.ml" 776 26979 27010
+"dls2.ml" 757 26351 26380 "dls2.ml" 757 26351 26382
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( != )
 )
-"dls2.ml" 776 26979 27011 "dls2.ml" 776 26979 27012
+"dls2.ml" 757 26351 26383 "dls2.ml" 757 26351 26384
 type(
   int
 )
-"dls2.ml" 776 26979 26984 "dls2.ml" 776 26979 27012
+"dls2.ml" 757 26351 26356 "dls2.ml" 757 26351 26384
 type(
   bool
 )
-"dls2.ml" 778 27027 27031 "dls2.ml" 778 27027 27045
+"dls2.ml" 759 26399 26403 "dls2.ml" 759 26399 26417
 type(
   (unit, out_channel, unit) format -> unit
 )
 ident(
   ext_ref Printf.eprintf
 )
-"dls2.ml" 778 27027 27046 "dls2.ml" 778 27027 27079
+"dls2.ml" 759 26399 26418 "dls2.ml" 759 26399 26451
 type(
   (unit, out_channel, unit) format
 )
-"dls2.ml" 778 27027 27031 "dls2.ml" 778 27027 27079
+"dls2.ml" 759 26399 26403 "dls2.ml" 759 26399 26451
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 779 27081 27085 "dls2.ml" 779 27081 27089
+"dls2.ml" 760 26453 26457 "dls2.ml" 760 26453 26461
 type(
   int -> unit
 )
 ident(
   ext_ref Pervasives.exit
 )
-"dls2.ml" 779 27081 27090 "dls2.ml" 779 27081 27091
+"dls2.ml" 760 26453 26462 "dls2.ml" 760 26453 26463
 type(
   int
 )
-"dls2.ml" 779 27081 27085 "dls2.ml" 779 27081 27091
+"dls2.ml" 760 26453 26457 "dls2.ml" 760 26453 26463
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 777 27014 27021 "dls2.ml" 780 27092 27097
+"dls2.ml" 758 26386 26393 "dls2.ml" 761 26464 26469
 type(
   unit
 )
-"dls2.ml" 776 26979 26981 "dls2.ml" 780 27092 27097
+"dls2.ml" 757 26351 26353 "dls2.ml" 761 26464 26469
 type(
   unit
 )
-"dls2.ml" 781 27099 27105 "dls2.ml" 781 27099 27110
+"dls2.ml" 762 26471 26477 "dls2.ml" 762 26471 26482
 type(
   string
 )
 ident(
-  def fname "dls2.ml" 782 27129 27131 "dls2.ml" 783 27143 27147
+  def fname "dls2.ml" 763 26501 26503 "dls2.ml" 764 26515 26519
 )
-"dls2.ml" 781 27099 27113 "dls2.ml" 781 27099 27121
+"dls2.ml" 762 26471 26485 "dls2.ml" 762 26471 26493
 type(
   string array
 )
 ident(
   ext_ref Sys.argv
 )
-"dls2.ml" 781 27099 27123 "dls2.ml" 781 27099 27124
+"dls2.ml" 762 26471 26495 "dls2.ml" 762 26471 26496
 type(
   int
 )
-"dls2.ml" 781 27099 27113 "dls2.ml" 781 27099 27125
+"dls2.ml" 762 26471 26485 "dls2.ml" 762 26471 26497
 type(
   string
 )
-"dls2.ml" 782 27129 27131 "dls2.ml" 782 27129 27135
+"dls2.ml" 763 26501 26503 "dls2.ml" 763 26501 26507
 type(
   string -> unit
 )
 ident(
-  int_ref main "dls2.ml" 725 24919 24923 "dls2.ml" 725 24919 24927
+  int_ref main "dls2.ml" 706 24290 24294 "dls2.ml" 706 24290 24298
 )
-"dls2.ml" 782 27129 27136 "dls2.ml" 782 27129 27141
+"dls2.ml" 763 26501 26508 "dls2.ml" 763 26501 26513
 type(
   string
 )
 ident(
-  int_ref fname "dls2.ml" 781 27099 27105 "dls2.ml" 781 27099 27110
+  int_ref fname "dls2.ml" 762 26471 26477 "dls2.ml" 762 26471 26482
 )
-"dls2.ml" 782 27129 27131 "dls2.ml" 782 27129 27141
+"dls2.ml" 763 26501 26503 "dls2.ml" 763 26501 26513
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 783 27143 27145 "dls2.ml" 783 27143 27147
+"dls2.ml" 764 26515 26517 "dls2.ml" 764 26515 26519
 type(
   unit
 )
-"dls2.ml" 782 27129 27131 "dls2.ml" 783 27143 27147
+"dls2.ml" 763 26501 26503 "dls2.ml" 764 26515 26519
 type(
   unit
 )
-"dls2.ml" 781 27099 27101 "dls2.ml" 783 27143 27147
+"dls2.ml" 762 26471 26473 "dls2.ml" 764 26515 26519
 type(
   unit
 )
-"dls2.ml" 776 26979 26981 "dls2.ml" 783 27143 27147
+"dls2.ml" 757 26351 26353 "dls2.ml" 764 26515 26519
 type(
   unit
 )
-"dls2.ml" 789 27195 27199 "dls2.ml" 789 27195 27209
+"dls2.ml" 770 26567 26571 "dls2.ml" 770 26567 26581
 type(
   (Cfg.stmt, NilAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
 )
 ident(
-  def print_hash "dls2.ml" 812 27950 27970 --
+  def print_hash "dls2.ml" 793 27322 27342 --
 )
-"dls2.ml" 789 27195 27210 "dls2.ml" 789 27195 27213
+"dls2.ml" 770 26567 26582 "dls2.ml" 770 26567 26585
 type(
   (Cfg.stmt, NilAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  def _fs "dls2.ml" 793 27352 27354 "dls2.ml" 812 27950 27970
+  def _fs "dls2.ml" 774 26724 26726 "dls2.ml" 793 27322 27342
 )
-"dls2.ml" 793 27352 27354 "dls2.ml" 793 27352 27366
+"dls2.ml" 774 26724 26726 "dls2.ml" 774 26724 26738
 type(
   (Cfg.stmt -> NilAnalysis.fact Utils.StrMap.t -> unit) ->
   (Cfg.stmt, NilAnalysis.fact Utils.StrMap.t) Hashtbl.t -> unit
@@ -16843,103 +16515,103 @@ type(
 ident(
   ext_ref Hashtbl.iter
 )
-"dls2.ml" 793 27352 27372 "dls2.ml" 793 27352 27373
+"dls2.ml" 774 26724 26744 "dls2.ml" 774 26724 26745
 type(
   Cfg.stmt
 )
 ident(
-  def k "dls2.ml" 793 27352 27374 "dls2.ml" 810 27922 27944
+  def k "dls2.ml" 774 26724 26746 "dls2.ml" 791 27294 27316
 )
-"dls2.ml" 793 27352 27374 "dls2.ml" 793 27352 27375
+"dls2.ml" 774 26724 26746 "dls2.ml" 774 26724 26747
 type(
   NilAnalysis.fact Utils.StrMap.t
 )
 ident(
-  def v "dls2.ml" 795 27418 27422 "dls2.ml" 810 27922 27944
+  def v "dls2.ml" 776 26790 26794 "dls2.ml" 791 27294 27316
 )
-"dls2.ml" 795 27418 27422 "dls2.ml" 795 27418 27432
+"dls2.ml" 776 26790 26794 "dls2.ml" 776 26790 26804
 type(
   out_channel -> Cfg.stmt -> unit
 )
 ident(
   ext_ref Cfg_printer.CodePrinter.print_stmt
 )
-"dls2.ml" 795 27418 27433 "dls2.ml" 795 27418 27439
+"dls2.ml" 776 26790 26805 "dls2.ml" 776 26790 26811
 type(
   out_channel
 )
 ident(
   ext_ref Pervasives.stdout
 )
-"dls2.ml" 795 27418 27440 "dls2.ml" 795 27418 27441
+"dls2.ml" 776 26790 26812 "dls2.ml" 776 26790 26813
 type(
   Cfg.stmt
 )
 ident(
-  int_ref k "dls2.ml" 793 27352 27372 "dls2.ml" 793 27352 27373
+  int_ref k "dls2.ml" 774 26724 26744 "dls2.ml" 774 26724 26745
 )
-"dls2.ml" 795 27418 27422 "dls2.ml" 795 27418 27441
+"dls2.ml" 776 26790 26794 "dls2.ml" 776 26790 26813
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 796 27443 27447 "dls2.ml" 796 27443 27459
+"dls2.ml" 777 26815 26819 "dls2.ml" 777 26815 26831
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 796 27443 27459 "dls2.ml" 796 27443 27468
+"dls2.ml" 777 26815 26831 "dls2.ml" 777 26815 26840
 type(
   string
 )
-"dls2.ml" 796 27443 27447 "dls2.ml" 796 27443 27468
+"dls2.ml" 777 26815 26819 "dls2.ml" 777 26815 26840
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 797 27470 27478 "dls2.ml" 797 27470 27493
+"dls2.ml" 778 26842 26850 "dls2.ml" 778 26842 26865
 type(
   NilAnalysis.fact Utils.StrMap.t -> bool
 )
 ident(
   ext_ref Utils.StrMap.is_empty
 )
-"dls2.ml" 797 27470 27494 "dls2.ml" 797 27470 27495
+"dls2.ml" 778 26842 26866 "dls2.ml" 778 26842 26867
 type(
   NilAnalysis.fact Utils.StrMap.t
 )
 ident(
-  int_ref v "dls2.ml" 793 27352 27374 "dls2.ml" 793 27352 27375
+  int_ref v "dls2.ml" 774 26724 26746 "dls2.ml" 774 26724 26747
 )
-"dls2.ml" 797 27470 27478 "dls2.ml" 797 27470 27495
+"dls2.ml" 778 26842 26850 "dls2.ml" 778 26842 26867
 call(
   stack
 )
 type(
   bool
 )
-"dls2.ml" 797 27470 27496 "dls2.ml" 797 27470 27498
+"dls2.ml" 778 26842 26868 "dls2.ml" 778 26842 26870
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( == )
 )
-"dls2.ml" 797 27470 27499 "dls2.ml" 797 27470 27504
+"dls2.ml" 778 26842 26871 "dls2.ml" 778 26842 26876
 type(
   bool
 )
-"dls2.ml" 797 27470 27477 "dls2.ml" 797 27470 27505
+"dls2.ml" 778 26842 26849 "dls2.ml" 778 26842 26877
 type(
   bool
 )
-"dls2.ml" 798 27511 27517 "dls2.ml" 798 27511 27528
+"dls2.ml" 779 26883 26889 "dls2.ml" 779 26883 26900
 type(
   (Utils.StrMap.key -> NilAnalysis.fact -> unit) ->
   NilAnalysis.fact Utils.StrMap.t -> unit
@@ -16947,226 +16619,226 @@ type(
 ident(
   ext_ref Utils.StrMap.iter
 )
-"dls2.ml" 799 27531 27554 "dls2.ml" 799 27531 27555
+"dls2.ml" 780 26903 26926 "dls2.ml" 780 26903 26927
 type(
   Utils.StrMap.key
 )
 ident(
-  def k "dls2.ml" 799 27531 27556 "dls2.ml" 805 27788 27859
+  def k "dls2.ml" 780 26903 26928 "dls2.ml" 786 27160 27231
 )
-"dls2.ml" 799 27531 27556 "dls2.ml" 799 27531 27557
+"dls2.ml" 780 26903 26928 "dls2.ml" 780 26903 26929
 type(
   NilAnalysis.fact
 )
 ident(
-  def w "dls2.ml" 800 27562 27583 "dls2.ml" 805 27788 27859
+  def w "dls2.ml" 781 26934 26955 "dls2.ml" 786 27160 27231
 )
-"dls2.ml" 800 27562 27583 "dls2.ml" 800 27562 27595
+"dls2.ml" 781 26934 26955 "dls2.ml" 781 26934 26967
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 800 27562 27596 "dls2.ml" 800 27562 27599
+"dls2.ml" 781 26934 26968 "dls2.ml" 781 26934 26971
 type(
   string
 )
-"dls2.ml" 800 27562 27583 "dls2.ml" 800 27562 27599
+"dls2.ml" 781 26934 26955 "dls2.ml" 781 26934 26971
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 801 27601 27622 "dls2.ml" 801 27601 27634
+"dls2.ml" 782 26973 26994 "dls2.ml" 782 26973 27006
 type(
   Utils.StrMap.key -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 801 27601 27635 "dls2.ml" 801 27601 27636
+"dls2.ml" 782 26973 27007 "dls2.ml" 782 26973 27008
 type(
   Utils.StrMap.key
 )
 ident(
-  int_ref k "dls2.ml" 799 27531 27554 "dls2.ml" 799 27531 27555
+  int_ref k "dls2.ml" 780 26903 26926 "dls2.ml" 780 26903 26927
 )
-"dls2.ml" 801 27601 27622 "dls2.ml" 801 27601 27636
+"dls2.ml" 782 26973 26994 "dls2.ml" 782 26973 27008
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 802 27638 27659 "dls2.ml" 802 27638 27671
+"dls2.ml" 783 27010 27031 "dls2.ml" 783 27010 27043
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 802 27638 27672 "dls2.ml" 802 27638 27676
+"dls2.ml" 783 27010 27044 "dls2.ml" 783 27010 27048
 type(
   string
 )
-"dls2.ml" 802 27638 27659 "dls2.ml" 802 27638 27676
+"dls2.ml" 783 27010 27031 "dls2.ml" 783 27010 27048
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 803 27678 27705 "dls2.ml" 803 27678 27706
+"dls2.ml" 784 27050 27077 "dls2.ml" 784 27050 27078
 type(
   NilAnalysis.fact
 )
 ident(
-  int_ref w "dls2.ml" 799 27531 27556 "dls2.ml" 799 27531 27557
+  int_ref w "dls2.ml" 780 26903 26928 "dls2.ml" 780 26903 26929
 )
-"dls2.ml" 804 27712 27737 "dls2.ml" 804 27712 27757
+"dls2.ml" 785 27084 27109 "dls2.ml" 785 27084 27129
 type(
   NilAnalysis.fact
 )
-"dls2.ml" 804 27712 27761 "dls2.ml" 804 27712 27773
+"dls2.ml" 785 27084 27133 "dls2.ml" 785 27084 27145
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 804 27712 27774 "dls2.ml" 804 27712 27787
+"dls2.ml" 785 27084 27146 "dls2.ml" 785 27084 27159
 type(
   string
 )
-"dls2.ml" 804 27712 27761 "dls2.ml" 804 27712 27787
+"dls2.ml" 785 27084 27133 "dls2.ml" 785 27084 27159
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 805 27788 27813 "dls2.ml" 805 27788 27831
+"dls2.ml" 786 27160 27185 "dls2.ml" 786 27160 27203
 type(
   NilAnalysis.fact
 )
-"dls2.ml" 805 27788 27835 "dls2.ml" 805 27788 27847
+"dls2.ml" 786 27160 27207 "dls2.ml" 786 27160 27219
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 805 27788 27848 "dls2.ml" 805 27788 27859
+"dls2.ml" 786 27160 27220 "dls2.ml" 786 27160 27231
 type(
   string
 )
-"dls2.ml" 805 27788 27835 "dls2.ml" 805 27788 27859
+"dls2.ml" 786 27160 27207 "dls2.ml" 786 27160 27231
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 803 27678 27699 "dls2.ml" 805 27788 27859
+"dls2.ml" 784 27050 27071 "dls2.ml" 786 27160 27231
 type(
   unit
 )
-"dls2.ml" 802 27638 27659 "dls2.ml" 805 27788 27859
+"dls2.ml" 783 27010 27031 "dls2.ml" 786 27160 27231
 type(
   unit
 )
-"dls2.ml" 801 27601 27622 "dls2.ml" 805 27788 27859
+"dls2.ml" 782 26973 26994 "dls2.ml" 786 27160 27231
 type(
   unit
 )
-"dls2.ml" 800 27562 27583 "dls2.ml" 805 27788 27859
+"dls2.ml" 781 26934 26955 "dls2.ml" 786 27160 27231
 type(
   unit
 )
-"dls2.ml" 798 27511 27529 "dls2.ml" 806 27860 27879
+"dls2.ml" 779 26883 26901 "dls2.ml" 787 27232 27251
 type(
   Utils.StrMap.key -> NilAnalysis.fact -> unit
 )
-"dls2.ml" 806 27860 27880 "dls2.ml" 806 27860 27881
+"dls2.ml" 787 27232 27252 "dls2.ml" 787 27232 27253
 type(
   NilAnalysis.fact Utils.StrMap.t
 )
 ident(
-  int_ref v "dls2.ml" 793 27352 27374 "dls2.ml" 793 27352 27375
+  int_ref v "dls2.ml" 774 26724 26746 "dls2.ml" 774 26724 26747
 )
-"dls2.ml" 798 27511 27517 "dls2.ml" 806 27860 27881
+"dls2.ml" 779 26883 26889 "dls2.ml" 787 27232 27253
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 808 27892 27898 "dls2.ml" 808 27892 27910
+"dls2.ml" 789 27264 27270 "dls2.ml" 789 27264 27282
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 808 27892 27911 "dls2.ml" 808 27892 27915
+"dls2.ml" 789 27264 27283 "dls2.ml" 789 27264 27287
 type(
   string
 )
-"dls2.ml" 808 27892 27898 "dls2.ml" 808 27892 27915
+"dls2.ml" 789 27264 27270 "dls2.ml" 789 27264 27287
 call(
   stack
 )
 type(
   unit
 )
-"dls2.ml" 797 27470 27474 "dls2.ml" 808 27892 27915
+"dls2.ml" 778 26842 26846 "dls2.ml" 789 27264 27287
 type(
   unit
 )
-"dls2.ml" 810 27922 27926 "dls2.ml" 810 27922 27938
+"dls2.ml" 791 27294 27298 "dls2.ml" 791 27294 27310
 type(
   string -> unit
 )
 ident(
   ext_ref Pervasives.print_string
 )
-"dls2.ml" 810 27922 27939 "dls2.ml" 810 27922 27943
+"dls2.ml" 791 27294 27311 "dls2.ml" 791 27294 27315
 type(
   string
 )
-"dls2.ml" 810 27922 27926 "dls2.ml" 810 27922 27944
+"dls2.ml" 791 27294 27298 "dls2.ml" 791 27294 27316
 call(
   tail
 )
 type(
   unit
 )
-"dls2.ml" 797 27470 27474 "dls2.ml" 810 27922 27944
+"dls2.ml" 778 26842 26846 "dls2.ml" 791 27294 27316
 type(
   unit
 )
-"dls2.ml" 796 27443 27447 "dls2.ml" 810 27922 27944
+"dls2.ml" 777 26815 26819 "dls2.ml" 791 27294 27316
 type(
   unit
 )
-"dls2.ml" 795 27418 27422 "dls2.ml" 810 27922 27944
+"dls2.ml" 776 26790 26794 "dls2.ml" 791 27294 27316
 type(
   unit
 )
-"dls2.ml" 793 27352 27367 "dls2.ml" 812 27950 27966
+"dls2.ml" 774 26724 26739 "dls2.ml" 793 27322 27338
 type(
   Cfg.stmt -> NilAnalysis.fact Utils.StrMap.t -> unit
 )
-"dls2.ml" 812 27950 27967 "dls2.ml" 812 27950 27970
+"dls2.ml" 793 27322 27339 "dls2.ml" 793 27322 27342
 type(
   (Cfg.stmt, NilAnalysis.fact Utils.StrMap.t) Hashtbl.t
 )
 ident(
-  int_ref _fs "dls2.ml" 789 27195 27210 "dls2.ml" 789 27195 27213
+  int_ref _fs "dls2.ml" 770 26567 26582 "dls2.ml" 770 26567 26585
 )
-"dls2.ml" 793 27352 27354 "dls2.ml" 812 27950 27970
+"dls2.ml" 774 26724 26726 "dls2.ml" 793 27322 27342
 call(
   tail
 )
