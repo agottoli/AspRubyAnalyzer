@@ -5,6 +5,8 @@ open Cfg_refactor
 open Cfg_printer.CodePrinter
 open Visitor
 open Utils
+open Str
+
 
 module C = Cfg.Abbr
 
@@ -298,7 +300,6 @@ end
         print_string ", ";
         print_string (DFP.to_string w)
       ) v 
-	
 		
 	(* let rec fixpoint in_tbl out_tbl stmt =
 		(* let in_tbl = Hashtbl.create 127 in
@@ -431,7 +432,8 @@ let rec super_fixpoint stmt in_tbl out_tbl =
 					(* we have computed t_facts and f_facts independently based on what we know before the if stmt, now we have *)
 					(* two StrMap and we have to join them into a single one following the if semantics *)
   				DFP.transfer (DFP.join (t_facts :: (f_facts ::[]))) stmt(* returns a StrMap *)
-					
+			
+			| For (_, _, b)		
 			| While(_, b) ->
 				(* print_string "While: \n"; *)
 				(* print_stmt stdout stmt; *)
@@ -458,7 +460,7 @@ let rec super_fixpoint stmt in_tbl out_tbl =
 					(* the while semantics *)
   				DFP.join (!ifacts :: (!b_facts ::[]))	(* returns a StrMap *)
 					
-			| For (_, _, b) ->
+		(*	| For (_, _, b) ->
 				(* print_string "For: \n"; *)
 				(* print_stmt stdout stmt; *)
 				(* for each for parameter we add to ifacts the mapping (variable, MaybeNil) *)
@@ -488,6 +490,7 @@ let rec super_fixpoint stmt in_tbl out_tbl =
 
   				Hashtbl.replace out_tbl b !b_facts;
   				DFP.join (!ifacts :: (!b_facts ::[]))	(* returns a StrMap *)
+  		*)
 					
 		  | Case (b) ->
 
@@ -529,13 +532,19 @@ let rec super_fixpoint stmt in_tbl out_tbl =
 				(**) print_string "Method call: \n"; (**)
 				(**) print_stmt stdout stmt; (**)
 				DFP.transfer !ifacts stmt *)
-				
+
+			| Defined(id, s) ->
+				(* let ifs, ofs = fixpoint s in
+  				justif (print_var_table s ofs 0);	
+				DFP.transfer !ifacts stmt  *)
+				!ifacts
+
 			| _ ->  
 				(** ) print_string "Other: \n"; ( **)
 				(** ) print_stmt stdout stmt; ( **)
 				DFP.transfer !ifacts stmt 
 
-	let fixpoint stmt =
+	and fixpoint stmt =
 		let in_tbl = Hashtbl.create 127 in
 		let out_tbl = Hashtbl.create 127 in
 			Hashtbl.replace in_tbl stmt DFP.empty;
