@@ -532,7 +532,7 @@ let rec super_fixpoint stmt in_tbl out_tbl =
 				(**) print_string "Method call: \n"; (**)
 				(**) print_stmt stdout stmt; (**)
 				DFP.transfer !ifacts stmt *)
-		
+		(*
 			| Defined(id, s) ->
 				(* let ifs, ofs = fixpoint s in
   				justif (print_var_table s ofs 0);	
@@ -540,7 +540,7 @@ let rec super_fixpoint stmt in_tbl out_tbl =
 				Hashtbl.remove in_tbl stmt;
 				Hashtbl.remove out_tbl stmt;
 				!ifacts
-			
+		*)
 		
 			| _ ->  
 				(** ) print_string "Other: \n"; ( **)

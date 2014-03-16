@@ -31,6 +31,10 @@ module type CfgPrinter = sig
   val string_of_expr : expr -> string
   val string_of_tuple_expr : tuple_expr -> string
   val string_of_id : identifier -> string
+  val string_of_lhs: lhs -> string
+  val string_of_msg_id: msg_id -> string
+  val string_of_star_expr: star_expr -> string
+
   val string_of_cfg : stmt -> string
   val print_stmt : out_channel -> stmt -> unit
 	val print_snode : stmt -> string
@@ -375,6 +379,9 @@ module Code_F(PP : CfgPrinter) = struct
   let string_of_expr e = format_to_string PP.format_expr e
   let string_of_tuple_expr e = format_to_string PP.format_tuple_expr e
   let string_of_id e = format_to_string PP.format_identifier e
+  let string_of_lhs l = format_to_string PP.format_lhs l
+  let string_of_msg_id l = format_to_string PP.format_msg_id l
+  let string_of_star_expr s_e = format_to_string PP.format_star_expr s_e
 
 
 

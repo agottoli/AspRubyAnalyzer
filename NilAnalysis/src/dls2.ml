@@ -110,7 +110,7 @@ module LivenessAnalysis = struct
   and update_lhs lhs fact map = 
     match lhs with
     | `ID_Var(`Var_Local, var) -> update var fact map
-    | `ID_Var(`Var_Constant, const) -> update const fact map
+    | `ID_Var(`Var_Constant, const) -> update const fact map 
     (* identifier *)
     | #identifier as id -> (update_identifier id fact map)
     (* lhs tuple *)
@@ -566,6 +566,23 @@ let justif input =
         !cell
 
       | Method (_) -> ""
+
+      | MethodCall(lhs_o, {mc_target = target; mc_args = args; mc_msg = msg}) ->
+          let cell = ref "" in
+          cell := !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level);
+          cell := (fun x -> match x with
+                    | None -> !cell
+                    | Some lhs ->  !cell^(string_of_lhs lhs)^" = ") lhs_o;
+          cell := (fun x -> match x with
+                    | None -> !cell
+                    | Some e ->  !cell^(string_of_expr e)^".") target;
+          cell := !cell^(string_of_msg_id msg)^"(";
+          let l = List.fold_right (fun x acc -> (string_of_star_expr x)::acc) args []  in
+          cell := !cell^(String.concat ", " l);
+          cell := !cell^")$|$"^(print_row_nostmt (Hashtbl.find out_tbl stmt));
+          !cell (* ^(print_var_table stmt out_tbl (level+1)) *)
+
+      
 
       | _ ->  let cell = ref "" in
           cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(print_row_table stmt (Hashtbl.find out_tbl stmt) (level));

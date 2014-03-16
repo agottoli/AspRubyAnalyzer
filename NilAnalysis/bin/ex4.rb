@@ -2,11 +2,9 @@ a = 1
 b = 2
 c = 3
 d = 4
-for i,j in [[a,b],[c,d],[c,d]] do
-	#puts (i+j)
-	Math.max(i,j)
-	c=1
-	d=2
+for i,j in [[a,b],[c,d],[1,2]] do
+	a = i + j
+	puts a
 end
 
 #for i,j in a do
