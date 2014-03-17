@@ -149,14 +149,6 @@ module LivenessAnalysis = struct
       | None -> map
       | Some el -> update_tuple_expr el fact map
 
-  (* and update_star_expr_list list fact map = 
-    match list with
-      | [] -> print_string "lista vuota\n"; map
-      | head :: tail -> print_string "lista non vuota\n"; 
-                        let map = update_star_expr_list tail fact map in
-                        let map = update_star_expr head fact map in 
-                        map *)
-
   let rec update_formal_param p fact map =
     match p with
         | `Formal_block_id(_,s) -> update s fact map
@@ -169,73 +161,89 @@ module LivenessAnalysis = struct
   (* TRANSFER *)
 
   let rec transfer map stmt = 
-    print_string "\nnuova chiamata a transfer:\n";
+    (* print_string "\nnuova chiamata a transfer:\n"; *)
+    (* stmt.snode is the type of the stmt *)
     match stmt.snode with
     
+    (* if stmt is an assign with right hand side not variable *)
     | Assign(lhs , #literal) 
     | Assign(lhs , `ID_True) 
     | Assign(lhs , `ID_False)
     | Assign(lhs , `ID_Nil) -> 
-        print_string "ALE assign true, false, literal or null\n"; 
+        (* print_string "ALE assign true, false, literal or null\n"; *)
+
+        (* we analyse the left hand side and set it to dead *)
         update_lhs lhs Dead map
+
+    (* if it is an assignment with a variable as rhs *)
     | Assign(lhs, (`ID_Var(_, _) as var)) -> 
-        print_string "ALE assign id_var\n" ;
+        (* print_string "ALE assign id_var\n" ; *)
+
+        (* we set the lhs to dead, and set the rhs variable to dead *)
         let map = update_lhs lhs Dead map in 
         update_expr var Live map
+    (* if it is an assignment with a composite rhs *)   
     | Assign(lhs, (`Tuple(_) as tup)) -> 
-        print_string "ALE assign tuple\n" ; 
+        (* print_string "ALE assign tuple\n" ;  *)
+        
+        (* we set the lhs to dead, and analyse the rhs to set the variable that contains to dead *)
         let map = update_lhs lhs Dead map in
         update_tuple_expr tup Live map                                             
 
-                      (* {mc_target = Some (`ID_Var(_,_) as target); mc_args = args} *)
-    | MethodCall(lhs_o, {mc_target = target; mc_args = args} ) -> print_string "MethodCall id_var\n";
-        (* let map = List.fold_left (fun acc x -> update_star_expr x Live acc) map args in *)
+    (* if it is a MethodCall *)
+    | MethodCall(lhs_o, {mc_target = target; mc_args = args} ) -> 
+        (* print_string "MethodCall id_var\n"; *) 
+
+        (* we set the lhs to dead *)
         let map = update_lhs_option lhs_o Dead map in
-        (* let map =  update_star_expr_list args Live map in *) 
+        (* we analyse the argoments of the function and set to live the variable *) 
         let map = List.fold_left (fun acc x -> update_star_expr x Live acc) map args in
+        (* if present, the target of the function is set to live *)
+        (* NOTE: classes in ruby are variables, so we don't care what is the target *)
         update_expr_option target Live map
 
+    (* if it is a case in which there is only an expr to analyse *)
     | Expression(e)
     | If(e,_,_)
-    | While(e, _) -> print_string "while\n";
+    | While(e, _) -> 
+        (* print_string "while\n"; *)
+
+        (* we set the expr to live because it is read *)
         update_expr e Live map
 
+    (* if it is a for *)
+    | For(p, e, _) -> 
+        (* print_string "for preso param\n"; *)
 
-    | For(p, e, _) -> print_string "for preso param\n";      
+        (* we set to dead all the formal fìparameter *)
         let map = List.fold_left(fun acc x -> update_formal_param x Dead acc) map p in 
+        (* and to live the expression of the for *)
         update_expr e Live map
+  
     
-    
-    (*
-    | If(e,_,_) -> print_string "if\n"; 
-        update_expr e Live map 
-    *)
-    
+    (* if it a case stmt *)
+    | Case(all) -> 
+        (* print_string "case\n"; print_string ("vediamo-> "^(to_string map)); print_string "\n"; *)
 
-    | Case(all) -> print_string "case\n"; print_string ("vediamo-> "^(to_string map)); print_string "\n";
-        (* 
-        let whens = all.case_whens in
-        (* st will contain all the stmt in all the when's clauses *)
-        let cond_list = List.fold_left (fun acc (s, _) -> s::acc) [] whens in
-        let map = List.fold_left (fun acc x -> update_tuple_expr x Live acc) map cond_list in
-        *)
-        (* sostituisco *)
+        (* we set to live all the guards (whens and case) *)
         let map = List.fold_left (fun acc (s, _) -> update_tuple_expr s Live acc) map all.case_whens in
+        update_expr all.case_guard Live map
 
-        let map = update_expr all.case_guard Live map in map
+    (* if it is a case stmt *)
+    | Yield(lhs_o ,args) -> 
+        (* print_string "yield\n"; *)
 
-    | Yield(lhs_o ,args) -> print_string "yield\n";
+        (* we set to live the values that the yield pass to the block *)
         let map = List.fold_left (fun acc x -> update_star_expr x Live acc) map args in
-        (* let map =  update_star_expr_list args Live map in *)
+        (* and to dead the variable taht save the return of the yield *)
         update_lhs_option lhs_o Dead map
 
-   | Return(s)-> print_string "return\n";
-        update_tuple_expr_option s Live map
+   (* if it is a return *)
+   | Return(s)-> 
+        (* print_string "return\n"; *)
 
-    (*
-    | Expression(e) -> print_string "expression\n"; 
-        update_expr e Live map
-    *)
+        (* we set to live the value return because it is readed *)
+        update_tuple_expr_option s Live map
 
 
     (*    ELIMINABILI 
@@ -265,6 +273,7 @@ module LivenessAnalysis = struct
     | Break(`ID_Var(`Var_Constant, rvar)) -> print_string "break\n"; update rvar Live map
 *)
 
+    (* all other cases are ignored *)
     | _ -> map 
 
 end
@@ -454,31 +463,20 @@ let justif input =
         | `Formal_tuple(m) -> get_for_strings m
     ) [] l
 
+
+    (* return a string of indentation *)
     let rec get_indent_string level = 
           match level with
             | 0 -> ""
             | _ -> "   "^(get_indent_string (level-1))
 
-
-  let print_row_table k map level =
-    (* print_int stdout k; *)
-     let cell = ref "" in
-     cell:= !cell^(get_indent_string level)^(string_of_cfg k);
-     cell:=!cell^"$|$";
-     match (StrMap.is_empty map) with
-      | true -> cell:= !cell^"$|\n"; !cell
-      | false -> StrMap.iter (
-                     fun k w -> 
-                      match w with
-                        | LivenessAnalysis.Dead -> cell := !cell(* ^k^"_morto, " *)
-                        | LivenessAnalysis.Live -> cell := !cell^k^", "
-                    ) map; cell := !cell^"$|\n";
-      !cell
-
+ 
+  (* return the string representing the live variable in the map *)
   let print_row_nostmt map =
-    (* print_int stdout k; *)
      match (StrMap.is_empty map) with
+      (* if the map is empty return the "end line" only *)
       | true -> "$|\n"
+      (* otherwise iterate all the entry of the map and print only the live variables *)
       | false -> let cell = ref "" in 
                     StrMap.iter (
                      fun k w -> 
@@ -490,7 +488,8 @@ let justif input =
 
       
 
-
+    (* return the string of the analysis result in this format: *)
+    (* (line_number_into_code)$|$line of code$|$live variable in this row$|$\n *)
     let rec print_var_table stmt out_tbl level =
       match stmt.snode with
       | Seq(list) ->
@@ -539,9 +538,7 @@ let justif input =
 
                   cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^"when "^(string_of_tuple_expr e)^" then$|$";
                   (* se si vuole la tabella anche del when usare la riga sotto *)
-                  let m_new = (Hashtbl.find out_tbl s) in 
-                  let m_new = (StrMap.add (string_of_tuple_expr e) LivenessAnalysis.Live m_new) in
-                  cell := !cell^(print_row_nostmt m_new);
+                  cell := !cell^(print_row_nostmt (StrMap.add (string_of_tuple_expr e) LivenessAnalysis.Live (Hashtbl.find out_tbl s)));
                   (* altrimenti usare quest'altra *)
                   (* cell := !cell^"$|\n"; *)
                   
@@ -585,20 +582,9 @@ let justif input =
       
 
       | _ ->  let cell = ref "" in
-          cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(print_row_table stmt (Hashtbl.find out_tbl stmt) (level));
+          cell:= !cell^"("^(string_of_int(stmt.pos.Lexing.pos_lnum))^")$|$"^(get_indent_string level)^(string_of_cfg stmt)^"$|$"^(print_row_nostmt (Hashtbl.find out_tbl stmt));
           !cell
                 
-(* print_string "("; Printf.printf "%d) \t" stmt.pos.Lexing.pos_lnum;
-              print_row_table stmt (Hashtbl.find out_tbl stmt) *)
-
-      (* let list_tbl = 
-        Hashtbl.fold (fun k v acc -> k :: acc) out_tbl [] in
-
-        let sorted = List.sort (fun x y -> Pervasives.compare x.pos y.pos ) list_tbl in
-        List.iter (fun x -> match x.snode with
-                            | Seq(_) -> print_string ""
-                            | _ -> print_row_table x (Hashtbl.find out_tbl x)
-        ) sorted *)
 
       
   let refactor targ node =
@@ -611,7 +597,8 @@ let justif input =
   (* print_stmt stdout node *)
 
 
-    (* ELIMINARE *)
+    (* ELIMINARE (NO, quando abbiamo provato non andava più) *)
+  (*
   class analizeLivenes ifs = object(s)		(* safeNil visitor *)
     inherit default_visitor as super
     val facts = ifs
@@ -676,6 +663,11 @@ let justif input =
         
   end
   
+  *)
+
+
+  (* CREDO CHE NON LA USIAMO PIU' *)
+  (*
   let print_hash _fs = 
     (*let num1 = Hashtbl.length ifs in
        let num2 = Hashtbl.length ofs in
@@ -700,42 +692,60 @@ let justif input =
       print_string "\n";
       
                  ) _fs
+   *)
 ;;
 
+
+
+
+
+(* from a stmt, visits all the successors and save all the stmt in a list and return it *)
 let rec acc_stmt todo visited =
   StmtSet.fold (fun stmt acc ->
       match StmtSet.exists (fun x -> 
+            (* checks if the stmt exists in the list *)
             (string_of_cfg x) = (string_of_cfg stmt)
           ) acc with
+      (* if present, do nothing and return the list inaletate *)
       | true -> visited
+      (* if not present, add it to the list and analyse the succerssors with a recursive call *)
       | false -> acc_stmt stmt.succs (StmtSet.add stmt acc)
   ) todo visited
 
+
+(* find the method def stmt and return a list of all the method def stmt found *)
+(* note: the list is in reverse order *)
 let find_def stmt =
-  
+  (* do the fold on the list of all the stmt in the program to find the method def *)
   StmtSet.fold (fun x acc -> 
                         match x.snode with
+                        (* if the stmt is a method def insert it in head of the list *)
                         | Method(_,_, s) -> print_stmt stdout s; s::acc
+                        (* otherwise the list remains the same *)
                         | _ -> acc
                 ) (acc_stmt (StmtSet.add stmt StmtSet.empty) StmtSet.empty) []
 
-(* PARTI DA QUI *)
+
+
+(* MAIN!!!! (starts from here) *)
 let main fname =
+  (* read the ruby program in input *)
   let loader = File_loader.create File_loader.EmptyCfg [] in
   let s = File_loader.load_file loader fname in
+  (* compute the cfg of the program *)
   let () = compute_cfg s in
   let () = compute_cfg_locals s in
+  (* print the program tranformed in RIL code *)
   print_string "RIL transformed code: \n"; 
   print_stmt stdout s; 
-  
-  (* ALE *)
-  print_int s.pos.Lexing.pos_lnum;
-  (**)
-  
+   
   print_string "\n---------------------------------------------\n\n";
 
-  print_string "\n STAMPA STRANAANANANANANNANANNANA \n \n";
+  (* print_string "\n STAMPA STRANAANANANANANNANANNANA \n \n"; *)
+
+  (* find the Method definition statement, because we perform the analysis separately on them *)
   let list_def = find_def s in
+  (* for every def found we do the analysis and print the result *)
     List.iter (fun x -> let o, i = Liveness.fixpoint x in
                     print_string "Live In Variables Table of Method Definition: \n \n";
                     justif (print_var_table x i 0); 
@@ -745,13 +755,17 @@ let main fname =
                     print_string "--------------------------------------------\n\n";  
   ) list_def;
 
+  (* do the analysis on the main program ignorind the method definition analysed yet *)
   let ofs, ifs = Liveness.fixpoint s in
-  print_string "-------------------------------------------\n"; 
+  (* print the raw results *)
+  (* print_string "-------------------------------------------\n"; 
   print_string "ifs content: \n"; 
   print_hash ifs; 
   print_string "-------------------------------------------\n"; 
   print_string "ofs content: \n"; 
   print_hash ofs; 
+  *)
+  (* print the results with the code *)
   print_string "--------------------------------------------\n\n";  
   print_string "Live In Variables Table: \n \n";
   justif (print_var_table s ifs 0);
@@ -783,7 +797,8 @@ let _ =
 (* FINE MODULO LIVENESS *)
     
     
-    
+(* NOTA: print_hash della nilness 
+         SERVE ANCORA QUA SOTTO? *)
 let print_hash _fs = 
   (*let num1 = Hashtbl.length ifs in
      let num2 = Hashtbl.length ofs in
