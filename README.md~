@@ -1,0 +1,28 @@
+# Liveness Analysis of Ruby code in OCaml
+ =========================================
+
+
+Implementazione dell'algoritmo di coordinamento multi-robot DSA, utilizzando [ROS (Robot Operating System)](http://www.ros.org), implementando lo scambio di messaggi con l'interfaccia TCP di nome TCPInterface, package che ci permette di comunicare col sistema di navigazione di ROS utilizzando comandi del tipo "gotopose" o "getpose".
+
+
+* Students: Nicolò Marchi - VR365684, Alessandro Gottoli - VR352595
+* Courses: Static analysis and code protection
+* Academic Year: 2012/2013
+* Docente: Roberto Giacobazzi
+
+# Usage 
+------------------------------------------
+
+Install the environment:
+    # run the following command in LiveAnalysis directory
+    omake install
+
+
+
+Analyse a Ruby code:
+    # run the following command in LivenessAnalysis/bin directory
+    # where analysis_type is liveness or nilness
+    ./dls2 analysis_type file.rb
+
+
+> # ENJOY!!!!
