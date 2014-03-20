@@ -22,7 +22,7 @@ After that enter inside the _LivenessAnalysis_ and run the following command:
 
 
 
-#### Analyse a Ruby code.
+#### Analyse a Ruby program.
 Enter inside the _LivenessAnalysis/bin_ folder and run the following command:
 
     ./dls2 <nilness | liveness | all> <ruby_file>
