@@ -13,16 +13,16 @@ Implementation of Liveness Analysis for Ruby code in OCaml.
 # Usage 
 ------------------------------------------
 
-* Install the environment.
+#### Install the environment.
 Enter inside the _LivenessAnalysis_ and run the following command:
 
     omake install
 
 
-
-* Analyse a Ruby code.
+#### Analyse a Ruby code.
 Enter inside the _LivenessAnalysis/bin_ folder and run the following command:
 
     ./dls2 <nilness | liveness> <ruby_file>
+
 
 > # ENJOY!!!!
