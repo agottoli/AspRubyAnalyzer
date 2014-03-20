@@ -14,7 +14,7 @@ Implementation of Liveness Analysis for Ruby code in OCaml.
 ------------------------------------------
 
 Install the environment:
-    # run the following command in LiveAnalysis directory
+
     omake install
 
 
