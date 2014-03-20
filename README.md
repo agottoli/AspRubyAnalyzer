@@ -15,7 +15,7 @@ Implementation of Liveness Analysis for Ruby code in OCaml on the previous proje
 ------------------------------------------
 
 #### Install the environment.
-First, follow the instruction inside the file _manual.lyx_ for installing all the dependencies. 
+First, follow the instruction inside the file _manual.lyx_ in the _doc_ folder for installing all the dependencies. 
 After that enter inside the _LivenessAnalysis_ and run the following command:
 
     omake install
