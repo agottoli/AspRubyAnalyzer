@@ -594,7 +594,7 @@ let find_def stmt =
 
 
 (* MAIN!!!! (starts from here) *)
-let main analysis fname =
+let rec main analysis fname =
   (* read the ruby program in input *)
   let loader = File_loader.create File_loader.EmptyCfg [] in
   let s = File_loader.load_file loader fname in
@@ -617,6 +617,8 @@ let main analysis fname =
         let _ = visit_stmt (sn) s in
           Printf.printf("\n---------------------------------------------\n");
           print_endline "Nilness analysis complete.\n"
+  
+  | "all" -> main "nilness" fname; main "liveness" fname;
 
   | "liveness"
   | _  ->
@@ -657,9 +659,9 @@ let main analysis fname =
   
     
 let _ = 
-  if ((Array.length Sys.argv) != 3 || (Sys.argv.(1) <> "liveness" && Sys.argv.(1) <> "nilness")) 
+  if ((Array.length Sys.argv) != 3 || (Sys.argv.(1) <> "liveness" && Sys.argv.(1) <> "nilness" && Sys.argv.(1) <> "all")) 
   then begin
-    Printf.eprintf "Usage: dls2 <nilness | liveness> <ruby_file> \n";
+    Printf.eprintf "Usage: dls2 <nilness | liveness | all> <ruby_file> \n";
     exit 1
   end;
   let analysis = Sys.argv.(1) in
